@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WeatherAPI\WeatherAPI.csproj" />
     <ProjectReference Include="..\Webshop.EntityFramework\Webshop.EntityFramework.csproj" />
   </ItemGroup>
 

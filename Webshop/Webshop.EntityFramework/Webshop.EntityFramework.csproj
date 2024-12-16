@@ -5,11 +5,21 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	  <OutputType>Library</OutputType>
-	  <OutputPath>$(SolutionDir)\WebshopWeb\Data\</OutputPath>
+	  <OutputPath>$(ProjectDir)</OutputPath>
 	  <AssemblyName>DbLib</AssemblyName>
   </PropertyGroup>
-	<Target Name="PostBuild" AfterTargets="Build">
-		<Copy SourceFiles="$(OutDir)DbLib.dll" DestinationFolder="$(SolutionDir)WebshopWeb\Data\" />
-	</Target>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
     
 </Project>
