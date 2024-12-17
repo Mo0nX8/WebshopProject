@@ -12,6 +12,7 @@ namespace Webshop.EntityFramework
     {
         public DbSet<UserData> Users { get; set; }
         public DbSet<Storage> StorageData {  get; set; }
+        public DbSet<Order> Orders { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
