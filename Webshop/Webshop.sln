@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebshopAndroid", "WebshopAn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Webshop.EntityFramework", "Webshop.EntityFramework\Webshop.EntityFramework.csproj", "{D7FD8FA5-DB67-407B-B99F-7A28A7D03FAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherAPI", "WeatherAPI\WeatherAPI.csproj", "{D0C3CDCB-D5EE-46D7-860E-A84D38EE8E26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherAPI", "WeatherAPI\WeatherAPI.csproj", "{D0C3CDCB-D5EE-46D7-860E-A84D38EE8E26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webshop.Services", "Webshop.Authenticator\Webshop.Services.csproj", "{F242358C-3E85-443D-B15F-F58370EE19EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{D0C3CDCB-D5EE-46D7-860E-A84D38EE8E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0C3CDCB-D5EE-46D7-860E-A84D38EE8E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0C3CDCB-D5EE-46D7-860E-A84D38EE8E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F242358C-3E85-443D-B15F-F58370EE19EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F242358C-3E85-443D-B15F-F58370EE19EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F242358C-3E85-443D-B15F-F58370EE19EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F242358C-3E85-443D-B15F-F58370EE19EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
