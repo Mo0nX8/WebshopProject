@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Webshop.Authenticator.Services.Validators
+namespace Webshop.Services.Interfaces_For_Services
 {
-    internal class UsernameValidator
+    public interface IValidationManager
     {
+        bool IsAvailable();
     }
 }

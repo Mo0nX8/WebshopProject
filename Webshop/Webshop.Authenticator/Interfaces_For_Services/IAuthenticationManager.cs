@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Webshop.Authenticator.Services.Authenticator
+namespace Webshop.Services.Interfaces_For_Services
 {
     public interface IAuthenticationManager
     {
         void TryLogin();
         void LogOut();
-        bool IsAuthenticated {  get; }
+        bool IsAuthenticated { get; }
 
     }
 }
