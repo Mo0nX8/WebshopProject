@@ -12,7 +12,7 @@ namespace Webshop.EntityFramework
     {
         public DbSet<UserData> Users { get; set; }
         public DbSet<Storage> StorageData {  get; set; }
-        public DbSet<Order> Orders { get; set; }
+        public DbSet<Orders> Orders { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -21,10 +21,6 @@ namespace Webshop.EntityFramework
                 optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=UserDatabase");
             }
             
-        }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
         }
     }
 }
