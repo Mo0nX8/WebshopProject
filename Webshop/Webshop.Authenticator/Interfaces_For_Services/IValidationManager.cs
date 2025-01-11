@@ -8,6 +8,6 @@ namespace Webshop.Services.Interfaces_For_Services
 {
     public interface IValidationManager
     {
-        bool IsAvailable();
+        bool IsAvailable(string key);
     }
 }

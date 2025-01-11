@@ -8,7 +8,7 @@ namespace Webshop.Services.Interfaces_For_Services
 {
     public interface IAuthenticationManager
     {
-        void TryLogin();
+        bool TryLogin(string email, string password);
         void LogOut();
         bool IsAuthenticated { get; }
 

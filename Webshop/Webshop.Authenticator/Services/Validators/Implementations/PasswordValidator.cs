@@ -7,7 +7,7 @@ using Webshop.Services.Interfaces_For_Services;
 
 namespace Webshop.Services.Services.Validators.Implementations
 {
-    internal class PasswordValidator : IValidationManager
+    public class PasswordValidator : IValidationManager
     {
         public bool IsAvailable()
         {
