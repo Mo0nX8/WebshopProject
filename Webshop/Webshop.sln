@@ -5,13 +5,11 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebshopWeb", "WebshopWeb\WebshopWeb.csproj", "{81B21F54-6486-4189-B571-CAAC0871E286}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebshopAndroid", "WebshopAndroid\WebshopAndroid.csproj", "{C1DCB998-E24B-4EBD-A9CB-FA3CA1075C8A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Webshop.EntityFramework", "Webshop.EntityFramework\Webshop.EntityFramework.csproj", "{D7FD8FA5-DB67-407B-B99F-7A28A7D03FAA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherAPI", "WeatherAPI\WeatherAPI.csproj", "{D0C3CDCB-D5EE-46D7-860E-A84D38EE8E26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webshop.Services", "Webshop.Authenticator\Webshop.Services.csproj", "{F242358C-3E85-443D-B15F-F58370EE19EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Webshop.Services", "Webshop.Authenticator\Webshop.Services.csproj", "{F242358C-3E85-443D-B15F-F58370EE19EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +21,6 @@ Global
 		{81B21F54-6486-4189-B571-CAAC0871E286}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81B21F54-6486-4189-B571-CAAC0871E286}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81B21F54-6486-4189-B571-CAAC0871E286}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C1DCB998-E24B-4EBD-A9CB-FA3CA1075C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C1DCB998-E24B-4EBD-A9CB-FA3CA1075C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C1DCB998-E24B-4EBD-A9CB-FA3CA1075C8A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{C1DCB998-E24B-4EBD-A9CB-FA3CA1075C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C1DCB998-E24B-4EBD-A9CB-FA3CA1075C8A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C1DCB998-E24B-4EBD-A9CB-FA3CA1075C8A}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{D7FD8FA5-DB67-407B-B99F-7A28A7D03FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D7FD8FA5-DB67-407B-B99F-7A28A7D03FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7FD8FA5-DB67-407B-B99F-7A28A7D03FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
