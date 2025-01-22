@@ -1,7 +1,22 @@
 ﻿@using Webshop.EntityFramework.Data
 @model UserData
-@using (Html.BeginForm("TryRegister", "Authentication", FormMethod.Post))
+@{
+    var EmailCode = ViewBag.EmailResponse;
+}
+@using (Html.BeginForm("TryRegister", "Authentication"))
 {
+    @if(EmailCode is not null && EmailCode!="")
+    {
+        @if (EmailCode == "201")
+        {
+            <h1>Hiba! Nem adtál meg email címet!</h1>
+        }
+        @if (EmailCode == "202")
+        {
+            <h1>Hiba! Nem érvényes email cím</h1>
+        }
+    }
+    <h1>Regisztráció</h1>
     <label>Felhasználónév</label><br />
     @Html.TextBoxFor(user=>user.Username);
     <label>Email cím</label><br />

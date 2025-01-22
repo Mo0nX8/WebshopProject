@@ -2,6 +2,7 @@
 using Webshop.EntityFramework.Data;
 using Webshop.EntityFramework.Managers.Interfaces.User;
 using Webshop.Services.Interfaces_For_Services;
+using Webshop.Services.Services.Validators.Implementations;
 
 namespace WebshopWeb.Controllers
 {
@@ -10,11 +11,13 @@ namespace WebshopWeb.Controllers
         private IUserManager userManager;
         private IEncryptManager encryptManager;
         private IAuthenticationManager authenticationManager;
-        public AuthenticationController(IUserManager userManager, IEncryptManager encryptManager, IAuthenticationManager authenticationManager)
+        private readonly EmailValidator emailValidator;
+        public AuthenticationController(IUserManager userManager, IEncryptManager encryptManager, IAuthenticationManager authenticationManager,IServiceProvider serviceProvider)
         {
             this.userManager = userManager;
             this.encryptManager = encryptManager;
             this.authenticationManager = authenticationManager;
+            this.emailValidator = serviceProvider.GetService<EmailValidator>();
         }
 
         public IActionResult Login()
@@ -23,8 +26,10 @@ namespace WebshopWeb.Controllers
         }
         public IActionResult Register()
         {
+            ViewBag.EmailResponse = TempData["Code"];
             return View();
         }
+        [HttpPost]
         public IActionResult TryLog(string email, string password)
         {
             if (authenticationManager.TryLogin(email, password))
@@ -33,13 +38,17 @@ namespace WebshopWeb.Controllers
             }
             return RedirectToAction("Register");
         }
-        [HttpPost]
         public IActionResult TryRegister(UserData user)
         {
-            user.Password = encryptManager.Hash(user.Password);
-            userManager.Add(user);
-            
-            return RedirectToAction("Login");
+            if(1>2)
+            {
+                user.Password = encryptManager.Hash(user.Password);
+                userManager.Add(user);
+                return RedirectToAction("Login");
+            }
+            TempData["Code"] = emailValidator.IsAvailable(user.EmailAddress);
+            return RedirectToAction("Register");
+           
         }
         public IActionResult Logout()
         {

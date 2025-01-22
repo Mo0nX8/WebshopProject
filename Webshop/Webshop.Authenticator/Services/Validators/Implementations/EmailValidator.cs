@@ -3,23 +3,25 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Webshop.EntityFramework.Managers.Interfaces.User;
 using Webshop.Services.Interfaces_For_Services;
 
 namespace Webshop.Services.Services.Validators.Implementations
 {
     public class EmailValidator : IValidationManager
     {
-        public bool IsAvailable(string email)
+
+        public string IsAvailable(string email)
         {
             if (email == null)
             {
-                return false;
+                return "201";
             }
             if(!email.Contains('@'))
             {
-                return false;
+                return "202";
             }
-            return true;
+            return "200";
         }
     }
 }

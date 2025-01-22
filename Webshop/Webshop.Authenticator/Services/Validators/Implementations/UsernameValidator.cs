@@ -9,9 +9,9 @@ namespace Webshop.Services.Services.Validators.Implementations
 {
     public class UsernameValidator : IValidationManager
     {
-        public bool IsAvailable(string key)
+        public string IsAvailable(string key)
         {
-            return true;
+            return "true";
         }
     }
 }

@@ -10,12 +10,12 @@ using Webshop.Services.Services.Validators.Implementations;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<GlobalDbContext>();
 builder.Services.AddSession(options =>
 {
-    // Itt lehet megadni mennyi idõ után járjon le
+    
     options.IdleTimeout = TimeSpan.FromMinutes(180);
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
@@ -26,6 +26,7 @@ builder.Services.AddScoped<IEncryptManager, SHA256Encrypter>();
 builder.Services.AddScoped<IUserManager, UserManager>();
 builder.Services.AddScoped<IOrderManager, OrderManager>();
 builder.Services.AddScoped<IProductManager, ProductManager>();
+builder.Services.AddScoped<EmailValidator, EmailValidator>();
 builder.Services.AddSingleton<IValidationManager, EmailValidator>();
 builder.Services.AddSingleton<IValidationManager, PasswordValidator>();
 builder.Services.AddSingleton<IValidationManager, UsernameValidator>();
