@@ -2,13 +2,13 @@
 @model UserData
 @using (Html.BeginForm("TryRegister", "Authentication", FormMethod.Post))
 {
-    <label>Felhasználónév</label>
+    <label>Felhasználónév</label><br />
     @Html.TextBoxFor(user=>user.Username);
-    <label>Email cím</label>
+    <label>Email cím</label><br />
     @Html.TextBoxFor(user => user.EmailAddress);
-    <label>Jelszó</label>
+    <label>Jelszó</label><br />
     @Html.PasswordFor(user => user.Password)
-    <label>Jelszó újra</label>
+    <label>Jelszó újra</label><br />
     @Html.PasswordFor(user => user.Password);
     <input type="submit" value="Regisztráció" />
 }
