@@ -1,0 +1,14 @@
+﻿@using Webshop.EntityFramework.Data
+@model UserData
+@using (Html.BeginForm("TryRegister", "Authentication", FormMethod.Post))
+{
+    <label>Felhasználónév</label>
+    @Html.TextBoxFor(user=>user.Username);
+    <label>Email cím</label>
+    @Html.TextBoxFor(user => user.EmailAddress);
+    <label>Jelszó</label>
+    @Html.PasswordFor(user => user.Password)
+    <label>Jelszó újra</label>
+    @Html.PasswordFor(user => user.Password);
+    <input type="submit" value="Regisztráció" />
+}

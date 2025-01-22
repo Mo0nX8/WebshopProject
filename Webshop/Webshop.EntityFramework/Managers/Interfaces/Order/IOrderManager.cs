@@ -10,5 +10,7 @@ namespace Webshop.EntityFramework.Managers.Interfaces.Order
     public interface IOrderManager
     {
         void Add(Orders order);
+        IQueryable<Orders> GetOrders();
     }
+
 }

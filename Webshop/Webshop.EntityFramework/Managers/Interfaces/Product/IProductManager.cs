@@ -9,6 +9,6 @@ namespace Webshop.EntityFramework.Managers.Interfaces.Product
 {
     public interface IProductManager : IProductEditor, IProductReader
     {
-        void Add(Storage storage);
+        void Add(Products storage);
     }
 }

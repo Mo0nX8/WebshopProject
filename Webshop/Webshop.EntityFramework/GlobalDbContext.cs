@@ -11,7 +11,7 @@ namespace Webshop.EntityFramework
     public class GlobalDbContext : DbContext
     {
         public DbSet<UserData> Users { get; set; }
-        public DbSet<Storage> StorageData {  get; set; }
+        public DbSet<Products> StorageData {  get; set; }
         public DbSet<Orders> Orders { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

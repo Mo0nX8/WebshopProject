@@ -10,7 +10,7 @@ namespace Webshop.Services.Interfaces_For_Services
     {
         bool TryLogin(string email, string password);
         void LogOut();
-        bool IsAuthenticated { get; }
+        bool IsAuthenticated { get; set; }
 
     }
 }

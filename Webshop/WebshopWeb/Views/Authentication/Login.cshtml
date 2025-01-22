@@ -1,0 +1,9 @@
+﻿@model Webshop.EntityFramework.Data.UserData
+@using(Html.BeginForm("TryLog","Authentication",FormMethod.Post))
+{
+    <label>Email cím</label>
+    <input type="text" name="email" />
+    <label>Jelszó</label>
+    <input type="password" name="password" />
+    <input type="submit" value="Bejelentkezés" />
+}

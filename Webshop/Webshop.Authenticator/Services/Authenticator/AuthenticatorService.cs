@@ -23,11 +23,33 @@ namespace Webshop.Authenticator.Services.Authenticator
             this.userManager = userManager;
         }
 
-        public bool IsAuthenticated =>
-            httpContextAccessor.HttpContext.Session.TryGetValue("email", out byte[] value);
+        public bool IsAuthenticated
+        {
+            get
+            {
+                var session =httpContextAccessor.HttpContext?.Session;
+                if (session == null)
+                {
+                    return false;
+                }
+
+                session.TryGetValue("IsAuthenticated", out var valueBytes);
+                return valueBytes != null && System.Text.Encoding.UTF8.GetString(valueBytes) == "true";
+            }
+            set
+            {
+                var session = httpContextAccessor.HttpContext?.Session;
+                if (session != null)
+                {
+                    var valueBytes = System.Text.Encoding.UTF8.GetBytes(value ? "true" : "false");
+                    session.Set("IsAuthenticated", valueBytes);
+                }
+            }
+        }
 
         public void LogOut()
         {
+            IsAuthenticated = false;
             httpContextAccessor.HttpContext.Session.Clear();
         }
 
@@ -47,6 +69,7 @@ namespace Webshop.Authenticator.Services.Authenticator
             {
                 return false;
             }
+            IsAuthenticated = true;
             return true;
         }
     }

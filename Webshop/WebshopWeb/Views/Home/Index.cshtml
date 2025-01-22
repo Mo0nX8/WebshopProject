@@ -1,17 +1,37 @@
 ﻿@using WeatherAPI.Model
+@using Webshop.Authenticator.Services.Authenticator
+@model AuthenticatorService
 @{
     ViewData["Title"] = "Home Page";
+    var isAuthenticated = ViewBag.IsAuthenticated;
 }
 
 <div class="text-center">
     <h1 class="display-4">Under maintenance!</h1>
-
+    @if(isAuthenticated==false)
+    {
+            <a href=@Url.Action("Login","Authentication")>Bejelentkezés</a>
+    }
+    else
+    {
+         <a href=@Url.Action("Logout","Authentication")>Kijelentkezés</a>
+    }
+    
+    @if(isAuthenticated==true)
+    {
+        <h1>W</h1>
+    }
+    else
+    {
+        <h1>L</h1>
+    }
 </div>
 <table>
     <thead>
         <th>Város</th>
         <th>Időjárás</th>
         <th>Leírás</th>
+
         
     </thead>
     <tbody>

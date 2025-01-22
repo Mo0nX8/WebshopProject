@@ -20,6 +20,12 @@ namespace Webshop.EntityFramework.Managers.Implementations
         public void Add(Orders order)
         {
             _dbContext.Orders.Add(order);
+            _dbContext.SaveChanges();
+        }
+
+        public IQueryable<Orders> GetOrders()
+        {
+            return _dbContext.Orders.AsQueryable();
         }
     }
 }

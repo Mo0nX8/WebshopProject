@@ -9,6 +9,6 @@ namespace Webshop.EntityFramework.Managers.Interfaces.Product
 {
     public interface IProductReader
     {
-        IQueryable<Storage> GetProduct();
+        IQueryable<Products> GetProduct();
     }
 }

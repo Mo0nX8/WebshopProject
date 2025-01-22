@@ -9,9 +9,9 @@ namespace Webshop.Services.Services.Validators.Implementations
 {
     public class PasswordValidator : IValidationManager
     {
-        public bool IsAvailable()
+        public bool IsAvailable(string key)
         {
-            throw new NotImplementedException();
+            return true;
         }
     }
 }
