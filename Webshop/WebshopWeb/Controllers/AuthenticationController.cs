@@ -14,6 +14,7 @@ namespace WebshopWeb.Controllers
         private IAuthenticationManager authenticationManager;
         private readonly EmailValidator emailValidator;
         private readonly UsernameValidator usernameValidator;
+        private readonly PasswordValidator passwordValidator;
         public AuthenticationController(IUserManager userManager, IEncryptManager encryptManager, IAuthenticationManager authenticationManager, IServiceProvider serviceProvider)
         {
             this.userManager = userManager;
@@ -21,6 +22,7 @@ namespace WebshopWeb.Controllers
             this.authenticationManager = authenticationManager;
             this.emailValidator = serviceProvider.GetService<EmailValidator>();
             this.usernameValidator = serviceProvider.GetService<UsernameValidator>();
+            this.passwordValidator = serviceProvider.GetService<PasswordValidator>();
         }
 
         public IActionResult Login()
@@ -45,15 +47,26 @@ namespace WebshopWeb.Controllers
         {
             string emailResponseCode = emailValidator.IsAvailable(user.EmailAddress);
             string usernameResponseCode = usernameValidator.IsAvailable(user.Username);
+            string passwordResponseCode = passwordValidator.IsAvailable(user.Password);
             if(emailResponseCode=="200")
             {
                 if(usernameResponseCode=="200")
                 {
-                    user.Password = encryptManager.Hash(user.Password);
-                    userManager.Add(user);
-                    return RedirectToAction("Login");
+                    if(passwordResponseCode=="200")
+                    {
+                        user.Password = encryptManager.Hash(user.Password);
+                        userManager.Add(user);
+                        return RedirectToAction("Login");
+                    }
+                    TempData["Code"] = passwordResponseCode;
+                   
                 }
-                TempData["Code"] = usernameResponseCode; 
+                else
+                {
+                    TempData["Code"] = usernameResponseCode;
+                }
+
+                 
             }
             else
             {

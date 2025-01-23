@@ -11,7 +11,15 @@ namespace Webshop.Services.Services.Validators.Implementations
     {
         public string IsAvailable(string key)
         {
-            return "true";
+            if(key==null)
+            {
+                return "Hiba! Nem adtál meg jelszót!";
+            }
+            if (!key.Any(char.IsDigit) || key.Length<6)
+            {
+                return "Hiba! Rossz a megadott jelszó formátuma!";
+            }
+            return "200";
         }
     }
 }
