@@ -6,6 +6,5 @@
         public string ProductName { get; set; }
         public int ProductCount { get; set; }
         public string[] Tags { get; set; }
-        public string[] OrderIds { get; set; }
     }
 }
