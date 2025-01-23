@@ -13,12 +13,14 @@ namespace WebshopWeb.Controllers
         private IEncryptManager encryptManager;
         private IAuthenticationManager authenticationManager;
         private readonly EmailValidator emailValidator;
-        public AuthenticationController(IUserManager userManager, IEncryptManager encryptManager, IAuthenticationManager authenticationManager,IServiceProvider serviceProvider)
+        private readonly UsernameValidator usernameValidator;
+        public AuthenticationController(IUserManager userManager, IEncryptManager encryptManager, IAuthenticationManager authenticationManager, IServiceProvider serviceProvider)
         {
             this.userManager = userManager;
             this.encryptManager = encryptManager;
             this.authenticationManager = authenticationManager;
             this.emailValidator = serviceProvider.GetService<EmailValidator>();
+            this.usernameValidator = serviceProvider.GetService<UsernameValidator>();
         }
 
         public IActionResult Login()
@@ -27,7 +29,7 @@ namespace WebshopWeb.Controllers
         }
         public IActionResult Register()
         {
-            ViewBag.EmailResponse = TempData["Code"];
+            ViewBag.Response = TempData["Code"];
             return View();
         }
         [HttpPost]
@@ -42,13 +44,22 @@ namespace WebshopWeb.Controllers
         public IActionResult TryRegister(UserData user)
         {
             string emailResponseCode = emailValidator.IsAvailable(user.EmailAddress);
+            string usernameResponseCode = usernameValidator.IsAvailable(user.Username);
             if(emailResponseCode=="200")
+            {
+                if(usernameResponseCode=="200")
                 {
-                user.Password = encryptManager.Hash(user.Password);
-                userManager.Add(user);
-                return RedirectToAction("Login");
+                    user.Password = encryptManager.Hash(user.Password);
+                    userManager.Add(user);
+                    return RedirectToAction("Login");
+                }
+                TempData["Code"] = usernameResponseCode; 
             }
-            TempData["Code"] = emailResponseCode;
+            else
+            {
+                TempData["Code"] = emailResponseCode;
+            }
+            
             return RedirectToAction("Register");
            
         }

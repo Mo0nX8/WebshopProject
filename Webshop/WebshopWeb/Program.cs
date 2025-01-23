@@ -27,9 +27,10 @@ builder.Services.AddScoped<IUserManager, UserManager>();
 builder.Services.AddScoped<IOrderManager, OrderManager>();
 builder.Services.AddScoped<IProductManager, ProductManager>();
 builder.Services.AddScoped<EmailValidator, EmailValidator>();
+builder.Services.AddScoped<UsernameValidator , UsernameValidator>();
 builder.Services.AddScoped<IValidationManager, EmailValidator>();
-builder.Services.AddSingleton<IValidationManager, PasswordValidator>();
-builder.Services.AddSingleton<IValidationManager, UsernameValidator>();
+builder.Services.AddScoped<IValidationManager, PasswordValidator>();
+builder.Services.AddScoped<IValidationManager, UsernameValidator>();
 
 var app = builder.Build();
 

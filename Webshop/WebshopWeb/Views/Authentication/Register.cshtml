@@ -1,23 +1,23 @@
 ﻿@using Webshop.EntityFramework.Data
 @model UserData
 @{
-    var EmailCode = ViewBag.EmailResponse;
+    var Code = ViewBag.Response;
 }
 @using (Html.BeginForm("TryRegister", "Authentication"))
 {
-    @if(EmailCode is not null && EmailCode!="")
+    @if(Code is not null && Code!="")
     {
-        <h1>@EmailCode</h1>
+        <h1>@Code</h1>
         
     }
     <h1>Regisztráció</h1>
-    <label>Felhasználónév</label><br />
+    <label>Felhasználónév</label>
     @Html.TextBoxFor(user=>user.Username);
-    <label>Email cím</label><br />
+    <label>Email cím</label>
     @Html.TextBoxFor(user => user.EmailAddress);
-    <label>Jelszó</label><br />
+    <label>Jelszó</label>
     @Html.PasswordFor(user => user.Password)
-    <label>Jelszó újra</label><br />
+    <label>Jelszó újra</label>
     @Html.PasswordFor(user => user.Password);
     <input type="submit" value="Regisztráció" />
 }
