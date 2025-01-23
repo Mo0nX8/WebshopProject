@@ -7,14 +7,8 @@
 {
     @if(EmailCode is not null && EmailCode!="")
     {
-        @if (EmailCode == "201")
-        {
-            <h1>Hiba! Nem adtál meg email címet!</h1>
-        }
-        @if (EmailCode == "202")
-        {
-            <h1>Hiba! Nem érvényes email cím</h1>
-        }
+        <h1>@EmailCode</h1>
+        
     }
     <h1>Regisztráció</h1>
     <label>Felhasználónév</label><br />

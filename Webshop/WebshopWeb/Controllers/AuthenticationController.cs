@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Webshop.EntityFramework.Data;
 using Webshop.EntityFramework.Managers.Interfaces.User;
 using Webshop.Services.Interfaces_For_Services;
@@ -40,13 +41,14 @@ namespace WebshopWeb.Controllers
         }
         public IActionResult TryRegister(UserData user)
         {
-            if(1>2)
-            {
+            string emailResponseCode = emailValidator.IsAvailable(user.EmailAddress);
+            if(emailResponseCode=="200")
+                {
                 user.Password = encryptManager.Hash(user.Password);
                 userManager.Add(user);
                 return RedirectToAction("Login");
             }
-            TempData["Code"] = emailValidator.IsAvailable(user.EmailAddress);
+            TempData["Code"] = emailResponseCode;
             return RedirectToAction("Register");
            
         }
