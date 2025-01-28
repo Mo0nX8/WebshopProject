@@ -20,3 +20,13 @@ html {
 body {
   margin-bottom: 60px;
 }
+#form 
+{
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid rgb(141, 109, 255);
+    background-color: transparent;
+    border-radius: 20px;
+    width: 100%;
+}
