@@ -12,12 +12,12 @@
     }
     <h1>Regisztráció</h1>
     <label>Felhasználónév</label>
-    @Html.TextBoxFor(user=>user.Username);
+    <input type="text" name="username" />
     <label>Email cím</label>
-    @Html.TextBoxFor(user => user.EmailAddress);
+    <input type="text" name="email" />
     <label>Jelszó</label>
-    @Html.PasswordFor(user => user.Password)
+    <input type="password" name="password1" />
     <label>Jelszó újra</label>
-    @Html.PasswordFor(user => user.Password);
+    <input type="password" name="password2" />
     <input type="submit" value="Regisztráció" />
 }

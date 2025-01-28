@@ -43,18 +43,30 @@ namespace WebshopWeb.Controllers
             }
             return RedirectToAction("Register");
         }
-        public IActionResult TryRegister(UserData user)
+        public IActionResult TryRegister(string username, string email, string password1, string password2)
         {
-            string emailResponseCode = emailValidator.IsAvailable(user.EmailAddress);
-            string usernameResponseCode = usernameValidator.IsAvailable(user.Username);
-            string passwordResponseCode = passwordValidator.IsAvailable(user.Password);
+            UserData user = new UserData();
+            string emailResponseCode = emailValidator.IsAvailable(email);
+            string usernameResponseCode = usernameValidator.IsAvailable(username);
+            string passwordResponseCode = "";
+            if (password1==password2)
+            {
+                passwordResponseCode = passwordValidator.IsAvailable(password1);
+            }
+            else
+            {
+                passwordResponseCode = "A két jelszó nem egyezik!";
+            }
+            
             if(emailResponseCode=="200")
             {
                 if(usernameResponseCode=="200")
                 {
                     if(passwordResponseCode=="200")
                     {
-                        user.Password = encryptManager.Hash(user.Password);
+                        user.Username = username;
+                        user.EmailAddress = email;
+                        user.Password = encryptManager.Hash(password1);
                         userManager.Add(user);
                         return RedirectToAction("Login");
                     }
