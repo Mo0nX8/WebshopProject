@@ -27,6 +27,7 @@ namespace WebshopWeb.Controllers
 
         public IActionResult Login()
         {
+            ViewBag.Response = TempData["Code"];
             return View();
         }
         public IActionResult Register()
@@ -41,7 +42,8 @@ namespace WebshopWeb.Controllers
             {
                 return RedirectToAction("Index", "Home");
             }
-            return RedirectToAction("Register");
+            TempData["Code"] = "Az email cím és jelszó páros nem egyezik!";
+            return RedirectToAction("Login", "Authentication");
         }
         public IActionResult TryRegister(string username, string email, string password1, string password2)
         {
@@ -84,7 +86,6 @@ namespace WebshopWeb.Controllers
             {
                 TempData["Code"] = emailResponseCode;
             }
-            
             return RedirectToAction("Register");
            
         }

@@ -16,6 +16,7 @@ namespace WebshopWeb.Controllers
 
         public IActionResult Index()
         {
+            
             ViewBag.IsAuthenticated = authenticationManager.IsAuthenticated;
             return View();
         }

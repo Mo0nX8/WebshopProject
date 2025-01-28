@@ -1,7 +1,7 @@
 ﻿@using Webshop.Authenticator.Services.Authenticator
 @model AuthenticatorService
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,8 +24,17 @@
                     <div class="dropdown ms-auto">
                         <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-person"></i></button>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-                            <li><a asp-area="" asp-controller="Authentication" asp-action="Login" class="navbar-brand"><button class="dropdown-item" type="button">Bejelentkezés</button></a></li>
-                            <li><a asp-area="" asp-controller="Authentication" asp-action="Register" class="navbar-brand"><button class="dropdown-item" type="button">Regisztráció</button></a></li>
+
+                            @if(ViewBag.IsAuthenticated==true)
+                            {
+                                <li><a href=@Url.Action("Logout", "Authentication") class="navbar-brand"><button class="dropdown-item" type="button">Kijelentkezés</button></a></li>
+                            }
+                            else
+                            {
+                                <li><a asp-area="" asp-controller="Authentication" asp-action="Login" class="navbar-brand"><button class="dropdown-item" type="button">Bejelentkezés</button></a></li>
+                                <li><a asp-area="" asp-controller="Authentication" asp-action="Register" class="navbar-brand"><button class="dropdown-item" type="button">Regisztráció</button></a></li>
+                            }
+
                         </ul>
                     </div>
                 </div>
