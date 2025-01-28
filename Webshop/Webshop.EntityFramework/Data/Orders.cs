@@ -6,6 +6,7 @@
         public int OrderID { get; set; }
         public DateTime DateOfOrder { get; set; }
         public int UserId { get; set; }
+        public int Price { get; set; }  
         public UserData User { get; set; }
     }
 }
