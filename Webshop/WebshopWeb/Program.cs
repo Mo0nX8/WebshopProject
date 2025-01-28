@@ -1,12 +1,23 @@
 using Webshop.Authenticator.Services.Authenticator;
 using Webshop.Authenticator.Services.Encrypt;
 using Webshop.EntityFramework;
+using Webshop.EntityFramework.Data;
 using Webshop.EntityFramework.Managers.Implementations;
 using Webshop.EntityFramework.Managers.Interfaces.Order;
 using Webshop.EntityFramework.Managers.Interfaces.Product;
 using Webshop.EntityFramework.Managers.Interfaces.User;
 using Webshop.Services.Interfaces_For_Services;
 using Webshop.Services.Services.Validators.Implementations;
+GlobalDbContext _context=new GlobalDbContext();
+_context.Database.EnsureCreated();
+UserData AdminUser = new UserData()
+{
+    Username = "Admin",
+    EmailAddress = "admin@dxmarket.hu",
+    Password = "Admin123",
+
+};
+_context.Users.Add(AdminUser);
 
 var builder = WebApplication.CreateBuilder(args);
 
