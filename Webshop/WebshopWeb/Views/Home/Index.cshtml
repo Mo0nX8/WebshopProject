@@ -6,18 +6,9 @@
     var isAuthenticated = ViewBag.IsAuthenticated;
 }
 
+<input type="text" id="search" placeholder="Keresés" alt="Keresés"/>
 <div class="text-center">
-    <h1 class="display-4">Under maintenance!</h1>
-    @if(isAuthenticated==false)
-    {
-            <a href=@Url.Action("Login","Authentication")>Bejelentkezés</a>
-            <a href=@Url.Action("Register","Authentication")>Regisztráció</a>
-    }
-    else
-    {
-         <a href=@Url.Action("Logout","Authentication")>Kijelentkezés</a>
-    }
-    
+    <h1 class="display-4">Üdvözlünk a webshopon!</h1>
     @if(isAuthenticated==true)
     {
         <h1>W</h1>
