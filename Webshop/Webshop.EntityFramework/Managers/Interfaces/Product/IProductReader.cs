@@ -10,5 +10,6 @@ namespace Webshop.EntityFramework.Managers.Interfaces.Product
     public interface IProductReader
     {
         IQueryable<Products> GetProduct();
+        List<Products> GetProductPrices();
     }
 }

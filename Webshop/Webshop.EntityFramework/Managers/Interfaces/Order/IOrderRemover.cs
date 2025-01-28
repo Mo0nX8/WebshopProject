@@ -7,10 +7,8 @@ using Webshop.EntityFramework.Data;
 
 namespace Webshop.EntityFramework.Managers.Interfaces.Order
 {
-    public interface IOrderManager : IOrderReader
+    public interface IOrderRemover
     {
-        void Add(Orders order);
-        
+        void Remove(Orders order);
     }
-
 }

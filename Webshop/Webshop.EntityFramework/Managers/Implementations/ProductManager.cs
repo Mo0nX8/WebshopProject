@@ -28,5 +28,10 @@ namespace Webshop.EntityFramework.Managers.Implementations
         {
             return _context.StorageData.AsQueryable();
         }
+
+        public List<Products> GetProductPrices()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

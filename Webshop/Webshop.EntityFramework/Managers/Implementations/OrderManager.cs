@@ -22,6 +22,11 @@ namespace Webshop.EntityFramework.Managers.Implementations
             _dbContext.Orders.Add(order);
             _dbContext.SaveChanges();
         }
+        public void Remove(Orders order)
+        {
+            _dbContext.Orders.Remove(order);
+            _dbContext.SaveChanges();
+        }
 
         public IQueryable<Orders> GetOrders()
         {
