@@ -13,6 +13,7 @@ namespace Webshop.EntityFramework
         public DbSet<UserData> Users { get; set; }
         public DbSet<Products> StorageData {  get; set; }
         public DbSet<Orders> Orders { get; set; }
+        public DbSet<Cart> Carts { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -21,6 +22,22 @@ namespace Webshop.EntityFramework
                 optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=UserDatabase");
             }
             
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<UserData>()
+                .HasOne(u => u.Cart)
+                .WithOne(c => c.User)
+                .HasForeignKey<Cart>(c => c.UserId);
+            modelBuilder.Entity<Orders>()
+                .HasOne(u => u.User)
+                .WithMany(u => u.Orders)
+                .HasForeignKey(o => o.UserId);
+            modelBuilder.Entity<Products>()
+                .HasOne(p => p.Cart)
+                .WithMany(p => p.Products)
+                .HasForeignKey(p => p.CartId);
+                
         }
     }
 }
