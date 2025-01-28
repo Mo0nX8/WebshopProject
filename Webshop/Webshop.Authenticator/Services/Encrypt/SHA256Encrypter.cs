@@ -17,6 +17,7 @@ namespace Webshop.Authenticator.Services.Encrypt
                 byte[] keyInBytes=Encoding.UTF8.GetBytes(key);
                 byte[] hashedKey= sha.ComputeHash(keyInBytes);
                 return Convert.ToBase64String(hashedKey);
+                ;
             }
         }
     }
