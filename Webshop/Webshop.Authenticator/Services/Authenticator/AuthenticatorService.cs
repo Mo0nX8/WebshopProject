@@ -27,25 +27,29 @@ namespace Webshop.Authenticator.Services.Authenticator
         {
             get
             {
-                var session =httpContextAccessor.HttpContext?.Session;
+                var session = httpContextAccessor.HttpContext?.Session;
                 if (session == null)
                 {
                     return false;
                 }
 
                 session.TryGetValue("IsAuthenticated", out var valueBytes);
-                return valueBytes != null && System.Text.Encoding.UTF8.GetString(valueBytes) == "true";
+                var isAuthenticated = valueBytes != null && Encoding.UTF8.GetString(valueBytes) == "true";
+                Console.WriteLine($"IsAuthenticated getter: {isAuthenticated}"); 
+                return isAuthenticated;
             }
             set
             {
                 var session = httpContextAccessor.HttpContext?.Session;
                 if (session != null)
                 {
-                    var valueBytes = System.Text.Encoding.UTF8.GetBytes(value ? "true" : "false");
+                    var valueBytes = Encoding.UTF8.GetBytes(value ? "true" : "false");
                     session.Set("IsAuthenticated", valueBytes);
+                    Console.WriteLine($"IsAuthenticated setter: {value}"); 
                 }
             }
         }
+
 
         public void LogOut()
         {
@@ -55,22 +59,24 @@ namespace Webshop.Authenticator.Services.Authenticator
 
         public bool TryLogin(string email, string password)
         {
-            var userInDatabase=userManager.GetUsers().FirstOrDefault(user=>user.EmailAddress == email);
-            if (userInDatabase == null) 
+            var userInDatabase = userManager.GetUsers().FirstOrDefault(user => user.EmailAddress == email);
+            if (userInDatabase == null)
             {
-                return false;
+                return false; 
             }
+
             string passwordHashed = encryptManager.Hash(password);
             if (passwordHashed != userInDatabase.Password)
             {
-                return false;
+                return false; 
             }
-            if (httpContextAccessor.HttpContext.Session.TryGetValue("email", out byte[] value)) 
-            {
-                return false;
-            }
+
+            
             IsAuthenticated = true;
+
             return true;
         }
+
+
     }
 }
