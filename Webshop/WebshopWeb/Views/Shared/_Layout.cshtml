@@ -28,6 +28,7 @@
 
                             @if(ViewBag.IsAuthenticated==true)
                             {
+                                <li><a href=@Url.Action("PersonalData", "Home") class="navbar-brand"><button class="dropdown-item" type="button">Személyes adatok</button></a></li>
                                 <li><a href=@Url.Action("Logout", "Authentication") class="navbar-brand"><button class="dropdown-item" type="button">Kijelentkezés</button></a></li>
                             }
                             else
