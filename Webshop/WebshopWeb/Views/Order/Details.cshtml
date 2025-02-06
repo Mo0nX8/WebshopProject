@@ -1,8 +1,8 @@
 ﻿@using Webshop.EntityFramework.Data
-@model Cart
+@model List<Products>
 
 @{
 
 }
 
-asd
+<a href=@Url.Action("PlaceOrder","Order", new { cartId = ViewData["CartId"] }))>Tovább</a>

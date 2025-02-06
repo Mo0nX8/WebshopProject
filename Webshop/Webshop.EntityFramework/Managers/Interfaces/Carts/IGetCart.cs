@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Webshop.EntityFramework.Data;
-using CartEntity = Webshop.EntityFramework.Data.Cart;
+using CartEntity = Webshop.EntityFramework.Data.ShoppingCart;
 
 namespace Webshop.EntityFramework.Managers.Interfaces.Cart
 {
     public interface IGetCart
     {
-        CartEntity GetProduct(int cartId);
+        List<Products> GetProduct(int cartId);
+        CartEntity GetCart(int cartId);
     }
 }

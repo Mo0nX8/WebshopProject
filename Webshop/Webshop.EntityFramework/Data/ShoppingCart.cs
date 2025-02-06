@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace Webshop.EntityFramework.Data
 {
-    public class Cart
+    public class ShoppingCart
     {
         public int Id { get; set; }
-        public int ProductId { get; set; }
-        public int Amount { get; set; }
+        public int? Amount { get; set; }
         public int UserId { get; set; }
         public UserData User { get; set; }
-        public ICollection<Products> Products { get; set; }
+        public ICollection<Products>? Products { get; set; }
 
 
     }

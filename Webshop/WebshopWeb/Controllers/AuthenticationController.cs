@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Webshop.EntityFramework.Data;
+using Webshop.EntityFramework.Managers.Interfaces.Cart;
 using Webshop.EntityFramework.Managers.Interfaces.User;
 using Webshop.Services.Interfaces_For_Services;
 using Webshop.Services.Services.Validators.Implementations;
@@ -9,13 +10,14 @@ namespace WebshopWeb.Controllers
 {
     public class AuthenticationController : Controller
     {
+        private ICartManager cartManager;
         private IUserManager userManager;
         private IEncryptManager encryptManager;
         private IAuthenticationManager authenticationManager;
         private readonly EmailValidator emailValidator;
         private readonly UsernameValidator usernameValidator;
         private readonly PasswordValidator passwordValidator;
-        public AuthenticationController(IUserManager userManager, IEncryptManager encryptManager, IAuthenticationManager authenticationManager, IServiceProvider serviceProvider)
+        public AuthenticationController(IUserManager userManager, IEncryptManager encryptManager, IAuthenticationManager authenticationManager, IServiceProvider serviceProvider, ICartManager cartManager)
         {
             this.userManager = userManager;
             this.encryptManager = encryptManager;
@@ -23,6 +25,7 @@ namespace WebshopWeb.Controllers
             this.emailValidator = serviceProvider.GetService<EmailValidator>();
             this.usernameValidator = serviceProvider.GetService<UsernameValidator>();
             this.passwordValidator = serviceProvider.GetService<PasswordValidator>();
+            this.cartManager = cartManager;
         }
 
         public IActionResult Login()
@@ -48,6 +51,7 @@ namespace WebshopWeb.Controllers
         public IActionResult TryRegister(string username, string email, string password1, string password2)
         {
             UserData user = new UserData();
+            ShoppingCart cart = new ShoppingCart();
             string emailResponseCode = emailValidator.IsAvailable(email);
             string usernameResponseCode = usernameValidator.IsAvailable(username);
             string passwordResponseCode = "";
@@ -70,6 +74,11 @@ namespace WebshopWeb.Controllers
                         user.EmailAddress = email;
                         user.Password = encryptManager.Hash(password1);
                         userManager.Add(user);
+                        
+                        cart.UserId = user.Id;
+                        cart.Products = new List<Products>();
+                        cartManager.AddCart(cart);
+
                         return RedirectToAction("Login");
                     }
                     TempData["Code"] = passwordResponseCode;

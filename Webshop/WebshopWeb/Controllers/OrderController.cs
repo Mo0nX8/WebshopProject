@@ -11,24 +11,32 @@ namespace WebshopWeb.Controllers
     public class OrderController : Controller
     {
         private readonly ICartManager cartManager;
+        private IOrderManager orderManager;
         private readonly IProductManager productManager;
-        public OrderController(ICartManager cartManager, IProductManager productManager)
+        public OrderController(ICartManager cartManager, IProductManager productManager, IOrderManager orderManager)
         {
             this.cartManager = cartManager;
             this.productManager = productManager;
+            this.orderManager = orderManager;
         }
 
-        public IActionResult Details(Cart cart)
+        public IActionResult Details()
         {
-            var cartItems=cartManager.GetProduct(cart.Id);
+            var cartId = HttpContext.Session.GetInt32("CartId");
+            List<Products> cartItems=cartManager.GetProduct(cartId.Value);
+            ViewData["CartId"]=cartId.Value;
             return View(cartItems);
         }
-        public IActionResult Confirm()
+        public IActionResult Confirm(int cartId)
         {
+            Orders orders = new Orders();
+            var productsInCart=cartManager.GetCart(cartId).Products.ToList();
+
             return View();
         }
-        public IActionResult PlaceOrder(Cart cart)
+        public IActionResult PlaceOrder(int cartId)
         {
+            var cart=cartManager.GetCart(cartId);
             return View(cart);
         }
     }

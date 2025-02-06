@@ -8,6 +8,6 @@
         public int Price { get; set; }
         public string[] Tags { get; set; }
         public int CartId { get; set; }
-        public Cart Cart { get; set; }
+        public ShoppingCart Cart { get; set; }
     }
 }

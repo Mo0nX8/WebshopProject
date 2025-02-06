@@ -1,5 +1,6 @@
 ﻿@using Webshop.Authenticator.Services.Authenticator
-@model AuthenticatorService
+@using Webshop.EntityFramework.Data
+@model Webshop.EntityFramework.Data.ShoppingCart
 @{
     var isAuthenticated = ViewBag.IsAuthenticated;
 }
@@ -14,3 +15,5 @@
 <div class="col-2">
     asd
 </div>
+<a href=@Url.Action("Details", "Order")>Rendelés</a>
+

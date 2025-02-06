@@ -13,7 +13,7 @@ namespace Webshop.EntityFramework
         public DbSet<UserData> Users { get; set; }
         public DbSet<Products> StorageData {  get; set; }
         public DbSet<Orders> Orders { get; set; }
-        public DbSet<Cart> Carts { get; set; }
+        public DbSet<ShoppingCart> Carts { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -28,7 +28,7 @@ namespace Webshop.EntityFramework
             modelBuilder.Entity<UserData>()
                 .HasOne(u => u.Cart)
                 .WithOne(c => c.User)
-                .HasForeignKey<Cart>(c => c.UserId);
+                .HasForeignKey<ShoppingCart>(c => c.UserId);
             modelBuilder.Entity<Orders>()
                 .HasOne(u => u.User)
                 .WithMany(u => u.Orders)
