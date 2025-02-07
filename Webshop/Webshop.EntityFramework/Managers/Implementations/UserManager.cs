@@ -39,5 +39,10 @@ namespace Webshop.EntityFramework.Managers.Implementations
             _context.SaveChanges();
         }
 
+        public UserData GetUser(int userId)
+        {
+            var user = _context.Users.FirstOrDefault(x=>x.Id==userId);
+            return user;
+        }
     }
 }

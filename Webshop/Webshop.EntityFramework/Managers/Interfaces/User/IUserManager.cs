@@ -10,6 +10,6 @@ namespace Webshop.EntityFramework.Managers.Interfaces.User
     public interface IUserManager : IUserEditor, IUserReader, IUserRemover
     {
         void Add(UserData user);
-        
+        UserData GetUser(int userId);
     }
 }

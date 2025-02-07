@@ -1,6 +1,11 @@
 ﻿@using Webshop.Authenticator.Services.Authenticator
+@using Webshop.Services.Services.ViewModel
+@model PersonalDataViewModel
 @{
     var isAuthenticated = ViewBag.IsAuthenticated;
 }
-<h2>Felhasználónév</h2>
+<h1>Felhasználói adatok</h1>
+<h3>Felhasználónév: @Model.UserName</h3>
+<h3>Email cím: @Model.Email</h3>
+<h3>Jelszó módosítása</h3>
 

@@ -43,6 +43,8 @@ namespace WebshopWeb.Controllers
         {
             if (authenticationManager.TryLogin(email, password))
             {
+                var user = userManager.GetUsers().Where(x => x.EmailAddress == email).FirstOrDefault();
+                HttpContext.Session.SetInt32("UserId", user.Id);
                 return RedirectToAction("Index", "Home");
             }
             TempData["Code"] = "Az email cím és jelszó páros nem egyezik!";
