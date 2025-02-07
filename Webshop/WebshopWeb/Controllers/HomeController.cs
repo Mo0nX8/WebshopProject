@@ -20,7 +20,6 @@ namespace WebshopWeb.Controllers
             ViewBag.IsAuthenticated = authenticationManager.IsAuthenticated;
             return View();
         }
-
         public IActionResult PersonalData()
         {
             ViewBag.IsAuthenticated = authenticationManager.IsAuthenticated;
