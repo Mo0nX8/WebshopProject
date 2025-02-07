@@ -31,6 +31,7 @@ namespace WebshopWeb.Initializer
                     _context.Carts.Add(cart);
                     _context.SaveChanges();
 
+
                 }
             }
         }
