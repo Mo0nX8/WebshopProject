@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Webshop.EntityFramework;
 
@@ -11,9 +12,11 @@ using Webshop.EntityFramework;
 namespace Webshop.EntityFramework.Migrations
 {
     [DbContext(typeof(GlobalDbContext))]
-    partial class GlobalDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250208103318_FixedShoppingCart")]
+    partial class FixedShoppingCart
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -88,6 +91,9 @@ namespace Webshop.EntityFramework.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("Amount")
+                        .HasColumnType("int");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");

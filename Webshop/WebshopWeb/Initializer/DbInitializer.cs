@@ -23,16 +23,18 @@ namespace WebshopWeb.Initializer
                     newUser.Username = "admin";
                     newUser.IsAdmin = true;
                     newUser.Password = encryptManager.Hash("Admin123");
-                    ShoppingCart cart = new ShoppingCart();
-                    cart.Id = 0;
-                    cart.UserId = 0;
-                    cart.Products=new List<Products>();
+                    user=newUser; 
                     _context.Users.Add(newUser);
+                    _context.SaveChanges();
+                    ShoppingCart cart = new ShoppingCart();
+                    cart.UserId = user.Id;
+                    cart.Products = new List<Products>();
                     _context.Carts.Add(cart);
                     _context.SaveChanges();
-
-
                 }
+
+               
+
             }
         }
     }

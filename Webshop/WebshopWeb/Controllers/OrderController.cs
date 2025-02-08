@@ -30,7 +30,7 @@ namespace WebshopWeb.Controllers
         public IActionResult Confirm(int cartId)
         {
             Orders orders = new Orders();
-            var productsInCart=cartManager.GetCart(cartId).Products.ToList();
+            
 
             return View();
         }

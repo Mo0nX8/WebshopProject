@@ -11,6 +11,6 @@ namespace Webshop.EntityFramework.Managers.Interfaces.Cart
     public interface IGetCart
     {
         List<Products> GetProduct(int cartId);
-        CartEntity GetCart(int cartId);
+        CartEntity GetCart(int? cartId);
     }
 }

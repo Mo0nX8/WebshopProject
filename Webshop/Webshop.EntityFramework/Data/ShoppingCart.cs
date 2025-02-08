@@ -9,7 +9,6 @@ namespace Webshop.EntityFramework.Data
     public class ShoppingCart
     {
         public int Id { get; set; }
-        public int? Amount { get; set; }
         public int UserId { get; set; }
         public UserData User { get; set; }
         public ICollection<Products>? Products { get; set; }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Webshop.EntityFramework;
 using Webshop.EntityFramework.Data;
 using Webshop.EntityFramework.Managers.Interfaces.Cart;
 using Webshop.EntityFramework.Managers.Interfaces.User;
@@ -10,6 +11,7 @@ namespace WebshopWeb.Controllers
 {
     public class AuthenticationController : Controller
     {
+        private GlobalDbContext _context;
         private ICartManager cartManager;
         private IUserManager userManager;
         private IEncryptManager encryptManager;
@@ -17,7 +19,7 @@ namespace WebshopWeb.Controllers
         private readonly EmailValidator emailValidator;
         private readonly UsernameValidator usernameValidator;
         private readonly PasswordValidator passwordValidator;
-        public AuthenticationController(IUserManager userManager, IEncryptManager encryptManager, IAuthenticationManager authenticationManager, IServiceProvider serviceProvider, ICartManager cartManager)
+        public AuthenticationController(IUserManager userManager, IEncryptManager encryptManager, IAuthenticationManager authenticationManager, IServiceProvider serviceProvider, ICartManager cartManager, GlobalDbContext context)
         {
             this.userManager = userManager;
             this.encryptManager = encryptManager;
@@ -26,6 +28,7 @@ namespace WebshopWeb.Controllers
             this.usernameValidator = serviceProvider.GetService<UsernameValidator>();
             this.passwordValidator = serviceProvider.GetService<PasswordValidator>();
             this.cartManager = cartManager;
+            _context = context;
         }
 
         public IActionResult Login()
@@ -43,8 +46,13 @@ namespace WebshopWeb.Controllers
         {
             if (authenticationManager.TryLogin(email, password))
             {
-                var user = userManager.GetUsers().Where(x => x.EmailAddress == email).FirstOrDefault();
+                var user = userManager.GetUsers().Where(x => x.EmailAddress == email)
+                    .Include(u=>u.Cart)
+                    .FirstOrDefault();
                 HttpContext.Session.SetInt32("UserId", user.Id);
+                var cart = _context.Carts.FirstOrDefault(c=>c.UserId==user.Id);
+                HttpContext.Session.SetInt32("CartId",cart.Id);
+                Console.WriteLine(cart.Id);
                 return RedirectToAction("Index", "Home");
             }
             TempData["Code"] = "Az email cím és jelszó páros nem egyezik!";

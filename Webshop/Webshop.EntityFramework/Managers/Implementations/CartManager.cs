@@ -26,7 +26,7 @@ namespace Webshop.EntityFramework.Managers.Implementations
             _context.SaveChanges();
         }
 
-        public ShoppingCart GetCart(int cartId)
+        public ShoppingCart GetCart(int? cartId)
         {
             return _context.Carts.FirstOrDefault(x => x.Id == cartId);
         }

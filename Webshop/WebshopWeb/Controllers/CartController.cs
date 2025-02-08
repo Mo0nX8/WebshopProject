@@ -15,10 +15,10 @@ namespace WebshopWeb.Controllers
             this.cartManager = cartManager;
         }
 
-        public IActionResult Index(int cartId)
+        public IActionResult Index()
 
         {
-            HttpContext.Session.SetInt32("CartId", cartId);
+            int? cartId = HttpContext.Session.GetInt32("CartId");
             ViewBag.IsAuthenticated = authenticationManager.IsAuthenticated;
             var cart = cartManager.GetCart(cartId);
             ViewBag.CartId = cartId;
