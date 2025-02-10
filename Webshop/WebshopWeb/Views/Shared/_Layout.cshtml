@@ -2,6 +2,9 @@
 
 @{
     var cartId = Context.Session.GetInt32("CartId");
+    var userId = Context.Session.GetInt32("UserId");
+    var authenticated = Context.Session.GetString("IsAuthenticated");
+
 }
 <!DOCTYPE html>
 <html lang="hu">
@@ -29,9 +32,9 @@
                         <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" style="background-color:red"><i class="bi bi-person"></i></button>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
 
-                            @if(ViewBag.IsAuthenticated==true)
+                            @if(authenticated=="True")
                             {
-                                <li><a href=@Url.Action("PersonalData", "Home", new {userId=ViewBag.UserId}) class="navbar-brand"><button class="dropdown-item" type="button">Személyes adatok</button></a></li>
+                                <li><a href=@Url.Action("PersonalData", "Home", new {userId=userId}) class="navbar-brand"><button class="dropdown-item" type="button">Személyes adatok</button></a></li>
                                 <li><a href=@Url.Action("Logout", "Authentication") class="navbar-brand"><button class="dropdown-item" type="button">Kijelentkezés</button></a></li>
                             }
                             else

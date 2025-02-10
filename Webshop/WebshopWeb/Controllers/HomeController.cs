@@ -29,9 +29,10 @@ namespace WebshopWeb.Controllers
         {
             var userId = HttpContext.Session.GetInt32("UserId");
             ViewBag.UserId = userId;
-            if (!authenticationManager.IsAuthenticated)
+            var authenticated = HttpContext.Session.GetString("IsAuthenticated");
+            if (authenticated=="False")
             {
-                return RedirectToAction("Login", "Account");
+                return RedirectToAction("Login", "Authentication");
             }
 
             var user = userManager.GetUser(Convert.ToInt32(userId));
