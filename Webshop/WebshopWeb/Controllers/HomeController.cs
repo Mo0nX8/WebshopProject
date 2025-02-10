@@ -59,13 +59,19 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult ChangePassword(PasswordChangeViewModel model)
     {
+        var userId = HttpContext.Session.GetInt32("UserId");
         if (model == null || string.IsNullOrEmpty(model.CurrentPassword) || string.IsNullOrEmpty(model.NewPassword))
         {
             ModelState.AddModelError("", "Kérem, adja meg a régi és az új jelszót.");
-            return View(model); 
-        }
+            var personalDataViewModel = new PersonalDataViewModel
+            {
+                UserName = userManager.GetUser((int)userId).Username,
+                Email=userManager.GetUser((int)userId).EmailAddress,
 
-        var userId = HttpContext.Session.GetInt32("UserId");
+            };
+            return View("PersonalData", personalDataViewModel);
+        }
+        
         if (userId == null)
         {
             return RedirectToAction("Login", "Authentication");
@@ -76,7 +82,13 @@ public class HomeController : Controller
         if (user == null || user.Password != HashedCurrentPassword)
         {
             ModelState.AddModelError("", "A mostani jelszó nem megfelelõ.");
-            return View(model); 
+            var personalDataViewModel = new PersonalDataViewModel
+            {
+                UserName = userManager.GetUser((int)userId).Username,
+                Email = userManager.GetUser((int)userId).EmailAddress,
+
+            };
+            return View("PersonalData", personalDataViewModel);
         }
 
         user.Password = encryptManager.Hash(model.NewPassword);
@@ -87,10 +99,6 @@ public class HomeController : Controller
         return RedirectToAction("Index");
     }
 
-    public IActionResult ChangePassword()
-    {
-        return RedirectToAction("PersonalData", _ChangePasswordPartial());
-    }
    
     public PartialViewResult _ChangePasswordPartial()
     {
