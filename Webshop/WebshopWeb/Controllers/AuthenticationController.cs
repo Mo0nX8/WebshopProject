@@ -52,6 +52,7 @@ namespace WebshopWeb.Controllers
                 HttpContext.Session.SetInt32("UserId", user.Id);
                 var cart = _context.Carts.FirstOrDefault(c=>c.UserId==user.Id);
                 HttpContext.Session.SetInt32("CartId",cart.Id);
+                HttpContext.Session.SetString("IsAuthenticated", "True");
                 Console.WriteLine(cart.Id);
                 return RedirectToAction("Index", "Home");
             }
@@ -111,6 +112,7 @@ namespace WebshopWeb.Controllers
         public IActionResult Logout()
         {
             authenticationManager.LogOut();
+            HttpContext.Session.SetString("IsAuthenticated", "False");
             return RedirectToAction("Index","Home");
         }
     }
