@@ -29,14 +29,15 @@ public class HomeController : Controller
     public IActionResult PersonalData()
     {
         var userId = HttpContext.Session.GetInt32("UserId");
+        var authenticated = HttpContext.Session.GetString("IsAuthenticated");
         if (userId == null)
         {
-            return RedirectToAction("Login", "Account");
+            return RedirectToAction("Login", "Authentication");
         }
 
-        if (!authenticationManager.IsAuthenticated)
+        if (authenticated=="False")
         {
-            return RedirectToAction("Login", "Account");
+            return RedirectToAction("Login", "Authentication");
         }
 
         var user = userManager.GetUser(userId.Value);
@@ -67,7 +68,7 @@ public class HomeController : Controller
         var userId = HttpContext.Session.GetInt32("UserId");
         if (userId == null)
         {
-            return RedirectToAction("Login", "Account");
+            return RedirectToAction("Login", "Authentication");
         }
 
         var user = context.Users.FirstOrDefault(x => x.Id == userId);
