@@ -1,21 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.EntityFrameworkCore;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Webshop.EntityFramework.Data;
 using Webshop.EntityFramework.Managers.Interfaces.User;
 
 namespace Webshop.EntityFramework.Managers.Implementations
 {
-
     public class UserManager : IUserManager
     {
-        private GlobalDbContext _context;
-        public UserManager(GlobalDbContext _context)
+        private readonly GlobalDbContext _context;
+
+        public UserManager(GlobalDbContext context)
         {
-            this._context = _context;
+            _context = context;
         }
+
         public void Add(UserData user)
         {
             _context.Users.Add(user);
@@ -41,8 +39,8 @@ namespace Webshop.EntityFramework.Managers.Implementations
 
         public UserData GetUser(int userId)
         {
-            var user = _context.Users.FirstOrDefault(x=>x.Id==userId);
-            return user;
+            return _context.Users.FirstOrDefault(x => x.Id == userId);
         }
+       
     }
 }
