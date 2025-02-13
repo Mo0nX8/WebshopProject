@@ -1,4 +1,5 @@
-﻿using Webshop.EntityFramework;
+﻿using Newtonsoft.Json;
+using Webshop.EntityFramework;
 using Webshop.EntityFramework.Data;
 using Webshop.EntityFramework.Managers.Implementations;
 using Webshop.EntityFramework.Managers.Interfaces.User;
@@ -9,7 +10,7 @@ namespace WebshopWeb.Initializer
     public class DbInitializer
     {
 
-        public static void Seed(IApplicationBuilder applicationBuilder, IUserManager userManager, IEncryptManager encryptManager, GlobalDbContext _context)
+        public static void Seed(IApplicationBuilder applicationBuilder, IUserManager userManager, IEncryptManager encryptManager, GlobalDbContext _context, string path)
         {
             using(var serviceScope=applicationBuilder.ApplicationServices.CreateScope())
             { 
@@ -33,7 +34,18 @@ namespace WebshopWeb.Initializer
                     _context.SaveChanges();
                 }
 
-               
+
+                var json = File.ReadAllText(path);
+                var products=JsonConvert.DeserializeObject<List<Products>>(json);
+                foreach (var product in products)
+                {
+                    var existingProduct = _context.StorageData.FirstOrDefault(p => p.ProductName == product.ProductName);
+                    if (existingProduct is null)
+                    {
+                        _context.StorageData.Add(product);
+                    }
+                }
+                _context.SaveChanges();
 
             }
         }

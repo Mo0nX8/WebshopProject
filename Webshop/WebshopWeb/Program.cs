@@ -67,6 +67,6 @@ using(var scope=app.Services.CreateScope())
     var userManager=scopedServices.GetRequiredService<IUserManager>();
     var encryptManager=scopedServices.GetRequiredService<IEncryptManager>();
     var _context = scopedServices.GetRequiredService<GlobalDbContext>();
-    DbInitializer.Seed(app,userManager,encryptManager,_context);
+    DbInitializer.Seed(app,userManager,encryptManager,_context, Path.Combine(Directory.GetCurrentDirectory(), "Data", "products.json"));
 }
 app.Run();

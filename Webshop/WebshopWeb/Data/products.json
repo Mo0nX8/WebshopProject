@@ -1,7 +1,7 @@
 [
   {
     "ProductName": "Asus ROG Delta S",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "45990",
     "Tags": [ "Gaming", "Headset" ],
     "Description": [
@@ -15,9 +15,9 @@
   },
   {
     "ProductName": "Asus TUF Gaming H3",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "18990",
-    "Tags": [],
+    "Tags": ["Gaming"],
     "Description": [
       "kategoria:Gaming",
       "tipus:Fülhallgató",
@@ -29,9 +29,9 @@
   },
   {
     "ProductName": "Marshall Monitor",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "59990",
-    "Tags": [],
+    "Tags": ["Gaming"],
     "Description": [
       "kategoria:Hordozható",
       "tipus:Felülrõl nyitott",
@@ -43,7 +43,7 @@
   },
   {
     "ProductName": "Marshall Major IV",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "37990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -56,7 +56,7 @@
   },
   {
     "ProductName": "Razer Kraken V3",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "39990",
     "Tags": [ "Gaming" ],
     "Description": [
@@ -69,7 +69,7 @@
   },
   {
     "ProductName": "Razer BlackShark V2",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "54990",
     "Tags": [ "Gaming" ],
     "Description": [
@@ -82,7 +82,7 @@
   },
   {
     "ProductName": "Sony WH-1000XM5",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "179990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -95,7 +95,7 @@
   },
   {
     "ProductName": "Sony WH-CH710N",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "39990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -108,7 +108,7 @@
   },
   {
     "ProductName": "Aula F208",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "8990",
     "Tags": [ "Gaming" ],
     "Description": [
@@ -121,7 +121,7 @@
   },
   {
     "ProductName": "Aula X-FT05",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "7990",
     "Tags": [ "Gaming" ],
     "Description": [
@@ -134,7 +134,7 @@
   },
   {
     "ProductName": "Asus ROG Strix Fusion 500",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "43990",
     "Tags": [ "Gaming" ],
     "Description": [
@@ -147,7 +147,7 @@
   },
   {
     "ProductName": "Asus ROG Theta 7.1",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "69990",
     "Tags": [ "Gaming" ],
     "Description": [
@@ -160,7 +160,7 @@
   },
   {
     "ProductName": "Marshall Mode EQ",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "14990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -173,7 +173,7 @@
   },
   {
     "ProductName": "Marshall Kilburn II",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "49990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -186,7 +186,7 @@
   },
   {
     "ProductName": "Razer Nari Ultimate",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "69990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -199,7 +199,7 @@
   },
   {
     "ProductName": "Razer Opus",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "47990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -212,7 +212,7 @@
   },
   {
     "ProductName": "Sony MDR-7506",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "39990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -225,7 +225,7 @@
   },
   {
     "ProductName": "Sony WH-XB900N",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "49990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -238,7 +238,7 @@
   },
   {
     "ProductName": "Aula F308",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "6990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -251,7 +251,7 @@
   },
   {
     "ProductName": "Aula F307",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "5990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -264,7 +264,7 @@
   },
   {
     "ProductName": "Asus ROG Centurion 7.1",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "59990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -277,7 +277,7 @@
   },
   {
     "ProductName": "Asus ROG Strix Go 2.4",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "39990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -290,7 +290,7 @@
   },
   {
     "ProductName": "Marshall Major III Bluetooth",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "34990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -303,7 +303,7 @@
   },
   {
     "ProductName": "Marshall Mid Bluetooth",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "44990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -316,7 +316,7 @@
   },
   {
     "ProductName": "Razer Kraken Tournament Edition",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "29990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -329,7 +329,7 @@
   },
   {
     "ProductName": "Razer Barracuda X",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "22990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -342,7 +342,7 @@
   },
   {
     "ProductName": "Sony WH-1000XM4",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "129990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -355,7 +355,7 @@
   },
   {
     "ProductName": "Sony MDR-XB950N1",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "44990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -368,7 +368,7 @@
   },
   {
     "ProductName": "Aula F302",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "5990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -380,7 +380,7 @@
   },
   {
     "ProductName": "Aula X-FT08",
-    "Quanity": "",
+    "Quanity": "1",
     "Price": "7990",
     "Tags": [ "Hordozható" ],
     "Description": [
@@ -393,9 +393,9 @@
   },
   {
     "ProductName": "ASUS ROG Falchion Cherry MX Red HUN (90MP01Y0-BKHA01/FALCHION/RD/HU)",
-    "Quanity": "",
-    "Price": "",
-    "Tags": [],
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Hordozható"],
     "Description": [
       "kapcsolódásTípus:Rádiófrekvenciás",
       "vezetékNélküli:Igen",
