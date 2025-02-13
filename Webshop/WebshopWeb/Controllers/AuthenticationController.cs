@@ -87,7 +87,7 @@ namespace WebshopWeb.Controllers
                         userManager.Add(user);
                         
                         cart.UserId = user.Id;
-                        cart.Products = new List<Products>();
+                        cart.CartItems = new List<CartItem>();
                         cartManager.AddCart(cart);
 
                         return RedirectToAction("Login");

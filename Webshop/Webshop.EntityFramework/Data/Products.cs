@@ -7,7 +7,8 @@
         public int ProductCount { get; set; }
         public int Price { get; set; }
         public string[] Tags { get; set; }
-        public int CartId { get; set; }
-        public ShoppingCart Cart { get; set; }
+
+
+        public ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();
     }
 }

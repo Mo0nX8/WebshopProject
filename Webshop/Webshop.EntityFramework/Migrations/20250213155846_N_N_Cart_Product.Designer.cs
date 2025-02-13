@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Webshop.EntityFramework;
 
@@ -11,9 +12,11 @@ using Webshop.EntityFramework;
 namespace Webshop.EntityFramework.Migrations
 {
     [DbContext(typeof(GlobalDbContext))]
-    partial class GlobalDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250213155846_N_N_Cart_Product")]
+    partial class N_N_Cart_Product
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,24 +24,6 @@ namespace Webshop.EntityFramework.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
-
-            modelBuilder.Entity("Webshop.EntityFramework.Data.CartItem", b =>
-                {
-                    b.Property<int>("CartId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Quanity")
-                        .HasColumnType("int");
-
-                    b.HasKey("CartId", "ProductId");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("CartItems");
-                });
 
             modelBuilder.Entity("Webshop.EntityFramework.Data.Orders", b =>
                 {
@@ -75,6 +60,9 @@ namespace Webshop.EntityFramework.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("CartId")
+                        .HasColumnType("int");
+
                     b.Property<int>("Price")
                         .HasColumnType("int");
 
@@ -90,6 +78,8 @@ namespace Webshop.EntityFramework.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CartId");
 
                     b.ToTable("StorageData");
                 });
@@ -141,25 +131,6 @@ namespace Webshop.EntityFramework.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("Webshop.EntityFramework.Data.CartItem", b =>
-                {
-                    b.HasOne("Webshop.EntityFramework.Data.ShoppingCart", "Cart")
-                        .WithMany("CartItems")
-                        .HasForeignKey("CartId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Webshop.EntityFramework.Data.Products", "Product")
-                        .WithMany("CartItems")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Cart");
-
-                    b.Navigation("Product");
-                });
-
             modelBuilder.Entity("Webshop.EntityFramework.Data.Orders", b =>
                 {
                     b.HasOne("Webshop.EntityFramework.Data.UserData", "User")
@@ -169,6 +140,17 @@ namespace Webshop.EntityFramework.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Webshop.EntityFramework.Data.Products", b =>
+                {
+                    b.HasOne("Webshop.EntityFramework.Data.ShoppingCart", "Cart")
+                        .WithMany("Products")
+                        .HasForeignKey("CartId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cart");
                 });
 
             modelBuilder.Entity("Webshop.EntityFramework.Data.ShoppingCart", b =>
@@ -182,14 +164,9 @@ namespace Webshop.EntityFramework.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Webshop.EntityFramework.Data.Products", b =>
-                {
-                    b.Navigation("CartItems");
-                });
-
             modelBuilder.Entity("Webshop.EntityFramework.Data.ShoppingCart", b =>
                 {
-                    b.Navigation("CartItems");
+                    b.Navigation("Products");
                 });
 
             modelBuilder.Entity("Webshop.EntityFramework.Data.UserData", b =>

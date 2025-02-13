@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using Webshop.Authenticator.Services.Authenticator;
 using Webshop.Authenticator.Services.Encrypt;
 using Webshop.EntityFramework;

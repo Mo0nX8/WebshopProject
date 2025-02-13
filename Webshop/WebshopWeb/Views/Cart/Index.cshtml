@@ -7,13 +7,31 @@
 
 
 
-<div class="col-1">
-    <div class="container">
-        dsa
-    </div>
-</div>
-<div class="col-2">
-    asd
-</div>
-<a href=@Url.Action("Details", "Order")>Rendelés</a>
+<h2>Bevásárlókosár</h2>
+
+@if (Model != null && Model.CartItems.Any())
+{
+    <table>
+        <tr>
+            <th>Termék neve</th>
+            <th>Ár</th>
+            <th>Mennyiség</th>
+        </tr>
+        @foreach (var item in Model.CartItems)
+        {
+            <tr>
+                <td>@item.Product.ProductName</td>
+                <td>@item.Product.Price Ft</td>
+                <td>@item.Quanity</td>
+            </tr>
+        }
+    </table>
+    <a href=@Url.Action("Details", "Order")>Rendelés</a>
+}
+else
+{
+    <p>A kosár üres.</p>
+}
+
+
 

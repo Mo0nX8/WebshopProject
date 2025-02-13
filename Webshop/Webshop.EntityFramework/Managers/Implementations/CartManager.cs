@@ -26,20 +26,60 @@ namespace Webshop.EntityFramework.Managers.Implementations
             _context.SaveChanges();
         }
 
-        public ShoppingCart GetCart(int? cartId)
+        public ShoppingCart? GetCart(int? cartId)
         {
-            return _context.Carts.FirstOrDefault(x => x.Id == cartId);
+            return _context.Carts
+                .Include(c => c.CartItems)
+                .ThenInclude(ci => ci.Product)  
+                .FirstOrDefault(c => c.Id == cartId);
+        }
+        public void AddProductsToCart(int userId, List<int> productIds)
+        {
+            var cart = _context.Carts.FirstOrDefault(c => c.UserId == userId);
+
+            if (cart == null)
+            {
+                cart = new ShoppingCart { UserId = userId };
+                _context.Carts.Add(cart);
+                _context.SaveChanges();
+            }
+
+            foreach (var productId in productIds)
+            {
+                var product = _context.StorageData.Find(productId);
+                if (product != null)
+                {
+                    var existingCartItem = _context.CartItems
+                        .FirstOrDefault(ci => ci.CartId == cart.Id && ci.ProductId == productId);
+
+                    if (existingCartItem != null)
+                    {
+                        existingCartItem.Quanity++;
+                    }
+                    else
+                    {
+                        _context.CartItems.Add(new CartItem
+                        {
+                            CartId = cart.Id,
+                            ProductId = productId,
+                            Quanity = 1
+                        });
+                    }
+                }
+            }
+
+            _context.SaveChanges();
         }
 
         public List<Products> GetProduct(int cartId)
         {
-            var cart = _context.Carts.FirstOrDefault(x => x.Id == cartId);
-            if (cart is not null && cart.Products is not null)
-            {
-                return cart.Products.ToList();
-            }
-            return new List<Products>();
+            var cart = _context.Carts
+                .Include(c => c.CartItems)
+                .ThenInclude(ci => ci.Product) 
+                .FirstOrDefault(x => x.Id == cartId);
 
+            return cart?.CartItems?.Select(ci => ci.Product).ToList() ?? new List<Products>();
         }
+
     }
 }

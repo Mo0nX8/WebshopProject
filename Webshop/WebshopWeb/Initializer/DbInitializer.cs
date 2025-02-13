@@ -28,7 +28,7 @@ namespace WebshopWeb.Initializer
                     _context.SaveChanges();
                     ShoppingCart cart = new ShoppingCart();
                     cart.UserId = user.Id;
-                    cart.Products = new List<Products>();
+                    cart.CartItems = new List<CartItem>();
                     _context.Carts.Add(cart);
                     _context.SaveChanges();
                 }
