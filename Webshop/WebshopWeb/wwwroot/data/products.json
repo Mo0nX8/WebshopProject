@@ -1,0 +1,409 @@
+[
+  {
+    "ProductName": "Asus ROG Delta S",
+    "Quanity": "",
+    "Price": "45990",
+    "Tags": [ "Gaming", "Headset" ],
+    "Description": [
+      "kategoria:Gaming",
+      "tipus:Fülhallgató",
+      "csatlakozás:USB-C, analóg",
+      "driver:50 mm-es neodymium driver",
+      "extra:ESS DAC, RGB világítás, zajszûrés"
+
+    ]
+  },
+  {
+    "ProductName": "Asus TUF Gaming H3",
+    "Quanity": "",
+    "Price": "18990",
+    "Tags": [],
+    "Description": [
+      "kategoria:Gaming",
+      "tipus:Fülhallgató",
+      "csatlakozas:3,5 mm jack",
+      "driver:50 mm-es neodymium driver",
+      "extra:kényelmes fülpárna, beépített mikrofon"
+
+    ]
+  },
+  {
+    "ProductName": "Marshall Monitor",
+    "Quanity": "",
+    "Price": "59990",
+    "Tags": [],
+    "Description": [
+      "kategoria:Hordozható",
+      "tipus:Felülrõl nyitott",
+      "csatlakozas:3,5 mm jack, Bluetooth",
+      "driver:40 mm-es driver",
+      "extra:30 órás üzemidõ, ikervezérlõ, prémium dizájn"
+
+    ]
+  },
+  {
+    "ProductName": "Marshall Major IV",
+    "Quanity": "",
+    "Price": "37990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+      "kategoria:Hordozható",
+      "tipus:Fülre illeszkedõ",
+      "csatlakozas:Bluetooth",
+      "driver:40 mm-es driver",
+      "extra:80 órás üzemidõ, gyors töltés, vezeték nélküli"
+    ]
+  },
+  {
+    "ProductName": "Razer Kraken V3",
+    "Quanity": "",
+    "Price": "39990",
+    "Tags": [ "Gaming" ],
+    "Description": [
+      "kategoria:Gaming",
+      "tipus:Fülhallgató",
+      "csatlakozas:USB, 3,5 mm jack",
+      "driver:50 mm-es Razer Triforce driver",
+      "extra:haptikus visszajelzés, RGB világítás"
+    ]
+  },
+  {
+    "ProductName": "Razer BlackShark V2",
+    "Quanity": "",
+    "Price": "54990",
+    "Tags": [ "Gaming" ],
+    "Description": [
+      "kategoria:Gaming",
+      "tipus:Fülhallgató",
+      "csatlakozas:USB, 3,5 mm jack",
+      "driver:50 mm-es TriForce driver",
+      "extra:THX Spatial Audio, erõsebb zajszûrés"
+    ]
+  },
+  {
+    "ProductName": "Sony WH-1000XM5",
+    "Quanity": "",
+    "Price": "179990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+      "kategoria:Hordozható",
+      "tipus:Fülre illeszkedõ",
+      "csatlakozas:Bluetooth",
+      "driver:Aktív zajszûrés",
+      "extra:30 órás üzemidõ, érintõvezérlés, USB-C töltés"
+    ]
+  },
+  {
+    "ProductName": "Sony WH-CH710N",
+    "Quanity": "",
+    "Price": "39990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+      "kategoria:Hordozható",
+      "tipus:Fülre illeszkedõ",
+      "csatlakozas:Bluetooth",
+      "driver:Aktív zajszûrés",
+      "extra:35 órás üzemidõ, gyors töltés"
+    ]
+  },
+  {
+    "ProductName": "Aula F208",
+    "Quanity": "",
+    "Price": "8990",
+    "Tags": [ "Gaming" ],
+    "Description": [
+      "kategoria:Gaming",
+      "tipus:Fülhallgató",
+      "csatlakozas:3,5 mm jack",
+      "driver:50 mm-es driver",
+      "extra:beépített mikrofon, RGB világítás"
+    ]
+  },
+  {
+    "ProductName": "Aula X-FT05",
+    "Quanity": "",
+    "Price": "7990",
+    "Tags": [ "Gaming" ],
+    "Description": [
+      "kategoria:Gaming",
+      "tipus:Fülhallgató",
+      "csatlakozas:3,5 mm jack",
+      "driver:40 mm-es driver",
+      "extra:kényelmes fülpárna, RGB világítás"
+    ]
+  },
+  {
+    "ProductName": "Asus ROG Strix Fusion 500",
+    "Quanity": "",
+    "Price": "43990",
+    "Tags": [ "Gaming" ],
+    "Description": [
+      "kategoria:Gaming",
+      "tipus:Fülhallgató",
+      "csatlakozas:USB",
+      "driver:50 mm-es neodymium driver",
+      "extra:virtuális 7.1-es surround, RGB világítás"
+    ]
+  },
+  {
+    "ProductName": "Asus ROG Theta 7.1",
+    "Quanity": "",
+    "Price": "69990",
+    "Tags": [ "Gaming" ],
+    "Description": [
+      "kategoria:Gaming",
+      "tipus:Fülhallgató",
+      "csatlakozas:USB",
+      "driver:7.1-es surround hangzás",
+      "extra:8 hangszóró, 100 mm-es neodymium driver"
+    ]
+  },
+  {
+    "ProductName": "Marshall Mode EQ",
+    "Quanity": "",
+    "Price": "14990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+      "kategoria:Hordozható",
+      "tipus:Fülhallgató",
+      "csatlakozas:3,5 mm jack",
+      "driver:Aktív EQ funkció",
+      "extra:kompakt kialakítás, prémium hangzás"
+    ]
+  },
+  {
+    "ProductName": "Marshall Kilburn II",
+    "Quanity": "",
+    "Price": "49990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+      "kategoria:Hordozható",
+      "tipus:Sztereó",
+      "csatlakozas:Bluetooth, 3,5 mm jack",
+      "driver:36 órás üzemidõ",
+      "extra:IPX2 vízállóság, 2 x 15 W teljesítmény"
+    ]
+  },
+  {
+    "ProductName": "Razer Nari Ultimate",
+    "Quanity": "",
+    "Price": "69990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+     "kategoria:Gaming",
+      "tipus:Fülhallgató",
+      "csatlakozas:USB, 3,5 mm jack",
+      "driver:50 mm-es Triforce driver",
+      "extra:haptikus visszajelzés, vezeték nélküli"
+    ]
+  },
+  {
+    "ProductName": "Razer Opus",
+    "Quanity": "",
+    "Price": "47990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+      "kategoria:Hordozható",
+      "tipus:Félre illeszkedõ",
+      "csatlakozas:Bluetooth",
+      "driver:Aktív zajszûrés",
+      "extra:25 órás üzemidõ, kiváló hangzás"
+    ]
+  },
+  {
+    "ProductName": "Sony MDR-7506",
+    "Quanity": "",
+    "Price": "39990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+       "kategoria:Profi",
+      "tipus:Félre illeszkedõ",
+      "csatlakozas:3,5 mm jack",
+      "driver:Zárt kialakítás",
+      "extra:kiváló hangminõség, hosszú kábel"
+    ]
+  },
+  {
+    "ProductName": "Sony WH-XB900N",
+    "Quanity": "",
+    "Price": "49990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+      "kategoria:Hordozható",
+      "tipus:Félre illeszkedõ",
+      "csatlakozas:Bluetooth",
+      "driver:Extra bass",
+      "extra:aktív zajszûrés, 30 órás üzemidõ"
+    ]
+  },
+  {
+    "ProductName": "Aula F308",
+    "Quanity": "",
+    "Price": "6990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+      "kategoria:Gaming",
+      "tipus:Fülhallgató",
+      "csatlakozas:3,5 mm jack",
+      "driver:40 mm-es driver",
+      "extra:RGB világítás, beépített mikrofon"
+    ]
+  },
+  {
+    "ProductName": "Aula F307",
+    "Quanity": "",
+    "Price": "5990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+      "kategoria:Gaming",
+      "tipus:Fülhallgató",
+      "csatlakozas:3,5 mm jack",
+      "driver:40 mm-es driver",
+      "extra:Kényelmes fülpárna, RGB világítás"
+    ]
+  },
+  {
+    "ProductName": "Asus ROG Centurion 7.1",
+    "Quanity": "",
+    "Price": "59990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+      "kategoria:Gaming",
+      "tipus:Fülhallgató",
+      "csatlakozas:USB",
+      "driver:7.1-es surround hangzás",
+      "extra:10 hangszóró, beépített mikrofon"
+    ]
+  },
+  {
+    "ProductName": "Asus ROG Strix Go 2.4",
+    "Quanity": "",
+    "Price": "39990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+       "kategoria:Gaming",
+        "tipus:Fülhallgató",
+        "csatlakozas:USB-C, 3,5 mm jack",
+        "driver:40 mm-es neodymium driver",
+        "extra:2,4 GHz vezeték nélküli kapcsolat"
+    ]
+  },
+  {
+    "ProductName": "Marshall Major III Bluetooth",
+    "Quanity": "",
+    "Price": "34990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+      "kategoria:Hordozható",
+      "tipus:Félre illeszkedõ",
+      "csatlakozas:Bluetooth",
+      "driver:40 mm-es driver",
+      "extra:30 órás üzemidõ, foldable dizájn"
+    ]
+  },
+  {
+    "ProductName": "Marshall Mid Bluetooth",
+    "Quanity": "",
+    "Price": "44990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+      "kategoria:Hordozható",
+      "tipus:Félre illeszkedõ",
+      "csatlakozas:Bluetooth",
+      "driver:40 mm-es driver",
+      "extra:30 órás üzemidõ, prémium hangzás"
+    ]
+  },
+  {
+    "ProductName": "Razer Kraken Tournament Edition",
+    "Quanity": "",
+    "Price": "29990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+      "kategoria:Gaming",
+      "tipus:Fülhallgató",
+      "csatlakozas:USB",
+      "driver:THX Spatial Audio",
+      "extra:hívás memóriahab fülpárnák, állítható mikrofon"
+    ]
+  },
+  {
+    "ProductName": "Razer Barracuda X",
+    "Quanity": "",
+    "Price": "22990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+      "kategoria:Gaming",
+      "tipus:Fülhallgató",
+      "csatlakozas:USB-C, 3,5 mm jack",
+      "driver:40 mm-es Razer TriForce driver",
+      "extra:250g súly, 20 órás üzemidõ"
+    ]
+  },
+  {
+    "ProductName": "Sony WH-1000XM4",
+    "Quanity": "",
+    "Price": "129990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+      "kategoria:Hordozható",
+      "tipus:Félre illeszkedõ",
+      "csatlakozas:Bluetooth",
+      "driver:40 mm-es driver",
+      "extra:30 órás üzemidõ, hangvezérlés,aktív zajszûrés "
+    ]
+  },
+  {
+    "ProductName": "Sony MDR-XB950N1",
+    "Quanity": "",
+    "Price": "44990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+      "kategoria:Hordozható",
+      "tipus:Félre illeszkedõ",
+      "csatlakozas:Bluetooth",
+      "driver:Extra bass",
+      "extra:aktív zajszûrés, 20 órás üzemidõ"
+    ]
+  },
+  {
+    "ProductName": "Aula F302",
+    "Quanity": "",
+    "Price": "5990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+      "kategoria:Gaming:tipus:Fülhallgató",
+      "csatlakozas:3,5 mm jack",
+      "driver:40 mm-es driver",
+      "extra:beépített mikrofon, RGB világítás"
+    ]
+  },
+  {
+    "ProductName": "Aula X-FT08",
+    "Quanity": "",
+    "Price": "7990",
+    "Tags": [ "Hordozható" ],
+    "Description": [
+      "kategoria:Gaming",
+      "tipus:Fülhallgató",
+      "csatlakozas:3,5 mm jack",
+      "driver:50 mm-es driver",
+      "extra:RGB világítás, kényelmes fülpárna"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG Falchion Cherry MX Red HUN (90MP01Y0-BKHA01/FALCHION/RD/HU)",
+    "Quanity": "",
+    "Price": "",
+    "Tags": [],
+    "Description": [
+      "kapcsolódásTípus:Rádiófrekvenciás",
+      "vezetékNélküli:Igen",
+      "elrendezés:Magyar",
+      "multimédiaBillentyûzet:Igen",
+      "háttérvilágítás:Van",
+      "mechanikus:Igen",
+      "numerikusBillentyûzet:Nincs"
+    ]
+  }
+]
