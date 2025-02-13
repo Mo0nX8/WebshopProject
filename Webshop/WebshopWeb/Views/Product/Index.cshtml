@@ -1,0 +1,25 @@
+﻿@using Webshop.EntityFramework.Data
+@model List<Products>
+
+
+    <table>
+        <thead>
+            <th>Terméknév</th>
+            <th>ár</th>
+            <th>mennyiség</th>
+        </thead>
+        <tbody>
+            @if (Model is not null)
+            {
+                @foreach (var product in Model)
+                {
+                    <tr>
+                        <td>@product.ProductName</td>
+                        <td>@product.Price</td>
+                        <td>@product.Quanity</td> 
+                    </tr>
+                }
+            }
+        </tbody>
+        
+    </table>
