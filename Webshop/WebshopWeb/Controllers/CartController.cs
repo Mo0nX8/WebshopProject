@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Webshop.EntityFramework.Data;
 using Webshop.EntityFramework.Managers.Interfaces.Cart;
 using Webshop.EntityFramework.Migrations;
 using Webshop.Services.Interfaces_For_Services;
@@ -22,7 +23,12 @@ namespace WebshopWeb.Controllers
             int? cartId = HttpContext.Session.GetInt32("CartId");
             ViewBag.IsAuthenticated = authenticationManager.IsAuthenticated;
             var cart = cartManager.GetCart(cartId);
-            var cartItems=cart.CartItems.ToList();
+            var cartItems = new List<CartItem>().ToList();
+            if (cart!=null)
+            {
+                cartItems=cart.CartItems.ToList();
+            }
+           
             ViewBag.CartId = cartId;
             return View(cartItems);
         }

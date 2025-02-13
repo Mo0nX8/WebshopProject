@@ -34,27 +34,41 @@ namespace WebshopWeb.Controllers
         }
         public IActionResult Confirm()
         {
+            Orders order = new Orders();
             var cartId = HttpContext.Session.GetInt32("CartId");
-            var cart = cartManager.GetCart(cartId);
+            var cart = _context.Carts
+                .Include(c => c.CartItems)
+                .ThenInclude(ci => ci.Product) 
+                .FirstOrDefault(c => c.Id == cartId);
+
             var price = 0;
             List<CartItem> cartItems = cart.CartItems.ToList();
+            List<OrderItem> orderItems = new List<OrderItem>();
             foreach(var item in cartItems)
             {
                 price += item.Quanity * item.Product.Price;
                 var product=productManager.GetProduct(item.ProductId);
                 product.Quanity-=item.Quanity;
                 _context.StorageData.Update(product);
+                var orderItem = new OrderItem
+                {
+                    ProductId = item.ProductId,
+                    Quantity = item.Quanity,
+                    Price = item.Product.Price
+
+                };
+                orderItems.Add(orderItem);
 
             }
+            _context.CartItems.RemoveRange(_context.CartItems.Where(c => c.CartId == cart.Id));
             cart.CartItems.Clear();
-            _context.CartItems.RemoveRange(cart.CartItems);
-            _context.SaveChanges();
+
             cart.CartItems = new List<CartItem>();
-            Orders order = new Orders();
+           
             order.DateOfOrder=DateTime.Now;
             order.UserId = Convert.ToInt32(HttpContext.Session.GetInt32("UserId"));
             order.Price =price;
-            order.OrderItems=cartItems;
+            order.OrderItems = orderItems;
             _context.Orders.Add(order);
             _context.SaveChanges();
             return View();

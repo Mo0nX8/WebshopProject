@@ -4,6 +4,8 @@ using Webshop.Services.Services.ViewModel;
 using Webshop.EntityFramework.Data;
 using Webshop.EntityFramework;
 using Webshop.Services.Interfaces_For_Services;
+using Webshop.EntityFramework.Managers.Interfaces.Order;
+using Microsoft.EntityFrameworkCore;
 
 public class HomeController : Controller
 {
@@ -11,13 +13,15 @@ public class HomeController : Controller
     private readonly IAuthenticationManager authenticationManager;
     private readonly GlobalDbContext context;
     private IEncryptManager encryptManager;
+    private IOrderManager orderManager;
 
-    public HomeController(IAuthenticationManager authenticationManager, IUserManager userManager, GlobalDbContext context, IEncryptManager encryptManager)
+    public HomeController(IAuthenticationManager authenticationManager, IUserManager userManager, GlobalDbContext context, IEncryptManager encryptManager, IOrderManager orderManager)
     {
         this.authenticationManager = authenticationManager;
         this.userManager = userManager;
         this.context = context;
         this.encryptManager = encryptManager;
+        this.orderManager = orderManager;
     }
 
     public IActionResult Index()
@@ -103,5 +107,19 @@ public class HomeController : Controller
     public PartialViewResult _ChangePasswordPartial()
     {
         return PartialView("_ChangePasswordPartial", new PasswordChangeViewModel());
+    }
+    public IActionResult MyOrders()
+    {
+        var userId = HttpContext.Session.GetInt32("UserId");
+        var orders=context.Orders
+            .Where(x => x.UserId == userId)
+            .Include(x=>x.OrderItems)
+            .ThenInclude(oi => oi.Product)
+            .ToList();
+        if(orders is null)
+        {
+            orders = new List<Orders>();
+        }
+        return View(orders);
     }
 }

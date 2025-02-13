@@ -1,0 +1,35 @@
+﻿@using Webshop.EntityFramework.Data
+@model List<Orders>
+
+@if (Model is not null && Model.Any())
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Termék neve</th>
+                <th>Mennyiség</th>
+                <th>Ár</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                if (order.OrderItems != null && order.OrderItems.Any())
+                {
+                    @foreach (var item in order.OrderItems)
+                    {
+                            <tr>
+                                <td>@item.Product.ProductName</td>
+                                <td>@item.Quantity</td>
+                                <td>@(item.Quantity * item.Product.Price) Ft</td>
+                            </tr>
+                    }
+                }
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Nincsenek rendeléseid.</p>
+}

@@ -1,8 +1,5 @@
 ﻿@using Webshop.EntityFramework.Data
 @model List<Products>
 
-@{
-
-}
 
 <a href=@Url.Action("PlaceOrder","Order", new { cartId = Context.Session.GetInt32("CartId") }))>Tovább</a>
