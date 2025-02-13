@@ -14,9 +14,12 @@
                 @foreach (var product in Model)
                 {
                     <tr>
-                        <td>@product.ProductName</td>
+
+                    <td><a href="@Url.Action("Details", "Product", new { id = product.Id })">@product.ProductName</a></td>
+                    
                         <td>@product.Price</td>
                         <td>@product.Quanity</td> 
+                        <td></td>
                     </tr>
                 }
             }

@@ -5,4 +5,4 @@
 
 }
 
-<a href=@Url.Action("PlaceOrder","Order", new { cartId = ViewData["CartId"] }))>Tovább</a>
+<a href=@Url.Action("PlaceOrder","Order", new { cartId = Context.Session.GetInt32("CartId") }))>Tovább</a>

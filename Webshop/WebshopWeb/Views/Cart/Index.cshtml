@@ -1,6 +1,6 @@
 ﻿@using Webshop.Authenticator.Services.Authenticator
 @using Webshop.EntityFramework.Data
-@model Webshop.EntityFramework.Data.ShoppingCart
+@model List<CartItem>
 @{
     var isAuthenticated = ViewBag.IsAuthenticated;
 }
@@ -9,7 +9,7 @@
 
 <h2>Bevásárlókosár</h2>
 
-@if (Model != null && Model.CartItems.Any())
+@if (Model != null && Model.Any())
 {
     <table>
         <tr>
@@ -17,7 +17,7 @@
             <th>Ár</th>
             <th>Mennyiség</th>
         </tr>
-        @foreach (var item in Model.CartItems)
+        @foreach (var item in Model)
         {
             <tr>
                 <td>@item.Product.ProductName</td>

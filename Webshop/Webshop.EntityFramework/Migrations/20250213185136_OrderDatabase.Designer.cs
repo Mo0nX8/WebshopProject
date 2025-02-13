@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Webshop.EntityFramework;
 
@@ -11,9 +12,11 @@ using Webshop.EntityFramework;
 namespace Webshop.EntityFramework.Migrations
 {
     [DbContext(typeof(GlobalDbContext))]
-    partial class GlobalDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250213185136_OrderDatabase")]
+    partial class OrderDatabase
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -30,15 +33,10 @@ namespace Webshop.EntityFramework.Migrations
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("OrdersId")
-                        .HasColumnType("int");
-
                     b.Property<int>("Quanity")
                         .HasColumnType("int");
 
                     b.HasKey("CartId", "ProductId");
-
-                    b.HasIndex("OrdersId");
 
                     b.HasIndex("ProductId");
 
@@ -158,10 +156,6 @@ namespace Webshop.EntityFramework.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Webshop.EntityFramework.Data.Orders", null)
-                        .WithMany("OrderItems")
-                        .HasForeignKey("OrdersId");
-
                     b.HasOne("Webshop.EntityFramework.Data.Products", "Product")
                         .WithMany("CartItems")
                         .HasForeignKey("ProductId")
@@ -193,11 +187,6 @@ namespace Webshop.EntityFramework.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
-                });
-
-            modelBuilder.Entity("Webshop.EntityFramework.Data.Orders", b =>
-                {
-                    b.Navigation("OrderItems");
                 });
 
             modelBuilder.Entity("Webshop.EntityFramework.Data.Products", b =>

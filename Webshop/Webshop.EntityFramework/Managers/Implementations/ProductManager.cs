@@ -24,9 +24,9 @@ namespace Webshop.EntityFramework.Managers.Implementations
             _context.SaveChanges();
         }
 
-        public IQueryable<Products> GetProduct()
+        public Products GetProduct(int id)
         {
-            return _context.StorageData.AsQueryable();
+            return _context.StorageData.FirstOrDefault(p=>p.Id==id);
         }
 
         public List<Products> GetProductPrices()

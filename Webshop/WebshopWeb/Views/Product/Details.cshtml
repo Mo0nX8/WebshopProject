@@ -1,0 +1,11 @@
+﻿@using Webshop.EntityFramework.Data
+@model Products
+
+<h1>@Model.ProductName</h1>
+
+<p><strong>Ár:</strong> @Model.Price</p>
+<p><strong>Mennyiség:</strong> @Model.Quanity</p>
+<p><strong>Leírás:</strong> @Model.Description</p> 
+<p><strong>id:</strong><@Model.Id</p>
+<a href=@Url.Action("AddToCart","Product", new { Id = Model.Id })>Kosárhoz adás</a>
+

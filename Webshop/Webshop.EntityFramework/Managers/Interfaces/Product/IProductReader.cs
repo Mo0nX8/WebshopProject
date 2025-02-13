@@ -9,7 +9,7 @@ namespace Webshop.EntityFramework.Managers.Interfaces.Product
 {
     public interface IProductReader
     {
-        IQueryable<Products> GetProduct();
+        Products GetProduct(int id);
         List<Products> GetProductPrices();
     }
 }
