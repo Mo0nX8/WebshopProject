@@ -36,7 +36,7 @@ namespace WebshopWeb.Initializer
                 }
 
 
-                var json = File.ReadAllText(path, Encoding.UTF8);
+                var json = File.ReadAllText(path, Encoding.Default);
                 var products=JsonConvert.DeserializeObject<List<Products>>(json);
                 foreach (var product in products)
                 {

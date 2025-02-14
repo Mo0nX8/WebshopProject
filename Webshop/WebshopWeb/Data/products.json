@@ -6,10 +6,10 @@
     "Tags": [ "Gaming", "Headset" ],
     "Description": [
       "kategoria:Gaming",
-      "tipus:Fülhallgató",
-      "csatlakozás:USB-C, analóg",
+      "tipus:FÃ¼lhallgatÃ³",
+      "csatlakozÃ¡s:USB-C, analÃ³g",
       "driver:50 mm-es neodymium driver",
-      "extra:ESS DAC, RGB világítás, zajszûrés"
+      "extra:ESS DAC, RGB vilÃ¡gÃ­tÃ¡s, zajszÅ±rÃ©s"
 
     ]
   },
@@ -20,10 +20,10 @@
     "Tags": ["Gaming"],
     "Description": [
       "kategoria:Gaming",
-      "tipus:Fülhallgató",
+      "tipus:FÃ¼lhallgatÃ³",
       "csatlakozas:3,5 mm jack",
       "driver:50 mm-es neodymium driver",
-      "extra:kényelmes fülpárna, beépített mikrofon"
+      "extra:kÃ©nyelmes fÃ¼lpÃ¡rna, beÃ©pÃ­tett mikrofon"
 
     ]
   },
@@ -33,11 +33,11 @@
     "Price": "59990",
     "Tags": ["Gaming"],
     "Description": [
-      "kategoria:Hordozható",
-      "tipus:Felülrõl nyitott",
+      "kategoria:HordozhatÃ³",
+      "tipus:FelÃ¼lrÅ‘l nyitott",
       "csatlakozas:3,5 mm jack, Bluetooth",
       "driver:40 mm-es driver",
-      "extra:30 órás üzemidõ, ikervezérlõ, prémium dizájn"
+      "extra:30 Ã³rÃ¡s Ã¼zemidÅ‘, ikervezÃ©rlÅ‘, prÃ©mium dizÃ¡jn"
 
     ]
   },
@@ -45,13 +45,13 @@
     "ProductName": "Marshall Major IV",
     "Quanity": "1",
     "Price": "37990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
-      "kategoria:Hordozható",
-      "tipus:Fülre illeszkedõ",
+      "kategoria:HordozhatÃ³",
+      "tipus:FÃ¼lre illeszkedÅ‘",
       "csatlakozas:Bluetooth",
       "driver:40 mm-es driver",
-      "extra:80 órás üzemidõ, gyors töltés, vezeték nélküli"
+      "extra:80 Ã³rÃ¡s Ã¼zemidÅ‘, gyors tÃ¶ltÃ©s, vezetÃ©k nÃ©lkÃ¼li"
     ]
   },
   {
@@ -61,10 +61,10 @@
     "Tags": [ "Gaming" ],
     "Description": [
       "kategoria:Gaming",
-      "tipus:Fülhallgató",
+      "tipus:FÃ¼lhallgatÃ³",
       "csatlakozas:USB, 3,5 mm jack",
       "driver:50 mm-es Razer Triforce driver",
-      "extra:haptikus visszajelzés, RGB világítás"
+      "extra:haptikus visszajelzÃ©s, RGB vilÃ¡gÃ­tÃ¡s"
     ]
   },
   {
@@ -74,36 +74,36 @@
     "Tags": [ "Gaming" ],
     "Description": [
       "kategoria:Gaming",
-      "tipus:Fülhallgató",
+      "tipus:FÃ¼lhallgatÃ³",
       "csatlakozas:USB, 3,5 mm jack",
       "driver:50 mm-es TriForce driver",
-      "extra:THX Spatial Audio, erõsebb zajszûrés"
+      "extra:THX Spatial Audio, erÅ‘sebb zajszÅ±rÃ©s"
     ]
   },
   {
     "ProductName": "Sony WH-1000XM5",
     "Quanity": "1",
     "Price": "179990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
-      "kategoria:Hordozható",
-      "tipus:Fülre illeszkedõ",
+      "kategoria:HordozhatÃ³",
+      "tipus:FÃ¼lre illeszkedÅ‘",
       "csatlakozas:Bluetooth",
-      "driver:Aktív zajszûrés",
-      "extra:30 órás üzemidõ, érintõvezérlés, USB-C töltés"
+      "driver:AktÃ­v zajszÅ±rÃ©s",
+      "extra:30 Ã³rÃ¡s Ã¼zemidÅ‘, Ã©rintÅ‘vezÃ©rlÃ©s, USB-C tÃ¶ltÃ©s"
     ]
   },
   {
     "ProductName": "Sony WH-CH710N",
     "Quanity": "1",
     "Price": "39990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
-      "kategoria:Hordozható",
-      "tipus:Fülre illeszkedõ",
+      "kategoria:HordozhatÃ³",
+      "tipus:FÃ¼lre illeszkedÅ‘",
       "csatlakozas:Bluetooth",
-      "driver:Aktív zajszûrés",
-      "extra:35 órás üzemidõ, gyors töltés"
+      "driver:AktÃ­v zajszÅ±rÃ©s",
+      "extra:35 Ã³rÃ¡s Ã¼zemidÅ‘, gyors tÃ¶ltÃ©s"
     ]
   },
   {
@@ -113,10 +113,10 @@
     "Tags": [ "Gaming" ],
     "Description": [
       "kategoria:Gaming",
-      "tipus:Fülhallgató",
+      "tipus:FÃ¼lhallgatÃ³",
       "csatlakozas:3,5 mm jack",
       "driver:50 mm-es driver",
-      "extra:beépített mikrofon, RGB világítás"
+      "extra:beÃ©pÃ­tett mikrofon, RGB vilÃ¡gÃ­tÃ¡s"
     ]
   },
   {
@@ -126,10 +126,10 @@
     "Tags": [ "Gaming" ],
     "Description": [
       "kategoria:Gaming",
-      "tipus:Fülhallgató",
+      "tipus:FÃ¼lhallgatÃ³",
       "csatlakozas:3,5 mm jack",
       "driver:40 mm-es driver",
-      "extra:kényelmes fülpárna, RGB világítás"
+      "extra:kÃ©nyelmes fÃ¼lpÃ¡rna, RGB vilÃ¡gÃ­tÃ¡s"
     ]
   },
   {
@@ -139,10 +139,10 @@
     "Tags": [ "Gaming" ],
     "Description": [
       "kategoria:Gaming",
-      "tipus:Fülhallgató",
+      "tipus:FÃ¼lhallgatÃ³",
       "csatlakozas:USB",
       "driver:50 mm-es neodymium driver",
-      "extra:virtuális 7.1-es surround, RGB világítás"
+      "extra:virtuÃ¡lis 7.1-es surround, RGB vilÃ¡gÃ­tÃ¡s"
     ]
   },
   {
@@ -152,573 +152,573 @@
     "Tags": [ "Gaming" ],
     "Description": [
       "kategoria:Gaming",
-      "tipus:Fülhallgató",
+      "tipus:FÃ¼lhallgatÃ³",
       "csatlakozas:USB",
-      "driver:7.1-es surround hangzás",
-      "extra:8 hangszóró, 100 mm-es neodymium driver"
+      "driver:7.1-es surround hangzÃ¡s",
+      "extra:8 hangszÃ³rÃ³, 100 mm-es neodymium driver"
     ]
   },
   {
     "ProductName": "Marshall Mode EQ",
     "Quanity": "1",
     "Price": "14990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
-      "kategoria:Hordozható",
-      "tipus:Fülhallgató",
+      "kategoria:HordozhatÃ³",
+      "tipus:FÃ¼lhallgatÃ³",
       "csatlakozas:3,5 mm jack",
-      "driver:Aktív EQ funkció",
-      "extra:kompakt kialakítás, prémium hangzás"
+      "driver:AktÃ­v EQ funkciÃ³",
+      "extra:kompakt kialakÃ­tÃ¡s, prÃ©mium hangzÃ¡s"
     ]
   },
   {
     "ProductName": "Marshall Kilburn II",
     "Quanity": "1",
     "Price": "49990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
-      "kategoria:Hordozható",
-      "tipus:Sztereó",
+      "kategoria:HordozhatÃ³",
+      "tipus:SztereÃ³",
       "csatlakozas:Bluetooth, 3,5 mm jack",
-      "driver:36 órás üzemidõ",
-      "extra:IPX2 vízállóság, 2 x 15 W teljesítmény"
+      "driver:36 Ã³rÃ¡s Ã¼zemidÅ‘",
+      "extra:IPX2 vÃ­zÃ¡llÃ³sÃ¡g, 2 x 15 W teljesÃ­tmÃ©ny"
     ]
   },
   {
     "ProductName": "Razer Nari Ultimate",
     "Quanity": "1",
     "Price": "69990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
      "kategoria:Gaming",
-      "tipus:Fülhallgató",
+      "tipus:FÃ¼lhallgatÃ³",
       "csatlakozas:USB, 3,5 mm jack",
       "driver:50 mm-es Triforce driver",
-      "extra:haptikus visszajelzés, vezeték nélküli"
+      "extra:haptikus visszajelzÃ©s, vezetÃ©k nÃ©lkÃ¼li"
     ]
   },
   {
     "ProductName": "Razer Opus",
     "Quanity": "1",
     "Price": "47990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
-      "kategoria:Hordozható",
-      "tipus:Félre illeszkedõ",
+      "kategoria:HordozhatÃ³",
+      "tipus:FÃ©lre illeszkedÅ‘",
       "csatlakozas:Bluetooth",
-      "driver:Aktív zajszûrés",
-      "extra:25 órás üzemidõ, kiváló hangzás"
+      "driver:AktÃ­v zajszÅ±rÃ©s",
+      "extra:25 Ã³rÃ¡s Ã¼zemidÅ‘, kivÃ¡lÃ³ hangzÃ¡s"
     ]
   },
   {
     "ProductName": "Sony MDR-7506",
     "Quanity": "1",
     "Price": "39990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
        "kategoria:Profi",
-      "tipus:Félre illeszkedõ",
+      "tipus:FÃ©lre illeszkedÅ‘",
       "csatlakozas:3,5 mm jack",
-      "driver:Zárt kialakítás",
-      "extra:kiváló hangminõség, hosszú kábel"
+      "driver:ZÃ¡rt kialakÃ­tÃ¡s",
+      "extra:kivÃ¡lÃ³ hangminÅ‘sÃ©g, hosszÃº kÃ¡bel"
     ]
   },
   {
     "ProductName": "Sony WH-XB900N",
     "Quanity": "1",
     "Price": "49990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
-      "kategoria:Hordozható",
-      "tipus:Félre illeszkedõ",
+      "kategoria:HordozhatÃ³",
+      "tipus:FÃ©lre illeszkedÅ‘",
       "csatlakozas:Bluetooth",
       "driver:Extra bass",
-      "extra:aktív zajszûrés, 30 órás üzemidõ"
+      "extra:aktÃ­v zajszÅ±rÃ©s, 30 Ã³rÃ¡s Ã¼zemidÅ‘"
     ]
   },
   {
     "ProductName": "Aula F308",
     "Quanity": "1",
     "Price": "6990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
       "kategoria:Gaming",
-      "tipus:Fülhallgató",
+      "tipus:FÃ¼lhallgatÃ³",
       "csatlakozas:3,5 mm jack",
       "driver:40 mm-es driver",
-      "extra:RGB világítás, beépített mikrofon"
+      "extra:RGB vilÃ¡gÃ­tÃ¡s, beÃ©pÃ­tett mikrofon"
     ]
   },
   {
     "ProductName": "Aula F307",
     "Quanity": "1",
     "Price": "5990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
       "kategoria:Gaming",
-      "tipus:Fülhallgató",
+      "tipus:FÃ¼lhallgatÃ³",
       "csatlakozas:3,5 mm jack",
       "driver:40 mm-es driver",
-      "extra:Kényelmes fülpárna, RGB világítás"
+      "extra:KÃ©nyelmes fÃ¼lpÃ¡rna, RGB vilÃ¡gÃ­tÃ¡s"
     ]
   },
   {
     "ProductName": "Asus ROG Centurion 7.1",
     "Quanity": "1",
     "Price": "59990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
       "kategoria:Gaming",
-      "tipus:Fülhallgató",
+      "tipus:FÃ¼lhallgatÃ³",
       "csatlakozas:USB",
-      "driver:7.1-es surround hangzás",
-      "extra:10 hangszóró, beépített mikrofon"
+      "driver:7.1-es surround hangzÃ¡s",
+      "extra:10 hangszÃ³rÃ³, beÃ©pÃ­tett mikrofon"
     ]
   },
   {
     "ProductName": "Asus ROG Strix Go 2.4",
     "Quanity": "1",
     "Price": "39990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
        "kategoria:Gaming",
-        "tipus:Fülhallgató",
+        "tipus:FÃ¼lhallgatÃ³",
         "csatlakozas:USB-C, 3,5 mm jack",
         "driver:40 mm-es neodymium driver",
-        "extra:2,4 GHz vezeték nélküli kapcsolat"
+        "extra:2,4 GHz vezetÃ©k nÃ©lkÃ¼li kapcsolat"
     ]
   },
   {
     "ProductName": "Marshall Major III Bluetooth",
     "Quanity": "1",
     "Price": "34990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
-      "kategoria:Hordozható",
-      "tipus:Félre illeszkedõ",
+      "kategoria:HordozhatÃ³",
+      "tipus:FÃ©lre illeszkedÅ‘",
       "csatlakozas:Bluetooth",
       "driver:40 mm-es driver",
-      "extra:30 órás üzemidõ, foldable dizájn"
+      "extra:30 Ã³rÃ¡s Ã¼zemidÅ‘, foldable dizÃ¡jn"
     ]
   },
   {
     "ProductName": "Marshall Mid Bluetooth",
     "Quanity": "1",
     "Price": "44990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
-      "kategoria:Hordozható",
-      "tipus:Félre illeszkedõ",
+      "kategoria:HordozhatÃ³",
+      "tipus:FÃ©lre illeszkedÅ‘",
       "csatlakozas:Bluetooth",
       "driver:40 mm-es driver",
-      "extra:30 órás üzemidõ, prémium hangzás"
+      "extra:30 Ã³rÃ¡s Ã¼zemidÅ‘, prÃ©mium hangzÃ¡s"
     ]
   },
   {
     "ProductName": "Razer Kraken Tournament Edition",
     "Quanity": "1",
     "Price": "29990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
       "kategoria:Gaming",
-      "tipus:Fülhallgató",
+      "tipus:FÃ¼lhallgatÃ³",
       "csatlakozas:USB",
       "driver:THX Spatial Audio",
-      "extra:hívás memóriahab fülpárnák, állítható mikrofon"
+      "extra:hÃ­vÃ¡s memÃ³riahab fÃ¼lpÃ¡rnÃ¡k, Ã¡llÃ­thatÃ³ mikrofon"
     ]
   },
   {
     "ProductName": "Razer Barracuda X",
     "Quanity": "1",
     "Price": "22990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
       "kategoria:Gaming",
-      "tipus:Fülhallgató",
+      "tipus:FÃ¼lhallgatÃ³",
       "csatlakozas:USB-C, 3,5 mm jack",
       "driver:40 mm-es Razer TriForce driver",
-      "extra:250g súly, 20 órás üzemidõ"
+      "extra:250g sÃºly, 20 Ã³rÃ¡s Ã¼zemidÅ‘"
     ]
   },
   {
     "ProductName": "Sony WH-1000XM4",
     "Quanity": "1",
     "Price": "129990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
-      "kategoria:Hordozható",
-      "tipus:Félre illeszkedõ",
+      "kategoria:HordozhatÃ³",
+      "tipus:FÃ©lre illeszkedÅ‘",
       "csatlakozas:Bluetooth",
       "driver:40 mm-es driver",
-      "extra:30 órás üzemidõ, hangvezérlés,aktív zajszûrés "
+      "extra:30 Ã³rÃ¡s Ã¼zemidÅ‘, hangvezÃ©rlÃ©s,aktÃ­v zajszÅ±rÃ©s "
     ]
   },
   {
     "ProductName": "Sony MDR-XB950N1",
     "Quanity": "1",
     "Price": "44990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
-      "kategoria:Hordozható",
-      "tipus:Félre illeszkedõ",
+      "kategoria:HordozhatÃ³",
+      "tipus:FÃ©lre illeszkedÅ‘",
       "csatlakozas:Bluetooth",
       "driver:Extra bass",
-      "extra:aktív zajszûrés, 20 órás üzemidõ"
+      "extra:aktÃ­v zajszÅ±rÃ©s, 20 Ã³rÃ¡s Ã¼zemidÅ‘"
     ]
   },
   {
     "ProductName": "Aula F302",
     "Quanity": "1",
     "Price": "5990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
-      "kategoria:Gaming:tipus:Fülhallgató",
+      "kategoria:Gaming:tipus:FÃ¼lhallgatÃ³",
       "csatlakozas:3,5 mm jack",
       "driver:40 mm-es driver",
-      "extra:beépített mikrofon, RGB világítás"
+      "extra:beÃ©pÃ­tett mikrofon, RGB vilÃ¡gÃ­tÃ¡s"
     ]
   },
   {
     "ProductName": "Aula X-FT08",
     "Quanity": "1",
     "Price": "7990",
-    "Tags": [ "Hordozható" ],
+    "Tags": [ "HordozhatÃ³" ],
     "Description": [
       "kategoria:Gaming",
-      "tipus:Fülhallgató",
+      "tipus:FÃ¼lhallgatÃ³",
       "csatlakozas:3,5 mm jack",
       "driver:50 mm-es driver",
-      "extra:RGB világítás, kényelmes fülpárna"
+      "extra:RGB vilÃ¡gÃ­tÃ¡s, kÃ©nyelmes fÃ¼lpÃ¡rna"
     ]
   },
   {
     "ProductName": "ASUS ROG Falchion Cherry MX Red HUN (90MP01Y0-BKHA01/FALCHION/RD/HU)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-      "kapcsolódásTípus:Rádiófrekvenciás",
-      "vezetékNélküli:Igen",
-      "elrendezés:Magyar",
-      "multimédiaBillentyûzet:Igen",
-      "háttérvilágítás:Van",
+      "kapcsolÃ³dÃ¡sTÃ­pus:RÃ¡diÃ³frekvenciÃ¡s",
+      "vezetÃ©kNÃ©lkÃ¼li:Igen",
+      "elrendezÃ©s:Magyar",
+      "multimÃ©diabillentyuzet:Igen",
+      "hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Van",
       "mechanikus:Igen",
-      "numerikusBillentyûzet:Nincs"
+      "numerikusbillentyuzet:Nincs"
     ]
   },
   {
     "ProductName": "ASUS TUF Gaming K1 HU (90MP01X0-BKHA00)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-      "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiaBillentyûzet:Igen",
-		"háttérvilágítás:Van",
+      "kapcsolÃ³dÃ¡sTÃ­pus:USB",
+		"vezetÃ©kNÃ©lkÃ¼li:Nem",
+		"elrendezÃ©s:Magyar",
+		"multimÃ©diabillentyuzet:Igen",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Van",
 		"mechanikus:Nem",
-		"numerikusBillentyûzet:Van"
+		"numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "ASUS ROG Strix Scope II 96",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-      "kapcsolódásTípus:USB",
-		"vezetékNélküli:Igen",
-		"elrendezés:Magyar",
-		"multimédiaBillentyûzet:Nem",
-		"háttérvilágítás:Van",
+      "kapcsolÃ³dÃ¡sTÃ­pus:USB",
+		"vezetÃ©kNÃ©lkÃ¼li:Igen",
+		"elrendezÃ©s:Magyar",
+		"multimÃ©diabillentyuzet:Nem",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Van",
 		"mechanikus:Igen",
-		"numerikusBillentyûzet:Van"
+		"numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "ASUS ROG Claymore II RGB RX HU (90MP01W0-BKHA00)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiaBillentyûzet:Igen",
-		"háttérvilágítás:Van",
+       "kapcsolÃ³dÃ¡sTÃ­pus:USB",
+		"vezetÃ©kNÃ©lkÃ¼li:Nem",
+		"elrendezÃ©s:Magyar",
+		"multimÃ©diabillentyuzet:Igen",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Van",
 		"mechanikus:Igen",
-		"numerikusBillentyûzet:Van"
+		"numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "ASUS ROG Azoth M701 (AZOTH/NXRD/HU)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-       "kapcsolódásTípus:Bluetooth/Rádiófrekvenciás/USB",
-		"vezetékNélküli:Igen",
-		"elrendezés:Magyar",
-		"multimédiaBillentyûzet:Nem",
-		"háttérvilágítás:Van",
+       "kapcsolÃ³dÃ¡sTÃ­pus:Bluetooth/RÃ¡diÃ³frekvenciÃ¡s/USB",
+		"vezetÃ©kNÃ©lkÃ¼li:Igen",
+		"elrendezÃ©s:Magyar",
+		"multimÃ©diabillentyuzet:Nem",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Van",
 		"mechanikus:Igen",
-		"numerikusBillentyûzet:Nincs"
+		"numerikusbillentyuzet:Nincs"
     ]
   },
   {
     "ProductName": "ASUS KW100 (90XB0880-BKB040)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-      "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiaBillentyûzet:Igen",
-		"háttérvilágítás:Nincs",
+      "kapcsolÃ³dÃ¡sTÃ­pus:USB",
+		"vezetÃ©kNÃ©lkÃ¼li:Nem",
+		"elrendezÃ©s:Magyar",
+		"multimÃ©diabillentyuzet:Igen",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Nincs",
 		"mechanikus:Nem",
-		"numerikusBillentyûzet:Nincs"
+		"numerikusbillentyuzet:Nincs"
     ]
   },
   {
     "ProductName": "ASUS TUF Gaming K3 II RO (90MP0390-BKHA00)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiaBillentyûzet:Igen",
-		"háttérvilágítás:Van",
+       "kapcsolÃ³dÃ¡sTÃ­pus:USB",
+		"vezetÃ©kNÃ©lkÃ¼li:Nem",
+		"elrendezÃ©s:Magyar",
+		"multimÃ©diabillentyuzet:Igen",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Van",
 		"mechanikus:Nem",
-		"numerikusBillentyûzet:Nincs"
+		"numerikusbillentyuzet:Nincs"
     ]
   },
   {
     "ProductName": "ASUS ROG Azoth Extreme Hot-Swappable (90MP03MA-BKUA01)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-       "kapcsolódásTípus:Bluetooth/USB",
-		"vezetékNélküli:Igen",
-		"elrendezés:Magyar",
-		"multimédiaBillentyûzet:Nem",
-		"háttérvilágítás:Van",
+       "kapcsolÃ³dÃ¡sTÃ­pus:Bluetooth/USB",
+		"vezetÃ©kNÃ©lkÃ¼li:Igen",
+		"elrendezÃ©s:Magyar",
+		"multimÃ©diabillentyuzet:Nem",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Van",
 		"mechanikus:Igen",
-		"numerikusBillentyûzet:Nincs"
+		"numerikusbillentyuzet:Nincs"
     ]
   },
   {
     "ProductName": "Logitech MX Keys S (920-011587-HU)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-      "kapcsolódásTípus:Bluetooth",
-		"vezetékNélküli:Igen",
-		"elrendezés:Magyar",
-		"multimédiaBillentyûzet:Igen",
-		"háttérvilágítás:Van",
+      "kapcsolÃ³dÃ¡sTÃ­pus:Bluetooth",
+		"vezetÃ©kNÃ©lkÃ¼li:Igen",
+		"elrendezÃ©s:Magyar",
+		"multimÃ©diabillentyuzet:Igen",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Van",
 		"mechanikus:Nem",
-		"numerikusBillentyûzet:Van"
+		"numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "Logitech K400 Plus HU (920-007157)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-      "kapcsolódásTípus:USB",
-		"vezetékNélküli:Igen",
-		"elrendezés:Magyar",
-		"multimédiaBillentyûzet:Igen",
-		"háttérvilágítás:Nincs",
+      "kapcsolÃ³dÃ¡sTÃ­pus:USB",
+		"vezetÃ©kNÃ©lkÃ¼li:Igen",
+		"elrendezÃ©s:Magyar",
+		"multimÃ©diabillentyuzet:Igen",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Nincs",
 		"mechanikus:Nem",
-		"numerikusBillentyûzet:Nincs"
+		"numerikusbillentyuzet:Nincs"
     ]
   },
   {
     "ProductName": "Logitech MX Keys S (920-011589)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-      "kapcsolódásTípus:Bluetooth",
-		"vezetékNélküli:Igen",
-		"elrendezés:Angol (Amerikai)",
-		"multimédiaBillentyûzet:Igen",
-		"háttérvilágítás:Van",
+      "kapcsolÃ³dÃ¡sTÃ­pus:Bluetooth",
+		"vezetÃ©kNÃ©lkÃ¼li:Igen",
+		"elrendezÃ©s:Angol (Amerikai)",
+		"multimÃ©diabillentyuzet:Igen",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Van",
 		"mechanikus:Nem",
-		"numerikusBillentyûzet:Van"
+		"numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "Logitech G PRO GX Clicky (920-009392)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Angol (Amerikai)",
-		"multimédiaBillentyûzet:Igen",
-		"háttérvilágítás:Van",
+       "kapcsolÃ³dÃ¡sTÃ­pus:USB",
+		"vezetÃ©kNÃ©lkÃ¼li:Nem",
+		"elrendezÃ©s:Angol (Amerikai)",
+		"multimÃ©diabillentyuzet:Igen",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Van",
 		"mechanikus:Igen",
-		"numerikusBillentyûzet:Nincs"
+		"numerikusbillentyuzet:Nincs"
     ]
   },
   {
     "ProductName": "Logitech K120 HU (920-002491)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-      "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiaBillentyûzet:Nem",
-		"háttérvilágítás:Nincs",
+      "kapcsolÃ³dÃ¡sTÃ­pus:USB",
+		"vezetÃ©kNÃ©lkÃ¼li:Nem",
+		"elrendezÃ©s:Magyar",
+		"multimÃ©diabillentyuzet:Nem",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Nincs",
 		"mechanikus:Nem",
-		"numerikusBillentyûzet:Van"
+		"numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "Logitech G915 TKL GL Tactile US (920-009503)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-      "kapcsolódásTípus:USB",
-		"vezetékNélküli:Igen",
-		"elrendezés:Angol (Amerikai)",
-		"multimédiaBillentyûzet:Igen",
-		"háttérvilágítás:Van",
+      "kapcsolÃ³dÃ¡sTÃ­pus:USB",
+		"vezetÃ©kNÃ©lkÃ¼li:Igen",
+		"elrendezÃ©s:Angol (Amerikai)",
+		"multimÃ©diabillentyuzet:Igen",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Van",
 		"mechanikus:Igen",
-		"numerikusBillentyûzet:Nincs"
+		"numerikusbillentyuzet:Nincs"
     ]
   },
   {
     "ProductName": "Logitech G Pro X TKL (920-012148)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-      "kapcsolódásTípus:Bluetooth",
-		"vezetékNélküli:Igen",
-		"elrendezés:Angol (Amerikai)",
-		"multimédiaBillentyûzet:Igen",
-		"háttérvilágítás:Van",
+      "kapcsolÃ³dÃ¡sTÃ­pus:Bluetooth",
+		"vezetÃ©kNÃ©lkÃ¼li:Igen",
+		"elrendezÃ©s:Angol (Amerikai)",
+		"multimÃ©diabillentyuzet:Igen",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Van",
 		"mechanikus:Igen",
-		"numerikusBillentyûzet:Nincs"
+		"numerikusbillentyuzet:Nincs"
     ]
   },
   {
     "ProductName": "Genius Scorpion K215",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-      "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiaBillentyûzet:Igen",
-		"háttérvilágítás:Van",
+      "kapcsolÃ³dÃ¡sTÃ­pus:USB",
+		"vezetÃ©kNÃ©lkÃ¼li:Nem",
+		"elrendezÃ©s:Magyar",
+		"multimÃ©diabillentyuzet:Igen",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Van",
 		"mechanikus:Nem",
-		"numerikusBillentyûzet:Van"
+		"numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "Genius SlimStar 126 HU (31310017404)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-      "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiaBillentyûzet:Igen",
-		"háttérvilágítás:Nincs",
+      "kapcsolÃ³dÃ¡sTÃ­pus:USB",
+		"vezetÃ©kNÃ©lkÃ¼li:Nem",
+		"elrendezÃ©s:Magyar",
+		"multimÃ©diabillentyuzet:Igen",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Nincs",
 		"mechanikus:Nem",
-		"numerikusBillentyûzet:Van"
+		"numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "Genius Scorpion K11 Pro (31310007403)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiaBillentyûzet:Igen",
-		"háttérvilágítás:Van",
+       "kapcsolÃ³dÃ¡sTÃ­pus:USB",
+		"vezetÃ©kNÃ©lkÃ¼li:Nem",
+		"elrendezÃ©s:Magyar",
+		"multimÃ©diabillentyuzet:Igen",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Van",
 		"mechanikus:Nem",
-		"numerikusBillentyûzet:Van"
+		"numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "Genius GW470KB",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-      "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiaBillentyûzet:Igen",
-		"háttérvilágítás:Van",
+      "kapcsolÃ³dÃ¡sTÃ­pus:USB",
+		"vezetÃ©kNÃ©lkÃ¼li:Nem",
+		"elrendezÃ©s:Magyar",
+		"multimÃ©diabillentyuzet:Igen",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Van",
 		"mechanikus:Nem",
-		"numerikusBillentyûzet:Van"
+		"numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "Genius KB-117 HU (31310016404)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-      "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiaBillentyûzet:Nem",
-		"háttérvilágítás:Nincs",
+      "kapcsolÃ³dÃ¡sTÃ­pus:USB",
+		"vezetÃ©kNÃ©lkÃ¼li:Nem",
+		"elrendezÃ©s:Magyar",
+		"multimÃ©diabillentyuzet:Nem",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Nincs",
 		"mechanikus:Nem",
-		"numerikusBillentyûzet:Van"
+		"numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "Genius Slimstar 280 HU (31310012414)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiaBillentyûzet:Igen",
-		"háttérvilágítás:Nincs",
+       "kapcsolÃ³dÃ¡sTÃ­pus:USB",
+		"vezetÃ©kNÃ©lkÃ¼li:Nem",
+		"elrendezÃ©s:Magyar",
+		"multimÃ©diabillentyuzet:Igen",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Nincs",
 		"mechanikus:Nem",
-		"numerikusBillentyûzet:Van"
+		"numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "SteelSeries Apex Pro Mini (64820)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Billentyûzet"],
+    "Tags": ["billentyuzet"],
     "Description": [
-      "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Angol (Brit)",
-		"multimédiaBillentyûzet:Igen",
-		"háttérvilágítás:Van",
+      "kapcsolÃ³dÃ¡sTÃ­pus:USB",
+		"vezetÃ©kNÃ©lkÃ¼li:Nem",
+		"elrendezÃ©s:Angol (Brit)",
+		"multimÃ©diabillentyuzet:Igen",
+		"hÃ¡ttÃ©rvilÃ¡gÃ­tÃ¡s:Van",
 		"mechanikus:Igen",
-		"numerikusBillentyûzet:Nincs"
+		"numerikusbillentyuzet:Nincs"
     ]
   },
 ]

@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
+using System.Text.Json;
 using Webshop.Authenticator.Services.Authenticator;
 using Webshop.Authenticator.Services.Encrypt;
 using Webshop.EntityFramework;
@@ -16,7 +18,12 @@ using WebshopWeb.Initializer;
 var builder = WebApplication.CreateBuilder(args);
 
 
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.PropertyNamingPolicy=JsonNamingPolicy.CamelCase;
+    });
+
 builder.Services.AddDbContext<GlobalDbContext>();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
