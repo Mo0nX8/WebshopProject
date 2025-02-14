@@ -6,5 +6,13 @@
 <p><strong>Ár:</strong> @Model.Price</p>
 <p><strong>Mennyiség:</strong> @Model.Quanity</p>
 <p><strong>Leírás:</strong> @Model.Description</p> 
-<a href=@Url.Action("AddToCart","Product", new { Id = Model.Id })>Kosárhoz adás</a>
+@if(Model.Quanity>0)
+{
+    <a href=@Url.Action("AddToCart","Product", new { Id = Model.Id })>Kosárhoz adás</a>
+
+}
+else
+{
+    <p>Nincs raktáron</p>
+}
 
