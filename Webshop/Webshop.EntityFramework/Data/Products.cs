@@ -1,13 +1,25 @@
-﻿namespace Webshop.EntityFramework.Data
+﻿using Newtonsoft.Json;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Webshop.EntityFramework.Data
 {
     public class Products
     {
         public int Id { get; set; }
+        [Column(TypeName = "nvarchar(1000)")]
         public string ProductName { get; set; }
         public int Quanity { get; set; }
         public int Price { get; set; }
+        [Column(TypeName = "nvarchar(1000)")]
         public string[] Tags { get; set; }
-        public string[] Description { get; set; }
+        [Column(TypeName = "nvarchar(MAX)")]
+        public string DescriptionSerialized { get; set; }
+        [NotMapped]
+        public string[] Description
+        {
+            get => string.IsNullOrEmpty(DescriptionSerialized)? new string[0] : JsonConvert.DeserializeObject<string[]>(DescriptionSerialized);
+            set =>DescriptionSerialized=JsonConvert.SerializeObject(value);
+        }
 
 
         public ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();

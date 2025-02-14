@@ -63,5 +63,24 @@ namespace WebshopWeb.Controllers
             _context.SaveChanges();
             return RedirectToAction("Index", "Cart",cart.CartItems.ToList());
         }
+        public IActionResult Search(string searchValue)
+        {
+            var products = _context.StorageData
+                .Where(x => EF.Functions.Collate(x.ProductName, "Latin1_General_CI_AI")
+                            .Contains(searchValue.ToLower()) ||
+                            x.Tags.Any(t => EF.Functions.Collate(t, "Latin1_General_CI_AI")
+                                          .Contains(searchValue.ToLower())))
+                .ToList();
+
+            if (products.Count < 1)
+            {
+                products = _context.StorageData.ToList();
+            }
+
+            return View("Index", products);
+        }
+
+
+
     }
 }

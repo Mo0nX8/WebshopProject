@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System.Text;
 using Webshop.EntityFramework;
 using Webshop.EntityFramework.Data;
 using Webshop.EntityFramework.Managers.Implementations;
@@ -35,13 +36,14 @@ namespace WebshopWeb.Initializer
                 }
 
 
-                var json = File.ReadAllText(path);
+                var json = File.ReadAllText(path, Encoding.UTF8);
                 var products=JsonConvert.DeserializeObject<List<Products>>(json);
                 foreach (var product in products)
                 {
                     var existingProduct = _context.StorageData.FirstOrDefault(p => p.ProductName == product.ProductName);
                     if (existingProduct is null)
                     {
+                        product.DescriptionSerialized=JsonConvert.SerializeObject(product.Description);
                         _context.StorageData.Add(product);
                     }
                 }

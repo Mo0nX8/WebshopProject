@@ -1,4 +1,6 @@
-﻿namespace Webshop.EntityFramework.Data
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Webshop.EntityFramework.Data
 {
     public class Orders
     {

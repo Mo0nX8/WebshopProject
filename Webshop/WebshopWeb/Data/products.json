@@ -395,7 +395,7 @@
     "ProductName": "ASUS ROG Falchion Cherry MX Red HUN (90MP01Y0-BKHA01/FALCHION/RD/HU)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["Hordozható"],
+    "Tags": ["Billentyûzet"],
     "Description": [
       "kapcsolódásTípus:Rádiófrekvenciás",
       "vezetékNélküli:Igen",
@@ -405,5 +405,320 @@
       "mechanikus:Igen",
       "numerikusBillentyûzet:Nincs"
     ]
-  }
+  },
+  {
+    "ProductName": "ASUS TUF Gaming K1 HU (90MP01X0-BKHA00)",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+      "kapcsolódásTípus:USB",
+		"vezetékNélküli:Nem",
+		"elrendezés:Magyar",
+		"multimédiaBillentyûzet:Igen",
+		"háttérvilágítás:Van",
+		"mechanikus:Nem",
+		"numerikusBillentyûzet:Van"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG Strix Scope II 96",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+      "kapcsolódásTípus:USB",
+		"vezetékNélküli:Igen",
+		"elrendezés:Magyar",
+		"multimédiaBillentyûzet:Nem",
+		"háttérvilágítás:Van",
+		"mechanikus:Igen",
+		"numerikusBillentyûzet:Van"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG Claymore II RGB RX HU (90MP01W0-BKHA00)",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+       "kapcsolódásTípus:USB",
+		"vezetékNélküli:Nem",
+		"elrendezés:Magyar",
+		"multimédiaBillentyûzet:Igen",
+		"háttérvilágítás:Van",
+		"mechanikus:Igen",
+		"numerikusBillentyûzet:Van"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG Azoth M701 (AZOTH/NXRD/HU)",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+       "kapcsolódásTípus:Bluetooth/Rádiófrekvenciás/USB",
+		"vezetékNélküli:Igen",
+		"elrendezés:Magyar",
+		"multimédiaBillentyûzet:Nem",
+		"háttérvilágítás:Van",
+		"mechanikus:Igen",
+		"numerikusBillentyûzet:Nincs"
+    ]
+  },
+  {
+    "ProductName": "ASUS KW100 (90XB0880-BKB040)",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+      "kapcsolódásTípus:USB",
+		"vezetékNélküli:Nem",
+		"elrendezés:Magyar",
+		"multimédiaBillentyûzet:Igen",
+		"háttérvilágítás:Nincs",
+		"mechanikus:Nem",
+		"numerikusBillentyûzet:Nincs"
+    ]
+  },
+  {
+    "ProductName": "ASUS TUF Gaming K3 II RO (90MP0390-BKHA00)",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+       "kapcsolódásTípus:USB",
+		"vezetékNélküli:Nem",
+		"elrendezés:Magyar",
+		"multimédiaBillentyûzet:Igen",
+		"háttérvilágítás:Van",
+		"mechanikus:Nem",
+		"numerikusBillentyûzet:Nincs"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG Azoth Extreme Hot-Swappable (90MP03MA-BKUA01)",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+       "kapcsolódásTípus:Bluetooth/USB",
+		"vezetékNélküli:Igen",
+		"elrendezés:Magyar",
+		"multimédiaBillentyûzet:Nem",
+		"háttérvilágítás:Van",
+		"mechanikus:Igen",
+		"numerikusBillentyûzet:Nincs"
+    ]
+  },
+  {
+    "ProductName": "Logitech MX Keys S (920-011587-HU)",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+      "kapcsolódásTípus:Bluetooth",
+		"vezetékNélküli:Igen",
+		"elrendezés:Magyar",
+		"multimédiaBillentyûzet:Igen",
+		"háttérvilágítás:Van",
+		"mechanikus:Nem",
+		"numerikusBillentyûzet:Van"
+    ]
+  },
+  {
+    "ProductName": "Logitech K400 Plus HU (920-007157)",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+      "kapcsolódásTípus:USB",
+		"vezetékNélküli:Igen",
+		"elrendezés:Magyar",
+		"multimédiaBillentyûzet:Igen",
+		"háttérvilágítás:Nincs",
+		"mechanikus:Nem",
+		"numerikusBillentyûzet:Nincs"
+    ]
+  },
+  {
+    "ProductName": "Logitech MX Keys S (920-011589)",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+      "kapcsolódásTípus:Bluetooth",
+		"vezetékNélküli:Igen",
+		"elrendezés:Angol (Amerikai)",
+		"multimédiaBillentyûzet:Igen",
+		"háttérvilágítás:Van",
+		"mechanikus:Nem",
+		"numerikusBillentyûzet:Van"
+    ]
+  },
+  {
+    "ProductName": "Logitech G PRO GX Clicky (920-009392)",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+       "kapcsolódásTípus:USB",
+		"vezetékNélküli:Nem",
+		"elrendezés:Angol (Amerikai)",
+		"multimédiaBillentyûzet:Igen",
+		"háttérvilágítás:Van",
+		"mechanikus:Igen",
+		"numerikusBillentyûzet:Nincs"
+    ]
+  },
+  {
+    "ProductName": "Logitech K120 HU (920-002491)",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+      "kapcsolódásTípus:USB",
+		"vezetékNélküli:Nem",
+		"elrendezés:Magyar",
+		"multimédiaBillentyûzet:Nem",
+		"háttérvilágítás:Nincs",
+		"mechanikus:Nem",
+		"numerikusBillentyûzet:Van"
+    ]
+  },
+  {
+    "ProductName": "Logitech G915 TKL GL Tactile US (920-009503)",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+      "kapcsolódásTípus:USB",
+		"vezetékNélküli:Igen",
+		"elrendezés:Angol (Amerikai)",
+		"multimédiaBillentyûzet:Igen",
+		"háttérvilágítás:Van",
+		"mechanikus:Igen",
+		"numerikusBillentyûzet:Nincs"
+    ]
+  },
+  {
+    "ProductName": "Logitech G Pro X TKL (920-012148)",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+      "kapcsolódásTípus:Bluetooth",
+		"vezetékNélküli:Igen",
+		"elrendezés:Angol (Amerikai)",
+		"multimédiaBillentyûzet:Igen",
+		"háttérvilágítás:Van",
+		"mechanikus:Igen",
+		"numerikusBillentyûzet:Nincs"
+    ]
+  },
+  {
+    "ProductName": "Genius Scorpion K215",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+      "kapcsolódásTípus:USB",
+		"vezetékNélküli:Nem",
+		"elrendezés:Magyar",
+		"multimédiaBillentyûzet:Igen",
+		"háttérvilágítás:Van",
+		"mechanikus:Nem",
+		"numerikusBillentyûzet:Van"
+    ]
+  },
+  {
+    "ProductName": "Genius SlimStar 126 HU (31310017404)",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+      "kapcsolódásTípus:USB",
+		"vezetékNélküli:Nem",
+		"elrendezés:Magyar",
+		"multimédiaBillentyûzet:Igen",
+		"háttérvilágítás:Nincs",
+		"mechanikus:Nem",
+		"numerikusBillentyûzet:Van"
+    ]
+  },
+  {
+    "ProductName": "Genius Scorpion K11 Pro (31310007403)",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+       "kapcsolódásTípus:USB",
+		"vezetékNélküli:Nem",
+		"elrendezés:Magyar",
+		"multimédiaBillentyûzet:Igen",
+		"háttérvilágítás:Van",
+		"mechanikus:Nem",
+		"numerikusBillentyûzet:Van"
+    ]
+  },
+  {
+    "ProductName": "Genius GW470KB",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+      "kapcsolódásTípus:USB",
+		"vezetékNélküli:Nem",
+		"elrendezés:Magyar",
+		"multimédiaBillentyûzet:Igen",
+		"háttérvilágítás:Van",
+		"mechanikus:Nem",
+		"numerikusBillentyûzet:Van"
+    ]
+  },
+  {
+    "ProductName": "Genius KB-117 HU (31310016404)",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+      "kapcsolódásTípus:USB",
+		"vezetékNélküli:Nem",
+		"elrendezés:Magyar",
+		"multimédiaBillentyûzet:Nem",
+		"háttérvilágítás:Nincs",
+		"mechanikus:Nem",
+		"numerikusBillentyûzet:Van"
+    ]
+  },
+  {
+    "ProductName": "Genius Slimstar 280 HU (31310012414)",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+       "kapcsolódásTípus:USB",
+		"vezetékNélküli:Nem",
+		"elrendezés:Magyar",
+		"multimédiaBillentyûzet:Igen",
+		"háttérvilágítás:Nincs",
+		"mechanikus:Nem",
+		"numerikusBillentyûzet:Van"
+    ]
+  },
+  {
+    "ProductName": "SteelSeries Apex Pro Mini (64820)",
+    "Quanity": "1",
+    "Price": "43190",
+    "Tags": ["Billentyûzet"],
+    "Description": [
+      "kapcsolódásTípus:USB",
+		"vezetékNélküli:Nem",
+		"elrendezés:Angol (Brit)",
+		"multimédiaBillentyûzet:Igen",
+		"háttérvilágítás:Van",
+		"mechanikus:Igen",
+		"numerikusBillentyûzet:Nincs"
+    ]
+  },
 ]

@@ -27,6 +27,15 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <input type="text" id="search" placeholder="Keresés" alt="Keresés" name="searchValue"/> 
+                <script>
+                    function searchProduct() 
+                    {
+                        var searchValue = document.getElementById("search").value;
+                        window.location.href = '@Url.Action("Search", "Product")' + '?searchValue=' + encodeURIComponent(searchValue);
+                    }
+                </script>
+                <a href="#" onclick="searchProduct()"><i class="bi bi-search"></i></a>
                 <div class="collapse navbar-collapse" id="navbarNav" >
                         <div class="dropdown ms-auto" >
                         <a href=@Url.Action("Index","Cart")><button class="btn btn-secondary" id="CartButton" style="background-color:red"><i class="bi bi-cart"></i></button></a>
