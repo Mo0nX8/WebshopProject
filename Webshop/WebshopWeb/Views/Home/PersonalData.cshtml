@@ -2,14 +2,19 @@
 @using Webshop.Services.Services.ViewModel
 @model PersonalDataViewModel
 
-
-
-
-<h1>Felhasználói adatok</h1>
-<h3>Felhasználónév: @Model.UserName</h3>
-<h3>Email cím: @Model.Email</h3>
-
-@Html.Partial("_ChangePasswordPartial", new PasswordChangeViewModel())
-
-
-
+<div class="row justify-content-center">
+    <div class="col-auto">
+        <h1>Felhasználói adatok</h1>
+        </<div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <h3>Felhasználónév: @Model.UserName</h3>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <h3>Email cím: @Model.Email</h3>
+            </div>
+        </div>
+        @Html.Partial("_ChangePasswordPartial", new PasswordChangeViewModel())
