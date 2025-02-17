@@ -10,6 +10,9 @@ using Webshop.Services.Interfaces_For_Services;
 
 namespace Webshop.Services.Services.Validators.Implementations
 {
+    /// <summary>
+    /// This is the implementation of UserValidation for IValidationManager. Checks the availablity of username in database and the correctivity of the username.
+    /// </summary>
     public class UsernameValidator : IValidationManager
     {
         private IUserManager userManager;

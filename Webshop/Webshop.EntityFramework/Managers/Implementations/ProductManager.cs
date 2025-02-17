@@ -9,6 +9,9 @@ using Webshop.EntityFramework.Managers.Interfaces.Product;
 
 namespace Webshop.EntityFramework.Managers.Implementations
 {
+    /// <summary>
+    /// This is the implementation for IProductManager.
+    /// </summary>
     public class ProductManager : IProductManager
     {
         private GlobalDbContext _context;

@@ -8,6 +8,9 @@ using Webshop.EntityFramework.Managers.Interfaces.Order;
 
 namespace Webshop.EntityFramework.Managers.Implementations
 {
+    /// <summary>
+    /// This is the implementation for IOrderManager.
+    /// </summary>
     public class OrderManager : IOrderManager
     {
         private GlobalDbContext _dbContext;

@@ -9,6 +9,9 @@ using Webshop.Services.Interfaces_For_Services;
 
 namespace Webshop.Authenticator.Services.Authenticator
 {
+    /// <summary>
+    /// This is the implementation for IAuthenticationManager
+    /// </summary>
     
     public class AuthenticatorService : IAuthenticationManager
     {

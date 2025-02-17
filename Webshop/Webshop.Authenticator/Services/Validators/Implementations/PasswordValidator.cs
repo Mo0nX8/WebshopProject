@@ -7,6 +7,9 @@ using Webshop.Services.Interfaces_For_Services;
 
 namespace Webshop.Services.Services.Validators.Implementations
 {
+    /// <summary>
+    /// This is the implementation of PasswordValidation for IValidationManager. Checks the availablity of password through some security checks.
+    /// </summary>
     public class PasswordValidator : IValidationManager
     {
         public string IsAvailable(string key)

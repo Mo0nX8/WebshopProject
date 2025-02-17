@@ -5,6 +5,9 @@ using Webshop.EntityFramework.Managers.Interfaces.User;
 
 namespace Webshop.EntityFramework.Managers.Implementations
 {
+    /// <summary>
+    /// This is the implementation for IUserManager.
+    /// </summary>
     public class UserManager : IUserManager
     {
         private readonly GlobalDbContext _context;

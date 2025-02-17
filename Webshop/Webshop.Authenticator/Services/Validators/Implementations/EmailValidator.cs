@@ -9,6 +9,9 @@ using Webshop.Services.Interfaces_For_Services;
 
 namespace Webshop.Services.Services.Validators.Implementations
 {
+    /// <summary>
+    /// This is the implementation of EmailValidation for IValidationManager. Checks the availablity of email in database.
+    /// </summary>
     public class EmailValidator : IValidationManager
     {
         private IUserManager userManager;

@@ -8,6 +8,9 @@ using Webshop.Services.Interfaces_For_Services;
 
 namespace Webshop.Authenticator.Services.Encrypt
 {
+    /// <summary>
+    /// This is the implementation for IEncryptManager
+    /// </summary>
     public class SHA256Encrypter : IEncryptManager
     {
         public string Hash(string key)

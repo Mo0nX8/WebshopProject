@@ -10,6 +10,9 @@ using Webshop.EntityFramework.Migrations;
 
 namespace Webshop.EntityFramework.Managers.Implementations
 {
+    /// <summary>
+    /// This is the implementation for ICartManager.
+    /// </summary>
    
     public class CartManager : ICartManager
     {
