@@ -20,7 +20,8 @@ namespace Webshop.EntityFramework.Data
             get => string.IsNullOrEmpty(DescriptionSerialized)? new string[0] : JsonConvert.DeserializeObject<string[]>(DescriptionSerialized);
             set =>DescriptionSerialized=JsonConvert.SerializeObject(value);
         }
-
+        public byte[] ImageData { get; set; }
+        public string MimeType { get; set; }
 
         public ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();
     }

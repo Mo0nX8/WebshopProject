@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System.Text;
+using System.Text.RegularExpressions;
 using Webshop.EntityFramework;
 using Webshop.EntityFramework.Data;
 using Webshop.EntityFramework.Managers.Implementations;
@@ -38,12 +39,26 @@ namespace WebshopWeb.Initializer
 
                 var json = File.ReadAllText(path, Encoding.Default);
                 var products=JsonConvert.DeserializeObject<List<Products>>(json);
+                var productImagePath = "wwwroot/images";
                 foreach (var product in products)
                 {
                     var existingProduct = _context.StorageData.FirstOrDefault(p => p.ProductName == product.ProductName);
                     if (existingProduct is null)
                     {
                         product.DescriptionSerialized=JsonConvert.SerializeObject(product.Description);
+                        if (product.ImageData == null)
+                        {
+                            string normalizedProductName = Regex.Replace(product.ProductName, "[()/\"]", "");
+                            string pathOfImage = Path.Combine(Directory.GetCurrentDirectory(), productImagePath, $"{normalizedProductName}_1.jpg");
+                            if (File.Exists(pathOfImage))
+                            {
+
+                                product.ImageData = File.ReadAllBytes(pathOfImage);
+
+                            }
+                            product.MimeType = "image/jpeg";
+
+                        }
                         _context.StorageData.Add(product);
                     }
                 }

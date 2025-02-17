@@ -107,7 +107,7 @@
     ]
   },
   {
-    "ProductName": "Aula F208",
+    "ProductName": "Aula S608",
     "Quanity": "1",
     "Price": "8990",
     "Tags": [ "Gaming" ],
@@ -117,19 +117,6 @@
       "csatlakozas:3,5 mm jack",
       "driver:50 mm-es driver",
       "extra:beépített mikrofon, RGB világítás"
-    ]
-  },
-  {
-    "ProductName": "Aula X-FT05",
-    "Quanity": "1",
-    "Price": "7990",
-    "Tags": [ "Gaming" ],
-    "Description": [
-      "kategoria:Gaming",
-      "tipus:Fülhallgató",
-      "csatlakozas:3,5 mm jack",
-      "driver:40 mm-es driver",
-      "extra:kényelmes fülpárna, RGB világítás"
     ]
   },
   {
@@ -237,32 +224,6 @@
     ]
   },
   {
-    "ProductName": "Aula F308",
-    "Quanity": "1",
-    "Price": "6990",
-    "Tags": [ "Hordozható" ],
-    "Description": [
-      "kategoria:Gaming",
-      "tipus:Fülhallgató",
-      "csatlakozas:3,5 mm jack",
-      "driver:40 mm-es driver",
-      "extra:RGB világítás, beépített mikrofon"
-    ]
-  },
-  {
-    "ProductName": "Aula F307",
-    "Quanity": "1",
-    "Price": "5990",
-    "Tags": [ "Hordozható" ],
-    "Description": [
-      "kategoria:Gaming",
-      "tipus:Fülhallgató",
-      "csatlakozas:3,5 mm jack",
-      "driver:40 mm-es driver",
-      "extra:Kényelmes fülpárna, RGB világítás"
-    ]
-  },
-  {
     "ProductName": "Asus ROG Centurion 7.1",
     "Quanity": "1",
     "Price": "59990",
@@ -364,31 +325,6 @@
       "csatlakozas:Bluetooth",
       "driver:Extra bass",
       "extra:aktív zajszűrés, 20 órás üzemidő"
-    ]
-  },
-  {
-    "ProductName": "Aula F302",
-    "Quanity": "1",
-    "Price": "5990",
-    "Tags": [ "Hordozható" ],
-    "Description": [
-      "kategoria:Gaming:tipus:Fülhallgató",
-      "csatlakozas:3,5 mm jack",
-      "driver:40 mm-es driver",
-      "extra:beépített mikrofon, RGB világítás"
-    ]
-  },
-  {
-    "ProductName": "Aula X-FT08",
-    "Quanity": "1",
-    "Price": "7990",
-    "Tags": [ "Hordozható" ],
-    "Description": [
-      "kategoria:Gaming",
-      "tipus:Fülhallgató",
-      "csatlakozas:3,5 mm jack",
-      "driver:50 mm-es driver",
-      "extra:RGB világítás, kényelmes fülpárna"
     ]
   },
   {
@@ -787,58 +723,6 @@
     ]
   },
   {
-    "ProductName": "AOC 24B2XH",
-    "Quanity": "1",
-    "Price": "37860",
-    "Tags": [ "monitor" ],
-    "Description": [
-      "felbontas:Full HD",
-      "meret:23.8",
-      "frissitesi_rata:75",
-      "jellemzok:IPS panel, HDMI csatlakozó"
-
-    ]
-  },
-  {
-    "ProductName": "AOC 25G3ZM/BK",
-    "Quanity": "1",
-    "Price": "78990",
-    "Tags": [ "monitor" ],
-    "Description": [
-      "felbontas:Full HD",
-      "meret:24.5",
-      "frissitesi_rata:240",
-      "jellemzok:VA panel, 1 ms válaszidő, G-Sync-kompatibilis, állítható magasság, pivot"
-
-    ]
-  },
-  {
-    "ProductName": "AOC C27G2ZE",
-    "Quanity": "1",
-    "Price": "85390",
-    "Tags": [ "monitor" ],
-    "Description": [
-      "felbontas:Full HD",
-      "meret:27",
-      "frissitesi_rata:240",
-      "jellemzok:Ívelt VA panel, 0,5 ms válaszidő, HDR10, HDMI és DisplayPort csatlakozó"
-
-    ]
-  },
-  {
-    "ProductName": "AOC C27G2Z3/BK",
-    "Quanity": "1",
-    "Price": "96869",
-    "Tags": [ "monitor" ],
-    "Description": [
-      "felbontas:Full HD",
-      "meret:27",
-      "frissitesi_rata:280",
-      "jellemzok:Ívelt VA panel, 0,5 ms válaszidő, HDR10, HDMI és DisplayPort csatlakozó"
-
-    ]
-  },
-  {
     "ProductName": "ASUS TUF Gaming VG249Q3A",
     "Quanity": "1",
     "Price": "57190",
@@ -904,71 +788,6 @@
     ]
   },
   {
-    "ProductName": "ASUS TUF Gaming VG249Q3A",
-    "Quanity": "1",
-    "Price": "57190",
-    "Tags": [ "monitor" ],
-    "Description": [
-      "felbontas:Full HD",
-      "meret:23.8",
-      "frissitesi_rata:180",
-      "jellemzok:IPS panel, 1 ms válaszidő, FreeSync, HDMI és DisplayPort csatlakozó"
-
-    ]
-  },
-  {
-    "ProductName": "ASUS TUF Gaming VG249QL3A",
-    "Quanity": "1",
-    "Price": "76490",
-    "Tags": [ "monitor" ],
-    "Description": [
-      "felbontas:Full HD",
-      "meret:23.8",
-      "frissitesi_rata:180",
-      "jellemzok:IPS panel, 1 ms válaszidő, FreeSync, állítható magasságú talp, HDMI és DisplayPort csatlakozó"
-
-    ]
-  },
-  {
-    "ProductName": "ASUS VA279HAL",
-    "Quanity": "1",
-    "Price": "87984",
-    "Tags": [ "monitor" ],
-    "Description": [
-      "felbontas:Full HD",
-      "meret:27",
-      "frissitesi_rata:75",
-      "jellemzok:IPS panel, HDMI és D-Sub csatlakozó, Eye Care technológia"
-
-    ]
-  },
-  {
-    "ProductName": "ASUS VZ24EHF",
-    "Quanity": "1",
-    "Price": "48207",
-    "Tags": [ "monitor" ],
-    "Description": [
-      "felbontas:Full HD",
-      "meret:23.8",
-      "frissitesi_rata:100",
-      "jellemzok:IPS panel, 1 ms válaszidő, Adaptive-Sync, HDMI csatlakozó"
-
-    ]
-  },
-  {
-    "ProductName": "ASUS TUF Gaming VG249Q3A",
-    "Quanity": "1",
-    "Price": "57190",
-    "Tags": [ "monitor" ],
-    "Description": [
-      "felbontas:Full HD",
-      "meret:23.8",
-      "frissitesi_rata:180",
-      "jellemzok:IPS panel, 1 ms válaszidő, FreeSync, HDMI és DisplayPort csatlakozó"
-
-    ]
-  },
-  {
     "ProductName": "Samsung Odyssey LS24AG300NRXEN",
     "Quanity": "1",
     "Price": "49990",
@@ -1008,7 +827,7 @@
     ]
   },
   {
-    "ProductName": "Samsung Odyssey G5 G55A 27\" QHD",
+    "ProductName": "Samsung Odyssey G5 G55A 27 QHD",
     "Quanity": "1",
     "Price": "79999",
     "Tags": [ "monitor" ],
@@ -1390,7 +1209,7 @@
     "Price": "20000",
     "Tags": [ "egérpad" ],
     "Description": [
-       "szélesség:320 mm",
+      "szélesség:320 mm",
       "mélység:270 mm",
       "magasság:2 mm",
       "csuklótámasz:Nincs"
@@ -1426,7 +1245,7 @@
     "Price": "20000",
     "Tags": [ "egérpad" ],
     "Description": [
-       "szélesség:900 mm",
+      "szélesség:900 mm",
       "mélység:300 mm",
       "magasság:4 mm",
       "csuklótámasz:Nincs"
@@ -1438,7 +1257,7 @@
     "Price": "20000",
     "Tags": [ "egérpad" ],
     "Description": [
-     "szélesség:1220 mm",
+      "szélesség:1220 mm",
       "mélység:590 mm",
       "magasság:3 mm",
       "csuklótámasz:Nincs"
@@ -1474,7 +1293,7 @@
     "Price": "20000",
     "Tags": [ "egérpad" ],
     "Description": [
-       "szélesség:900 mm",
+      "szélesség:900 mm",
       "mélység:440 mm",
       "magasság:3 mm",
       "csuklótámasz:Nincs"
@@ -1486,7 +1305,7 @@
     "Price": "20000",
     "Tags": [ "egérpad" ],
     "Description": [
-     "szélesség:900 mm",
+      "szélesség:900 mm",
       "mélység:400 mm",
       "magasság:3 mm",
       "csuklótámasz:Nincs"
@@ -1498,7 +1317,7 @@
     "Price": "20000",
     "Tags": [ "egérpad" ],
     "Description": [
-     "szélesség:900 mm",
+      "szélesség:900 mm",
       "mélység:400 mm",
       "magasság:3 mm",
       "csuklótámasz:Nincs"
@@ -1534,7 +1353,7 @@
     "Price": "20000",
     "Tags": [ "egérpad" ],
     "Description": [
-       "szélesség:370 mm",
+      "szélesség:370 mm",
       "mélység:320 mm",
       "magasság:7.9 mm",
       "csuklótámasz:Nincs"
@@ -1558,7 +1377,7 @@
     "Price": "20000",
     "Tags": [ "egérpad" ],
     "Description": [
-     "szélesség:500 mm",
+      "szélesség:500 mm",
       "mélység:400 mm",
       "magasság:4 mm",
       "csuklótámasz:Nincs"
@@ -1594,7 +1413,7 @@
     "Price": "20000",
     "Tags": [ "egérpad" ],
     "Description": [
-     "szélesség:930 mm",
+      "szélesség:930 mm",
       "mélység:400 mm",
       "magasság:4 mm",
       "csuklótámasz:Nincs"
@@ -1618,7 +1437,7 @@
     "Price": "20000",
     "Tags": [ "egérpad" ],
     "Description": [
-       "szélesség:450 mm",
+      "szélesség:450 mm",
       "mélység:400 mm",
       "magasság:6 mm",
       "csuklótámasz:Nincs"
@@ -1630,7 +1449,7 @@
     "Price": "20000",
     "Tags": [ "egérpad" ],
     "Description": [
-       "szélesség:320 mm",
+      "szélesség:320 mm",
       "mélység:270 mm",
       "magasság:5 mm",
       "csuklótámasz:Nincs"
@@ -1642,7 +1461,7 @@
     "Price": "20000",
     "Tags": [ "egérpad" ],
     "Description": [
-       "szélesség:930 mm",
+      "szélesség:930 mm",
       "mélység:300 mm",
       "magasság:3 mm",
       "csuklótámasz:Nincs"
@@ -1654,7 +1473,7 @@
     "Price": "20000",
     "Tags": [ "egérpad" ],
     "Description": [
-       "szélesség:1220 mm",
+      "szélesség:1220 mm",
       "mélység:610 mm",
       "magasság:4 mm",
       "csuklótámasz:Nincs"
@@ -1678,7 +1497,7 @@
     "Price": "20000",
     "Tags": [ "egérpad" ],
     "Description": [
-     "szélesség:450 mm",
+      "szélesség:450 mm",
       "mélység:400 mm",
       "magasság:5 mm",
       "csuklótámasz:Nincs"
