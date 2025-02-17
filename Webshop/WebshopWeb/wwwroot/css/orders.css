@@ -1,0 +1,30 @@
+﻿.orders-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.order-item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+    .order-item h3 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+.order-items {
+    margin-top: 10px;
+}
+
+.order-item-detail {
+    margin-bottom: 5px;
+}
+
+.product-name, .quantity, .price {
+    display: inline-block;
+    margin-right: 10px;
+}
