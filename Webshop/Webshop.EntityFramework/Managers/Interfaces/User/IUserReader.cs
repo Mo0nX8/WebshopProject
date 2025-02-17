@@ -7,8 +7,15 @@ using Webshop.EntityFramework.Data;
 
 namespace Webshop.EntityFramework.Managers.Interfaces.User
 {
+    /// <summary>
+    /// This interface helps reading user's datas
+    /// </summary>
     public interface IUserReader
     {
+        /// <summary>
+        /// This method returns all user's datas.
+        /// </summary>
+        /// <returns></returns>
         IQueryable<UserData> GetUsers();
     }
 }

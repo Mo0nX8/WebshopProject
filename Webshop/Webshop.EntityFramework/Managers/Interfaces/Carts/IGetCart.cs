@@ -8,9 +8,22 @@ using CartEntity = Webshop.EntityFramework.Data.ShoppingCart;
 
 namespace Webshop.EntityFramework.Managers.Interfaces.Cart
 {
+    /// <summary>
+    /// Get cart's datas
+    /// </summary>
     public interface IGetCart
     {
+        /// <summary>
+        /// Returns List of Products from a cart by cartId
+        /// </summary>
+        /// <param name="cartId"></param>
+        /// <returns></returns>
         List<Products> GetProduct(int cartId);
+        /// <summary>
+        /// Return a specific cart by cartId
+        /// </summary>
+        /// <param name="cartId"></param>
+        /// <returns></returns>
         CartEntity GetCart(int? cartId);
     }
 }

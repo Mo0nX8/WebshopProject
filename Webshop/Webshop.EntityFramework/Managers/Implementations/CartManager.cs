@@ -19,7 +19,6 @@ namespace Webshop.EntityFramework.Managers.Implementations
         {
             _context = context;
         }
-
         public void AddCart(ShoppingCart cart)
         {
             _context.Carts.Add(cart);
@@ -33,6 +32,11 @@ namespace Webshop.EntityFramework.Managers.Implementations
                 .ThenInclude(ci => ci.Product)  
                 .FirstOrDefault(c => c.Id == cartId);
         }
+        /// <summary>
+        /// This method requires an userId and an integer list as parameters. This method checks if cart not null and add products to the user's cart. 
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <param name="productIds"></param>
         public void AddProductsToCart(int userId, List<int> productIds)
         {
             var cart = _context.Carts.FirstOrDefault(c => c.UserId == userId);

@@ -8,13 +8,34 @@ using Webshop.EntityFramework.Data;
 
 namespace Webshop.EntityFramework
 {
+    /// <summary>
+    /// This class is the DBContext of the solution. This class define and control the database.
+    /// </summary>
     public class GlobalDbContext : DbContext
     {
+        /// <summary>
+        /// User table
+        /// </summary>
         public DbSet<UserData> Users { get; set; }
+        /// <summary>
+        /// Product table
+        /// </summary>
         public DbSet<Products> StorageData {  get; set; }
+        /// <summary>
+        /// Order table
+        /// </summary>
         public DbSet<Orders> Orders { get; set; }
+        /// <summary>
+        /// Cart table
+        /// </summary>
         public DbSet<ShoppingCart> Carts { get; set; }
+        /// <summary>
+        /// Items of a cart. This is a help table
+        /// </summary>
         public DbSet<CartItem> CartItems { get; set; }
+        /// <summary>
+        /// Items of an order. This is a help table.
+        /// </summary>
         public DbSet<OrderItem> OrderItems { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

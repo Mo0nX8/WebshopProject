@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Webshop.EntityFramework.Data
 {
+    /// <summary>
+    /// This is the shopping cart model
+    /// </summary>
     public class ShoppingCart
     {
         public int Id { get; set; }

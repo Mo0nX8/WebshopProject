@@ -7,8 +7,15 @@ using Webshop.EntityFramework.Data;
 
 namespace Webshop.EntityFramework.Managers.Interfaces.Order
 {
+    /// <summary>
+    /// This interface manages the orders
+    /// </summary>
     public interface IOrderRemover
     {
+        /// <summary>
+        /// This method requires an order as parameter. It remove the specific order from the database.
+        /// </summary>
+        /// <param name="order"></param>
         void Remove(Orders order);
     }
 }

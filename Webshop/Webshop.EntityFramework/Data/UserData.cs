@@ -1,5 +1,8 @@
 ﻿namespace Webshop.EntityFramework.Data
 {
+    /// <summary>
+    /// Contains user's data
+    /// </summary>
     public class UserData
     {
         public int Id { get; set; }

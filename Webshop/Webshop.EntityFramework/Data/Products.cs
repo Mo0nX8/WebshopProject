@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Webshop.EntityFramework.Data
 {
+    //This table contains everything for Products
     public class Products
     {
         public int Id { get; set; }

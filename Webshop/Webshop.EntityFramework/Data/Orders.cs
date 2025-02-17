@@ -2,6 +2,9 @@
 
 namespace Webshop.EntityFramework.Data
 {
+    /// <summary>
+    /// This table is for Orders
+    /// </summary>
     public class Orders
     {
         public int Id { get; set; }

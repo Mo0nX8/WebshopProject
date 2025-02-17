@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Webshop.EntityFramework.Data
 {
+    /// <summary>
+    /// This table helps storing Order data
+    /// </summary>
     public class OrderItem
     {
         public int Id { get; set; }

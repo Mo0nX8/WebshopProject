@@ -7,8 +7,16 @@ using Webshop.EntityFramework.Data;
 
 namespace Webshop.EntityFramework.Managers.Interfaces.Product
 {
+    /// <summary>
+    /// This interface helps managing products.
+    /// </summary>
     public interface IProductReader
     {
+        /// <summary>
+        /// This method requires an id as parameter. Returns a product by its id.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         Products GetProduct(int id);
         List<Products> GetProductPrices();
     }

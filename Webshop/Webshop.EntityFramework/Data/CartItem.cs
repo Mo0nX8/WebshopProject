@@ -1,5 +1,8 @@
 ﻿namespace Webshop.EntityFramework.Data
 {
+    /// <summary>
+    /// Contains specific cart's items
+    /// </summary>
     public class CartItem
     {
         public int CartId { get; set; }
