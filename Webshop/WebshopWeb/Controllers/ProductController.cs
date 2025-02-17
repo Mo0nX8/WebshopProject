@@ -65,6 +65,10 @@ namespace WebshopWeb.Controllers
         }
         public IActionResult Search(string searchValue)
         {
+            if(searchValue is null)
+            {
+                return View("Index", _context.StorageData.ToList());
+            }
             var products = _context.StorageData
                 .Where(x => EF.Functions.Collate(x.ProductName, "Latin1_General_CI_AI")
                             .Contains(searchValue.ToLower()) ||

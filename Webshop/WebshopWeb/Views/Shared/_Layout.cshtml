@@ -26,19 +26,28 @@
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">DxMarket</a>
                 <a class="navbar-brand" asp-area="" asp-controller="Product" asp-action="Index">Termékek</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <input type="text" id="search" placeholder="Keresés" alt="Keresés" name="searchValue"/> 
+                <div class="container">
+                    <div class="search-bar">
+                        <div class="input-group">
+                            <input type="text" id="search" placeholder="Keresés" alt="Keresés" name="searchValue" class="form-control"/>
+                            <a href="#" onclick="searchProduct()" class="btn btn-outline-secondary"><i class="bi bi-search"></i></a>
+                        </div>
+                    </div>
+                </div>
                 <script>
-                    function searchProduct() 
+                    function searchProduct()
                     {
                         var searchValue = document.getElementById("search").value;
                         window.location.href = '@Url.Action("Search", "Product")' + '?searchValue=' + encodeURIComponent(searchValue);
                     }
                 </script>
-                <a href="#" onclick="searchProduct()"><i class="bi bi-search"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+               
+               
+               
                 <div class="collapse navbar-collapse" id="navbarNav" >
                         <div class="dropdown ms-auto" >
                         <a href=@Url.Action("Index","Cart")><button class="btn btn-secondary" id="CartButton" style="background-color:red"><i class="bi bi-cart"></i></button></a>
