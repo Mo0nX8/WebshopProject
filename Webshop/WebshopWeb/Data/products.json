@@ -17,7 +17,7 @@
     "ProductName": "Asus TUF Gaming H3",
     "Quanity": "1",
     "Price": "18990",
-    "Tags": ["Gaming"],
+    "Tags": [ "Gaming" ],
     "Description": [
       "kategoria:Gaming",
       "tipus:Fülhallgató",
@@ -31,7 +31,7 @@
     "ProductName": "Marshall Monitor",
     "Quanity": "1",
     "Price": "59990",
-    "Tags": ["Gaming"],
+    "Tags": [ "Gaming" ],
     "Description": [
       "kategoria:Hordozható",
       "tipus:Felülről nyitott",
@@ -190,7 +190,7 @@
     "Price": "69990",
     "Tags": [ "Hordozható" ],
     "Description": [
-     "kategoria:Gaming",
+      "kategoria:Gaming",
       "tipus:Fülhallgató",
       "csatlakozas:USB, 3,5 mm jack",
       "driver:50 mm-es Triforce driver",
@@ -216,7 +216,7 @@
     "Price": "39990",
     "Tags": [ "Hordozható" ],
     "Description": [
-       "kategoria:Profi",
+      "kategoria:Profi",
       "tipus:Félre illeszkedő",
       "csatlakozas:3,5 mm jack",
       "driver:Zárt kialakítás",
@@ -281,11 +281,11 @@
     "Price": "39990",
     "Tags": [ "Hordozható" ],
     "Description": [
-       "kategoria:Gaming",
-        "tipus:Fülhallgató",
-        "csatlakozas:USB-C, 3,5 mm jack",
-        "driver:40 mm-es neodymium driver",
-        "extra:2,4 GHz vezeték nélküli kapcsolat"
+      "kategoria:Gaming",
+      "tipus:Fülhallgató",
+      "csatlakozas:USB-C, 3,5 mm jack",
+      "driver:40 mm-es neodymium driver",
+      "extra:2,4 GHz vezeték nélküli kapcsolat"
     ]
   },
   {
@@ -395,7 +395,7 @@
     "ProductName": "ASUS ROG Falchion Cherry MX Red HUN (90MP01Y0-BKHA01/FALCHION/RD/HU)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
       "kapcsolódásTípus:Rádiófrekvenciás",
       "vezetékNélküli:Igen",
@@ -410,315 +410,627 @@
     "ProductName": "ASUS TUF Gaming K1 HU (90MP01X0-BKHA00)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiabillentyuzet:Igen",
-		"háttérvilágítás:Van",
-		"mechanikus:Nem",
-		"numerikusbillentyuzet:Van"
+      "vezetékNélküli:Nem",
+      "elrendezés:Magyar",
+      "multimédiabillentyuzet:Igen",
+      "háttérvilágítás:Van",
+      "mechanikus:Nem",
+      "numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "ASUS ROG Strix Scope II 96",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Igen",
-		"elrendezés:Magyar",
-		"multimédiabillentyuzet:Nem",
-		"háttérvilágítás:Van",
-		"mechanikus:Igen",
-		"numerikusbillentyuzet:Van"
+      "vezetékNélküli:Igen",
+      "elrendezés:Magyar",
+      "multimédiabillentyuzet:Nem",
+      "háttérvilágítás:Van",
+      "mechanikus:Igen",
+      "numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "ASUS ROG Claymore II RGB RX HU (90MP01W0-BKHA00)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
-       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiabillentyuzet:Igen",
-		"háttérvilágítás:Van",
-		"mechanikus:Igen",
-		"numerikusbillentyuzet:Van"
+      "kapcsolódásTípus:USB",
+      "vezetékNélküli:Nem",
+      "elrendezés:Magyar",
+      "multimédiabillentyuzet:Igen",
+      "háttérvilágítás:Van",
+      "mechanikus:Igen",
+      "numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "ASUS ROG Azoth M701 (AZOTH/NXRD/HU)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
-       "kapcsolódásTípus:Bluetooth/Rádiófrekvenciás/USB",
-		"vezetékNélküli:Igen",
-		"elrendezés:Magyar",
-		"multimédiabillentyuzet:Nem",
-		"háttérvilágítás:Van",
-		"mechanikus:Igen",
-		"numerikusbillentyuzet:Nincs"
+      "kapcsolódásTípus:Bluetooth/Rádiófrekvenciás/USB",
+      "vezetékNélküli:Igen",
+      "elrendezés:Magyar",
+      "multimédiabillentyuzet:Nem",
+      "háttérvilágítás:Van",
+      "mechanikus:Igen",
+      "numerikusbillentyuzet:Nincs"
     ]
   },
   {
     "ProductName": "ASUS KW100 (90XB0880-BKB040)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiabillentyuzet:Igen",
-		"háttérvilágítás:Nincs",
-		"mechanikus:Nem",
-		"numerikusbillentyuzet:Nincs"
+      "vezetékNélküli:Nem",
+      "elrendezés:Magyar",
+      "multimédiabillentyuzet:Igen",
+      "háttérvilágítás:Nincs",
+      "mechanikus:Nem",
+      "numerikusbillentyuzet:Nincs"
     ]
   },
   {
     "ProductName": "ASUS TUF Gaming K3 II RO (90MP0390-BKHA00)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
-       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiabillentyuzet:Igen",
-		"háttérvilágítás:Van",
-		"mechanikus:Nem",
-		"numerikusbillentyuzet:Nincs"
+      "kapcsolódásTípus:USB",
+      "vezetékNélküli:Nem",
+      "elrendezés:Magyar",
+      "multimédiabillentyuzet:Igen",
+      "háttérvilágítás:Van",
+      "mechanikus:Nem",
+      "numerikusbillentyuzet:Nincs"
     ]
   },
   {
     "ProductName": "ASUS ROG Azoth Extreme Hot-Swappable (90MP03MA-BKUA01)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
-       "kapcsolódásTípus:Bluetooth/USB",
-		"vezetékNélküli:Igen",
-		"elrendezés:Magyar",
-		"multimédiabillentyuzet:Nem",
-		"háttérvilágítás:Van",
-		"mechanikus:Igen",
-		"numerikusbillentyuzet:Nincs"
+      "kapcsolódásTípus:Bluetooth/USB",
+      "vezetékNélküli:Igen",
+      "elrendezés:Magyar",
+      "multimédiabillentyuzet:Nem",
+      "háttérvilágítás:Van",
+      "mechanikus:Igen",
+      "numerikusbillentyuzet:Nincs"
     ]
   },
   {
     "ProductName": "Logitech MX Keys S (920-011587-HU)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
       "kapcsolódásTípus:Bluetooth",
-		"vezetékNélküli:Igen",
-		"elrendezés:Magyar",
-		"multimédiabillentyuzet:Igen",
-		"háttérvilágítás:Van",
-		"mechanikus:Nem",
-		"numerikusbillentyuzet:Van"
+      "vezetékNélküli:Igen",
+      "elrendezés:Magyar",
+      "multimédiabillentyuzet:Igen",
+      "háttérvilágítás:Van",
+      "mechanikus:Nem",
+      "numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "Logitech K400 Plus HU (920-007157)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Igen",
-		"elrendezés:Magyar",
-		"multimédiabillentyuzet:Igen",
-		"háttérvilágítás:Nincs",
-		"mechanikus:Nem",
-		"numerikusbillentyuzet:Nincs"
+      "vezetékNélküli:Igen",
+      "elrendezés:Magyar",
+      "multimédiabillentyuzet:Igen",
+      "háttérvilágítás:Nincs",
+      "mechanikus:Nem",
+      "numerikusbillentyuzet:Nincs"
     ]
   },
   {
     "ProductName": "Logitech MX Keys S (920-011589)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
       "kapcsolódásTípus:Bluetooth",
-		"vezetékNélküli:Igen",
-		"elrendezés:Angol (Amerikai)",
-		"multimédiabillentyuzet:Igen",
-		"háttérvilágítás:Van",
-		"mechanikus:Nem",
-		"numerikusbillentyuzet:Van"
+      "vezetékNélküli:Igen",
+      "elrendezés:Angol (Amerikai)",
+      "multimédiabillentyuzet:Igen",
+      "háttérvilágítás:Van",
+      "mechanikus:Nem",
+      "numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "Logitech G PRO GX Clicky (920-009392)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
-       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Angol (Amerikai)",
-		"multimédiabillentyuzet:Igen",
-		"háttérvilágítás:Van",
-		"mechanikus:Igen",
-		"numerikusbillentyuzet:Nincs"
+      "kapcsolódásTípus:USB",
+      "vezetékNélküli:Nem",
+      "elrendezés:Angol (Amerikai)",
+      "multimédiabillentyuzet:Igen",
+      "háttérvilágítás:Van",
+      "mechanikus:Igen",
+      "numerikusbillentyuzet:Nincs"
     ]
   },
   {
     "ProductName": "Logitech K120 HU (920-002491)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiabillentyuzet:Nem",
-		"háttérvilágítás:Nincs",
-		"mechanikus:Nem",
-		"numerikusbillentyuzet:Van"
+      "vezetékNélküli:Nem",
+      "elrendezés:Magyar",
+      "multimédiabillentyuzet:Nem",
+      "háttérvilágítás:Nincs",
+      "mechanikus:Nem",
+      "numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "Logitech G915 TKL GL Tactile US (920-009503)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Igen",
-		"elrendezés:Angol (Amerikai)",
-		"multimédiabillentyuzet:Igen",
-		"háttérvilágítás:Van",
-		"mechanikus:Igen",
-		"numerikusbillentyuzet:Nincs"
+      "vezetékNélküli:Igen",
+      "elrendezés:Angol (Amerikai)",
+      "multimédiabillentyuzet:Igen",
+      "háttérvilágítás:Van",
+      "mechanikus:Igen",
+      "numerikusbillentyuzet:Nincs"
     ]
   },
   {
     "ProductName": "Logitech G Pro X TKL (920-012148)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
       "kapcsolódásTípus:Bluetooth",
-		"vezetékNélküli:Igen",
-		"elrendezés:Angol (Amerikai)",
-		"multimédiabillentyuzet:Igen",
-		"háttérvilágítás:Van",
-		"mechanikus:Igen",
-		"numerikusbillentyuzet:Nincs"
+      "vezetékNélküli:Igen",
+      "elrendezés:Angol (Amerikai)",
+      "multimédiabillentyuzet:Igen",
+      "háttérvilágítás:Van",
+      "mechanikus:Igen",
+      "numerikusbillentyuzet:Nincs"
     ]
   },
   {
     "ProductName": "Genius Scorpion K215",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiabillentyuzet:Igen",
-		"háttérvilágítás:Van",
-		"mechanikus:Nem",
-		"numerikusbillentyuzet:Van"
+      "vezetékNélküli:Nem",
+      "elrendezés:Magyar",
+      "multimédiabillentyuzet:Igen",
+      "háttérvilágítás:Van",
+      "mechanikus:Nem",
+      "numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "Genius SlimStar 126 HU (31310017404)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiabillentyuzet:Igen",
-		"háttérvilágítás:Nincs",
-		"mechanikus:Nem",
-		"numerikusbillentyuzet:Van"
+      "vezetékNélküli:Nem",
+      "elrendezés:Magyar",
+      "multimédiabillentyuzet:Igen",
+      "háttérvilágítás:Nincs",
+      "mechanikus:Nem",
+      "numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "Genius Scorpion K11 Pro (31310007403)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
-       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiabillentyuzet:Igen",
-		"háttérvilágítás:Van",
-		"mechanikus:Nem",
-		"numerikusbillentyuzet:Van"
+      "kapcsolódásTípus:USB",
+      "vezetékNélküli:Nem",
+      "elrendezés:Magyar",
+      "multimédiabillentyuzet:Igen",
+      "háttérvilágítás:Van",
+      "mechanikus:Nem",
+      "numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "Genius GW470KB",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiabillentyuzet:Igen",
-		"háttérvilágítás:Van",
-		"mechanikus:Nem",
-		"numerikusbillentyuzet:Van"
+      "vezetékNélküli:Nem",
+      "elrendezés:Magyar",
+      "multimédiabillentyuzet:Igen",
+      "háttérvilágítás:Van",
+      "mechanikus:Nem",
+      "numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "Genius KB-117 HU (31310016404)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiabillentyuzet:Nem",
-		"háttérvilágítás:Nincs",
-		"mechanikus:Nem",
-		"numerikusbillentyuzet:Van"
+      "vezetékNélküli:Nem",
+      "elrendezés:Magyar",
+      "multimédiabillentyuzet:Nem",
+      "háttérvilágítás:Nincs",
+      "mechanikus:Nem",
+      "numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "Genius Slimstar 280 HU (31310012414)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
-       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Magyar",
-		"multimédiabillentyuzet:Igen",
-		"háttérvilágítás:Nincs",
-		"mechanikus:Nem",
-		"numerikusbillentyuzet:Van"
+      "kapcsolódásTípus:USB",
+      "vezetékNélküli:Nem",
+      "elrendezés:Magyar",
+      "multimédiabillentyuzet:Igen",
+      "háttérvilágítás:Nincs",
+      "mechanikus:Nem",
+      "numerikusbillentyuzet:Van"
     ]
   },
   {
     "ProductName": "SteelSeries Apex Pro Mini (64820)",
     "Quanity": "1",
     "Price": "43190",
-    "Tags": ["billentyuzet"],
+    "Tags": [ "billentyuzet" ],
     "Description": [
       "kapcsolódásTípus:USB",
-		"vezetékNélküli:Nem",
-		"elrendezés:Angol (Brit)",
-		"multimédiabillentyuzet:Igen",
-		"háttérvilágítás:Van",
-		"mechanikus:Igen",
-		"numerikusbillentyuzet:Nincs"
+      "vezetékNélküli:Nem",
+      "elrendezés:Angol (Brit)",
+      "multimédiabillentyuzet:Igen",
+      "háttérvilágítás:Van",
+      "mechanikus:Igen",
+      "numerikusbillentyuzet:Nincs"
     ]
   },
+  {
+    "ProductName": "AOC 24B2XHM2",
+    "Quanity": "1",
+    "Price": "37860",
+    "Tags": [ "monitor" ],
+    "Description": [
+      "felbontas:Full HD",
+      "meret:23.8",
+      "frissitesi_rata:75",
+      "jellemzok:VA panel, 4 ms válaszidő, D-Sub és HDMI csatlakozó"
+
+    ]
+  },
+  {
+    "ProductName": "AOC 24B2XH",
+    "Quanity": "1",
+    "Price": "37860",
+    "Tags": [ "monitor" ],
+    "Description": [
+      "felbontas:Full HD",
+      "meret:23.8",
+      "frissitesi_rata:75",
+      "jellemzok:IPS panel, HDMI csatlakozó"
+
+    ]
+  },
+  {
+    "ProductName": "AOC 25G3ZM/BK",
+    "Quanity": "1",
+    "Price": "78990",
+    "Tags": [ "monitor" ],
+    "Description": [
+      "felbontas:Full HD",
+      "meret:24.5",
+      "frissitesi_rata:240",
+      "jellemzok:VA panel, 1 ms válaszidő, G-Sync-kompatibilis, állítható magasság, pivot"
+
+    ]
+  },
+  {
+    "ProductName": "AOC C27G2ZE",
+    "Quanity": "1",
+    "Price": "85390",
+    "Tags": [ "monitor" ],
+    "Description": [
+       "felbontas:Full HD",
+      "meret:27",
+      "frissitesi_rata:240",
+      "jellemzok:Ívelt VA panel, 0,5 ms válaszidő, HDR10, HDMI és DisplayPort csatlakozó"
+
+    ]
+  },
+  {
+    "ProductName": "AOC C27G2Z3/BK",
+    "Quanity": "1",
+    "Price": "96869",
+    "Tags": [ "monitor" ],
+    "Description": [
+      "felbontas:Full HD",
+      "meret:27",
+      "frissitesi_rata:280",
+      "jellemzok:Ívelt VA panel, 0,5 ms válaszidő, HDR10, HDMI és DisplayPort csatlakozó"
+
+    ]
+  },
+  {
+    "ProductName": "AOC 24B2XH",
+    "Quanity": "1",
+    "Price": "37860",
+    "Tags": [ "monitor" ],
+    "Description": [
+      "felbontas:Full HD",
+      "meret:23.8",
+      "frissitesi_rata:75",
+      "jellemzok:IPS panel, HDMI csatlakozó"
+
+    ]
+  },
+  {
+    "ProductName": "AOC 25G3ZM/BK",
+    "Quanity": "1",
+    "Price": "78990",
+    "Tags": [ "monitor" ],
+    "Description": [
+      "felbontas:Full HD",
+      "meret:24.5",
+      "frissitesi_rata:240",
+      "jellemzok:VA panel, 1 ms válaszidő, G-Sync-kompatibilis, állítható magasság, pivot"
+
+    ]
+  },
+  {
+    "ProductName": "AOC C27G2ZE",
+    "Quanity": "1",
+    "Price": "85390",
+    "Tags": [ "monitor" ],
+    "Description": [
+      "felbontas:Full HD",
+      "meret:27",
+      "frissitesi_rata:240",
+      "jellemzok:Ívelt VA panel, 0,5 ms válaszidő, HDR10, HDMI és DisplayPort csatlakozó"
+
+    ]
+  },
+  {
+    "ProductName": "AOC C27G2Z3/BK",
+    "Quanity": "1",
+    "Price": "96869",
+    "Tags": [ "monitor" ],
+    "Description": [
+      "felbontas:Full HD",
+      "meret:27",
+      "frissitesi_rata:280",
+      "jellemzok:Ívelt VA panel, 0,5 ms válaszidő, HDR10, HDMI és DisplayPort csatlakozó"
+
+    ]
+  },
+  {
+    "ProductName": "ASUS TUF Gaming VG249Q3A",
+    "Quanity": "1",
+    "Price": "57190",
+    "Tags": [ "monitor" ],
+    "Description": [
+      "felbontas:Full HD",
+      "meret:23.8",
+      "frissitesi_rata:180",
+      "jellemzok:IPS panel, 1 ms válaszidő, FreeSync, HDMI és DisplayPort csatlakozó"
+
+    ]
+  },
+  {
+    "ProductName": "ASUS TUF Gaming VG249QL3A",
+    "Quanity": "1",
+    "Price": "76490",
+    "Tags": [ "monitor" ],
+    "Description": [
+      "felbontas:Full HD",
+      "meret:23.8",
+      "frissitesi_rata:180",
+      "jellemzok:IPS panel, 1 ms válaszidő, FreeSync, állítható magasságú talp, HDMI és DisplayPort csatlakozó"
+
+    ]
+  },
+  {
+    "ProductName": "ASUS ProArt Display PA248QV",
+    "Quanity": "1",
+    "Price": "84940",
+    "Tags": [ "monitor" ],
+    "Description": [
+     "felbontas:1920 x 1200",
+      "meret:24.1",
+      "frissitesi_rata:75",
+      "jellemzok:IPS panel, 100% sRGB, 100% Rec.709 színtér, Calman Verified, ergonomikus állvány"
+
+    ]
+  },
+  {
+    "ProductName": "ASUS VA279HAL",
+    "Quanity": "1",
+    "Price": "87984",
+    "Tags": [ "monitor" ],
+    "Description": [
+       "felbontas:Full HD",
+      "meret:27",
+      "frissitesi_rata:75",
+      "jellemzok:IPS panel, HDMI és D-Sub csatlakozó, Eye Care technológia"
+
+    ]
+  },
+  {
+    "ProductName": "ASUS VZ24EHF",
+    "Quanity": "1",
+    "Price": "48207",
+    "Tags": [ "monitor" ],
+    "Description": [
+     "felbontas:Full HD",
+      "meret:23.8",
+      "frissitesi_rata:100",
+      "jellemzok:IPS panel, 1 ms válaszidő, Adaptive-Sync, HDMI csatlakozó"
+
+    ]
+  },
+  {
+    "ProductName": "ASUS TUF Gaming VG249Q3A",
+    "Quanity": "1",
+    "Price": "57190",
+    "Tags": [ "monitor" ],
+    "Description": [
+      "felbontas:Full HD",
+      "meret:23.8",
+      "frissitesi_rata:180",
+      "jellemzok:IPS panel, 1 ms válaszidő, FreeSync, HDMI és DisplayPort csatlakozó"
+
+    ]
+  },
+  {
+    "ProductName": "ASUS TUF Gaming VG249QL3A",
+    "Quanity": "1",
+    "Price": "76490",
+    "Tags": [ "monitor" ],
+    "Description": [
+      "felbontas:Full HD",
+      "meret:23.8",
+      "frissitesi_rata:180",
+      "jellemzok:IPS panel, 1 ms válaszidő, FreeSync, állítható magasságú talp, HDMI és DisplayPort csatlakozó"
+
+    ]
+  },
+  {
+    "ProductName": "ASUS VA279HAL",
+    "Quanity": "1",
+    "Price": "87984",
+    "Tags": [ "monitor" ],
+    "Description": [
+      "felbontas:Full HD",
+      "meret:27",
+      "frissitesi_rata:75",
+      "jellemzok:IPS panel, HDMI és D-Sub csatlakozó, Eye Care technológia"
+
+    ]
+  },
+  {
+    "ProductName": "ASUS VZ24EHF",
+    "Quanity": "1",
+    "Price": "48207",
+    "Tags": [ "monitor" ],
+    "Description": [
+     "felbontas:Full HD",
+      "meret:23.8",
+      "frissitesi_rata:100",
+      "jellemzok:IPS panel, 1 ms válaszidő, Adaptive-Sync, HDMI csatlakozó"
+
+    ]
+  },
+  {
+    "ProductName": "ASUS TUF Gaming VG249Q3A",
+    "Quanity": "1",
+    "Price": "57190",
+    "Tags": [ "monitor" ],
+    "Description": [
+     "felbontas:Full HD",
+      "meret:23.8",
+      "frissitesi_rata:180",
+      "jellemzok:IPS panel, 1 ms válaszidő, FreeSync, HDMI és DisplayPort csatlakozó"
+
+    ]
+  },
+  {
+    "ProductName": "Samsung Odyssey LS24AG300NRXEN",
+    "Quanity": "1",
+    "Price": "49990",
+    "Tags": [ "monitor" ],
+    "Description": [
+      "felbontas:Full HD",
+      "meret:24",
+      "frissitesi_rata:144",
+      "jellemzok:LED háttérvilágítás"
+
+    ]
+  },
+  {
+    "ProductName": "Samsung Odyssey G5 LC34G55TWWPXEN",
+    "Quanity": "1",
+    "Price": "134999",
+    "Tags": [ "monitor" ],
+    "Description": [
+       "felbontas:WQHD",
+      "meret:34",
+      "frissitesi_rata:165",
+      "jellemzok:Ívelt kijelző, DisplayPort és HDMI csatlakozó"
+
+    ]
+  },
+  {
+    "ProductName": "Samsung Odyssey G5 LS27CG510EUXEN",
+    "Quanity": "1",
+    "Price": "82999",
+    "Tags": [ "monitor" ],
+    "Description": [
+      "felbontas:WQHD",
+      "meret:27",
+      "frissitesi_rata:165",
+      "jellemzok:Ívelt kijelző, DisplayPort és HDMI csatlakozó"
+
+    ]
+  },
+  {
+    "ProductName": "Samsung Odyssey G5 G55A 27\" QHD",
+    "Quanity": "1",
+    "Price": "79999",
+    "Tags": [ "monitor" ],
+    "Description": [
+      "felbontas:QHD",
+      "meret:27",
+      "frissitesi_rata:165",
+      "jellemzok:Ívelt kijelző, HDMI és DisplayPort csatlakozó"
+
+    ]
+  },
+  {
+    "ProductName": "Samsung Odyssey OLED G6 S27DG610SU",
+    "Quanity": "1",
+    "Price": "281930",
+    "Tags": [ "monitor" ],
+    "Description": [
+      "felbontas:QHD",
+      "meret:27",
+      "frissitesi_rata:240",
+      "jellemzok:OLED panel, HDR10, 0,1 ms válaszidő, HDMI és DisplayPort csatlakozó"
+
+    ]
+  }
 ]
