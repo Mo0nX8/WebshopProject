@@ -9,9 +9,21 @@ using Webshop.Services.Interfaces_For_Services;
 
 namespace WebshopWeb.Initializer
 {
+    /// <summary>
+    /// This class is for the Database Seeding process.
+    /// </summary>
     public class DbInitializer
     {
-
+        /// <summary>
+        /// This method using Dependency Injection. It requires ApplicationBuilder, UserManager, EncryptManager, DbContext and a path to run. 
+        /// It loads data from a json to the database. This fills up the product table.
+        /// This method seeds an admin user into the database.
+        /// </summary>
+        /// <param name="applicationBuilder"></param>
+        /// <param name="userManager"></param>
+        /// <param name="encryptManager"></param>
+        /// <param name="_context"></param>
+        /// <param name="path"></param>
         public static void Seed(IApplicationBuilder applicationBuilder, IUserManager userManager, IEncryptManager encryptManager, GlobalDbContext _context, string path)
         {
             using(var serviceScope=applicationBuilder.ApplicationServices.CreateScope())
