@@ -30,3 +30,15 @@ body {
     border-radius: 20px;
     width: 100%;
 }
+.banner-container {
+    max-width: 100%;
+    height: auto;
+    overflow: visible;
+}
+
+.responsive-banner {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: fill;
+}

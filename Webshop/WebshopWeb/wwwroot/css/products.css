@@ -1,5 +1,21 @@
-﻿.product-image {
+﻿.product-image 
+{
     object-fit: contain;
     height: 200px;
-    width:100%;
+    max-width:100%;
+}
+.card 
+{
+    border: none;
+    transition: transform 0.3s ease;
+}
+.card:hover 
+{
+        transform: scale(1.05);
+}
+
+.card-title 
+{
+    font-size: 1.1rem;
+    text-align: center;
 }
