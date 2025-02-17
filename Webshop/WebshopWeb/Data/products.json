@@ -766,7 +766,7 @@
     "Price": "85390",
     "Tags": [ "monitor" ],
     "Description": [
-       "felbontas:Full HD",
+      "felbontas:Full HD",
       "meret:27",
       "frissitesi_rata:240",
       "jellemzok:Ívelt VA panel, 0,5 ms válaszidő, HDR10, HDMI és DisplayPort csatlakozó"
@@ -870,7 +870,7 @@
     "Price": "84940",
     "Tags": [ "monitor" ],
     "Description": [
-     "felbontas:1920 x 1200",
+      "felbontas:1920 x 1200",
       "meret:24.1",
       "frissitesi_rata:75",
       "jellemzok:IPS panel, 100% sRGB, 100% Rec.709 színtér, Calman Verified, ergonomikus állvány"
@@ -883,7 +883,7 @@
     "Price": "87984",
     "Tags": [ "monitor" ],
     "Description": [
-       "felbontas:Full HD",
+      "felbontas:Full HD",
       "meret:27",
       "frissitesi_rata:75",
       "jellemzok:IPS panel, HDMI és D-Sub csatlakozó, Eye Care technológia"
@@ -896,7 +896,7 @@
     "Price": "48207",
     "Tags": [ "monitor" ],
     "Description": [
-     "felbontas:Full HD",
+      "felbontas:Full HD",
       "meret:23.8",
       "frissitesi_rata:100",
       "jellemzok:IPS panel, 1 ms válaszidő, Adaptive-Sync, HDMI csatlakozó"
@@ -948,7 +948,7 @@
     "Price": "48207",
     "Tags": [ "monitor" ],
     "Description": [
-     "felbontas:Full HD",
+      "felbontas:Full HD",
       "meret:23.8",
       "frissitesi_rata:100",
       "jellemzok:IPS panel, 1 ms válaszidő, Adaptive-Sync, HDMI csatlakozó"
@@ -961,7 +961,7 @@
     "Price": "57190",
     "Tags": [ "monitor" ],
     "Description": [
-     "felbontas:Full HD",
+      "felbontas:Full HD",
       "meret:23.8",
       "frissitesi_rata:180",
       "jellemzok:IPS panel, 1 ms válaszidő, FreeSync, HDMI és DisplayPort csatlakozó"
@@ -987,7 +987,7 @@
     "Price": "134999",
     "Tags": [ "monitor" ],
     "Description": [
-       "felbontas:WQHD",
+      "felbontas:WQHD",
       "meret:34",
       "frissitesi_rata:165",
       "jellemzok:Ívelt kijelző, DisplayPort és HDMI csatlakozó"
@@ -1031,6 +1031,681 @@
       "frissitesi_rata:240",
       "jellemzok:OLED panel, HDR10, 0,1 ms válaszidő, HDMI és DisplayPort csatlakozó"
 
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG Harpe Ace Aim Lab Edition (90MP02W0-BMUA00)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wireless",
+      "mouse_type:Optical",
+      "connection:Bluetooth/RF",
+      "sensitivity:36000 DPI",
+      "button_count:5",
+      "lighting:LED lighting",
+      "color:Black",
+      "weight:59 g"
+    ]
+  },
+  {
+    "ProductName": "ASUS TUF Gaming M4 WL (90MP02F0-BMUA00)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wireless",
+      "mouse_type:Optical",
+      "connection:Bluetooth/RF",
+      "sensitivity:12000 DPI",
+      "button_count:6",
+      "lighting:No lighting",
+      "color:Black",
+      "weight:86 g"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG Gladius III Wireless AimPoint Black (90MP02Y0-BMUA00)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wireless",
+      "mouse_type:Optical",
+      "connection:Bluetooth/RF",
+      "sensitivity:36000 DPI",
+      "button_count:5",
+      "lighting:LED lighting",
+      "color:Black",
+      "weight:79 g"
+    ]
+  },
+  {
+    "ProductName": "ASUS MU101C (90XB05RN-BMU000)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wired",
+      "mouse_type:Optical",
+      "connection:USB",
+      "sensitivity:1000 DPI",
+      "button_count:4",
+      "lighting:No lighting",
+      "weight:85 g"
+    ]
+  },
+  {
+    "ProductName": "ASUS TUF Gaming M3 II (90MP0320-BMUA00)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wired",
+      "mouse_type:Optical",
+      "connection:USB",
+      "sensitivity:8000 DPI",
+      "button_count:6",
+      "lighting:LED lighting",
+      "color:Black",
+      "weight:59 g"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG Chakram X Origin (90MP02N1-BMUA00)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wireless",
+      "mouse_type:Optical",
+      "connection:Bluetooth/RF",
+      "sensitivity:36000 DPI",
+      "button_count:8",
+      "lighting:LED lighting",
+      "weight:123 g"
+    ]
+  },
+  {
+    "ProductName": "ASUS Rog Spatha X (90MP0220-BMUA00)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wireless",
+      "mouse_type:Optical",
+      "connection:RF",
+      "sensitivity:19000 DPI",
+      "button_count:12",
+      "lighting:LED lighting",
+      "color:Black",
+      "weight:168 g"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG Strix Impact III Wireless (90MP03D0-BMUA00)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wireless",
+      "mouse_type:Optical",
+      "connection:Bluetooth/RF",
+      "sensitivity:36000 DPI",
+      "button_count:5",
+      "lighting:LED lighting",
+      "color:Black",
+      "weight:57 g"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG Harpe Ace Aim Extreme",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wireless"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG Gladius III (90MP0270-BMUA00)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wired",
+      "mouse_type:Optical",
+      "connection:USB",
+      "sensitivity:19000 DPI",
+      "button_count:6",
+      "lighting:LED lighting",
+      "weight:79 g"
+    ]
+  },
+  {
+    "ProductName": "Logitech G502 Hero (910-005470)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wired",
+      "mouse_type:Optical",
+      "connection:USB",
+      "sensitivity:25600 DPI",
+      "button_count:11",
+      "lighting:LED lighting"
+    ]
+  },
+  {
+    "ProductName": "Logitech G Pro X Superlight 2 (910-006630)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wireless",
+      "mouse_type:Optical",
+      "connection:RF",
+      "sensitivity:32000 DPI",
+      "button_count:5",
+      "lighting:No lighting"
+    ]
+  },
+  {
+    "ProductName": "Logitech G305 Lightspeed Black (910-005282)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wireless",
+      "mouse_type:Optical",
+      "connection:RF",
+      "sensitivity:12000 DPI",
+      "button_count:6",
+      "lighting:No lighting"
+    ]
+  },
+  {
+    "ProductName": "Logitech MX Master 3S Performance (910-006559)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wireless",
+      "mouse_type:Optical",
+      "connection:Bluetooth",
+      "sensitivity:8000 DPI",
+      "button_count:7",
+      "lighting:No lighting"
+    ]
+  },
+  {
+    "ProductName": "Logitech G Pro X Superlight (910-005881)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wireless",
+      "mouse_type:Optical",
+      "connection:RF",
+      "sensitivity:25600 DPI",
+      "button_count:5",
+      "lighting:No lighting"
+    ]
+  },
+  {
+    "ProductName": "Logitech G102 Lightsync Black (910-005823)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wired",
+      "mouse_type:Optical",
+      "connection:USB",
+      "sensitivity:8000 DPI",
+      "button_count:6",
+      "lighting:LED lighting",
+      "color:Black",
+      "weight:85 g"
+    ]
+  },
+  {
+    "ProductName": "Logitech G203 LightSync Black (910-005796)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wired",
+      "mouse_type:Optical",
+      "connection:USB",
+      "sensitivity:8000 DPI",
+      "button_count:6",
+      "lighting:LED lighting",
+      "color:Black",
+      "weight:85 g"
+    ]
+  },
+  {
+    "ProductName": "Razer Basilisk V3 (RZ01-04000100-R3M1)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wired",
+      "mouse_type:Optical",
+      "connection:USB",
+      "sensitivity:26000 DPI",
+      "button_count:11",
+      "lighting:LED lighting"
+    ]
+  },
+  {
+    "ProductName": "Razer Viper V3 Pro (RZ01-05120100-R3G1)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wireless",
+      "mouse_type:Optical",
+      "connection:Bluetooth",
+      "sensitivity:35000 DPI",
+      "button_count:6",
+      "lighting:No lighting",
+      "color:Black",
+      "weight:54 g"
+    ]
+  },
+  {
+    "ProductName": "Razer DeathAdder Essential (RZ01-02540100-R3M1)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wired",
+      "mouse_type:Optical",
+      "connection:USB",
+      "sensitivity:6400 DPI",
+      "button_count:5",
+      "lighting:LED lighting",
+      "color:Black"
+    ]
+  },
+  {
+    "ProductName": "Razer Viper V3 HyperSpeed (RZ01-04910100-R3M1)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wireless",
+      "mouse_type:Optical",
+      "connection:Bluetooth",
+      "sensitivity:30000 DPI",
+      "button_count:6",
+      "lighting:No lighting",
+      "color:Black",
+      "weight:82 g"
+    ]
+  },
+  {
+    "ProductName": "Razer DeathAdder V3 Esport (RZ01-04640100-R3M1)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "connection_type:Wired",
+      "mouse_type:Optical",
+      "connection:USB",
+      "sensitivity:30000 DPI",
+      "button_count:5",
+      "lighting:RGB lighting"
+    ]
+  },
+  {
+    "ProductName": "SteelSeries QcK XXL (67500)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+      "szélesség:900 mm",
+      "mélység:400 mm",
+      "magasság:4 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "SteelSeries Qck Heavy Large (63008)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+      "szélesség:450 mm",
+      "mélység:400 mm",
+      "magasság:6 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "SteelSeries QcK (63004)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+       "szélesség:320 mm",
+      "mélység:270 mm",
+      "magasság:2 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "SteelSeries QcK+ Pro Gaming (63003)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+      "szélesség:450 mm",
+      "mélység:400 mm",
+      "magasság:2 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "SteelSeries QCK Edge XL (63824)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+      "szélesség:900 mm",
+      "mélység:300 mm",
+      "magasság:2 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "SteelSeries QCK Prism Cloth XL (63826)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+       "szélesség:900 mm",
+      "mélység:300 mm",
+      "magasság:4 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "SteelSeries QCK 3XL (63842)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+     "szélesség:1220 mm",
+      "mélység:590 mm",
+      "magasság:3 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG Sheath Black (90MP00K3-B0UA00)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+      "szélesség:900 mm",
+      "mélység:440 mm",
+      "magasság:3 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG Strix Edge Vertical (90MP00T0-B0UA00)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+      "szélesség:440 mm",
+      "mélység:450 mm",
+      "magasság:2 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG Sheath (90MP00K1-B0UA00)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+       "szélesség:900 mm",
+      "mélység:440 mm",
+      "magasság:3 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG Hone Ace XXL (90MP03G0-BPUA00)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+     "szélesség:900 mm",
+      "mélység:400 mm",
+      "magasság:3 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG Scabbard II (90MP0210-BPUA00)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+     "szélesség:900 mm",
+      "mélység:400 mm",
+      "magasság:3 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "ASUS NC13 TUF Gaming P1 (90MP02G0-BPUA00)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+      "szélesség:360 mm",
+      "mélység:260 mm",
+      "magasság:2 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "ASUS Hone Ace Aim Lab Edition (90MP0380-BPUA00)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+      "szélesség:508 mm",
+      "mélység:420 mm",
+      "magasság:3 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG Balteus Qi RGB (90MP0120-B0UA00)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+       "szélesség:370 mm",
+      "mélység:320 mm",
+      "magasság:7.9 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG Balteus RGB (90MP0110-B0UA00)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+      "szélesség:320 mm",
+      "mélység:370 mm",
+      "magasság:7.9 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG Moonstone Ace L black",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+     "szélesség:500 mm",
+      "mélység:400 mm",
+      "magasság:4 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "ASUS TUF Gaming P3 90MP01C0-B0UA00",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+      "szélesség:350 mm",
+      "mélység:280 mm",
+      "magasság:2 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG Scabbard II Medium (90MP02H0-BPUA00)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+      "szélesség:320 mm",
+      "mélység:260 mm",
+      "magasság:3 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "Corsair MM700 RGB (CH-9417070)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+     "szélesség:930 mm",
+      "mélység:400 mm",
+      "magasság:4 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "Corsair MM350 PRO Extended XL (CH-9413771)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+      "szélesség:930 mm",
+      "mélység:400 mm",
+      "magasság:4 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "Corsair MM200 PRO Premium CH-9412660",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+       "szélesség:450 mm",
+      "mélység:400 mm",
+      "magasság:6 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "Corsair CH-9413520",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+       "szélesség:320 mm",
+      "mélység:270 mm",
+      "magasság:5 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "Corsair MM300 Pro Extended (CH-9413641-WW)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+       "szélesség:930 mm",
+      "mélység:300 mm",
+      "magasság:3 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "Corsair CH-9417080-WW",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+       "szélesség:1220 mm",
+      "mélység:610 mm",
+      "magasság:4 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "Corsair Elgato 10GAV9901",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+      "szélesség:950 mm",
+      "mélység:400 mm",
+      "magasság:3 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "Corsair MM250 XL (CH-9412560-WW)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+     "szélesség:450 mm",
+      "mélység:400 mm",
+      "magasság:5 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "Corsair MM350 PRO Premium Extended XL (CH-9413770)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+      "szélesség:930 mm",
+      "mélység:400 mm",
+      "magasság:4 mm",
+      "csuklótámasz:Nincs"
+    ]
+  },
+  {
+    "ProductName": "Corsair MM800 Polaris RGB (CH-9440020-EU)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egérpad" ],
+    "Description": [
+      "szélesség:350 mm",
+      "mélység:260 mm",
+      "magasság:5 mm",
+      "csuklótámasz:Nincs"
     ]
   }
 ]

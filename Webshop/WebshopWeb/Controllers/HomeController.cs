@@ -122,4 +122,8 @@ public class HomeController : Controller
         }
         return View(orders);
     }
+    public IActionResult aszf()
+    {
+        return View();
+    }
 }
