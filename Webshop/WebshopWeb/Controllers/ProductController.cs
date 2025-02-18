@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Webshop.EntityFramework;
 using Webshop.EntityFramework.Data;
 using Webshop.EntityFramework.Managers.Interfaces.Product;
+using Webshop.Services.Services.ViewModel;
 
 namespace WebshopWeb.Controllers
 {
@@ -21,7 +22,11 @@ namespace WebshopWeb.Controllers
         public IActionResult Index()
         {
             products = _context.StorageData.ToList();
-            return View(products);
+            var model = new ProductFilterViewModel
+            {
+                Products = products
+            };
+            return View(model);
         }
         public IActionResult Details(int id) 
         {
@@ -79,9 +84,47 @@ namespace WebshopWeb.Controllers
             if (products.Count < 1)
             {
                 products = _context.StorageData.ToList();
+
+            }
+            var model = new ProductFilterViewModel
+            {
+                Products = products
+            };
+
+            return View("Index", model);
+        }
+        [HttpPost]
+        public IActionResult Filter(ProductFilterViewModel filter)
+        {
+            var query = _context.StorageData.AsQueryable();
+
+            if (!string.IsNullOrEmpty(filter.ProductName))
+            {
+                query = query.Where(p => p.ProductName.Contains(filter.ProductName));
+            }
+            if (filter.MinPrice.HasValue)
+            {
+                query = query.Where(p => p.Price >= filter.MinPrice.Value);
+            }
+            if (filter.MaxPrice.HasValue)
+            {
+                query = query.Where(p => p.Price <= filter.MaxPrice.Value);
             }
 
-            return View("Index", products);
+
+            var filteredProducts = query.ToList();
+            if (!filteredProducts.Any()) 
+            {
+
+            }
+            var model = new ProductFilterViewModel
+            {
+                ProductName = filter.ProductName,
+                MinPrice = filter.MinPrice,
+                MaxPrice = filter.MaxPrice,
+                Products = filteredProducts
+            };
+            return View("Index",model);
         }
 
 

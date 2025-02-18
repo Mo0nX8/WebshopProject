@@ -1,32 +1,66 @@
-﻿@using Webshop.EntityFramework.Data
-@model List<Products>
-<head>
-    <link rel="stylesheet" href="~/css/products.css" />
-</head>
-<div class="container">
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
-        @foreach (var product in Model)  
-        {
-            <div class="col mb-4">
+﻿@using Webshop.Services.Services.ViewModel
+@model ProductFilterViewModel
 
-                <a href="@Url.Action("Details", "Product" , new { id=product.Id })" class="text-decoration-none">
-                <div class="card ">
-                        <div class="card-body">
-                        @if (product.ImageData != null && product.ImageData.Length > 0)
-                        {
-                            var base64Image = Convert.ToBase64String(product.ImageData);
-                            <img src="data:image/jpeg;base64,@base64Image" class="card-img-top product-image" alt="@product.ProductName">
-                        }
-                        <h5 class="card-title">@product.ProductName</h5>
-                        <h5>@product.Price ft</h5>
-                                
+<head>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="~/css/products.css" />
+
+</head>
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col">
+            <form method="post" asp-action="Filter" id="filterForm">
+                <div class="row">
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" name="productName" placeholder="Product Name"  />
+                    </div>
+                    <div class="col-md-6">
+                        <input type="number" class="form-control" name="minPrice" placeholder="Min Price"  />
+                    </div>
+                    <div class="col-md-3">
+                        <input type="number" class="form-control" name="maxPrice" placeholder="Max Price"  />
+                    </div>
+                    <div class="col-md-3">
+                        <button type="submit" class="btn btn-primary">Szűrés</button>
                     </div>
                 </div>
-            </a>
-            </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+        @if(Model is not null)
+        {
+            @foreach (var product in Model.Products)
+            {
+                <div class="col mb-4">
+                    <a href="@Url.Action("Details", "Product" , new { id=product.Id })" class="text-decoration-none">
+                        <div class="card">
+                            <div class="card-body">
+                                @if (product.ImageData != null && product.ImageData.Length > 0)
+                                {
+                                    var base64Image = Convert.ToBase64String(product.ImageData);
+                                    <img src="data:image/jpeg;base64,@base64Image" class="card-img-top product-image" alt="@product.ProductName">
+                                }
+                                <h5 class="card-title">@product.ProductName</h5>
+                                <h5>@product.Price ft</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            }
         }
+        else
+        {
+            <div>Sajnos nincs ilyen termék.</div>
+        }
+        
     </div>
 </div>
+
 
 
 
