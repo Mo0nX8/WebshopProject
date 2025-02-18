@@ -4444,5 +4444,235 @@
       "TDP: 125 W",
       "Kiszerelés: Dobozos"
     ]
-  }
-]
+  },
+    {
+      "ProductName": "Intel Core i9-14900KS Box",
+      "Quantity": "1",
+      "Price": "326040",
+      "Tags": [ "Intel", "Core i9", "24 magos", "3.2GHz", "LGA1700", "Dobozos" ],
+      "Description": [
+        "Gyártó: Intel",
+        "Típus: Core i9",
+        "Magok száma: 24",
+        "Szálak száma: 32",
+        "Foglalat: LGA1700",
+        "Alap órajel: 2400 MHz",
+        "Turbo órajel: 6200 MHz",
+        "Gyártási technológia: 10 nm",
+        "Integrált grafikus vezérlő: Intel UHD Graphics 770",
+        "L2 cache: 32 MB",
+        "L3 cache: 36 MB",
+        "TDP: 150 W",
+        "Kiszerelés: Dobozos"
+      ]
+    },
+    {
+      "ProductName": "Intel Core i9-13900KF Box",
+      "Quantity": "1",
+      "Price": "229330",
+      "Tags": [ "Intel", "Core i9", "24 magos", "3.0GHz", "LGA1700", "Dobozos" ],
+      "Description": [
+        "Gyártó: Intel",
+        "Típus: Core i9",
+        "Magok száma: 24",
+        "Szálak száma: 32",
+        "Foglalat: LGA1700",
+        "Alap órajel: 2200 MHz",
+        "Turbo órajel: 5800 MHz",
+        "Gyártási technológia: 10 nm",
+        "Integrált grafikus vezérlő: Nincs",
+        "L2 cache: 32 MB",
+        "L3 cache: 36 MB",
+        "TDP: 125 W",
+        "Kiszerelés: Dobozos"
+      ]
+    },
+    {
+      "ProductName": "Intel Core i9-12900F Box",
+      "Quantity": "1",
+      "Price": "179380",
+      "Tags": [ "Intel", "Core i9", "16 magos", "2.4GHz", "LGA1700", "Dobozos" ],
+      "Description": [
+        "Gyártó: Intel",
+        "Típus: Core i9",
+        "Magok száma: 16",
+        "Szálak száma: 24",
+        "Foglalat: LGA1700",
+        "Alap órajel: 1800 MHz",
+        "Turbo órajel: 5100 MHz",
+        "Gyártási technológia: 10 nm",
+        "Integrált grafikus vezérlő: Nincs",
+        "L2 cache: 14 MB",
+        "L3 cache: 30 MB",
+        "TDP: 65 W",
+        "Kiszerelés: Dobozos"
+      ]
+    },
+    {
+      "ProductName": "Intel Core i9-12900K Box",
+      "Quantity": "1",
+      "Price": "162690",
+      "Tags": [ "Intel", "Core i9", "16 magos", "3.2GHz", "LGA1700", "Dobozos" ],
+      "Description": [
+        "Gyártó: Intel",
+        "Típus: Core i9",
+        "Magok száma: 16",
+        "Szálak száma: 24",
+        "Foglalat: LGA1700",
+        "Alap órajel: 2400 MHz",
+        "Turbo órajel: 5200 MHz",
+        "Gyártási technológia: 10 nm",
+        "Integrált grafikus vezérlő: Intel UHD Graphics 770",
+        "L3 cache: 30 MB",
+        "TDP: 125 W",
+        "Kiszerelés: Dobozos"
+      ]
+    },
+    {
+      "ProductName": "Intel Core i9-12900KF Box",
+      "Quantity": "1",
+      "Price": "164830",
+      "Tags": [ "Intel", "Core i9", "16 magos", "3.2GHz", "LGA1700", "Dobozos" ],
+      "Description": [
+        "Gyártó: Intel",
+        "Típus: Core i9",
+        "Magok száma: 16",
+        "Szálak száma: 24",
+        "Foglalat: LGA1700",
+        "Alap órajel: 2400 MHz",
+        "Turbo órajel: 5200 MHz",
+        "Gyártási technológia: 10 nm",
+        "Integrált grafikus vezérlő: Nincs",
+        "L2 cache: 12 MB",
+        "L3 cache: 30 MB",
+        "TDP: 125 W",
+        "Kiszerelés: Dobozos"
+      ]
+    },
+    {
+      "ProductName": "Intel Core i9-14900 Box",
+      "Quantity": "1",
+      "Price": "303160",
+      "Tags": [ "Intel", "Core i9", "24 magos", "2.0GHz", "LGA1700", "Dobozos" ],
+      "Description": [
+        "Gyártó: Intel",
+        "Típus: Core i9",
+        "Magok száma: 24",
+        "Szálak száma: 32",
+        "Foglalat: LGA1700",
+        "Alap órajel: 1500 MHz",
+        "Turbo órajel: 5800 MHz",
+        "Gyártási technológia: 10 nm",
+        "Integrált grafikus vezérlő: Intel UHD Graphics 770",
+        "L2 cache: 32 MB",
+        "L3 cache: 36 MB",
+        "TDP: 65 W",
+        "Kiszerelés: Dobozos"
+      ]
+    },
+    {
+      "ProductName": "Intel Core i9-13900KS Box",
+      "Quantity": "1",
+      "Price": "369178",
+      "Tags": [ "Intel", "Core i9", "24 magos", "3.2GHz", "LGA1700", "Dobozos" ],
+      "Description": [
+        "Gyártó: Intel",
+        "Típus: Core i9",
+        "Magok száma: 24",
+        "Szálak száma: 32",
+        "Foglalat: LGA1700",
+        "Alap órajel: 2400 MHz",
+        "Turbo órajel: 6000 MHz",
+        "Gyártási technológia: 10 nm",
+        "Integrált grafikus vezérlő: Intel UHD Graphics 770",
+        "L2 cache: 32 MB",
+        "L3 cache: 36 MB",
+        "TDP: 150 W",
+        "Kiszerelés: Dobozos"
+      ]
+    },
+    {
+      "ProductName": "Intel Core i9-12900 Box",
+      "Quantity": "1",
+      "Price": "191290",
+      "Tags": [ "Intel", "Core i9", "16 magos", "1.8GHz", "LGA1700", "Dobozos" ],
+      "Description": [
+        "Gyártó: Intel",
+        "Típus: Core i9",
+        "Magok száma: 16",
+        "Szálak száma: 24",
+        "Foglalat: LGA1700",
+        "Alap órajel: 1800 MHz",
+        "Turbo órajel: 5100 MHz",
+        "Gyártási technológia: 10 nm",
+        "Integrált grafikus vezérlő: Intel UHD Graphics 770",
+        "L2 cache: 14 MB",
+        "L3 cache: 30 MB",
+        "TDP: 65 W",
+        "Kiszerelés: Dobozos"
+      ]
+    },
+    {
+      "ProductName": "Intel Core i9-13900 Box",
+      "Quantity": "1",
+      "Price": "303160",
+      "Tags": [ "Intel", "Core i9", "24 magos", "3.0GHz", "LGA1700", "Dobozos" ],
+      "Description": [
+        "Gyártó: Intel",
+        "Típus: Core i9",
+        "Magok száma: 24",
+        "Szálak száma: 32",
+        "Foglalat: LGA1700",
+        "Alap órajel: 1500 MHz",
+        "Turbo órajel: 5600 MHz",
+        "Gyártási technológia: 10 nm",
+        "Integrált grafikus vezérlő: Intel UHD Graphics 770",
+        "L2 cache: 32 MB",
+        "L3 cache: 36 MB",
+        "TDP: 65 W",
+        "Kiszerelés: Dobozos"
+      ]
+    },
+    {
+      "ProductName": "Intel Core i9-12900KS Box",
+      "Quantity": "1",
+      "Price": "222595",
+      "Tags": [ "Intel", "Core i9", "16 magos", "3.40GHz", "LGA1700", "Dobozos" ],
+      "Description": [
+        "Gyártó: Intel",
+        "Típus: Core i9",
+        "Magok száma: 16",
+        "Szálak száma: 24",
+        "Foglalat: LGA1700",
+        "Alap órajel: 2500 MHz",
+        "Turbo órajel: 5500 MHz",
+        "Gyártási technológia: 10 nm",
+        "Integrált grafikus vezérlő: Intel UHD Graphics 770",
+        "L3 cache: 30 MB",
+        "TDP: 150 W",
+        "Kiszerelés: Dobozos"
+      ]
+    },
+    {
+      "ProductName": "Intel Core i9-14900F Box",
+      "Quantity": "1",
+      "Price": "223990",
+      "Tags": [ "Intel", "Core i9", "24 magos", "2.0GHz", "LGA1700", "Dobozos" ],
+      "Description": [
+        "Gyártó: Intel",
+        "Típus: Core i9",
+        "Magok száma: 24",
+        "Szálak száma: 32",
+        "Foglalat: LGA1700",
+        "Alap órajel: 1500 MHz",
+        "Turbo órajel: 5800 MHz",
+        "Gyártási technológia: 10 nm",
+        "Integrált grafikus vezérlő: Nincs",
+        "L2 cache: 32 MB",
+        "L3 cache: 36 MB",
+        "TDP: 65 W",
+        "Kiszerelés: Dobozos"
+      ]
+    }
+
+  ]
