@@ -1180,6 +1180,245 @@
     ]
   },
   {
+    "ProductName": "SteelSeries Rival 3 (62513)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "Jelátvitel Vezetékes",
+      "Egér típusa Optikai",
+      "Egér csatlakoztatása USB",
+      "Érzékenység 8500 DPI",
+      "Gombok száma 6 db",
+      "Megvilágítás LED megvilágítás",
+      "Szín Fekete",
+      "Tömeg 77 g"
+    ]
+  },
+  {
+    "ProductName": "SteelSeries Aerox 3 2022 (62608)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "Jelátvitel Vezeték nélküli",
+      "Egér típusa Optikai",
+      "Egér csatlakoztatása Bluetooth/Rádiófrekvenciás",
+      "Érzékenység 18000 DPI",
+      "Gombok száma 6 db",
+      "Megvilágítás LED megvilágítás",
+      "Tömeg 68 g"
+    ]
+  },
+  {
+    "ProductName": "SteelSeries Rival 3 Wireless (62521)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "Jelátvitel Vezeték nélküli",
+      "Egér típusa Optikai",
+      "Egér csatlakoztatása Bluetooth",
+      "Érzékenység 18000 DPI",
+      "Gombok száma 6 db",
+      "Megvilágítás LED megvilágítás",
+      "Szín Fekete",
+      "Tömeg 106 g"
+
+    ]
+  },
+  {
+    "ProductName": "SteelSeries Rival 5 (62551)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "Jelátvitel Vezetékes",
+      "Egér típusa Optikai",
+      "Egér csatlakoztatása USB",
+      "Érzékenység 18000 DPI",
+      "Gombok száma 9 db",
+      "Megvilágítás LED megvilágítás",
+      "Szín Fekete",
+      "Tömeg 85 g"
+
+    ]
+  },
+  {
+    "ProductName": "SteelSeries Aerox 5 WL (62406)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "Jelátvitel Vezeték nélküli",
+      "Egér típusa Optikai",
+      "Egér csatlakoztatása Bluetooth/Rádiófrekvenciás",
+      "Érzékenység 18000 DPI",
+      "Gombok száma 9 db",
+      "Megvilágítás LED megvilágítás",
+      "Szín Fekete",
+      "Tömeg 74 g"
+    ]
+  },
+  {
+    "ProductName": "SteelSeries Aerox 9 (62618)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "Jelátvitel Vezeték nélküli",
+      "Egér típusa Optikai",
+      "Egér csatlakoztatása Bluetooth/Rádiófrekvenciás",
+      "Érzékenység 18000 DPI",
+      "Gombok száma 16 db",
+      "Megvilágítás LED megvilágítás",
+      "Szín Fekete",
+      "Tömeg 89 g"
+    ]
+  },
+  {
+    "ProductName": "SteelSeries Aerox 5 USB (62401)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "Jelátvitel Vezetékes",
+      "Egér típusa Optikai",
+      "Egér csatlakoztatása USB",
+      "Érzékenység 18000 DPI",
+      "Gombok száma 9 db",
+      "Megvilágítás LED megvilágítás",
+      "Szín Fekete",
+      "Tömeg 66 g"
+    ]
+  },
+  {
+    "ProductName": "SteelSeries Aerox 3 Onyx (62611)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "Jelátvitel Vezetékes",
+      "Egér típusa Optikai",
+      "Egér csatlakoztatása USB",
+      "Érzékenység 8500 DPI",
+      "Gombok száma 5 db",
+      "Megvilágítás LED megvilágítás",
+      "Szín Fekete",
+      "Tömeg 59 g"
+    ]
+  },
+  {
+    "ProductName": "SteelSeries Prime Mini (62421)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "Jelátvitel Vezetékes",
+      "Egér típusa Optikai",
+      "Egér csatlakoztatása USB",
+      "Érzékenység 18000 DPI",
+      "Gombok száma 5 db",
+      "Megvilágítás LED megvilágítás",
+      "Szín Fekete",
+      "Tömeg 61 g"
+    ]
+  },
+  {
+    "ProductName": "Genius NX-7015 (31030019400/31030119100)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+     "Jelátvitel Vezeték nélküli",
+      "Egér típusa Optikai",
+      "Egér csatlakoztatása USB",
+      "Érzékenység 1200 DPI",
+      "Gombok száma 3 db",
+      "Megvilágítás Megvilágítás nélkül",
+      "Szín Szürke",
+      "Tömeg 57 g"
+    ]
+  },
+  {
+    "ProductName": "Genius DX-110 USB (31010116107/31010116100)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+     "Jelátvitel Vezetékes",
+      "Egér típusa Optikai",
+      "Egér csatlakoztatása USB",
+      "Érzékenység 1200 DPI",
+      "Gombok száma 3 db",
+      "Megvilágítás Megvilágítás nélkül",
+      "Szín Fekete",
+      "Tömeg 85 g"
+    ]
+  },
+  {
+    "ProductName": "Genius DX-150X (31010231103/31010231100)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "Jelátvitel Vezetékes",
+      "Egér típusa Optikai",
+      "Egér csatlakoztatása USB",
+      "Érzékenység 1200 DPI",
+      "Gombok száma 3 db",
+      "Megvilágítás Megvilágítás nélkül",
+      "Szín Fekete",
+      "Tömeg 73 g"
+    ]
+  },
+  {
+    "ProductName": "Genius DX-110 PS/2 (31010116108)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "Jelátvitel Vezetékes",
+      "Egér típusa Optikai",
+      "Egér csatlakoztatása PS2",
+      "Érzékenység 1000 DPI",
+      "Gombok száma 3 db",
+      "Megvilágítás Megvilágítás nélkül",
+      "Szín Fekete"
+    ]
+  },
+  {
+    "ProductName": "Apple Magic Mouse 3 (MK2E3ZM/A)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+      "Jelátvitel Vezeték nélküli",
+      "Egér típusa Optikai",
+      "Egér csatlakoztatása Bluetooth",
+      "Érzékenység 1300 DPI",
+      "Gombok száma 3 db",
+      "Megvilágítás Megvilágítás nélkül",
+      "Szín Fehér",
+      "Tömeg 99 g"
+    ]
+  },
+  {
+    "ProductName": "Apple Magic Mouse 2024 (MXK63ZM/A)",
+    "Quanity": "1",
+    "Price": "20000",
+    "Tags": [ "egér" ],
+    "Description": [
+     "Jelátvitel Vezeték nélküli",
+      "Egér típusa Optikai",
+      "Egér csatlakoztatása Bluetooth",
+      "Érzékenység 1000 DPI",
+      "Gombok száma 2 db",
+      "Megvilágítás Megvilágítás nélkül",
+      "Tömeg 99 g"
+    ]
+  },
+  {
     "ProductName": "SteelSeries QcK XXL (67500)",
     "Quanity": "1",
     "Price": "20000",
