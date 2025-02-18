@@ -1768,7 +1768,7 @@
   },
   {
     "ProductName": "Microsoft Xbox Series X/S Wireless Controller - Deep Pink",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "21940",
     "Tags": [ "játékvezérlő", "kontroller" ],
     "Description": [
@@ -1780,7 +1780,7 @@
   },
   {
     "ProductName": "Xbox Elite Vezeték nélküli Kontroller Series 2",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "58800",
     "Tags": [ "játékvezérlő", "kontroller" ],
     "Description": [
@@ -1793,7 +1793,7 @@
   },
   {
     "ProductName": "PDP Xbox Series X/S Vezetékes Kontroller",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "13980",
     "Tags": [ "játékvezérlő", "kontroller" ],
     "Description": [
@@ -1805,7 +1805,7 @@
   },
   {
     "ProductName": "Microsoft Xbox Series X/S Wireless Controller - Fehér",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "21170",
     "Tags": [ "játékvezérlő", "kontroller" ],
     "Description": [
@@ -1818,7 +1818,7 @@
   },
   {
     "ProductName": "Microsoft Xbox Series X/S Wireless Controller - Fekete",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "22481",
     "Tags": [ "játékvezérlő", "kontroller" ],
     "Description": [
@@ -1831,7 +1831,7 @@
   },
   {
     "ProductName": "NACON Revolution Pro Vezetékes Kontroller",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "29999",
     "Tags": [ "játékvezérlő", "kontroller" ],
     "Description": [
@@ -1843,7 +1843,7 @@
   },
   {
     "ProductName": "OEM DualShock 4 V2 Kontroller",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "8597",
     "Tags": [ "játékvezérlő", "kontroller" ],
     "Description": [
@@ -1854,7 +1854,7 @@
   },
   {
     "ProductName": "Sony DualShock 4 V2 Vezeték nélküli Kontroller",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "20600",
     "Tags": [ "játékvezérlő", "kontroller" ],
     "Description": [
@@ -1865,7 +1865,7 @@
   },
   {
     "ProductName": "Silicon Power Ace A55",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "11599",
     "Tags": [ "ssd" ],
     "Description": [
@@ -1879,7 +1879,7 @@
   },
   {
     "ProductName": "Apacer Panther AS350 1TB",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "21999",
     "Tags": [ "ssd" ],
     "Description": [
@@ -1893,7 +1893,7 @@
   },
   {
     "ProductName": "Kingston NV2 2TB",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "46499",
     "Tags": [ "ssd", "nvme" ],
     "Description": [
@@ -1907,7 +1907,7 @@
   },
   {
     "ProductName": "Samsung 870 EVO 1TB",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "39099",
     "Tags": [ "ssd" ],
     "Description": [
@@ -1921,7 +1921,7 @@
   },
   {
     "ProductName": "Crucial BX500",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "12099",
     "Tags": [ "ssd" ],
     "Description": [
@@ -1935,7 +1935,7 @@
   },
   {
     "ProductName": "Apacer Panther AS350 512GB",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "10799",
     "Tags": [ "ssd" ],
     "Description": [
@@ -1949,7 +1949,7 @@
   },
   {
     "ProductName": "Samsung 870 EVO 2TB",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "67900",
     "Tags": [ "ssd" ],
     "Description": [
@@ -1963,7 +1963,7 @@
   },
   {
     "ProductName": "Samsung 980 PRO",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "47200",
     "Tags": [ "ssd", "nvme" ],
     "Description": [
@@ -1977,7 +1977,7 @@
   },
   {
     "ProductName": "Kingston NV3 2TB",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "45110",
     "Tags": [ "ssd", "nvme" ],
     "Description": [
@@ -1991,7 +1991,7 @@
   },
   {
     "ProductName": "WD Black SN770",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "29990",
     "Tags": [ "ssd", "nvme" ],
     "Description": [
@@ -2005,7 +2005,7 @@
   },
   {
     "ProductName": "Kingston NV2 1TB",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "23490",
     "Tags": [ "ssd", "nvme" ],
     "Description": [
@@ -2019,7 +2019,7 @@
   },
   {
     "ProductName": "Samsung 860 EVO 1TB",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "25000",
     "Tags": [ "ssd" ],
     "Description": [
@@ -2033,7 +2033,7 @@
   },
   {
     "ProductName": "Seagate BarraCuda 3.5 8TB 5400rpm 256MB SATA3 (ST8000DM004)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "57000",
     "Tags": [ "hdd" ],
     "Description": [
@@ -2046,7 +2046,7 @@
   },
   {
     "ProductName": "Seagate BarraCuda 4TB 5400rpm 256MB SATA3 SMR (ST4000DM004)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "38890",
     "Tags": [ "hdd" ],
     "Description": [
@@ -2059,7 +2059,7 @@
   },
   {
     "ProductName": "Western Digital Red Plus 3.5 4TB 5400rpm 256MB SATA (WD40EFPX)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "44910",
     "Tags": [ "hdd" ],
     "Description": [
@@ -2072,7 +2072,7 @@
   },
   {
     "ProductName": "Seagate BarraCuda 3.5 2TB 7200rpm 256MB SATA3 (ST2000DM008)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "25120",
     "Tags": [ "hdd" ],
     "Description": [
@@ -2085,7 +2085,7 @@
   },
   {
     "ProductName": "Western Digital WD Blue 3.5 2TB 7200rpm 256MB SATA3 (WD20EZBX)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "25700",
     "Tags": [ "hdd" ],
     "Description": [
@@ -2098,7 +2098,7 @@
   },
   {
     "ProductName": "Western Digital Purple 3.5 4TB SATA3 (WD43PURZ)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "40520",
     "Tags": [ "hdd" ],
     "Description": [
@@ -2111,7 +2111,7 @@
   },
   {
     "ProductName": "Western Digital Red Plus 3.5 8TB 5640rpm SATA3 (WD80EFPX)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "82740",
     "Tags": [ "hdd" ],
     "Description": [
@@ -2124,7 +2124,7 @@
   },
   {
     "ProductName": "Seagate Exos X18 3.5 16TB 7200rpm 256MB SATA3 (ST16000NM000J)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "124890",
     "Tags": [ "hdd" ],
     "Description": [
@@ -2137,7 +2137,7 @@
   },
   {
     "ProductName": "Seagate IronWolf 4TB SATA3 (ST4000VN006)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "46885",
     "Tags": [ "hdd" ],
     "Description": [
@@ -2150,7 +2150,7 @@
   },
   {
     "ProductName": "Western Digital Blue 3.5 1TB 7200rpm 64MB SATA3 (WD10EZEX)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "24430",
     "Tags": [ "hdd" ],
     "Description": [
@@ -2163,7 +2163,7 @@
   },
   {
     "ProductName": "Edifier R1280DB 2.0 Aktív hangfal",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "38999",
     "Tags": [ "hangfal", "aktív" ],
     "Description": [
@@ -2176,7 +2176,7 @@
   },
   {
     "ProductName": "Logitech Z906 5.1 (980-000468) Aktív hangfal",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "126790",
     "Tags": [ "hangfal", "5.1", "aktív" ],
     "Description": [
@@ -2189,7 +2189,7 @@
   },
   {
     "ProductName": "Genius SW-2.1 350 Aktív hangfal",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "15350",
     "Tags": [ "hangfal", "2.1", "aktív" ],
     "Description": [
@@ -2202,7 +2202,7 @@
   },
   {
     "ProductName": "Edifier R1700BT 2.0 Aktív hangfal",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "46790",
     "Tags": [ "hangfal", "2.0", "aktív" ],
     "Description": [
@@ -2215,7 +2215,7 @@
   },
   {
     "ProductName": "Logitech Z623 2.1 Aktív hangfal",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "55000",
     "Tags": [ "hangfal", "2.1", "aktív" ],
     "Description": [
@@ -2228,7 +2228,7 @@
   },
   {
     "ProductName": "Edifier MR4 2.0 Aktív hangfal",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "41290",
     "Tags": [ "hangfal", "2.0", "aktív" ],
     "Description": [
@@ -2241,7 +2241,7 @@
   },
   {
     "ProductName": "Logitech Z313 2.1 (980-000413) Aktív hangfal",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "20572",
     "Tags": [ "hangfal", "2.1", "aktív" ],
     "Description": [
@@ -2254,7 +2254,7 @@
   },
   {
     "ProductName": "Genius SP-HF180 2.0 (31730029400/1) Aktív hangfal",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "3679",
     "Tags": [ "hangfal", "2.0", "aktív" ],
     "Description": [
@@ -2265,7 +2265,7 @@
   },
   {
     "ProductName": "Genius SW-G2.1 300X Aktív hangfal",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "11900",
     "Tags": [ "hangfal", "2.1", "aktív" ],
     "Description": [
@@ -2278,7 +2278,7 @@
   },
   {
     "ProductName": "HP HyperX QuadCast (HX-MICQC/4P5P6AA)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "42800",
     "Tags": [ "mikrofon", "USB", "kondenzátor", "gaming" ],
     "Description": [
@@ -2293,7 +2293,7 @@
   },
   {
     "ProductName": "Logitech Blue Yeti (988-000229)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "60546",
     "Tags": [ "mikrofon", "USB", "kondenzátor", "professzionális" ],
     "Description": [
@@ -2307,7 +2307,7 @@
   },
   {
     "ProductName": "FIFINE MICROPHONE K669B",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "12449",
     "Tags": [ "mikrofon", "USB", "kondenzátor", "hangfelvétel" ],
     "Description": [
@@ -2322,7 +2322,7 @@
   },
   {
     "ProductName": "FIFINE MICROPHONE A6V",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "21410",
     "Tags": [ "mikrofon", "USB", "kondenzátor", "hangfelvétel" ],
     "Description": [
@@ -2336,7 +2336,7 @@
   },
   {
     "ProductName": "Hama uRage STREAM 800HD (186020)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "31450",
     "Tags": [ "mikrofon", "USB", "kondenzátor", "streaming" ],
     "Description": [
@@ -2351,7 +2351,7 @@
   },
   {
     "ProductName": "FIFINE MICROPHONE A8T",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "22074",
     "Tags": [ "mikrofon", "USB", "kondenzátor", "hangfelvétel" ],
     "Description": [
@@ -2366,7 +2366,7 @@
   },
   {
     "ProductName": "Hama uRage Stream 100 USB",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "7042",
     "Tags": [ "mikrofon", "USB", "kondenzátor", "streaming" ],
     "Description": [
@@ -2381,7 +2381,7 @@
   },
   {
     "ProductName": "Audio-Technica AT2020USB+ (977902)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "41000",
     "Tags": [ "mikrofon", "USB", "kondenzátor", "professzionális" ],
     "Description": [
@@ -2395,7 +2395,7 @@
   },
   {
     "ProductName": "Logitech Yeti GX RGB",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "51340",
     "Tags": [ "mikrofon", "USB", "RGB", "kondenzátor" ],
     "Description": [
@@ -2410,7 +2410,7 @@
   },
   {
     "ProductName": "Corsair Elgato Wave 3",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "65790",
     "Tags": [ "mikrofon", "USB", "kondenzátor", "streaming" ],
     "Description": [
@@ -2424,7 +2424,7 @@
   },
   {
     "ProductName": "Trust GXT 232 Mantis (22656)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "11980",
     "Tags": [ "mikrofon", "USB", "kondenzátor", "streaming" ],
     "Description": [
@@ -2439,7 +2439,7 @@
   },
   {
     "ProductName": "Logitech Yeti Orb RGB (988-000551/8)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "24560",
     "Tags": [ "mikrofon", "USB", "RGB", "kondenzátor" ],
     "Description": [
@@ -2454,7 +2454,7 @@
   },
   {
     "ProductName": "Sandberg Streamer USB Microphone Kit (126-07)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "22400",
     "Tags": [ "mikrofon", "USB", "kondenzátor", "kit" ],
     "Description": [
@@ -2469,7 +2469,7 @@
   },
   {
     "ProductName": "AlphaTheta DDJ-FLX2 DJ Kontroller",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "79990",
     "Tags": [ "Pioneer DJ", "AlphaTheta", "DJ Kontroller", "USB-C", "Bluetooth", "2 csatorna", "rekordbox", "serato lite", "djay", "iPad kompatibilitás", "mikrofon bemenet", "3,5 Jack kimenet", "fejhallgató kimenet", "ütőpadok" ],
     "Description": [
@@ -2488,7 +2488,7 @@
   },
   {
     "ProductName": "AlphaTheta DDJ-GRV6 DJ Kontroller",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "368990",
     "Tags": [ "Pioneer DJ", "AlphaTheta", "DJ Kontroller", "USB", "4 csatorna", "MIC bemenet", "MASTER kimenet", "PHONES kimenet", "frekvencia átvitel", "két USB kábel", "USB Type-C" ],
     "Description": [
@@ -2504,7 +2504,7 @@
   },
   {
     "ProductName": "Numark DJ2GO2 Touch DJ Kontroller",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "29990",
     "Tags": [ "Numark", "DJ Kontroller", "USB", "beépített hangkártya", "2x kimenet", "kompakt" ],
     "Description": [
@@ -2517,7 +2517,7 @@
   },
   {
     "ProductName": "Numark Mixtrack Platinum FX DJ Kontroller",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "106980",
     "Tags": [ "Numark", "DJ Kontroller", "Serato DJ Intro", "USB", "beépített hangkártya", "2x8 ütőpad" ],
     "Description": [
@@ -2529,7 +2529,7 @@
   },
   {
     "ProductName": "Numark Mixtrack Pro FX DJ Kontroller",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "88900",
     "Tags": [ "Numark", "DJ Kontroller", "iPad kompatibilitás", "beépített hangkártya" ],
     "Description": [
@@ -2539,7 +2539,7 @@
   },
   {
     "ProductName": "Numark Party Mix DJ Kontroller II",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "45150",
     "Tags": [ "Numark", "DJ Kontroller", "Serato DJ Lite", "USB", "2 csatorna", "4 ütőpad" ],
     "Description": [
@@ -2551,7 +2551,7 @@
   },
   {
     "ProductName": "Pioneer DJ DDJ-FLX10 DJ Kontroller",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "657000",
     "Tags": [ "Pioneer DJ", "AlphaTheta", "DJ Kontroller", "4 csatorna" ],
     "Description": [
@@ -2561,7 +2561,7 @@
   },
   {
     "ProductName": "Pioneer DJ DDJ-FLX4 DJ Kontroller",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "130400",
     "Tags": [ "Pioneer DJ", "AlphaTheta", "USB", "2 csatorna", "rekordbox", "Serato Lite", "iPad kompatibilitás", "beépített hangkártya", "mikrofon bemenet", "RCA kimenet", "fejhallgató kimenet" ],
     "Description": [
@@ -2581,7 +2581,7 @@
   },
   {
     "ProductName": "Pioneer DJ DDJ-REV1 Kontroller",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "123400",
     "Tags": [ "Pioneer DJ", "AlphaTheta", "USB", "2 csatorna", "Serato DJ Lite", "fekete szín", "beépített hangkártya", "6,3 Jack bemenet", "RCA kimenet", "fejhallgató kimenet", "8 ütőpad", "USB kábel" ],
     "Description": [
@@ -2605,7 +2605,7 @@
   },
   {
     "ProductName": "Pioneer DJ DDJ-REV7 Scratch Kontroller",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "919999",
     "Tags": [ "Pioneer DJ", "AlphaTheta", "2 csatorna", "Serato DJ PRO", "USB", "beépített effekt", "RGB ütőpadok" ],
     "Description": [
@@ -2619,7 +2619,7 @@
   },
   {
     "ProductName": "AlphaTheta OMNIS-DUO",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "619990",
     "Tags": [ "Pioneer DJ", "AlphaTheta", "2 csatorna", "rekordbox", "Standalone", "USB", "Bluetooth", "Wifi", "16 ütőpad", "beépített effekt" ],
     "Description": [
@@ -2642,7 +2642,7 @@
   },
   {
     "ProductName": "AlphaTheta XDJ-AZ All-in-one DJ System",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "1436717",
     "Tags": [ "Pioneer DJ", "AlphaTheta", "4 csatorna", "Rekordbox", "Serato DJ Pro", "Standalone", "USB", "Bluetooth", "Wifi", "16 performance pad" ],
     "Description": [
@@ -2656,7 +2656,7 @@
   },
   {
     "ProductName": "Denon DJ Prime 4 Plus DJ kontroller",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "888000",
     "Tags": [ "Denon DJ", "4 csatorna", "Engine Prime", "beépített hangkártya", "6 bemenet", "6 kimenet", "2 mikrofon bemenet", "beépített effekt", "beépített ütemtartó", "8 ütőpad" ],
     "Description": [
@@ -2677,7 +2677,7 @@
   },
   {
     "ProductName": "Denon DJ Prime GO DJ kontroller",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "466500",
     "Tags": [ "Denon DJ", "2 csatorna", "Engine Prime", "beépített hangkártya", "3 bemenet", "3 kimenet", "2 mikrofon bemenet", "2 fejhallgató kimenet" ],
     "Description": [
@@ -2695,7 +2695,7 @@
   },
   {
     "ProductName": "Denon DJ SC Live 4",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "441000",
     "Tags": [ "Denon DJ", "4 csatorna", "Standalone", "USB", "beépített hangkártya", "20 Hz – 20 kHz", "44,1 kHz mintavételi frekvencia" ],
     "Description": [
@@ -2711,7 +2711,7 @@
   },
   {
     "ProductName": "Numark Mixstream Pro +",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "278000",
     "Tags": [ "Numark", "2 csatorna", "Engine OS", "Standalone", "USB", "beépített hangkártya", "1 mikrofon bemenet", "2 kimenet", "8 ütőpad", "beépített ütemtartó", "6,3 mm fejhallgató kimenet", "3,5 mm fejhallgató kimenet" ],
     "Description": [
@@ -2733,7 +2733,7 @@
   },
   {
     "ProductName": "Numark Mixstream Pro Go",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "340000",
     "Tags": [ "Numark", "2 csatorna", "Standalone", "USB", "Bluetooth", "Wifi", "beépített hangkártya", "1 bemenet", "4 kimenet", "20 Hz – 20 kHz" ],
     "Description": [
@@ -2752,7 +2752,7 @@
   },
   {
     "ProductName": "Pioneer DJ OPUS-QUAD DJ Kontroller",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "1436900",
     "Tags": [ "Pioneer DJ", "AlphaTheta", "4 csatorna", "Rekordbox", "Serato Kompatibilis", "Standalone", "USB", "USB Type-C", "LAN", "Bluetooth", "2 mikrofon bemenet", "iPad kompatibilis" ],
     "Description": [
@@ -2776,7 +2776,7 @@
   },
   {
     "ProductName": "Pioneer DJ XDJ-700",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "324000",
     "Tags": [ "Pioneer DJ", "AlphaTheta", "1 kimenet", "4 - 20,000 Hz", "< 0.003 % torzítás", "> 115 dB jel/zaj viszony" ],
     "Description": [
@@ -2790,7 +2790,7 @@
   },
   {
     "ProductName": "Pioneer DJ XDJ-RR DJ",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "536750",
     "Tags": [ "Pioneer DJ", "AlphaTheta", "beépített hangkártya", "7,1 kg/db" ],
     "Description": [
@@ -2801,7 +2801,7 @@
   },
   {
     "ProductName": "Pioneer DJ XDJ-RX3 Stand Alone",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "860000",
     "Tags": [ "Pioneer DJ", "AlphaTheta", "2 csatorna", "Rekordbox", "Serato DJ Pro", "Standalone", "USB", "beépített hangkártya", "4 bemenet", "3 kimenet", "20 Hz – 20 kHz", "0.003 % torzítás" ],
     "Description": [
@@ -2826,7 +2826,7 @@
   },
   {
     "ProductName": "AMD Ryzen 7 9800X3D Box (100-100001084WOF) Processzor",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "258873",
     "Tags": [ "AMD", "Ryzen 7", "8 magos", "AM5", "4700 MHz", "5200 MHz", "4 nm", "AMD Radeon Graphics" ],
     "Description": [
@@ -2843,7 +2843,7 @@
   },
   {
     "ProductName": "AMD Ryzen 7 7800X3D 4.2GHz 8-Cores Box Processzor",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "219900",
     "Tags": [ "AMD", "Ryzen 7", "8 magos", "AM5", "4200 MHz", "5000 MHz", "5 nm", "AMD Radeon Graphics", "L2 cache", "L3 cache", "120 W" ],
     "Description": [
@@ -2864,7 +2864,7 @@
   },
   {
     "ProductName": "AMD Ryzen 5 5600X 6-Core 3.7GHz AM4 Box with fan and heatsink Processzor",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "57150",
     "Tags": [ "AMD", "Ryzen 5", "6 magos", "AM4", "3700 MHz", "4600 MHz", "7 nm", "Nincs", "L2 cache", "L3 cache", "65 W", "Dobozos" ],
     "Description": [
@@ -2885,7 +2885,7 @@
   },
   {
     "ProductName": "AMD Ryzen 5 7600X 4.7GHz 6-Core AM5 Box Processzor",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "94680",
     "Tags": [ "AMD", "Ryzen 5", "6 magos", "AM5", "4700 MHz", "5300 MHz", "5 nm", "AMD Radeon Graphics", "L2 cache", "L3 cache", "105 W" ],
     "Description": [
@@ -2906,7 +2906,7 @@
   },
   {
     "ProductName": "AMD Ryzen 7 5700X3D 3.0GHz Box Processzor",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "104390",
     "Tags": [ "AMD", "Ryzen 7", "8 magos", "AM4", "3.0 GHz", "4.1 GHz", "Zen 3", "L2 cache", "L3 cache", "105 W", "DDR4" ],
     "Description": [
@@ -2927,7 +2927,7 @@
   },
   {
     "ProductName": "AMD Ryzen 7 5800X 8-Core 3.8GHz AM4 Box without fan and heatsink Processzor",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "75210",
     "Tags": [ "AMD", "Ryzen 7", "8 magos", "AM4", "3.8 GHz", "4.7 GHz", "7 nm", "Nincs", "L2 cache", "L3 cache", "105 W" ],
     "Description": [
@@ -2948,7 +2948,7 @@
   },
   {
     "ProductName": "AMD Ryzen 7 9700X 8-Core 3.8GHz Box Processzor",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "150925",
     "Tags": [ "AMD", "Ryzen 7", "8 magos", "AM5", "3.8 GHz", "5.5 GHz", "4 nm", "AMD Radeon Graphics", "L2 cache", "L3 cache", "65 W" ],
     "Description": [
@@ -2969,7 +2969,7 @@
   },
   {
     "ProductName": "AMD Ryzen 5 9600X 6-Core 3.9GHz Box Processzor",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "106930",
     "Tags": [ "AMD", "Ryzen 5", "6 magos", "AM5", "3.9 GHz", "5.4 GHz", "4 nm", "AMD Radeon Graphics", "L2 cache", "L3 cache", "65 W" ],
     "Description": [
@@ -2990,7 +2990,7 @@
   },
   {
     "ProductName": "AMD Ryzen 5 7500F 3.7GHz AM5 MPK Tray",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "71600",
     "Tags": [ "AMD", "Ryzen 5", "6 magos", "AM5", "3.7 GHz", "5 GHz", "5 nm", "Nincs", "L2 cache", "L3 cache", "65 W" ],
     "Description": [
@@ -3011,7 +3011,7 @@
   },
   {
     "ProductName": "AMD Ryzen 5 7600 3.8GHz Box with Cooler Processzor",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "88630",
     "Tags": [ "AMD", "Ryzen 5", "6 magos", "AM5", "3.8 GHz", "5.1 GHz", "5 nm", "AMD Radeon Graphics", "L2 cache", "L3 cache", "65 W" ],
     "Description": [
@@ -3032,7 +3032,7 @@
   },
   {
     "ProductName": "AMD Ryzen 7 5700X 8-Core 3.4 GHz AM4 Box Processzor",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "73330",
     "Tags": [ "AMD", "Ryzen 7", "8 magos", "AM4", "3.4 GHz", "4.6 GHz", "7 nm", "Nincs", "L2 cache", "L3 cache", "65 W" ],
     "Description": [
@@ -3053,7 +3053,7 @@
   },
   {
     "ProductName": "AMD Ryzen 5 5600 6-Core 3.5GHz AM4 Box Processzor",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "53570",
     "Tags": [ "AMD", "Ryzen 5", "6 magos", "AM4", "3.5 GHz", "4.4 GHz", "7 nm", "Nincs", "L2 cache", "L3 cache", "65 W" ],
     "Description": [
@@ -3074,7 +3074,7 @@
   },
   {
     "ProductName": "AMD Ryzen 7 7700X 4.5GHz AM5 Box Processzor",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "134445",
     "Tags": [ "AMD", "Ryzen 7", "8 magos", "AM5", "4.5 GHz", "5.4 GHz", "5 nm", "AMD Radeon Graphics", "L2 cache", "L3 cache", "105 W" ],
     "Description": [
@@ -3095,7 +3095,7 @@
   },
   {
     "ProductName": "AMD Ryzen 7 5700X3D 3.0GHz Tray Processzor",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "93995",
     "Tags": [ "AMD", "Ryzen 7", "8 magos", "AM4", "3 GHz", "4.1 GHz", "7 nm", "Nincs", "L2 cache", "L3 cache", "105 W" ],
     "Description": [
@@ -3116,7 +3116,7 @@
   },
   {
     "ProductName": "AMD Ryzen 9 5900X 12-Core 3.7GHz AM4 Box without fan and heatsink Processzor",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "107310",
     "Tags": [ "AMD", "Ryzen 9", "12 magos", "AM4", "3.7 GHz", "4.8 GHz", "7 nm", "Nincs", "L2 cache", "L3 cache", "105 W" ],
     "Description": [
@@ -3137,7 +3137,7 @@
   },
   {
     "ProductName": "AMD Ryzen 9 9950X 16-Core 4.3GHz Box Processzor",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "299032",
     "Tags": [ "AMD", "Ryzen 9", "16 magos", "AM5", "4.3 GHz", "5.7 GHz", "4 nm", "AMD Radeon Graphics", "L2 cache", "L3 cache", "170 W" ],
     "Description": [
@@ -3158,7 +3158,7 @@
   },
   {
     "ProductName": "AMD Ryzen 9 5950X 16-Core 3.4GHz AM4 Box without fan and heatsink Processzor",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "139990",
     "Tags": [ "AMD", "Ryzen 9", "16 magos", "AM4", "3.4 GHz", "4.9 GHz", "7 nm", "Nincs", "L2 cache", "L3 cache", "105 W" ],
     "Description": [
@@ -3179,7 +3179,7 @@
   },
   {
     "ProductName": "AMD Ryzen 5 3600 6-Core 3.6GHz AM4 Box with fan and heatsink Processzor",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "31940",
     "Tags": [ "AMD", "Ryzen 5", "6 magos", "AM4", "3.6 GHz", "4.2 GHz", "7 nm", "Nincs", "L2 cache", "L3 cache", "65 W" ],
     "Description": [
@@ -3196,6 +3196,259 @@
       "L3 cache: 32 MB",
       "TDP: 65 W",
       "Kiszerelés: Dobozos, hűtővel és hűtőbordával"
+    ]
+  },
+  {
+    "ProductName": "Noctua NT-H1 Hővezető Paszta",
+    "Quanity": "1",
+    "Price": "4000",
+    "Tags": [ "Noctua", "NT-H1", "Hővezető paszta", "Hibrid", "Kiváló hőelvezetés" ],
+    "Description": [
+      "Gyártó: Noctua",
+      "Modell: NT-H1",
+      "Kiváló hő-elvezetés",
+      "Tartalom: 3.5g (1,4ml)",
+      "Hibrid termál összetétel"
+    ]
+  },
+  {
+    "ProductName": "Cooler Master MasterGel Pro V2",
+    "Quanity": "1",
+    "Price": "3001",
+    "Tags": [ "Cooler Master", "MasterGel Pro", "Hővezető paszta", "Szürke", "Nagy hővezető képesség" ],
+    "Description": [
+      "Gyártó: Cooler Master",
+      "Modell: MasterGel Pro V2",
+      "Szín: Szürke",
+      "Mennyiség: 1,5 ml",
+      "Nagy hővezető képesség"
+    ]
+  },
+  {
+    "ProductName": "NZXT BA-TP003-01 Hővezető Paszta",
+    "Quanity": "1",
+    "Price": "3100",
+    "Tags": [ "NZXT", "Hővezető paszta", "Nagy teljesítmény", "Fecskendős", "3g" ],
+    "Description": [
+      "Gyártó: NZXT",
+      "Modell: BA-TP003-01",
+      "Mennyiség: 3g",
+      "Nagy teljesítményű hűtőpaszta fecskendős kiszerelésben"
+    ]
+  },
+  {
+    "ProductName": "Deepcool DM9 Hővezető Paszta",
+    "Quanity": "1",
+    "Price": "1799",
+    "Tags": [ "Deepcool", "DM9", "Hővezető paszta", "Szürke", "Szilikongyanta alap" ],
+    "Description": [
+      "Gyártó: Deepcool",
+      "Modell: DM9",
+      "Anyaga: Szilikongyanta alap",
+      "Üzemi hőmérséklet: -50 és +250°C között",
+      "Mennyiség: 1,5 g",
+      "Színe: Szürke"
+    ]
+  },
+  {
+    "ProductName": "Arctic MX-6 Hővezető Paszta",
+    "Quanity": "1",
+    "Price": "1850",
+    "Tags": [ "Arctic", "MX-6", "Hővezető paszta", "Szürke", "4g" ],
+    "Description": [
+      "Gyártó: Arctic",
+      "Modell: MX-6",
+      "Kiszerelés: 4g",
+      "Szín: Szürke"
+    ]
+  },
+  {
+    "ProductName": "ARCTIC MX-4 Hővezető Paszta",
+    "Quanity": "1",
+    "Price": "2080",
+    "Tags": [ "Arctic", "MX-4", "Hővezető paszta", "8,5 W/mK", "4g" ],
+    "Description": [
+      "Gyártó: Arctic",
+      "Modell: MX-4",
+      "Vezetőképesség: 8,5 W/mK",
+      "Hatékonyság: 8 év",
+      "Tömeg: 4 g",
+      "Sűrűség: 2,5 g/cm3",
+      "Viszkozitás: 870 Pa·s"
+    ]
+  },
+  {
+    "ProductName": "ARCTIC MX-6 Ultimate Performance Thermal Paste",
+    "Quanity": "1",
+    "Price": "2999",
+    "Tags": [ "Arctic", "MX-6", "Ultimate Performance", "Hővezető paszta", "Szürke", "4g" ],
+    "Description": [
+      "Gyártó: Arctic",
+      "Modell: MX-6 Ultimate Performance",
+      "Kiszerelés: 4g",
+      "Szín: Szürke"
+    ]
+  },
+  {
+    "ProductName": "Thermal Grizzly Kryonaut Hővezető Paszta",
+    "Quanity": "1",
+    "Price": "3999",
+    "Tags": [ "Thermal Grizzly", "Kryonaut", "Hővezető paszta", "12,5 W/mK", "1g" ],
+    "Description": [
+      "Gyártó: Thermal Grizzly",
+      "Modell: Kryonaut",
+      "Hővezető képesség: 12,5 W/mK",
+      "Termikus ellenállás: 0,0032 K/W",
+      "Viszkozitás: 130-170 Pas",
+      "Sűrűség: 3,7 g/cm3",
+      "Üzemi hőmérséklet: -200 °C / +350 °C",
+      "Tömeg: 1 gramm"
+    ]
+  },
+  {
+    "ProductName": "Kingston DataTraveler Exodia 128GB USB 3.2 Gen 1 DTX/128GB",
+    "Quanity": "1",
+    "Price": "5640",
+    "Tags": [ "Kingston", "DataTraveler Exodia", "Pendrive", "128GB", "USB 3.2 Gen 1", "Normál USB" ],
+    "Description": [
+      "Gyártó: Kingston",
+      "Modell: DataTraveler Exodia 128GB",
+      "USB csatlakozó típusa: Normál USB",
+      "Kapacitás: 128 GB",
+      "USB verzió: USB 3.2 Gen 1"
+    ]
+  },
+  {
+    "ProductName": "Samsung BAR Plus 256GB USB 3.1 (MUF-256BE3/APC)",
+    "Quanity": "1",
+    "Price": "14930",
+    "Tags": [ "Samsung", "BAR Plus", "256GB", "Pendrive", "USB 3.1", "Normál USB", "Olvasási sebesség 300 MB/s", "Írási sebesség 30 MB/s" ],
+    "Description": [
+      "Gyártó: Samsung",
+      "Modell: BAR Plus 256GB",
+      "USB csatlakozó típusa: Normál USB",
+      "Kapacitás: 256 GB",
+      "USB verzió: USB 3.2 Gen 1",
+      "Olvasási sebesség: 300 MB/s",
+      "Írási sebesség: 30 MB/s"
+    ]
+  },
+  {
+    "ProductName": "Kingston Datatraveler 256GB USB 3.2 Gen 1 DTKN/256GB",
+    "Quanity": "1",
+    "Price": "10550",
+    "Tags": [ "Kingston", "Datatraveler", "256GB", "Pendrive", "USB 3.2 Gen 1", "Normál USB", "Olvasási sebesség 200 MB/s", "Írási sebesség 60 MB/s" ],
+    "Description": [
+      "Gyártó: Kingston",
+      "Modell: Datatraveler 256GB",
+      "USB csatlakozó típusa: Normál USB",
+      "Kapacitás: 256 GB",
+      "USB verzió: USB 3.2 Gen 1",
+      "Olvasási sebesség: 200 MB/s",
+      "Írási sebesség: 60 MB/s"
+    ]
+  },
+  {
+    "ProductName": "Kingston DataTraveler Max 1TB USB 3.1 (DTMAXA/1TB)",
+    "Quanity": "1",
+    "Price": "39800",
+    "Tags": [ "Kingston", "DataTraveler Max", "1TB", "Pendrive", "USB 3.2 Gen 2", "Normál USB", "Olvasási sebesség 1000 MB/s", "Írási sebesség 900 MB/s" ],
+    "Description": [
+      "Gyártó: Kingston",
+      "Modell: DataTraveler Max 1TB",
+      "USB csatlakozó típusa: Normál USB",
+      "Kapacitás: 1024 GB",
+      "USB verzió: USB 3.2 Gen 2",
+      "Olvasási sebesség: 1000 MB/s",
+      "Írási sebesség: 900 MB/s"
+    ]
+  },
+  {
+    "ProductName": "Kingston Datatraveler Exodia 64GB USB 3.2 Gen 1 DTX/64GB",
+    "Quanity": "1",
+    "Price": "4430",
+    "Tags": [ "Kingston", "Datatraveler Exodia", "64GB", "Pendrive", "USB 3.2 Gen 1", "Normál USB", "Tömeg 11g" ],
+    "Description": [
+      "Gyártó: Kingston",
+      "Modell: Datatraveler Exodia 64GB",
+      "USB csatlakozó típusa: Normál USB",
+      "Kapacitás: 64 GB",
+      "USB verzió: USB 3.2 Gen 1",
+      "Tömeg: 11 g"
+    ]
+  },
+  {
+    "ProductName": "MediaRange Flash Drive 4GB MR907",
+    "Quanity": "1",
+    "Price": "1500",
+    "Tags": [ "MediaRange", "Flash Drive", "4GB", "USB 2.0", "Pendrive", "Normál USB", "Olvasási sebesség 17 MB/s", "Írási sebesség 4 MB/s" ],
+    "Description": [
+      "Gyártó: MediaRange",
+      "Modell: Flash Drive 4GB MR907",
+      "USB csatlakozó típusa: Normál USB",
+      "Kapacitás: 4 GB",
+      "USB verzió: USB 2.0",
+      "Olvasási sebesség: 17 MB/s",
+      "Írási sebesség: 4 MB/s"
+    ]
+  },
+  {
+    "ProductName": "Intenso Alu Line Anthracite 4GB 3521451",
+    "Quanity": "1",
+    "Price": "1540",
+    "Tags": [ "Intenso", "Alu Line Anthracite", "4GB", "USB 2.0", "Pendrive", "Normál USB", "Olvasási sebesség 28 MB/s", "Írási sebesség 6.5 MB/s" ],
+    "Description": [
+      "Gyártó: Intenso",
+      "Modell: Alu Line Anthracite 4GB 3521451",
+      "USB csatlakozó típusa: Normál USB",
+      "Kapacitás: 4 GB",
+      "USB verzió: USB 2.0",
+      "Olvasási sebesség: 28 MB/s",
+      "Írási sebesség: 6.5 MB/s"
+    ]
+  },
+  {
+    "ProductName": "MediaRange 8GB USB 2.0 MR908",
+    "Quanity": "1",
+    "Price": "1700",
+    "Tags": [ "MediaRange", "8GB", "USB 2.0", "Normál USB", "Olvasási sebesség 17 MB/s", "Írási sebesség 4 MB/s", "Pendrive" ],
+    "Description": [
+      "Gyártó: MediaRange",
+      "Modell: 8GB USB 2.0 MR908",
+      "USB csatlakozó típusa: Normál USB",
+      "Kapacitás: 8 GB",
+      "USB verzió: USB 2.0",
+      "Olvasási sebesség: 17 MB/s",
+      "Írási sebesség: 4 MB/s"
+    ]
+  },
+  {
+    "ProductName": "Silicon Power Ultima U02 4GB USB 2.0 SP004GBUF2U02V1K",
+    "Quanity": "1",
+    "Price": "2000",
+    "Tags": [ "Silicon Power", "Ultima U02", "4GB", "USB 2.0", "Normál USB", "Tömeg 9g", "Pendrive" ],
+    "Description": [
+      "Gyártó: Silicon Power",
+      "Modell: Ultima U02 4GB SP004GBUF2U02V1K",
+      "USB csatlakozó típusa: Normál USB",
+      "Kapacitás: 4 GB",
+      "USB verzió: USB 2.0",
+      "Tömeg: 9 g"
+    ]
+  },
+  {
+    "ProductName": "Verbatim Store n Go PinStripe 8GB USB 2.0 49062",
+    "Quanity": "1",
+    "Price": "2310",
+    "Tags": [ "Verbatim", "Store n Go", "PinStripe", "8GB", "USB 2.0", "Normál USB", "Olvasási sebesség 10 MB/s", "Írási sebesség 4 MB/s","Pendrive" ],
+    "Description": [
+      "Gyártó: Verbatim",
+      "Modell: Store n Go PinStripe 8GB 49062",
+      "USB csatlakozó típusa: Normál USB",
+      "Kapacitás: 8 GB",
+      "USB verzió: USB 2.0",
+      "Olvasási sebesség: 10 MB/s",
+      "Írási sebesség: 4 MB/s"
     ]
   }
 ]
