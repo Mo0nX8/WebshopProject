@@ -72,9 +72,11 @@ namespace WebshopWeb.Initializer
 
                         }
                         _context.StorageData.Add(product);
+                        ;
                     }
                 }
                 _context.SaveChanges();
+                ;
 
             }
         }
