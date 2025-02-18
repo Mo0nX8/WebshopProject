@@ -2823,7 +2823,379 @@
       "Csatlakozás fajtái: USB",
       "Méret: 728.1 x 469.5 x 118.4 mm"
     ]
+  },
+  {
+    "ProductName": "AMD Ryzen 7 9800X3D Box (100-100001084WOF) Processzor",
+    "Quantity": "1",
+    "Price": "258873",
+    "Tags": [ "AMD", "Ryzen 7", "8 magos", "AM5", "4700 MHz", "5200 MHz", "4 nm", "AMD Radeon Graphics" ],
+    "Description": [
+      "Gyártó: AMD",
+      "Típus: Ryzen 7",
+      "Magok száma: 8 magos",
+      "Szálak száma: 16",
+      "Processzor foglalat: AMD Socket AM5",
+      "Processzor órajel: 4700 MHz",
+      "Processzor Turbo órajel: 5200 MHz",
+      "Gyártási technológia: 4 nm",
+      "Integrált grafikai processzor: AMD Radeon Graphics"
+    ]
+  },
+  {
+    "ProductName": "AMD Ryzen 7 7800X3D 4.2GHz 8-Cores Box Processzor",
+    "Quantity": "1",
+    "Price": "219900",
+    "Tags": [ "AMD", "Ryzen 7", "8 magos", "AM5", "4200 MHz", "5000 MHz", "5 nm", "AMD Radeon Graphics", "L2 cache", "L3 cache", "120 W" ],
+    "Description": [
+      "Gyártó: AMD",
+      "Típus: Ryzen 7",
+      "Magok száma: 8 magos",
+      "Szálak száma: 16",
+      "Processzor foglalat: AMD Socket AM5",
+      "Processzor órajel: 4200 MHz",
+      "Processzor Turbo órajel: 5000 MHz",
+      "Gyártási technológia: 5 nm",
+      "Integrált grafikai processzor: AMD Radeon Graphics",
+      "L2 cache: 8 MB",
+      "L3 cache: 96 MB",
+      "TDP: 120 W",
+      "Kiszerelés: Dobozos"
+    ]
+  },
+  {
+    "ProductName": "AMD Ryzen 5 5600X 6-Core 3.7GHz AM4 Box with fan and heatsink Processzor",
+    "Quantity": "1",
+    "Price": "57150",
+    "Tags": [ "AMD", "Ryzen 5", "6 magos", "AM4", "3700 MHz", "4600 MHz", "7 nm", "Nincs", "L2 cache", "L3 cache", "65 W", "Dobozos" ],
+    "Description": [
+      "Gyártó: AMD",
+      "Típus: Ryzen 5",
+      "Magok száma: 6 magos",
+      "Szálak száma: 12",
+      "Processzor foglalat: AMD Socket AM4",
+      "Processzor órajel: 3700 MHz",
+      "Processzor Turbo órajel: 4600 MHz",
+      "Gyártási technológia: 7 nm",
+      "Integrált grafikai processzor: Nincs",
+      "L2 cache: 3 MB",
+      "L3 cache: 32 MB",
+      "TDP: 65 W",
+      "Kiszerelés: Dobozos, hűtővel és hűtőbordával"
+    ]
+  },
+  {
+    "ProductName": "AMD Ryzen 5 7600X 4.7GHz 6-Core AM5 Box Processzor",
+    "Quantity": "1",
+    "Price": "94680",
+    "Tags": [ "AMD", "Ryzen 5", "6 magos", "AM5", "4700 MHz", "5300 MHz", "5 nm", "AMD Radeon Graphics", "L2 cache", "L3 cache", "105 W" ],
+    "Description": [
+      "Gyártó: AMD",
+      "Típus: Ryzen 5",
+      "Magok száma: 6 magos",
+      "Szálak száma: 12",
+      "Processzor foglalat: AMD Socket AM5",
+      "Processzor órajel: 4700 MHz",
+      "Processzor Turbo órajel: 5300 MHz",
+      "Gyártási technológia: 5 nm",
+      "Integrált grafikai processzor: AMD Radeon Graphics",
+      "L2 cache: 6 MB",
+      "L3 cache: 32 MB",
+      "TDP: 105 W",
+      "Kiszerelés: Dobozos"
+    ]
+  },
+  {
+    "ProductName": "AMD Ryzen 7 5700X3D 3.0GHz Box Processzor",
+    "Quantity": "1",
+    "Price": "104390",
+    "Tags": [ "AMD", "Ryzen 7", "8 magos", "AM4", "3.0 GHz", "4.1 GHz", "Zen 3", "L2 cache", "L3 cache", "105 W", "DDR4" ],
+    "Description": [
+      "Gyártó: AMD",
+      "Típus: Ryzen 7",
+      "Magok száma: 8 magos",
+      "Szálak száma: 16",
+      "Processzor foglalat: AMD Socket AM4",
+      "Processzor órajel: 3000 MHz",
+      "Processzor Turbo órajel: 4100 MHz",
+      "Gyártási technológia: 7 nm",
+      "Integrált grafikai processzor: Nincs",
+      "L2 cache: 4 MB",
+      "L3 cache: 96 MB",
+      "TDP: 105 W",
+      "Kiszerelés: Dobozos"
+    ]
+  },
+  {
+    "ProductName": "AMD Ryzen 7 5800X 8-Core 3.8GHz AM4 Box without fan and heatsink Processzor",
+    "Quantity": "1",
+    "Price": "75210",
+    "Tags": [ "AMD", "Ryzen 7", "8 magos", "AM4", "3.8 GHz", "4.7 GHz", "7 nm", "Nincs", "L2 cache", "L3 cache", "105 W" ],
+    "Description": [
+      "Gyártó: AMD",
+      "Típus: Ryzen 7",
+      "Magok száma: 8 magos",
+      "Szálak száma: 16",
+      "Processzor foglalat: AMD Socket AM4",
+      "Processzor órajel: 3800 MHz",
+      "Processzor Turbo órajel: 4700 MHz",
+      "Gyártási technológia: 7 nm",
+      "Integrált grafikai processzor: Nincs",
+      "L2 cache: 4 MB",
+      "L3 cache: 32 MB",
+      "TDP: 105 W",
+      "Kiszerelés: Dobozos, hűtő és hűtőborda nélkül"
+    ]
+  },
+  {
+    "ProductName": "AMD Ryzen 7 9700X 8-Core 3.8GHz Box Processzor",
+    "Quantity": "1",
+    "Price": "150925",
+    "Tags": [ "AMD", "Ryzen 7", "8 magos", "AM5", "3.8 GHz", "5.5 GHz", "4 nm", "AMD Radeon Graphics", "L2 cache", "L3 cache", "65 W" ],
+    "Description": [
+      "Gyártó: AMD",
+      "Típus: Ryzen 7",
+      "Magok száma: 8 magos",
+      "Szálak száma: 16",
+      "Processzor foglalat: AMD Socket AM5",
+      "Processzor órajel: 3800 MHz",
+      "Processzor Turbo órajel: 5500 MHz",
+      "Gyártási technológia: 4 nm",
+      "Integrált grafikai processzor: AMD Radeon Graphics",
+      "L2 cache: 8 MB",
+      "L3 cache: 32 MB",
+      "TDP: 65 W",
+      "Kiszerelés: Dobozos"
+    ]
+  },
+  {
+    "ProductName": "AMD Ryzen 5 9600X 6-Core 3.9GHz Box Processzor",
+    "Quantity": "1",
+    "Price": "106930",
+    "Tags": [ "AMD", "Ryzen 5", "6 magos", "AM5", "3.9 GHz", "5.4 GHz", "4 nm", "AMD Radeon Graphics", "L2 cache", "L3 cache", "65 W" ],
+    "Description": [
+      "Gyártó: AMD",
+      "Típus: Ryzen 5",
+      "Magok száma: 6 magos",
+      "Szálak száma: 12",
+      "Processzor foglalat: AMD Socket AM5",
+      "Processzor órajel: 3900 MHz",
+      "Processzor Turbo órajel: 5400 MHz",
+      "Gyártási technológia: 4 nm",
+      "Integrált grafikai processzor: AMD Radeon Graphics",
+      "L2 cache: 6 MB",
+      "L3 cache: 32 MB",
+      "TDP: 65 W",
+      "Kiszerelés: Dobozos"
+    ]
+  },
+  {
+    "ProductName": "AMD Ryzen 5 7500F 3.7GHz AM5 MPK Tray",
+    "Quantity": "1",
+    "Price": "71600",
+    "Tags": [ "AMD", "Ryzen 5", "6 magos", "AM5", "3.7 GHz", "5 GHz", "5 nm", "Nincs", "L2 cache", "L3 cache", "65 W" ],
+    "Description": [
+      "Gyártó: AMD",
+      "Típus: Ryzen 5",
+      "Magok száma: 6 magos",
+      "Szálak száma: 12",
+      "Processzor foglalat: AMD Socket AM5",
+      "Processzor órajel: 3700 MHz",
+      "Processzor Turbo órajel: 5000 MHz",
+      "Gyártási technológia: 5 nm",
+      "Integrált grafikai processzor: Nincs",
+      "L2 cache: 6 MB",
+      "L3 cache: 32 MB",
+      "TDP: 65 W",
+      "Kiszerelés: Tálcás (MPK)"
+    ]
+  },
+  {
+    "ProductName": "AMD Ryzen 5 7600 3.8GHz Box with Cooler Processzor",
+    "Quantity": "1",
+    "Price": "88630",
+    "Tags": [ "AMD", "Ryzen 5", "6 magos", "AM5", "3.8 GHz", "5.1 GHz", "5 nm", "AMD Radeon Graphics", "L2 cache", "L3 cache", "65 W" ],
+    "Description": [
+      "Gyártó: AMD",
+      "Típus: Ryzen 5",
+      "Magok száma: 6 magos",
+      "Szálak száma: 12",
+      "Processzor foglalat: AMD Socket AM5",
+      "Processzor órajel: 3800 MHz",
+      "Processzor Turbo órajel: 5100 MHz",
+      "Gyártási technológia: 5 nm",
+      "Integrált grafikai processzor: AMD Radeon Graphics",
+      "L2 cache: 6 MB",
+      "L3 cache: 32 MB",
+      "TDP: 65 W",
+      "Kiszerelés: Dobozos, hűtővel és hűtőbordával"
+    ]
+  },
+  {
+    "ProductName": "AMD Ryzen 7 5700X 8-Core 3.4 GHz AM4 Box Processzor",
+    "Quantity": "1",
+    "Price": "73330",
+    "Tags": [ "AMD", "Ryzen 7", "8 magos", "AM4", "3.4 GHz", "4.6 GHz", "7 nm", "Nincs", "L2 cache", "L3 cache", "65 W" ],
+    "Description": [
+      "Gyártó: AMD",
+      "Típus: Ryzen 7",
+      "Magok száma: 8 magos",
+      "Szálak száma: 16",
+      "Processzor foglalat: AMD Socket AM4",
+      "Processzor órajel: 3400 MHz",
+      "Processzor Turbo órajel: 4600 MHz",
+      "Gyártási technológia: 7 nm",
+      "Integrált grafikai processzor: Nincs",
+      "L2 cache: 4 MB",
+      "L3 cache: 32 MB",
+      "TDP: 65 W",
+      "Kiszerelés: Dobozos"
+    ]
+  },
+  {
+    "ProductName": "AMD Ryzen 5 5600 6-Core 3.5GHz AM4 Box Processzor",
+    "Quantity": "1",
+    "Price": "53570",
+    "Tags": [ "AMD", "Ryzen 5", "6 magos", "AM4", "3.5 GHz", "4.4 GHz", "7 nm", "Nincs", "L2 cache", "L3 cache", "65 W" ],
+    "Description": [
+      "Gyártó: AMD",
+      "Típus: Ryzen 5",
+      "Magok száma: 6 magos",
+      "Szálak száma: 12",
+      "Processzor foglalat: AMD Socket AM4",
+      "Processzor órajel: 3500 MHz",
+      "Processzor Turbo órajel: 4400 MHz",
+      "Gyártási technológia: 7 nm",
+      "Integrált grafikai processzor: Nincs",
+      "L2 cache: 3 MB",
+      "L3 cache: 32 MB",
+      "TDP: 65 W",
+      "Kiszerelés: Dobozos"
+    ]
+  },
+  {
+    "ProductName": "AMD Ryzen 7 7700X 4.5GHz AM5 Box Processzor",
+    "Quantity": "1",
+    "Price": "134445",
+    "Tags": [ "AMD", "Ryzen 7", "8 magos", "AM5", "4.5 GHz", "5.4 GHz", "5 nm", "AMD Radeon Graphics", "L2 cache", "L3 cache", "105 W" ],
+    "Description": [
+      "Gyártó: AMD",
+      "Típus: Ryzen 7",
+      "Magok száma: 8 magos",
+      "Szálak száma: 16",
+      "Processzor foglalat: AMD Socket AM5",
+      "Processzor órajel: 4500 MHz",
+      "Processzor Turbo órajel: 5400 MHz",
+      "Gyártási technológia: 5 nm",
+      "Integrált grafikai processzor: AMD Radeon Graphics",
+      "L2 cache: 8 MB",
+      "L3 cache: 32 MB",
+      "TDP: 105 W",
+      "Kiszerelés: Dobozos"
+    ]
+  },
+  {
+    "ProductName": "AMD Ryzen 7 5700X3D 3.0GHz Tray Processzor",
+    "Quantity": "1",
+    "Price": "93995",
+    "Tags": [ "AMD", "Ryzen 7", "8 magos", "AM4", "3 GHz", "4.1 GHz", "7 nm", "Nincs", "L2 cache", "L3 cache", "105 W" ],
+    "Description": [
+      "Gyártó: AMD",
+      "Típus: Ryzen 7",
+      "Magok száma: 8 magos",
+      "Szálak száma: 16",
+      "Processzor foglalat: AMD Socket AM4",
+      "Processzor órajel: 3000 MHz",
+      "Processzor Turbo órajel: 4100 MHz",
+      "Gyártási technológia: 7 nm",
+      "Integrált grafikai processzor: Nincs",
+      "L2 cache: 4 MB",
+      "L3 cache: 96 MB",
+      "TDP: 105 W",
+      "Kiszerelés: Tálcás"
+    ]
+  },
+  {
+    "ProductName": "AMD Ryzen 9 5900X 12-Core 3.7GHz AM4 Box without fan and heatsink Processzor",
+    "Quantity": "1",
+    "Price": "107310",
+    "Tags": [ "AMD", "Ryzen 9", "12 magos", "AM4", "3.7 GHz", "4.8 GHz", "7 nm", "Nincs", "L2 cache", "L3 cache", "105 W" ],
+    "Description": [
+      "Gyártó: AMD",
+      "Típus: Ryzen 9",
+      "Magok száma: 12 magos",
+      "Szálak száma: 24",
+      "Processzor foglalat: AMD Socket AM4",
+      "Processzor órajel: 3700 MHz",
+      "Processzor Turbo órajel: 4800 MHz",
+      "Gyártási technológia: 7 nm",
+      "Integrált grafikai processzor: Nincs",
+      "L2 cache: 6 MB",
+      "L3 cache: 64 MB",
+      "TDP: 105 W",
+      "Kiszerelés: Dobozos, hűtő és hűtőborda nélkül"
+    ]
+  },
+  {
+    "ProductName": "AMD Ryzen 9 9950X 16-Core 4.3GHz Box Processzor",
+    "Quantity": "1",
+    "Price": "299032",
+    "Tags": [ "AMD", "Ryzen 9", "16 magos", "AM5", "4.3 GHz", "5.7 GHz", "4 nm", "AMD Radeon Graphics", "L2 cache", "L3 cache", "170 W" ],
+    "Description": [
+      "Gyártó: AMD",
+      "Típus: Ryzen 9",
+      "Magok száma: 16 magos",
+      "Szálak száma: 32",
+      "Processzor foglalat: AMD Socket AM5",
+      "Processzor órajel: 4300 MHz",
+      "Processzor Turbo órajel: 5700 MHz",
+      "Gyártási technológia: 4 nm",
+      "Integrált grafikai processzor: AMD Radeon Graphics",
+      "L2 cache: 16 MB",
+      "L3 cache: 64 MB",
+      "TDP: 170 W",
+      "Kiszerelés: Dobozos"
+    ]
+  },
+  {
+    "ProductName": "AMD Ryzen 9 5950X 16-Core 3.4GHz AM4 Box without fan and heatsink Processzor",
+    "Quantity": "1",
+    "Price": "139990",
+    "Tags": [ "AMD", "Ryzen 9", "16 magos", "AM4", "3.4 GHz", "4.9 GHz", "7 nm", "Nincs", "L2 cache", "L3 cache", "105 W" ],
+    "Description": [
+      "Gyártó: AMD",
+      "Típus: Ryzen 9",
+      "Magok száma: 16 magos",
+      "Szálak száma: 32",
+      "Processzor foglalat: AMD Socket AM4",
+      "Processzor órajel: 3400 MHz",
+      "Processzor Turbo órajel: 4900 MHz",
+      "Gyártási technológia: 7 nm",
+      "Integrált grafikai processzor: Nincs",
+      "L2 cache: 8 MB",
+      "L3 cache: 64 MB",
+      "TDP: 105 W",
+      "Kiszerelés: Dobozos, hűtő és hűtőborda nélkül"
+    ]
+  },
+  {
+    "ProductName": "AMD Ryzen 5 3600 6-Core 3.6GHz AM4 Box with fan and heatsink Processzor",
+    "Quantity": "1",
+    "Price": "31940",
+    "Tags": [ "AMD", "Ryzen 5", "6 magos", "AM4", "3.6 GHz", "4.2 GHz", "7 nm", "Nincs", "L2 cache", "L3 cache", "65 W" ],
+    "Description": [
+      "Gyártó: AMD",
+      "Típus: Ryzen 5",
+      "Magok száma: 6 magos",
+      "Szálak száma: 12",
+      "Processzor foglalat: AMD Socket AM4",
+      "Processzor órajel: 3600 MHz",
+      "Processzor Turbo órajel: 4200 MHz",
+      "Gyártási technológia: 7 nm",
+      "Integrált grafikai processzor: Nincs",
+      "L2 cache: 3 MB",
+      "L3 cache: 32 MB",
+      "TDP: 65 W",
+      "Kiszerelés: Dobozos, hűtővel és hűtőbordával"
+    ]
   }
-
-
 ]
