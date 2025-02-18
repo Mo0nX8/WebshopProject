@@ -2276,6 +2276,197 @@
         "Bluetooth: nincs",
         "Távirányító: nincs"
       ]
+    },
+    {
+      "ProductName": "HP HyperX QuadCast (HX-MICQC/4P5P6AA)",
+      "Quantity": "1",
+      "Price": "42 800 Ft",
+      "Tags": [ "mikrofon", "USB", "kondenzátor", "gaming" ],
+      "Description": [
+        "Csatlakozás típusa: USB",
+        "Érzékenység: 36 dB",
+        "Frekvenciatartomány: 20 - 20000 Hz",
+        "Állítható dőlésszög: Igen",
+        "Bekapcsoló gomb: Nincs",
+        "Némító gomb: Van",
+        "Kábel hossza: 3 m"
+      ]
+    },
+    {
+      "ProductName": "Logitech Blue Yeti (988-000229)",
+      "Quantity": "1",
+      "Price": "60546",
+      "Tags": [ "mikrofon", "USB", "kondenzátor", "professzionális" ],
+      "Description": [
+        "Csatlakozás típusa: USB",
+        "Érzékenység: 120 dB",
+        "Frekvenciatartomány: 20 - 20000 Hz",
+        "Állítható dőlésszög: Igen",
+        "Bekapcsoló gomb: Van",
+        "Némító gomb: Van"
+      ]
+    },
+    {
+      "ProductName": "FIFINE MICROPHONE K669B",
+      "Quantity": "1",
+      "Price": "12449",
+      "Tags": [ "mikrofon", "USB", "kondenzátor", "hangfelvétel" ],
+      "Description": [
+        "Csatlakozás típusa: USB",
+        "Érzékenység: 34 dB",
+        "Frekvenciatartomány: 20 - 20000 Hz",
+        "Állítható dőlésszög: Igen",
+        "Bekapcsoló gomb: Nincs",
+        "Némító gomb: Nincs",
+        "Kábel hossza: 1,8 m"
+      ]
+    },
+    {
+      "ProductName": "FIFINE MICROPHONE A6V",
+      "Quantity": "1",
+      "Price": "21410",
+      "Tags": [ "mikrofon", "USB", "kondenzátor", "hangfelvétel" ],
+      "Description": [
+        "Csatlakozás típusa: USB",
+        "Érzékenység: 40 dB",
+        "Frekvenciatartomány: 60 - 18000 Hz",
+        "Állítható dőlésszög: Igen",
+        "Bekapcsoló gomb: Nincs",
+        "Némító gomb: Van"
+      ]
+    },
+    {
+      "ProductName": "Hama uRage STREAM 800HD (186020)",
+      "Quantity": "1",
+      "Price": "31450",
+      "Tags": [ "mikrofon", "USB", "kondenzátor", "streaming" ],
+      "Description": [
+        "Csatlakozás típusa: USB",
+        "Érzékenység: 45 dB",
+        "Frekvenciatartomány: 20 - 16000 Hz",
+        "Állítható dőlésszög: Igen",
+        "Bekapcsoló gomb: Nincs",
+        "Némító gomb: Nincs",
+        "Kábel hossza: 2,5 m"
+      ]
+    },
+    {
+      "ProductName": "FIFINE MICROPHONE A8T",
+      "Quantity": "1",
+      "Price": "22074",
+      "Tags": [ "mikrofon", "USB", "kondenzátor", "hangfelvétel" ],
+      "Description": [
+        "Csatlakozás típusa: USB",
+        "Érzékenység: 40 dB",
+        "Frekvenciatartomány: 50 - 20000 Hz",
+        "Állítható dőlésszög: Igen",
+        "Bekapcsoló gomb: Nincs",
+        "Némító gomb: Van",
+        "Kábel hossza: 2 m"
+      ]
+    },
+    {
+      "ProductName": "Hama uRage Stream 100 USB",
+      "Quantity": "1",
+      "Price": "7042",
+      "Tags": [ "mikrofon", "USB", "kondenzátor", "streaming" ],
+      "Description": [
+        "Csatlakozás típusa: USB",
+        "Érzékenység: 30 dB",
+        "Frekvenciatartomány: 50 - 18000 Hz",
+        "Állítható dőlésszög: Igen",
+        "Bekapcsoló gomb: Van",
+        "Némító gomb: Nincs",
+        "Kábel hossza: 2 m"
+      ]
+    },
+    {
+      "ProductName": "Audio-Technica AT2020USB+ (977902)",
+      "Quantity": "1",
+      "Price": "41000",
+      "Tags": [ "mikrofon", "USB", "kondenzátor", "professzionális" ],
+      "Description": [
+        "Csatlakozás típusa: USB",
+        "Frekvenciatartomány: 30 - 15000 Hz",
+        "Állítható dőlésszög: Igen",
+        "Bekapcsoló gomb: Van",
+        "Némító gomb: Nincs",
+        "Kábel hossza: 2 m"
+      ]
+    },
+    {
+      "ProductName": "Logitech Yeti GX RGB",
+      "Quantity": "1",
+      "Price": "51340",
+      "Tags": [ "mikrofon", "USB", "RGB", "kondenzátor" ],
+      "Description": [
+        "Csatlakozás típusa: USB",
+        "Érzékenység: 135 dB",
+        "Frekvenciatartomány: 60 - 18000 Hz",
+        "Állítható dőlésszög: Igen",
+        "Bekapcsoló gomb: Nincs",
+        "Némító gomb: Van",
+        "Kábel hossza: 2 m"
+      ]
+    },
+    {
+      "ProductName": "Corsair Elgato Wave 3",
+      "Quantity": "1",
+      "Price": "65790",
+      "Tags": [ "mikrofon", "USB", "kondenzátor", "streaming" ],
+      "Description": [
+        "Csatlakozás típusa: USB",
+        "Érzékenység: 25 dB",
+        "Frekvenciatartomány: 70 - 20000 Hz",
+        "Állítható dőlésszög: Igen",
+        "Bekapcsoló gomb: Nincs",
+        "Némító gomb: Van"
+      ]
+    },
+    {
+      "ProductName": "Trust GXT 232 Mantis (22656)",
+      "Quantity": "1",
+      "Price": "11980",
+      "Tags": [ "mikrofon", "USB", "kondenzátor", "streaming" ],
+      "Description": [
+        "Csatlakozás típusa: USB",
+        "Érzékenység: 38 dB",
+        "Frekvenciatartomány: 50 - 16000 Hz",
+        "Állítható dőlésszög: Igen",
+        "Bekapcsoló gomb: Nincs",
+        "Némító gomb: Nincs",
+        "Kábel hossza: 1,5 m"
+      ]
+    },
+    {
+      "ProductName": "Logitech Yeti Orb RGB (988-000551/8)",
+      "Quantity": "1",
+      "Price": "24560",
+      "Tags": [ "mikrofon", "USB", "RGB", "kondenzátor" ],
+      "Description": [
+        "Csatlakozás típusa: USB",
+        "Érzékenység: 72 dB",
+        "Frekvenciatartomány: 70 - 20000 Hz",
+        "Állítható dőlésszög: Igen",
+        "Bekapcsoló gomb: Nincs",
+        "Némító gomb: Nincs",
+        "Kábel hossza: 2 m"
+      ]
+    },
+    {
+      "ProductName": "Sandberg Streamer USB Microphone Kit (126-07)",
+      "Quantity": "1",
+      "Price": "22400",
+      "Tags": [ "mikrofon", "USB", "kondenzátor", "kit" ],
+      "Description": [
+        "Csatlakozás típusa: USB",
+        "Érzékenység: 27 dB",
+        "Frekvenciatartomány: 30 - 16000 Hz",
+        "Állítható dőlésszög: Igen",
+        "Bekapcsoló gomb: Nincs",
+        "Némító gomb: Nincs",
+        "Kábel hossza: 2,5 m"
+      ]
     }
 
   ]
