@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Webshop.EntityFramework;
 using Webshop.EntityFramework.Data;
+using Webshop.EntityFramework.Managers.Interfaces.Cart;
 using Webshop.EntityFramework.Managers.Interfaces.Product;
 using Webshop.Services.Services.ViewModel;
 
@@ -12,11 +13,13 @@ namespace WebshopWeb.Controllers
         private GlobalDbContext _context;
         private List<Products> products;
         private IProductManager productManager;
+        private ICartManager cartManager;
 
-        public ProductController(GlobalDbContext context, IProductManager productManager)
+        public ProductController(GlobalDbContext context, IProductManager productManager, ICartManager cartManager)
         {
             this._context = context;
             this.productManager = productManager;
+            this.cartManager = cartManager;
         }
 
         public IActionResult Index()
@@ -44,9 +47,7 @@ namespace WebshopWeb.Controllers
             {
                 return RedirectToAction("Login", "Authentication");
             }
-            var cart = _context.Carts.Include(c => c.CartItems)
-                              .ThenInclude(ci => ci.Product)
-                              .FirstOrDefault(c => c.UserId == userId.Value);
+            var cart = cartManager.GetCart(HttpContext.Session.GetInt32("CartId").Value);
             var product=productManager.GetProduct(Id);
             if (product == null) 
             {
@@ -74,16 +75,16 @@ namespace WebshopWeb.Controllers
             {
                 return View("Index", _context.StorageData.ToList());
             }
-            var products = _context.StorageData
+            var products = productManager.GetProducts()
                 .Where(x => EF.Functions.Collate(x.ProductName, "Latin1_General_CI_AI")
-                            .Contains(searchValue.ToLower()) ||
-                            x.Tags.Any(t => EF.Functions.Collate(t, "Latin1_General_CI_AI")
-                                          .Contains(searchValue.ToLower())))
+                .Contains(searchValue.ToLower()) || x.Tags.Any(t => EF.Functions.Collate(t, "Latin1_General_CI_AI")
+                .Contains(searchValue.ToLower())))
                 .ToList();
+
 
             if (products.Count < 1)
             {
-                products = _context.StorageData.ToList();
+                products = productManager.GetProducts().ToList();
 
             }
             var model = new ProductFilterViewModel
@@ -96,7 +97,7 @@ namespace WebshopWeb.Controllers
         [HttpPost]
         public IActionResult Filter(ProductFilterViewModel filter)
         {
-            var query = _context.StorageData.AsQueryable();
+            var query = productManager.GetProducts();
 
             if (!string.IsNullOrEmpty(filter.ProductName))
             {

@@ -32,9 +32,9 @@ namespace Webshop.EntityFramework.Managers.Implementations
             return _context.StorageData.FirstOrDefault(p=>p.Id==id);
         }
 
-        public List<Products> GetProductPrices()
+        public IQueryable<Products> GetProducts()
         {
-            throw new NotImplementedException();
+            return _context.StorageData.AsQueryable();
         }
     }
 }

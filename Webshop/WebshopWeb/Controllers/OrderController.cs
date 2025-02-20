@@ -36,10 +36,7 @@ namespace WebshopWeb.Controllers
         {
             Orders order = new Orders();
             var cartId = HttpContext.Session.GetInt32("CartId");
-            var cart = _context.Carts
-                .Include(c => c.CartItems)
-                .ThenInclude(ci => ci.Product) 
-                .FirstOrDefault(c => c.Id == cartId);
+            var cart = cartManager.GetCart(cartId);
 
             var price = 0;
             List<CartItem> cartItems = cart.CartItems.ToList();

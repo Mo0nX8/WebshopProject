@@ -18,6 +18,6 @@ namespace Webshop.EntityFramework.Managers.Interfaces.Product
         /// <param name="id"></param>
         /// <returns></returns>
         Products GetProduct(int id);
-        List<Products> GetProductPrices();
+        IQueryable<Products> GetProducts();
     }
 }

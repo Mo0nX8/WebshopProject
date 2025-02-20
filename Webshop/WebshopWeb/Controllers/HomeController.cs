@@ -64,13 +64,14 @@ public class HomeController : Controller
     public IActionResult ChangePassword(PasswordChangeViewModel model)
     {
         var userId = HttpContext.Session.GetInt32("UserId");
+        var user = userManager.GetUser(userId.Value);
         if (model == null || string.IsNullOrEmpty(model.CurrentPassword) || string.IsNullOrEmpty(model.NewPassword))
         {
             ModelState.AddModelError("", "Kérem, adja meg a régi és az új jelszót.");
             var personalDataViewModel = new PersonalDataViewModel
             {
-                UserName = userManager.GetUser((int)userId).Username,
-                Email=userManager.GetUser((int)userId).EmailAddress,
+                UserName = user.Username,
+                Email=user.EmailAddress,
 
             };
             return View("PersonalData", personalDataViewModel);
@@ -81,15 +82,15 @@ public class HomeController : Controller
             return RedirectToAction("Login", "Authentication");
         }
 
-        var user = context.Users.FirstOrDefault(x => x.Id == userId);
+        
         var HashedCurrentPassword = encryptManager.Hash(model.CurrentPassword);
         if (user == null || user.Password != HashedCurrentPassword)
         {
             ModelState.AddModelError("", "A mostani jelszó nem megfelelõ.");
             var personalDataViewModel = new PersonalDataViewModel
             {
-                UserName = userManager.GetUser((int)userId).Username,
-                Email = userManager.GetUser((int)userId).EmailAddress,
+                UserName = user.Username,
+                Email = user.EmailAddress,
 
             };
             return View("PersonalData", personalDataViewModel);
@@ -111,12 +112,12 @@ public class HomeController : Controller
     public IActionResult MyOrders()
     {
         var userId = HttpContext.Session.GetInt32("UserId");
-        var orders=context.Orders
+        var orders=orderManager.GetOrders()
             .Where(x => x.UserId == userId)
-            .Include(x=>x.OrderItems)
+            .Include(x => x.OrderItems)
             .ThenInclude(oi => oi.Product)
             .ToList();
-        if(orders is null)
+        if (orders is null)
         {
             orders = new List<Orders>();
         }

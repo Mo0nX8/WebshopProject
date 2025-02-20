@@ -30,8 +30,7 @@ namespace Webshop.Services.Services.Validators.Implementations
                 return "Hiba! Nem adtál meg felhasználónevet!";
             }
             IQueryable<UserData> users = userManager.GetUsers();
-            var usernames = users.Select(x => x.Username);
-            if(usernames.Contains(key))
+            if(users.Select(x => x.Username).Contains(key))
             {
                 return "Hiba! A felhasználónév már regisztrálva van.";
             }

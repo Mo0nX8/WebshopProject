@@ -46,11 +46,12 @@ namespace WebshopWeb.Controllers
         {
             if (authenticationManager.TryLogin(email, password))
             {
-                var user = userManager.GetUsers().Where(x => x.EmailAddress == email)
+                var user = userManager.GetUsers()
+                    .Where(x => x.EmailAddress == email)
                     .Include(u=>u.Cart)
                     .FirstOrDefault();
                 HttpContext.Session.SetInt32("UserId", user.Id);
-                var cart = _context.Carts.FirstOrDefault(c=>c.UserId==user.Id);
+                var cart = cartManager.GetCart(user.Cart.Id);
                 HttpContext.Session.SetInt32("CartId",cart.Id);
                 HttpContext.Session.SetString("IsAuthenticated", "True");
                 Console.WriteLine(cart.Id);
@@ -61,8 +62,6 @@ namespace WebshopWeb.Controllers
         }
         public IActionResult TryRegister(string username, string email, string password1, string password2)
         {
-            UserData user = new UserData();
-            ShoppingCart cart = new ShoppingCart();
             string emailResponseCode = emailValidator.IsAvailable(email);
             string usernameResponseCode = usernameValidator.IsAvailable(username);
             string passwordResponseCode = "";
@@ -81,13 +80,19 @@ namespace WebshopWeb.Controllers
                 {
                     if(passwordResponseCode=="200")
                     {
-                        user.Username = username;
-                        user.EmailAddress = email;
-                        user.Password = encryptManager.Hash(password1);
-                        userManager.Add(user);
+                        UserData user = new UserData()
+                        {
+                            Username = username,
+                            EmailAddress=email,
+                            Password=encryptManager.Hash(password1)
+                        };
                         
-                        cart.UserId = user.Id;
-                        cart.CartItems = new List<CartItem>();
+                        userManager.Add(user);
+                        ShoppingCart cart = new ShoppingCart()
+                        {
+                            UserId = user.Id,
+                            CartItems = new List<CartItem>()
+                        };
                         cartManager.AddCart(cart);
 
                         return RedirectToAction("Login");
