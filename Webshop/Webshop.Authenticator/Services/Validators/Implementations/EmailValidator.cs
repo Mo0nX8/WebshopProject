@@ -33,14 +33,18 @@ namespace Webshop.Services.Services.Validators.Implementations
                 return "Hiba! Nem érvényes email cím!";
 
             }
-            if (!email.Contains(".com") || !email.Contains(".hu"))
+            IQueryable<UserData> users=userManager.GetUsers();
+            
+            if(email.EndsWith(".com") || email.EndsWith(".hu"))
+            {
+                if (users.Select(x => x.EmailAddress).Contains(email))
+                {
+                    return "Hiba! Az email cím használatban van!";
+                }
+            }
+            else
             {
                 return "Hiba! Nem érvényes email cím!";
-            }
-            IQueryable<UserData> users=userManager.GetUsers();
-            if(users.Select(x => x.EmailAddress).Contains(email))
-            {
-                return "Hiba! Az email cím használatban van!";
             }
             return "200";
         }
