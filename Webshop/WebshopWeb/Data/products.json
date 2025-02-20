@@ -8228,7 +8228,7 @@
   {
     "ProductName": "GIGABYTE Z890M GAMING X",
     "Quanity": "1",
-    "Price": "88 011",
+    "Price": "88011",
     "Tags": [ "GIGABYTE", "Z890M", "GAMING", "alaplap", "Socket 1851" ],
     "Description": [
       "CPU Foglalat: Socket 1851",
@@ -8274,7 +8274,7 @@
   {
     "ProductName": "GIGABYTE B860M EAGLE",
     "Quanity": "1",
-    "Price": "59 540",
+    "Price": "59540",
     "Tags": [ "GIGABYTE", "B860M", "EAGLE", "alaplap", "Socket 1851" ],
     "Description": [
       "CPU Foglalat: Socket 1851",
@@ -8307,7 +8307,7 @@
   {
     "ProductName": "ASUS ROG MAXIMUS Z890 EXTREME",
     "Quanity": "1",
-    "Price": "671 540",
+    "Price": "671540",
     "Tags": [ "ASUS", "ROG", "MAXIMUS", "Z890", "EXTREME", "alaplap", "Socket 1851" ],
     "Description": [
       "CPU Foglalat: Socket 1851",
@@ -8345,7 +8345,7 @@
   {
     "ProductName": "MSI Z890 GAMING PLUS WIFI",
     "Quanity": "1",
-    "Price": "118 745",
+    "Price": "118745",
     "Tags": [ "MSI", "Z890", "GAMING", "PLUS", "WIFI", "alaplap", "Socket 1851" ],
     "Description": [
       "CPU Foglalat: Socket 1851",
@@ -9522,7 +9522,7 @@
   {
     "ProductName": "ASUS PRIME Z790-A WIFI",
     "Quanity": "1",
-    "Price": "99 900",
+    "Price": "99900",
     "Tags": [ "ASUS", "PRIME", "Z790-A WIFI", "alaplap", "Socket 1700" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
@@ -9561,7 +9561,7 @@
   {
     "ProductName": "ASUS ROG STRIX Z790-F GAMING WIFI",
     "Quanity": "1",
-    "Price": "139 990",
+    "Price": "139990",
     "Tags": [ "ASUS", "ROG STRIX", "Z790-F GAMING WIFI", "alaplap", "Socket 1700" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
@@ -9602,7 +9602,7 @@
   {
     "ProductName": "GIGABYTE B760M D3HP DDR4",
     "Quanity": "1",
-    "Price": "43 307",
+    "Price": "43307",
     "Tags": [ "GIGABYTE", "B760M D3HP DDR4", "alaplap", "Socket 1700" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
@@ -9641,7 +9641,7 @@
   {
     "ProductName": "MSI Z790 Gaming Plus Wifi",
     "Quanity": "1",
-    "Price": "96 393",
+    "Price": "96393",
     "Tags": [ "MSI", "Z790 Gaming Plus Wifi", "alaplap", "Socket 1700" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
@@ -9679,7 +9679,7 @@
   {
     "ProductName": "GIGABYTE B760 GAMING X DDR4",
     "Quanity": "1",
-    "Price": "57 976",
+    "Price": "57976",
     "Tags": [ "GIGABYTE", "B760 GAMING X DDR4", "alaplap", "Socket 1700" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
