@@ -3453,7 +3453,7 @@
   },
   {
     "ProductName": "Intel Core Ultra 5 245K 14-Core 4.2GHz LGA1851 Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "165684",
     "Tags": [ "Intel", "Core Ultra 5", "14 magos", "4.2GHz", "LGA1851", "Dobozos" ],
     "Description": [
@@ -3474,7 +3474,7 @@
   },
   {
     "ProductName": "Intel Core Ultra 7 265KF 20-Core 3.3GHz LGA1851 Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "186580",
     "Tags": [ "Intel", "Core Ultra 7", "20 magos", "3.3GHz", "LGA1851", "Dobozos" ],
     "Description": [
@@ -3495,7 +3495,7 @@
   },
   {
     "ProductName": "Intel Core Ultra 5 245KF 14-Core 4.2GHz LGA1851 Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "130570",
     "Tags": [ "Intel", "Core Ultra 5", "14 magos", "4.2GHz", "LGA1851", "Dobozos" ],
     "Description": [
@@ -3516,7 +3516,7 @@
   },
   {
     "ProductName": "Intel Core Ultra 5 225F Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "117210",
     "Tags": [ "Intel", "Core Ultra 5", "10 magos", "2.7GHz", "LGA1851", "Dobozos" ],
     "Description": [
@@ -3537,7 +3537,7 @@
   },
   {
     "ProductName": "Intel Core Ultra 5 225 Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "126430",
     "Tags": [ "Intel", "Core Ultra 5", "10 magos", "2.7GHz", "LGA1851", "Dobozos" ],
     "Description": [
@@ -3558,7 +3558,7 @@
   },
   {
     "ProductName": "Intel Core Ultra 5 235 14-Core 3.4GHz LGA1851 Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "136210",
     "Tags": [ "Intel", "Core Ultra 5", "14 magos", "3.4GHz", "LGA1851", "Dobozos" ],
     "Description": [
@@ -3579,7 +3579,7 @@
   },
   {
     "ProductName": "Intel Core Ultra 9 285K Tray",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "274912",
     "Tags": [ "Intel", "Core Ultra 9", "24 magos", "3.2GHz", "LGA1851", "Tálcás" ],
     "Description": [
@@ -3600,7 +3600,7 @@
   },
   {
     "ProductName": "Intel Core Ultra 7 265KF Tray",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "192490",
     "Tags": [ "Intel", "Core Ultra 7", "20 magos", "3.3GHz", "LGA1851", "Tálcás" ],
     "Description": [
@@ -3621,7 +3621,7 @@
   },
   {
     "ProductName": "Intel Core Ultra 5 245K Tray",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "144319",
     "Tags": [ "Intel", "Core Ultra 5", "14 magos", "3.6GHz", "LGA1851", "Tálcás" ],
     "Description": [
@@ -3642,7 +3642,7 @@
   },
   {
     "ProductName": "Intel Core Ultra 5 245KF Tray",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "138600",
     "Tags": [ "Intel", "Core Ultra 5", "14 magos", "3.6GHz", "LGA1851", "Tálcás" ],
     "Description": [
@@ -3663,7 +3663,7 @@
   },
   {
     "ProductName": "Intel Pentium Gold G7400 Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "42530",
     "Tags": [ "Intel", "Pentium Gold", "2 magos", "3.7GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -3682,7 +3682,7 @@
   },
   {
     "ProductName": "Intel Pentium Gold G7400 Tray",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "34570",
     "Tags": [ "Intel", "Pentium Gold", "2 magos", "3.7GHz", "LGA1700", "Tálcás" ],
     "Description": [
@@ -3701,7 +3701,7 @@
   },
   {
     "ProductName": "Intel Celeron G6900 Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "32890",
     "Tags": [ "Intel", "Celeron", "2 magos", "3.4GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -3721,7 +3721,7 @@
   },
   {
     "ProductName": "Intel Core i3-12100F Tray",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "24620",
     "Tags": [ "Intel", "Core i3", "4 magos", "3.3GHz", "LGA1700", "Tálcás" ],
     "Description": [
@@ -3742,7 +3742,7 @@
   },
   {
     "ProductName": "Intel Core i3-12100F Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "35240",
     "Tags": [ "Intel", "Core i3", "4 magos", "3.3GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -3763,7 +3763,7 @@
   },
   {
     "ProductName": "Intel Core i3-14100F Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "40050",
     "Tags": [ "Intel", "Core i3", "4 magos", "3.5GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -3784,7 +3784,7 @@
   },
   {
     "ProductName": "Intel Core i3-14100 Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "57490",
     "Tags": [ "Intel", "Core i3", "4 magos", "3.5GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -3805,7 +3805,7 @@
   },
   {
     "ProductName": "Intel Core i3-13100F Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "36610",
     "Tags": [ "Intel", "Core i3", "4 magos", "3.4GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -3826,7 +3826,7 @@
   },
   {
     "ProductName": "Intel Core i3-12100 Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "51030",
     "Tags": [ "Intel", "Core i3", "4 magos", "3.3GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -3846,7 +3846,7 @@
   },
   {
     "ProductName": "Intel Core i3-14100F Tray",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "31520",
     "Tags": [ "Intel", "Core i3", "4 magos", "3.5GHz", "LGA1700", "Tálcás" ],
     "Description": [
@@ -3867,7 +3867,7 @@
   },
   {
     "ProductName": "Intel Core i3-13100 Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "57760",
     "Tags": [ "Intel", "Core i3", "4 magos", "3.4GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -3888,7 +3888,7 @@
   },
   {
     "ProductName": "Intel Core i5-12400F Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "49990",
     "Tags": [ "Intel", "Core i5", "6 magos", "2.5GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -3909,7 +3909,7 @@
   },
   {
     "ProductName": "Intel Core i5-14400F Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "67620",
     "Tags": [ "Intel", "Core i5", "10 magos", "2.5GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -3930,7 +3930,7 @@
   },
   {
     "ProductName": "Intel Core i5-14600KF Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "99990",
     "Tags": [ "Intel", "Core i5", "14 magos", "3.5GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -3951,7 +3951,7 @@
   },
   {
     "ProductName": "Intel Core i5-14600K Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "111950",
     "Tags": [ "Intel", "Core i5", "14 magos", "3.4GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -3972,7 +3972,7 @@
   },
   {
     "ProductName": "Intel Core i5-12600K Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "79775",
     "Tags": [ "Intel", "Core i5", "10 magos", "2.8GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -3992,7 +3992,7 @@
   },
   {
     "ProductName": "Intel Core i5-13600K Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "117350",
     "Tags": [ "Intel", "Core i5", "14 magos", "3.5GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4013,7 +4013,7 @@
   },
   {
     "ProductName": "Intel Core i5-13400F Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "66510",
     "Tags": [ "Intel", "Core i5", "10 magos", "2.5GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4034,7 +4034,7 @@
   },
   {
     "ProductName": "Intel Core i5-12400 Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "65710",
     "Tags": [ "Intel", "Core i5", "6 magos", "2.5GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4055,7 +4055,7 @@
   },
   {
     "ProductName": "Intel Core i5-12600KF Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "73260",
     "Tags": [ "Intel", "Core i5", "10 magos", "2.8GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4075,7 +4075,7 @@
   },
   {
     "ProductName": "Intel Core i5-14400 Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "78000",
     "Tags": [ "Intel", "Core i5", "10 magos", "2.5GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4096,7 +4096,7 @@
   },
   {
     "ProductName": "Intel Core i5-13500 Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "88790",
     "Tags": [ "Intel", "Core i5", "14 magos", "2.5GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4117,7 +4117,7 @@
   },
   {
     "ProductName": "Intel Core i5-14500 Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "112690",
     "Tags": [ "Intel", "Core i5", "14 magos", "2.6GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4138,7 +4138,7 @@
   },
   {
     "ProductName": "Intel Core i5-14600 Tray",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "128900",
     "Tags": [ "Intel", "Core i5", "14 magos", "5.2GHz", "LGA1700", "Tálcás" ],
     "Description": [
@@ -4159,7 +4159,7 @@
   },
   {
     "ProductName": "Intel Core i7-14700K Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "175360",
     "Tags": [ "Intel", "Core i7", "20 magos", "3.4GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4180,7 +4180,7 @@
   },
   {
     "ProductName": "Intel Core i7-12700K Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "109950",
     "Tags": [ "Intel", "Core i7", "12 magos", "3.6GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4200,7 +4200,7 @@
   },
   {
     "ProductName": "Intel Core i7-12700KF Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "104510",
     "Tags": [ "Intel", "Core i7", "12 magos", "2.7GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4220,7 +4220,7 @@
   },
   {
     "ProductName": "Intel Core i7-14700KF Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "169490",
     "Tags": [ "Intel", "Core i7", "20 magos", "3.4GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4241,7 +4241,7 @@
   },
   {
     "ProductName": "Intel Core i7-13700K Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "172030",
     "Tags": [ "Intel", "Core i7", "16 magos", "3.5GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4262,7 +4262,7 @@
   },
   {
     "ProductName": "Intel Core i7-14700F Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "146735",
     "Tags": [ "Intel", "Core i7", "20 magos", "2.1GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4282,7 +4282,7 @@
   },
   {
     "ProductName": "Intel Core i7-14700 Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "159890",
     "Tags": [ "Intel", "Core i7", "20 magos", "2.1GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4302,7 +4302,7 @@
   },
   {
     "ProductName": "Intel Core i7-12700 Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "128000",
     "Tags": [ "Intel", "Core i7", "12 magos", "3.6GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4323,7 +4323,7 @@
   },
   {
     "ProductName": "Intel Core i7-13700 Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "159590",
     "Tags": [ "Intel", "Core i7", "16 magos", "3.4GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4343,7 +4343,7 @@
   },
   {
     "ProductName": "Intel Core i7-14700F Tray",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "155377",
     "Tags": [ "Intel", "Core i7", "20 magos", "2.1GHz", "LGA1700", "Tálcás" ],
     "Description": [
@@ -4363,7 +4363,7 @@
   },
   {
     "ProductName": "Intel Core i7-13700K Tray",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "169600",
     "Tags": [ "Intel", "Core i7", "16 magos", "2.5GHz", "LGA1700", "Tálcás" ],
     "Description": [
@@ -4384,7 +4384,7 @@
   },
   {
     "ProductName": "Intel Core i9-14900K Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "215580",
     "Tags": [ "Intel", "Core i9", "24 magos", "3.2GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4405,7 +4405,7 @@
   },
   {
     "ProductName": "Intel Core i9-13900K Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "196890",
     "Tags": [ "Intel", "Core i9", "24 magos", "4.3GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4426,7 +4426,7 @@
   },
   {
     "ProductName": "Intel Core i9-14900KF Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "204560",
     "Tags": [ "Intel", "Core i9", "24 magos", "3.2GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4447,7 +4447,7 @@
   },
   {
     "ProductName": "Intel Core i9-14900KS Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "326040",
     "Tags": [ "Intel", "Core i9", "24 magos", "3.2GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4468,7 +4468,7 @@
   },
   {
     "ProductName": "Intel Core i9-13900KF Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "229330",
     "Tags": [ "Intel", "Core i9", "24 magos", "3.0GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4489,7 +4489,7 @@
   },
   {
     "ProductName": "Intel Core i9-12900F Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "179380",
     "Tags": [ "Intel", "Core i9", "16 magos", "2.4GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4510,7 +4510,7 @@
   },
   {
     "ProductName": "Intel Core i9-12900K Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "162690",
     "Tags": [ "Intel", "Core i9", "16 magos", "3.2GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4530,7 +4530,7 @@
   },
   {
     "ProductName": "Intel Core i9-12900KF Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "164830",
     "Tags": [ "Intel", "Core i9", "16 magos", "3.2GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4551,7 +4551,7 @@
   },
   {
     "ProductName": "Intel Core i9-14900 Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "303160",
     "Tags": [ "Intel", "Core i9", "24 magos", "2.0GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4572,7 +4572,7 @@
   },
   {
     "ProductName": "Intel Core i9-13900KS Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "369178",
     "Tags": [ "Intel", "Core i9", "24 magos", "3.2GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4593,7 +4593,7 @@
   },
   {
     "ProductName": "Intel Core i9-12900 Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "191290",
     "Tags": [ "Intel", "Core i9", "16 magos", "1.8GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4614,7 +4614,7 @@
   },
   {
     "ProductName": "Intel Core i9-13900 Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "303160",
     "Tags": [ "Intel", "Core i9", "24 magos", "3.0GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4635,7 +4635,7 @@
   },
   {
     "ProductName": "Intel Core i9-12900KS Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "222595",
     "Tags": [ "Intel", "Core i9", "16 magos", "3.40GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4655,7 +4655,7 @@
   },
   {
     "ProductName": "Intel Core i9-14900F Box",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "223990",
     "Tags": [ "Intel", "Core i9", "24 magos", "2.0GHz", "LGA1700", "Dobozos" ],
     "Description": [
@@ -4676,7 +4676,7 @@
   },
   {
     "ProductName": "Seasonic FOCUS GX 850W 80 PLUS Gold V4 (GX-850-V4)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "68600",
     "Tags": [ "Seasonic", "FOCUS", "850W", "Gold", "Moduláris" ],
     "Description": [
@@ -4699,7 +4699,7 @@
   },
   {
     "ProductName": "Seasonic G12 GC 850W 80 PLUS Gold",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "48151",
     "Tags": [ "Seasonic", "G12", "850W", "Gold", "Fix" ],
     "Description": [
@@ -4723,7 +4723,7 @@
   },
   {
     "ProductName": "Seasonic Psu B12 BC-650W 80 PLUS Bronze (1Y651BCRT3A10X)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "27300",
     "Tags": [ "Seasonic", "B12", "650W", "Bronze", "Fix" ],
     "Description": [
@@ -4747,7 +4747,7 @@
   },
   {
     "ProductName": "Seasonic Vertex GX-1000 1000W 80 PLUS Gold (SS-PS-VER-1000W)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "92180",
     "Tags": [ "Seasonic", "Vertex", "1000W", "Gold", "Moduláris" ],
     "Description": [
@@ -4770,7 +4770,7 @@
   },
   {
     "ProductName": "Seasonic G12 GC 750W 80 PLUS Gold",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "42390",
     "Tags": [ "Seasonic", "G12", "750W", "Gold", "Fix" ],
     "Description": [
@@ -4794,7 +4794,7 @@
   },
   {
     "ProductName": "Seasonic G12 GC 650W 80 PLUS Gold",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "35640",
     "Tags": [ "Seasonic", "G12", "650W", "Gold", "Fix" ],
     "Description": [
@@ -4818,7 +4818,7 @@
   },
   {
     "ProductName": "FSP Hydro K PRO 750W ATX3.0 80 PLUS Bronze (PPA7506901)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "29270",
     "Tags": [ "FSP", "Hydro", "750W", "Bronze", "Fix" ],
     "Description": [
@@ -4842,7 +4842,7 @@
   },
   {
     "ProductName": "FSP VITA GM 1000W 80 PLUS Gold (VITA-1000GM)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "59950",
     "Tags": [ "FSP", "VITA", "1000W", "Gold", "Moduláris" ],
     "Description": [
@@ -4861,7 +4861,7 @@
   },
   {
     "ProductName": "FSP VITA GM 750W 80 PLUS Gold (VITA-750GM)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "50950",
     "Tags": [ "FSP", "VITA", "750W", "Gold", "Moduláris" ],
     "Description": [
@@ -4880,7 +4880,7 @@
   },
   {
     "ProductName": "FSP HYDRO TI PRO 1000W 80 PLUS Titanium (PPA10A3803)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "122620",
     "Tags": [ "FSP", "Hydro", "1000W", "Titanium", "Moduláris" ],
     "Description": [
@@ -4899,7 +4899,7 @@
   },
   {
     "ProductName": "FSP Hydro PTM Pro 1200W 80 PLUS Platinum (PPA12A1001)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "85490",
     "Tags": [ "FSP", "Hydro", "1200W", "Platinum", "Moduláris" ],
     "Description": [
@@ -4919,7 +4919,7 @@
   },
   {
     "ProductName": "FSP Hydro PTM Pro HPT2-1200M ATX 3.0 1200W 80 PLUS Platinum (PPA12A1014)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "108820",
     "Tags": [ "FSP", "Hydro", "1200W", "Platinum", "Moduláris" ],
     "Description": [
@@ -4938,7 +4938,7 @@
   },
   {
     "ProductName": "FSP Hydro K PRO (ATX3.0) 850W 80 PLUS Bronze (PPA8503201)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "34960",
     "Tags": [ "FSP", "Hydro", "850W", "Bronze", "Fix" ],
     "Description": [
@@ -4958,7 +4958,7 @@
   },
   {
     "ProductName": "FSP Hyper Pro 700W 80 PLUS Bronze",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "26254",
     "Tags": [ "FSP", "Hyper", "700W", "Bronze", "Fix" ],
     "Description": [
@@ -4971,7 +4971,7 @@
   },
   {
     "ProductName": "be quiet! Pure Power 12 M 850W 80 PLUS Gold (BN344)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "55160",
     "Tags": [ "be quiet!", "Pure Power", "850W", "Gold", "Moduláris" ],
     "Description": [
@@ -4994,7 +4994,7 @@
   },
   {
     "ProductName": "be quiet! Pure Power 12 M 1000W 80 PLUS Gold (BN345)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "71220",
     "Tags": [ "be quiet!", "Pure Power", "1000W", "Gold", "Moduláris" ],
     "Description": [
@@ -5017,7 +5017,7 @@
   },
   {
     "ProductName": "be quiet! Pure Power 12 M 750W 80 PLUS Gold (BN343)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "50995",
     "Tags": [ "be quiet!", "Pure Power", "750W", "Gold", "Moduláris" ],
     "Description": [
@@ -5040,7 +5040,7 @@
   },
   {
     "ProductName": "be quiet! 1000W 80 PLUS Gold Pure Power 12 (BP005EU)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "57790",
     "Tags": [ "be quiet!", "Pure Power", "1000W", "Gold", "Moduláris" ],
     "Description": [
@@ -5064,7 +5064,7 @@
   {
 
     "ProductName": "be quiet! Straight Power 11 850W 80 PLUS Gold (BN284)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "5810",
     "Tags": [ "be quiet!", "Straight Power", "850W", "Gold", "Moduláris" ],
     "Description": [
@@ -5088,7 +5088,7 @@
   },
   {
     "ProductName": "be quiet! System Power 10 550W 80 PLUS Bronze (BN327)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "26250",
     "Tags": [ "be quiet!", "System Power", "550W", "Bronze", "Fix" ],
     "Description": [
@@ -5111,7 +5111,7 @@
   },
   {
     "ProductName": "be quiet! System Power 10 850W 80 PLUS Gold (BN330)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "44956",
     "Tags": [ "be quiet!", "System Power", "850W", "Gold", "Fix" ],
     "Description": [
@@ -5135,7 +5135,7 @@
   },
   {
     "ProductName": "be quiet! System Power 10 650W 80 PLUS Bronze (BN328)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "28340",
     "Tags": [ "be quiet!", "System Power", "650W", "Bronze", "Fix" ],
     "Description": [
@@ -5158,7 +5158,7 @@
   },
   {
     "ProductName": "be quiet! Straight Power 11 1000W 80 PLUS Gold (BN285)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "75440",
     "Tags": [ "be quiet!", "Straight Power", "1000W", "Gold", "Moduláris" ],
     "Description": [
@@ -5182,7 +5182,7 @@
   },
   {
     "ProductName": "be quiet! 850W 80 PLUS Gold Pure Power 12 (BP004EU)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "49030",
     "Tags": [ "be quiet!", "Pure Power", "850W", "Gold", "Fix" ],
     "Description": [
@@ -5205,7 +5205,7 @@
   },
   {
     "ProductName": "be quiet! System Power 10 450W 80 PLUS Bronze (BN326)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "21610",
     "Tags": [ "be quiet!", "System Power", "450W", "Bronze", "Fix" ],
     "Description": [
@@ -5226,7 +5226,7 @@
   },
   {
     "ProductName": "CHIEFTEC Chieftronic PowerPlay 750W 80 PLUS Gold (GPU-750FC)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "36900",
     "Tags": [ "CHIEFTEC", "Chieftronic PowerPlay", "750W", "80 PLUS Gold", "Moduláris" ],
     "Description": [
@@ -5249,7 +5249,7 @@
   },
   {
     "ProductName": "CHIEFTEC A-90 750W 80 PLUS Gold (GDP-750C)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "35520",
     "Tags": [ "CHIEFTEC", "A-90", "750W", "80 PLUS Gold", "Fél moduláris" ],
     "Description": [
@@ -5272,7 +5272,7 @@
   },
   {
     "ProductName": "CHIEFTEC ZPU-600S",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "23037",
     "Tags": [ "CHIEFTEC", "ZPU-600S", "600W", "80+", "Fix" ],
     "Description": [
@@ -5295,7 +5295,7 @@
   },
   {
     "ProductName": "CHIEFTEC Smart 650W (GPS-650A8)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "21830",
     "Tags": [ "CHIEFTEC", "Smart", "650W", "80+ Gold", "Fix" ],
     "Description": [
@@ -5314,7 +5314,7 @@
   },
   {
     "ProductName": "CHIEFTEC Polaris 1250W 80 PLUS Gold (PPS-1250FC)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "47999",
     "Tags": [ "CHIEFTEC", "Polaris", "1250W", "80 PLUS Gold", "Moduláris" ],
     "Description": [
@@ -5337,7 +5337,7 @@
   },
   {
     "ProductName": "ASUS ROG STRIX 850W 80 PLUS Gold Aura Edition (90YE00P2-B0NA00)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "87600",
     "Tags": [ "ASUS", "ROG STRIX", "850W", "80 PLUS Gold", "Moduláris" ],
     "Description": [
@@ -5360,7 +5360,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming 1200W 80 PLUS Gold (90YE00S0-B0NA00)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "108490",
     "Tags": [ "ASUS", "TUF Gaming", "1200W", "80 PLUS Gold", "Moduláris" ],
     "Description": [
@@ -5383,7 +5383,7 @@
   },
   {
     "ProductName": "ASUS ROG STRIX 1000W 80 PLUS Gold (90YE00A5-B0NA00)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "80890",
     "Tags": [ "ASUS", "ROG STRIX", "1000W", "80 PLUS Gold", "Moduláris" ],
     "Description": [
@@ -5402,7 +5402,7 @@
   },
   {
     "ProductName": "ASUS ROG THOR 1600W 80 PLUS Titanium (90YE00K0-B0NA00)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "244490",
     "Tags": [ "ASUS", "ROG THOR", "1600W", "80 PLUS Titanium", "Moduláris" ],
     "Description": [
@@ -5426,7 +5426,7 @@
   },
   {
     "ProductName": "ASUS ROG THOR 1000W Platinum II 80 PLUS Platinum (90YE00L1-B0NA00)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "159901",
     "Tags": [ "ASUS", "ROG THOR", "1000W", "80 PLUS Platinum", "Moduláris" ],
     "Description": [
@@ -5450,7 +5450,7 @@
   },
   {
     "ProductName": "ASUS Prime 750W 80 PLUS Gold (AP-750G)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "50740",
     "Tags": [ "ASUS", "Prime", "750W", "80 PLUS Gold", "Moduláris" ],
     "Description": [
@@ -5472,7 +5472,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming 850W 80 PLUS Gold (ASUS-PS-TUF-GAMING-850G)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "90510",
     "Tags": [ "ASUS", "TUF Gaming", "850W", "80 PLUS Gold", "Moduláris" ],
     "Description": [
@@ -5495,7 +5495,7 @@
   },
   {
     "ProductName": "Corsair RMx Series RM1000x 1000W 80 PLUS Gold (CP-9020271-EU)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "87390",
     "Tags": [ "Corsair", "RMx Series", "1000W", "80 PLUS Gold", "Moduláris" ],
     "Description": [
@@ -5518,7 +5518,7 @@
   },
   {
     "ProductName": "Corsair RMx Series RM850x 850W 80 PLUS Gold (CP-9020270-EU)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "69455",
     "Tags": [ "Corsair", "RMx Series", "850W", "80 PLUS Gold", "Moduláris" ],
     "Description": [
@@ -5541,7 +5541,7 @@
   },
   {
     "ProductName": "Corsair RM1000e 1000W 80 PLUS Gold (CP-9020264)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "82053",
     "Tags": [ "Corsair", "RM1000e", "1000W", "80 PLUS Gold", "Moduláris" ],
     "Description": [
@@ -5564,7 +5564,7 @@
   },
   {
     "ProductName": "Corsair AX1600i 1600W 80 PLUS Titanium (CP-9020087-EU)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "259600",
     "Tags": [ "Corsair", "AX1600i", "1600W", "80 PLUS Titanium", "Moduláris" ],
     "Description": [
@@ -5588,7 +5588,7 @@
   },
   {
     "ProductName": "Corsair RM750e v2 750W 80 PLUS Gold (CP-9020262-EU)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "51400",
     "Tags": [ "Corsair", "RM750e v2", "750W", "80 PLUS Gold", "Moduláris" ],
     "Description": [
@@ -5611,7 +5611,7 @@
   },
   {
     "ProductName": "Corsair RM850e 850W 80 PLUS Gold (CP-9020263-EU)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "71921",
     "Tags": [ "Corsair", "RM850e", "850W", "80 PLUS Gold", "Moduláris" ],
     "Description": [
@@ -5634,7 +5634,7 @@
   },
   {
     "ProductName": "Cooler Master MWE 850 Gold V2 850W 80 PLUS Gold (MPE-8501-AFAAG-EU)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "51800",
     "Tags": [ "Cooler Master", "MWE 850 Gold V2", "850W", "80 PLUS Gold", "Moduláris" ],
     "Description": [
@@ -5658,7 +5658,7 @@
   },
   {
     "ProductName": "Cooler Master G600 600W 80 PLUS Gold (MPW-6001-ACAAG)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "26100",
     "Tags": [ "Cooler Master", "G600", "600W", "80 PLUS Gold", "Fix kábelezésű" ],
     "Description": [
@@ -5676,7 +5676,7 @@
   },
   {
     "ProductName": "Cooler Master MWE Bronze V2 750W 80 PLUS Bronze (MPE-7501-ACABW)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "29980",
     "Tags": [ "Cooler Master", "MWE Bronze V2", "750W", "80 PLUS Bronze", "Fix kábelezésű" ],
     "Description": [
@@ -5700,7 +5700,7 @@
   },
   {
     "ProductName": "Cooler Master ELITE NEX 700W 80 PLUS (MPW-7001-ACBW-B)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "25411",
     "Tags": [ "Cooler Master", "ELITE NEX", "700W", "80 PLUS", "Fix kábelezésű" ],
     "Description": [
@@ -5718,7 +5718,7 @@
   },
   {
     "ProductName": "Cooler Master G700W 80 PLUS Gold (MPW-7001-ACAAG)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "31495",
     "Tags": [ "Cooler Master", "G700W", "700W", "80 PLUS Gold", "Fix kábelezésű" ],
     "Description": [
@@ -5736,7 +5736,7 @@
   },
   {
     "ProductName": "Cooler Master V850 SFX 80 PLUS Gold (MPY-8501-SFHAGV)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "79695",
     "Tags": [ "Cooler Master", "V850 SFX", "850W", "80 PLUS Gold", "Moduláris" ],
     "Description": [
@@ -5759,7 +5759,7 @@
   },
   {
     "ProductName": "Cooler Master MWE Gold 650 V2 650W 80 PLUS Gold (MPE-6501-AFAAG-EU)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "39010",
     "Tags": [ "Cooler Master", "MWE Gold 650 V2", "650W", "80 PLUS Gold", "Fix kábelezésű" ],
     "Description": [
@@ -5783,7 +5783,7 @@
   },
   {
     "ProductName": "Cooler Master MWE White V2 700W 80 PLUS (MPE-7001-ACABW-EU)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "27990",
     "Tags": [ "Cooler Master", "MWE White V2", "700W", "80 PLUS", "Fix kábelezésű" ],
     "Description": [
@@ -5807,7 +5807,7 @@
   },
   {
     "ProductName": "Akyga Basic 500W (AK-B1-500E)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "7810",
     "Tags": [ "Akyga", "Basic", "500W", "80 PLUS", "Fix kábelezésű" ],
     "Description": [
@@ -5831,7 +5831,7 @@
   },
   {
     "ProductName": "CHIEFTEC VALUE 400W (APB-400B8)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "14101",
     "Tags": [ "CHIEFTEC", "VALUE", "400W", "80 PLUS", "Fix kábelezésű" ],
     "Description": [
@@ -5855,7 +5855,7 @@
   },
   {
     "ProductName": "Akyga Basic 400W (AK-B1-400)",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "7390",
     "Tags": [ "Akyga", "Basic", "400W", "80 PLUS", "Fix kábelezésű" ],
     "Description": [
@@ -5879,7 +5879,7 @@
   },
   {
     "ProductName": "LC-Power Office Series LC420H-12 V1.3 420W",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "14655",
     "Tags": [ "LC-Power", "Office Series", "420W", "80 PLUS", "Fix kábelezésű" ],
     "Description": [
@@ -5902,7 +5902,7 @@
   },
   {
     "ProductName": "nBase N-Power 500W",
-    "Quantity": "1",
+    "Quanity": "1",
     "Price": "10330",
     "Tags": [ "nBase", "N-Power", "500W", "80 PLUS", "Fix kábelezésű" ],
     "Description": [
@@ -5919,6 +5919,812 @@
       "SATA csatlakozó: 4",
       "PCI-Express csatlakozó: 1"
     ]
+  },
+  {
+    "ProductName": "ASUS TUF Gaming B550-PLUS",
+    "Quantity": "1",
+    "Price": "53580",
+    "Tags": [ "ASUS", "TUF", "Gaming", "B550", "PLUS", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD B550",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Szerver alaplap: nem",
+      "Videokártya típusa: PCI-Express",
+      "Multi VGA: AMD CrossFire",
+      "D-SUB: nincs",
+      "DVI: nincs",
+      "HDMI: van",
+      "DisplayPort: van",
+      "Memória foglalatok száma: 4",
+      "SATA csatlakozók száma: 6",
+      "Összes PCI-Express 16x csatlakozó száma: 2",
+      "PCI-Express 16x 3.0 csatlakozók száma: 1",
+      "PCI-Express 8x csatlakozók száma: nincs",
+      "PCI-Express 4x csatlakozók száma: nincs",
+      "PCI-Express 1x csatlakozók száma: 3",
+      "PCI csatlakozók száma: nincs",
+      "SATA 3 csatlakozók száma: 6",
+      "SATA 2 csatlakozók száma: nincs",
+      "mSATA csatlakozók száma: nincs",
+      "m.2 csatlakozók száma: 2",
+      "SATA Express csatlakozók száma: nincs",
+      "Hátlapi USB 2.0 portok száma: 2",
+      "Hátlapi USB 3.2 Gen 2 portok száma: 5",
+      "Max. memória mérete: 128 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Hangkártya típusa: S1200A",
+      "Digitális hangkimenet: Optikai",
+      "Integrált LAN sebessége: 10/100/1000/2500 Mbit/s",
+      "Vezeték nélküli hálózat: nincs",
+      "Bluetooth: nincs",
+      "RAID vezérlő: van",
+      "RAID szintek: 0, 1, 10",
+      "Méret szabvány: ATX",
+      "8-pin ATX 12V csatlakozó: van"
+    ]
+  },
+  {
+    "ProductName": "ASUS TUF Gaming B450M-PLUS II",
+    "Quantity": "1",
+    "Price": "37770",
+    "Tags": [ "ASUS", "TUF", "Gaming", "B450M", "PLUS", "II", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD B450",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Szerver alaplap: nincs",
+      "Videokártya típusa: PCI-Express",
+      "Multi VGA: AMD CrossFire",
+      "D-SUB: nincs",
+      "DVI: van",
+      "HDMI: van",
+      "DisplayPort: nincs",
+      "Memória foglalatok száma: 4",
+      "SATA csatlakozók száma: 6",
+      "Összes PCI-Express 16x csatlakozó száma: 2",
+      "PCI-Express 8x csatlakozók száma: nincs",
+      "PCI-Express 4x csatlakozók száma: nincs",
+      "PCI-Express 1x csatlakozók száma: 1",
+      "PCI csatlakozók száma: nincs",
+      "SATA 3 csatlakozók száma: 4",
+      "SATA 2 csatlakozók száma: nincs",
+      "mSATA csatlakozók száma: nincs",
+      "m.2 csatlakozók száma: 1",
+      "SATA Express csatlakozók száma: nincs",
+      "Hátlapi USB 2.0 portok száma: 2",
+      "Max. memória mérete: 128 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Hangkártya típusa: ALC887",
+      "Digitális hangkimenet: nincs",
+      "Integrált LAN sebessége: 10/100/1000 Mbit/s",
+      "Vezeték nélküli hálózat: nincs",
+      "Bluetooth: nincs",
+      "RAID vezérlő: van",
+      "RAID szintek: 0, 1, 10",
+      "Méret szabvány: microATX",
+      "Alaplap mérete: 244 x 244",
+      "8-pin ATX 12V csatlakozó: van"
+    ]
+  },
+  {
+    "ProductName": "GIGABYTE B550M AORUS ELITE",
+    "Quantity": "1",
+    "Price": "45550",
+    "Tags": [ "GIGABYTE", "B550M", "AORUS", "ELITE", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD B550",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Szerver alaplap: nincs",
+      "Videokártya típusa: PCI-Express",
+      "Multi VGA: nem",
+      "D-SUB: nincs",
+      "DVI: van",
+      "HDMI: van",
+      "DisplayPort: nincs",
+      "Memória foglalatok száma: 4",
+      "SATA csatlakozók száma: 4",
+      "Összes PCI-Express 16x csatlakozó száma: 2",
+      "PCI-Express 8x csatlakozók száma: nincs",
+      "PCI-Express 4x csatlakozók száma: nincs",
+      "PCI-Express 1x csatlakozók száma: 1",
+      "PCI csatlakozók száma: nincs",
+      "SATA 3 csatlakozók száma: 4",
+      "SATA 2 csatlakozók száma: nincs",
+      "mSATA csatlakozók száma: nincs",
+      "m.2 csatlakozók száma: 1",
+      "SATA Express csatlakozók száma: nincs",
+      "USB portok száma: 8",
+      "Hátlapi USB 2.0 portok száma: 4",
+      "Alaplapi USB 2.0 csatlakozók száma: 1",
+      "Hátlapi USB 3.2 Gen 1 portok száma: 4",
+      "Alaplapi USB 3.2 Gen 1 csatlakozók száma: 1",
+      "Hátlapi USB 3.2 Gen 2 portok száma: nincs",
+      "Alaplapi USB 3.2 Gen 2 csatlakozók száma: nincs",
+      "Külső PS/2 portok száma: 1",
+      "Max. memória mérete: 128 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Hangkártya típusa: ALC887",
+      "Digitális hangkimenet: nincs",
+      "Integrált LAN sebessége: 10/100/1000 Mbit/s",
+      "Vezeték nélküli hálózat: nincs",
+      "Bluetooth: nincs",
+      "RAID vezérlő: van",
+      "RAID szintek: 0, 1, 10",
+      "Méret szabvány: microATX"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG STRIX B550-F GAMING",
+    "Quantity": "1",
+    "Price": "60960",
+    "Tags": [ "ASUS", "ROG", "STRIX", "B550-F", "GAMING", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD B550",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Szerver alaplap: nincs",
+      "Videokártya típusa: PCI-Express",
+      "Multi VGA: AMD CrossFire",
+      "D-SUB: nincs",
+      "DVI: nincs",
+      "HDMI: van",
+      "DisplayPort: van",
+      "Memória foglalatok száma: 4",
+      "SATA csatlakozók száma: 6",
+      "Összes PCI-Express 16x csatlakozó száma: 2",
+      "PCI-Express 16x 3.0 csatlakozók száma: 1",
+      "PCI-Express 8x csatlakozók száma: nincs",
+      "PCI-Express 4x csatlakozók száma: nincs",
+      "PCI-Express 1x csatlakozók száma: 3",
+      "PCI csatlakozók száma: nincs",
+      "SATA 3 csatlakozók száma: 6",
+      "SATA 2 csatlakozók száma: nincs",
+      "mSATA csatlakozók száma: nincs",
+      "m.2 csatlakozók száma: 2",
+      "SATA Express csatlakozók száma: nincs",
+      "Hátlapi USB 2.0 portok száma: 2",
+      "Max. memória mérete: 128 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Hangkártya típusa: SupremeFX S1220A",
+      "Digitális hangkimenet: Optikai",
+      "Integrált LAN sebessége: 10/100/1000/2500 Mbit/s",
+      "Vezeték nélküli hálózat: nincs",
+      "Bluetooth: nincs",
+      "RAID vezérlő: van",
+      "RAID szintek: 0, 1, 10",
+      "Méret szabvány: ATX",
+      "Alaplap mérete: 305 x 244"
+    ]
+  },
+  {
+    "ProductName": "ASUS PRIME A520M-A II/CSM",
+    "Quantity": "1",
+    "Price": "30340",
+    "Tags": [ "ASUS", "PRIME", "A520M-A", "II/CSM", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD A520",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Szerver alaplap: nincs",
+      "Videokártya típusa: PCI-Express",
+      "Multi VGA: nincs",
+      "D-SUB: van",
+      "DVI: nincs",
+      "HDMI: van",
+      "DisplayPort: van",
+      "Memória foglalatok száma: 4",
+      "SATA csatlakozók száma: 4",
+      "Összes PCI-Express 16x csatlakozó száma: 1",
+      "PCI-Express 16x 3.0 csatlakozók száma: 1",
+      "PCI-Express 16x 2.0 csatlakozók száma: nincs",
+      "PCI-Express 8x csatlakozók száma: nincs",
+      "PCI-Express 4x csatlakozók száma: nincs",
+      "PCI-Express 1x csatlakozók száma: 2",
+      "PCI csatlakozók száma: nincs",
+      "SATA 3 csatlakozók száma: 4",
+      "mSATA csatlakozók száma: nincs",
+      "m.2 csatlakozók száma: 1",
+      "USB portok száma: 6",
+      "Max. memória mérete: 128 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Hangkártya típusa: ALC887",
+      "Digitális hangkimenet: nincs",
+      "Integrált LAN sebessége: 10/100/1000 Mbit/s",
+      "Vezeték nélküli hálózat: nincs",
+      "Bluetooth: van",
+      "Méret szabvány: microATX",
+      "Alaplap mérete: 244 x 244"
+    ]
+  },
+  {
+    "ProductName": "MSI MAG B550 TOMAHAWK",
+    "Quantity": "1",
+    "Price": "76890",
+    "Tags": [ "MSI", "MAG", "B550", "TOMAHAWK", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD B550",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Szerver alaplap: nem",
+      "Videokártya típusa: PCI-Express",
+      "Multi VGA: AMD CrossFire",
+      "D-SUB: nincs",
+      "DVI: nincs",
+      "HDMI: van",
+      "DisplayPort: van",
+      "Memória foglalatok száma: 4",
+      "SATA csatlakozók száma: 6",
+      "Összes PCI-Express 16x csatlakozó száma: 2",
+      "PCI-Express 8x csatlakozók száma: nincs",
+      "PCI-Express 4x csatlakozók száma: nincs",
+      "PCI-Express 1x csatlakozók száma: 2",
+      "PCI csatlakozók száma: nincs",
+      "SATA 3 csatlakozók száma: 6",
+      "SATA 2 csatlakozók száma: nincs",
+      "mSATA csatlakozók száma: nincs",
+      "m.2 csatlakozók száma: 2",
+      "SATA Express csatlakozók száma: nincs",
+      "Hátlapi USB 2.0 portok száma: 2",
+      "Max. memória mérete: 128 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Hangkártya típusa: ALC1200",
+      "Digitális hangkimenet: Optikai",
+      "Integrált LAN sebessége: 10/100/1000 Mbit/s",
+      "Vezeték nélküli hálózat: nincs",
+      "Bluetooth: nincs",
+      "RAID vezérlő: van",
+      "RAID szintek: 0, 1, 10",
+      "Méret szabvány: ATX",
+      "8-pin ATX 12V csatlakozó: van"
+    ]
+  },
+  {
+    "ProductName": "MSI MPG B550 GAMING PLUS",
+    "Quantity": "1",
+    "Price": "54483",
+    "Tags": [ "MSI", "MPG", "B550", "GAMING", "PLUS", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD B550",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Szerver alaplap: nem",
+      "Videokártya típusa: PCI-Express",
+      "Multi VGA: AMD CrossFire",
+      "D-SUB: nincs",
+      "DVI: nincs",
+      "HDMI: van",
+      "DisplayPort: van",
+      "Memória foglalatok száma: 4",
+      "SATA csatlakozók száma: 6",
+      "Összes PCI-Express 16x csatlakozó száma: 2",
+      "PCI-Express 8x csatlakozók száma: nincs",
+      "PCI-Express 4x csatlakozók száma: nincs",
+      "PCI-Express 1x csatlakozók száma: 2",
+      "PCI csatlakozók száma: nincs",
+      "SATA 3 csatlakozók száma: 6",
+      "SATA 2 csatlakozók száma: nincs",
+      "mSATA csatlakozók száma: nincs",
+      "m.2 csatlakozók száma: 2",
+      "SATA Express csatlakozók száma: nincs",
+      "Hátlapi USB 2.0 portok száma: 4",
+      "Külső PS/2 portok száma: 1",
+      "Max. memória mérete: 128 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Hangkártya típusa: ALC892",
+      "Digitális hangkimenet: nincs",
+      "Integrált LAN sebessége: 10/100/1000 Mbit/s",
+      "Vezeték nélküli hálózat: nincs",
+      "Bluetooth: nincs",
+      "RAID vezérlő: van",
+      "RAID szintek: 0, 1, 10",
+      "Méret szabvány: ATX",
+      "8-pin ATX 12V csatlakozó: van"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG STRIX B550-A GAMING",
+    "Quantity": "1",
+    "Price": "60960",
+    "Tags": [ "ASUS", "ROG", "STRIX", "B550-A", "GAMING", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD B550",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Szerver alaplap: nincs",
+      "Videokártya típusa: PCI-Express",
+      "Multi VGA: AMD CrossFire",
+      "D-SUB: nincs",
+      "DVI: nincs",
+      "HDMI: van",
+      "DisplayPort: van",
+      "Memória foglalatok száma: 4",
+      "SATA csatlakozók száma: 6",
+      "Összes PCI-Express 16x csatlakozó száma: 1",
+      "PCI-Express 8x csatlakozók száma: nincs",
+      "PCI-Express 4x csatlakozók száma: nincs",
+      "PCI-Express 1x csatlakozók száma: 3",
+      "PCI csatlakozók száma: nincs",
+      "SATA 3 csatlakozók száma: 6",
+      "SATA 2 csatlakozók száma: nincs",
+      "mSATA csatlakozók száma: nincs",
+      "m.2 csatlakozók száma: 2",
+      "SATA Express csatlakozók száma: nincs",
+      "Hátlapi USB 2.0 portok száma: 2",
+      "Max. memória mérete: 128 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Hangkártya típusa: S1220A",
+      "Digitális hangkimenet: Optikai",
+      "Integrált LAN sebessége: 10/100/1000/2500 Mbit/s",
+      "Vezeték nélküli hálózat: nincs",
+      "Bluetooth: nincs",
+      "RAID vezérlő: van",
+      "RAID szintek: 0, 1, 10",
+      "Méret szabvány: ATX",
+      "8-pin ATX 12V csatlakozó: van"
+    ]
+  },
+  {
+    "ProductName": "GIGABYTE B550 AORUS ELITE V2",
+    "Quantity": "1",
+    "Price": "56580",
+    "Tags": [ "GIGABYTE", "B550", "AORUS", "ELITE", "V2", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD B550",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Szerver alaplap: nincs",
+      "Videokártya típusa: PCI-Express",
+      "Multi VGA: nincs",
+      "D-SUB: nincs",
+      "DVI: nincs",
+      "HDMI: van",
+      "DisplayPort: van",
+      "Memória foglalatok száma: 4",
+      "SATA csatlakozók száma: 4",
+      "Összes PCI-Express 16x csatlakozó száma: 3",
+      "PCI-Express 1x csatlakozók száma: 1",
+      "m.2 csatlakozók száma: 2",
+      "USB portok száma: 5",
+      "Max. memória mérete: 128 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Hangkártya típusa: ALC1200",
+      "Digitális hangkimenet: Optikai",
+      "Integrált LAN sebessége: 10/100/1000 Mbit/s",
+      "Vezeték nélküli hálózat: nincs",
+      "Bluetooth: nincs",
+      "RAID vezérlő: nincs",
+      "RAID szintek: 0, 1, 10",
+      "Méret szabvány: ATX"
+    ]
+  },
+  {
+    "ProductName": "ASUS TUF Gaming A520M-PLUS II",
+    "Quantity": "1",
+    "Price": "39520",
+    "Tags": [ "ASUS", "TUF", "Gaming", "A520M-PLUS", "II", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD A520",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Szerver alaplap: nincs",
+      "Videokártya típusa: PCI-Express",
+      "Multi VGA: nincs",
+      "D-SUB: van",
+      "DVI: nincs",
+      "HDMI: van",
+      "DisplayPort: van",
+      "Memória foglalatok száma: 4",
+      "SATA csatlakozók száma: 4",
+      "Összes PCI-Express 16x csatlakozó száma: 1",
+      "PCI-Express 1x csatlakozók száma: 2",
+      "m.2 csatlakozók száma: 1",
+      "USB portok száma: 9",
+      "Max. memória mérete: 128 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Digitális hangkimenet: nincs",
+      "Integrált LAN sebessége: 10/100/1000 Mbit/s",
+      "Vezeték nélküli hálózat: nincs",
+      "Bluetooth: nincs",
+      "RAID vezérlő: van",
+      "RAID szintek: 0, 1, 10",
+      "Méret szabvány: microATX"
+    ]
+  },
+  {
+    "ProductName": "GIGABYTE A520M K",
+    "Quantity": "1",
+    "Price": "22990",
+    "Tags": [ "GIGABYTE", "A520M", "K", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD A520",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Memória foglalatok száma: 2",
+      "SATA csatlakozók száma: 4",
+      "Összes PCI-Express 16x csatlakozó száma: 1",
+      "PCI-Express 1x csatlakozók száma: 1",
+      "m.2 csatlakozók száma: 1",
+      "USB portok száma: 2",
+      "Max. memória mérete: 64 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Bluetooth: nincs",
+      "RAID vezérlő: van",
+      "Méret szabvány: microATX"
+    ]
+  },
+  {
+    "ProductName": "MSI B550-A PRO",
+    "Quantity": "1",
+    "Price": "48250",
+    "Tags": [ "MSI", "B550-A", "PRO", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD B550",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Szerver alaplap: nincs",
+      "Videokártya típusa: PCI-Express",
+      "Multi VGA: AMD CrossFire",
+      "D-SUB: nincs",
+      "DVI: nincs",
+      "HDMI: van",
+      "DisplayPort: van",
+      "Memória foglalatok száma: 4",
+      "SATA csatlakozók száma: 6",
+      "Összes PCI-Express 16x csatlakozó száma: 2",
+      "PCI-Express 1x csatlakozók száma: 2",
+      "m.2 csatlakozók száma: 2",
+      "USB portok száma: 3",
+      "Max. memória mérete: 128 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Hangkártya típusa: ALC892",
+      "Digitális hangkimenet: nincs",
+      "Integrált LAN sebessége: 10/100/1000 Mbit/s",
+      "Vezeték nélküli hálózat: nincs",
+      "Bluetooth: nincs",
+      "RAID vezérlő: van",
+      "RAID szintek: 0, 1, 10",
+      "Méret szabvány: ATX",
+      "8-pin ATX 12V csatlakozó: van"
+    ]
+  },
+  {
+    "ProductName": "ASUS PRIME B550M-K ARGB",
+    "Quantity": "1",
+    "Price": "39325",
+    "Tags": [ "ASUS", "PRIME", "B550M-K", "ARGB", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD B550",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Szerver alaplap: nincs",
+      "Videokártya típusa: PCI-Express",
+      "Multi VGA: nincs",
+      "D-SUB: van",
+      "DVI: van",
+      "HDMI: van",
+      "DisplayPort: nincs",
+      "Memória foglalatok száma: 4",
+      "SATA csatlakozók száma: 4",
+      "Összes PCI-Express 16x csatlakozó száma: 1",
+      "PCI-Express 16x 3.0 csatlakozók száma: 1",
+      "PCI-Express 1x csatlakozók száma: 2",
+      "m.2 csatlakozók száma: 2",
+      "USB portok száma: 6",
+      "Max. memória mérete: 128 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Hangkártya típusa: Realtek 7.1",
+      "Digitális hangkimenet: nincs",
+      "Integrált LAN sebessége: 10/100/1000 Mbit/s",
+      "Vezeték nélküli hálózat: nincs",
+      "Bluetooth: nincs",
+      "RAID vezérlő: van",
+      "RAID szintek: 0, 1, 10",
+      "Méret szabvány: microATX"
+    ]
+  },
+  {
+    "ProductName": "GIGABYTE B550M DS3H",
+    "Quantity": "1",
+    "Price": "41954",
+    "Tags": [ "GIGABYTE", "B550M", "DS3H", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD B550",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Szerver alaplap: nincs",
+      "Videokártya típusa: PCI-Express",
+      "Multi VGA: nincs",
+      "D-SUB: nincs",
+      "DVI: van",
+      "HDMI: van",
+      "DisplayPort: nincs",
+      "Memória foglalatok száma: 4",
+      "SATA csatlakozók száma: 4",
+      "Összes PCI-Express 16x csatlakozó száma: 2",
+      "PCI-Express 1x csatlakozók száma: 1",
+      "m.2 csatlakozók száma: 2",
+      "USB portok száma: 8",
+      "Max. memória mérete: 128 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Hangkártya típusa: ALC887",
+      "Digitális hangkimenet: nincs",
+      "Integrált LAN sebessége: 10/100/1000 Mbit/s",
+      "Vezeték nélküli hálózat: nincs",
+      "Bluetooth: nincs",
+      "RAID vezérlő: van",
+      "RAID szintek: 0, 1, 10",
+      "Méret szabvány: microATX"
+    ]
+  },
+  {
+    "ProductName": "ASUS ROG STRIX B550-F GAMING WIFI II",
+    "Quantity": "1",
+    "Price": "64990",
+    "Tags": [ "ASUS", "ROG", "STRIX", "B550-F", "GAMING", "WIFI", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD B550",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Szerver alaplap: nincs",
+      "Videokártya típusa: PCI-Express",
+      "Multi VGA: nincs",
+      "D-SUB: nincs",
+      "DVI: nincs",
+      "HDMI: van",
+      "DisplayPort: van",
+      "Memória foglalatok száma: 4",
+      "SATA csatlakozók száma: 6",
+      "Összes PCI-Express 16x csatlakozó száma: 2",
+      "PCI-Express 16x 3.0 csatlakozók száma: 1",
+      "PCI-Express 1x csatlakozók száma: 3",
+      "m.2 csatlakozók száma: 2",
+      "USB portok száma: nincs adat",
+      "Max. memória mérete: 128 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Digitális hangkimenet: Optikai",
+      "Integrált LAN sebessége: 10/100/1000/2500 Mbit/s",
+      "Vezeték nélküli hálózat: van",
+      "Bluetooth: van",
+      "RAID vezérlő: nincs",
+      "RAID szintek: 0, 1, 10",
+      "Méret szabvány: ATX"
+    ]
+  },
+  {
+    "ProductName": "GIGABYTE A520 Aorus Elite",
+    "Quantity": "1",
+    "Price": "37962",
+    "Tags": [ "GIGABYTE", "A520", "Aorus", "Elite", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD A520",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Szerver alaplap: nincs",
+      "Videokártya típusa: PCI-Express",
+      "Multi VGA: nincs",
+      "D-SUB: nincs",
+      "DVI: van",
+      "HDMI: van",
+      "DisplayPort: nincs",
+      "Memória foglalatok száma: 4",
+      "SATA csatlakozók száma: 4",
+      "Összes PCI-Express 16x csatlakozó száma: 1",
+      "PCI-Express 1x csatlakozók száma: 3",
+      "m.2 csatlakozók száma: 1",
+      "USB portok száma: nincs adat",
+      "Max. memória mérete: 128 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Hangkártya típusa: ALC1200",
+      "Digitális hangkimenet: Optikai",
+      "Integrált LAN sebessége: 10/100/1000 Mbit/s",
+      "Vezeték nélküli hálózat: nincs",
+      "Bluetooth: nincs",
+      "RAID vezérlő: van",
+      "RAID szintek: 0, 1, 10",
+      "Méret szabvány: ATX"
+    ]
+  },
+  {
+    "ProductName": "GIGABYTE B550 GAMING X v2",
+    "Quantity": "1",
+    "Price": "49490",
+    "Tags": [ "GIGABYTE", "B550", "GAMING", "X", "v2", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD B550",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Szerver alaplap: nem",
+      "Videokártya típusa: PCI-Express",
+      "Multi VGA: Nem",
+      "D-SUB: nincs",
+      "DVI: van",
+      "HDMI: van",
+      "DisplayPort: nincs",
+      "Memória foglalatok száma: 4",
+      "SATA csatlakozók száma: 4",
+      "Összes PCI-Express 16x csatlakozó száma: 2",
+      "PCI-Express 16x 3.0 csatlakozók száma: 1",
+      "PCI-Express 1x csatlakozók száma: 3",
+      "USB portok száma: 6",
+      "Max. memória mérete: 128 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Hangkártya típusa: ALC887",
+      "Digitális hangkimenet: nincs",
+      "Integrált LAN sebessége: 10/100/1000 Mbit/s",
+      "Vezeték nélküli hálózat: nincs",
+      "Bluetooth: nincs",
+      "RAID vezérlő: van",
+      "RAID szintek: 0, 1, 10",
+      "Méret szabvány: ATX"
+    ]
+  },
+  {
+    "ProductName": "GIGABYTE B450M K",
+    "Quantity": "1",
+    "Price": "28764",
+    "Tags": [ "GIGABYTE", "B450M", "K", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD B450",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Multi VGA: Nem",
+      "D-SUB: nincs",
+      "DVI: nincs",
+      "HDMI: van",
+      "DisplayPort: nincs",
+      "Memória foglalatok száma: 2",
+      "SATA csatlakozók száma: 4",
+      "Összes PCI-Express 16x csatlakozó száma: 1",
+      "PCI-Express 1x csatlakozók száma: 1",
+      "Max. memória mérete: 32 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Hangkártya típusa: ALC887",
+      "Digitális hangkimenet: nincs",
+      "Integrált LAN sebessége: 10/100/1000 Mbit/s",
+      "Vezeték nélküli hálózat: nincs",
+      "Bluetooth: nincs",
+      "RAID vezérlő: van",
+      "RAID szintek: 0, 1, 10",
+      "Méret szabvány: microATX"
+    ]
+  },
+  {
+    "ProductName": "GIGABYTE A520M K V2 D4",
+    "Quantity": "1",
+    "Price": "25845",
+    "Tags": [ "GIGABYTE", "A520M", "K", "V2", "D4", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD A520",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Videokártya típusa: PCI-Express",
+      "Multi VGA: Nem",
+      "D-SUB: van",
+      "DVI: nincs",
+      "HDMI: van",
+      "DisplayPort: nincs",
+      "Memória foglalatok száma: 2",
+      "SATA csatlakozók száma: 4",
+      "Összes PCI-Express 16x csatlakozó száma: 1",
+      "PCI-Express 1x csatlakozók száma: 1",
+      "Max. memória mérete: 64 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Hangkártya típusa: Realtek 7.1",
+      "Digitális hangkimenet: nincs",
+      "Integrált LAN sebessége: 10/100/1000 Mbit/s",
+      "Vezeték nélküli hálózat: nincs",
+      "Bluetooth: nincs",
+      "RAID vezérlő: van",
+      "RAID szintek: 0, 1, 10",
+      "Méret szabvány: microATX",
+      "8-pin ATX 12V csatlakozó: van"
+    ]
+  },
+  {
+    "ProductName": "GIGABYTE B550I AORUS PRO AX",
+    "Quantity": "1",
+    "Price": "72644",
+    "Tags": [ "GIGABYTE", "B550I", "AORUS", "PRO", "AX", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD B550",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Szerver alaplap: nem",
+      "Videokártya típusa: PCI-Express",
+      "Multi VGA: AMD CrossFire",
+      "D-SUB: nincs",
+      "DVI: nincs",
+      "HDMI: van",
+      "DisplayPort: van",
+      "Memória foglalatok száma: 2",
+      "SATA csatlakozók száma: 4",
+      "Összes PCI-Express 16x csatlakozó száma: 1",
+      "USB portok száma: 6",
+      "Max. memória mérete: 64 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Hangkártya típusa: ALC1220",
+      "Digitális hangkimenet: nincs",
+      "Integrált LAN sebessége: 10/100/1000 Mbit/s",
+      "Vezeték nélküli hálózat: van",
+      "Bluetooth: van",
+      "RAID vezérlő: nincs",
+      "RAID szintek: 0, 1, 10",
+      "Méret szabvány: Mini-ITX"
+    ]
+  },
+  {
+    "ProductName": "GIGABYTE B550M DS3H AC",
+    "Quantity": "1",
+    "Price": "44317",
+    "Tags": [ "GIGABYTE", "B550M", "DS3H", "AC", "alaplap" ],
+    "Description": [
+      "CPU Foglalat: Socket AM4",
+      "Chipset: AMD B550",
+      "Processzor gyártó: AMD",
+      "Memória típusa: DDR4",
+      "Videokártya típusa: PCI-Express",
+      "D-SUB: nincs",
+      "DVI: van",
+      "HDMI: van",
+      "DisplayPort: van",
+      "Memória foglalatok száma: 4",
+      "SATA csatlakozók száma: 4",
+      "Összes PCI-Express 16x csatlakozó száma: 1",
+      "PCI-Express 1x csatlakozók száma: 1",
+      "USB portok száma: 8",
+      "Max. memória mérete: 128 GB",
+      "Integrált hangkártya: van",
+      "Hangkártya csatorna: 7.1",
+      "Hangkártya típusa: ALC887",
+      "Digitális hangkimenet: nincs",
+      "Integrált LAN sebessége: 10/100/1000 Mbit/s",
+      "Vezeték nélküli hálózat: van",
+      "Bluetooth: van",
+      "RAID vezérlő: van",
+      "RAID szintek: 0, 1, 10",
+      "Méret szabvány: microATX"
+    ]
   }
-
 ]
