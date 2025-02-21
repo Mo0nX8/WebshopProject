@@ -14,6 +14,7 @@ namespace WebshopWeb.Initializer
     /// </summary>
     public class DbInitializer
     {
+
         /// <summary>
         /// This method using Dependency Injection. It requires ApplicationBuilder, UserManager, EncryptManager, DbContext and a path to run. 
         /// It loads data from a json to the database. This fills up the product table.

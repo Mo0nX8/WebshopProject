@@ -22,19 +22,26 @@ namespace WebshopWeb.Controllers
             this.cartManager = cartManager;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int pageNumber = 1, int pageSize = 30)
         {
-            products = _context.StorageData.ToList();
+            var totalItems = productManager.Count();
+            products = _context.StorageData
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
             var model = new ProductFilterViewModel
             {
-                Products = products
+                Products = products,
+                PageNumber = pageNumber,
+                PageSize = pageSize,
+                TotalItems = totalItems
             };
             return View(model);
         }
-        public IActionResult Details(int id) 
+        public IActionResult Details(int id)
         {
             var product = productManager.GetProduct(id);
-            if (product == null) 
+            if (product == null)
             {
                 return NotFound();
             }
@@ -43,18 +50,18 @@ namespace WebshopWeb.Controllers
         public IActionResult AddToCart(int Id)
         {
             var userId = HttpContext.Session.GetInt32("UserId");
-            if (!userId.HasValue) 
+            if (!userId.HasValue)
             {
                 return RedirectToAction("Login", "Authentication");
             }
             var cart = cartManager.GetCart(HttpContext.Session.GetInt32("CartId").Value);
-            var product=productManager.GetProduct(Id);
-            if (product == null) 
+            var product = productManager.GetProduct(Id);
+            if (product == null)
             {
                 return RedirectToAction("Index", "Home");
             }
-            var existingItem=_context.CartItems.FirstOrDefault(x=>x.ProductId == Id);
-            if(existingItem!=null)
+            var existingItem = _context.CartItems.FirstOrDefault(x => x.ProductId == Id);
+            if (existingItem != null)
             {
                 existingItem.Quanity++;
             }
@@ -67,35 +74,37 @@ namespace WebshopWeb.Controllers
                 });
             }
             _context.SaveChanges();
-            return RedirectToAction("Index", "Cart",cart.CartItems.ToList());
+            return RedirectToAction("Index", "Cart", cart.CartItems.ToList());
         }
-        public IActionResult Search(string searchValue)
+        public IActionResult Search(string searchValue, int pageNumber = 1, int pageSize = 30)
         {
-            if(searchValue is null)
+            IQueryable<Products> productsQuery = productManager.GetProducts();
+            if (!string.IsNullOrEmpty(searchValue))
             {
-                return View("Index", _context.StorageData.ToList());
+                productsQuery = productsQuery
+                     .Where(x => EF.Functions.Collate(x.ProductName, "Latin1_General_CI_AI")
+                    .Contains(searchValue.ToLower()) || x.Tags.Any(t => EF.Functions.Collate(t, "Latin1_General_CI_AI")
+                    .Contains(searchValue.ToLower())));
             }
-            var products = productManager.GetProducts()
-                .Where(x => EF.Functions.Collate(x.ProductName, "Latin1_General_CI_AI")
-                .Contains(searchValue.ToLower()) || x.Tags.Any(t => EF.Functions.Collate(t, "Latin1_General_CI_AI")
-                .Contains(searchValue.ToLower())))
-                .ToList();
 
-
-            if (products.Count < 1)
+            var totalItems = productsQuery.Count();
+            var products = productsQuery
+                    .Skip((pageNumber - 1) * pageSize)
+                    .Take(pageSize)
+                    .ToList();
+            var model1 = new ProductFilterViewModel
             {
-                products = productManager.GetProducts().ToList();
+                Products = products,
+                PageNumber = pageNumber,
+                PageSize = pageSize,
+                TotalItems = totalItems
 
-            }
-            var model = new ProductFilterViewModel
-            {
-                Products = products
             };
-
-            return View("Index", model);
+            ViewBag.searchValue = searchValue;
+            return View("Index", model1);
         }
         [HttpPost]
-        public IActionResult Filter(ProductFilterViewModel filter)
+        public IActionResult Filter(ProductFilterViewModel filter, int pageNumber=1, int pageSize=30)
         {
             var query = productManager.GetProducts();
 
@@ -111,24 +120,29 @@ namespace WebshopWeb.Controllers
             {
                 query = query.Where(p => p.Price <= filter.MaxPrice.Value);
             }
+            var totalItems = query.Count();
 
 
-            var filteredProducts = query.ToList();
-            if (!filteredProducts.Any()) 
-            {
-
-            }
+            var filteredProducts = query
+                .Skip((pageNumber-1)*pageSize)
+                .Take(pageSize)
+                .ToList();
             var model = new ProductFilterViewModel
             {
                 ProductName = filter.ProductName,
                 MinPrice = filter.MinPrice,
                 MaxPrice = filter.MaxPrice,
-                Products = filteredProducts
+                Products = filteredProducts,
+                PageNumber = pageNumber,
+                PageSize = pageSize,
+                TotalItems = totalItems
             };
-            return View("Index",model);
+            return View("Index", model);
         }
-
-
-
     }
 }
+    
+
+
+
+

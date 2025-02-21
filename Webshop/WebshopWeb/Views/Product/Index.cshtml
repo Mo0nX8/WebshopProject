@@ -1,6 +1,8 @@
 ﻿@using Webshop.Services.Services.ViewModel
 @model ProductFilterViewModel
-
+@{
+    var searchValue = ViewBag.searchValue;
+}
 <head>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -46,7 +48,14 @@
                                     <img src="data:image/jpeg;base64,@base64Image" class="card-img-top product-image" alt="@product.ProductName">
                                 }
                                 <h5 class="card-title">@product.ProductName</h5>
-                                <h5>@product.Price ft</h5>
+                                @if(product.Quanity<1)
+                                {
+                                    <h5>@product.Price ft(Elfogyott)</h5>
+                                }
+                                else
+                                {
+                                    <h5>@product.Price ft</h5>
+                                }
                             </div>
                         </div>
                     </a>
@@ -57,7 +66,41 @@
         {
             <div>Sajnos nincs ilyen termék.</div>
         }
-        
+        @section Pagination {
+            <div class="pagination-container">
+                @if (Model.TotalPages > 1)
+                {
+                    <nav>
+                        <ul class="pagination">
+                            @if (Model.PageNumber > 1)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" href="@Url.Action("Search", new { searchValue=searchValue, pageNumber = Model.PageNumber - 1, pageSize = Model.PageSize, MinPrice = Model.MinPrice, MaxPrice = Model.MaxPrice,})">Előző</a>
+                                </li>
+                            }
+
+                            @for (int i = 1; i <= Model.TotalPages; i++)
+                            {
+                                <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                                    <a class="page-link" href="@Url.Action("Search", new { searchValue=searchValue, pageNumber = i, pageSize = Model.PageSize, MinPrice = Model.MinPrice, MaxPrice = Model.MaxPrice, })">@i</a>
+                                </li>
+                            }
+
+                            @if (Model.PageNumber < Model.TotalPages)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" href="@Url.Action("Search", new { searchValue=searchValue, pageNumber = Model.PageNumber + 1, pageSize = Model.PageSize, MinPrice = Model.MinPrice, MaxPrice = Model.MaxPrice, })">Következő</a>
+                                </li>
+                            }
+                        </ul>
+                    </nav>
+                }
+
+            </div>
+            
+
+        }
+
     </div>
 </div>
 
@@ -66,27 +109,4 @@
 
 
 
-   @*  <table>
-        <thead>
-            <th>Terméknév</th>
-            <th>ár</th>
-            <th>mennyiség</th>
-        </thead>
-        <tbody>
-            @if (Model is not null)
-            {
-                @foreach (var product in Model)
-                {
-                    <tr>
-
-                    <td><a href="@Url.Action("Details", "Product", new { id = product.Id })">@product.ProductName</a></td>
-                    
-                        <td>@product.Price</td>
-                        <td>@product.Quanity</td> 
-                        <td></td>
-                    </tr>
-                }
-            }
-        </tbody>
-        
-    </table> *@
+  

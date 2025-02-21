@@ -17,5 +17,6 @@ namespace Webshop.EntityFramework.Managers.Interfaces.Product
         /// </summary>
         /// <param name="storage"></param>
         void Add(Products storage);
+        int Count();
     }
 }

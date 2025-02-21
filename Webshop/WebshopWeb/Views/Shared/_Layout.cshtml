@@ -79,14 +79,39 @@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
+            
         </main>
+        @if (IsSectionDefined("Pagination"))
+        {
+            <div class="pagination-container">
+                @RenderSection("Pagination", required: false)
+            </div>
+        }
     </div>
+    
 
     <footer class="border-top footer text-muted">
         <div class="container d-flex justify-content-center align-items-center">
             <a href=@Url.Action("aszf","Home")>ÁSZF</a>
+            @*<div class="col align-items-end">
+                <div class="row">
+                    <div class="col-sm">
+                        <a href="https://www.ipon.hu/" target="_blank">Ipon</a>
+                        <img src="~/images/icons/ipon.ico" alt="Ipon" class="responsive-image ml-2">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+
+                        <a href="https://www.arukereso.hu/" target="_blank">Árukereső</a>
+                        <img src="~/images/icons/arukereso.ico" alt="Árukereső" class="responsive-image ml-2">
+                    </div>
+                </div>
+
+            </div>*@
             
         </div>
+
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

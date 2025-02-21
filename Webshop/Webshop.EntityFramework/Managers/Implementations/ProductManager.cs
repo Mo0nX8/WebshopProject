@@ -27,6 +27,11 @@ namespace Webshop.EntityFramework.Managers.Implementations
             _context.SaveChanges();
         }
 
+        public int Count()
+        {
+            return _context.StorageData.Count();
+        }
+
         public Products GetProduct(int id)
         {
             return _context.StorageData.FirstOrDefault(p=>p.Id==id);
@@ -36,5 +41,6 @@ namespace Webshop.EntityFramework.Managers.Implementations
         {
             return _context.StorageData.AsQueryable();
         }
+
     }
 }
