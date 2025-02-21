@@ -6,7 +6,11 @@
 </head>
 <h1>@Model.ProductName</h1>
 
-<p><strong>Ár:</strong> @Model.Price</p>
+@if(Model.Price!=0)
+{
+    <p><strong>Ár:</strong> @Model.Price</p>
+
+}
 @foreach(var desc in Model.Description)
 {
     <p>@desc</p>
@@ -16,8 +20,14 @@
     <a href=@Url.Action("AddToCart","Product", new { Id = Model.Id })>Kosárhoz adás</a>
 
 }
-else
+else if(Model.Price==0)
+{
+    <p>Hamarosan</p>
+}
+else if(Model.Quanity==0)
 {
     <p>Nincs raktáron</p>
 }
+
+
 

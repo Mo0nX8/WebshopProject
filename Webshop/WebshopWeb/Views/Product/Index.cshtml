@@ -48,13 +48,17 @@
                                     <img src="data:image/jpeg;base64,@base64Image" class="card-img-top product-image" alt="@product.ProductName">
                                 }
                                 <h5 class="card-title">@product.ProductName</h5>
-                                @if(product.Quanity<1)
+                                @if(product.Price==0)
                                 {
-                                    <h5>@product.Price ft(Elfogyott)</h5>
+                                    <h5>Hamarosan</h5>
+                                }
+                                else if(product.Quanity<1)
+                                {
+                                    <h5>@product.Price ft (Elfogyott)</h5>
                                 }
                                 else
                                 {
-                                    <h5>@product.Price ft</h5>
+                                    <h5>@product.Price Ft</h5>
                                 }
                             </div>
                         </div>
