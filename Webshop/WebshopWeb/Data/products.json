@@ -10814,5 +10814,887 @@
       "LED megvilágítás: Nincs",
       "Feszültség: 1.4 V"
     ]
+  },
+  {
+    "ProductName": "Kingston FURY Beast 32GB (2x16GB) DDR4 3200MHz KF432C16BB1K2/32",
+    "Quantity": "1",
+    "Price": "28625",
+    "Tags": [ "Kingston", "FURY", "Beast", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Kingston FURY Beast 16GB (2x8GB) DDR4 3200MHz KF432C16BBK2/16",
+    "Quantity": "1",
+    "Price": "16415",
+    "Tags": [ "Kingston", "FURY", "Beast", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 16 GB",
+      "Kiszerelés: 2x8GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Kingston FURY Renegade 32GB (2x16GB) DDR4 3600MHz KF436C16RB12K2/32",
+    "Quantity": "1",
+    "Price": "31930",
+    "Tags": [ "Kingston", "FURY", "Renegade", "DDR4", "3600MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3600 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Kingston FURY Beast 16GB DDR4 3200MHz KF432C16BB1/16",
+    "Quantity": "1",
+    "Price": "13970",
+    "Tags": [ "Kingston", "FURY", "Beast", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 16 GB",
+      "Kiszerelés: 1x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Single-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Kingston FURY Beast 8GB DDR4 3200MHz KF432C16BB/8",
+    "Quantity": "1",
+    "Price": "8075",
+    "Tags": [ "Kingston", "FURY", "Beast", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 8 GB",
+      "Kiszerelés: 1x8GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Single-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Kingston FURY Beast 64GB (2x32GB) DDR4 3200MHz KF432C16BBK2/64",
+    "Quantity": "1",
+    "Price": "53570",
+    "Tags": [ "Kingston", "FURY", "Beast", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 64 GB",
+      "Kiszerelés: 2x32GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.3 V"
+    ]
+  },
+  {
+    "ProductName": "Kingston FURY Beast 32GB (2x16GB) DDR4 3600MHz KF436C18BBK2/32",
+    "Quantity": "1",
+    "Price": "30130",
+    "Tags": [ "Kingston", "FURY", "Beast", "DDR4", "3600MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3600 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 18",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Kingston FURY Beast 32GB (2x16GB) DDR4 3200MHz KF432C16BBK2/32",
+    "Quantity": "1",
+    "Price": "28690",
+    "Tags": [ "Kingston", "FURY", "Beast", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Kingston 16GB DDR4 2666MHz KTL-TS426/16G",
+    "Quantity": "1",
+    "Price": "30820",
+    "Tags": [ "Kingston", "DDR4", "2666MHz", "RAM", "memória", "szerver memória" ],
+    "Description": [
+      "Típus: Szerver memória",
+      "Kapacitás: 16 GB",
+      "Kiszerelés: 1x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 2666 MHz",
+      "Többcsatornás kiszerelés: Single-channel kiszerelés",
+      "Memóriakésleltetés: CL 19",
+      "Hűtőborda: Nincs",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.2 V"
+    ]
+  },
+  {
+    "ProductName": "Kingston FURY Beast 16GB (2x8GB) DDR4 3600MHz KF436C17BBK2/16",
+    "Quantity": "1",
+    "Price": "17365",
+    "Tags": [ "Kingston", "FURY", "Beast", "DDR4", "3600MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 16 GB",
+      "Kiszerelés: 2x8GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3600 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 17",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Kingston FURY Beast 16GB DDR4 3200MHz KF432C16BB/16",
+    "Quantity": "1",
+    "Price": "13965",
+    "Tags": [ "Kingston", "FURY", "Beast", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 16 GB",
+      "Kiszerelés: 1x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Single-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Kingston FURY Beast 32GB DDR4 3200MHz KF432C16BB/32",
+    "Quantity": "1",
+    "Price": "25620",
+    "Tags": [ "Kingston", "FURY", "Beast", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 1x32GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Single-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Kingston FURY Renegade RGB 32GB (2x16GB) DDR4 3600MHz KF436C16RB12AK2/32",
+    "Quantity": "1",
+    "Price": "38040",
+    "Tags": [ "Kingston", "FURY", "Renegade", "RGB", "DDR4", "3600MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3600 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Van",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Kingston FURY Beast RGB 64GB (2x32GB) DDR4 3200MHz KF432C16BB2AK2/64",
+    "Quantity": "1",
+    "Price": "60057",
+    "Tags": [ "Kingston", "FURY", "Beast", "RGB", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 64 GB",
+      "Kiszerelés: 2x32GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Van",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Kingston FURY Beast RGB 32GB (2x16GB) DDR4 3200MHz KF432C16BB2AK2/32",
+    "Quantity": "1",
+    "Price": "35151",
+    "Tags": [ "Kingston", "FURY", "Beast", "RGB", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Van",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Kingston FURY Beast 64GB (2x32GB) DDR4 3600MHz KF436C18BBK2/64",
+    "Quantity": "1",
+    "Price": "61454",
+    "Tags": [ "Kingston", "FURY", "Beast", "DDR4", "3600MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 64 GB",
+      "Kiszerelés: 2x32GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3600 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 18",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.2 V"
+    ]
+  },
+  {
+    "ProductName": "Kingston ValueRAM 8GB DDR4 2666MHz KVR26N19S8/8",
+    "Quantity": "1",
+    "Price": "8218",
+    "Tags": [ "Kingston", "ValueRAM", "DDR4", "2666MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 8 GB",
+      "Kiszerelés: 1x8GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 2666 MHz",
+      "Többcsatornás kiszerelés: Single-channel kiszerelés",
+      "Memóriakésleltetés: CL 19",
+      "Hűtőborda: Nincs",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.2 V"
+    ]
+  },
+  {
+    "ProductName": "Kingston FURY Beast 16GB DDR4 3600MHz KF436C18BB/16",
+    "Quantity": "1",
+    "Price": "15335",
+    "Tags": [ "Kingston", "FURY", "Beast", "DDR4", "3600MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 16 GB",
+      "Kiszerelés: 1x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3600 MHz",
+      "Többcsatornás kiszerelés: Single-channel kiszerelés",
+      "Memóriakésleltetés: CL 18",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.2 V"
+    ]
+  },
+  {
+    "ProductName": "Kingston ValueRAM 16GB DDR4 3200MHz KVR32N22D8/16",
+    "Quantity": "1",
+    "Price": "14260",
+    "Tags": [ "Kingston", "ValueRAM", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 16 GB",
+      "Kiszerelés: 1x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Single-channel kiszerelés",
+      "Memóriakésleltetés: CL 22",
+      "Hűtőborda: Nincs",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.2 V"
+    ]
+  },
+  {
+    "ProductName": "G.SKILL Aegis 16GB (2x8GB) DDR4 3200MHz F4-3200C16D-16GIS",
+    "Quantity": "1",
+    "Price": "12682",
+    "Tags": [ "G.SKILL", "Aegis", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 16 GB",
+      "Kiszerelés: 2x8GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Nincs",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "G.SKILL Aegis 32GB (2x16GB) DDR4 3200MHz F4-3200C16D-32GIS",
+    "Quantity": "1",
+    "Price": "22338",
+    "Tags": [ "G.SKILL", "Aegis", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Nincs",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.3 V"
+    ]
+  },
+  {
+    "ProductName": "G.SKILL Trident Z Neo 32GB (2x16GB) DDR4 3600MHz F4-3600C16D-32GTZNC",
+    "Quantity": "1",
+    "Price": "42957",
+    "Tags": [ "G.SKILL", "Trident Z Neo", "DDR4", "3600MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3600 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Van",
+      "Feszültség: 1.3 V"
+    ]
+  },
+  {
+    "ProductName": "G.SKILL Ripjaws V 32GB (2x16GB) DDR4 3200MHz F4-3200C16D-32GVK",
+    "Quantity": "1",
+    "Price": "25599",
+    "Tags": [ "G.SKILL", "Ripjaws V", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "G.SKILL Aegis 16GB (2x8GB) DDR4 3000MHz F4-3000C16D-16GISB",
+    "Quantity": "1",
+    "Price": "11441",
+    "Tags": [ "G.SKILL", "Aegis", "DDR4", "3000MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 16 GB",
+      "Kiszerelés: 2x8GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3000 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Nincs",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "G.SKILL Trident Z RGB 32GB (2x16GB) DDR4 4400MHz F4-4400C19D-32GTZR",
+    "Quantity": "1",
+    "Price": "44540",
+    "Tags": [ "G.SKILL", "Trident Z", "RGB", "DDR4", "4400MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 4400 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 19",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Van",
+      "Feszültség: 1.5 V"
+    ]
+  },
+  {
+    "ProductName": "G.SKILL Trident Z RGB 32GB (2x16GB) DDR4 3200MHz F4-3200C16D-32GTZRX",
+    "Quantity": "1",
+    "Price": "27770",
+    "Tags": [ "G.SKILL", "Trident Z", "RGB", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Van",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "G.SKILL Ripjaws V 32GB (2x16GB) DDR4 4000MHz F4-4000C18D-32GVK",
+    "Quantity": "1",
+    "Price": "35480",
+    "Tags": [ "G.SKILL", "Ripjaws V", "DDR4", "4000MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 4000 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 18",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.4 V"
+    ]
+  },
+  {
+    "ProductName": "G.SKILL Ripjaws V 32GB (2x16GB) DDR4 3600MHz F4-3600C16D-32GVKC",
+    "Quantity": "1",
+    "Price": "36324",
+    "Tags": [ "G.SKILL", "Ripjaws V", "DDR4", "3600MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3600 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "G.SKILL Ripjaws V 16GB (2x8GB) DDR4 3200MHz F4-3200C16D-16GVKB",
+    "Quantity": "1",
+    "Price": "13720",
+    "Tags": [ "G.SKILL", "Ripjaws V", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 16 GB",
+      "Kiszerelés: 2x8GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "G.SKILL Aegis 32GB (2x16GB) DDR4 3000MHz F4-3000C16D-32GISB",
+    "Quantity": "1",
+    "Price": "24873",
+    "Tags": [ "G.SKILL", "Aegis", "DDR4", "3000MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3000 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Nincs",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.2 V"
+    ]
+  },
+  {
+    "ProductName": "G.SKILL Trident Z RGB 32GB (2x16GB) DDR4 3200MHz F4-3200C16D-32GTZR",
+    "Quantity": "1",
+    "Price": "34558",
+    "Tags": [ "G.SKILL", "Trident Z", "RGB", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Van",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "G.SKILL Trident Z Neo 16GB (2x8GB) DDR4 3600MHz F4-3600C16D-16GTZNC",
+    "Quantity": "1",
+    "Price": "25510",
+    "Tags": [ "G.SKILL", "Trident Z", "Neo", "DDR4", "3600MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 16 GB",
+      "Kiszerelés: 2x8GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3600 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Van",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Corsair VENGEANCE LPX 32GB (2x16GB) DDR4 3600MHz CMK32GX4M2D3600C16",
+    "Quantity": "1",
+    "Price": "37495",
+    "Tags": [ "Corsair", "VENGEANCE", "LPX", "DDR4", "3600MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3600 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.2 V"
+    ]
+  },
+  {
+    "ProductName": "Corsair VENGEANCE RGB PRO 32GB (2x16GB) DDR4 3200MHz CMW32GX4M2E3200C16",
+    "Quantity": "1",
+    "Price": "33849",
+    "Tags": [ "Corsair", "VENGEANCE", "RGB PRO", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Van",
+      "Feszültség: 1.3 V"
+    ]
+  },
+  {
+    "ProductName": "Corsair VENGEANCE LPX 32GB (2x16GB) DDR4 3200MHz CMK32GX4M2E3200C16",
+    "Quantity": "1",
+    "Price": "28320",
+    "Tags": [ "Corsair", "VENGEANCE", "LPX", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Corsair VENGEANCE LPX 16GB (2x8GB) DDR4 3200MHz CMK16GX4M2B3200C16",
+    "Quantity": "1",
+    "Price": "15975",
+    "Tags": [ "Corsair", "VENGEANCE", "LPX", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 16 GB",
+      "Kiszerelés: 2x8GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.2 V"
+    ]
+  },
+  {
+    "ProductName": "Corsair VENGEANCE RGB PRO 32GB (2x16GB) DDR4 3600MHz CMW32GX4M2D3600C18",
+    "Quantity": "1",
+    "Price": "36741",
+    "Tags": [ "Corsair", "VENGEANCE", "RGB PRO", "DDR4", "3600MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3600 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 18",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Van",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Corsair VENGEANCE LPX 64GB (2x32GB) DDR4 3200MHz CMK64GX4M2E3200C16",
+    "Quantity": "1",
+    "Price": "55321",
+    "Tags": [ "Corsair", "VENGEANCE", "LPX", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 64 GB",
+      "Kiszerelés: 2x32GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Corsair VENGEANCE LPX 16GB (2x8GB) DDR4 3000MHz CMK16GX4M2B3000C15",
+    "Quantity": "1",
+    "Price": "17842",
+    "Tags": [ "Corsair", "VENGEANCE", "LPX", "DDR4", "3000MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 16 GB",
+      "Kiszerelés: 2x8GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3000 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 15",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.2 V"
+    ]
+  },
+  {
+    "ProductName": "Corsair VENGEANCE LPX 32GB (2x16GB) DDR4 3600MHz CMK32GX4M2D3600C18",
+    "Quantity": "1",
+    "Price": "29672",
+    "Tags": [ "Corsair", "VENGEANCE", "LPX", "DDR4", "3600MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3600 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 19",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Corsair VENGEANCE LPX 16GB (2x8GB) DDR4 3600MHz CMK16GX4M2D3600C18",
+    "Quantity": "1",
+    "Price": "18343",
+    "Tags": [ "Corsair", "VENGEANCE", "LPX", "DDR4", "3600MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 16 GB",
+      "Kiszerelés: 2x8GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3600 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 18",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Corsair VENGEANCE RGB RT 32GB (2x16GB) DDR4 3600MHz CMN32GX4M2Z3600C16",
+    "Quantity": "1",
+    "Price": "37910",
+    "Tags": [ "Corsair", "VENGEANCE", "RGB RT", "DDR4", "3600MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3600 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Van",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Corsair VENGEANCE RGB PRO 16GB (2x8GB) DDR4 3200MHz CMW16GX4M2C3200C16",
+    "Quantity": "1",
+    "Price": "24014",
+    "Tags": [ "Corsair", "VENGEANCE", "RGB PRO", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 16 GB",
+      "Kiszerelés: 2x8GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Van",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Corsair VENGEANCE RGB PRO SL 32GB (2x16GB) DDR4 3600MHz CMH32GX4M2D3600C18W",
+    "Quantity": "1",
+    "Price": "30910",
+    "Tags": [ "Corsair", "VENGEANCE", "RGB PRO SL", "DDR4", "3600MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3600 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 19",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Van",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Corsair VENGEANCE RGB PRO 16GB (2x8GB) DDR4 3200MHz CMW16GX4M2C3200C16W",
+    "Quantity": "1",
+    "Price": "27065",
+    "Tags": [ "Corsair", "VENGEANCE", "RGB PRO", "DDR4", "3200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 16 GB",
+      "Kiszerelés: 2x8GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3200 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Van",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Corsair VENGEANCE LPX 32GB (2x16GB) DDR4 2400MHz CMK32GX4M2A2400C14",
+    "Quantity": "1",
+    "Price": "30520",
+    "Tags": [ "Corsair", "VENGEANCE", "LPX", "DDR4", "2400MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 2400 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 14",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Nincs",
+      "Feszültség: 1.2 V"
+    ]
+  },
+  {
+    "ProductName": "Corsair VENGEANCE RGB RS 64GB (2x32GB) DDR4 3600MHz CMG64GX4M2D3600C18",
+    "Quantity": "1",
+    "Price": "53180",
+    "Tags": [ "Corsair", "VENGEANCE", "RGB RS", "DDR4", "3600MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 64 GB",
+      "Kiszerelés: 2x32GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3600 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 19",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Van",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Corsair DOMINATOR PLATINUM RGB 32GB (2x16GB) DDR4 3466MHz CMT32GX4M2C3466C16",
+    "Quantity": "1",
+    "Price": "51300",
+    "Tags": [ "Corsair", "DOMINATOR", "PLATINUM RGB", "DDR4", "3466MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 32 GB",
+      "Kiszerelés: 2x16GB",
+      "Memória típusa: DDR4",
+      "Sebesség: 3466 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 16",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Van",
+      "Feszültség: 1.35 V"
+    ]
+  },
+  {
+    "ProductName": "Corsair DOMINATOR TITANIUM RGB 48GB (2x24GB) DDR5 7200MHz CMP48GX5M2X7200C36W",
+    "Quantity": "1",
+    "Price": "123290",
+    "Tags": [ "Corsair", "DOMINATOR", "TITANIUM RGB", "DDR5", "7200MHz", "RAM", "memória" ],
+    "Description": [
+      "Típus: PC memória",
+      "Kapacitás: 48 GB",
+      "Kiszerelés: 2x24GB",
+      "Memória típusa: DDR5",
+      "Sebesség: 7200 MHz",
+      "Többcsatornás kiszerelés: Dual-channel kiszerelés",
+      "Memóriakésleltetés: CL 36",
+      "Hűtőborda: Van",
+      "LED megvilágítás: Van",
+      "Feszültség: 1.4 V"
+    ]
   }
 ]
