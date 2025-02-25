@@ -1,33 +1,48 @@
 ﻿@using Webshop.EntityFramework.Data
 @model Products
 
+@{
+    ViewBag.Title = Model.ProductName;
+}
 <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="~/css/ProductDetails.css" >
 </head>
-<h1>@Model.ProductName</h1>
+<div class="product-container">
+    <div class="product-image">
+        @if (Model.ImageData != null && Model.ImageData.Length > 0)
+        {
+            var base64Image = Convert.ToBase64String(Model.ImageData);
+            <img src="data:image/jpeg;base64,@base64Image" class="card-img-top product-image" alt="@Model.ProductName">
+        }
+    </div>
+    <div class="product-details">
+        <h1>@Model.ProductName</h1>
 
-@if(Model.Price!=0)
-{
-    <p><strong>Ár:</strong> @Model.Price</p>
+        @if (Model.Price != 0)
+        {
+            <p><strong></strong> @Model.Price Ft</p>
+        }
 
-}
-@foreach(var desc in Model.Description)
-{
-    <p>@desc</p>
-}
-@if(Model.Quanity>0)
-{
-    <a href=@Url.Action("AddToCart","Product", new { Id = Model.Id })>Kosárhoz adás</a>
+        @foreach (var desc in Model.Description)
+        {
+            <p>@desc</p>
+        }
 
-}
-else if(Model.Price==0)
-{
-    <p>Hamarosan</p>
-}
-else if(Model.Quanity==0)
-{
-    <p>Nincs raktáron</p>
-}
+        @if (Model.Quanity > 0)
+        {
+            <a href="@Url.Action("AddToCart", "Product", new { Id = Model.Id })">Kosárhoz adás</a>
+        }
+        else if (Model.Price == 0)
+        {
+            <p>Hamarosan</p>
+        }
+        else if (Model.Quanity == 0)
+        {
+            <p>Nincs raktáron</p>
+        }
+    </div>
+</div>
 
 
 

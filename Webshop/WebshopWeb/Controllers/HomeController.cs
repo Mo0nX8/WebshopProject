@@ -6,6 +6,8 @@ using Webshop.EntityFramework;
 using Webshop.Services.Interfaces_For_Services;
 using Webshop.EntityFramework.Managers.Interfaces.Order;
 using Microsoft.EntityFrameworkCore;
+using Webshop.EntityFramework.Managers.Implementations;
+using Webshop.EntityFramework.Managers.Interfaces.Product;
 
 public class HomeController : Controller
 {
@@ -14,20 +16,37 @@ public class HomeController : Controller
     private readonly GlobalDbContext context;
     private IEncryptManager encryptManager;
     private IOrderManager orderManager;
+    private IProductManager productManager;
 
-    public HomeController(IAuthenticationManager authenticationManager, IUserManager userManager, GlobalDbContext context, IEncryptManager encryptManager, IOrderManager orderManager)
+    public HomeController(IAuthenticationManager authenticationManager, IUserManager userManager, GlobalDbContext context, IEncryptManager encryptManager, IOrderManager orderManager, IProductManager productManager)
     {
         this.authenticationManager = authenticationManager;
         this.userManager = userManager;
         this.context = context;
         this.encryptManager = encryptManager;
         this.orderManager = orderManager;
+        this.productManager = productManager;
     }
 
     public IActionResult Index()
     {
-        ViewBag.IsAuthenticated = authenticationManager.IsAuthenticated;
-        return View();
+        var totalItems = productManager.Count();
+        Random random = new Random();
+        var skipCount=random.Next(0,totalItems);
+        var products = productManager.GetProducts()
+            .OrderBy(p=>Guid.NewGuid())
+            .Where(p=>p.Price!=0)
+            .Skip(skipCount)
+            .Take(15)
+            .ToList();
+
+        var model = new ProductFilterViewModel
+        {
+            Products = products,
+            TotalItems = totalItems
+        };
+        ViewBag.IsAuthenticated=true;
+        return View(model);
     }
 
     public IActionResult PersonalData()

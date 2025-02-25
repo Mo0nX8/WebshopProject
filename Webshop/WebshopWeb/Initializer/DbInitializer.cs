@@ -52,32 +52,36 @@ namespace WebshopWeb.Initializer
 
                 var json = File.ReadAllText(path, Encoding.Default);
                 var products=JsonConvert.DeserializeObject<List<Products>>(json);
-                var productImagePath = "wwwroot/images";
-                foreach (var product in products)
+                if(products.Count()!=json.Count())
                 {
-                    var existingProduct = _context.StorageData.FirstOrDefault(p => p.ProductName == product.ProductName);
-                    if (existingProduct is null)
+                    var productImagePath = "wwwroot/images";
+                    foreach (var product in products)
                     {
-                        product.DescriptionSerialized=JsonConvert.SerializeObject(product.Description);
-                        if (product.ImageData == null)
+                        var existingProduct = _context.StorageData.FirstOrDefault(p => p.ProductName == product.ProductName);
+                        if (existingProduct is null)
                         {
-                            string normalizedProductName = Regex.Replace(product.ProductName, "[()/\"]", "");
-                            string pathOfImage = Path.Combine(Directory.GetCurrentDirectory(), productImagePath, $"{normalizedProductName}_1.jpg");
-                            if (File.Exists(pathOfImage))
+                            product.DescriptionSerialized = JsonConvert.SerializeObject(product.Description);
+                            if (product.ImageData == null)
                             {
+                                string normalizedProductName = Regex.Replace(product.ProductName, "[()/\"]", "");
+                                string pathOfImage = Path.Combine(Directory.GetCurrentDirectory(), productImagePath, $"{normalizedProductName}_1.jpg");
+                                if (File.Exists(pathOfImage))
+                                {
 
-                                product.ImageData = File.ReadAllBytes(pathOfImage);
+                                    product.ImageData = File.ReadAllBytes(pathOfImage);
+
+                                }
+                                product.MimeType = "image/jpeg";
 
                             }
-                            product.MimeType = "image/jpeg";
-
+                            _context.StorageData.Add(product);
+                            ;
                         }
-                        _context.StorageData.Add(product);
-                        ;
                     }
                 }
+                
                 _context.SaveChanges();
-                ;
+                
 
             }
         }

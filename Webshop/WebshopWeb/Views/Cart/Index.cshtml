@@ -4,7 +4,15 @@
 @{
     var isAuthenticated = ViewBag.IsAuthenticated;
 }
-
+<head>
+    <style>
+        img
+        {
+            max-width:100px;
+            height:auto;
+        }
+    </style>
+</head>
 
 
 <h2>Bevásárlókosár</h2>
@@ -12,15 +20,16 @@
 @if (Model != null && Model.Any())
 {
     <table>
-        <tr>
-            <th>Termék neve</th>
-            <th>Ár</th>
-            <th>Mennyiség</th>
-        </tr>
+
         @foreach (var item in Model)
         {
             <tr>
-                <td>@item.Product.ProductName</td>
+                @if (item.Product.ImageData != null && item.Product.ImageData.Length > 0)
+                {
+                    var base64Image = Convert.ToBase64String(item.Product.ImageData);
+                    <img src="data:image/jpeg;base64,@base64Image" class="card-img-top product-image" alt="@item.Product.ProductName">
+                }
+                <td><h2 class="display-6">@item.Product.ProductName</h2></td>
                 <td>@item.Product.Price Ft</td>
                 <td>@item.Quanity</td>
             </tr>
