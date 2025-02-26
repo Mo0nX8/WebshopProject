@@ -1,30 +1,44 @@
-﻿let currentSlide = 0; 
-const totalSlides = $('.slide').length; 
+﻿document.addEventListener("DOMContentLoaded", function () {
+    const slider = document.querySelector(".slider");
+    const slides = document.querySelectorAll(".slide");
+    const slideCount = slides.length;
+    const slideWidth = slides[0].offsetWidth;
+    let index = 0;
 
-$('.slideshow').append($('.slide').slice(0, 6).clone());
-
-function moveSlide(direction) {
-    currentSlide += direction;
-
-    if (currentSlide >= totalSlides) {
-        currentSlide = 0;
-        $('.slideshow').css('transition', 'none'); 
-        $('.slideshow').css('transform', `translateX(0%)`); 
-    } else if (currentSlide < 0) {
-        currentSlide = totalSlides - 1; 
-        $('.slideshow').css('transition', 'none'); 
-        const offset = -currentSlide * (100 / 6); 
-        $('.slideshow').css('transform', `translateX(${offset}%)`);
-    } else {
-        const offset = -currentSlide * (100 / 6); 
-        $('.slideshow').css('transform', `translateX(${offset}%)`);
+    for (let i = 0; i < 5; i++) {
+        slider.appendChild(slides[i].cloneNode(true));
     }
-}
 
-$('.slideshow').on('mouseover', function () {
-    $(this).css('animation-play-state', 'paused');
-});
+    for (let i = 0; i < 5; i++) {
+        slider.insertBefore(slides[slideCount - 1 - i].cloneNode(true), slides[0]);
+    }
 
-$('.slideshow').on('mouseout', function () {
-    $(this).css('animation-play-state', 'running');
+    let currentIndex = 3; 
+    updateSlider();
+
+    function moveSlide(direction) {
+        currentIndex += direction;
+        updateSlider();
+    }
+
+    function updateSlider() {
+        slider.style.transition = "transform 0.5s ease-in-out";
+        slider.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+
+        
+        setTimeout(() => {
+            if (currentIndex >= slideCount + 3) {
+                slider.style.transition = "none";
+                currentIndex = 3;
+                slider.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+            } else if (currentIndex < 3) {
+                slider.style.transition = "none";
+                currentIndex = slideCount + 2;
+                slider.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+            }
+        }, 500);
+    }
+
+    document.querySelector(".prev").addEventListener("click", () => moveSlide(-1));
+    document.querySelector(".next").addEventListener("click", () => moveSlide(1));
 });

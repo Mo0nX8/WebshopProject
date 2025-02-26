@@ -7,8 +7,8 @@
 }
 
 <head>
-    <link rel="stylesheet" href="~/css/slide.css" >
     <link rel="stylesheet" href="~/css/products.css" >
+    <link rel="stylesheet" href="~/css/slide.css" >
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <div class="text-center">
@@ -75,27 +75,52 @@
             <div>Sajnos nincs ilyen termék.</div>
         }
 *@
-<div class="slideshow-container">
-    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-    <div class="slideshow">
-        @foreach (var product in Model.Products) 
-        {
-             <a href="@Url.Action("Details", "Product" , new { id=product.Id })" class="text-decoration-none">
-                <div class="card">
-                    <div class="slide card-body">
-                        @if (product.ImageData != null && product.ImageData.Length > 0)
-                        {
-                            var base64Image = Convert.ToBase64String(product.ImageData);
-                            <img src="data:image/jpeg;base64,@base64Image" class="card-img-top product-image" alt="@product.ProductName">
-                        }
-                    <h5 class="card-title">@product.ProductName</h5>
-                    <p> @product.Price Ft</p>
+<div class="container">
+    <div class="slider-container">
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+
+        <div class="slider">
+            @if (Model?.Products != null && Model.Products.Any())
+            {
+                @foreach (var product in Model.Products)
+                {
+                    <div class="slide">
+                        <a href="@Url.Action("Details", "Product", new { id = product.Id })" class="text-decoration-none">
+                            <div class="card">
+                                <div class="card-body">
+                                    @if (product.ImageData != null && product.ImageData.Length > 0)
+                                    {
+                                        var base64Image = Convert.ToBase64String(product.ImageData);
+                                        <img src="data:image/jpeg;base64,@base64Image" class="card-img-top product-image" alt="@product.ProductName">
+                                    }
+                                    <h5 class="card-title">@product.ProductName</h5>
+                                    @if (product.Price == 0)
+                                    {
+                                        <h5>Hamarosan</h5>
+                                    }
+                                    else if (product.Quanity < 1)
+                                    {
+                                        <h5>@product.Price Ft (Elfogyott)</h5>
+                                    }
+                                    else
+                                    {
+                                        <h5>@product.Price Ft</h5>
+                                    }
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                </div>
-            </a>
-        }
+                }
+            }
+            else
+            {
+                <div>Sajnos nincs ilyen termék.</div>
+            }
+        </div>
+
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
     </div>
-    <button class="next" onclick="moveSlide(1)">&#10095;</button>
 </div>
+
 
 <script src="~/js/ProductSlider.js"></script>
