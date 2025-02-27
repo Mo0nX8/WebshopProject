@@ -1,19 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Webshop.EntityFramework.Data;
 using Webshop.EntityFramework.Managers.Interfaces.Cart;
-using Webshop.EntityFramework.Migrations;
 
 namespace Webshop.EntityFramework.Managers.Implementations
 {
     /// <summary>
     /// This is the implementation for ICartManager.
     /// </summary>
-   
+
     public class CartManager : ICartManager
     {
         private GlobalDbContext _context;

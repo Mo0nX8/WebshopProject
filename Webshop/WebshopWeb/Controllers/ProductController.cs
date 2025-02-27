@@ -26,7 +26,7 @@ namespace WebshopWeb.Controllers
 
         public IActionResult Index(int pageNumber = 1, int pageSize = 30)
         {
-            var totalItems = productManager.Count();
+            var totalItems = productManager.CountProducts();
             products = _context.StorageData
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)

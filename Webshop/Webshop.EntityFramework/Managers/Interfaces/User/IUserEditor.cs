@@ -16,6 +16,6 @@ namespace Webshop.EntityFramework.Managers.Interfaces.User
         /// This method requires an user as parameter. It updates the specified user's data in the database.
         /// </summary>
         /// <param name="user"></param>
-        void Update(UserData user);
+        void UpdateUser(UserData user);
     }
 }

@@ -30,7 +30,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        var totalItems = productManager.Count();
+        var totalItems = productManager.CountProducts();
         Random random = new Random();
         var skipCount=random.Next(0,totalItems);
         var products = productManager.GetProducts()
@@ -116,7 +116,7 @@ public class HomeController : Controller
         }
 
         user.Password = encryptManager.Hash(model.NewPassword);
-        userManager.Update(user);
+        userManager.UpdateUser(user);
 
         System.Threading.Thread.Sleep(5000);
         authenticationManager.LogOut();

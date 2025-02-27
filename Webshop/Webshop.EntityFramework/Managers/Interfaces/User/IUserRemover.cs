@@ -16,6 +16,6 @@ namespace Webshop.EntityFramework.Managers.Interfaces.User
         /// This method requires an user as parameter. It removes the specific user from the database.
         /// </summary>
         /// <param name="user"></param>
-        void Remove(UserData user);
+        void RemoveUser(UserData user);
     }
 }

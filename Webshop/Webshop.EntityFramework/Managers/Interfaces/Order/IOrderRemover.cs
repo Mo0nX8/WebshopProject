@@ -16,6 +16,6 @@ namespace Webshop.EntityFramework.Managers.Interfaces.Order
         /// This method requires an order as parameter. It remove the specific order from the database.
         /// </summary>
         /// <param name="order"></param>
-        void Remove(Orders order);
+        void RemoveOrder(Orders order);
     }
 }

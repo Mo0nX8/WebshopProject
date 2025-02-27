@@ -20,12 +20,12 @@ namespace Webshop.EntityFramework.Managers.Implementations
             _dbContext = dbContext;
         }
 
-        public void Add(Orders order)
+        public void AddOrder(Orders order)
         {
             _dbContext.Orders.Add(order);
             _dbContext.SaveChanges();
         }
-        public void Remove(Orders order)
+        public void RemoveOrder(Orders order)
         {
             _dbContext.Orders.Remove(order);
             _dbContext.SaveChanges();

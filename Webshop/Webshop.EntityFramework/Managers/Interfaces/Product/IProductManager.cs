@@ -16,7 +16,7 @@ namespace Webshop.EntityFramework.Managers.Interfaces.Product
         /// This method requires a product as parameter. The method adds the product to the database.
         /// </summary>
         /// <param name="storage"></param>
-        void Add(Products storage);
-        int Count();
+        void AddProduct(Products storage);
+        int CountProducts();
     }
 }

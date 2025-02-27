@@ -17,13 +17,13 @@ namespace Webshop.EntityFramework.Managers.Implementations
             _context = context;
         }
 
-        public void Add(UserData user)
+        public void AddUser(UserData user)
         {
             _context.Users.Add(user);
             _context.SaveChanges();
         }
 
-        public void Remove(UserData user)
+        public void RemoveUser(UserData user)
         {
             _context.Users.Remove(user);
             _context.SaveChanges();
@@ -34,7 +34,7 @@ namespace Webshop.EntityFramework.Managers.Implementations
             return _context.Users.AsQueryable();
         }
 
-        public void Update(UserData user)
+        public void UpdateUser(UserData user)
         {
             _context.Update(user);
             _context.SaveChanges();

@@ -21,13 +21,13 @@ namespace Webshop.EntityFramework.Managers.Implementations
             _context = context;
         }
 
-        public void Add(Products storage)
+        public void AddProduct(Products storage)
         {
             _context.StorageData.Add(storage);
             _context.SaveChanges();
         }
 
-        public int Count()
+        public int CountProducts()
         {
             return _context.StorageData.Count();
         }

@@ -16,7 +16,7 @@ namespace Webshop.EntityFramework.Managers.Interfaces.User
         /// This method requires an user as parameter. It adds the user to the database.
         /// </summary>
         /// <param name="user"></param>
-        void Add(UserData user);
+        void AddUser(UserData user);
         /// <summary>
         /// This method requires an userId as parameter. It returns the user by id from the database.
         /// </summary>

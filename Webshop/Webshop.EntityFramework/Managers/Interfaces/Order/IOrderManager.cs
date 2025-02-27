@@ -16,7 +16,7 @@ namespace Webshop.EntityFramework.Managers.Interfaces.Order
         /// This method requires an order as parameter. It adds the order given to it to the database.
         /// </summary>
         /// <param name="order"></param>
-        void Add(Orders order);
+        void AddOrder(Orders order);
         
     }
 

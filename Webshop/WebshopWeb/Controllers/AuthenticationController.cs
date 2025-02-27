@@ -87,7 +87,7 @@ namespace WebshopWeb.Controllers
                             Password=encryptManager.Hash(password1)
                         };
                         
-                        userManager.Add(user);
+                        userManager.AddUser(user);
                         ShoppingCart cart = new ShoppingCart()
                         {
                             UserId = user.Id,
