@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Buffers;
 using Webshop.EntityFramework;
 using Webshop.EntityFramework.Data;
 using Webshop.EntityFramework.Managers.Interfaces.Cart;
 using Webshop.EntityFramework.Managers.Interfaces.Product;
 using Webshop.Services.Services.ViewModel;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace WebshopWeb.Controllers
 {
@@ -76,68 +78,45 @@ namespace WebshopWeb.Controllers
             _context.SaveChanges();
             return RedirectToAction("Index", "Cart", cart.CartItems.ToList());
         }
-        public IActionResult Search(string searchValue, int pageNumber = 1, int pageSize = 30)
+        public IActionResult Search(string searchValue, int pageNumber = 1, int pageSize = 30, int? minPrice=null, int? maxPrice=null)
         {
             IQueryable<Products> productsQuery = productManager.GetProducts();
+            int totalItems;
+            var filteredProducts=ApplyFilterAndSearchForPagination(productsQuery,searchValue,minPrice,maxPrice,pageNumber,pageSize, out totalItems).ToList();
+            var model = new ProductFilterViewModel
+            {
+                Products = filteredProducts,
+                PageNumber = pageNumber,
+                PageSize = pageSize,
+                TotalItems = totalItems,
+                MinPrice = minPrice,
+                MaxPrice = maxPrice,
+                ProductName=searchValue
+                
+
+            };
+            ViewBag.searchValue = searchValue;
+            return View("Index", model);
+        }
+        public IQueryable<Products> ApplyFilterAndSearchForPagination(IQueryable<Products> query, string searchValue, int? minPrice, int? maxPrice, int pageNumber, int pageSize, out int totalItems)
+        {
             if (!string.IsNullOrEmpty(searchValue))
             {
-                productsQuery = productsQuery
+                query = query
                      .Where(x => EF.Functions.Collate(x.ProductName, "Latin1_General_CI_AI")
                     .Contains(searchValue.ToLower()) || x.Tags.Any(t => EF.Functions.Collate(t, "Latin1_General_CI_AI")
                     .Contains(searchValue.ToLower())));
             }
-
-            var totalItems = productsQuery.Count();
-            var products = productsQuery
-                    .Skip((pageNumber - 1) * pageSize)
-                    .Take(pageSize)
-                    .ToList();
-            var model1 = new ProductFilterViewModel
+            if (minPrice.HasValue)
             {
-                Products = products,
-                PageNumber = pageNumber,
-                PageSize = pageSize,
-                TotalItems = totalItems
-
-            };
-            ViewBag.searchValue = searchValue;
-            return View("Index", model1);
-        }
-        [HttpPost]
-        public IActionResult Filter(ProductFilterViewModel filter, int pageNumber=1, int pageSize=30)
-        {
-            var query = productManager.GetProducts();
-
-            if (!string.IsNullOrEmpty(filter.ProductName))
-            {
-                query = query.Where(p => p.ProductName.Contains(filter.ProductName));
+                query = query.Where(p => p.Price >= minPrice.Value);
             }
-            if (filter.MinPrice.HasValue)
+            if (maxPrice.HasValue)
             {
-                query = query.Where(p => p.Price >= filter.MinPrice.Value);
+                query = query.Where(p => p.Price <= maxPrice.Value);
             }
-            if (filter.MaxPrice.HasValue)
-            {
-                query = query.Where(p => p.Price <= filter.MaxPrice.Value);
-            }
-            var totalItems = query.Count();
-
-
-            var filteredProducts = query
-                .Skip((pageNumber-1)*pageSize)
-                .Take(pageSize)
-                .ToList();
-            var model = new ProductFilterViewModel
-            {
-                ProductName = filter.ProductName,
-                MinPrice = filter.MinPrice,
-                MaxPrice = filter.MaxPrice,
-                Products = filteredProducts,
-                PageNumber = pageNumber,
-                PageSize = pageSize,
-                TotalItems = totalItems
-            };
-            return View("Index", model);
+            totalItems= query.Count();
+            return query.Skip((pageNumber-1)*pageSize).Take(pageSize);
         }
     }
 }
