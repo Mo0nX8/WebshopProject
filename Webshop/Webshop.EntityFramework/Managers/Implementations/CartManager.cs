@@ -24,6 +24,7 @@ namespace Webshop.EntityFramework.Managers.Implementations
 
         public ShoppingCart? GetCart(int? cartId)
         {
+            if (cartId == null) return null;
             return _context.Carts
                 .Include(c => c.CartItems)
                 .ThenInclude(ci => ci.Product)  
@@ -48,6 +49,7 @@ namespace Webshop.EntityFramework.Managers.Implementations
             foreach (var productId in productIds)
             {
                 var product = _context.StorageData.Find(productId);
+                if (product == null) continue;
                 if (product != null)
                 {
                     var existingCartItem = _context.CartItems

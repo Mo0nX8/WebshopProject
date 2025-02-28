@@ -62,6 +62,7 @@ namespace WebshopWeb.Controllers
         }
         public IActionResult TryRegister(string username, string email, string password1, string password2)
         {
+
             string emailResponseCode = emailValidator.IsAvailable(email);
             string usernameResponseCode = usernameValidator.IsAvailable(username);
             string passwordResponseCode = "";
@@ -72,6 +73,7 @@ namespace WebshopWeb.Controllers
             else
             {
                 passwordResponseCode = "A két jelszó nem egyezik!";
+                ModelState.AddModelError("Password",passwordResponseCode);
             }
             
             if(emailResponseCode=="200")
@@ -97,21 +99,21 @@ namespace WebshopWeb.Controllers
 
                         return RedirectToAction("Login");
                     }
-                    TempData["Code"] = passwordResponseCode;
+                    ModelState.AddModelError("Password", passwordResponseCode);
                    
                 }
                 else
                 {
-                    TempData["Code"] = usernameResponseCode;
+                    ModelState.AddModelError("Username", usernameResponseCode);
                 }
 
                  
             }
             else
             {
-                TempData["Code"] = emailResponseCode;
+                ModelState.AddModelError("EmailAddress", emailResponseCode);
             }
-            return RedirectToAction("Register");
+            return View("Register");
            
         }
         public IActionResult Logout()
