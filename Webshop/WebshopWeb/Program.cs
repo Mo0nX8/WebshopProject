@@ -37,7 +37,6 @@ builder.Services.AddSession(options =>
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<IAuthenticationManager, AuthenticatorService>();
 builder.Services.AddScoped<IEncryptManager, SHA256Encrypter>();
-builder.Services.AddScoped<IGlobalManager>();
 builder.Services.AddScoped<IUserManager, UserManager>();
 builder.Services.AddScoped<IOrderManager, OrderManager>();
 builder.Services.AddScoped<ICartManager, CartManager>();
