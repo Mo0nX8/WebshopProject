@@ -1,9 +1,12 @@
 ﻿@using Webshop.EntityFramework.Data
 @model List<Orders>
 
-    <head>
-        <link rel="stylesheet" href="css/orders.css" />
-    </head>
+<head>
+    <link rel="stylesheet" href="css/orders.css" />
+</head>
+@{
+    decimal totalPrice = 0;
+}
 @if (Model is not null && Model.Any())
 {
     <div class="orders-container">
@@ -14,6 +17,7 @@
                 <div class="order-details">
                     @if (order.OrderItems != null && order.OrderItems.Any())
                     {
+                        
                         <div class="order-items">
                             @foreach (var item in order.OrderItems)
                             {
@@ -21,8 +25,12 @@
                                     <span class="product-name">@item.Product.ProductName</span> -
                                     <span class="quantity">Mennyiség: @item.Quantity</span> -
                                     <span class="price">@(@item.Quantity * item.Product.Price) Ft</span>
+                                    
                                 </div>
+                                totalPrice+= @item.Price * @item.Quantity;
+                                
                             }
+                            <span class="sumPrice">@Math.Round(totalPrice,0)Ft</span>
                         </div>
                     }
                 </div>

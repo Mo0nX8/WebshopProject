@@ -1,23 +1,24 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>Order Confirmation</title>
+    <title>Rendelés visszaigazolás</title>
 </head>
 <body>
-    <h2>Thank you for your order!</h2>
-    <p>We appreciate your purchase. Your order details are below:</p>
+    <h2>Köszönjük a rendelést!</h2>
+    <p>A rendelés adatai:</p>
     <table border="1">
         <tr>
-            <th>Product</th>
-            <th>Quantity</th>
-            <th>Price</th>
+            <th>Termék</th>
+            <th>Mennyiség</th>
+            <th>Ár</th>
         </tr>
+        {{ORDER_ITEMS}} 
         <tr>
-            <td>Example Product</td>
-            <td>1</td>
-            <td>$100</td>
+            <th colspan="2">Végösszeg:</th>
+            <th>{{TOTAL_PRICE}}</th>
         </tr>
     </table>
-    <p>We will notify you when your order is shipped.</p>
+    <p>Értesítjük, amint megérkezik a rendelése.</p>
+    <p>Üdvözlettel, DXMarket</p>
 </body>
 </html>

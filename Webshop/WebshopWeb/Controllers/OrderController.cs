@@ -8,6 +8,7 @@ using Webshop.EntityFramework.Managers.Interfaces.Order;
 using Webshop.EntityFramework.Managers.Interfaces.Product;
 using Webshop.EntityFramework.Managers.Interfaces.User;
 using System.IO;
+using System.Text;
 
 namespace WebshopWeb.Controllers
 {
@@ -72,12 +73,12 @@ namespace WebshopWeb.Controllers
             order.OrderItems = orderItems;
             _context.Orders.Add(order);
             _context.SaveChanges();
+            SendEmail(order);
             return View();
         }
         public IActionResult PlaceOrder(int cartId)
         {
             var cart=cartManager.GetCart(cartId);
-            SendEmail();
             return View(cart);
         }
         [HttpPost]
@@ -97,7 +98,7 @@ namespace WebshopWeb.Controllers
             var cartId=HttpContext.Session.GetInt32("CartId").Value; 
             return RedirectToAction("PlaceOrder", new { cartId });
         }
-        public void SendEmail()
+        public void SendEmail(Orders order)
         {
             string smtpServer = "smtp.gmail.com";
             int smtpPort = 587; 
@@ -107,9 +108,18 @@ namespace WebshopWeb.Controllers
             string htmlFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "templates", "emailTemplate.html");
             string htmlBody = System.IO.File.ReadAllText(htmlFilePath);
 
+            StringBuilder orderItemsHtml = new StringBuilder();
+            foreach (var item in order.OrderItems)
+            {
+                orderItemsHtml.AppendLine($"<tr><td>{item.Product.ProductName}</td><td>{item.Quantity}</td><td>{item.Price:C}</td></tr> <tr><td></td></tr>");
+            }
+            var totalPrice = order.OrderItems.Sum(item => item.Quantity * item.Price);
+            var totalPriceString = totalPrice+"Ft";
+            htmlBody = htmlBody.Replace("{{ORDER_ITEMS}}", orderItemsHtml.ToString());
+            htmlBody = htmlBody.Replace("{{TOTAL_PRICE}}", totalPriceString);
             using (MailMessage mail = new MailMessage(senderEmail, recipientEmail))
             {
-                mail.Subject = "Test Email";
+                mail.Subject = "Rendelés"+"#"+order.Id;
                 mail.Body = htmlBody;
                 mail.IsBodyHtml = true;
 
