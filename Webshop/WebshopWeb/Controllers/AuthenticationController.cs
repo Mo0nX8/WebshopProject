@@ -75,46 +75,36 @@ namespace WebshopWeb.Controllers
                 passwordResponseCode = "A két jelszó nem egyezik!";
                 ModelState.AddModelError("Password",passwordResponseCode);
             }
-            
-            if(emailResponseCode=="200")
-            {
-                if(usernameResponseCode=="200")
-                {
-                    if(passwordResponseCode=="200")
-                    {
-                        UserData user = new UserData()
-                        {
-                            Username = username,
-                            EmailAddress=email,
-                            Password=encryptManager.Hash(password1)
-                        };
-                        
-                        userManager.AddUser(user);
-                        ShoppingCart cart = new ShoppingCart()
-                        {
-                            UserId = user.Id,
-                            CartItems = new List<CartItem>()
-                        };
-                        cartManager.AddCart(cart);
-
-                        return RedirectToAction("Login");
-                    }
-                    ModelState.AddModelError("Password", passwordResponseCode);
-                   
-                }
-                else
-                {
-                    ModelState.AddModelError("Username", usernameResponseCode);
-                }
-
-                 
-            }
-            else
+            if(emailResponseCode!="200")
             {
                 ModelState.AddModelError("EmailAddress", emailResponseCode);
             }
-            return View("Register");
-           
+            if (usernameResponseCode != "200")
+            {
+                ModelState.AddModelError("Username", usernameResponseCode);
+            }
+            if(ModelState.ErrorCount >1)
+            {
+                return View("Register");
+            }
+
+            UserData user = new UserData()
+            {
+                Username = username,
+                EmailAddress = email,
+                Password = encryptManager.Hash(password1)
+            };
+
+            userManager.AddUser(user);
+            ShoppingCart cart = new ShoppingCart()
+            {
+                UserId = user.Id,
+                CartItems = new List<CartItem>()
+            };
+            cartManager.AddCart(cart);
+
+            return RedirectToAction("Login");
+
         }
         public IActionResult Logout()
         {
