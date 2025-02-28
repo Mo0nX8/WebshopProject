@@ -84,5 +84,17 @@ namespace Webshop.EntityFramework.Managers.Implementations
             return cart?.CartItems?.Select(ci => ci.Product).ToList() ?? new List<Products>();
         }
 
+        public void RemoveItemFromCart(int? cartId, int productId)
+        {
+            var cart=_context.Carts.FirstOrDefault(x=>x.Id==cartId);
+            var cartItem = _context.CartItems
+                          .FirstOrDefault(ci=>ci.CartId==cartId && ci.ProductId == productId);
+            if (cartItem != null) 
+            {
+                cart.CartItems.Remove(cartItem);
+                _context.Carts.Update(cart);
+                _context.SaveChanges();
+            }
+        }
     }
 }

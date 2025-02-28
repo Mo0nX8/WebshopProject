@@ -32,6 +32,14 @@ namespace WebshopWeb.Controllers
             ViewBag.CartId = cartId;
             return View(cartItems);
         }
-        
+        public IActionResult RemoveFromCart(int productId)
+        {
+            var userId = HttpContext.Session.GetInt32("UserId");
+            int? cartId = HttpContext.Session.GetInt32("CartId");
+            cartManager.RemoveItemFromCart(cartId, productId);
+            return RedirectToAction("Index");
+        }
+
+
     }
 }

@@ -31,10 +31,26 @@
                 }
                 <td><h2 class="display-6">@item.Product.ProductName</h2></td>
                 <td>@item.Product.Price Ft</td>
-                <td>@item.Quanity</td>
+                @*<form action="@Url.Action("UpdateQuantity", "Cart")" method="post">
+                            <input type="hidden" name="cartItemId" value="@item.Id" />
+                            <select name="quantity" class="form-control" onchange="this.form.submit()">
+                                @for (int i = 1; i <= item.Product.StockQuantity; i++)
+                                {
+                                    <option value="@i" @(i == item..Quanity ? "selected" : "")>@i</option>
+                                }
+                            </select>
+                        </form>*@
+                <td>
+                    <form action="@Url.Action("RemoveFromCart", "Cart")" method="post">
+                        <input type="hidden" name="productId" value="@item.ProductId" />
+                        <button type="submit" class="btn btn-danger">Remove</button>
+                    </form>
+                </td>
             </tr>
+
         }
     </table>
+   
     <a href=@Url.Action("Details", "Order")>Rendelés</a>
 }
 else

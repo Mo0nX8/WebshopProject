@@ -8,6 +8,6 @@ namespace Webshop.EntityFramework.Managers.Interfaces.Cart
 {
     public interface ICartRemover
     {
-        
+        void RemoveItemFromCart(int? cartId, int productId);
     }
 }

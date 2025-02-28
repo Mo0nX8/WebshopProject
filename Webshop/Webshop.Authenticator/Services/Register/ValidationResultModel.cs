@@ -7,11 +7,11 @@ using Webshop.Services.Interfaces_For_Services;
 
 namespace Webshop.Services.Services.Register
 {
-    public class ValidationResult 
+    public class ValidationResultModel 
     {
         public bool IsValid { get; set; }
         public List<string> Errors { get; set; }
-        public ValidationResult()
+        public ValidationResultModel()
         {
             Errors = new List<string>();
             IsValid = true;

@@ -42,7 +42,8 @@ namespace Webshop.EntityFramework.Managers.Implementations
 
         public UserData GetUser(int userId)
         {
-            return _context.Users.FirstOrDefault(x => x.Id == userId);
+            return _context.Users.FirstOrDefault(x => x.Id == userId)
+                ;
         }
        
     }

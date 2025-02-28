@@ -6,6 +6,7 @@ using Webshop.EntityFramework.Managers.Implementations;
 using Webshop.EntityFramework.Managers.Interfaces.Cart;
 using Webshop.EntityFramework.Managers.Interfaces.Order;
 using Webshop.EntityFramework.Managers.Interfaces.Product;
+using Webshop.EntityFramework.Managers.Interfaces.User;
 
 namespace WebshopWeb.Controllers
 {
@@ -14,23 +15,25 @@ namespace WebshopWeb.Controllers
     {
         
         private readonly ICartManager cartManager;
+        private IUserManager userManager;
         private IOrderManager orderManager;
         private readonly IProductManager productManager;
         private GlobalDbContext _context;
-        public OrderController(ICartManager cartManager, IProductManager productManager, IOrderManager orderManager, GlobalDbContext context)
+        public OrderController(ICartManager cartManager, IProductManager productManager, IOrderManager orderManager, GlobalDbContext context, IUserManager userManager)
         {
             this.cartManager = cartManager;
             this.productManager = productManager;
             this.orderManager = orderManager;
             _context = context;
+            this.userManager = userManager;
         }
 
         public IActionResult Details()
         {
-            var cartId = HttpContext.Session.GetInt32("CartId");
-            List<Products> cartItems=cartManager.GetProduct(cartId.Value);
-            ViewData["CartId"]=cartId.Value;
-            return View(cartItems);
+            var userId = HttpContext.Session.GetInt32("UserId").Value;
+            var user = userManager.GetUser(userId);
+            _context.Entry(user).Reference(u => u.Address).Load();
+            return View(user);
         }
         public IActionResult Confirm()
         {
@@ -74,6 +77,23 @@ namespace WebshopWeb.Controllers
         {
             var cart=cartManager.GetCart(cartId);
             return View(cart);
+        }
+        [HttpPost]
+        public IActionResult RecordAddress(string city, string zip, string street)
+        {
+            var userId = HttpContext.Session.GetInt32("UserId").Value;
+            var userAddress = new Address()
+            {
+                ZipCode = zip,
+                StreetAndNumber = street,
+                City = city,
+            };
+            var user=userManager.GetUser(userId);
+            user.Address= userAddress;
+            userManager.UpdateUser(user);
+            _context.SaveChanges();
+            var cartId=HttpContext.Session.GetInt32("CartId").Value; 
+            return RedirectToAction("PlaceOrder", new { cartId });
         }
     }
 }

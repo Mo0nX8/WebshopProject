@@ -28,9 +28,9 @@ namespace Webshop.Services.Services.Register
             this.cartManager = cartManager;
             this.encryptManager = encryptManager;
         }
-        public ValidationResult ValidateEmail(string email) 
+        public ValidationResultModel ValidateEmail(string email) 
         {
-            var result=new ValidationResult();
+            var result=new ValidationResultModel();
             string emailValidatorResult = emailValidator.IsAvailable(email);
             if (emailValidatorResult != "200") 
             {
@@ -38,9 +38,9 @@ namespace Webshop.Services.Services.Register
             }
             return result;
         }
-        public ValidationResult ValidateUsername(string username)
+        public ValidationResultModel ValidateUsername(string username)
         {
-            var result = new ValidationResult();
+            var result = new ValidationResultModel();
             string usernameValidatorResult = usernameValidator.IsAvailable(username);
             if (usernameValidatorResult != "200")
             {
@@ -48,9 +48,9 @@ namespace Webshop.Services.Services.Register
             }
             return result;
         }
-        public ValidationResult ValidatePassword(string password1, string password2)
+        public ValidationResultModel ValidatePassword(string password1, string password2)
         {
-            var result = new ValidationResult();
+            var result = new ValidationResultModel();
             if(password1!=password2)
             {
                 result.AddError("A két jelszó nem egyezik!");
@@ -78,21 +78,6 @@ namespace Webshop.Services.Services.Register
             };
             cartManager.AddCart(cart);
             return true;
-        }
-
-        System.ComponentModel.DataAnnotations.ValidationResult IRegisterService.ValidateEmail(string email)
-        {
-            throw new NotImplementedException();
-        }
-
-        System.ComponentModel.DataAnnotations.ValidationResult IRegisterService.ValidatePassword(string password1, string password2)
-        {
-            throw new NotImplementedException();
-        }
-
-        System.ComponentModel.DataAnnotations.ValidationResult IRegisterService.ValidateUsername(string username)
-        {
-            throw new NotImplementedException();
         }
     }
 }

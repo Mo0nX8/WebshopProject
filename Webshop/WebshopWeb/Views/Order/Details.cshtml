@@ -1,5 +1,66 @@
 ﻿@using Webshop.EntityFramework.Data
-@model List<Products>
+@model UserData
+
+<div class="container">
+    <h3>Szállítási adatok</h3>
+    @if(Model.Address is null)
+    {
+        <form action = "@Url.Action("RecordAddress", "Order")" method = "post" >
+
+        <div class="row justify-content-center">
+            <div class="col-auto"><label class="form-label">Település</label></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <input type="text" name="city" class="form-control" />
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto"><label class="form-label">Irányítószám</label></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <input type="number" name="zip" class="form-control" />
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto"><label class="form-label">Utca, házszám</label></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <input type="text" name="street" class="form-control" />
+            </div>
+        </div>
+            <input type="submit" value="Tovább" />
+        </form>
+        
+    }
+    else
+    {
+        <div class="row justify-content-center">
+            <div class="col-auto"><label class="form-label">Település</label></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto"><label class="form-label">@Model.Address.City</label></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto"><label class="form-label">Irányítószám</label></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto"><label class="form-label">@Model.Address.ZipCode</label></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto"><label class="form-label">Utca, házszám</label></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto"><label class="form-label">@Model.Address.StreetAndNumber</label></div>
+        </div>
+        <a href=@Url.Action("PlaceOrder","Order", new { cartId = Context.Session.GetInt32("CartId") }))>Tovább</a>
+    }
+    
+
+   
+   
+</div>
 
 
-<a href=@Url.Action("PlaceOrder","Order", new { cartId = Context.Session.GetInt32("CartId") }))>Tovább</a>

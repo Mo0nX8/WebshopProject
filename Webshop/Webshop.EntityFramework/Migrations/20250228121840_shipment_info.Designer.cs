@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Webshop.EntityFramework;
 
@@ -11,9 +12,11 @@ using Webshop.EntityFramework;
 namespace Webshop.EntityFramework.Migrations
 {
     [DbContext(typeof(GlobalDbContext))]
-    partial class GlobalDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250228121840_shipment_info")]
+    partial class shipment_info
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,38 +24,6 @@ namespace Webshop.EntityFramework.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
-
-            modelBuilder.Entity("Webshop.EntityFramework.Data.Address", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("City")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("StreetAndNumber")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("ZipCode")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId")
-                        .IsUnique()
-                        .HasFilter("[UserId] IS NOT NULL");
-
-                    b.ToTable("Address");
-                });
 
             modelBuilder.Entity("Webshop.EntityFramework.Data.CartItem", b =>
                 {
@@ -211,15 +182,6 @@ namespace Webshop.EntityFramework.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("Webshop.EntityFramework.Data.Address", b =>
-                {
-                    b.HasOne("Webshop.EntityFramework.Data.UserData", "User")
-                        .WithOne("Address")
-                        .HasForeignKey("Webshop.EntityFramework.Data.Address", "UserId");
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("Webshop.EntityFramework.Data.CartItem", b =>
                 {
                     b.HasOne("Webshop.EntityFramework.Data.ShoppingCart", "Cart")
@@ -297,8 +259,6 @@ namespace Webshop.EntityFramework.Migrations
 
             modelBuilder.Entity("Webshop.EntityFramework.Data.UserData", b =>
                 {
-                    b.Navigation("Address");
-
                     b.Navigation("Cart")
                         .IsRequired();
 

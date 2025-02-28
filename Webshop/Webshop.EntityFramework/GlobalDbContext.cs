@@ -37,6 +37,7 @@ namespace Webshop.EntityFramework
         /// Items of an order. This is a help table.
         /// </summary>
         public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<Address> Addresses { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -75,6 +76,12 @@ namespace Webshop.EntityFramework
                 .HasOne(oi => oi.Product)
                 .WithMany()
                 .HasForeignKey(oi => oi.ProductId);
+            modelBuilder.Entity<UserData>()
+                .HasOne(u => u.Address)
+                .WithOne(u => u.User)
+                .HasForeignKey<Address>(a => a.UserId)
+                .IsRequired(false);
+
 
         }
     }
