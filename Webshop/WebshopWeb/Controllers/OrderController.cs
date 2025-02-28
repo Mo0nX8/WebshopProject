@@ -1,16 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using System.Net;
+using System.Net.Mail;
 using Webshop.EntityFramework;
 using Webshop.EntityFramework.Data;
-using Webshop.EntityFramework.Managers.Implementations;
 using Webshop.EntityFramework.Managers.Interfaces.Cart;
 using Webshop.EntityFramework.Managers.Interfaces.Order;
 using Webshop.EntityFramework.Managers.Interfaces.Product;
 using Webshop.EntityFramework.Managers.Interfaces.User;
+using System.IO;
 
 namespace WebshopWeb.Controllers
 {
-    
+
     public class OrderController : Controller
     {
         
@@ -76,6 +77,7 @@ namespace WebshopWeb.Controllers
         public IActionResult PlaceOrder(int cartId)
         {
             var cart=cartManager.GetCart(cartId);
+            SendEmail();
             return View(cart);
         }
         [HttpPost]
@@ -95,5 +97,33 @@ namespace WebshopWeb.Controllers
             var cartId=HttpContext.Session.GetInt32("CartId").Value; 
             return RedirectToAction("PlaceOrder", new { cartId });
         }
+        public void SendEmail()
+        {
+            string smtpServer = "smtp.gmail.com";
+            int smtpPort = 587; 
+            string senderEmail = "dxmarket234@gmail.com";
+            string senderPassword = "whga sfrg yjjn lvzu"; 
+            string recipientEmail = "anakinka2323@gmail.com";
+            string htmlFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "templates", "emailTemplate.html");
+            string htmlBody = System.IO.File.ReadAllText(htmlFilePath);
+
+            using (MailMessage mail = new MailMessage(senderEmail, recipientEmail))
+            {
+                mail.Subject = "Test Email";
+                mail.Body = htmlBody;
+                mail.IsBodyHtml = true;
+
+                using (SmtpClient smtpClient = new SmtpClient(smtpServer, smtpPort))
+                {
+                    smtpClient.Credentials = new NetworkCredential(senderEmail, senderPassword);
+                    smtpClient.EnableSsl = true; 
+                    smtpClient.UseDefaultCredentials = false;
+                    smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
+                    smtpClient.Send(mail);
+                }
+            }
+        }
+
+
     }
 }
