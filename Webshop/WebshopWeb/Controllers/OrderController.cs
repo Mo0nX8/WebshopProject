@@ -9,6 +9,7 @@ using Webshop.EntityFramework.Managers.Interfaces.Product;
 using Webshop.EntityFramework.Managers.Interfaces.User;
 using System.IO;
 using System.Text;
+using Microsoft.AspNetCore.Hosting;
 
 namespace WebshopWeb.Controllers
 {
@@ -21,13 +22,17 @@ namespace WebshopWeb.Controllers
         private IOrderManager orderManager;
         private readonly IProductManager productManager;
         private GlobalDbContext _context;
-        public OrderController(ICartManager cartManager, IProductManager productManager, IOrderManager orderManager, GlobalDbContext context, IUserManager userManager)
+        private IConfiguration _config;
+        private IWebHostEnvironment _webHostEnvironment;
+        public OrderController(ICartManager cartManager, IProductManager productManager, IOrderManager orderManager, GlobalDbContext context, IUserManager userManager, IConfiguration config, IWebHostEnvironment webHostEnvironment)
         {
             this.cartManager = cartManager;
             this.productManager = productManager;
             this.orderManager = orderManager;
             _context = context;
             this.userManager = userManager;
+            _config = config;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         public IActionResult Details()
@@ -100,10 +105,10 @@ namespace WebshopWeb.Controllers
         }
         public void SendEmail(Orders order)
         {
-            string smtpServer = "smtp.gmail.com";
-            int smtpPort = 587; 
-            string senderEmail = "dxmarket234@gmail.com";
-            string senderPassword = "whga sfrg yjjn lvzu"; 
+            string smtpServer = _config["SmtpSettings:Host"];
+            int smtpPort = Convert.ToInt32(_config["SmtpSettings:Port"]); 
+            string senderEmail = _config["SmtpSettings:User"];
+            string senderPassword = _config["SmtpSettings:Password"]; 
             string recipientEmail = "anakinka2323@gmail.com";
             string htmlFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "templates", "emailTemplate.html");
             string htmlBody = System.IO.File.ReadAllText(htmlFilePath);
@@ -111,7 +116,9 @@ namespace WebshopWeb.Controllers
             StringBuilder orderItemsHtml = new StringBuilder();
             foreach (var item in order.OrderItems)
             {
-                orderItemsHtml.AppendLine($"<tr><td>{item.Product.ProductName}</td><td>{item.Quantity}</td><td>{item.Price:C}</td></tr> <tr><td></td></tr>");
+                string base64Image = Convert.ToBase64String(item.Product.ImageData);
+                string imageUrl = $"data:image/jpeg;base64,{base64Image}";
+                orderItemsHtml.AppendLine($"<tr><td><img src='{imageUrl}' width='100' height='100'></td><td>{item.Product.ProductName}</td><td>{item.Quantity}</td><td>{item.Price:C}</td></tr> <tr><td></td></tr>");
             }
             var totalPrice = order.OrderItems.Sum(item => item.Quantity * item.Price);
             var totalPriceString = totalPrice+"Ft";
