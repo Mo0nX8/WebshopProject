@@ -10,12 +10,34 @@
     <link rel="stylesheet" href="~/css/products.css" />
 
 </head>
+<div class="mb-3">
+    <label for="sortOrder">Rendezés:</label>
+    <select id="sortOrder" class="form-control" onchange="sortProducts()">
+        <option value="">Válassz...</option>
+        <option value="name_asc">Név szerint (A-Z)</option>
+        <option value="name_desc">Név szerint (Z-A)</option>
+        <option value="price_asc">Ár szerint növekvő</option>
+        <option value="price_desc">Ár szerint csökkenő</option>
+    </select>
+</div>
+<input type="hidden" id="searchValue" value="@searchValue" />
+<script>
+    function sortProducts() {
+        var sortOrder = document.getElementById("sortOrder").value;
+        var searchValue = document.getElementById("searchValue") ? document.getElementById("searchValue").value : '';
+        var minPrice = document.getElementById("minPrice") ? document.getElementById("minPrice").value : '';
+        var maxPrice = document.getElementById("maxPrice") ? document.getElementById("maxPrice").value : '';
 
+        var url = `/Product/Search?sortOrder=${sortOrder}&searchValue=${encodeURIComponent(searchValue)}&minPrice=${minPrice}&maxPrice=${maxPrice}`;
+        window.location.href = url;
+    }
+</script>
 <div class="container">
     <div class="row mb-4">
         <div class="col">
             <form method="get" asp-action="Search" id="filterForm">
-                <input type="hidden" name="searchValue" id="searchValue" value="@ViewBag.searchValue" />
+                <input type="hidden" name="searchValue" value="@ViewBag.searchValue" />
+                <input type="hidden" name="sortOrder" id="sortOrderHidden" value="@Model.SortOrder" />
                 <div class="row">
                     <div class="col-md-6">
                         <input type="number" class="form-control" name="minPrice" placeholder="Min Price"  />
@@ -77,21 +99,21 @@
                             @if (Model.PageNumber > 1)
                             {
                                 <li class="page-item">
-                                    <a class="page-link" href="@Url.Action("Search", new { searchValue=searchValue, pageNumber = Model.PageNumber - 1, pageSize = Model.PageSize, MinPrice = Model.MinPrice, MaxPrice = Model.MaxPrice,})">Előző</a>
+                                    <a class="page-link" href="@Url.Action("Search", new { searchValue=searchValue, pageNumber = Model.PageNumber - 1, pageSize = Model.PageSize, MinPrice = Model.MinPrice, MaxPrice = Model.MaxPrice, sortOrder=Model.SortOrder})">Előző</a>
                                 </li>
                             }
 
                             @for (int i = 1; i <= Model.TotalPages; i++)
                             {
                                 <li class="page-item @(i == Model.PageNumber ? "active" : "")">
-                                    <a class="page-link" href="@Url.Action("Search", new { searchValue=searchValue, pageNumber = i, pageSize = Model.PageSize, MinPrice = Model.MinPrice, MaxPrice = Model.MaxPrice, })">@i</a>
+                                    <a class="page-link" href="@Url.Action("Search", new { searchValue=searchValue, pageNumber = i, pageSize = Model.PageSize, MinPrice = Model.MinPrice, MaxPrice = Model.MaxPrice,sortOrder=Model.SortOrder })">@i</a>
                                 </li>
                             }
 
                             @if (Model.PageNumber < Model.TotalPages)
                             {
                                 <li class="page-item">
-                                    <a class="page-link" href="@Url.Action("Search", new { searchValue=searchValue, pageNumber = Model.PageNumber + 1, pageSize = Model.PageSize, MinPrice = Model.MinPrice, MaxPrice = Model.MaxPrice, })">Következő</a>
+                                    <a class="page-link" href="@Url.Action("Search", new { searchValue=searchValue, pageNumber = Model.PageNumber + 1, pageSize = Model.PageSize, MinPrice = Model.MinPrice, MaxPrice = Model.MaxPrice,sortOrder=Model.SortOrder })">Következő</a>
                                 </li>
                             }
                         </ul>

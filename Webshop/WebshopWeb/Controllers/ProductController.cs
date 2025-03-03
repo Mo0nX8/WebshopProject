@@ -78,11 +78,11 @@ namespace WebshopWeb.Controllers
             _context.SaveChanges();
             return RedirectToAction("Index", "Cart", cart.CartItems.ToList());
         }
-        public IActionResult Search(string searchValue, int pageNumber = 1, int pageSize = 30, int? minPrice=null, int? maxPrice=null)
+        public IActionResult Search(string searchValue, int pageNumber = 1, int pageSize = 30, int? minPrice=null, int? maxPrice=null, string? sortOrder = null)
         {
             IQueryable<Products> productsQuery = productManager.GetProducts();
             int totalItems;
-            var filteredProducts=ApplyFilterAndSearchForPagination(productsQuery,searchValue,minPrice,maxPrice,pageNumber,pageSize, out totalItems).ToList();
+            var filteredProducts=ApplyFilterAndSearchForPagination(productsQuery,searchValue,minPrice,maxPrice,pageNumber,pageSize, out totalItems, sortOrder).ToList();
             var model = new ProductFilterViewModel
             {
                 Products = filteredProducts,
@@ -91,14 +91,15 @@ namespace WebshopWeb.Controllers
                 TotalItems = totalItems,
                 MinPrice = minPrice,
                 MaxPrice = maxPrice,
-                ProductName=searchValue
-                
+                ProductName=searchValue,
+                SortOrder=sortOrder
 
             };
             ViewBag.searchValue = searchValue;
+            ViewBag.sortOrder = sortOrder;
             return View("Index", model);
         }
-        public IQueryable<Products> ApplyFilterAndSearchForPagination(IQueryable<Products> query, string searchValue, int? minPrice, int? maxPrice, int pageNumber, int pageSize, out int totalItems)
+        public IQueryable<Products> ApplyFilterAndSearchForPagination(IQueryable<Products> query, string searchValue, int? minPrice, int? maxPrice, int pageNumber, int pageSize, out int totalItems, string sortOrder)
         {
             if (!string.IsNullOrEmpty(searchValue))
             {
@@ -114,6 +115,24 @@ namespace WebshopWeb.Controllers
             if (maxPrice.HasValue)
             {
                 query = query.Where(p => p.Price <= maxPrice.Value);
+            }
+            if(sortOrder is not null)
+            {
+                switch (sortOrder)
+            {
+                case "name_asc":
+                    query = query.OrderBy(p => p.ProductName);
+                    break;
+                case "name_desc":
+                    query = query.OrderByDescending(p => p.ProductName);
+                    break;
+                case "price_asc":
+                    query = query.OrderBy(p => p.Price);
+                    break;
+                case "price_desc":
+                    query = query.OrderByDescending(p => p.Price);
+                    break;
+            }
             }
             totalItems= query.Count();
             return query.Skip((pageNumber-1)*pageSize).Take(pageSize);

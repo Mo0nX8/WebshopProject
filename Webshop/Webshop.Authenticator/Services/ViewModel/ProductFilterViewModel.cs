@@ -17,5 +17,6 @@ namespace Webshop.Services.Services.ViewModel
         public int PageSize { get; set; } = 30;
         public int TotalPages => (int)Math.Ceiling((double)TotalItems / PageSize);
         public int TotalItems { get; set; }
+        public string SortOrder { get; set; }
     }
 }
