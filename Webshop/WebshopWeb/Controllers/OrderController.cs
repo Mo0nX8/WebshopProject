@@ -10,6 +10,7 @@ using Webshop.EntityFramework.Managers.Interfaces.User;
 using System.IO;
 using System.Text;
 using Microsoft.AspNetCore.Hosting;
+using System.Net.Mime;
 
 namespace WebshopWeb.Controllers
 {
@@ -106,40 +107,62 @@ namespace WebshopWeb.Controllers
         public void SendEmail(Orders order)
         {
             string smtpServer = _config["SmtpSettings:Host"];
-            int smtpPort = Convert.ToInt32(_config["SmtpSettings:Port"]); 
+            int smtpPort = Convert.ToInt32(_config["SmtpSettings:Port"]);
             string senderEmail = _config["SmtpSettings:User"];
-            string senderPassword = _config["SmtpSettings:Password"]; 
+            string senderPassword = _config["SmtpSettings:Password"];
             string recipientEmail = "anakinka2323@gmail.com";
+
             string htmlFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "templates", "emailTemplate.html");
             string htmlBody = System.IO.File.ReadAllText(htmlFilePath);
 
             StringBuilder orderItemsHtml = new StringBuilder();
-            foreach (var item in order.OrderItems)
-            {
-                string base64Image = Convert.ToBase64String(item.Product.ImageData);
-                string imageUrl = $"data:image/jpeg;base64,{base64Image}";
-                orderItemsHtml.AppendLine($"<tr><td><img src='{imageUrl}' width='100' height='100'></td><td>{item.Product.ProductName}</td><td>{item.Quantity}</td><td>{item.Price:C}</td></tr> <tr><td></td></tr>");
-            }
-            var totalPrice = order.OrderItems.Sum(item => item.Quantity * item.Price);
-            var totalPriceString = totalPrice+"Ft";
-            htmlBody = htmlBody.Replace("{{ORDER_ITEMS}}", orderItemsHtml.ToString());
-            htmlBody = htmlBody.Replace("{{TOTAL_PRICE}}", totalPriceString);
+            int imageIndex = 1;
+
             using (MailMessage mail = new MailMessage(senderEmail, recipientEmail))
             {
-                mail.Subject = "Rendelés"+"#"+order.Id;
-                mail.Body = htmlBody;
+                mail.Subject = "Rendelés #" + order.Id;
                 mail.IsBodyHtml = true;
+
+                foreach (var item in order.OrderItems)
+                {
+                    string contentId = $"image{imageIndex}";
+
+                    orderItemsHtml.AppendLine($@"
+                <tr>
+                    <td><img src='cid:{contentId}' width='100' height='100'></td>
+                    <td>{item.Product.ProductName}</td>
+                    <td>{item.Quantity}</td>
+                    <td>{item.Price:C}</td>
+                </tr>");
+
+                    MemoryStream imageStream = new MemoryStream(item.Product.ImageData);
+                    Attachment inline = new Attachment(imageStream, "image.jpg", "image/jpeg")
+                    {
+                        ContentId = contentId,
+                        ContentDisposition = { Inline = true, DispositionType = DispositionTypeNames.Inline }
+                    };
+                    mail.Attachments.Add(inline);
+
+                    imageIndex++;
+                }
+
+                var totalPrice = order.OrderItems.Sum(item => item.Quantity * item.Price);
+                htmlBody = htmlBody.Replace("{{ORDER_ITEMS}}", orderItemsHtml.ToString());
+                htmlBody = htmlBody.Replace("{{TOTAL_PRICE}}", totalPrice + " Ft");
+
+                mail.Body = htmlBody;
 
                 using (SmtpClient smtpClient = new SmtpClient(smtpServer, smtpPort))
                 {
                     smtpClient.Credentials = new NetworkCredential(senderEmail, senderPassword);
-                    smtpClient.EnableSsl = true; 
+                    smtpClient.EnableSsl = true;
                     smtpClient.UseDefaultCredentials = false;
                     smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
                     smtpClient.Send(mail);
                 }
             }
         }
+
 
 
     }
