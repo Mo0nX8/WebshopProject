@@ -52,7 +52,7 @@ namespace WebshopWeb.Initializer
 
                 var json = File.ReadAllText(path, Encoding.Default);
                 var products=JsonConvert.DeserializeObject<List<Products>>(json);
-                if(products.Count()!=json.Count())
+                if(products.Count()!=_context.StorageData.Count())
                 {
                     var productImagePath = "wwwroot/images";
                     foreach (var product in products)
