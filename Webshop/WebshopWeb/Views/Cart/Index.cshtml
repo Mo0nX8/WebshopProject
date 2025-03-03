@@ -3,6 +3,7 @@
 @model List<CartItem>
 @{
     var isAuthenticated = ViewBag.IsAuthenticated;
+    var totalPrice=0;
 }
 <head>
     <style>
@@ -15,6 +16,7 @@
 </head>
 
 
+
 <h2>Bevásárlókosár</h2>
 
 @if (Model != null && Model.Any())
@@ -23,6 +25,7 @@
 
         @foreach (var item in Model)
         {
+            totalPrice=totalPrice+item.Product.Price;
             <tr>
                 @if (item.Product.ImageData != null && item.Product.ImageData.Length > 0)
                 {
@@ -49,6 +52,10 @@
             </tr>
 
         }
+        <tr>
+            <td>Végösszeg:</td>
+            <td>@totalPrice Ft</td>
+        </tr>
     </table>
    
     <a href=@Url.Action("Details", "Order")>Rendelés</a>
