@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Webshop.EntityFramework;
 
@@ -11,9 +12,11 @@ using Webshop.EntityFramework;
 namespace Webshop.EntityFramework.Migrations
 {
     [DbContext(typeof(GlobalDbContext))]
-    partial class GlobalDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250303071140_reviews")]
+    partial class reviews
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -164,33 +167,6 @@ namespace Webshop.EntityFramework.Migrations
                     b.ToTable("StorageData");
                 });
 
-            modelBuilder.Entity("Webshop.EntityFramework.Data.Review", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Comment")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Rating")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("Reviews");
-                });
-
             modelBuilder.Entity("Webshop.EntityFramework.Data.ShoppingCart", b =>
                 {
                     b.Property<int>("Id")
@@ -296,17 +272,6 @@ namespace Webshop.EntityFramework.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Webshop.EntityFramework.Data.Review", b =>
-                {
-                    b.HasOne("Webshop.EntityFramework.Data.Products", "Product")
-                        .WithMany("Reviews")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Product");
-                });
-
             modelBuilder.Entity("Webshop.EntityFramework.Data.ShoppingCart", b =>
                 {
                     b.HasOne("Webshop.EntityFramework.Data.UserData", "User")
@@ -326,8 +291,6 @@ namespace Webshop.EntityFramework.Migrations
             modelBuilder.Entity("Webshop.EntityFramework.Data.Products", b =>
                 {
                     b.Navigation("CartItems");
-
-                    b.Navigation("Reviews");
                 });
 
             modelBuilder.Entity("Webshop.EntityFramework.Data.ShoppingCart", b =>

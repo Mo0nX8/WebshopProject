@@ -34,7 +34,9 @@ namespace Webshop.EntityFramework.Managers.Implementations
 
         public Products GetProduct(int id)
         {
-            return _context.StorageData.FirstOrDefault(p=>p.Id==id);
+            return _context.StorageData
+                .Include(p => p.Reviews)
+                .FirstOrDefault(p=>p.Id==id);
         }
 
         public IQueryable<Products> GetProducts()

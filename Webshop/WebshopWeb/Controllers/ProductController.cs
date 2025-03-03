@@ -118,6 +118,27 @@ namespace WebshopWeb.Controllers
             totalItems= query.Count();
             return query.Skip((pageNumber-1)*pageSize).Take(pageSize);
         }
+        [HttpPost]
+        public IActionResult AddReview(int productId, int rating, string comment)
+        {
+            if (rating < 1 || rating > 5)
+            {
+                return BadRequest("Az értékelésnek 1 és 5 között kell lennie.");
+            }
+
+            var review = new Review
+            {
+                ProductId = productId,
+                Rating = rating,
+                Comment = comment,
+                CreatedAt = DateTime.Now
+            };
+
+            _context.Reviews.Add(review);
+            _context.SaveChanges();
+
+            return RedirectToAction("Details", new { id = productId });
+        }
     }
 }
     

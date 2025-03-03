@@ -25,7 +25,7 @@ namespace WebshopWeb.Initializer
         /// <param name="encryptManager"></param>
         /// <param name="_context"></param>
         /// <param name="path"></param>
-        public static void Seed(IApplicationBuilder applicationBuilder, IUserManager userManager, IEncryptManager encryptManager, GlobalDbContext _context, string path)
+        public static void Seed(IApplicationBuilder applicationBuilder, IUserManager userManager, IEncryptManager encryptManager, GlobalDbContext _context, string path, IConfiguration configuration)
         {
             using(var serviceScope=applicationBuilder.ApplicationServices.CreateScope())
             { 
@@ -35,8 +35,8 @@ namespace WebshopWeb.Initializer
                 if (user is null)
                 {
                     UserData newUser = new UserData();
-                    newUser.EmailAddress = "admin@dxmarket.hu";
-                    newUser.Username = "admin";
+                    newUser.EmailAddress = configuration["Adminuser:Email"];
+                    newUser.Username = configuration["Adminuser:Password"];
                     newUser.IsAdmin = true;
                     newUser.Password = encryptManager.Hash("Admin123");
                     user=newUser; 

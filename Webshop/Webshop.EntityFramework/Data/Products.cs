@@ -21,6 +21,10 @@ namespace Webshop.EntityFramework.Data
             get => string.IsNullOrEmpty(DescriptionSerialized)? new string[0] : JsonConvert.DeserializeObject<string[]>(DescriptionSerialized);
             set =>DescriptionSerialized=JsonConvert.SerializeObject(value);
         }
+        public ICollection<Review> Reviews { get; set; } = new List<Review>();
+
+        [NotMapped]
+        public double AverageRating => Reviews.Any() ? Reviews.Average(r => r.Rating) : 0;
         public byte[] ImageData { get; set; }
         public string MimeType { get; set; }
 

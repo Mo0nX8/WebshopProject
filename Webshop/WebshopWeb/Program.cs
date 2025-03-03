@@ -72,9 +72,10 @@ app.MapControllerRoute(
 using(var scope=app.Services.CreateScope())
 {
     var scopedServices=scope.ServiceProvider;
+    var configuration=scopedServices.GetRequiredService<IConfiguration>();
     var userManager=scopedServices.GetRequiredService<IUserManager>();
     var encryptManager=scopedServices.GetRequiredService<IEncryptManager>();
     var _context = scopedServices.GetRequiredService<GlobalDbContext>();
-    DbInitializer.Seed(app,userManager,encryptManager,_context, Path.Combine(Directory.GetCurrentDirectory(), "Data", "products.json"));
+    DbInitializer.Seed(app,userManager,encryptManager,_context, Path.Combine(Directory.GetCurrentDirectory(), "Data", "products.json"),configuration);
 }
 app.Run();
