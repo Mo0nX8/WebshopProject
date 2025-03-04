@@ -1,0 +1,1039 @@
+be quiet! Pure Rock 2 (BK007)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1500 rpm
+Maximális zajszint	26.8 dB
+Levegőáramlás 	87 CFM
+LED megvilágítás	Nincs
+Méretek	62 x 121 x 155 mm
+Tömeg	575 g
+18 150
+
+be quiet! DARK ROCK PRO 5 (BK036)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	135 mm
+Ventilátor fordulatszáma	1700 rpm
+Maximális zajszint	23.3 dB
+LED megvilágítás	Nincs
+Méretek	145 x 136 x 168 mm
+Tömeg	1290 g
+40 890
+
+be quiet! Pure Rock Slim 2 AMD AM4 (BK030)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	92 mm
+Ventilátor fordulatszáma	2000 rpm
+Maximális zajszint	25.4 dB
+Levegőáramlás 	33.15 CFM
+LED megvilágítás	Nincs
+Méretek	82 x 97 x 135 mm
+Tömeg	385 g
+11 210
+
+be quiet! Dark Rock 5 (BK035)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2100 rpm
+Maximális zajszint	29.8 dB
+Levegőáramlás 	55 CFM
+LED megvilágítás	Nincs
+Méretek	76 x 136 x 161 mm
+Tömeg	1030 g
+28 460 
+
+be quiet! Pure Rock 2 (BK006)
+
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1500 rpm
+Maximális zajszint	26.8 dB
+Levegőáramlás 	87 CFM
+LED megvilágítás	Nincs
+Méretek	88 x 121 x 155 mm
+Tömeg	575 g
+
+be quiet! Dark Rock Elite RGB (BK037)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	135 mm
+Ventilátor fordulatszáma	2000 rpm
+Maximális zajszint	35.4 dB
+Levegőáramlás 	80.2 CFM
+LED megvilágítás	Van
+Méretek	145 x 136 x 168 mm
+Tömeg	1770 g
+
+be quiet! Pure Loop 2 FX 360mm (BW015)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2500 rpm
+Maximális zajszint	34 dB
+Levegőáramlás 	88.86 CFM
+LED megvilágítás	Van
+Méretek	397 x 120 x 27 mm
+Tömeg	1545 g
+63 680 
+
+be quiet! Pure Rock 2 FX 120mm ARGB (BK033)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2000 rpm
+Maximális zajszint	24.4 dB
+Levegőáramlás 	52.3 CFM
+LED megvilágítás	Van
+Méretek	120 x 120 x 25 mm
+Tömeg	685 g
+20 630
+
+be quiet! Silent Loop 2 360mm (BW012)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2800 rpm
+Maximális zajszint	39.8 dB
+Levegőáramlás 	219.99 CFM
+LED megvilágítás	Van
+Méretek	394 x 120 x 52 mm
+Tömeg	1330 g
+81 180
+
+be quiet! Light Loop 360mm ARGB (BW023)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2100 rpm
+Maximális zajszint	34.9 dB
+Levegőáramlás 	105.1 CFM
+LED megvilágítás	Van
+Méretek	397 x 120 x 52 mm
+Tömeg	1480 g
+64 020
+
+be quiet! Dark Rock Slim (BK024)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1500 rpm
+Maximális zajszint	23.6 dB
+LED megvilágítás	Nincs
+Méretek	159.4 x 72 x 127 mm
+Tömeg	620 g
+27 000
+
+be quiet! Pure Loop 2 360mm (BW019)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	12 mm
+Ventilátor fordulatszáma	2100 rpm
+Maximális zajszint	29.1 dB
+Levegőáramlás 	59.6 CFM
+LED megvilágítás	Van
+Méretek	397 x 120 x 52 mm
+Tömeg	36 g
+57 000
+
+be quiet! Shadow Rock LP 120mm (BK002)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1500 rpm
+Maximális zajszint	25.5 dB
+Levegőáramlás 	48.96 CFM
+LED megvilágítás	Nincs
+Méretek	120 x 120 x 25 mm
+Tömeg	390 g
+20 170
+
+be quiet! SILENT LOOP 2 280MM (BW011)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	140 mm
+Ventilátor fordulatszáma	2800 rpm
+Maximális zajszint	36.1 dB
+LED megvilágítás	Van
+Méretek	314 x 140 x 52 mm
+Tömeg	1180 g
+58 110 
+
+be quiet! Silent Loop 2 240mm (BW010)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2200 rpm
+Maximális zajszint	38.3 dB
+Levegőáramlás 	146.6 CFM
+LED megvilágítás	Nincs
+Méretek	274 x 120 x 52 mm
+Tömeg	1050 g
+59 390
+
+be quiet! Pure Rock LP (BK034)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	92 mm
+Ventilátor fordulatszáma	2500 rpm
+Maximális zajszint	30.6 dB
+Levegőáramlás 	33 CFM
+LED megvilágítás	Nincs
+Méretek	92 x 92 x 45 mm
+Tömeg	358 g
+22 140
+
+Cooler Master Masterliquid 240L CORE (MLW-D24M-A17PK-R1)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1750 rpm
+Maximális zajszint	27 dB
+Levegőáramlás 	71.93 CFM
+35 210 
+
+Cooler Master MasterLiquid ML120L RGB V2 (MLW-D12M-A18PC-R2)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1800 rpm
+Maximális zajszint	15 dB
+LED megvilágítás	Van
+Méretek	120 x 120 x 25 mm
+Tömeg	1410 g
+28 340
+
+Cooler Master MASTERLIQUID 360L CORE ARGB Black Triple pack (MLW-D36M-A18PZ-R1)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1750 rpm
+Maximális zajszint	12 dB
+Levegőáramlás 	71.93 CFM
+LED megvilágítás	Van
+Méretek	394 x 119.6 x 27.2 mm
+Tömeg	1800 g
+34 760 
+
+Cooler Master Hyper 212 Black X Duo (RR-S4KK-25DN-R1)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2500 rpm
+Maximális zajszint	32.8 dB
+Levegőáramlás 	70.7 CFM
+LED megvilágítás	Nincs
+Méretek	125 x 103 x 152 mm
+Tömeg	900 g
+17 490
+
+Cooler Master Hyper 212 Black (RR-S4KK-25SN-R1)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2000 rpm
+Maximális zajszint	26 dB
+Levegőáramlás 	42 CFM
+12 147 
+
+Cooler Master MasterLiquid ML360 Illusion CPU (MLX-D36M-A18P2-R1)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1800 rpm
+Maximális zajszint	30 dB
+Levegőáramlás 	47.2 CFM
+LED megvilágítás	Van
+55 140 
+
+Cooler Master MasterAir M824 Stealth (CM-FAN-MAM-D8PN-318PK-R1)
+
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1950 rpm
+Maximális zajszint	24.6 dB
+Levegőáramlás 	63.6 CFM
+LED megvilágítás	Nincs
+Méretek	162.2 x 150.6 x 165.6 mm
+34 940
+
+Cooler Master MASTERLIQUID 240 ATMOS (MLX-D24M-A25PZ-R1)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2500 rpm
+Maximális zajszint	27.2 dB
+Levegőáramlás 	70.7 CFM
+LED megvilágítás	Van
+Méretek	277 x 120 x 52 mm
+59 380
+
+Cooler Master PL240 (MLY-D24M-A23PZ-R1)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2300 rpm
+Maximális zajszint	32 dB
+Levegőáramlás 	72.37 CFM
+LED megvilágítás	Van
+Méretek	277 x 119.6 x 27.2 mm
+33 075 
+
+Cooler Master MA612 (MAP-T6PS-218PA-R1)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1800 rpm
+Maximális zajszint	27 dB
+Levegőáramlás 	62 CFM
+LED megvilágítás	Van
+Méretek	129 x 112.2 x 158 mm
+30 900 
+
+Cooler Master Hyper 212 Halo White (RR-S4WW-20PA-R1)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2050 rpm
+Maximális zajszint	27 dB
+Levegőáramlás 	51.88 CFM
+LED megvilágítás	Van
+Méretek	124 x 154 x 73 mm
+Tömeg	690 g
+21 650
+
+Cooler Master Hyper 622 Halo White Edition (RR-D6WW-20PA-R1)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2050 rpm
+Maximális zajszint	27 dB
+Levegőáramlás 	51.88 CFM
+LED megvilágítás	Van
+Tömeg	1260 g
+24 140 
+
+Cooler Master Masterliquid 240L CORE ARGB White (MLW-D24M-A18PZ-RW)
+
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1750 rpm
+Maximális zajszint	27.2 dB
+Levegőáramlás 	71.93 CFM
+LED megvilágítás	Van
+Méretek	277 x 119.6 x 27.2 mm
+Tömeg	3000 g
+43 310
+
+ASUS ROG RYUJIN 240
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2000 rpm
+Maximális zajszint	29.7 dB
+Levegőáramlás 	121.8 CFM
+LED megvilágítás	Van
+Méretek	272 x 121 x 52 mm
+Tömeg	2500 g
+44 899
+
+ASUS ROG Strix LC II 360 Black (90RC00F0-M0UAY4)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2500 rpm
+Maximális zajszint	37.6 dB
+Levegőáramlás 	80.95 CFM
+LED megvilágítás	Van
+Méretek	394 x 121 x 27 mm
+56 640
+
+ASUS ROG RYUJIN III 360
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	5100 rpm
+Maximális zajszint	36.45 dB
+Levegőáramlás 	71.6 CFM
+LED megvilágítás	Van
+Méretek	400 x 120 x 30 mm
+Tömeg	2400 g
+180 590
+
+ASUS ROG Strix LC III 360 ARGB (90RC00T1-M0UAY0)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2200 rpm
+Maximális zajszint	36 dB
+Levegőáramlás 	70.38 CFM
+LED megvilágítás	Van
+Méretek	394 x 121 x 27 mm
+Tömeg	1627 g
+117 780
+
+ASUS ROG RYUJIN II 360 ARGB (90RC00B1-M0UAY2)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor fordulatszáma	4800 rpm
+Maximális zajszint	36.45 dB
+Levegőáramlás 	70 CFM
+LED megvilágítás	Van
+Tömeg	2900 g
+126 370
+
+ASUS ROG Ryujin III 240 ARGB (90RC00K1-M0UAY0)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2200 rpm
+Maximális zajszint	36.45 dB
+Levegőáramlás 	70.07 CFM
+LED megvilágítás	Van
+Méretek	279.5 x 120 x 30 mm
+Tömeg	2170 g
+123 450
+
+ASUS ROG Strix LC II 240 ARGB (90RC00E1-M0UAY0)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2500 rpm
+Maximális zajszint	37.6 dB
+Levegőáramlás 	80.95 CFM
+LED megvilágítás	Van
+Méretek	121 x 272 x 27 mm
+53 220
+
+ASUS ProArt LC 360 (90RC0120-M0UAY0)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	3000 rpm
+Maximális zajszint	43.5 dB
+Levegőáramlás 	109.88 CFM
+LED megvilágítás	Nincs
+Méretek	120 x 120 x 25 mm
+Tömeg	2780 g
+112 100
+
+ASUS ROG STRIX LC II 240 ARGB White (90RC00E2-M0UAY0)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2500 rpm
+Maximális zajszint	37.6 dB
+Levegőáramlás 	80.95 CFM
+LED megvilágítás	Van
+49 990
+
+ASUS ROG RYUO III 240 ARGB White Edition (90RC00J2-M0UAY0)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2200 rpm
+Maximális zajszint	36 dB
+Levegőáramlás 	70.07 CFM
+LED megvilágítás	Van
+Méretek	399.5 x 120 x 30 mm
+68 880 
+
+ASUS ROG RYUJIN II 360 ARGB Black (90RC00B1-M0UAY0)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2200 rpm
+Maximális zajszint	36.45 dB
+Levegőáramlás 	70 CFM
+LED megvilágítás	Van
+Méretek	394 x 121 x 27 mm
+141 720
+
+Noctua NH-D15 chromax.black (NH-D15.CH.BK)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	140 mm
+Ventilátor fordulatszáma	1500 rpm
+Maximális zajszint	24.6 dB
+Levegőáramlás 	82.5 CFM
+LED megvilágítás	Nincs
+Méretek	150 x 165 x 161 mm
+Tömeg	1320 g
+58 680
+
+Noctua NH-D15 (NOCTUA-FAN-NH-D15)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	140 mm
+Ventilátor fordulatszáma	1500 rpm
+Maximális zajszint	24.6 dB
+Levegőáramlás 	140.2 CFM
+LED megvilágítás	Nincs
+Méretek	165 x 160 x 161 mm
+Tömeg	1320 g
+54 490
+
+Noctua NH-D15-G2
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	140 mm
+Ventilátor fordulatszáma	1500 rpm
+Maximális zajszint	24.8 dB
+Levegőáramlás 	155.6 CFM
+LED megvilágítás	Nincs
+Méretek	168 x 150 x 152 mm
+Tömeg	1525 g
+80 620
+
+Noctua NH-U12S DX-3647
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1500 rpm
+Maximális zajszint	22.4 dB
+Levegőáramlás 	54.97 CFM
+LED megvilágítás	Nincs
+Méretek	158 x 125 x 71 mm
+Tömeg	755 g
+31 690
+
+Noctua NH-U12A Chromax (CPNTU12ACHBK)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2000 rpm
+Maximális zajszint	22.6 dB
+Levegőáramlás 	84.5 CFM
+LED megvilágítás	Nincs
+Méretek	158 x 125 x 112 mm
+Tömeg	1220 g
+61 470
+
+Noctua NH-U12A 120mm
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2000 rpm
+Maximális zajszint	22.6 dB
+Levegőáramlás 	60.9 CFM
+LED megvilágítás	Nincs
+Méretek	158 x 125 x 112 mm
+Tömeg	1220 g
+47 560 
+
+Noctua NH-U9S
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	92 mm
+Ventilátor fordulatszáma	2000 rpm
+Maximális zajszint	22.8 dB
+Levegőáramlás 	62.6 CFM
+LED megvilágítás	Nincs
+Méretek	95 x 125 x 95 mm
+Tömeg	618 g
+31 300 
+
+ARCTIC Liquid Freezer III 360 A-RGB (ACFRE00144A)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2000 rpm
+Maximális zajszint	32.2 dB
+Levegőáramlás 	48.82 CFM
+LED megvilágítás	Van
+Méretek	398 x 120 x 38 mm
+Tömeg	1870 g
+36 977
+
+ARCTIC Liquid Freezer III 360 (ACFRE00136A)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1800 rpm
+Maximális zajszint	32.2 dB
+Levegőáramlás 	56.3 CFM
+LED megvilágítás	Nincs
+Méretek	398 x 120 x 38 mm
+Tömeg	1840 g
+34 780
+
+ARCTIC Freezer 36 ACFRE00123A
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1800 rpm
+Maximális zajszint	36.9 dB
+Levegőáramlás 	48.8 CFM
+LED megvilágítás	Nincs
+Méretek	104 x 126 x 159 mm
+Tömeg	890 g
+19 040
+
+ARCTIC Freezer 34 eSports DUO black/white (ACFRE00061A)
+Típus	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2100 rpm
+Maximális zajszint	28 dB
+Levegőáramlás	135.12 CFM
+LED megvilágítás	nincs
+Méretek	124 x 157 x 103 mm
+Tömeg	764 g
+21 123
+
+ARCTIC Liquid Freezer III 240 (ACFRE00134A)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1800 rpm
+Maximális zajszint	32.2 dB
+Levegőáramlás 	56.3 CFM
+LED megvilágítás	Nincs
+Méretek	277 x 120 x 38 mm
+Tömeg	1460 g
+31 420
+
+ARCTIC Liquid Freezer III 420 (ACFRE00137A)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	140 mm
+Ventilátor fordulatszáma	1700 rpm
+Maximális zajszint	22 dB
+Levegőáramlás 	72.8 CFM
+LED megvilágítás	Nincs
+Méretek	458 x 138 x 38 mm
+Tömeg	450 g
+34 220
+
+ARCTIC Liquid Freezer III 360 A-RGB (ACFRE00152A)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2000 rpm
+Maximális zajszint	32.2 dB
+Levegőáramlás 	146.46 CFM
+LED megvilágítás	Van
+Méretek	398 x 120 x 38 mm
+Tömeg	1870 g
+37 990
+
+ARCTIC Freezer 7 X CO (ACRE00085A)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	92 mm
+Ventilátor fordulatszáma	2000 rpm
+Maximális zajszint	24.5 dB
+Levegőáramlás 	53 CFM
+LED megvilágítás	Nincs
+Méretek	74 x 110 x 132 mm
+Tömeg	425 g
+8 593
+
+ARCTIC Liquid Freezer III 420 ARGB (ACFRE00145A)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	140 mm
+Ventilátor fordulatszáma	1900 rpm
+Maximális zajszint	22 dB
+Levegőáramlás 	69.9 CFM
+LED megvilágítás	Van
+Méretek	458 x 138 x 38 mm
+Tömeg	2325 g
+41 200
+
+ARCTIC Liquid Freezer III 240 ARGB (ACFRE00142A)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2000 rpm
+Maximális zajszint	32.2 dB
+Levegőáramlás 	48.82 CFM
+LED megvilágítás	Van
+Méretek	277 x 120 x 38 mm
+Tömeg	1765 g
+34 920
+
+ARCTIC Liquid Freezer III 280 (ACFRE00135A)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	140 mm
+Ventilátor fordulatszáma	1700 rpm
+Maximális zajszint	32.2 dB
+Levegőáramlás 	69.9 CFM
+LED megvilágítás	Nincs
+Méretek	317 x 138 x 38 mm
+Tömeg	1705 g
+30 730
+
+ARCTIC Freezer 36 A-RGB (ACFRE00125A)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2000 rpm
+Maximális zajszint	23.5 dB
+Levegőáramlás 	97.6 CFM
+LED megvilágítás	Van
+Méretek	104 x 126 x 159 mm
+Tömeg	890 g
+23 610 
+
+ARCTIC Freezer 34 eSports DUO Grey (ACFRE00075A)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2100 rpm
+Maximális zajszint	25 dB
+Levegőáramlás 	135.12 CFM
+LED megvilágítás	Nincs
+Méretek	124 x 157 x 103 mm
+Tömeg	764 g
+21 123
+
+ARCTIC Liquid Freezer III 280 ARGB (ACFRE00151A)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	140 mm
+Ventilátor fordulatszáma	1900 rpm
+Maximális zajszint	32.2 dB
+Levegőáramlás 	69.9 CFM
+LED megvilágítás	Van
+Méretek	317 x 138 x 38 mm
+Tömeg	1765 g
+33 940
+
+ARCTIC Freezer 34 eSports DUO Red (ACFRE00060A)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2100 rpm
+Maximális zajszint	25 dB
+Levegőáramlás 	135.12 CFM
+LED megvilágítás	Nincs
+Méretek	124 x 157 x 103 mm
+Tömeg	764 g
+26 670
+
+Corsair iCUE H150i ELITE CAPELLIX XT (CW-9060070-WW)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2100 rpm
+Maximális zajszint	34.1 dB
+Levegőáramlás 	65.57 CFM
+LED megvilágítás	Van
+Méretek	397 x 120 x 27 mm
+Tömeg	1100 g
+58 690
+
+Corsair iCUE H150i RGB Elite Capellix XT 120mm (CW-9060073-WW)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2100 rpm
+Maximális zajszint	34.1 dB
+Levegőáramlás 	65.57 CFM
+LED megvilágítás	Van
+Méretek	397 x 52 x 120 mm
+Tömeg	1100 g
+
+Corsair iCUE H170i RGB Elite LCD XT (CW-9060076-WW)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	140 mm
+Ventilátor fordulatszáma	1700 rpm
+Maximális zajszint	33.8 dB
+Levegőáramlás 	89 CFM
+LED megvilágítás	Van
+Méretek	450 x 140 x 27 mm
+Tömeg	2030 g
+77 090 
+
+Corsair iCUE H100i ELITE CAPELLIX XT 240mm White (CW-9060072-WW)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2400 rpm
+Maximális zajszint	34.1 dB
+Levegőáramlás 	65.57 CFM
+LED megvilágítás	Van
+Méretek	277 x 120 x 27 mm
+Tömeg	910 g
+36 590
+
+Corsair iCUE H115i Elite RGB 140mm (CW-9060059-WW)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	140 mm
+Ventilátor fordulatszáma	1400 rpm
+Maximális zajszint	19 dB
+Levegőáramlás 	26.5 CFM
+LED megvilágítás	Van
+Méretek	322 x 137 x 27 mm
+Tömeg	1050 g
+39 800
+
+Corsair iCUE H100i ELITE LCD XT (CW-9060074-WW)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2100 rpm
+Maximális zajszint	34.1 dB
+Levegőáramlás 	13.8 CFM
+LED megvilágítás	Van
+Méretek	277 x 120 x 27 mm
+Tömeg	910 g
+142 591
+
+
+Corsair A115 Dual Tower 140mm (CT-9010011-WW)
+
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1600 rpm
+Maximális zajszint	33.9 dB
+Levegőáramlás 	15.3 CFM
+LED megvilágítás	Van
+Méretek	164.8 x 155 x 153 mm
+Tömeg	2200 g
+46 520
+
+Corsair iCUE LINK TITAN RX RGB 280 Black (CW-9061017-WW)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	140 mm
+Ventilátor fordulatszáma	1700 rpm
+Maximális zajszint	10 dB
+Levegőáramlás 	94.7 CFM
+LED megvilágítás	Van
+Méretek	137 x 312 x 145 mm
+66 600
+
+Corsair iCUE LINK TITAN 360 360 RX LCD (CW-9061026-WW)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2100 rpm
+Maximális zajszint	10 dB
+Levegőáramlás 	73.5 CFM
+LED megvilágítás	Van
+Méretek	125 x 396 x 125 mm
+Tömeg	2590 g
+134 518
+
+Corsair Nautilus 360 ARGB (CW-9060095-WW)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1700 rpm
+Maximális zajszint	33.2 dB
+Levegőáramlás 	94.87 CFM
+LED megvilágítás	Van
+Méretek	125 x 396 x 125 mm
+Tömeg	35 g
+
+Corsair iCUE LINK TITAN 360 RX LCD (CW-9061023-WW)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2100 rpm
+Maximális zajszint	36 dB
+Levegőáramlás 	73.5 CFM
+LED megvilágítás	Van
+Méretek	396 x 120 x 27 mm
+Tömeg	2590 g
+137 690
+
+Corsair iCUE LINK H100i RGB White (CW-9061005-WW)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2400 rpm
+Maximális zajszint	37 dB
+Levegőáramlás 	63.1 CFM
+LED megvilágítás	Van
+Tömeg	2140 g
+56 890
+
+Corsair iCUE LINK Titan 240 RX LCD RGB White (CW-9061025-WW)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2100 rpm
+Maximális zajszint	10 dB
+Levegőáramlás 	73.5 CFM
+LED megvilágítás	Van
+Méretek	125 x 275 x 125 mm
+Tömeg	300 g
+90 380
+
+NZXT Kraken Elite 280 RGB Black (RL-KR28E-B1)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	140 mm
+Ventilátor fordulatszáma	1500 rpm
+Maximális zajszint	34.48 dB
+Levegőáramlás 	90.79 CFM
+LED megvilágítás	Van
+Méretek	143 x 315 x 30 mm
+Tömeg	1630 g
+118 880
+
+NZXT Kraken 280 (RL-KN280-B1)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	140 mm
+Ventilátor fordulatszáma	1500 rpm
+Maximális zajszint	32.1 dB
+Levegőáramlás 	99.68 CFM
+Méretek	143 x 315 x 30 mm
+65 660
+
+NZXT Kraken 240 (RL-KN240-B1)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1800 rpm
+Maximális zajszint	30.6 dB
+Levegőáramlás 	78 CFM
+LED megvilágítás	Nincs
+Méretek	123 x 275 x 30 mm
+64 770
+
+NZXT Kraken Elite 360 Black (RL-KN36E-B1)
+
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1800 rpm
+Maximális zajszint	30.6 dB
+Levegőáramlás 	78 CFM
+LED megvilágítás	Van
+Méretek	121 x 394 x 27 mm
+Tömeg	1600 g
+125 730 
+
+NZXT Kraken 280 RGB (RL-KR280-B1)
+
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	140 mm
+Ventilátor fordulatszáma	1500 rpm
+Maximális zajszint	34.48 dB
+Levegőáramlás 	90.79 CFM
+LED megvilágítás	Van
+Méretek	143 x 30 x 315 mm
+Tömeg	52.8 g
+83 060
+
+NZXT T120 (RC-TN120-B1)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2100 rpm
+Maximális zajszint	17.9 dB
+Levegőáramlás 	21.67 CFM
+LED megvilágítás	Nincs
+Méretek	159 x 120 x 66 mm
+20 580
+
+NZXT Kraken 240 RGB White (RL-KR240-W1)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1800 rpm
+Maximális zajszint	30.6 dB
+Levegőáramlás 	78 CFM
+LED megvilágítás	Van
+Méretek	123 x 275 x 30 mm
+Tömeg	52.8 g
+85 330
+
+NZXT Kraken Elite 240 RGB (RL-KR24E-B1)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1500 rpm
+Maximális zajszint	33 dB
+Levegőáramlás 	52.44 CFM
+LED megvilágítás	Van
+Méretek	123 x 275 x 30 mm
+Tömeg	500 g
+109 730
+
+NZXT Kraken Elite 280 Black (RL-KN28E-B1)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	140 mm
+Ventilátor fordulatszáma	1500 rpm
+Maximális zajszint	32.1 dB
+Levegőáramlás 	99.68 CFM
+LED megvilágítás	Van
+Méretek	315 x 143 x 30 mm
+109 730
+
+NZXT Kraken 280 RGB White (RL-KR280-W1)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	140 mm
+Ventilátor fordulatszáma	1500 rpm
+Maximális zajszint	34.5 dB
+Levegőáramlás 	90.79 CFM
+LED megvilágítás	Van
+Méretek	143 x 30 x 315 mm
+Tömeg	1000 g
+88 790
+
+NZXT T120 RGB (RC-TR120-B1)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2100 rpm
+Maximális zajszint	17.2 dB
+Levegőáramlás 	13.94 CFM
+LED megvilágítás	Van
+Méretek	159 x 120 x 66 mm
+23 630
+
+NZXT T120 RGB (RC-TR120-W1)
+Típus 	Aktív hűtő
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2100 rpm
+Maximális zajszint	17.2 dB
+Levegőáramlás 	13.94 CFM
+LED megvilágítás	Van
+Méretek	159 x 120 x 66 mm
+22 860
+
+NZXT Kraken Elite 240 Black (RL-KN24E-B1)
+
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	1800 rpm
+Maximális zajszint	30.6 dB
+Levegőáramlás 	78.02 CFM
+Méretek	123 x 275 x 30 mm
+Tömeg	1310 g
+100 590
+
+NZXT Kraken 120 (RL-KR120-B1)
+Típus 	Folyadékhűtés
+Hűtő típusa	Processzor
+Ventilátor átmérője	120 mm
+Ventilátor fordulatszáma	2000 rpm
+Maximális zajszint	36 dB
+Levegőáramlás 	73.11 CFM
+LED megvilágítás	Van
+35 530
+
+
+
+
+

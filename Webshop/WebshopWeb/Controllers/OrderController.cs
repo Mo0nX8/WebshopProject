@@ -110,7 +110,7 @@ namespace WebshopWeb.Controllers
             int smtpPort = Convert.ToInt32(_config["SmtpSettings:Port"]);
             string senderEmail = _config["SmtpSettings:User"];
             string senderPassword = _config["SmtpSettings:Password"];
-            string recipientEmail = "anakinka2323@gmail.com";
+            string recipientEmail = "sinkasarolta@gmail.com";
 
             string htmlFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "templates", "emailTemplate.html");
             string htmlBody = System.IO.File.ReadAllText(htmlFilePath);
@@ -151,7 +151,7 @@ namespace WebshopWeb.Controllers
                 htmlBody = htmlBody.Replace("{{TOTAL_PRICE}}", totalPrice + " Ft");
 
                 mail.Body = htmlBody;
-
+                    
                 using (SmtpClient smtpClient = new SmtpClient(smtpServer, smtpPort))
                 {
                     smtpClient.Credentials = new NetworkCredential(senderEmail, senderPassword);
