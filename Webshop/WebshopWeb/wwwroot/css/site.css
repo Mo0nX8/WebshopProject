@@ -68,3 +68,9 @@ body {
     width: auto; 
     max-width: 100%; 
 }
+#suggestions-container
+{
+    max-width:500px;
+    margin: auto auto;
+
+}
