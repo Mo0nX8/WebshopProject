@@ -85,7 +85,7 @@
                 @foreach (var product in Model.Products)
                 {
                     <div class="slide">
-                        <a href="@Url.Action("Details", "Product", new { id = product.Id })" class="text-decoration-none">
+                        <a href="@Url.Action("Details", "Product", new {name = Uri.EscapeDataString(product.ProductName.Replace(" ", "-")), id = product.Id })" class="text-decoration-none">
                             <div class="card">
                                 <div class="card-body">
                                     @if (product.ImageData != null && product.ImageData.Length > 0)

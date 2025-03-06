@@ -40,7 +40,7 @@ namespace WebshopWeb.Controllers
             };
             return View(model);
         }
-        public IActionResult Details(int id)
+        public IActionResult Details(string name, int id)
         {
             var product = productManager.GetProduct(id);
             if (product == null)
