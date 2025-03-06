@@ -32,12 +32,15 @@
                 <div class="container">
                     <div class="search-bar">
                         <div class="input-group">
-                            <input type="text" id="search" placeholder="Keresés" alt="Keresés" name="searchValue" class="form-control"/>
+                            <input type="text" id="search" placeholder="Keresés" alt="Keresés" name="searchValue" class="form-control" oninput="searchSuggestion()">
                             <a href="#" onclick="searchProduct()" class="btn btn-outline-secondary"><i class="bi bi-search"></i></a>
+                            
                         </div>
+                        <div id="suggestions-container" class="dropdown-menu" style="width: 100%;"></div>   
                     </div>
                 </div>
                 <script>
+                    var getSearchSuggestionsUrl = '@Url.Action("GetSearchSuggestions", "Product")';
                     function searchProduct()
                     {
                         var searchValue = document.getElementById("search").value;
@@ -116,6 +119,8 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/searchDropdownHandler.js"></script>
+    
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

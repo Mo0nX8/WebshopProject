@@ -158,6 +158,16 @@ namespace WebshopWeb.Controllers
 
             return RedirectToAction("Details", new { id = productId });
         }
+        [HttpGet]
+        public IActionResult GetSearchSuggestions(string searchValue)
+        {
+            var suggestions = productManager.GetProducts()
+                .Where(x => x.ProductName.Contains(searchValue) || x.Tags.Contains(searchValue))
+                .Take(5)
+                .Select(p => new { id = p.Id, productName = p.ProductName, base64Image=p.ImageData !=null ? $"data:image/jpeg;base64,{Convert.ToBase64String(p.ImageData)}" : null })
+                .ToList();
+            return Json(suggestions);
+        }
     }
 }
     
