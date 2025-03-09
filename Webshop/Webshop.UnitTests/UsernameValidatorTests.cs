@@ -28,7 +28,6 @@ namespace Webshop.UnitTests
         {
             var result = _usernameValidator.IsAvailable(null);
 
-            Assert.IsNull(result);
             Assert.AreEqual("Hiba! Nem adtál meg felhasználónevet!", result);
         }
         [Test]
