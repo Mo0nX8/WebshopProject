@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Webshop.EntityFramework.Data;
 using Webshop.EntityFramework.Managers.Interfaces.Cart;
+using Webshop.EntityFramework.Managers.Interfaces.Carts;
 
 namespace Webshop.EntityFramework.Managers.Implementations
 {
@@ -10,25 +11,21 @@ namespace Webshop.EntityFramework.Managers.Implementations
 
     public class CartManager : ICartManager
     {
-        private GlobalDbContext _context;
+        private ICartRepository cartRepository;
 
-        public CartManager(GlobalDbContext context)
+        public CartManager( ICartRepository cartRepository)
         {
-            _context = context;
+            this.cartRepository = cartRepository;
         }
         public void AddCart(ShoppingCart cart)
         {
-            _context.Carts.Add(cart);
-            _context.SaveChanges();
+            cartRepository.AddCart(cart);
         }
 
         public ShoppingCart? GetCart(int? cartId)
         {
             if (cartId == null) return null;
-            return _context.Carts
-                .Include(c => c.CartItems)
-                .ThenInclude(ci => ci.Product)  
-                .FirstOrDefault(c => c.Id == cartId);
+            return cartRepository.GetCart(cartId.Value);
         }
         /// <summary>
         /// This method requires an userId and an integer list as parameters. This method checks if cart not null and add products to the user's cart. 
@@ -37,63 +34,19 @@ namespace Webshop.EntityFramework.Managers.Implementations
         /// <param name="productIds"></param>
         public void AddProductsToCart(int userId, List<int> productIds)
         {
-            var cart = _context.Carts.FirstOrDefault(c => c.UserId == userId);
-
-            if (cart == null)
-            {
-                cart = new ShoppingCart { UserId = userId };
-                _context.Carts.Add(cart);
-                _context.SaveChanges();
-            }
-
-            foreach (var productId in productIds)
-            {
-                var product = _context.StorageData.Find(productId);
-                if (product == null) continue;
-                if (product != null)
-                {
-                    var existingCartItem = _context.CartItems
-                        .FirstOrDefault(ci => ci.CartId == cart.Id && ci.ProductId == productId);
-
-                    if (existingCartItem != null)
-                    {
-                        existingCartItem.Quanity++;
-                    }
-                    else
-                    {
-                        _context.CartItems.Add(new CartItem
-                        {
-                            CartId = cart.Id,
-                            ProductId = productId,
-                            Quanity = 1
-                        });
-                    }
-                }
-            }
-
-            _context.SaveChanges();
+            cartRepository.AddProductsToCart(userId, productIds);
         }
 
         public List<Products> GetProduct(int cartId)
         {
-            var cart = _context.Carts
-                .Include(c => c.CartItems)
-                .ThenInclude(ci => ci.Product) 
-                .FirstOrDefault(x => x.Id == cartId);
-
-            return cart?.CartItems?.Select(ci => ci.Product).ToList() ?? new List<Products>();
+            return cartRepository.GetProducts(cartId);
         }
 
         public void RemoveItemFromCart(int? cartId, int productId)
         {
-            var cart=_context.Carts.FirstOrDefault(x=>x.Id==cartId);
-            var cartItem = _context.CartItems
-                          .FirstOrDefault(ci=>ci.CartId==cartId && ci.ProductId == productId);
-            if (cartItem != null) 
+           if(cartId.HasValue)
             {
-                cart.CartItems.Remove(cartItem);
-                _context.Carts.Update(cart);
-                _context.SaveChanges();
+                cartRepository.RemoveItemFromCart(cartId.Value, productId);
             }
         }
     }
