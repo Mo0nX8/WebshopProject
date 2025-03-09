@@ -13,27 +13,33 @@ namespace Webshop.EntityFramework.Managers.Implementations
     /// </summary>
     public class OrderManager : IOrderManager
     {
-        private GlobalDbContext _dbContext;
+        private IOrderRepository _orderRepository;
 
-        public OrderManager(GlobalDbContext dbContext)
+        public OrderManager(IOrderRepository orderRepository)
         {
-            _dbContext = dbContext;
+            _orderRepository = orderRepository;
         }
 
         public void AddOrder(Orders order)
         {
-            _dbContext.Orders.Add(order);
-            _dbContext.SaveChanges();
+            if(order is not null)
+            {
+                _orderRepository.AddOrder(order);
+            }
+            
         }
         public void RemoveOrder(Orders order)
         {
-            _dbContext.Orders.Remove(order);
-            _dbContext.SaveChanges();
+            if(order is not null)
+            {
+                _orderRepository.RemoveOrder(order);
+            }
+            
         }
 
         public IQueryable<Orders> GetOrders()
         {
-            return _dbContext.Orders.AsQueryable();
+            return _orderRepository.GetOrders();
         }
     }
 }

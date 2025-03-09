@@ -39,6 +39,7 @@ builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<IAuthenticationManager, AuthenticatorService>();
 builder.Services.AddScoped<IEncryptManager, SHA256Encrypter>();
 builder.Services.AddScoped<IUserManager, UserManager>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IOrderManager, OrderManager>();
 builder.Services.AddScoped<ICartRepository, CartRepository>();
 builder.Services.AddScoped<ICartManager, CartManager>();
