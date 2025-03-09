@@ -10,40 +10,50 @@ namespace Webshop.EntityFramework.Managers.Implementations
     /// </summary>
     public class UserManager : IUserManager
     {
-        private readonly GlobalDbContext _context;
+        private IUserRepository _userRepository;
 
-        public UserManager(GlobalDbContext context)
+        public UserManager(IUserRepository userRepository)
         {
-            _context = context;
+            _userRepository = userRepository;
         }
 
         public void AddUser(UserData user)
         {
-            _context.Users.Add(user);
-            _context.SaveChanges();
+            if(user is not null)
+            {
+                _userRepository.AddUser(user);
+            }
         }
 
         public void RemoveUser(UserData user)
         {
-            _context.Users.Remove(user);
-            _context.SaveChanges();
+            if(user is not null)
+            {
+                _userRepository.RemoveUser(user);
+            }
         }
 
         public IQueryable<UserData> GetUsers()
         {
-            return _context.Users.AsQueryable();
+            return _userRepository.GetUsers();
         }
 
         public void UpdateUser(UserData user)
         {
-            _context.Update(user);
-            _context.SaveChanges();
+            if(user is not null)
+            {
+                _userRepository.UpdateUser(user);
+            }
         }
 
         public UserData GetUser(int userId)
         {
-            return _context.Users.FirstOrDefault(x => x.Id == userId)
-                ;
+            if(userId!=null)
+            {
+                return _userRepository.GetUser(userId);
+            }
+            return null;
+                
         }
        
     }
