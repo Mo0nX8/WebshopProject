@@ -84,12 +84,9 @@ using(var scope=app.Services.CreateScope())
     DbInitializer.Seed(app,userManager,encryptManager,_context, Path.Combine(Directory.GetCurrentDirectory(), "Data", "products.json"),configuration);
 }
 
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllerRoute(
-            name: "productDetails",
-            pattern: "Product/Details/{name}/{id}",
-            defaults: new { controller = "Product", action = "Details" });
-});
+app.MapControllerRoute(
+    name: "productDetails",
+    pattern: "Product/Details/{name}/{id}",
+    defaults: new { controller = "Product", action = "Details" });
 
 app.Run();
