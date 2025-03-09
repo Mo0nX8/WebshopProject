@@ -14,34 +14,38 @@ namespace Webshop.EntityFramework.Managers.Implementations
     /// </summary>
     public class ProductManager : IProductManager
     {
-        private GlobalDbContext _context;
+        private IProductRepository _productRepository;
 
-        public ProductManager(GlobalDbContext context)
+        public ProductManager(IProductRepository productRepository)
         {
-            _context = context;
+            _productRepository = productRepository;
         }
 
         public void AddProduct(Products storage)
         {
-            _context.StorageData.Add(storage);
-            _context.SaveChanges();
+            if(storage is not null)
+            {
+                _productRepository.AddProduct(storage);
+            }
         }
 
         public int CountProducts()
         {
-            return _context.StorageData.Count();
+            return _productRepository.CountProducts();
         }
 
         public Products GetProduct(int id)
         {
-            return _context.StorageData
-                .Include(p => p.Reviews)
-                .FirstOrDefault(p=>p.Id==id);
+            if(id!=null)
+            {
+                return _productRepository.GetProduct(id);
+            }
+            return null;
         }
 
         public IQueryable<Products> GetProducts()
         {
-            return _context.StorageData.AsQueryable();
+            return _productRepository.GetProducts();
         }
 
     }

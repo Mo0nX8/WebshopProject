@@ -12,6 +12,12 @@ namespace Webshop.EntityFramework.Managers.Implementations
     public class CartRepository : ICartRepository
     {
         private readonly GlobalDbContext _context;
+
+        public CartRepository(GlobalDbContext context)
+        {
+            _context = context;
+        }
+
         public void AddCart(ShoppingCart cart)
         {
             _context.Carts.Add(cart);

@@ -43,6 +43,7 @@ builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IOrderManager, OrderManager>();
 builder.Services.AddScoped<ICartRepository, CartRepository>();
 builder.Services.AddScoped<ICartManager, CartManager>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductManager, ProductManager>();
 builder.Services.AddScoped<EmailValidator, EmailValidator>();
 builder.Services.AddScoped<PasswordValidator, PasswordValidator>();
