@@ -88,7 +88,7 @@ using(var scope=app.Services.CreateScope())
 
 app.MapControllerRoute(
     name: "productDetails",
-    pattern: "Product/Details/{name}/{id}",
+    pattern: "Termekek/{name}/{id}",
     defaults: new { controller = "Product", action = "Details" });
 
 app.Run();
