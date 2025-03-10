@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Webshop.Authenticator\Webshop.Services.csproj" />
+    <ProjectReference Include="..\Webshop.Authenticator\Webshop.Service.csproj" />
     <ProjectReference Include="..\Webshop.EntityFramework\Webshop.EntityFramework.csproj" />
     <ProjectReference Include="..\WebshopWeb\WebshopWeb.csproj" />
   </ItemGroup>
