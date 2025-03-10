@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Webshop.Services.Interfaces_For_Services;
+using Webshop.Services.Interfaces;
 
 namespace Webshop.Services.Services.Register
 {

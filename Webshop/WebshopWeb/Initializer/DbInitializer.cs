@@ -3,9 +3,8 @@ using System.Text;
 using System.Text.RegularExpressions;
 using Webshop.EntityFramework;
 using Webshop.EntityFramework.Data;
-using Webshop.EntityFramework.Managers.Implementations;
-using Webshop.EntityFramework.Managers.Interfaces.User;
-using Webshop.Services.Interfaces_For_Services;
+using Webshop.EntityFramework.Managers.User;
+using Webshop.Services.Interfaces;
 
 namespace WebshopWeb.Initializer
 {

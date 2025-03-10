@@ -1,19 +1,16 @@
-using Microsoft.EntityFrameworkCore;
-using Newtonsoft.Json;
 using System.Text.Json;
-using Webshop.Authenticator.Services.Authenticator;
-using Webshop.Authenticator.Services.Encrypt;
 using Webshop.EntityFramework;
-using Webshop.EntityFramework.Data;
-using Webshop.EntityFramework.Managers.Implementations;
-using Webshop.EntityFramework.Managers.Interfaces;
-using Webshop.EntityFramework.Managers.Interfaces.Cart;
-using Webshop.EntityFramework.Managers.Interfaces.Carts;
-using Webshop.EntityFramework.Managers.Interfaces.Order;
-using Webshop.EntityFramework.Managers.Interfaces.Product;
-using Webshop.EntityFramework.Managers.Interfaces.User;
-using Webshop.Services.Interfaces_For_Services;
-using Webshop.Services.Services.Validators.Implementations;
+using Webshop.EntityFramework.Managers.Carts;
+using Webshop.EntityFramework.Managers.Order;
+using Webshop.EntityFramework.Managers.Product;
+using Webshop.EntityFramework.Managers.Reviews;
+using Webshop.EntityFramework.Managers.User;
+using Webshop.Services.Interfaces;
+using Webshop.Services.Services.Authentication;
+using Webshop.Services.Services.OrderService;
+using Webshop.Services.Services.ProductService;
+using Webshop.Services.Services.Security;
+using Webshop.Services.Services.Validators;
 using WebshopWeb.Initializer;
 
 
@@ -36,7 +33,7 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-builder.Services.AddScoped<IAuthenticationManager, AuthenticatorService>();
+builder.Services.AddScoped<IAuthenticationManager, AuthenticationService>();
 builder.Services.AddScoped<IEncryptManager, SHA256Encrypter>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserManager, UserManager>();
@@ -52,6 +49,11 @@ builder.Services.AddScoped<UsernameValidator , UsernameValidator>();
 builder.Services.AddScoped<IValidationManager, EmailValidator>();
 builder.Services.AddScoped<IValidationManager, PasswordValidator>();
 builder.Services.AddScoped<IValidationManager, UsernameValidator>();
+
+builder.Services.AddScoped<IProductServices, ProductService>();
+builder.Services.AddScoped<IOrderServices, OrderServices>();
+builder.Services.AddScoped<IReviewRepository, ReviewRepository>();
+builder.Services.AddScoped<IReviewManager, ReviewManager>();
 
 var app = builder.Build();
 

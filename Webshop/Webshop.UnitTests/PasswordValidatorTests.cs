@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Webshop.Services.Services.Validators.Implementations;
+using Webshop.Services.Services.Validators;
 
 namespace Webshop.UnitTests
 {

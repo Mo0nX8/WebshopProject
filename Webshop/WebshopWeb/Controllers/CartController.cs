@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Webshop.EntityFramework.Data;
-using Webshop.EntityFramework.Managers.Interfaces.Cart;
+using Webshop.EntityFramework.Managers.Carts;
 using Webshop.EntityFramework.Migrations;
-using Webshop.Services.Interfaces_For_Services;
+using Webshop.Services.Interfaces;
 
 namespace WebshopWeb.Controllers
 {

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Webshop.Authenticator.Services.Encrypt;
-using Webshop.Services.Interfaces_For_Services;
+﻿using Webshop.Services.Services.Security;
 
 namespace Webshop.UnitTests
 {

@@ -2,10 +2,10 @@
 using Microsoft.EntityFrameworkCore;
 using Webshop.EntityFramework;
 using Webshop.EntityFramework.Data;
-using Webshop.EntityFramework.Managers.Interfaces.Cart;
-using Webshop.EntityFramework.Managers.Interfaces.User;
-using Webshop.Services.Interfaces_For_Services;
-using Webshop.Services.Services.Validators.Implementations;
+using Webshop.EntityFramework.Managers.Carts;
+using Webshop.EntityFramework.Managers.User;
+using Webshop.Services.Interfaces;
+using Webshop.Services.Services.Validators;
 
 namespace WebshopWeb.Controllers
 {

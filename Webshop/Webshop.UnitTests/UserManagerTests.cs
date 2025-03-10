@@ -5,8 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Webshop.EntityFramework.Data;
-using Webshop.EntityFramework.Managers.Implementations;
-using Webshop.EntityFramework.Managers.Interfaces.User;
+using Webshop.EntityFramework.Managers.User;
 
 namespace Webshop.UnitTests
 {

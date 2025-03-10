@@ -1,14 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using Webshop.Authenticator.Services.Authenticator;
 using Webshop.EntityFramework.Data;
-using Webshop.EntityFramework.Managers.Interfaces.User;
-using Webshop.Services.Interfaces_For_Services;
+using Webshop.EntityFramework.Managers.User;
+using Webshop.Services.Interfaces;
+using Webshop.Services.Services.Authentication;
 
 namespace Webshop.UnitTests
 {
@@ -18,7 +14,7 @@ namespace Webshop.UnitTests
         private Mock<IHttpContextAccessor> _mockHttpContextAccessor;
         private Mock<IUserManager> _mockUserManager;
         private Mock<IEncryptManager> _mockEncryptManager;
-        private AuthenticatorService _service;
+        private AuthenticationService _service;
 
         [SetUp]
         public void Setup()
@@ -30,7 +26,7 @@ namespace Webshop.UnitTests
             var sessionMock= new Mock<ISession>();
             _mockHttpContextAccessor.Setup(x=>x.HttpContext.Session).Returns(sessionMock.Object);
 
-            _service = new AuthenticatorService(
+            _service = new AuthenticationService(
                 _mockHttpContextAccessor.Object,
                 _mockEncryptManager.Object,
                 _mockUserManager.Object

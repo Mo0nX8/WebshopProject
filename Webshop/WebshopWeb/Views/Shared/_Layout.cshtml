@@ -1,4 +1,4 @@
-﻿@using Webshop.Authenticator.Services.Authenticator
+﻿@using Webshop.Services.Services
 
 @{
     var cartId = Context.Session.GetInt32("CartId");
@@ -14,9 +14,9 @@
     <title>@ViewData["Title"] - DXMarket</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
-    
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    
+
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/WebshopWeb.styles.css" asp-append-version="true" />
 </head>
@@ -28,15 +28,35 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">DxMarket</a>
-                <a class="navbar-brand" asp-area="" asp-controller="Product" asp-action="Index">Termékek</a>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                        Termékek
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="@Url.Action("Search", "Product", new { searchValue = "hardver" })">Alkatrészek</a>
+                            <ul class="dropdown-menu submenu">
+                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="alaplap" })">Alaplapok</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="processzor" })">Processzorok</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "Videókártya" })">Videokártyák</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "Memória" })">Memória</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "Tápegység" })">Tápegységek</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "gépház" })">Házak</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "periféria" })">Perifériák</a></li>
+                        <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "kábel" })">Kábelek</a></li>
+                    </ul>
+                </div>
+
                 <div class="container">
                     <div class="search-bar">
                         <div class="input-group">
                             <input type="text" id="search" placeholder="Keresés" alt="Keresés" name="searchValue" class="form-control" oninput="searchSuggestion()">
                             <a href="#" onclick="searchProduct()" class="btn btn-outline-secondary"><i class="bi bi-search"></i></a>
-                            
+
                         </div>
-                        <div id="suggestions-container" class="dropdown-menu" style="width: 100%;"></div>   
+                        <div id="suggestions-container" class="dropdown-menu" style="width: 100%;"></div>
                     </div>
                 </div>
                 <script>
@@ -46,21 +66,34 @@
                         var searchValue = document.getElementById("search").value;
                         window.location.href = '@Url.Action("Search", "Product")' + '?searchValue=' + encodeURIComponent(searchValue);
                     }
+                                     document.addEventListener("DOMContentLoaded", function() {
+                        var elektronikaDropdown = document.querySelector(".dropdown-submenu");
+                        var elektronikaMenu = elektronikaDropdown.querySelector(".dropdown-menu");
+
+                       
+                        elektronikaDropdown.addEventListener("mouseenter", function() {
+                            elektronikaMenu.classList.add("show");
+                        });
+
+                        elektronikaDropdown.addEventListener("mouseleave", function() {
+                            elektronikaMenu.classList.remove("show");
+                        });
+                    });
                 </script>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-               
-               
-               
-                <div class="collapse navbar-collapse" id="navbarNav" >
-                        <div class="dropdown ms-auto" >
+
+
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="dropdown ms-auto">
                         <a href=@Url.Action("Index","Cart")><button class="btn btn-secondary" id="CartButton" style="background-color:red"><i class="bi bi-cart"></i></button></a>
                         <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" style="background-color:red"><i class="bi bi-person"></i></button>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
 
-                            @if(authenticated=="True")
+                            @if (authenticated == "True")
                             {
                                 <li><a href=@Url.Action("PersonalData", "Home", new {userId=userId}) class="navbar-brand"><button class="dropdown-item" type="button">Személyes adatok</button></a></li>
                                 <li><a href=@Url.Action("MyOrders", "Home", new {userId=userId}) class="navbar-brand"><button class="dropdown-item" type="button">Rendeléseim</button></a></li>
@@ -75,14 +108,14 @@
                         </ul>
                     </div>
                 </div>
-              
+
             </div>
         </nav>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
-            
+
         </main>
         @if (IsSectionDefined("Pagination"))
         {
@@ -91,36 +124,27 @@
             </div>
         }
     </div>
-    
+
 
     <footer class="border-top footer text-muted">
-        <div class="container d-flex justify-content-center align-items-center">
-            <a href=@Url.Action("aszf","Home")>ÁSZF</a>
-            @*<div class="col align-items-end">
-                <div class="row">
-                    <div class="col-sm">
-                        <a href="https://www.ipon.hu/" target="_blank">Ipon</a>
-                        <img src="~/images/icons/ipon.ico" alt="Ipon" class="responsive-image ml-2">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm">
-
-                        <a href="https://www.arukereso.hu/" target="_blank">Árukereső</a>
-                        <img src="~/images/icons/arukereso.ico" alt="Árukereső" class="responsive-image ml-2">
-                    </div>
-                </div>
-
-            </div>*@
-            
-        </div>
+       <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-8">
+                   <a href=@Url.Action("aszf","Home")>ÁSZF</a>
+               </div>
+                <div class="col-2">
+                    <a href="https://www.arukereso.hu/">Árukereső</a>
+                    <a href="https://ipon.hu">Ipon</a>
+               </div>
+           </div>
+       </div>
 
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="~/js/searchDropdownHandler.js"></script>
-    
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

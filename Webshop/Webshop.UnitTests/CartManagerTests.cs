@@ -1,13 +1,6 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using Moq;
-using NUnit.Framework;
-using Microsoft.EntityFrameworkCore;
+﻿using Moq;
 using Webshop.EntityFramework.Data;
-using Webshop.EntityFramework.Managers.Implementations;
-using Webshop.EntityFramework.Managers.Interfaces.Cart;
-using Webshop.EntityFramework;
-using Webshop.EntityFramework.Managers.Interfaces.Carts;
+using Webshop.EntityFramework.Managers.Carts;
 
 namespace Webshop.UnitTests
 {

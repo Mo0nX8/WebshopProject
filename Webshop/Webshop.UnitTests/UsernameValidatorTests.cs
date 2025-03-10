@@ -5,8 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Webshop.EntityFramework.Data;
-using Webshop.EntityFramework.Managers.Interfaces.User;
-using Webshop.Services.Services.Validators.Implementations;
+using Webshop.EntityFramework.Managers.User;
+using Webshop.Services.Services.Validators;
 
 namespace Webshop.UnitTests
 {

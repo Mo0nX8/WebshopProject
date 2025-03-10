@@ -3,8 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using System.Buffers;
 using Webshop.EntityFramework;
 using Webshop.EntityFramework.Data;
-using Webshop.EntityFramework.Managers.Interfaces.Cart;
-using Webshop.EntityFramework.Managers.Interfaces.Product;
+using Webshop.EntityFramework.Managers.Carts;
+using Webshop.EntityFramework.Managers.Product;
+using Webshop.EntityFramework.Managers.Reviews;
+using Webshop.Services.Interfaces;
 using Webshop.Services.Services.ViewModel;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
@@ -16,12 +18,16 @@ namespace WebshopWeb.Controllers
         private List<Products> products;
         private IProductManager productManager;
         private ICartManager cartManager;
+        private IProductServices productServices;
+        private IReviewManager reviewManager;
 
-        public ProductController(GlobalDbContext context, IProductManager productManager, ICartManager cartManager)
+        public ProductController(GlobalDbContext context, IProductManager productManager, ICartManager cartManager, IProductServices productServices, IReviewManager reviewManager)
         {
             this._context = context;
             this.productManager = productManager;
             this.cartManager = cartManager;
+            this.productServices = productServices;
+            this.reviewManager = reviewManager;
         }
 
         public IActionResult Index(int pageNumber = 1, int pageSize = 30)
@@ -101,40 +107,7 @@ namespace WebshopWeb.Controllers
         }
         public IQueryable<Products> ApplyFilterAndSearchForPagination(IQueryable<Products> query, string searchValue, int? minPrice, int? maxPrice, int pageNumber, int pageSize, out int totalItems, string sortOrder)
         {
-            if (!string.IsNullOrEmpty(searchValue))
-            {
-                query = query
-                     .Where(x => EF.Functions.Collate(x.ProductName, "Latin1_General_CI_AI")
-                    .Contains(searchValue.ToLower()) || x.Tags.Any(t => EF.Functions.Collate(t, "Latin1_General_CI_AI")
-                    .Contains(searchValue.ToLower())));
-            }
-            if (minPrice.HasValue)
-            {
-                query = query.Where(p => p.Price >= minPrice.Value);
-            }
-            if (maxPrice.HasValue)
-            {
-                query = query.Where(p => p.Price <= maxPrice.Value);
-            }
-            if(sortOrder is not null)
-            {
-                switch (sortOrder)
-            {
-                case "name_asc":
-                    query = query.OrderBy(p => p.ProductName);
-                    break;
-                case "name_desc":
-                    query = query.OrderByDescending(p => p.ProductName);
-                    break;
-                case "price_asc":
-                    query = query.OrderBy(p => p.Price);
-                    break;
-                case "price_desc":
-                    query = query.OrderByDescending(p => p.Price);
-                    break;
-            }
-            }
-            totalItems= query.Count();
+            query=productServices.ApplyFilterAndSearchForPagination(query,searchValue,minPrice,maxPrice,pageNumber,pageSize, out totalItems, sortOrder); 
             return query.Skip((pageNumber-1)*pageSize).Take(pageSize);
         }
         [HttpPost]
@@ -152,10 +125,9 @@ namespace WebshopWeb.Controllers
                 Comment = comment,
                 CreatedAt = DateTime.Now
             };
-
-            _context.Reviews.Add(review);
-            _context.SaveChanges();
-
+            
+           
+            reviewManager.AddReview(review);
             return RedirectToAction("Details", new { id = productId });
         }
         [HttpGet]

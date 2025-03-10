@@ -1,7 +1,6 @@
 ﻿using Moq;
 using Webshop.EntityFramework.Data;
-using Webshop.EntityFramework.Managers.Implementations;
-using Webshop.EntityFramework.Managers.Interfaces.Product;
+using Webshop.EntityFramework.Managers.Product;
 
 namespace Webshop.UnitTests
 {

@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Webshop.EntityFramework.Data;
-using Webshop.EntityFramework.Managers.Interfaces.Cart;
-using Webshop.EntityFramework.Managers.Interfaces.User;
-using Webshop.Services.Interfaces_For_Services;
+using Webshop.EntityFramework.Managers.Carts;
+using Webshop.EntityFramework.Managers.User;
+using Webshop.Services.Interfaces;
 
 namespace Webshop.Services.Services.Register
 {
-    public class RegisterService : IRegisterService
+    public class RegisterService 
     {
         private readonly IValidationManager emailValidator;
         private readonly IValidationManager usernameValidator;
@@ -28,56 +28,85 @@ namespace Webshop.Services.Services.Register
             this.cartManager = cartManager;
             this.encryptManager = encryptManager;
         }
-        public ValidationResultModel ValidateEmail(string email) 
+        public string ValidateEmail(string email)
         {
-            var result=new ValidationResultModel();
+            var result = "";
             string emailValidatorResult = emailValidator.IsAvailable(email);
-            if (emailValidatorResult != "200") 
+            if (emailValidatorResult != "200")
             {
-                result.AddError(emailValidatorResult);
+                result = emailValidatorResult;
             }
             return result;
         }
-        public ValidationResultModel ValidateUsername(string username)
+        public string ValidateUsername(string username)
         {
-            var result = new ValidationResultModel();
+            var result = "";
             string usernameValidatorResult = usernameValidator.IsAvailable(username);
             if (usernameValidatorResult != "200")
             {
-                result.AddError(usernameValidatorResult);
+                result = usernameValidatorResult;
             }
             return result;
         }
-        public ValidationResultModel ValidatePassword(string password1, string password2)
+        public string ValidatePassword(string password1, string password2)
         {
-            var result = new ValidationResultModel();
-            if(password1!=password2)
+            var result = "";
+            if (password1 != password2)
             {
-                result.AddError("A két jelszó nem egyezik!");
+                result = "A két jelszó nem egyezik!";
             }
             string passwordValidatorResult = passwordValidator.IsAvailable(password1);
             if (passwordValidatorResult != "200")
             {
-                result.AddError(passwordValidatorResult);
+                result = passwordValidatorResult;
             }
             return result;
         }
-        public bool RegisterUser(string email, string password, string username)
-        {
-            UserData user = new UserData()
-            {
-                Username = username,
-                Password = encryptManager.Hash(password),
-                EmailAddress = email
-            };
-            userManager.AddUser(user);
-            ShoppingCart cart = new ShoppingCart()
-            {
-                UserId = user.Id,
-                CartItems = new List<CartItem>()
-            };
-            cartManager.AddCart(cart);
-            return true;
-        }
+        //public bool TryRegister(string username, string email, string password1, string password2)
+        //{
+
+        //    string emailResponseCode = ValidateEmail(email);
+        //    string usernameResponseCode = usernameValidator.IsAvailable(username);
+        //    string passwordResponseCode = "";
+        //    if (password1 == password2)
+        //    {
+        //        passwordResponseCode = passwordValidator.IsAvailable(password1);
+        //    }
+        //    else
+        //    {
+        //        passwordResponseCode = "A két jelszó nem egyezik!";
+        //        ModelState.AddModelError("Password", passwordResponseCode);
+        //    }
+        //    if (emailResponseCode != "200")
+        //    {
+        //        ModelState.AddModelError("EmailAddress", emailResponseCode);
+        //    }
+        //    if (usernameResponseCode != "200")
+        //    {
+        //        ModelState.AddModelError("Username", usernameResponseCode);
+        //    }
+        //    if (ModelState.ErrorCount > 1)
+        //    {
+        //        return View("Register");
+        //    }
+
+        //    UserData user = new UserData()
+        //    {
+        //        Username = username,
+        //        EmailAddress = email,
+        //        Password = encryptManager.Hash(password1)
+        //    };
+
+        //    userManager.AddUser(user);
+        //    ShoppingCart cart = new ShoppingCart()
+        //    {
+        //        UserId = user.Id,
+        //        CartItems = new List<CartItem>()
+        //    };
+        //    cartManager.AddCart(cart);
+
+        //    return RedirectToAction("Login");
+
+        //}
     }
 }

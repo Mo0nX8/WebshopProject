@@ -3,14 +3,14 @@ using System.Net;
 using System.Net.Mail;
 using Webshop.EntityFramework;
 using Webshop.EntityFramework.Data;
-using Webshop.EntityFramework.Managers.Interfaces.Cart;
-using Webshop.EntityFramework.Managers.Interfaces.Order;
-using Webshop.EntityFramework.Managers.Interfaces.Product;
-using Webshop.EntityFramework.Managers.Interfaces.User;
 using System.IO;
 using System.Text;
 using Microsoft.AspNetCore.Hosting;
 using System.Net.Mime;
+using Webshop.EntityFramework.Managers.Carts;
+using Webshop.EntityFramework.Managers.Order;
+using Webshop.EntityFramework.Managers.User;
+using Webshop.EntityFramework.Managers.Product;
 
 namespace WebshopWeb.Controllers
 {

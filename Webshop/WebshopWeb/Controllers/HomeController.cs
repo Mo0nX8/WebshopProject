@@ -1,24 +1,23 @@
 using Microsoft.AspNetCore.Mvc;
-using Webshop.EntityFramework.Managers.Interfaces.User;
-using Webshop.Services.Services.ViewModel;
-using Webshop.EntityFramework.Data;
 using Webshop.EntityFramework;
-using Webshop.Services.Interfaces_For_Services;
-using Webshop.EntityFramework.Managers.Interfaces.Order;
-using Microsoft.EntityFrameworkCore;
-using Webshop.EntityFramework.Managers.Implementations;
-using Webshop.EntityFramework.Managers.Interfaces.Product;
+using Webshop.EntityFramework.Managers.Order;
+using Webshop.EntityFramework.Managers.Product;
+using Webshop.EntityFramework.Managers.User;
+using Webshop.Services.Interfaces;
+using Webshop.Services.Services.ViewModel;
 
 public class HomeController : Controller
 {
     private readonly IUserManager userManager;
     private readonly IAuthenticationManager authenticationManager;
     private readonly GlobalDbContext context;
+    private readonly IOrderServices orderServices;
+    private readonly IProductServices productServices;
     private IEncryptManager encryptManager;
     private IOrderManager orderManager;
     private IProductManager productManager;
 
-    public HomeController(IAuthenticationManager authenticationManager, IUserManager userManager, GlobalDbContext context, IEncryptManager encryptManager, IOrderManager orderManager, IProductManager productManager)
+    public HomeController(IAuthenticationManager authenticationManager, IUserManager userManager, GlobalDbContext context, IEncryptManager encryptManager, IOrderManager orderManager, IProductManager productManager, IOrderServices orderServices, IProductServices productServices)
     {
         this.authenticationManager = authenticationManager;
         this.userManager = userManager;
@@ -26,26 +25,20 @@ public class HomeController : Controller
         this.encryptManager = encryptManager;
         this.orderManager = orderManager;
         this.productManager = productManager;
+        this.orderServices = orderServices;
+        this.productServices = productServices;
     }
 
     public IActionResult Index()
     {
         var totalItems = productManager.CountProducts();
-        Random random = new Random();
-        var skipCount=random.Next(0,totalItems);
-        var products = productManager.GetProducts()
-            .OrderBy(p=>Guid.NewGuid())
-            .Where(p=>p.Price!=0)
-            .Skip(skipCount)
-            .Take(15)
-            .ToList();
+        var products = productServices.GetRandomProducts(totalItems);
 
         var model = new ProductFilterViewModel
         {
             Products = products,
             TotalItems = totalItems
         };
-        ViewBag.IsAuthenticated=true;
         return View(model);
     }
 
@@ -131,15 +124,7 @@ public class HomeController : Controller
     public IActionResult MyOrders()
     {
         var userId = HttpContext.Session.GetInt32("UserId");
-        var orders=orderManager.GetOrders()
-            .Where(x => x.UserId == userId)
-            .Include(x => x.OrderItems)
-            .ThenInclude(oi => oi.Product)
-            .ToList();
-        if (orders is null)
-        {
-            orders = new List<Orders>();
-        }
+        var orders = orderServices.GetOrders(userId.Value);
         return View(orders);
     }
     public IActionResult aszf()
