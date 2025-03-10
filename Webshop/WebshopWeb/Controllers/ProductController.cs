@@ -1,6 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System.Buffers;
+﻿
+using Microsoft.AspNetCore.Mvc;
 using Webshop.EntityFramework;
 using Webshop.EntityFramework.Data;
 using Webshop.EntityFramework.Managers.Carts;
@@ -8,14 +7,12 @@ using Webshop.EntityFramework.Managers.Product;
 using Webshop.EntityFramework.Managers.Reviews;
 using Webshop.Services.Interfaces;
 using Webshop.Services.Services.ViewModel;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace WebshopWeb.Controllers
 {
     public class ProductController : Controller
     {
         private GlobalDbContext _context;
-        private List<Products> products;
         private IProductManager productManager;
         private ICartManager cartManager;
         private IProductServices productServices;
@@ -33,7 +30,7 @@ namespace WebshopWeb.Controllers
         public IActionResult Index(int pageNumber = 1, int pageSize = 30)
         {
             var totalItems = productManager.CountProducts();
-            products = _context.StorageData
+            var products = _context.StorageData
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .ToList();

@@ -23,8 +23,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Webshop.Authenticator\Webshop.Service.csproj" />
     <ProjectReference Include="..\Webshop.EntityFramework\Webshop.EntityFramework.csproj" />
+	<ProjectReference Include="..\Webshop.Services\Webshop.Services.csproj"/>
   </ItemGroup>
 
 </Project>

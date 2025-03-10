@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 	  <OutputType>Library</OutputType>
 	  <OutputPath>$(ProjectDir)</OutputPath>
-	  <AssemblyName>DbLib</AssemblyName>
+	  <AssemblyName>DbLibrary</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
