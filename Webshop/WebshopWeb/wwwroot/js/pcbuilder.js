@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 function populateSelect(selectId, data) {
     let select = document.getElementById(selectId);
-    select.innerHTML = ''; 
+    select.innerHTML = 'Válassz terméket'; 
     data.forEach(item => {
         let option = document.createElement("option");
         option.value = item.id;
