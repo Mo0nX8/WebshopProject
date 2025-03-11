@@ -98,22 +98,22 @@ namespace Webshop.Services.Services.Compatibility
                 .Where(x => x.Id == motherboardId)
                 .Select(y => y.Tags)
                 .FirstOrDefault();
-            IQueryable<Products> compatibleQuery = query;
+            IQueryable<Products> compatibleQuery = query.Where(p=>false);
             foreach (var tag in motherboardTags)
             {
                 switch (tag)
                 {
                     case "AM4":
-                        compatibleQuery = compatibleQuery.Where(p => p.Tags.Any(y => y.Contains("memória") && p.Tags.Any(x => x.Contains("ddr4"))));
+                        compatibleQuery = compatibleQuery.Concat(query.Where(p => p.Tags.Any(y => y.Contains("memória") && p.Tags.Any(x => x.Contains("ddr4")))));
                         break;
                     case "AM5":
-                        compatibleQuery = compatibleQuery.Where(p => p.Tags.Any(y => y.Contains("memória") && p.Tags.Any(x => x.Contains("ddr5"))));
+                        compatibleQuery = compatibleQuery.Concat(query.Where(p => p.Tags.Any(y => y.Contains("memória") && p.Tags.Any(x => x.Contains("ddr5")))));
                         break;
                     case "socket 1700":
-                        compatibleQuery = compatibleQuery.Where(p => p.Tags.Any(y => y.Contains("memória") && p.Tags.Any(x => x.Contains("ddr5"))));
+                        compatibleQuery = compatibleQuery.Concat(query.Where(p => p.Tags.Any(y => y.Contains("memória") && p.Tags.Any(x => x.Contains("ddr5")))));
                         break;
                     case "Socket 1851":
-                        compatibleQuery = compatibleQuery.Where(p => p.Tags.Any(y => y.Contains("memória") && p.Tags.Any(x => x.Contains("ddr5"))));
+                        compatibleQuery = compatibleQuery.Concat(query.Where(p => p.Tags.Any(y => y.Contains("memória") && p.Tags.Any(x => x.Contains("ddr5")))));
                         break;
                 }
             }

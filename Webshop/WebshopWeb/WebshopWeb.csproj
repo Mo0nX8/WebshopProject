@@ -24,7 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Webshop.EntityFramework\Webshop.EntityFramework.csproj" />
-	<ProjectReference Include="..\Webshop.Services\Webshop.Services.csproj"/>
+	<ProjectReference Include="..\Webshop.Services\Webshop.Services.csproj" />
   </ItemGroup>
 
 </Project>
