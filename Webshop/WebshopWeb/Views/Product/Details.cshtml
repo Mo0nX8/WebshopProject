@@ -21,7 +21,7 @@
 
         @if (Model.Price != 0)
         {
-            <p><strong></strong> @Model.Price Ft</p>
+            <p><strong></strong> @Model.Price.ToString("N0") Ft</p>
         }
 
         @foreach (var desc in Model.Description)

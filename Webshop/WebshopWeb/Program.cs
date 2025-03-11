@@ -7,6 +7,7 @@ using Webshop.EntityFramework.Managers.Reviews;
 using Webshop.EntityFramework.Managers.User;
 using Webshop.Services.Interfaces;
 using Webshop.Services.Services.Authentication;
+using Webshop.Services.Services.Compatibility;
 using Webshop.Services.Services.OrderService;
 using Webshop.Services.Services.ProductService;
 using Webshop.Services.Services.Security;
@@ -21,6 +22,7 @@ builder.Services.AddControllersWithViews()
     .AddJsonOptions(options =>
     {
         options.JsonSerializerOptions.PropertyNamingPolicy=JsonNamingPolicy.CamelCase;
+        options.JsonSerializerOptions.WriteIndented = true;
     });
 
 builder.Services.AddDbContext<GlobalDbContext>();
@@ -54,6 +56,7 @@ builder.Services.AddScoped<IProductServices, ProductService>();
 builder.Services.AddScoped<IOrderServices, OrderServices>();
 builder.Services.AddScoped<IReviewRepository, ReviewRepository>();
 builder.Services.AddScoped<IReviewManager, ReviewManager>();
+builder.Services.AddScoped<ICompatibilityService, CompatibilityService>();
 
 var app = builder.Build();
 
