@@ -15842,7 +15842,7 @@
       "Tömeg: 1050 g"
     ]
   },
-  
+
   {
     "ProductName": "Cooler Master MA612 (MAP-T6PS-218PA-R1)",
     "Quanity": "1",
@@ -19061,5 +19061,490 @@
       "DVD: nincs",
       "CD: nincs"
     ]
-  }
+  },
+  {
+    "ProductName": "IPHONE LIGHTNING-USB 3.0 KÁBEL (AK-USB-30) 1M (FEHÉR)",
+    "Quanity": "1",
+    "Price": "649",
+    "Tags": [ "kábel", "USB", "Lightning", "töltő", "adatkábel" ],
+    "Description": [
+      "1. csatlakozó: Aljzat",
+      "2. Csatlakozó: Micro-USB B/Lightning",
+      "USB szabvány: USB2.0",
+      "Hossz: 1m",
+      "Szín: Fehér",
+      "Tanúsítványok: CE, RoHS, REACH"
+    ]
+  },
+  {
+    "ProductName": "Akyga USB A-B nyomtató kábel, 3m - AK-USB-12",
+    "Quanity": "1",
+    "Price": "1099",
+    "Tags": [ "kábel", "USB", "nyomtató", "adatkábel" ],
+    "Description": [
+      "1. csatlakozó: Dugó",
+      "2. csatlakozó: Dugó",
+      "USB szabvány: USB2.0",
+      "Hossz: 3m",
+      "Szín: Fekete",
+      "Fenntarthatósági tanúsítvány: RoHS"
+    ]
+  },
+  {
+    "ProductName": "Gembird USB-C - USB 2.0 A M/M adatkábel 1m fekete CCP-USB2-AMCM-1M",
+    "Quanity": "1",
+    "Price": "599",
+    "Tags": [ "kábel", "USB", "USB-C", "töltő", "adatkábel" ],
+    "Description": [
+      "1. csatlakozó: USB-A",
+      "2. csatlakozó: USB-C",
+      "USB szabvány: USB2.0",
+      "Hossz: 1m",
+      "Szín: Fekete",
+      "Formátum: Aranyozott"
+    ]
+  },
+  {
+    "ProductName": "XIAOMI adatkábel (USB - Type-C, 6A, PD gyorstöltő, 100cm) FEHÉR BHR6032GL",
+    "Quanity": "1",
+    "Price": "3999",
+    "Tags": [ "kábel", "USB", "USB-C", "töltő", "gyorstöltő" ],
+    "Description": [
+      "1. csatlakozó: USB-A",
+      "2. csatlakozó: USB-C",
+      "Bemeneti áram (max.): 6A",
+      "Hossz: 1m",
+      "Szín: Fehér",
+      "Kábelköpeny anyaga: TPE"
+    ]
+  },
+  {
+    "ProductName": "Delight 2m fehér USB Type-C adatkábel 55550WH-2",
+    "Quanity": "1",
+    "Price": "1299",
+    "Tags": [ "kábel", "USB", "USB-C", "töltő", "adatkábel" ],
+    "Description": [
+      "1. csatlakozó: USB-A",
+      "2. csatlakozó: USB-C",
+      "USB szabvány: USB2.0",
+      "Hossz: 2m",
+      "Szín: Fehér"
+    ]
+  },
+  {
+    "ProductName": "BASEUS CAFULE USB Type-C 100W 2m adatkábel és töltő (CATKLF-AL91)",
+    "Quanity": "1",
+    "Price": "3099",
+    "Tags": [ "kábel", "USB", "USB-C", "töltő", "adatkábel" ],
+    "Description": [
+      "1. csatlakozó: USB-C",
+      "2. csatlakozó: USB Type-C",
+      "Formátum: Aranyozott",
+      "Funkció: Adatátvitel, töltés",
+      "Hossz: 2m",
+      "Szín: Fekete-piros",
+      "USB kategória: USB 2.0"
+    ]
+  },
+  {
+    "ProductName": "Gembird 3-portos video switch fekete DSW-HDMI-35",
+    "Quanity": "1",
+    "Price": "3599",
+    "Tags": [ "HDMI", "video switch", "elosztó" ],
+    "Description": [
+      "1. csatlakozó: HDMI",
+      "2. csatlakozó: HDMI",
+      "HDMI bemenet: 3",
+      "Portok száma: 3 db",
+      "Szín: Fekete"
+    ]
+  },
+  {
+    "ProductName": "Gembird A-HDMI-VGA-04 fekete HDMI - VGA adapter",
+    "Quanity": "1",
+    "Price": "1800",
+    "Tags": [ "HDMI", "VGA", "adapter", "videó átalakító" ],
+    "Description": [
+      "1. csatlakozó: HDMI anya",
+      "2. csatlakozó: VGA anya/apa",
+      "Csatlakozás 1.: HDMI",
+      "Csatlakozás 2.: VGA",
+      "HDTV Standard: FullHD",
+      "Jelleg: Adapter Cable",
+      "Szín: Fekete"
+    ]
+  },
+  {
+    "ProductName": "Vention DisplayPort/M - HDMI/F adapter",
+    "Quanity": "1",
+    "Price": "1800",
+    "Tags": [ "DisplayPort", "HDMI", "adapter", "videó átalakító" ],
+    "Description": [
+      "1. csatlakozó: DisplayPort",
+      "2. csatlakozó: HDMI aljzat",
+      "Felbontás: 1080p 60Hz",
+      "Szín: Fekete"
+    ]
+  },
+  {
+    "ProductName": "GEMBIRD HDMI Elosztó, 2 portos DSP-2PH4-04",
+    "Quanity": "1",
+    "Price": "1800",
+    "Tags": [ "HDMI", "elosztó", "video splitter", "adapter" ],
+    "Description": [
+      "1. csatlakozó: HDMI",
+      "2. csatlakozó: HDMI aljzat",
+      "Csatlakozás 1.: HDMI",
+      "Csatlakozás 2.: 2xHDMI",
+      "HDMI bemenet: 1",
+      "HDMI kimenet: 2",
+      "HDTV Standard: FullHD",
+      "Szín: Fekete"
+    ]
+  },
+  {
+    "ProductName": "Gembird Cablexpert DisplayPort male - VGA female adapter (A-DPM-VGAF-02)",
+    "Quanity": "1",
+    "Price": "1499",
+    "Tags": [ "DisplayPort", "VGA", "adapter", "videó átalakító" ],
+    "Description": [
+      "1. csatlakozó: DisplayPort apa",
+      "2. csatlakozó: VGA anya",
+      "Csatlakozás 1.: DisplayPort",
+      "Csatlakozás 2.: VGA",
+      "HDTV Standard: FullHD",
+      "Szín: Fekete"
+    ]
+  },
+  {
+    "ProductName": "Vention HDMI/M (90fokos) - HDMI/F (4K, fekete), adapter",
+    "Quanity": "1",
+    "Price": "538",
+    "Tags": [ "HDMI", "adapter", "90 fokos", "4K" ],
+    "Description": [
+      "Felbontás: 4K60Hz",
+      "Kialakítás: 90 fokos vég",
+      "Szín: Fekete"
+    ]
+  },
+  {
+    "ProductName": "Vention mini HDMI/M - HDMI/F (4K, fekete), adapter",
+    "Quanity": "1",
+    "Price": "538",
+    "Tags": [ "Mini HDMI", "HDMI", "adapter", "4K" ],
+    "Description": [
+      "Felbontás: 4K60Hz",
+      "Szín: Fekete"
+    ]
+  },
+  {
+    "ProductName": "Gembird Cablexpert HDMI - VGA adapter single port + audio (A-HDMI-VGA-03)",
+    "Quanity": "1",
+    "Price": "1800",
+    "Tags": [ "HDMI", "VGA", "adapter", "videó átalakító", "audio" ],
+    "Description": [
+      "Csatlakozás 1.: HDMI",
+      "Csatlakozás 2.: VGA",
+      "HDTV Standard: FullHD",
+      "Jelleg: Adapter Cable",
+      "Kábel hosszúság: 15 cm",
+      "Szín: Fekete"
+    ]
+  },
+  {
+    "ProductName": "Vention HDMI/F - RCA (fekete), konverter",
+    "Quanity": "1",
+    "Price": "5799",
+    "Tags": [ "HDMI", "RCA", "konverter", "adapter" ],
+    "Description": [
+      "Szín: Fekete",
+      "Végpont 1: HDMI",
+      "Végpont 2: RCA"
+    ]
+  },
+  {
+    "ProductName": "GEMBIRD Adapter VGA + audio - HDMI M/F, aktív (A-VGA-HDMI-01)",
+    "Quanity": "1",
+    "Price": "4399",
+    "Tags": [ "VGA", "HDMI", "adapter", "audio", "aktív átalakító" ],
+    "Description": [
+      "1. csatlakozó: 3,5mm jack anya, USB 2.0 apa, VGA apa",
+      "2. csatlakozó: HDMI anya",
+      "HDTV Standard: FullHD",
+      "Kábel hosszúság: 0,15 m",
+      "Szín: Fekete",
+      "Formátum: Aranyozott"
+    ]
+  },
+  {
+    "ProductName": "Delight 55448B iPhone Lightning - USB Type-C ezüst adapter",
+    "Quanity": "1",
+    "Price": "618",
+    "Tags": [ "Lightning", "USB-C", "adapter", "iPhone" ],
+    "Description": [
+      "1. csatlakozó: Lightning",
+      "2. csatlakozó: USB-C",
+      "USB szabvány: USB 2.0",
+      "Szín: Ezüst"
+    ]
+  },
+  {
+    "ProductName": "ADA Akyga AK-AD-62 USB Type-C / Jack 3.5mm adapter",
+    "Quanity": "1",
+    "Price": "1400",
+    "Tags": [ "USB-C", "Jack 3.5mm", "adapter", "audio" ],
+    "Description": [
+      "1. csatlakozó: USB Type-C",
+      "2. csatlakozó: Jack 3.5 mm",
+      "Csatlakozó érintkezők burkolása: Nikkel",
+      "Készülékház anyaga: ABS",
+      "Szín: Fekete"
+    ]
+  },
+  {
+    "ProductName": "Gembird Lightning - USB Type-C M/F adapter fekete (A-USB-CF8PM-01)",
+    "Quanity": "1",
+    "Price": "458",
+    "Tags": [ "Lightning", "USB-C", "adapter" ],
+    "Description": [
+      "1. csatlakozó: USB-C",
+      "2. csatlakozó: Lightning",
+      "Formátum: Aranyozott",
+      "Szín: Fekete"
+    ]
+  },
+  {
+    "ProductName": "ADAPTER USB-C/M - USB-A/F, Gembird",
+    "Quanity": "1",
+    "Price": "419",
+    "Tags": [ "USB-C", "USB-A", "adapter", "USB 3.0" ],
+    "Description": [
+      "1. csatlakozó: USB-C apa",
+      "2. csatlakozó: USB-A anya",
+      "USB szabvány: USB 3.0",
+      "Szín: Fekete"
+    ]
+  },
+  {
+    "ProductName": "Gembird Cablexpert USB 3.1 - USB-C adapter (A-USB3-AMCF-01)",
+    "Quanity": "1",
+    "Price": "1499",
+    "Tags": [ "USB-A", "USB-C", "adapter", "USB 3.1" ],
+    "Description": [
+      "1. csatlakozó: USB-A",
+      "2. csatlakozó: USB-C",
+      "Formátum: Aranyozott",
+      "USB szabvány: USB 3.1",
+      "Kábel hosszúság: 10 cm",
+      "Szín: Fekete"
+    ]
+  },
+  {
+    "ProductName": "UGREEN AV143 Jack 3.5 mm - USB-C AUX kábel 1m fekete-szürke (30633)",
+    "Quanity": "1",
+    "Price": "1899",
+    "Tags": [ "Jack 3.5mm", "USB-C", "AUX kábel" ],
+    "Description": [
+      "1. csatlakozó: Jack 3.5 mm",
+      "2. csatlakozó: USB-C",
+      "Kábel hosszúság: 1m",
+      "Szín: Fekete-szürke"
+    ]
+  },
+  {
+    "ProductName": "VCOM NP611B-15.0 15m szürke CAT6 UTP patch kábel",
+    "Quanity": "1",
+    "Price": "2499",
+    "Tags": [ "RJ45", "CAT6", "UTP", "patch kábel" ],
+    "Description": [
+      "1. csatlakozó: RJ45 apa",
+      "2. csatlakozó: RJ45 apa",
+      "Kábel hosszúság: 15m",
+      "Szín: Szürke",
+      "Formátum: Aranyozott"
+    ]
+  },
+  {
+    "ProductName": "Gembird CAT6 UTP Patch kábel 30m szürke (PP6U-30M)",
+    "Quanity": "1",
+    "Price": "3599",
+    "Tags": [ "RJ45", "CAT6", "UTP", "patch kábel" ],
+    "Description": [
+      "1. csatlakozó: RJ45",
+      "2. csatlakozó: RJ45",
+      "Kábel hosszúság: 30m",
+      "Szín: Szürke",
+      "Árnyékolás: U-UTP",
+      "Formátum: Aranyozott"
+    ]
+  },
+  {
+    "ProductName": "Gembird Cablexpert UTP CAT5e patch kábel 5m szürke (PP12-5M)",
+    "Quanity": "1",
+    "Price": "569",
+    "Tags": [ "RJ45", "CAT5e", "UTP", "patch kábel" ],
+    "Description": [
+      "1. csatlakozó: RJ45",
+      "2. csatlakozó: RJ45",
+      "Kábel hosszúság: 5m",
+      "Szín: Szürke",
+      "Árnyékolás: U-UTP"
+    ]
+  },
+  {
+    "ProductName": "Gembird CAT6 UTP M/M adatkábel 15m szürke (PP6U-15M)",
+    "Quanity": "1",
+    "Price": "1899",
+    "Tags": [ "UTP", "CAT6", "patch kábel" ],
+    "Description": [
+      "1. csatlakozó: UTP",
+      "2. csatlakozó: UTP",
+      "Kábel hosszúság: 15m",
+      "Szín: Szürke",
+      "Árnyékolás: U-UTP"
+    ]
+  },
+  {
+    "ProductName": "Gembird UTP CAT6 patch kábel 20m szürke (PP6U-20M)",
+    "Quanity": "1",
+    "Price": "2299",
+    "Tags": [ "RJ45", "CAT6", "UTP", "patch kábel" ],
+    "Description": [
+      "1. csatlakozó: RJ45",
+      "2. csatlakozó: RJ45",
+      "Kábel hosszúság: 20m",
+      "Szín: Szürke",
+      "Árnyékolás: U-UTP",
+      "Típus: Ethernet kábel"
+    ]
+  },
+  {
+    "ProductName": "Gembird RJ45 CAT5e UTP M / M adatkábel 0.5m sárga (PP12-0.5M/Y)",
+    "Quanity": "1",
+    "Price": "210",
+    "Tags": [ "RJ45", "CAT5e", "UTP", "patch kábel" ],
+    "Description": [
+      "1. csatlakozó: RJ45 apa",
+      "2. csatlakozó: RJ45 apa",
+      "Kábel hosszúság: 0.5m",
+      "Szín: Sárga",
+      "Árnyékolás: U-UTP"
+    ]
+  },
+  {
+    "ProductName": "VALUE Tápkábel Hálózati, Europlug - C7, 1,8m, fekete (19.99.2096-100)",
+    "Quanity": "1",
+    "Price": "1400",
+    "Tags": [ "Tápkábel", "Europlug", "C7", "hálózati kábel" ],
+    "Description": [
+      "1. csatlakozó: Euro tápcsatlakozó",
+      "2. csatlakozó: C7 (IEC320)",
+      "Kábel hosszúság: 1.8m",
+      "Szín: Fekete"
+    ]
+  },
+  {
+    "ProductName": "Akyga 1,5m PC tápkábel (AK-PC-01A)",
+    "Quanity": "1",
+    "Price": "809",
+    "Tags": [ "Tápkábel", "Schuko", "IEC C13", "hálózati kábel" ],
+    "Description": [
+      "1. csatlakozó: Schuko",
+      "2. csatlakozó: IEC C13",
+      "Kábel hosszúság: 1.5m",
+      "Szín: Fekete"
+    ]
+  },
+  {
+    "ProductName": "Akyga PC 3m IEC C13 - CEE 7/7 tápkábel (AK-PC-06A)",
+    "Quanity": "1",
+    "Price": "1699",
+    "Tags": [ "Tápkábel", "Schuko", "IEC C13", "hálózati kábel" ],
+    "Description": [
+      "1. csatlakozó: CEE7/7",
+      "2. csatlakozó: IEC C13",
+      "Kábel hosszúság: 3m",
+      "Szín: Fekete",
+      "Tanúsítványok: CE, RoHS, REACH"
+    ]
+  },
+  {
+    "ProductName": "Gembird PC-189-VDE-3M C14 - C13 M/F 3m fekete tápkábel",
+    "Quanity": "1",
+    "Price": "1999",
+    "Tags": [ "Tápkábel", "C14", "C13", "IEC320" ],
+    "Description": [
+      "1. csatlakozó: C13 (IEC320)",
+      "2. csatlakozó: C14 (IEC320)",
+      "Kábel hosszúság: 3m",
+      "Szín: Fekete"
+    ]
+  },
+  {
+    "ProductName": "Gembird USB 2.0 HUB 4 portos fekete (UHB-U2P4-04)",
+    "Quanity": "1",
+    "Price": "1400",
+    "Tags": [ "USB HUB", "USB 2.0", "4 portos" ],
+    "Description": [
+      "USB 2.0",
+      "Portok száma: 4",
+      "Szín: Fekete"
+    ]
+  },
+  {
+    "ProductName": "Gembird UHB-U3P1U2P3-02 USB3x1/USB2x3 4-portos ezüst USB HUB",
+    "Quanity": "1",
+    "Price": "1899",
+    "Tags": [ "USB HUB", "USB 3.1", "USB 2.0", "4 portos" ],
+    "Description": [
+      "USB 3.1 és USB 2.0 kombináció",
+      "Portok száma: 4",
+      "Szín: Ezüst"
+    ]
+  },
+  {
+    "ProductName": "Gembird A-CM-COMBO2-01 3-portos USB-C hub szürke",
+    "Quanity": "1",
+    "Price": "5298",
+    "Tags": [ "USB HUB", "USB-C", "3 portos", "Multiport" ],
+    "Description": [
+      "USB-C csatolófelület",
+      "Portok száma: 3 (USB-A)",
+      "Szín: Szürke"
+    ]
+  },
+  {
+    "ProductName": "Axagon HUE-M1AL 4 portos USB3.2 Gen 1 mini hub",
+    "Quanity": "1",
+    "Price": "5698",
+    "Tags": [ "USB HUB", "USB 3.2", "4 portos", "mini hub" ],
+    "Description": [
+      "USB 3.2 Gen 1",
+      "Portok száma: 4 (Type A)",
+      "Szín: Fekete"
+    ]
+  },
+  {
+    "ProductName": "GEMBIRD USB 3.1 HUB Switchelhető 7 portos, fekete (UHB-U3P7P-01)",
+    "Quanity": "1",
+    "Price": "6899",
+    "Tags": [ "USB HUB", "USB 3.1", "7 portos", "Switchelhető" ],
+    "Description": [
+      "USB 3.1",
+      "Portok száma: 7",
+      "Szín: Fekete"
+    ]
+  },
+  {
+    "ProductName": "Axagon HMC-5G2 5-portos USB3.2 Gen2x1 C USB3.0 HDMI hub ezüst",
+    "Quanity": "1",
+    "Price": "15199",
+    "Tags": [ "USB HUB", "USB 3.2", "USB-C", "HDMI", "5 portos" ],
+    "Description": [
+      "USB 3.2 Gen2x1",
+      "HDMI kimenet: 4K30Hz",
+      "Portok száma: 5",
+      "Szín: Ezüst"
+    ]
+  },
 ]
