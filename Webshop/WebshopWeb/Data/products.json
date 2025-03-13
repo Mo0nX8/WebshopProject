@@ -1408,7 +1408,7 @@
     "ProductName": "SteelSeries QcK XXL (67500)",
     "Quanity": "1",
     "Price": "20000",
-    "Tags": [ "egérpad","egyéb" ],
+    "Tags": [ "egérpad", "egyéb" ],
     "Description": [
       "szélesség:900 mm",
       "mélység:400 mm",
@@ -2530,7 +2530,7 @@
     "ProductName": "Edifier R1280DB 2.0 Aktív hangfal",
     "Quanity": "1",
     "Price": "38999",
-    "Tags": [ "hangfal", "aktív","periféria" ],
+    "Tags": [ "hangfal", "aktív", "periféria" ],
     "Description": [
       "Típus: 2.0",
       "RMS teljesítmény: 42 W",
@@ -2918,7 +2918,7 @@
     "ProductName": "Pioneer DJ DDJ-FLX10 DJ Kontroller",
     "Quanity": "1",
     "Price": "657000",
-    "Tags": [ "Pioneer DJ", "AlphaTheta", "DJ Kontroller"],
+    "Tags": [ "Pioneer DJ", "AlphaTheta", "DJ Kontroller" ],
     "Description": [
       "Csatornák száma: 4",
       "Méret: 716 x 400.3 x 73.4 mm"
@@ -2948,7 +2948,7 @@
     "ProductName": "Pioneer DJ DDJ-REV1 Kontroller",
     "Quanity": "1",
     "Price": "123400",
-    "Tags": [ "Pioneer DJ", "AlphaTheta"],
+    "Tags": [ "Pioneer DJ", "AlphaTheta" ],
     "Description": [
       "Működési elv: USB",
       "Csatornák száma: 2",
@@ -3119,7 +3119,7 @@
     "ProductName": "Pioneer DJ OPUS-QUAD DJ Kontroller",
     "Quanity": "1",
     "Price": "1436900",
-    "Tags": [ "Pioneer DJ", "AlphaTheta"],
+    "Tags": [ "Pioneer DJ", "AlphaTheta" ],
     "Description": [
       "Gyártó: Pioneer DJ & Alphatheta",
       "Működési elv: Standalone / USB",
@@ -6025,7 +6025,7 @@
     "ProductName": "Cooler Master G600 600W 80 PLUS Gold (MPW-6001-ACAAG)",
     "Quanity": "1",
     "Price": "26100",
-    "Tags": [ "Cooler Master", "G600", "600W", "80 PLUS Gold",  "tápegység", "hardver" ],
+    "Tags": [ "Cooler Master", "G600", "600W", "80 PLUS Gold", "tápegység", "hardver" ],
     "Description": [
       "Gyártó: Cooler Master",
       "Típus: G600",
@@ -6043,7 +6043,7 @@
     "ProductName": "Cooler Master MWE Bronze V2 750W 80 PLUS Bronze (MPE-7501-ACABW)",
     "Quanity": "1",
     "Price": "29980",
-    "Tags": [ "Cooler Master", "MWE Bronze V2", "750W", "80 PLUS Bronze","tápegység", "hardver" ],
+    "Tags": [ "Cooler Master", "MWE Bronze V2", "750W", "80 PLUS Bronze", "tápegység", "hardver" ],
     "Description": [
       "Gyártó: Cooler Master",
       "Típus: MWE Bronze V2",
@@ -6067,7 +6067,7 @@
     "ProductName": "Cooler Master ELITE NEX 700W 80 PLUS (MPW-7001-ACBW-B)",
     "Quanity": "1",
     "Price": "25411",
-    "Tags": [ "Cooler Master", "ELITE NEX", "700W", "80 PLUS","tápegység", "hardver" ],
+    "Tags": [ "Cooler Master", "ELITE NEX", "700W", "80 PLUS", "tápegység", "hardver" ],
     "Description": [
       "Gyártó: Cooler Master",
       "Típus: ELITE NEX",
@@ -6085,7 +6085,7 @@
     "ProductName": "Cooler Master G700W 80 PLUS Gold (MPW-7001-ACAAG)",
     "Quanity": "1",
     "Price": "31495",
-    "Tags": [ "Cooler Master", "G700W", "700W", "80 PLUS Gold",  "tápegység", "hardver" ],
+    "Tags": [ "Cooler Master", "G700W", "700W", "80 PLUS Gold", "tápegység", "hardver" ],
     "Description": [
       "Gyártó: Cooler Master",
       "Típus: G700W",
@@ -6150,7 +6150,7 @@
     "ProductName": "Cooler Master MWE White V2 700W 80 PLUS (MPE-7001-ACABW-EU)",
     "Quanity": "1",
     "Price": "27990",
-    "Tags": [ "Cooler Master", "MWE White V2", "700W", "80 PLUS",  "tápegység", "hardver" ],
+    "Tags": [ "Cooler Master", "MWE White V2", "700W", "80 PLUS", "tápegység", "hardver" ],
     "Description": [
       "Gyártó: Cooler Master",
       "Típus: MWE White V2",
@@ -6174,7 +6174,7 @@
     "ProductName": "Akyga Basic 500W (AK-B1-500E)",
     "Quanity": "1",
     "Price": "7810",
-    "Tags": [ "Akyga", "Basic", "500W", "80 PLUS",  "tápegység", "hardver" ],
+    "Tags": [ "Akyga", "Basic", "500W", "80 PLUS", "tápegység", "hardver" ],
     "Description": [
       "Gyártó: Akyga",
       "Típus: Basic 500W",
@@ -6198,7 +6198,7 @@
     "ProductName": "CHIEFTEC VALUE 400W (APB-400B8)",
     "Quanity": "1",
     "Price": "14101",
-    "Tags": [ "CHIEFTEC", "VALUE", "400W", "80 PLUS",  "tápegység", "hardver" ],
+    "Tags": [ "CHIEFTEC", "VALUE", "400W", "80 PLUS", "tápegység", "hardver" ],
     "Description": [
       "Gyártó: CHIEFTEC",
       "Típus: VALUE 400W",
@@ -6222,7 +6222,7 @@
     "ProductName": "Akyga Basic 400W (AK-B1-400)",
     "Quanity": "1",
     "Price": "7390",
-    "Tags": [ "Akyga", "Basic", "400W", "80 PLUS",  "tápegység", "hardver" ],
+    "Tags": [ "Akyga", "Basic", "400W", "80 PLUS", "tápegység", "hardver" ],
     "Description": [
       "Gyártó: Akyga",
       "Típus: Basic 400W",
@@ -6246,7 +6246,7 @@
     "ProductName": "LC-Power Office Series LC420H-12 V1.3 420W",
     "Quanity": "1",
     "Price": "14655",
-    "Tags": [ "LC-Power", "Office Series", "420W", "80 PLUS",  "tápegység", "hardver" ],
+    "Tags": [ "LC-Power", "Office Series", "420W", "80 PLUS", "tápegység", "hardver" ],
     "Description": [
       "Gyártó: LC-Power",
       "Típus: Office Series LC420H-12",
@@ -6269,7 +6269,7 @@
     "ProductName": "nBase N-Power 500W",
     "Quanity": "1",
     "Price": "10330",
-    "Tags": [ "nBase", "N-Power", "500W", "80 PLUS",  "tápegység", "hardver" ],
+    "Tags": [ "nBase", "N-Power", "500W", "80 PLUS", "tápegység", "hardver" ],
     "Description": [
       "Gyártó: nBase",
       "Típus: N-Power 500W",
@@ -13485,7 +13485,7 @@
     "ProductName": "GIGABYTE GeForce RTX 3060 GAMING OC V2 8GB GDDR6 128bit (GV-N3060GAMING OC-8GD 2.0)",
     "Quanity": "1",
     "Price": "123650",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 3060", "8GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 3060", "8GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 3060",
@@ -13520,7 +13520,7 @@
     "ProductName": "GIGABYTE GeForce RTX 3060 GAMING OC 12GB GDDR6 192bit (GV-N3060GAMING OC-12GD)",
     "Quanity": "1",
     "Price": "137390",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 3060", "12GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 3060", "12GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 3060",
@@ -13555,7 +13555,7 @@
     "ProductName": "GIGABYTE GeForce RTX 3060 GAMING 8G GDDR6 OC (N3060GAMING OC-8GD)",
     "Quanity": "1",
     "Price": "126850",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 3060", "8GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 3060", "8GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 3060",
@@ -13590,7 +13590,7 @@
     "ProductName": "GIGABYTE GeForce TURBO RTX 3080 10GB GDDR6X 320bit LHR (GV-N3080TURBO-10GD 2.0)",
     "Quanity": "1",
     "Price": "533900",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 3080", "10GB", "GDDR6X", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 3080", "10GB", "GDDR6X", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 3080",
@@ -13616,7 +13616,7 @@
     "ProductName": "ASUS GeForce RTX 4060 Dual EVO OC 8GB GDDR6 128bit (DUAL-RTX4060-O8G-EVO/90YV0JC7-M0NA00)",
     "Quanity": "1",
     "Price": "138330",
-    "Tags": [ "ASUS", "GeForce", "RTX 4060", "8GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "ASUS", "GeForce", "RTX 4060", "8GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 4060",
@@ -13651,7 +13651,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4060 EAGLE OC 8G (GV-N4060EAGLE OC-8GD)",
     "Quanity": "1",
     "Price": "142090",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060", "8GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060", "8GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 4060",
@@ -13686,7 +13686,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4060 WINDFORCE OC 8G (GV-N4060WF2OC-8GD)",
     "Quanity": "1",
     "Price": "138480",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 4060",
@@ -13723,7 +13723,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4060 GAMING OC 8GB GDDR6 (N4060GAMING OC-8GD)",
     "Quanity": "1",
     "Price": "146940",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 4060",
@@ -13758,7 +13758,7 @@
     "ProductName": "MSI GeForce RTX 4060 VENTUS 2X Black OC 8GB GDDR6 128bit (V516-004R)",
     "Quanity": "1",
     "Price": "140020",
-    "Tags": [ "MSI", "GeForce", "RTX 4060", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "MSI", "GeForce", "RTX 4060", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 4060",
@@ -13796,7 +13796,7 @@
     "ProductName": "ASUS ProArt GeForce RTX 4060 OC 8GB GDDR6 128bit (PROART-RTX4060-O8G/90YV0JM0-M0NA00)",
     "Quanity": "1",
     "Price": "154901",
-    "Tags": [ "ASUS", "ProArt", "GeForce", "RTX 4060", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "ASUS", "ProArt", "GeForce", "RTX 4060", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 4060",
@@ -13833,7 +13833,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4060 OC Low Profile 8G (GV-N4060OC-8GL)",
     "Quanity": "1",
     "Price": "146960",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060", "OC Low Profile", "8G", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060", "OC Low Profile", "8G", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -13864,7 +13864,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4060 AERO OC 8G (GV-N4060AERO OC-8GD)",
     "Quanity": "1",
     "Price": "157890",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060", "AERO OC", "8G", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060", "AERO OC", "8G", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -13895,7 +13895,7 @@
     "ProductName": "ASUS GeForce RTX 4060 Dual Evo White OC 8GB GDDR6 (DUAL-RTX4060-O8G-EVO-WHITE)",
     "Quanity": "1",
     "Price": "143710",
-    "Tags": [ "ASUS", "GeForce", "RTX 4060", "Dual Evo White OC", "8GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "ASUS", "GeForce", "RTX 4060", "Dual Evo White OC", "8GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -13926,7 +13926,7 @@
     "ProductName": "ASUS GeForce RTX 4060 DUAL 8GB GDDR6 OC V2 (DUAL-RTX4060-O8G-V2/90YV0JC4-M0NB00)",
     "Quanity": "1",
     "Price": "143600",
-    "Tags": [ "ASUS", "GeForce", "RTX 4060", "DUAL OC V2", "8GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "ASUS", "GeForce", "RTX 4060", "DUAL OC V2", "8GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -13957,7 +13957,7 @@
     "ProductName": "MSI GeForce RTX 4060 VENTUS 2X WHITE OC 8GB GDDR6 128bit (V516-030R/V516-032R)",
     "Quanity": "1",
     "Price": "141929",
-    "Tags": [ "MSI", "GeForce", "RTX 4060", "8GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "MSI", "GeForce", "RTX 4060", "8GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -13994,7 +13994,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4060 D6 8G (GV-N4060D6-8GD)",
     "Quanity": "1",
     "Price": "135890",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060", "8GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060", "8GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -14030,7 +14030,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4060 EAGLE OC ICE 8GB GDDR6 128bit (GV-N4060EAGLEOC ICE-8GD)",
     "Quanity": "1",
     "Price": "153360",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060", "8GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060", "8GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -14066,7 +14066,7 @@
     "ProductName": "ASUS GeForce RTX 4060 LP BRK OC 8GB GDDR6 (RTX4060-O8G-LP-BRK/90YV0JL0-M0NA00)",
     "Quanity": "1",
     "Price": "159360",
-    "Tags": [ "ASUS", "GeForce", "RTX 4060", "8GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "ASUS", "GeForce", "RTX 4060", "8GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -14102,7 +14102,7 @@
     "ProductName": "MSI GeForce RTX 4060 AERO ITX OC 8GB GDDR6 128bit (V812-012R)",
     "Quanity": "1",
     "Price": "149360",
-    "Tags": [ "MSI", "GeForce", "RTX 4060", "8GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "MSI", "GeForce", "RTX 4060", "8GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -14134,7 +14134,7 @@
     "ProductName": "ASUS TUF Gaming GeForce RTX 4060 Ti Dual OC EVO 8GB GDDR6 128bit (DUAL-RTX4060TI-O8G-EVO/90YV0J49-M0NA00)",
     "Quanity": "1",
     "Price": "211240",
-    "Tags": [ "ASUS", "TUF Gaming", "GeForce", "RTX 4060 Ti", "8GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "ASUS", "TUF Gaming", "GeForce", "RTX 4060 Ti", "8GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -14165,7 +14165,7 @@
     "ProductName": "ASUS TUF Gaming GeForce RTX 4060 Ti OC 8GB GDDR6 128bit (TUF-RTX4060TI-O8G-GAMING/90YV0J50-M0NA00)",
     "Quanity": "1",
     "Price": "224800",
-    "Tags": [ "ASUS", "TUF Gaming", "GeForce", "RTX 4060 Ti", "8GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "ASUS", "TUF Gaming", "GeForce", "RTX 4060 Ti", "8GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -14196,7 +14196,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4060 Ti Eagle 8GB GDDR6 (GV-N406TEAGLE-8GD)",
     "Quanity": "1",
     "Price": "193270",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060 Ti", "8GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060 Ti", "8GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -14227,7 +14227,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4060 Ti GAMING OC 8G (GV-N406TGAMING OC-8GD)",
     "Quanity": "1",
     "Price": "215500",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060 Ti", "GAMING OC", "8GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060 Ti", "GAMING OC", "8GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 4060 Ti",
@@ -14255,7 +14255,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4060 Ti EAGLE OC 8G (GV-N406TEAGLE OC-8GD)",
     "Quanity": "1",
     "Price": "202030",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060 Ti", "EAGLE OC", "8GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060 Ti", "EAGLE OC", "8GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 4060 Ti",
@@ -14283,7 +14283,7 @@
     "ProductName": "ASUS GeForce RTX 4060 Ti Dual White OC 8GB GDDR6 (DUAL-RTX4060TI-O8G-WHITE/90YV0J42-M0NA00)",
     "Quanity": "1",
     "Price": "203280",
-    "Tags": [ "ASUS", "GeForce", "RTX 4060 Ti", "Dual White OC", "8GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "ASUS", "GeForce", "RTX 4060 Ti", "Dual White OC", "8GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 4060 Ti",
@@ -14311,7 +14311,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4060 Ti AERO OC 8G (GV-N406TAERO OC-8GD)",
     "Quanity": "1",
     "Price": "224970",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060 Ti", "AERO OC", "8GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060 Ti", "AERO OC", "8GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 4060 Ti",
@@ -14339,7 +14339,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4060 Ti EAGLE OC ICE 8GB GDDR6 (GV-N406TEAGLEOC ICE-8GD)",
     "Quanity": "1",
     "Price": "203590",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060 Ti", "EAGLE OC ICE", "8GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060 Ti", "EAGLE OC ICE", "8GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -14368,7 +14368,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4060 Ti WINDFORCE OC V2 8GB GDDR6 (GV-N406TWF2OCV2-8GD)",
     "Quanity": "1",
     "Price": "239900",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060 Ti", "WINDFORCE OC V2", "8GB", "GDDR6", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 4060 Ti", "WINDFORCE OC V2", "8GB", "GDDR6", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -14397,7 +14397,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4070 WINDFORCE OC V2 12GB GDDR6X 192bit (GV-N4070WF3OCV2-12GD)",
     "Quanity": "1",
     "Price": "266700",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 4070", "WINDFORCE OC V2", "12GB", "GDDR6X", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 4070", "WINDFORCE OC V2", "12GB", "GDDR6X", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -14426,7 +14426,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4070 WINDFORCE 2X OC V2 12GB GDDR6X 192bit (GV-N4070WF2OCV2-12GD)",
     "Quanity": "1",
     "Price": "251790",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 4070", "WINDFORCE 2X OC V2", "12GB", "GDDR6X", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 4070", "WINDFORCE 2X OC V2", "12GB", "GDDR6X", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -14455,7 +14455,7 @@
     "ProductName": "ASUS TUF Gaming GeForce RTX 4070 OC 12G GDDR6X (TUF-RTX4070-O12G-GAMING/90YV0IZ0-M0NA00)",
     "Quanity": "1",
     "Price": "369990",
-    "Tags": [ "ASUS", "TUF Gaming", "GeForce", "RTX 4070", "OC", "12GB", "GDDR6X", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "ASUS", "TUF Gaming", "GeForce", "RTX 4070", "OC", "12GB", "GDDR6X", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 4070",
@@ -14483,7 +14483,7 @@
     "ProductName": "ASUS GeForce RTX 4070 Dual EVO OC 12GB GDDR6X 192bit (DUAL-RTX4070-O12G-EVO/90YV0J15-M0NA00)",
     "Quanity": "1",
     "Price": "316901",
-    "Tags": [ "ASUS", "GeForce", "RTX 4070", "Dual EVO", "OC", "12GB", "GDDR6X", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "ASUS", "GeForce", "RTX 4070", "Dual EVO", "OC", "12GB", "GDDR6X", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 4070",
@@ -14511,7 +14511,7 @@
     "ProductName": "ASUS TUF Gaming GeForce RTX 4070 SUPER OC 12GB (TUF-RTX4070S-O12G-GAMING/90YV0K80-M0NA00)",
     "Quanity": "1",
     "Price": "343268",
-    "Tags": [ "ASUS", "TUF Gaming", "GeForce", "RTX 4070 Super", "OC", "12GB", "GDDR6X", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "ASUS", "TUF Gaming", "GeForce", "RTX 4070 Super", "OC", "12GB", "GDDR6X", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 4070 Super",
@@ -14539,7 +14539,7 @@
     "ProductName": "ASUS ROG Strix GeForce RTX 4070 SUPER OC 12GB GDDR6X 192bit (ROG-STRIX-RTX4070S-O12G-GAMING/90YV0KD0-M0NA00)",
     "Quanity": "1",
     "Price": "364040",
-    "Tags": [ "ASUS", "ROG Strix", "GeForce", "RTX 4070 Super", "OC", "12GB", "GDDR6X", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "ASUS", "ROG Strix", "GeForce", "RTX 4070 Super", "OC", "12GB", "GDDR6X", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 4070 Super",
@@ -14567,7 +14567,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4070 SUPER EAGLE OC 12GB GDDR6X (GV-N407SEAGLE OC-12GD)",
     "Quanity": "1",
     "Price": "317380",
-    "Tags": [ "GIGABYTE", "GeForce RTX 4070", "SUPER", "EAGLE OC", "12GB", "GDDR6X", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce RTX 4070", "SUPER", "EAGLE OC", "12GB", "GDDR6X", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 4070 Super",
@@ -14595,7 +14595,7 @@
     "ProductName": "ASUS ProArt GeForce RTX 4070 SUPER OC 12GB GDDR6X 192bit (PROART-RTX4070S-O12G/90YV0KC4-M0NA00)",
     "Quanity": "1",
     "Price": "324890",
-    "Tags": [ "ASUS", "ProArt", "GeForce RTX 4070", "SUPER", "OC", "12GB", "GDDR6X", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "ASUS", "ProArt", "GeForce RTX 4070", "SUPER", "OC", "12GB", "GDDR6X", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 4070 Super",
@@ -14623,7 +14623,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4070 SUPER AERO OC 12GB GDDR6X (GV-N407SAERO OC-12GD)",
     "Quanity": "1",
     "Price": "321615",
-    "Tags": [ "GIGABYTE", "GeForce RTX 4070", "SUPER", "AERO OC", "12GB", "GDDR6X", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce RTX 4070", "SUPER", "AERO OC", "12GB", "GDDR6X", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 4070 Super",
@@ -14651,7 +14651,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4070 SUPER EAGLE OC ICE 12GB GDDR6X 192bit (GV-N407SEAGLEOC ICE-12GD)",
     "Quanity": "1",
     "Price": "314290",
-    "Tags": [ "GIGABYTE", "GeForce RTX 4070", "SUPER", "EAGLE OC ICE", "12GB", "GDDR6X", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce RTX 4070", "SUPER", "EAGLE OC ICE", "12GB", "GDDR6X", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce RTX 4070 Super",
@@ -14679,7 +14679,7 @@
     "ProductName": "ASUS TUF Gaming GeForce RTX 4070 Ti SUPER OC 16GB GDDR6X (TUF-RTX4070TIS-O16G-GAMING/90YV0KF0-M0NA00)",
     "Quanity": "1",
     "Price": "447300",
-    "Tags": [ "ASUS", "TUF Gaming", "GeForce RTX 4070 Ti", "SUPER OC", "16GB", "GDDR6X", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "ASUS", "TUF Gaming", "GeForce RTX 4070 Ti", "SUPER OC", "16GB", "GDDR6X", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -14711,7 +14711,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4070 Ti SUPER OC 16GB GDDR6X 256bit (GV-N407TSGAMING OC-16GD)",
     "Quanity": "1",
     "Price": "482384",
-    "Tags": [ "GIGABYTE", "GeForce RTX 4070 Ti", "SUPER OC", "16GB", "GDDR6X", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce RTX 4070 Ti", "SUPER OC", "16GB", "GDDR6X", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -14744,7 +14744,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4070 Ti SUPER WINDFORCE MAX OC 16GB GDDR6X 256bit (GV-N407TSWF3MAX OC-16GD)",
     "Quanity": "1",
     "Price": "437790",
-    "Tags": [ "GIGABYTE", "GeForce RTX 4070 Ti", "SUPER WINDFORCE MAX OC", "16GB", "GDDR6X", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce RTX 4070 Ti", "SUPER WINDFORCE MAX OC", "16GB", "GDDR6X", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -14777,7 +14777,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4070 TI SUPER EAGLE OC 16GB GDDR6X (GV-N407TSEAGLE OC-16GD)",
     "Quanity": "1",
     "Price": "451330",
-    "Tags": [ "GIGABYTE", "GeForce RTX 4070 Ti", "SUPER EAGLE OC", "16GB", "GDDR6X", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce RTX 4070 Ti", "SUPER EAGLE OC", "16GB", "GDDR6X", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -14810,7 +14810,7 @@
     "ProductName": "GIGABYTE GeForce RTX 4070 Ti SUPER AI TOP 16GB GDDR6X (GV-N407TSAI TOP-16GD)",
     "Quanity": "1",
     "Price": "429570",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 4070 Ti SUPER", "16GB", "GDDR6X", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 4070 Ti SUPER", "16GB", "GDDR6X", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -14839,7 +14839,7 @@
     "ProductName": "GIGABYTE GeForce RTX 5080 GAMING OC 16GB GDDR7 256bit (GV-N5080GAMING OC-16GD)",
     "Quanity": "1",
     "Price": "845000",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 5080", "16GB", "GDDR7", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 5080", "16GB", "GDDR7", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -14869,7 +14869,7 @@
     "ProductName": "ASUS GeForce RTX 5080 PRIME OC 16GB GDDR7 256bit (PRIME-RTX5080-O16G/90YV0LX0-M0NA00)",
     "Quanity": "1",
     "Price": "759490",
-    "Tags": [ "ASUS", "GeForce", "RTX 5080", "16GB", "GDDR7", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "ASUS", "GeForce", "RTX 5080", "16GB", "GDDR7", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -14899,7 +14899,7 @@
     "ProductName": "GIGABYTE GeForce RTX 5080 AERO OC SFF 16GB GDDR7 256bit (GV-N5080AERO OC-16GD)",
     "Quanity": "1",
     "Price": "845000",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 5080", "16GB", "GDDR7", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 5080", "16GB", "GDDR7", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -14929,7 +14929,7 @@
     "ProductName": "GIGABYTE GeForce RTX 5080 WINDFORCE OC SFF 16GB GDDR7 256bit (GV-N5080WF3OC-16GD)",
     "Quanity": "1",
     "Price": "815000",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 5080", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 5080", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Csatolófelület: PCI-Express",
       "Video chipset: Nvidia GeForce",
@@ -14968,7 +14968,7 @@
     "ProductName": "ASUS TUF GeForce RTX 5090 O32G GAMING",
     "Quanity": "0",
     "Price": "0",
-    "Tags": [ "ASUS", "TUF", "GeForce", "RTX 5090", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "ASUS", "TUF", "GeForce", "RTX 5090", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Chip gyártója: NVIDIA GeForce",
       "Modellmegjelölés: RTX 5090",
@@ -15005,7 +15005,7 @@
     "ProductName": "ASUS ROG ASTRAL LC GeForce RTX 5090 O32G GAMING",
     "Quanity": "0",
     "Price": "0",
-    "Tags": [ "ASUS", "ROG", "ASTRAL", "GeForce", "RTX 5090", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "ASUS", "ROG", "ASTRAL", "GeForce", "RTX 5090", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Chip gyártója: NVIDIA GeForce",
       "Modellmegjelölés: RTX 5090",
@@ -15042,7 +15042,7 @@
     "ProductName": "GIGABYTE AORUS GeForce RTX 5090 MASTER ICE 32G",
     "Quanity": "0",
     "Price": "0",
-    "Tags": [ "GIGABYTE", "AORUS", "GeForce", "RTX 5090", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "AORUS", "GeForce", "RTX 5090", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Chip gyártója: NVIDIA GeForce",
       "Modellmegjelölés: RTX 5090",
@@ -15079,7 +15079,7 @@
     "ProductName": "GIGABYTE GeForce RTX 5090 WINDFORCE OC 32G",
     "Quanity": "0",
     "Price": "0",
-    "Tags": [ "GIGABYTE", "GeForce", "RTX 5090", "videókártya", "gpu", "nvidia","hardver" ],
+    "Tags": [ "GIGABYTE", "GeForce", "RTX 5090", "videókártya", "gpu", "nvidia", "hardver" ],
     "Description": [
       "Chip gyártója: NVIDIA GeForce",
       "Modellmegjelölés: RTX 5090",
@@ -15116,7 +15116,7 @@
     "ProductName": "Thermaltake Pure 14 ARGB",
     "Quanity": "1",
     "Price": "9000",
-    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Thermaltake","hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Thermaltake", "hűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:140x140 mm",
@@ -17257,7 +17257,7 @@
     "ProductName": "Apple MacBook Air 13 M3 Magyar 2024 Asztroszürke",
     "Quanity": "1",
     "Price": "549990",
-    "Tags": [ "13 hüvelyk", "Apple" , "laptop"],
+    "Tags": [ "13 hüvelyk", "Apple", "laptop" ],
     "Description": [
       "Kategória: Ultrabook",
       "Processzor: Apple M3 (8-magos)",
@@ -18572,7 +18572,7 @@
     "ProductName": "MOZA Racing R5 Racing RS20",
     "Quanity": "1",
     "Price": "224070",
-    "Tags": [ "MOZA", "Racing", "RS20", "Kormány", "Játék","játékvezérlő" ],
+    "Tags": [ "MOZA", "Racing", "RS20", "Kormány", "Játék", "játékvezérlő" ],
     "Description": [
       "Wireless: Igen",
       "Pedál: Két pedálos",
@@ -18980,7 +18980,7 @@
     "ProductName": "Microsoft Xbox Series X 1TB Játékkonzol",
     "Quanity": "1",
     "Price": "279990",
-    "Tags": [ "Microsoft", "Xbox", "játék", "konzol","xbox_konzol" ],
+    "Tags": [ "Microsoft", "Xbox", "játék", "konzol", "xbox_konzol" ],
     "Description": [
       "Típus: Xbox Series X",
       "Belső memória Mérete: 1 TB",
@@ -19533,4 +19533,194 @@
       "Szín: Ezüst"
     ]
   },
+  {
+    "ProductName": "I5 12400 4060 189425 számítógép",
+    "Quanity": "1",
+    "Price": "338193",
+    "Tags": [ "PC", "Intel", "i5-12400F", "RTX 4060" ],
+    "Description": [
+      "Alaplap: GIGABYTE B760M H DDR4",
+      "Processzor: Intel Core i5-12400F",
+      "Hűtő: Be quiet! Pure Rock Slim 2",
+      "Ház: DeepCool CC560 v2 fekete",
+      "Memória: Kingston FURY Beast 2x16GB 3200MHz DDR4",
+      "SSD: Crucial P3 1TB M.2",
+      "Tápegység: FSP 750W HYDRO K PRO",
+      "Videokártya: GIGABYTE RTX 4060 Windforce OC 8G"
+    ]
+  },
+  {
+    "ProductName": "I5 14400F 4060Ti 059867 számítógép",
+    "Quanity": "1",
+    "Price": "439283",
+    "Tags": [ "PC", "Intel", "i5-14400F", "RTX 4060 Ti" ],
+    "Description": [
+      "Alaplap: GIGABYTE B760M H DDR4",
+      "Processzor: Intel Core i5-14400F",
+      "Hűtő: Arctic Liquid Freezer III 280",
+      "Ház: Zalman I3 NEO TG Black",
+      "Memória: G.Skill Aegis 2x16GB 3200MHz DDR4",
+      "SSD: Crucial P3 1TB M.2",
+      "Tápegység: DeepCool 650W 80+ Bronze",
+      "Videokártya: MSI RTX 4060 Ti Ventus 2X Black 8G OC"
+    ]
+  },
+  {
+    "ProductName": "R7 7700X 7800XT 547283 számítógép",
+    "Quanity": "1",
+    "Price": "594594",
+    "Tags": [ "PC", "AMD", "Ryzen 7 7700X", "RX 7800 XT" ],
+    "Description": [
+      "Alaplap: MSI PRO B650-S WIFI",
+      "Processzor: AMD Ryzen 7 7700X",
+      "Hűtő: Be quiet! Pure Rock 2 fekete",
+      "Ház: DeepCool CC560 v2 fekete",
+      "Memória: Kingston FURY 2x16GB 5600MHz DDR5",
+      "SSD: Samsung 1TB M.2 NVMe 990 Pro",
+      "Tápegység: Be Quiet! 850W SYSTEM POWER 10 (80+ Gold)",
+      "Videokártya: Sapphire RX 7800 XT Pulse Gaming 16GB"
+    ]
+  },
+  {
+    "ProductName": "R7 7800X3D 7900XTX 125986 számítógép",
+    "Quanity": "1",
+    "Price": "1051093",
+    "Tags": [ "PC", "AMD", "Ryzen 7 7800X3D", "RX 7900 XTX" ],
+    "Description": [
+      "Alaplap: MSI X670E Gaming Plus WIFI",
+      "Processzor: AMD Ryzen 7 7800X3D",
+      "Hűtő: Be Quiet! Dark Rock Elite BK037",
+      "Ház: Be quiet! Pure Base 500 FX fekete",
+      "Memória: G.Skill Trident Z5 NEO 2x32GB 6000MHz DDR5",
+      "SSD: Crucial P3 2TB M.2",
+      "Tápegység: Thermalright TG-850-W 850W 80+ Gold",
+      "Videokártya: ASUS DUAL-RX7900XTX-O24G AMD 24GB"
+    ]
+  },
+  {
+    "ProductName": "R7 7800X3D Radeon Graphics 298360 számítógép",
+    "Quanity": "1",
+    "Price": "448494",
+    "Tags": [ "PC", "AMD", "Ryzen 7 7800X3D", "integrált GPU" ],
+    "Description": [
+      "Alaplap: GIGABYTE B650M S2H",
+      "Processzor: AMD Ryzen 7 7800X3D",
+      "Hűtő: DeepCool AK400 digital",
+      "Ház: Fractal Design Pop Air RGB cyan Core TG",
+      "Memória: Kingston FURY Beast RGB 2x16GB 5600MHz DDR5",
+      "SSD: Crucial P3 1TB M.2",
+      "Tápegység: FSP Hydro G Pro ATX 3.0 (PCIe 5.0) 850W"
+    ]
+  },
+  {
+    "ProductName": "R5 5600X 3060 826571 számítógép",
+    "Quanity": "1",
+    "Price": "285284",
+    "Tags": [ "PC", "AMD", "Ryzen 5 5600X", "RTX 3060" ],
+    "Description": [
+      "Alaplap: GIGABYTE A520M S2H",
+      "Processzor: AMD Ryzen 5 5600X",
+      "Ház: ZALMAN N5 OF fekete",
+      "Memória: G.Skill Aegis 16GB 3000MHz DDR4",
+      "SSD: ADATA 512GB M.2 Legend 710",
+      "Tápegység: Thermaltake 700W 80+ TR2 S",
+      "Videokártya: ASUS Dual RTX 3060 V2 OC 12GB"
+    ]
+  },
+  {
+    "ProductName": "I5 10400 Intel UHD Graphics 630 396054 számítógép",
+    "Quanity": "1",
+    "Price": "168383",
+    "Tags": [ "PC", "Intel", "i5-10400", "integrált GPU" ],
+    "Description": [
+      "Alaplap: GIGABYTE H410M H V2",
+      "Processzor: Intel Core i5-10400",
+      "Ház: Kolink Observatory Lite fekete",
+      "Memória: G.Skill Aegis 2x8GB 2666MHz DDR4",
+      "SSD: Crucial BX500 500GB SATA",
+      "Tápegység: FSP 700W HYPER 80+ PRO700"
+    ]
+  },
+  {
+    "ProductName": "R5 5600G Radeon Graphics 210359 számítógép",
+    "Quanity": "1",
+    "Price": "162485",
+    "Tags": [ "PC", "AMD", "Ryzen 5 5600G", "integrált GPU" ],
+    "Description": [
+      "Alaplap: ASUS PRIME B450M-K II",
+      "Processzor: AMD Ryzen 5 5600G",
+      "Ház: Akyga AK13BK fekete",
+      "Memória: G.Skill Aegis 2x8GB 3000MHz DDR4",
+      "SSD: Crucial P3 1TB M.2",
+      "Tápegység: Chieftec iArena GPB-500S 500W"
+    ]
+  },
+  {
+    "ProductName": "R5 7600X 7700XT 687053 számítógép",
+    "Quanity": "1",
+    "Price": "487991",
+    "Tags": [ "PC", "AMD", "Ryzen 5 7600X", "RX 7700 XT" ],
+    "Description": [
+      "Alaplap: ASUS Prime B650M-K",
+      "Processzor: AMD Ryzen 5 7600X",
+      "Hűtő: DeepCool AG620 BK ARGB",
+      "Ház: FSP CMT212A fekete",
+      "Memória: Corsair Vengeance 2x16GB 6000MHz DDR5",
+      "SSD: ADATA LEGEND 710 1TB M.2",
+      "Tápegység: Thermaltake 750W 80+ Bronze Smart BX3",
+      "Videokártya: GIGABYTE RX 7700 XT Gaming OC 12GB"
+    ]
+  },
+  {
+    "ProductName": "I9 13900KF 4060 865270 számítógép",
+    "Quanity": "1",
+    "Price": "708683",
+    "Tags": [ "PC", "Intel", "i9-13900KF", "RTX 4060" ],
+    "Description": [
+      "Alaplap: ASRock Z790 PG Lightning",
+      "Processzor: Intel Core i9-13900KF",
+      "Hűtő: Be quiet! Silent Loop 2 360mm",
+      "Ház: Be quiet! Silent Base 802",
+      "Memória: Corsair Vengeance 2x16GB 6000MHz DDR5",
+      "SSD: Crucial P3 1TB M.2",
+      "Tápegység: Be quiet! Straight Power 11 1000W",
+      "Videokártya: GIGABYTE RTX 4060 D6 8G 8GB"
+    ]
+  },
+  {
+    "ProductName": "R9 7900X3D A2000 268514 számítógép",
+    "Quanity": "1",
+    "Price": "894480",
+    "Tags": [ "PC", "AMD", "Ryzen 9 7900X3D", "RTX A2000" ],
+    "Description": [
+      "Alaplap: ASUS TUF Gaming B650M-E WIFI",
+      "Processzor: AMD Ryzen 9 7900X3D",
+      "Hűtő: Be Quiet! DARK ROCK PRO 5",
+      "Ház: Be quiet! Pure Base 500DX fekete",
+      "Rendszerhűtők: Be quiet! Light Wings PWM 3x140mm",
+      "Memória: Crucial 32GB 4800MHz DDR5 ECC",
+      "SSD: PNY 500GB M.2 2280 NVMe CS2230",
+      "HDD: Western Digital 1TB - WD10EZEX",
+      "Tápegység: Be quiet! Straight Power 11 750W",
+      "Videokártya: PNY RTX A2000 12GB GDDR6",
+      "Operációs rendszer: Microsoft Windows 10 Home 64-bit HUN"
+    ]
+  },
+  {
+    "ProductName": "R5 5600G Radeon Graphics 537981 számítógép",
+    "Quanity": "1",
+    "Price": "233992",
+    "Tags": [ "PC", "AMD", "Ryzen 5 5600G", "integrált GPU" ],
+    "Description": [
+      "Alaplap: ASUS Prime B550M-K",
+      "Processzor: AMD Ryzen 5 5600X",
+      "Hűtő: Noctua NH-U9S",
+      "Ház: ZALMAN N5 MF",
+      "Memória: G.Skill Aegis 16GB 3200MHz DDR4",
+      "SSD: SAMSUNG 980 PCIe 3.0 NVMe 500GB M.2",
+      "HDD: Seagate Barracuda 2TB 3.5'' SATAIII",
+      "Tápegység: FSP 700W HYPER 80+ PRO700"
+    ]
+  }
+
 ]

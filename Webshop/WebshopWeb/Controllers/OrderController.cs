@@ -110,7 +110,7 @@ namespace WebshopWeb.Controllers
             int smtpPort = Convert.ToInt32(_config["SmtpSettings:Port"]);
             string senderEmail = _config["SmtpSettings:User"];
             string senderPassword = _config["SmtpSettings:Password"];
-            string recipientEmail = "mesterxaver@gmail.com";
+            string recipientEmail = "Anakinka2323@gmail.com";
 
             string htmlFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "templates", "emailTemplate.html");
             string htmlBody = System.IO.File.ReadAllText(htmlFilePath);
