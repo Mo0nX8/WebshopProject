@@ -74,6 +74,7 @@ body {
     margin: auto auto;
 
 }
+
 .dropdown-submenu {
     position: relative;
 }
@@ -85,9 +86,33 @@ body {
         margin-top: 0;
         display: none;
         min-width: 200px;
+        background: white;
+        z-index: 1000;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     }
 
+
+@media (min-width: 769px) {
     .dropdown-submenu:hover > .submenu {
         display: block;
     }
+}
+
+
+@media (max-width: 768px) {
+    .dropdown-menu {
+        width: 100%;
+    }
+
+    .dropdown-submenu .submenu {
+        position: static;
+        display: none;
+        width: 100%;
+    }
+
+    .dropdown-submenu.show > .submenu {
+        display: block;
+    }
+}
+
 

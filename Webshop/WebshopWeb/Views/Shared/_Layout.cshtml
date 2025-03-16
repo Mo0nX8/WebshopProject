@@ -44,6 +44,15 @@
                                 <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "Videókártya" })">Videokártyák</a></li>
                                 <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "Memória" })">Memória</a></li>
                                 <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "Tápegység" })">Tápegységek</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="@Url.Action("Search", "Product", new { searchValue = "hűtés" })">Hűtés</a>
+                                    <ul class="dropdown-menu submenu">
+                                        <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="processzorhűtő" })">Processzor hűtés</a></li>
+                                        <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="vizhűtés" })">Vízhűtés</a></li>
+                                        <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="házhűtés" })">Rendszer hűtés</a></li>
+                                    </ul>
+                                </li>
+
                                 <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "gépház" })">Gépházak</a></li>
                                 <li class="dropdown-submenu">
 
@@ -76,7 +85,7 @@
                                 <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="xbox_konzol" })">Xbox</a></li>
                             </ul>
                         </li>
-
+                        <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "prebuild" })">PreBuild PC</a></li>
                         <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "monitor" })">Monitorok</a></li>
                         <li class="dropdown-submenu">
                             <a class="dropdown-item dropdown-toggle" href="@Url.Action("Search", "Product", new { searchValue = "periféria" })">Perifériák</a>
@@ -88,6 +97,7 @@
                             </ul>
                         </li>
                         <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "kábel" })">Kábelek</a></li>
+
                     </ul>
                 </div>
 

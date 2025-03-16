@@ -15116,7 +15116,7 @@
     "ProductName": "Thermaltake Pure 14 ARGB",
     "Quanity": "1",
     "Price": "9000",
-    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Thermaltake", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Thermaltake", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:140x140 mm",
@@ -15130,7 +15130,7 @@
     "ProductName": "Thermaltake Toughfan 12 Turbo",
     "Quanity": "1",
     "Price": "12000",
-    "Tags": [ "Gaming", "Ventillátor", "Thermaltake", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "Thermaltake", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:120x120 mm",
@@ -15144,7 +15144,7 @@
     "ProductName": "Cooler Master MasterFan MF120 Halo",
     "Quanity": "1",
     "Price": "8000",
-    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Cooler Master", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Cooler Master", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:120x120 mm",
@@ -15158,7 +15158,7 @@
     "ProductName": "Cooler Master SickleFlow 120 ARGB",
     "Quanity": "1",
     "Price": "5500",
-    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Cooler Master", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Cooler Master", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:120x120 mm",
@@ -15172,7 +15172,7 @@
     "ProductName": "Cooler Master Hyper 212 Halo Black",
     "Quanity": "1",
     "Price": "17299",
-    "Tags": [ "Gaming", "Ventillátor", "Cooler Master", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "Cooler Master", "hűtés", "processzorhűtő" ],
     "Description": [
       "Kategória:CPU Hűtő",
       "Méret:120x120 mm",
@@ -15186,7 +15186,7 @@
     "ProductName": "Noctua NF-A12x25 PWM",
     "Quanity": "1",
     "Price": "10500",
-    "Tags": [ "Gaming", "Ventillátor", "Noctua", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "Noctua", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:120x120 mm",
@@ -15200,7 +15200,7 @@
     "ProductName": "Noctua NF-P12 redux-1700 PWM",
     "Quanity": "1",
     "Price": "5500",
-    "Tags": [ "Gaming", "Ventillátor", "Noctua", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "Noctua", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:120x120 mm",
@@ -15214,7 +15214,7 @@
     "ProductName": "Noctua NF-F12 PWM",
     "Quanity": "1",
     "Price": "9000",
-    "Tags": [ "Gaming", "Ventillátor", "Noctua", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "Noctua", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:120x120 mm",
@@ -15228,7 +15228,7 @@
     "ProductName": "Arctic P12 PWM",
     "Quanity": "1",
     "Price": "3500",
-    "Tags": [ "Gaming", "Ventillátor", "Arctic", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "Arctic", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:120x120 mm",
@@ -15242,7 +15242,7 @@
     "ProductName": "Arctic BioniX P140",
     "Quanity": "1",
     "Price": "6000",
-    "Tags": [ "Gaming", "Ventillátor", "Arctic", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "Arctic", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:140x140 mm",
@@ -15256,7 +15256,7 @@
     "ProductName": "Arctic F14 Silent",
     "Quanity": "1",
     "Price": "4000",
-    "Tags": [ "Gaming", "Ventillátor", "Arctic", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "Arctic", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:140x140 mm",
@@ -15270,7 +15270,7 @@
     "ProductName": "Asus ROG Strix XF 120",
     "Quanity": "1",
     "Price": "12000",
-    "Tags": [ "Gaming", "Ventillátor", "Asus", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "Asus", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:120x120 mm",
@@ -15284,7 +15284,7 @@
     "ProductName": "Asus TUF Gaming TF120 ARGB",
     "Quanity": "1",
     "Price": "9500",
-    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Asus", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Asus", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:120x120 mm",
@@ -15298,7 +15298,7 @@
     "ProductName": "Asus ROG Strix LC 360 RGB",
     "Quanity": "1",
     "Price": "60000",
-    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Asus", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Asus", "hűtés", "vizhűtés" ],
     "Description": [
       "Kategória:Folyadékhűtés",
       "Méret:120x120 mm",
@@ -15312,7 +15312,7 @@
     "ProductName": "NZXT Aer RGB 2",
     "Quanity": "1",
     "Price": "10000",
-    "Tags": [ "Gaming", "Ventillátor", "ARGB", "NZXT", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "ARGB", "NZXT", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:120x120 mm",
@@ -15326,7 +15326,7 @@
     "ProductName": "NZXT F120Q Quiet",
     "Quanity": "1",
     "Price": "5500",
-    "Tags": [ "Gaming", "Ventillátor", "NZXT", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "NZXT", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:120x120 mm",
@@ -15340,7 +15340,7 @@
     "ProductName": "NZXT F140 RGB",
     "Quanity": "1",
     "Price": "9000",
-    "Tags": [ "Gaming", "Ventillátor", "ARGB", "NZXT", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "ARGB", "NZXT", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:140x140 mm",
@@ -15354,7 +15354,7 @@
     "ProductName": "Lian Li UNI FAN SL120",
     "Quanity": "1",
     "Price": "12000",
-    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Lian Li", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Lian Li", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:120x120 mm",
@@ -15368,7 +15368,7 @@
     "ProductName": "Lian Li UNI FAN AL120",
     "Quanity": "1",
     "Price": "14000",
-    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Lian Li", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Lian Li", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:120x120 mm",
@@ -15382,7 +15382,7 @@
     "ProductName": "Phanteks T30-120",
     "Quanity": "1",
     "Price": "13000",
-    "Tags": [ "Gaming", "Ventillátor", "Phanteks", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "Phanteks", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:120x120 mm",
@@ -15396,7 +15396,7 @@
     "ProductName": "Phanteks SK PWM D-RGB 120mm",
     "Quanity": "1",
     "Price": "7500",
-    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Phanteks", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Phanteks", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:120x120 mm",
@@ -15410,7 +15410,7 @@
     "ProductName": "Corsair ML120 PRO",
     "Quanity": "1",
     "Price": "9500",
-    "Tags": [ "Gaming", "Ventillátor", "Corsair", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "Corsair", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:120x120 mm",
@@ -15424,7 +15424,7 @@
     "ProductName": "Corsair iCUE QL120 RGB",
     "Quanity": "1",
     "Price": "11000",
-    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Corsair", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Corsair", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:120x120 mm",
@@ -15438,7 +15438,7 @@
     "ProductName": "Corsair AF140 LED Blue",
     "Quanity": "1",
     "Price": "6500",
-    "Tags": [ "Gaming", "Ventillátor", "LED", "Corsair", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "LED", "Corsair", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:140x140 mm",
@@ -15452,7 +15452,7 @@
     "ProductName": "Deepcool FC120 ARGB",
     "Quanity": "1",
     "Price": "8000",
-    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Deepcool", "hűtés" ],
+    "Tags": [ "Gaming", "Ventillátor", "ARGB", "Deepcool", "hűtés", "házhűtés" ],
     "Description": [
       "Kategória:PC Ventilátor",
       "Méret:120x120 mm",
@@ -15480,7 +15480,7 @@
     "ProductName": "be quiet! Pure Rock 2 (BK007)",
     "Quanity": "1",
     "Price": "18150",
-    "Tags": [ "be quiet!", "Processzor_hűtő", "Aktív hűtő", "120 mm ventilátor" ],
+    "Tags": [ "be quiet!", "Processzor_hűtő","hűtés", "Aktív hűtő", "120 mm ventilátor", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -15497,7 +15497,7 @@
     "ProductName": "be quiet! DARK ROCK PRO 5 (BK036)",
     "Quanity": "1",
     "Price": "40890",
-    "Tags": [ "be quiet!", "Processzor_hűtő", "Aktív hűtő", "135 mm ventilátor" ],
+    "Tags": [ "be quiet!", "Processzor_hűtő","hűtés", "Aktív hűtő", "135 mm ventilátor", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -15513,7 +15513,7 @@
     "ProductName": "be quiet! Pure Rock Slim 2 AMD AM4 (BK030)",
     "Quanity": "1",
     "Price": "11210",
-    "Tags": [ "be quiet!", "Processzor_hűtő", "Aktív hűtő", "92 mm ventilátor" ],
+    "Tags": [ "be quiet!", "Processzor_hűtő","hűtés", "Aktív hűtő", "92 mm ventilátor", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -15530,7 +15530,7 @@
     "ProductName": "be quiet! Dark Rock 5 (BK035)",
     "Quanity": "1",
     "Price": "28460",
-    "Tags": [ "be quiet!", "Processzor_hűtő", "Aktív hűtő", "120 mm ventilátor" ],
+    "Tags": [ "be quiet!", "Processzor_hűtő","hűtés", "Aktív hűtő", "120 mm ventilátor", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -15547,7 +15547,7 @@
     "ProductName": "be quiet! Pure Rock 2 (BK006)",
     "Quanity": "1",
     "Price": "14780",
-    "Tags": [ "be quiet!", "Processzor_hűtő", "Aktív hűtő", "120 mm ventilátor" ],
+    "Tags": [ "be quiet!", "Processzor_hűtő","hűtés", "Aktív hűtő", "120 mm ventilátor", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -15564,7 +15564,7 @@
     "ProductName": "be quiet! Dark Rock Elite RGB (BK037)",
     "Quanity": "1",
     "Price": "46000",
-    "Tags": [ "be quiet!", "Processzor_hűtő", "Aktív hűtő", "135 mm ventilátor", "RGB megvilágítás" ],
+    "Tags": [ "be quiet!", "Processzor_hűtő","hűtés", "Aktív hűtő", "135 mm ventilátor", "RGB megvilágítás", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -15581,7 +15581,7 @@
     "ProductName": "be quiet! Pure Loop 2 FX 360mm (BW015)",
     "Quanity": "1",
     "Price": "63680",
-    "Tags": [ "be quiet!", "Processzor_hűtő", "Folyadékhűtés", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "be quiet!", "Processzor_hűtő","hűtés", "Folyadékhűtés", "120 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -15598,7 +15598,7 @@
     "ProductName": "be quiet! Pure Rock 2 FX 120mm ARGB (BK033)",
     "Quanity": "1",
     "Price": "20630",
-    "Tags": [ "be quiet!", "Processzor_hűtő", "Aktív hűtő", "120 mm ventilátor", "ARGB megvilágítás" ],
+    "Tags": [ "be quiet!", "Processzor_hűtő","hűtés", "Aktív hűtő", "120 mm ventilátor", "ARGB megvilágítás", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -15615,7 +15615,7 @@
     "ProductName": "be quiet! Silent Loop 2 360mm (BW012)",
     "Quanity": "1",
     "Price": "81180",
-    "Tags": [ "be quiet!", "Processzor_hűtő", "Folyadékhűtés", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "be quiet!", "Processzor_hűtő","hűtés", "Folyadékhűtés", "120 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -15632,7 +15632,7 @@
     "ProductName": "be quiet! Light Loop 360mm ARGB (BW023)",
     "Quanity": "1",
     "Price": "64020",
-    "Tags": [ "be quiet!", "Processzor_hűtő", "Folyadékhűtés", "120 mm ventilátor", "ARGB megvilágítás" ],
+    "Tags": [ "be quiet!", "Processzor_hűtő","hűtés", "Folyadékhűtés", "120 mm ventilátor", "ARGB megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -15649,7 +15649,7 @@
     "ProductName": "be quiet! Dark Rock Slim (BK024)",
     "Quanity": "1",
     "Price": "27000",
-    "Tags": [ "be quiet!", "Processzor_hűtő", "Aktív hűtő", "120 mm ventilátor" ],
+    "Tags": [ "be quiet!", "Processzor_hűtő","hűtés", "Aktív hűtő", "120 mm ventilátor", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -15665,7 +15665,7 @@
     "ProductName": "be quiet! Pure Loop 2 360mm (BW019)",
     "Quanity": "1",
     "Price": "57000",
-    "Tags": [ "be quiet!", "Processzor_hűtő", "Folyadékhűtés", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "be quiet!", "Processzor_hűtő","hűtés", "Folyadékhűtés", "120 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -15682,7 +15682,7 @@
     "ProductName": "be quiet! Shadow Rock LP 120mm (BK002)",
     "Quanity": "1",
     "Price": "20170",
-    "Tags": [ "be quiet!", "Processzor_hűtő", "Aktív hűtő", "120 mm ventilátor" ],
+    "Tags": [ "be quiet!", "Processzor_hűtő","hűtés", "Aktív hűtő", "120 mm ventilátor", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -15699,7 +15699,7 @@
     "ProductName": "be quiet! SILENT LOOP 2 280MM (BW011)",
     "Quanity": "1",
     "Price": "58110",
-    "Tags": [ "be quiet!", "Processzor_hűtő", "Folyadékhűtés", "140 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "be quiet!", "Processzor_hűtő","hűtés", "Folyadékhűtés", "140 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -15715,7 +15715,7 @@
     "ProductName": "be quiet! Silent Loop 2 240mm (BW010)",
     "Quanity": "1",
     "Price": "59390",
-    "Tags": [ "be quiet!", "Processzor_hűtő", "Folyadékhűtés", "120 mm ventilátor" ],
+    "Tags": [ "be quiet!", "Processzor_hűtő","hűtés", "Folyadékhűtés", "120 mm ventilátor", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -15732,7 +15732,7 @@
     "ProductName": "be quiet! Pure Rock LP (BK034)",
     "Quanity": "1",
     "Price": "22140",
-    "Tags": [ "be quiet!", "Processzor_hűtő", "Aktív hűtő", "92 mm ventilátor" ],
+    "Tags": [ "be quiet!", "Processzor_hűtő","hűtés", "Aktív hűtő", "92 mm ventilátor", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -15749,7 +15749,7 @@
     "ProductName": "Cooler Master Masterliquid 240L CORE (MLW-D24M-A17PK-R1)",
     "Quanity": "1",
     "Price": "35210",
-    "Tags": [ "Cooler Master", "Processzor_hűtő", "Folyadékhűtés", "120 mm ventilátor" ],
+    "Tags": [ "Cooler Master", "Processzor_hűtő","hűtés", "Folyadékhűtés", "120 mm ventilátor", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -15766,7 +15766,7 @@
     "ProductName": "Cooler Master MasterLiquid ML120L RGB V2 (MLW-D12M-A18PC-R2)",
     "Quanity": "1",
     "Price": "28340",
-    "Tags": [ "Cooler Master", "Processzor_hűtő", "Folyadékhűtés", "120 mm ventilátor", "RGB megvilágítás" ],
+    "Tags": [ "Cooler Master", "Processzor_hűtő","hűtés", "Folyadékhűtés", "120 mm ventilátor", "RGB megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -15782,7 +15782,7 @@
     "ProductName": "be quiet! Shadow Rock LP 120mm (BK002)",
     "Quanity": "1",
     "Price": "20170",
-    "Tags": [ "be quiet!", "Processzor_hűtő", "Aktív hűtő", "120 mm ventilátor" ],
+    "Tags": [ "be quiet!", "Processzor_hűtő","hűtés", "Aktív hűtő", "120 mm ventilátor", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -15799,7 +15799,7 @@
     "ProductName": "be quiet! SILENT LOOP 2 280MM (BW011)",
     "Quanity": "1",
     "Price": "58110",
-    "Tags": [ "be quiet!", "Processzor_hűtő", "Folyadékhűtés", "140 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "be quiet!", "Processzor_hűtő","hűtés", "Folyadékhűtés", "140 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -15815,7 +15815,7 @@
     "ProductName": "be quiet! Silent Loop 2 240mm (BW010)",
     "Quanity": "1",
     "Price": "59390",
-    "Tags": [ "be quiet!", "Processzor_hűtő", "Folyadékhűtés", "120 mm ventilátor" ],
+    "Tags": [ "be quiet!", "Processzor_hűtő","hűtés", "Folyadékhűtés", "120 mm ventilátor", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -15833,7 +15833,7 @@
     "ProductName": "Cooler Master MA612 (MAP-T6PS-218PA-R1)",
     "Quanity": "1",
     "Price": "30900",
-    "Tags": [ "Cooler Master", "Aktív hűtő", "Processzor_hűtő", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "Cooler Master", "Aktív hűtő", "Processzor_hűtő","hűtés", "120 mm ventilátor", "LED megvilágítás", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -15849,7 +15849,7 @@
     "ProductName": "Cooler Master Hyper 212 Halo White (RR-S4WW-20PA-R1)",
     "Quanity": "1",
     "Price": "21650",
-    "Tags": [ "Cooler Master", "Aktív hűtő", "Processzor_hűtő", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "Cooler Master", "Aktív hűtő", "Processzor_hűtő","hűtés", "120 mm ventilátor", "LED megvilágítás", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -15866,7 +15866,7 @@
     "ProductName": "Cooler Master Hyper 622 Halo White Edition (RR-D6WW-20PA-R1)",
     "Quanity": "1",
     "Price": "24140",
-    "Tags": [ "Cooler Master", "Aktív hűtő", "Processzor_hűtő", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "Cooler Master", "Aktív hűtő", "Processzor_hűtő","hűtés", "120 mm ventilátor", "LED megvilágítás", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -15882,7 +15882,7 @@
     "ProductName": "Cooler Master Masterliquid 240L CORE ARGB White (MLW-D24M-A18PZ-RW)",
     "Quanity": "1",
     "Price": "43310",
-    "Tags": [ "Cooler Master", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "Cooler Master", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -15899,7 +15899,7 @@
     "ProductName": "ASUS ROG RYUJIN 240",
     "Quanity": "1",
     "Price": "44899",
-    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -15916,7 +15916,7 @@
     "ProductName": "ASUS ROG Strix LC II 360 Black (90RC00F0-M0UAY4)",
     "Quanity": "1",
     "Price": "56640",
-    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -15932,7 +15932,7 @@
     "ProductName": "ASUS ROG RYUJIN III 360",
     "Quanity": "1",
     "Price": "180590",
-    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -15949,7 +15949,7 @@
     "ProductName": "ASUS ROG Strix LC III 360 ARGB (90RC00T1-M0UAY0)",
     "Quanity": "1",
     "Price": "117780",
-    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -15966,7 +15966,7 @@
     "ProductName": "ASUS ROG RYUJIN II 360 ARGB (90RC00B1-M0UAY2)",
     "Quanity": "1",
     "Price": "126370",
-    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -15981,7 +15981,7 @@
     "ProductName": "ASUS ROG Ryujin III 240 ARGB (90RC00K1-M0UAY0)",
     "Quanity": "1",
     "Price": "123450",
-    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -15998,7 +15998,7 @@
     "ProductName": "ASUS Strix LC II 240 ARGB (90RC00E1-M0UAY0)",
     "Quanity": "1",
     "Price": "53220",
-    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16014,7 +16014,7 @@
     "ProductName": "ASUS ProArt LC 360 (90RC0120-M0UAY0)",
     "Quanity": "1",
     "Price": "112100",
-    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "Nincs LED megvilágítás" ],
+    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "Nincs LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16031,7 +16031,7 @@
     "ProductName": "ASUS ROG STRIX LC II 240 ARGB White (90RC00E2-M0UAY0)",
     "Quanity": "1",
     "Price": "49990",
-    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16046,7 +16046,7 @@
     "ProductName": "ASUS ROG RYUO III 240 ARGB White Edition (90RC00J2-M0UAY0)",
     "Quanity": "1",
     "Price": "68880",
-    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16062,7 +16062,7 @@
     "ProductName": "ASUS ROG RYUJIN II 360 ARGB Black (90RC00B1-M0UAY0)",
     "Quanity": "1",
     "Price": "141720",
-    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "ASUS", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16078,7 +16078,7 @@
     "ProductName": "Noctua NH-D15 chromax.black (NH-D15.CH.BK)",
     "Quanity": "1",
     "Price": "58680",
-    "Tags": [ "Noctua", "Aktív hűtő", "Processzor_hűtő", "140 mm ventilátor" ],
+    "Tags": [ "Noctua", "Aktív hűtő", "Processzor_hűtő", "hűtés", "140 mm ventilátor", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -16095,7 +16095,7 @@
     "ProductName": "Noctua NH-D15 (NOCTUA-FAN-NH-D15)",
     "Quanity": "1",
     "Price": "54490",
-    "Tags": [ "Noctua", "Aktív hűtő", "Processzor_hűtő", "140 mm ventilátor" ],
+    "Tags": [ "Noctua", "Aktív hűtő", "Processzor_hűtő", "hűtés", "140 mm ventilátor", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -16112,7 +16112,7 @@
     "ProductName": "Noctua NH-D15-G2",
     "Quanity": "1",
     "Price": "80620",
-    "Tags": [ "Noctua", "Aktív hűtő", "Processzor_hűtő", "140 mm ventilátor" ],
+    "Tags": [ "Noctua", "Aktív hűtő", "Processzor_hűtő", "hűtés", "140 mm ventilátor", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -16129,7 +16129,7 @@
     "ProductName": "Noctua NH-U12S DX-3647",
     "Quanity": "1",
     "Price": "31690",
-    "Tags": [ "Noctua", "Aktív hűtő", "Processzor_hűtő", "120 mm ventilátor" ],
+    "Tags": [ "Noctua", "Aktív hűtő", "Processzor_hűtő", "hűtés", "120 mm ventilátor", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -16146,7 +16146,7 @@
     "ProductName": "Noctua NH-U12A Chromax (CPNTU12ACHBK)",
     "Quanity": "1",
     "Price": "61470",
-    "Tags": [ "Noctua", "Aktív hűtő", "Processzor_hűtő", "120 mm ventilátor" ],
+    "Tags": [ "Noctua", "Aktív hűtő", "Processzor_hűtő", "hűtés", "120 mm ventilátor", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -16163,7 +16163,7 @@
     "ProductName": "Noctua NH-U12A 120mm",
     "Quanity": "1",
     "Price": "47560",
-    "Tags": [ "Noctua", "Aktív hűtő", "Processzor_hűtő", "120 mm ventilátor" ],
+    "Tags": [ "Noctua", "Aktív hűtő", "Processzor_hűtő", "hűtés", "120 mm ventilátor", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -16180,7 +16180,7 @@
     "ProductName": "Noctua NH-U9S",
     "Quanity": "1",
     "Price": "31300",
-    "Tags": [ "Noctua", "Aktív hűtő", "Processzor_hűtő", "92 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "Noctua", "Aktív hűtő", "Processzor_hűtő", "hűtés", "92 mm ventilátor", "LED megvilágítás", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -16195,7 +16195,7 @@
     "ProductName": "ARCTIC Liquid Freezer III 360 A-RGB (ACFRE00144A)",
     "Quanity": "1",
     "Price": "36977",
-    "Tags": [ "ARCTIC", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "ARCTIC", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16210,7 +16210,7 @@
     "ProductName": "ARCTIC Liquid Freezer III 360 (ACFRE00136A)",
     "Quanity": "1",
     "Price": "34780",
-    "Tags": [ "ARCTIC", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "ARCTIC", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16225,7 +16225,7 @@
     "ProductName": "ARCTIC Freezer 36 ACFRE00123A",
     "Quanity": "1",
     "Price": "19040",
-    "Tags": [ "ARCTIC", "Aktív hűtő", "Processzor_hűtő", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "ARCTIC", "Aktív hűtő", "Processzor_hűtő", "hűtés", "120 mm ventilátor", "LED megvilágítás", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -16240,7 +16240,7 @@
     "ProductName": "ARCTIC Freezer 34 eSports DUO black/white (ACFRE00061A)",
     "Quanity": "1",
     "Price": "21123",
-    "Tags": [ "ARCTIC", "Aktív hűtő", "Processzor_hűtő", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "ARCTIC", "Aktív hűtő", "Processzor_hűtő", "hűtés", "120 mm ventilátor", "LED megvilágítás", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -16255,7 +16255,7 @@
     "ProductName": "ARCTIC Liquid Freezer III 240 (ACFRE00134A)",
     "Quanity": "1",
     "Price": "31420",
-    "Tags": [ "ARCTIC", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "ARCTIC", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16270,7 +16270,7 @@
     "ProductName": "ARCTIC Liquid Freezer III 420 (ACFRE00137A)",
     "Quanity": "1",
     "Price": "34220",
-    "Tags": [ "ARCTIC", "Folyadékhűtés", "Processzor_hűtő", "140 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "ARCTIC", "Folyadékhűtés", "Processzor_hűtő","hűtés", "140 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16285,7 +16285,7 @@
     "ProductName": "ARCTIC Liquid Freezer III 360 A-RGB (ACFRE00152A)",
     "Quanity": "1",
     "Price": "37990",
-    "Tags": [ "ARCTIC", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "LED megvilágítás" ],
+    "Tags": [ "ARCTIC", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16300,7 +16300,7 @@
     "ProductName": "ARCTIC Freezer 7 X CO",
     "Quanity": "1",
     "Price": "8593",
-    "Tags": [ "ARCTIC", "Aktív hűtő", "Processzor_hűtő", "92 mm ventilátor", "2000 rpm", "Nincs LED megvilágítás" ],
+    "Tags": [ "ARCTIC", "Aktív hűtő", "Processzor_hűtő", "hűtés", "92 mm ventilátor", "2000 rpm", "Nincs LED megvilágítás", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -16317,7 +16317,7 @@
     "ProductName": "ARCTIC Liquid Freezer III 420 ARGB",
     "Quanity": "1",
     "Price": "41200",
-    "Tags": [ "ARCTIC", "Folyadékhűtés", "Processzor_hűtő", "140 mm ventilátor", "1900 rpm", "LED megvilágítás" ],
+    "Tags": [ "ARCTIC", "Folyadékhűtés", "Processzor_hűtő","hűtés", "140 mm ventilátor", "1900 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16334,7 +16334,7 @@
     "ProductName": "ARCTIC Liquid Freezer III 240 ARGB",
     "Quanity": "1",
     "Price": "34920",
-    "Tags": [ "ARCTIC", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "2000 rpm", "LED megvilágítás" ],
+    "Tags": [ "ARCTIC", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "2000 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16351,7 +16351,7 @@
     "ProductName": "ARCTIC Liquid Freezer III 280",
     "Quanity": "1",
     "Price": "30730",
-    "Tags": [ "ARCTIC", "Folyadékhűtés", "Processzor_hűtő", "140 mm ventilátor", "1700 rpm", "Nincs LED megvilágítás" ],
+    "Tags": [ "ARCTIC", "Folyadékhűtés", "Processzor_hűtő","hűtés", "140 mm ventilátor", "1700 rpm", "Nincs LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16368,7 +16368,7 @@
     "ProductName": "ARCTIC Freezer 36 A-RGB",
     "Quanity": "1",
     "Price": "23610",
-    "Tags": [ "ARCTIC", "Aktív hűtő", "Processzor_hűtő", "120 mm ventilátor", "2000 rpm", "LED megvilágítás" ],
+    "Tags": [ "ARCTIC", "Aktív hűtő", "Processzor_hűtő", "hűtés", "120 mm ventilátor", "2000 rpm", "LED megvilágítás", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -16385,7 +16385,7 @@
     "ProductName": "ARCTIC Freezer 34 eSports DUO Grey",
     "Quanity": "1",
     "Price": "21123",
-    "Tags": [ "ARCTIC", "Aktív hűtő", "Processzor_hűtő", "120 mm ventilátor", "2100 rpm", "Nincs LED megvilágítás" ],
+    "Tags": [ "ARCTIC", "Aktív hűtő", "Processzor_hűtő", "hűtés", "120 mm ventilátor", "2100 rpm", "Nincs LED megvilágítás", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -16402,7 +16402,7 @@
     "ProductName": "ARCTIC Liquid Freezer III 280 ARGB",
     "Quanity": "1",
     "Price": "33940",
-    "Tags": [ "ARCTIC", "Folyadékhűtés", "Processzor_hűtő", "140 mm ventilátor", "1900 rpm", "LED megvilágítás" ],
+    "Tags": [ "ARCTIC", "Folyadékhűtés", "Processzor_hűtő","hűtés", "140 mm ventilátor", "1900 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16419,7 +16419,7 @@
     "ProductName": "ARCTIC Freezer 34 eSports DUO Red",
     "Quanity": "1",
     "Price": "26670",
-    "Tags": [ "ARCTIC", "Aktív hűtő", "Processzor_hűtő", "120 mm ventilátor", "2100 rpm", "Nincs LED megvilágítás" ],
+    "Tags": [ "ARCTIC", "Aktív hűtő", "Processzor_hűtő", "hűtés", "120 mm ventilátor", "2100 rpm", "Nincs LED megvilágítás", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -16436,7 +16436,7 @@
     "ProductName": "Corsair iCUE H150i ELITE CAPELLIX XT",
     "Quanity": "1",
     "Price": "58690",
-    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "2100 rpm", "LED megvilágítás" ],
+    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "2100 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16453,7 +16453,7 @@
     "ProductName": "Corsair iCUE H150i RGB Elite Capellix XT 120mm",
     "Quanity": "1",
     "Price": "58690",
-    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "2100 rpm", "LED megvilágítás" ],
+    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "2100 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16470,7 +16470,7 @@
     "ProductName": "Corsair iCUE H170i RGB Elite LCD XT",
     "Quanity": "1",
     "Price": "77090",
-    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő", "140 mm ventilátor", "1700 rpm", "LED megvilágítás" ],
+    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő","hűtés", "140 mm ventilátor", "1700 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16487,7 +16487,7 @@
     "ProductName": "Corsair iCUE H100i ELITE CAPELLIX XT 240mm White",
     "Quanity": "1",
     "Price": "36590",
-    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "2400 rpm", "LED megvilágítás" ],
+    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "2400 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16504,7 +16504,7 @@
     "ProductName": "Corsair iCUE H115i Elite RGB 140mm",
     "Quanity": "1",
     "Price": "39800",
-    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő", "140 mm ventilátor", "1400 rpm", "LED megvilágítás" ],
+    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő","hűtés", "140 mm ventilátor", "1400 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16521,7 +16521,7 @@
     "ProductName": "Corsair iCUE H100i ELITE LCD XT",
     "Quanity": "1",
     "Price": "142591",
-    "Tags": [ "Corsair", "Aktív hűtő", "Processzor_hűtő", "120 mm ventilátor", "2100 rpm", "LED megvilágítás" ],
+    "Tags": [ "Corsair", "Aktív hűtő", "Processzor_hűtő", "hűtés", "120 mm ventilátor", "2100 rpm", "LED megvilágítás", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -16538,7 +16538,7 @@
     "ProductName": "Corsair A115 Dual Tower 140mm",
     "Quanity": "1",
     "Price": "46520",
-    "Tags": [ "Corsair", "Aktív hűtő", "Processzor_hűtő", "120 mm ventilátor", "1600 rpm", "LED megvilágítás" ],
+    "Tags": [ "Corsair", "Aktív hűtő", "Processzor_hűtő", "hűtés", "120 mm ventilátor", "1600 rpm", "LED megvilágítás", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -16555,7 +16555,7 @@
     "ProductName": "Corsair iCUE LINK TITAN RX RGB 280 Black",
     "Quanity": "1",
     "Price": "66600",
-    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő", "140 mm ventilátor", "1700 rpm", "LED megvilágítás" ],
+    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő","hűtés", "140 mm ventilátor", "1700 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16571,7 +16571,7 @@
     "ProductName": "Corsair iCUE LINK TITAN 360 360 RX LCD",
     "Quanity": "1",
     "Price": "134518",
-    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "2100 rpm", "LED megvilágítás" ],
+    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "2100 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16588,7 +16588,7 @@
     "ProductName": "Corsair Nautilus 360 ARGB",
     "Quanity": "1",
     "Price": "134518",
-    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "1700 rpm", "LED megvilágítás" ],
+    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "1700 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16605,7 +16605,7 @@
     "ProductName": "Corsair iCUE LINK TITAN 360 RX LCD",
     "Quanity": "1",
     "Price": "137690",
-    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "2100 rpm", "LED megvilágítás" ],
+    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "2100 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16622,7 +16622,7 @@
     "ProductName": "Corsair iCUE LINK H100i RGB White",
     "Quanity": "1",
     "Price": "56890",
-    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "2400 rpm", "LED megvilágítás" ],
+    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "2400 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16638,7 +16638,7 @@
     "ProductName": "Corsair iCUE LINK Titan 240 RX LCD RGB White",
     "Quanity": "1",
     "Price": "90380",
-    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "2100 rpm", "LED megvilágítás" ],
+    "Tags": [ "Corsair", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "2100 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16655,7 +16655,7 @@
     "ProductName": "NZXT Kraken Elite 280 RGB Black",
     "Quanity": "1",
     "Price": "118880",
-    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő", "140 mm ventilátor", "1500 rpm", "LED megvilágítás" ],
+    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő","hűtés", "140 mm ventilátor", "1500 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16672,7 +16672,7 @@
     "ProductName": "NZXT Kraken 280",
     "Quanity": "1",
     "Price": "65660",
-    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő", "140 mm ventilátor", "1500 rpm" ],
+    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő","hűtés", "140 mm ventilátor", "1500 rpm", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16687,7 +16687,7 @@
     "ProductName": "NZXT Kraken 240",
     "Quanity": "1",
     "Price": "64770",
-    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "1800 rpm" ],
+    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "1800 rpm", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16703,7 +16703,7 @@
     "ProductName": "NZXT Kraken Elite 360 Black",
     "Quanity": "1",
     "Price": "125730",
-    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "1800 rpm", "LED megvilágítás" ],
+    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "1800 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16720,7 +16720,7 @@
     "ProductName": "NZXT Kraken 280 RGB",
     "Quanity": "1",
     "Price": "83060",
-    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő", "140 mm ventilátor", "1500 rpm", "LED megvilágítás" ],
+    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő","hűtés", "140 mm ventilátor", "1500 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16737,7 +16737,7 @@
     "ProductName": "NZXT T120",
     "Quanity": "1",
     "Price": "20580",
-    "Tags": [ "NZXT", "Aktív hűtő", "Processzor_hűtő", "120 mm ventilátor", "2100 rpm" ],
+    "Tags": [ "NZXT", "Aktív hűtő", "Processzor_hűtő", "hűtés", "120 mm ventilátor", "2100 rpm", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -16753,7 +16753,7 @@
     "ProductName": "NZXT Kraken 240 RGB White",
     "Quanity": "1",
     "Price": "85330",
-    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "1800 rpm", "LED megvilágítás" ],
+    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "1800 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16769,7 +16769,7 @@
     "ProductName": "NZXT Kraken Elite 240 RGB",
     "Quanity": "1",
     "Price": "109730",
-    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "1500 rpm", "LED megvilágítás" ],
+    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "1500 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16785,7 +16785,7 @@
     "ProductName": "NZXT Kraken Elite 280 Black",
     "Quanity": "1",
     "Price": "109730",
-    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő", "140 mm ventilátor", "1500 rpm", "LED megvilágítás" ],
+    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő","hűtés", "140 mm ventilátor", "1500 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16801,7 +16801,7 @@
     "ProductName": "NZXT Kraken 280 RGB White",
     "Quanity": "1",
     "Price": "88790",
-    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő", "140 mm ventilátor", "1500 rpm", "LED megvilágítás" ],
+    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő","hűtés", "140 mm ventilátor", "1500 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16817,7 +16817,7 @@
     "ProductName": "NZXT T120 RGB",
     "Quanity": "1",
     "Price": "23630",
-    "Tags": [ "NZXT", "Aktív hűtő", "Processzor_hűtő", "120 mm ventilátor", "2100 rpm", "LED megvilágítás" ],
+    "Tags": [ "NZXT", "Aktív hűtő", "Processzor_hűtő", "hűtés", "120 mm ventilátor", "2100 rpm", "LED megvilágítás", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -16833,7 +16833,7 @@
     "ProductName": "NZXT T120 RGB White",
     "Quanity": "1",
     "Price": "22860",
-    "Tags": [ "NZXT", "Aktív hűtő", "Processzor_hűtő", "120 mm ventilátor", "2100 rpm", "LED megvilágítás" ],
+    "Tags": [ "NZXT", "Aktív hűtő", "Processzor_hűtő", "hűtés", "120 mm ventilátor", "2100 rpm", "LED megvilágítás", "processzorhűtő" ],
     "Description": [
       "Típus: Aktív hűtő",
       "Hűtő típusa: Processzor",
@@ -16849,7 +16849,7 @@
     "ProductName": "NZXT Kraken Elite 240 Black",
     "Quanity": "1",
     "Price": "100590",
-    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "1800 rpm", "LED megvilágítás" ],
+    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "1800 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -16864,7 +16864,7 @@
     "ProductName": "NZXT Kraken 120",
     "Quanity": "1",
     "Price": "35530",
-    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő", "120 mm ventilátor", "2000 rpm", "LED megvilágítás" ],
+    "Tags": [ "NZXT", "Folyadékhűtés", "Processzor_hűtő","hűtés", "120 mm ventilátor", "2000 rpm", "LED megvilágítás", "vizhűtés" ],
     "Description": [
       "Típus: Folyadékhűtés",
       "Hűtő típusa: Processzor",
@@ -19537,7 +19537,7 @@
     "ProductName": "I5 12400 4060 189425 számítógép",
     "Quanity": "1",
     "Price": "338193",
-    "Tags": [ "PC", "Intel", "i5-12400F", "RTX 4060" ],
+    "Tags": [ "PC", "Intel", "i5-12400F", "RTX 4060", "prebuild" ],
     "Description": [
       "Alaplap: GIGABYTE B760M H DDR4",
       "Processzor: Intel Core i5-12400F",
@@ -19553,7 +19553,7 @@
     "ProductName": "I5 14400F 4060Ti 059867 számítógép",
     "Quanity": "1",
     "Price": "439283",
-    "Tags": [ "PC", "Intel", "i5-14400F", "RTX 4060 Ti" ],
+    "Tags": [ "PC", "Intel", "i5-14400F", "RTX 4060 Ti", "prebuild" ],
     "Description": [
       "Alaplap: GIGABYTE B760M H DDR4",
       "Processzor: Intel Core i5-14400F",
@@ -19569,7 +19569,7 @@
     "ProductName": "R7 7700X 7800XT 547283 számítógép",
     "Quanity": "1",
     "Price": "594594",
-    "Tags": [ "PC", "AMD", "Ryzen 7 7700X", "RX 7800 XT" ],
+    "Tags": [ "PC", "AMD", "Ryzen 7 7700X", "RX 7800 XT", "prebuild" ],
     "Description": [
       "Alaplap: MSI PRO B650-S WIFI",
       "Processzor: AMD Ryzen 7 7700X",
@@ -19585,7 +19585,7 @@
     "ProductName": "R7 7800X3D 7900XTX 125986 számítógép",
     "Quanity": "1",
     "Price": "1051093",
-    "Tags": [ "PC", "AMD", "Ryzen 7 7800X3D", "RX 7900 XTX" ],
+    "Tags": [ "PC", "AMD", "Ryzen 7 7800X3D", "RX 7900 XTX", "prebuild" ],
     "Description": [
       "Alaplap: MSI X670E Gaming Plus WIFI",
       "Processzor: AMD Ryzen 7 7800X3D",
@@ -19601,7 +19601,7 @@
     "ProductName": "R7 7800X3D Radeon Graphics 298360 számítógép",
     "Quanity": "1",
     "Price": "448494",
-    "Tags": [ "PC", "AMD", "Ryzen 7 7800X3D", "integrált GPU" ],
+    "Tags": [ "PC", "AMD", "Ryzen 7 7800X3D", "integrált GPU", "prebuild" ],
     "Description": [
       "Alaplap: GIGABYTE B650M S2H",
       "Processzor: AMD Ryzen 7 7800X3D",
@@ -19616,7 +19616,7 @@
     "ProductName": "R5 5600X 3060 826571 számítógép",
     "Quanity": "1",
     "Price": "285284",
-    "Tags": [ "PC", "AMD", "Ryzen 5 5600X", "RTX 3060" ],
+    "Tags": [ "PC", "AMD", "Ryzen 5 5600X", "RTX 3060", "prebuild" ],
     "Description": [
       "Alaplap: GIGABYTE A520M S2H",
       "Processzor: AMD Ryzen 5 5600X",
@@ -19631,7 +19631,7 @@
     "ProductName": "I5 10400 Intel UHD Graphics 630 396054 számítógép",
     "Quanity": "1",
     "Price": "168383",
-    "Tags": [ "PC", "Intel", "i5-10400", "integrált GPU" ],
+    "Tags": [ "PC", "Intel", "i5-10400", "integrált GPU", "prebuild" ],
     "Description": [
       "Alaplap: GIGABYTE H410M H V2",
       "Processzor: Intel Core i5-10400",
@@ -19645,7 +19645,7 @@
     "ProductName": "R5 5600G Radeon Graphics 210359 számítógép",
     "Quanity": "1",
     "Price": "162485",
-    "Tags": [ "PC", "AMD", "Ryzen 5 5600G", "integrált GPU" ],
+    "Tags": [ "PC", "AMD", "Ryzen 5 5600G", "integrált GPU", "prebuild" ],
     "Description": [
       "Alaplap: ASUS PRIME B450M-K II",
       "Processzor: AMD Ryzen 5 5600G",
@@ -19659,7 +19659,7 @@
     "ProductName": "R5 7600X 7700XT 687053 számítógép",
     "Quanity": "1",
     "Price": "487991",
-    "Tags": [ "PC", "AMD", "Ryzen 5 7600X", "RX 7700 XT" ],
+    "Tags": [ "PC", "AMD", "Ryzen 5 7600X", "RX 7700 XT", "prebuild" ],
     "Description": [
       "Alaplap: ASUS Prime B650M-K",
       "Processzor: AMD Ryzen 5 7600X",
@@ -19675,7 +19675,7 @@
     "ProductName": "I9 13900KF 4060 865270 számítógép",
     "Quanity": "1",
     "Price": "708683",
-    "Tags": [ "PC", "Intel", "i9-13900KF", "RTX 4060" ],
+    "Tags": [ "PC", "Intel", "i9-13900KF", "RTX 4060", "prebuild" ],
     "Description": [
       "Alaplap: ASRock Z790 PG Lightning",
       "Processzor: Intel Core i9-13900KF",
@@ -19691,7 +19691,7 @@
     "ProductName": "R9 7900X3D A2000 268514 számítógép",
     "Quanity": "1",
     "Price": "894480",
-    "Tags": [ "PC", "AMD", "Ryzen 9 7900X3D", "RTX A2000" ],
+    "Tags": [ "PC", "AMD", "Ryzen 9 7900X3D", "RTX A2000", "prebuild" ],
     "Description": [
       "Alaplap: ASUS TUF Gaming B650M-E WIFI",
       "Processzor: AMD Ryzen 9 7900X3D",
@@ -19710,7 +19710,7 @@
     "ProductName": "R5 5600G Radeon Graphics 537981 számítógép",
     "Quanity": "1",
     "Price": "233992",
-    "Tags": [ "PC", "AMD", "Ryzen 5 5600G", "integrált GPU" ],
+    "Tags": [ "PC", "AMD", "Ryzen 5 5600G", "integrált GPU", "prebuild" ],
     "Description": [
       "Alaplap: ASUS Prime B550M-K",
       "Processzor: AMD Ryzen 5 5600X",
