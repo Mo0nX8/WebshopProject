@@ -1,18 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Net;
-using System.Net.Mail;
+﻿using Microsoft.AspNetCore.Identity.UI.Services;
+using Microsoft.AspNetCore.Mvc;
+using System.Text.RegularExpressions;
 using Webshop.EntityFramework;
 using Webshop.EntityFramework.Data;
-using System.IO;
-using System.Text;
-using Microsoft.AspNetCore.Hosting;
-using System.Net.Mime;
 using Webshop.EntityFramework.Managers.Carts;
 using Webshop.EntityFramework.Managers.Order;
-using Webshop.EntityFramework.Managers.User;
 using Webshop.EntityFramework.Managers.Product;
+using Webshop.EntityFramework.Managers.User;
+using Webshop.Services.Interfaces;
 using Webshop.Services.Services.ViewModel;
-using System.Text.RegularExpressions;
 
 namespace WebshopWeb.Controllers
 {
@@ -27,7 +23,8 @@ namespace WebshopWeb.Controllers
         private GlobalDbContext _context;
         private IConfiguration _config;
         private IWebHostEnvironment _webHostEnvironment;
-        public OrderController(ICartManager cartManager, IProductManager productManager, IOrderManager orderManager, GlobalDbContext context, IUserManager userManager, IConfiguration config, IWebHostEnvironment webHostEnvironment)
+        private readonly IEmailService emailSender;
+        public OrderController(ICartManager cartManager, IProductManager productManager, IOrderManager orderManager, GlobalDbContext context, IUserManager userManager, IConfiguration config, IWebHostEnvironment webHostEnvironment, IEmailService emailSender)
         {
             this.cartManager = cartManager;
             this.productManager = productManager;
@@ -36,6 +33,7 @@ namespace WebshopWeb.Controllers
             this.userManager = userManager;
             _config = config;
             _webHostEnvironment = webHostEnvironment;
+            this.emailSender = emailSender;
         }
 
         public IActionResult Details()
@@ -50,7 +48,7 @@ namespace WebshopWeb.Controllers
             Orders order = new Orders();
             var cartId = HttpContext.Session.GetInt32("CartId");
             var cart = cartManager.GetCart(cartId);
-
+            var user = userManager.GetUser(HttpContext.Session.GetInt32("UserId").Value);
             var price = 0;
             List<CartItem> cartItems = cart.CartItems.ToList();
             List<OrderItem> orderItems = new List<OrderItem>();
@@ -76,14 +74,14 @@ namespace WebshopWeb.Controllers
             cart.CartItems = new List<CartItem>();
            
             order.DateOfOrder=DateTime.Now;
-            order.UserId = Convert.ToInt32(HttpContext.Session.GetInt32("UserId"));
+            order.UserId = user.Id;
             order.Price =Convert.ToInt32(orderItems.Sum(p=>p.Quantity*p.Price));
             order.OrderItems = orderItems;
             order.PaymentOption = payment;
             order.ShippingOption = shipping;
             _context.Orders.Add(order);
             _context.SaveChanges();
-            SendEmail(order);
+            SendEmail(order,user.EmailAddress);
             return View();
         }
         public IActionResult PlaceOrder(string shipping, string payment)
@@ -94,8 +92,13 @@ namespace WebshopWeb.Controllers
             var user = userManager.GetUser(userId);
             var address = user.Address;
             var addressGoodFormat = address.ZipCode + ", " + address.City + " " + address.StreetAndNumber;
-            decimal paymentPrice= Convert.ToDecimal(Regex.Replace(payment, @"\D", ""));
             decimal shipmentPrice= Convert.ToDecimal(Regex.Replace(shipping, @"\D", ""));
+
+            decimal paymentPrice = 0;
+            if(!payment.Contains("Ingyenes"))
+            { 
+                paymentPrice= Convert.ToDecimal(Regex.Replace(payment, @"\D", ""));
+            }
 
             var model = new OrderSummaryViewModel
             {
@@ -132,65 +135,11 @@ namespace WebshopWeb.Controllers
             var cartId=HttpContext.Session.GetInt32("CartId").Value; 
             return RedirectToAction("Details");
         }
-        public void SendEmail(Orders order)
+        public async Task SendEmail(Orders order, string email)
         {
-            string smtpServer = _config["SmtpSettings:Host"];
-            int smtpPort = Convert.ToInt32(_config["SmtpSettings:Port"]);
-            string senderEmail = _config["SmtpSettings:User"];
-            string senderPassword = _config["SmtpSettings:Password"];
-            string recipientEmail = "Anakinka2323@gmail.com";
-
-            string htmlFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "templates", "emailTemplate.html");
-            string htmlBody = System.IO.File.ReadAllText(htmlFilePath);
-
-            StringBuilder orderItemsHtml = new StringBuilder();
-            int imageIndex = 1;
-
-            using (MailMessage mail = new MailMessage(senderEmail, recipientEmail))
-            {
-                mail.Subject = "Rendelés #" + order.Id;
-                mail.IsBodyHtml = true;
-
-                foreach (var item in order.OrderItems)
-                {
-                    string contentId = $"image{imageIndex}";
-
-                    orderItemsHtml.AppendLine($@"
-                <tr>
-                    <td><img src='cid:{contentId}' width='100' height='100'></td>
-                    <td>{item.Product.ProductName}</td>
-                    <td>{item.Quantity}</td>
-                    <td>{item.Price:C}</td>
-                </tr>");
-
-                    MemoryStream imageStream = new MemoryStream(item.Product.ImageData);
-                    Attachment inline = new Attachment(imageStream, "image.jpg", "image/jpeg")
-                    {
-                        ContentId = contentId,
-                        ContentDisposition = { Inline = true, DispositionType = DispositionTypeNames.Inline }
-                    };
-                    mail.Attachments.Add(inline);
-
-                    imageIndex++;
-                }
-
-                var totalPrice = order.OrderItems.Sum(item => item.Quantity * item.Price);
-                htmlBody = htmlBody.Replace("{{ORDER_ITEMS}}", orderItemsHtml.ToString());
-                htmlBody = htmlBody.Replace("{{TOTAL_PRICE}}", totalPrice + " Ft");
-
-                mail.Body = htmlBody;
-                    
-                using (SmtpClient smtpClient = new SmtpClient(smtpServer, smtpPort))
-                {
-                    smtpClient.Credentials = new NetworkCredential(senderEmail, senderPassword);
-                    smtpClient.EnableSsl = true;
-                    smtpClient.UseDefaultCredentials = false;
-                    smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
-                    smtpClient.Send(mail);
-                }
-            }
+            await emailSender.SendEmailAsync(order, email);
+            
         }
-
 
 
     }
