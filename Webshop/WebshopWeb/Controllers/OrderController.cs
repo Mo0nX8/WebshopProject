@@ -12,6 +12,7 @@ using Webshop.EntityFramework.Managers.Order;
 using Webshop.EntityFramework.Managers.User;
 using Webshop.EntityFramework.Managers.Product;
 using Webshop.Services.Services.ViewModel;
+using System.Text.RegularExpressions;
 
 namespace WebshopWeb.Controllers
 {
@@ -44,7 +45,7 @@ namespace WebshopWeb.Controllers
             _context.Entry(user).Reference(u => u.Address).Load();
             return View(user);
         }
-        public IActionResult Confirm()
+        public IActionResult Confirm(string shipping, string payment)
         {
             Orders order = new Orders();
             var cartId = HttpContext.Session.GetInt32("CartId");
@@ -55,7 +56,7 @@ namespace WebshopWeb.Controllers
             List<OrderItem> orderItems = new List<OrderItem>();
             foreach(var item in cartItems)
             {
-                price += item.Quanity * item.Product.Price;
+                
                 var product=productManager.GetProduct(item.ProductId);
                 product.Quanity-=item.Quanity;
                 _context.StorageData.Update(product);
@@ -63,7 +64,7 @@ namespace WebshopWeb.Controllers
                 {
                     ProductId = item.ProductId,
                     Quantity = item.Quanity,
-                    Price = item.Product.Price
+                    Price = item.Product.Price,
 
                 };
                 orderItems.Add(orderItem);
@@ -76,8 +77,10 @@ namespace WebshopWeb.Controllers
            
             order.DateOfOrder=DateTime.Now;
             order.UserId = Convert.ToInt32(HttpContext.Session.GetInt32("UserId"));
-            order.Price =price;
+            order.Price =Convert.ToInt32(orderItems.Sum(p=>p.Quantity*p.Price));
             order.OrderItems = orderItems;
+            order.PaymentOption = payment;
+            order.ShippingOption = shipping;
             _context.Orders.Add(order);
             _context.SaveChanges();
             SendEmail(order);
@@ -89,20 +92,25 @@ namespace WebshopWeb.Controllers
             var cart = cartManager.GetCart(cartId);
             var userId = HttpContext.Session.GetInt32("UserId").Value;
             var user = userManager.GetUser(userId);
-            var address = user.Address.ZipCode + ", " + user.Address.City + " " + user.Address.StreetAndNumber;
+            var address = user.Address;
+            var addressGoodFormat = address.ZipCode + ", " + address.City + " " + address.StreetAndNumber;
+            decimal paymentPrice= Convert.ToDecimal(Regex.Replace(payment, @"\D", ""));
+            decimal shipmentPrice= Convert.ToDecimal(Regex.Replace(shipping, @"\D", ""));
+
             var model = new OrderSummaryViewModel
             {
-                CustomerName = user.Username, 
-                ShippingAddress = address, 
-                ShippingOption = "Futárszolgálat", 
-                PaymentOption = "Bankkártya", 
+                CustomerName = user.Username,
+                ShippingAddress = addressGoodFormat,
+                ShippingOption = shipping,
+                PaymentOption = payment,
                 Products = cart.CartItems.Select(item => new OrderProductViewModel
                 {
                     Name = item.Product.ProductName,
                     ImageUrl = item.Product.ImageData,
                     Price = item.Product.Price,
                     Quantity = item.Quanity
-                }).ToList()
+                }).ToList(),
+                TotalPrice = cart.CartItems.Sum(item => item.Product.Price * item.Quanity)+paymentPrice+shipmentPrice 
             };
 
             return View(model);

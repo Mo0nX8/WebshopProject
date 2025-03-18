@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,7 +25,10 @@ namespace Webshop.EntityFramework.Managers.User
 
         public UserData GetUser(int userId)
         {
-            return _context.Users.FirstOrDefault(x => x.Id == userId);
+            return _context.Users
+                .Include(p => p.Address)
+                .FirstOrDefault(x => x.Id == userId);
+                
         }
 
         public IQueryable<UserData> GetUsers()

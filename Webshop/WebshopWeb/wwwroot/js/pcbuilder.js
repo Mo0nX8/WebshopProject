@@ -41,11 +41,11 @@ function filter() {
    
 function populateSelect(selectId, items) {
     let select = document.getElementById(selectId);
-    let selectedValue = select.value; // Elmenti a jelenlegi kiválasztott értéket
+    let selectedValue = select.value; 
 
     select.innerHTML = '<option value="">Válassz terméket</option>';
 
-    let foundSelected = false; // Nyomon követjük, hogy az aktuális választás még mindig elérhető-e
+    let foundSelected = false; 
 
     items.forEach(item => {
         let option = document.createElement("option");
@@ -60,7 +60,7 @@ function populateSelect(selectId, items) {
         select.appendChild(option);
     });
 
-    // Ha a kiválasztott elem már nem kompatibilis, reseteljük
+   
     if (!foundSelected) {
         select.value = "";
     }

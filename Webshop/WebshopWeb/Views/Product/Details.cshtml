@@ -101,7 +101,6 @@
     <form asp-action="AddReview" asp-controller="Product" method="post">
         <input type="hidden" name="productId" value="@Model.Id" />
 
-        <div asp-validation-summary="All" class="text-danger"></div>
 
         <label>Értékelés (1-5):</label>
         <select name="rating" class="form-control" required>

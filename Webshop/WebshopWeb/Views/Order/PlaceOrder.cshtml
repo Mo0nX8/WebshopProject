@@ -42,5 +42,5 @@
 
     <h3>Végösszeg: @Model.TotalPrice.ToString("C")</h3>
 
-    <a class="btn btn-primary" href="@Url.Action("Confirm", "Order")">Rendelés leadása</a>
+    <a class="btn btn-primary" href="@Url.Action("Confirm", "Order", new {payment=Model.PaymentOption, shipping=Model.ShippingOption})">Rendelés leadása</a>
 </div>

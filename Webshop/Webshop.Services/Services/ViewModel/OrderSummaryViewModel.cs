@@ -13,7 +13,7 @@ namespace Webshop.Services.Services.ViewModel
         public string ShippingAddress { get; set; }
         public string ShippingOption { get; set; }
         public string PaymentOption { get; set; }
-        public decimal TotalPrice => Products.Sum(p => p.Price * p.Quantity);
+        public decimal TotalPrice { get; set; }
     }
     public class OrderProductViewModel
     {
