@@ -27,7 +27,7 @@
         </div>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">DxMarket</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">DXMarket</a>
                 <a class="navbar-brand" asp-area="" asp-controller="PCBuilderView" asp-action="Index">Gépösszerakó</a>
                 <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,6 +44,15 @@
                                 <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "Videókártya" })">Videokártyák</a></li>
                                 <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "Memória" })">Memória</a></li>
                                 <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "Tápegység" })">Tápegységek</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="@Url.Action("Search", "Product", new { searchValue = "hűtés" })">Hűtés</a>
+                                    <ul class="dropdown-menu submenu">
+                                        <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="processzorhűtő" })">Processzor hűtés</a></li>
+                                        <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="vizhűtés" })">Vízhűtés</a></li>
+                                        <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="házhűtés" })">Rendszer hűtés</a></li>
+                                    </ul>
+                                </li>
+
                                 <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "gépház" })">Gépházak</a></li>
                                 <li class="dropdown-submenu">
 
@@ -76,7 +85,7 @@
                                 <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="xbox_konzol" })">Xbox</a></li>
                             </ul>
                         </li>
-
+                        <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "prebuild" })">PreBuild PC</a></li>
                         <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "monitor" })">Monitorok</a></li>
                         <li class="dropdown-submenu">
                             <a class="dropdown-item dropdown-toggle" href="@Url.Action("Search", "Product", new { searchValue = "periféria" })">Perifériák</a>
@@ -88,6 +97,7 @@
                             </ul>
                         </li>
                         <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "kábel" })">Kábelek</a></li>
+
                     </ul>
                 </div>
 
@@ -101,6 +111,7 @@
                         <div id="suggestions-container" class="dropdown-menu" style="width: 100%;"></div>
                     </div>
                 </div>
+
                 <script>
                     var getSearchSuggestionsUrl = '@Url.Action("GetSearchSuggestions", "Product")';
                     function searchProduct() {
@@ -121,6 +132,12 @@
                         });
                     });
                 </script>
+                <div id="weather-container">
+                    <input type="text" id="search-input" placeholder="Add meg a város nevét">
+                    <button id="search-btn">Keresés</button>
+                    <div id="weather-display"></div>
+                </div>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -167,24 +184,19 @@
     </div>
 
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            <div class="row justify-content-end">
-                <div class="col-8">
-                    <a href=@Url.Action("aszf","Home")>ÁSZF</a>
-                </div>
-                <div class="col-2">
-                    <a href="https://www.arukereso.hu/">Árukereső</a>
-                    <a href="https://ipon.hu">Ipon</a>
-                </div>
-            </div>
-        </div>
-
-    </footer>
+   <div class="custom-footer">
+       <div class="footer-content">
+           <p>&copy; 2025 DXMarket | All rights reserved</p>
+            <nav>
+                <a href=@Url.Action("aszf","Home")>ÁSZF</a> | <a href="https://www.arukereso.hu/" target="_blank">Árukereső</a> | <a href="www.ipon.hu" target="_blank">Ipon</a>
+            </nav>
+       </div>
+   </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="~/js/searchDropdownHandler.js"></script>
+    <script src="~/js/Weather.js"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>

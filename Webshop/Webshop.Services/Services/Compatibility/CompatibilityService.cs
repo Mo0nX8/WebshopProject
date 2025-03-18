@@ -18,8 +18,29 @@ namespace Webshop.Services.Services.Compatibility
         {
             this.productManager = productManager;
         }
+        //public IQueryable<Products> GetFilteredProducts(int? motherboardId, int? cpuId, int? caseId, int? ramId)
+        //{
+        //    var query = productManager.GetProducts();
+        //    var compatibleQuery=query.Where(p=>false);
+        //    if(cpuId.HasValue)
+        //    {
+        //        compatibleQuery.Concat(GetCPU(cpuId.Value));
+        //    }
+        //    if (motherboardId.HasValue)
+        //    {
+        //        compatibleQuery.Concat(GetMotherboard(cpuId.Value));
+        //    }
+        //    if (ramId.HasValue)
+        //    {
+        //        compatibleQuery.Concat(GetRAM(cpuId.Value));
+        //    }
+        //    if (caseId.HasValue)
+        //    {
+        //        compatibleQuery.Concat(GetCase(cpuId.Value));
+        //    }
 
-        public IQueryable<Products> GetCPUCompatibleWithMotherboard(int cpuId)
+        //}
+        public IQueryable<Products> GetCPU(int cpuId)
         {
             var query = productManager.GetProducts();
             var cpuTags = query
@@ -49,7 +70,12 @@ namespace Webshop.Services.Services.Compatibility
 
         }
 
-        public IQueryable<Products> GetMotherboardCompatibleWithCase(int caseId)
+        public IQueryable<Products> GetCPUCompatibleWithMotherboard(int cpuId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IQueryable<Products> GetMotherboard(int caseId)
         {
 
 
@@ -89,9 +115,12 @@ namespace Webshop.Services.Services.Compatibility
             return compatibleQuery;
         }
 
+        public IQueryable<Products> GetMotherboardCompatibleWithCase(int caseId)
+        {
+            throw new NotImplementedException();
+        }
 
-
-        public IQueryable<Products> GetRamCompatibleWithMotherboard(int motherboardId)
+        public IQueryable<Products> GetRam(int motherboardId)
         {
             var query = productManager.GetProducts();
             var motherboardTags = query
@@ -120,6 +149,9 @@ namespace Webshop.Services.Services.Compatibility
             return compatibleQuery;
         }
 
-
+        public IQueryable<Products> GetRamCompatibleWithMotherboard(int motherboardId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

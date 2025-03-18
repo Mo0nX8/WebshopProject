@@ -1,7 +1,7 @@
 ﻿document.addEventListener("DOMContentLoaded", function () {
     const apiKey = "677345bee1294122b83150953252602";
-    const searchBtn = document.getElementById("weather-search-btn");
-    const searchInput = document.getElementById("weather-search");
+    const searchBtn = document.getElementById("search-btn");
+    const searchInput = document.getElementById("search-input");
     const weatherDisplay = document.getElementById("weather-display");
 
     getWeather("Gyongyos");
