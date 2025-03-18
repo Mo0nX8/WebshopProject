@@ -1,5 +1,10 @@
 html {
-  font-size: 18px;
+    font-size: 18px;
+    position: relative;
+    min-height: 100%;
+    margin:0;
+    padding:0;
+    height:100%;
 }
 
 @media (min-width: 768px) {
@@ -12,13 +17,10 @@ html {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
+
 
 body {
-  padding-bottom:10%;
+  padding-bottom:0;
 }
 #form 
 {
@@ -45,6 +47,7 @@ body {
 .search-bar {
     max-width: 500px;
     margin: auto auto;
+    position:relative;
 }
 
     .search-bar .input-group {
@@ -71,9 +74,14 @@ body {
 #suggestions-container
 {
     max-width:500px;
-    margin: auto auto;
+    margin: 0 auto;
+    width:100%;
+    box-sizing:border-box;
+    position:absolute;
+    z-index:1000;
 
 }
+
 .dropdown-submenu {
     position: relative;
 }
@@ -85,9 +93,59 @@ body {
         margin-top: 0;
         display: none;
         min-width: 200px;
+        background: white;
+        z-index: 1000;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     }
 
+
+@media (min-width: 769px) {
     .dropdown-submenu:hover > .submenu {
         display: block;
     }
+}
+
+
+@media (max-width: 768px) {
+    .dropdown-menu {
+        width: 100%;
+    }
+
+    .dropdown-submenu .submenu {
+        position: static;
+        display: none;
+        width: 100%;
+    }
+
+    .dropdown-submenu.show > .submenu {
+        display: block;
+    }
+}
+.custom-footer {
+    background-color: #222; 
+    color: #fff; 
+    padding: 15px 20px; 
+    text-align: center;
+    position:relative;
+    bottom:0;
+}
+
+.footer-content nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px; 
+}
+
+    .footer-content nav a:hover {
+        text-decoration: underline; 
+    }
+
+@media (max-width: 600px) {
+    .footer-content nav {
+        display: block; 
+        margin-top: 10px;
+    }
+}
+
+
 
