@@ -20,7 +20,11 @@
             {
                 <tr>
                     <td>
-                        <img src="@item.ImageUrl" alt="@item.Name" width="50" height="50" />
+                        @if (item.ImageUrl != null && item.ImageUrl.Length > 0)
+                        {
+                            var base64Image = Convert.ToBase64String(item.ImageUrl);
+                            <img src="data:image/jpeg;base64,@base64Image" class="card-img-top product-image" alt="@item.Name">
+                        }
                     </td>
                     <td>@item.Name</td>
                     <td>@item.Price.ToString("C")</td>
