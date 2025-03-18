@@ -70,6 +70,11 @@ namespace Webshop.Services.Services.Compatibility
 
         }
 
+        public IQueryable<Products> GetCPUCompatibleWithMotherboard(int cpuId)
+        {
+            throw new NotImplementedException();
+        }
+
         public IQueryable<Products> GetMotherboard(int caseId)
         {
 
@@ -110,7 +115,10 @@ namespace Webshop.Services.Services.Compatibility
             return compatibleQuery;
         }
 
-
+        public IQueryable<Products> GetMotherboardCompatibleWithCase(int caseId)
+        {
+            throw new NotImplementedException();
+        }
 
         public IQueryable<Products> GetRam(int motherboardId)
         {

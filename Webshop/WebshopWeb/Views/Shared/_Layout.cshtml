@@ -27,7 +27,7 @@
         </div>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">DxMarket</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">DXMarket</a>
                 <a class="navbar-brand" asp-area="" asp-controller="PCBuilderView" asp-action="Index">Gépösszerakó</a>
                 <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
@@ -111,6 +111,7 @@
                         <div id="suggestions-container" class="dropdown-menu" style="width: 100%;"></div>
                     </div>
                 </div>
+
                 <script>
                     var getSearchSuggestionsUrl = '@Url.Action("GetSearchSuggestions", "Product")';
                     function searchProduct() {
@@ -131,6 +132,12 @@
                         });
                     });
                 </script>
+                <div id="weather-container">
+                    <input type="text" id="search-input" placeholder="Add meg a város nevét">
+                    <button id="search-btn">Keresés</button>
+                    <div id="weather-display"></div>
+                </div>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -189,6 +196,7 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="~/js/searchDropdownHandler.js"></script>
+    <script src="~/js/Weather.js"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
