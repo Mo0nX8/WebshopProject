@@ -3820,7 +3820,7 @@
     "ProductName": "Intel Core Ultra 5 245K 14-Core 4.2GHz LGA1851 Box",
     "Quanity": "1",
     "Price": "165684",
-    "Tags": [ "Intel", "Core Ultra 5", "14 magos", "4.2GHz", "LGA1851", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core Ultra 5", "14 magos", "4.2GHz", "Socket 1851", "Dobozos", "CPU", "Processzor", "hardver", "DDR5" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core Ultra 5",
@@ -3841,7 +3841,7 @@
     "ProductName": "Intel Core Ultra 7 265KF 20-Core 3.3GHz LGA1851 Box",
     "Quanity": "1",
     "Price": "186580",
-    "Tags": [ "Intel", "Core Ultra 7", "20 magos", "3.3GHz", "LGA1851", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core Ultra 7", "20 magos", "3.3GHz", "Socket 1851", "Dobozos", "CPU", "Processzor", "hardver", "DDR5" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core Ultra 7",
@@ -3862,7 +3862,7 @@
     "ProductName": "Intel Core Ultra 5 245KF 14-Core 4.2GHz LGA1851 Box",
     "Quanity": "1",
     "Price": "130570",
-    "Tags": [ "Intel", "Core Ultra 5", "14 magos", "4.2GHz", "LGA1851", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core Ultra 5", "14 magos", "4.2GHz", "Socket 1851", "Dobozos", "CPU", "Processzor", "hardver", "DDR5" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core Ultra 5",
@@ -3883,7 +3883,7 @@
     "ProductName": "Intel Core Ultra 5 225F Box",
     "Quanity": "1",
     "Price": "117210",
-    "Tags": [ "Intel", "Core Ultra 5", "10 magos", "2.7GHz", "LGA1851", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core Ultra 5", "10 magos", "2.7GHz", "Socket 1851", "Dobozos", "CPU", "Processzor", "hardver", "DDR5" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core Ultra 5",
@@ -3904,7 +3904,7 @@
     "ProductName": "Intel Core Ultra 5 225 Box",
     "Quanity": "1",
     "Price": "126430",
-    "Tags": [ "Intel", "Core Ultra 5", "10 magos", "2.7GHz", "LGA1851", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core Ultra 5", "10 magos", "2.7GHz", "Socket 1851", "Dobozos", "CPU", "Processzor", "hardver", "DDR5" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core Ultra 5",
@@ -3925,7 +3925,7 @@
     "ProductName": "Intel Core Ultra 5 235 14-Core 3.4GHz LGA1851 Box",
     "Quanity": "1",
     "Price": "136210",
-    "Tags": [ "Intel", "Core Ultra 5", "14 magos", "3.4GHz", "LGA1851", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core Ultra 5", "14 magos", "3.4GHz", "Socket 1851", "Dobozos", "CPU", "Processzor", "hardver", "DDR5" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core Ultra 5",
@@ -3946,7 +3946,7 @@
     "ProductName": "Intel Core Ultra 9 285K Tray",
     "Quanity": "1",
     "Price": "274912",
-    "Tags": [ "Intel", "Core Ultra 9", "24 magos", "3.2GHz", "LGA1851", "Tálcás", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core Ultra 9", "24 magos", "3.2GHz", "Socket 1851", "Tálcás", "CPU", "Processzor", "hardver", "DDR5" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core Ultra 9",
@@ -3967,7 +3967,7 @@
     "ProductName": "Intel Core Ultra 7 265KF Tray",
     "Quanity": "1",
     "Price": "192490",
-    "Tags": [ "Intel", "Core Ultra 7", "20 magos", "3.3GHz", "LGA1851", "Tálcás", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core Ultra 7", "20 magos", "3.3GHz", "Socket 1851", "Tálcás", "CPU", "Processzor", "hardver", "DDR5" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core Ultra 7",
@@ -3988,7 +3988,7 @@
     "ProductName": "Intel Core Ultra 5 245K Tray",
     "Quanity": "1",
     "Price": "144319",
-    "Tags": [ "Intel", "Core Ultra 5", "14 magos", "3.6GHz", "LGA1851", "Tálcás", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core Ultra 5", "14 magos", "3.6GHz", "Socket 1851", "Tálcás", "CPU", "Processzor", "hardver", "DDR5" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core Ultra 5",
@@ -4009,7 +4009,7 @@
     "ProductName": "Intel Core Ultra 5 245KF Tray",
     "Quanity": "1",
     "Price": "138600",
-    "Tags": [ "Intel", "Core Ultra 5", "14 magos", "3.6GHz", "LGA1851", "Tálcás", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core Ultra 5", "14 magos", "3.6GHz", "Socket 1851", "Tálcás", "CPU", "Processzor", "hardver", "DDR5" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core Ultra 5",
@@ -4030,7 +4030,7 @@
     "ProductName": "Intel Pentium Gold G7400 Box",
     "Quanity": "1",
     "Price": "42530",
-    "Tags": [ "Intel", "Pentium Gold", "2 magos", "3.7GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Pentium Gold", "2 magos", "3.7GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Pentium Gold",
@@ -4049,7 +4049,7 @@
     "ProductName": "Intel Pentium Gold G7400 Tray",
     "Quanity": "1",
     "Price": "34570",
-    "Tags": [ "Intel", "Pentium Gold", "2 magos", "3.7GHz", "LGA1700", "Tálcás", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Pentium Gold", "2 magos", "3.7GHz", "Socket 1700", "Tálcás", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Pentium Gold",
@@ -4068,7 +4068,7 @@
     "ProductName": "Intel Celeron G6900 Box",
     "Quanity": "1",
     "Price": "32890",
-    "Tags": [ "Intel", "Celeron", "2 magos", "3.4GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Celeron", "2 magos", "3.4GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Celeron",
@@ -4088,7 +4088,7 @@
     "ProductName": "Intel Core i3-12100F Tray",
     "Quanity": "1",
     "Price": "24620",
-    "Tags": [ "Intel", "Core i3", "4 magos", "3.3GHz", "LGA1700", "Tálcás", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i3", "4 magos", "3.3GHz", "Socket 1700", "Tálcás", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i3",
@@ -4109,7 +4109,7 @@
     "ProductName": "Intel Core i3-12100F Box",
     "Quanity": "1",
     "Price": "35240",
-    "Tags": [ "Intel", "Core i3", "4 magos", "3.3GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i3", "4 magos", "3.3GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i3",
@@ -4130,7 +4130,7 @@
     "ProductName": "Intel Core i3-14100F Box",
     "Quanity": "1",
     "Price": "40050",
-    "Tags": [ "Intel", "Core i3", "4 magos", "3.5GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i3", "4 magos", "3.5GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i3",
@@ -4151,7 +4151,7 @@
     "ProductName": "Intel Core i3-14100 Box",
     "Quanity": "1",
     "Price": "57490",
-    "Tags": [ "Intel", "Core i3", "4 magos", "3.5GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i3", "4 magos", "3.5GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i3",
@@ -4172,7 +4172,7 @@
     "ProductName": "Intel Core i3-13100F Box",
     "Quanity": "1",
     "Price": "36610",
-    "Tags": [ "Intel", "Core i3", "4 magos", "3.4GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i3", "4 magos", "3.4GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i3",
@@ -4193,7 +4193,7 @@
     "ProductName": "Intel Core i3-12100 Box",
     "Quanity": "1",
     "Price": "51030",
-    "Tags": [ "Intel", "Core i3", "4 magos", "3.3GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i3", "4 magos", "3.3GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i3",
@@ -4213,7 +4213,7 @@
     "ProductName": "Intel Core i3-14100F Tray",
     "Quanity": "1",
     "Price": "31520",
-    "Tags": [ "Intel", "Core i3", "4 magos", "3.5GHz", "LGA1700", "Tálcás", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i3", "4 magos", "3.5GHz", "Socket 1700", "Tálcás", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i3",
@@ -4234,7 +4234,7 @@
     "ProductName": "Intel Core i3-13100 Box",
     "Quanity": "1",
     "Price": "57760",
-    "Tags": [ "Intel", "Core i3", "4 magos", "3.4GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i3", "4 magos", "3.4GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i3",
@@ -4255,7 +4255,7 @@
     "ProductName": "Intel Core i5-12400F Box",
     "Quanity": "1",
     "Price": "49990",
-    "Tags": [ "Intel", "Core i5", "6 magos", "2.5GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i5", "6 magos", "2.5GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i5",
@@ -4276,7 +4276,7 @@
     "ProductName": "Intel Core i5-14400F Box",
     "Quanity": "1",
     "Price": "67620",
-    "Tags": [ "Intel", "Core i5", "10 magos", "2.5GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i5", "10 magos", "2.5GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i5",
@@ -4297,7 +4297,7 @@
     "ProductName": "Intel Core i5-14600KF Box",
     "Quanity": "1",
     "Price": "99990",
-    "Tags": [ "Intel", "Core i5", "14 magos", "3.5GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i5", "14 magos", "3.5GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i5",
@@ -4318,7 +4318,7 @@
     "ProductName": "Intel Core i5-14600K Box",
     "Quanity": "1",
     "Price": "111950",
-    "Tags": [ "Intel", "Core i5", "14 magos", "3.4GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i5", "14 magos", "3.4GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i5",
@@ -4339,7 +4339,7 @@
     "ProductName": "Intel Core i5-12600K Box",
     "Quanity": "1",
     "Price": "79775",
-    "Tags": [ "Intel", "Core i5", "10 magos", "2.8GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i5", "10 magos", "2.8GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i5",
@@ -4359,7 +4359,7 @@
     "ProductName": "Intel Core i5-13600K Box",
     "Quanity": "1",
     "Price": "117350",
-    "Tags": [ "Intel", "Core i5", "14 magos", "3.5GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i5", "14 magos", "3.5GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i5",
@@ -4380,7 +4380,7 @@
     "ProductName": "Intel Core i5-13400F Box",
     "Quanity": "1",
     "Price": "66510",
-    "Tags": [ "Intel", "Core i5", "10 magos", "2.5GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i5", "10 magos", "2.5GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i5",
@@ -4401,7 +4401,7 @@
     "ProductName": "Intel Core i5-12400 Box",
     "Quanity": "1",
     "Price": "65710",
-    "Tags": [ "Intel", "Core i5", "6 magos", "2.5GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i5", "6 magos", "2.5GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i5",
@@ -4422,7 +4422,7 @@
     "ProductName": "Intel Core i5-12600KF Box",
     "Quanity": "1",
     "Price": "73260",
-    "Tags": [ "Intel", "Core i5", "10 magos", "2.8GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i5", "10 magos", "2.8GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i5",
@@ -4442,7 +4442,7 @@
     "ProductName": "Intel Core i5-14400 Box",
     "Quanity": "1",
     "Price": "78000",
-    "Tags": [ "Intel", "Core i5", "10 magos", "2.5GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i5", "10 magos", "2.5GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i5",
@@ -4463,7 +4463,7 @@
     "ProductName": "Intel Core i5-13500 Box",
     "Quanity": "1",
     "Price": "88790",
-    "Tags": [ "Intel", "Core i5", "14 magos", "2.5GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i5", "14 magos", "2.5GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i5",
@@ -4484,7 +4484,7 @@
     "ProductName": "Intel Core i5-14500 Box",
     "Quanity": "1",
     "Price": "112690",
-    "Tags": [ "Intel", "Core i5", "14 magos", "2.6GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i5", "14 magos", "2.6GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i5",
@@ -4505,7 +4505,7 @@
     "ProductName": "Intel Core i5-14600 Tray",
     "Quanity": "1",
     "Price": "128900",
-    "Tags": [ "Intel", "Core i5", "14 magos", "5.2GHz", "LGA1700", "Tálcás", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i5", "14 magos", "5.2GHz", "Socket 1700", "Tálcás", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i5",
@@ -4526,7 +4526,7 @@
     "ProductName": "Intel Core i7-14700K Box",
     "Quanity": "1",
     "Price": "175360",
-    "Tags": [ "Intel", "Core i7", "20 magos", "3.4GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i7", "20 magos", "3.4GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i7",
@@ -4547,7 +4547,7 @@
     "ProductName": "Intel Core i7-12700K Box",
     "Quanity": "1",
     "Price": "109950",
-    "Tags": [ "Intel", "Core i7", "12 magos", "3.6GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i7", "12 magos", "3.6GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i7",
@@ -4567,7 +4567,7 @@
     "ProductName": "Intel Core i7-12700KF Box",
     "Quanity": "1",
     "Price": "104510",
-    "Tags": [ "Intel", "Core i7", "12 magos", "2.7GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i7", "12 magos", "2.7GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i7",
@@ -4587,7 +4587,7 @@
     "ProductName": "Intel Core i7-14700KF Box",
     "Quanity": "1",
     "Price": "169490",
-    "Tags": [ "Intel", "Core i7", "20 magos", "3.4GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i7", "20 magos", "3.4GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i7",
@@ -4608,7 +4608,7 @@
     "ProductName": "Intel Core i7-13700K Box",
     "Quanity": "1",
     "Price": "172030",
-    "Tags": [ "Intel", "Core i7", "16 magos", "3.5GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i7", "16 magos", "3.5GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i7",
@@ -4629,7 +4629,7 @@
     "ProductName": "Intel Core i7-14700F Box",
     "Quanity": "1",
     "Price": "146735",
-    "Tags": [ "Intel", "Core i7", "20 magos", "2.1GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i7", "20 magos", "2.1GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i7",
@@ -4649,7 +4649,7 @@
     "ProductName": "Intel Core i7-14700 Box",
     "Quanity": "1",
     "Price": "159890",
-    "Tags": [ "Intel", "Core i7", "20 magos", "2.1GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i7", "20 magos", "2.1GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i7",
@@ -4669,7 +4669,7 @@
     "ProductName": "Intel Core i7-12700 Box",
     "Quanity": "1",
     "Price": "128000",
-    "Tags": [ "Intel", "Core i7", "12 magos", "3.6GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i7", "12 magos", "3.6GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i7",
@@ -4690,7 +4690,7 @@
     "ProductName": "Intel Core i7-13700 Box",
     "Quanity": "1",
     "Price": "159590",
-    "Tags": [ "Intel", "Core i7", "16 magos", "3.4GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i7", "16 magos", "3.4GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i7",
@@ -4710,7 +4710,7 @@
     "ProductName": "Intel Core i7-14700F Tray",
     "Quanity": "1",
     "Price": "155377",
-    "Tags": [ "Intel", "Core i7", "20 magos", "2.1GHz", "LGA1700", "Tálcás", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i7", "20 magos", "2.1GHz", "Socket 1700", "Tálcás", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i7",
@@ -4730,7 +4730,7 @@
     "ProductName": "Intel Core i7-13700K Tray",
     "Quanity": "1",
     "Price": "169600",
-    "Tags": [ "Intel", "Core i7", "16 magos", "2.5GHz", "LGA1700", "Tálcás", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i7", "16 magos", "2.5GHz", "Socket 1700", "Tálcás", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i7",
@@ -4751,7 +4751,7 @@
     "ProductName": "Intel Core i9-14900K Box",
     "Quanity": "1",
     "Price": "215580",
-    "Tags": [ "Intel", "Core i9", "24 magos", "3.2GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i9", "24 magos", "3.2GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i9",
@@ -4772,7 +4772,7 @@
     "ProductName": "Intel Core i9-13900K Box",
     "Quanity": "1",
     "Price": "196890",
-    "Tags": [ "Intel", "Core i9", "24 magos", "4.3GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i9", "24 magos", "4.3GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i9",
@@ -4793,7 +4793,7 @@
     "ProductName": "Intel Core i9-14900KF Box",
     "Quanity": "1",
     "Price": "204560",
-    "Tags": [ "Intel", "Core i9", "24 magos", "3.2GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i9", "24 magos", "3.2GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i9",
@@ -4814,7 +4814,7 @@
     "ProductName": "Intel Core i9-14900KS Box",
     "Quanity": "1",
     "Price": "326040",
-    "Tags": [ "Intel", "Core i9", "24 magos", "3.2GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i9", "24 magos", "3.2GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i9",
@@ -4835,7 +4835,7 @@
     "ProductName": "Intel Core i9-13900KF Box",
     "Quanity": "1",
     "Price": "229330",
-    "Tags": [ "Intel", "Core i9", "24 magos", "3.0GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i9", "24 magos", "3.0GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i9",
@@ -4856,7 +4856,7 @@
     "ProductName": "Intel Core i9-12900F Box",
     "Quanity": "1",
     "Price": "179380",
-    "Tags": [ "Intel", "Core i9", "16 magos", "2.4GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i9", "16 magos", "2.4GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i9",
@@ -4877,7 +4877,7 @@
     "ProductName": "Intel Core i9-12900K Box",
     "Quanity": "1",
     "Price": "162690",
-    "Tags": [ "Intel", "Core i9", "16 magos", "3.2GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i9", "16 magos", "3.2GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i9",
@@ -4897,7 +4897,7 @@
     "ProductName": "Intel Core i9-12900KF Box",
     "Quanity": "1",
     "Price": "164830",
-    "Tags": [ "Intel", "Core i9", "16 magos", "3.2GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i9", "16 magos", "3.2GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i9",
@@ -4918,7 +4918,7 @@
     "ProductName": "Intel Core i9-14900 Box",
     "Quanity": "1",
     "Price": "303160",
-    "Tags": [ "Intel", "Core i9", "24 magos", "2.0GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i9", "24 magos", "2.0GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i9",
@@ -4939,7 +4939,7 @@
     "ProductName": "Intel Core i9-13900KS Box",
     "Quanity": "1",
     "Price": "369178",
-    "Tags": [ "Intel", "Core i9", "24 magos", "3.2GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i9", "24 magos", "3.2GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i9",
@@ -4960,7 +4960,7 @@
     "ProductName": "Intel Core i9-12900 Box",
     "Quanity": "1",
     "Price": "191290",
-    "Tags": [ "Intel", "Core i9", "16 magos", "1.8GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i9", "16 magos", "1.8GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i9",
@@ -4981,7 +4981,7 @@
     "ProductName": "Intel Core i9-13900 Box",
     "Quanity": "1",
     "Price": "303160",
-    "Tags": [ "Intel", "Core i9", "24 magos", "3.0GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i9", "24 magos", "3.0GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i9",
@@ -5002,7 +5002,7 @@
     "ProductName": "Intel Core i9-12900KS Box",
     "Quanity": "1",
     "Price": "222595",
-    "Tags": [ "Intel", "Core i9", "16 magos", "3.40GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i9", "16 magos", "3.40GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i9",
@@ -5022,7 +5022,7 @@
     "ProductName": "Intel Core i9-14900F Box",
     "Quanity": "1",
     "Price": "223990",
-    "Tags": [ "Intel", "Core i9", "24 magos", "2.0GHz", "LGA1700", "Dobozos", "CPU", "Processzor", "hardver" ],
+    "Tags": [ "Intel", "Core i9", "24 magos", "2.0GHz", "Socket 1700", "Dobozos", "CPU", "Processzor", "hardver" ],
     "Description": [
       "Gyártó: Intel",
       "Típus: Core i9",
@@ -6289,7 +6289,7 @@
     "ProductName": "ASUS TUF Gaming B550-PLUS",
     "Quanity": "1",
     "Price": "53580",
-    "Tags": [ "ASUS", "TUF", "Gaming", "B550", "PLUS", "alaplap", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "TUF", "Gaming", "B550", "PLUS", "alaplap", "ATX", "hardver", "AM4", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD B550",
@@ -6335,7 +6335,7 @@
     "ProductName": "ASUS TUF Gaming B450M-PLUS II",
     "Quanity": "1",
     "Price": "37770",
-    "Tags": [ "ASUS", "TUF", "Gaming", "B450M", "PLUS", "II", "alaplap", "microATX", "hardver" ],
+    "Tags": [ "ASUS", "TUF", "Gaming", "B450M", "PLUS", "II", "alaplap", "microATX", "hardver", "AM4","DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD B450",
@@ -6380,7 +6380,7 @@
     "ProductName": "GIGABYTE B550M AORUS ELITE",
     "Quanity": "1",
     "Price": "45550",
-    "Tags": [ "GIGABYTE", "B550M", "AORUS", "ELITE", "alaplap", "microATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "B550M", "AORUS", "ELITE", "alaplap", "microATX", "hardver", "AM4", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD B550",
@@ -6430,7 +6430,7 @@
     "ProductName": "ASUS ROG STRIX B550-F GAMING",
     "Quanity": "1",
     "Price": "60960",
-    "Tags": [ "ASUS", "ROG", "STRIX", "B550-F", "GAMING", "alaplap", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "ROG", "STRIX", "B550-F", "GAMING", "alaplap", "ATX", "hardver", "AM4", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD B550",
@@ -6475,7 +6475,7 @@
     "ProductName": "ASUS PRIME A520M-A II/CSM",
     "Quanity": "1",
     "Price": "30340",
-    "Tags": [ "ASUS", "PRIME", "A520M-A", "II/CSM", "alaplap", "microATX", "hardver" ],
+    "Tags": [ "ASUS", "PRIME", "A520M-A", "II/CSM", "alaplap", "microATX", "hardver", "AM4", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD A520",
@@ -6517,7 +6517,7 @@
     "ProductName": "MSI MAG B550 TOMAHAWK",
     "Quanity": "1",
     "Price": "76890",
-    "Tags": [ "MSI", "MAG", "B550", "TOMAHAWK", "alaplap", "ATX", "hardver" ],
+    "Tags": [ "MSI", "MAG", "B550", "TOMAHAWK", "alaplap", "ATX", "hardver", "AM4", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD B550",
@@ -6561,7 +6561,7 @@
     "ProductName": "MSI MPG B550 GAMING PLUS",
     "Quanity": "1",
     "Price": "54483",
-    "Tags": [ "MSI", "MPG", "B550", "GAMING", "PLUS", "alaplap", "ATX", "hardver" ],
+    "Tags": [ "MSI", "MPG", "B550", "GAMING", "PLUS", "alaplap", "ATX", "hardver", "AM4", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD B550",
@@ -6606,7 +6606,7 @@
     "ProductName": "ASUS ROG STRIX B550-A GAMING",
     "Quanity": "1",
     "Price": "60960",
-    "Tags": [ "ASUS", "ROG", "STRIX", "B550-A", "GAMING", "alaplap", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "ROG", "STRIX", "B550-A", "GAMING", "alaplap", "ATX", "hardver", "AM4", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD B550",
@@ -6650,7 +6650,7 @@
     "ProductName": "GIGABYTE B550 AORUS ELITE V2",
     "Quanity": "1",
     "Price": "56580",
-    "Tags": [ "GIGABYTE", "B550", "AORUS", "ELITE", "V2", "alaplap", "ATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "B550", "AORUS", "ELITE", "V2", "alaplap", "ATX", "hardver", "AM4", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD B550",
@@ -6686,7 +6686,7 @@
     "ProductName": "ASUS TUF Gaming A520M-PLUS II",
     "Quanity": "1",
     "Price": "39520",
-    "Tags": [ "ASUS", "TUF", "Gaming", "A520M-PLUS", "II", "alaplap", "microATX", "hardver" ],
+    "Tags": [ "ASUS", "TUF", "Gaming", "A520M-PLUS", "II", "alaplap", "microATX", "hardver", "AM4", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD A520",
@@ -6721,7 +6721,7 @@
     "ProductName": "GIGABYTE A520M K",
     "Quanity": "1",
     "Price": "22990",
-    "Tags": [ "GIGABYTE", "A520M", "K", "alaplap", "microATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "A520M", "K", "alaplap", "microATX", "hardver", "AM4", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD A520",
@@ -6745,7 +6745,7 @@
     "ProductName": "MSI B550-A PRO",
     "Quanity": "1",
     "Price": "48250",
-    "Tags": [ "MSI", "B550-A", "PRO", "alaplap", "ATX", "hardver" ],
+    "Tags": [ "MSI", "B550-A", "PRO", "alaplap", "ATX", "hardver", "AM4", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD B550",
@@ -6782,7 +6782,7 @@
     "ProductName": "ASUS PRIME B550M-K ARGB",
     "Quanity": "1",
     "Price": "39325",
-    "Tags": [ "ASUS", "PRIME", "B550M-K", "ARGB", "alaplap", "microATX", "hardver" ],
+    "Tags": [ "ASUS", "PRIME", "B550M-K", "ARGB", "alaplap", "microATX", "hardver", "AM4", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD B550",
@@ -6819,7 +6819,7 @@
     "ProductName": "GIGABYTE B550M DS3H",
     "Quanity": "1",
     "Price": "41954",
-    "Tags": [ "GIGABYTE", "B550M", "DS3H", "alaplap", "microATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "B550M", "DS3H", "alaplap", "microATX", "hardver", "AM4", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD B550",
@@ -6855,7 +6855,7 @@
     "ProductName": "ASUS ROG STRIX B550-F GAMING WIFI II",
     "Quanity": "1",
     "Price": "64990",
-    "Tags": [ "ASUS", "ROG", "STRIX", "B550-F", "GAMING", "WIFI", "alaplap", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "ROG", "STRIX", "B550-F", "GAMING", "WIFI", "alaplap", "ATX", "hardver", "AM4", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD B550",
@@ -6891,7 +6891,7 @@
     "ProductName": "GIGABYTE A520 Aorus Elite",
     "Quanity": "1",
     "Price": "37962",
-    "Tags": [ "GIGABYTE", "A520", "Aorus", "Elite", "alaplap", "ATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "A520", "Aorus", "Elite", "alaplap", "ATX", "hardver", "AM4", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD A520",
@@ -6927,7 +6927,7 @@
     "ProductName": "GIGABYTE B550 GAMING X v2",
     "Quanity": "1",
     "Price": "49490",
-    "Tags": [ "GIGABYTE", "B550", "GAMING", "X", "v2", "alaplap", "ATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "B550", "GAMING", "X", "v2", "alaplap", "ATX", "hardver", "AM4", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD B550",
@@ -6963,7 +6963,7 @@
     "ProductName": "GIGABYTE B450M K",
     "Quanity": "1",
     "Price": "28764",
-    "Tags": [ "GIGABYTE", "B450M", "K", "alaplap", "microATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "B450M", "K", "alaplap", "microATX", "hardver", "AM4", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD B450",
@@ -6995,7 +6995,7 @@
     "ProductName": "GIGABYTE A520M K V2 D4",
     "Quanity": "1",
     "Price": "25845",
-    "Tags": [ "GIGABYTE", "A520M", "K", "V2", "D4", "alaplap", "microATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "A520M", "K", "V2", "D4", "alaplap", "microATX", "hardver", "AM4", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD A520",
@@ -7029,7 +7029,7 @@
     "ProductName": "GIGABYTE B550I AORUS PRO AX",
     "Quanity": "1",
     "Price": "72644",
-    "Tags": [ "GIGABYTE", "B550I", "AORUS", "PRO", "AX", "alaplap", "Mini-ITX", "hardver" ],
+    "Tags": [ "GIGABYTE", "B550I", "AORUS", "PRO", "AX", "alaplap", "Mini-ITX", "hardver", "AM4", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD B550",
@@ -7063,7 +7063,7 @@
     "ProductName": "GIGABYTE B550M DS3H AC",
     "Quanity": "1",
     "Price": "44317",
-    "Tags": [ "GIGABYTE", "B550M", "DS3H", "AC", "alaplap", "microATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "B550M", "DS3H", "AC", "alaplap", "microATX", "hardver", "AM4", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket AM4",
       "Chipset: AMD B550",
@@ -7096,7 +7096,7 @@
     "ProductName": "ASUS ROG STRIX B650E-F GAMING WIFI",
     "Quanity": "1",
     "Price": "110120",
-    "Tags": [ "ASUS", "ROG", "STRIX", "B650E-F", "GAMING", "WIFI", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "ROG", "STRIX", "B650E-F", "GAMING", "WIFI", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD B650",
@@ -7148,7 +7148,7 @@
     "ProductName": "MSI MAG B650 Tomahawk WIFI",
     "Quanity": "1",
     "Price": "96393",
-    "Tags": [ "MSI", "MAG", "B650", "Tomahawk", "WIFI", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "MSI", "MAG", "B650", "Tomahawk", "WIFI", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD B650",
@@ -7201,7 +7201,7 @@
     "ProductName": "GIGABYTE B650 EAGLE AX",
     "Quanity": "1",
     "Price": "70190",
-    "Tags": [ "GIGABYTE", "B650", "EAGLE", "AX", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "B650", "EAGLE", "AX", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD B650",
@@ -7242,7 +7242,7 @@
     "ProductName": "ASUS PRIME B650M-K",
     "Quanity": "1",
     "Price": "46745",
-    "Tags": [ "ASUS", "PRIME", "B650M-K", "alaplap", "AM5", "microATX", "hardver" ],
+    "Tags": [ "ASUS", "PRIME", "B650M-K", "alaplap", "AM5", "microATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD B650",
@@ -7283,7 +7283,7 @@
     "ProductName": "ASUS TUF Gaming B650-PLUS WIFI Alaplap",
     "Quanity": "1",
     "Price": "83340",
-    "Tags": [ "ASUS", "TUF", "Gaming", "B650-PLUS", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "TUF", "Gaming", "B650-PLUS", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD B650",
@@ -7323,7 +7323,7 @@
     "ProductName": "ASUS TUF Gaming B650M-E WIFI Alaplap",
     "Quanity": "1",
     "Price": "69170",
-    "Tags": [ "ASUS", "TUF", "Gaming", "B650M-E", "alaplap", "AM5", "microATX", "hardver" ],
+    "Tags": [ "ASUS", "TUF", "Gaming", "B650M-E", "alaplap", "AM5", "microATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD B650",
@@ -7358,7 +7358,7 @@
     "ProductName": "MSI MAG X870 TOMAHAWK WIFI Alaplap",
     "Quanity": "1",
     "Price": "137890",
-    "Tags": [ "MSI", "MAG", "X870", "TOMAHAWK", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "MSI", "MAG", "X870", "TOMAHAWK", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD X870",
@@ -7398,7 +7398,7 @@
     "ProductName": "ASUS TUF Gaming B650M-PLUS Alaplap",
     "Quanity": "1",
     "Price": "62990",
-    "Tags": [ "ASUS", "TUF", "Gaming", "B650M-PLUS", "alaplap", "AM5", "microATX", "hardver" ],
+    "Tags": [ "ASUS", "TUF", "Gaming", "B650M-PLUS", "alaplap", "AM5", "microATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD B650",
@@ -7440,7 +7440,7 @@
     "ProductName": "ASUS ROG CROSSHAIR X870E HERO",
     "Quanity": "1",
     "Price": "349390",
-    "Tags": [ "ASUS", "ROG", "CROSSHAIR", "X870E", "HERO", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "ROG", "CROSSHAIR", "X870E", "HERO", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD X870E",
@@ -7479,7 +7479,7 @@
     "ProductName": "ASUS ROG STRIX X870E-E GAMING WIFI",
     "Quanity": "1",
     "Price": "270400",
-    "Tags": [ "ASUS", "ROG", "STRIX", "X870E", "GAMING", "WIFI", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "ROG", "STRIX", "X870E", "GAMING", "WIFI", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD X870E",
@@ -7518,7 +7518,7 @@
     "ProductName": "GIGABYTE B650 AORUS ELITE AX V2",
     "Quanity": "1",
     "Price": "89059",
-    "Tags": [ "GIGABYTE", "B650", "AORUS", "ELITE", "AX", "V2", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "B650", "AORUS", "ELITE", "AX", "V2", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD B650",
@@ -7558,7 +7558,7 @@
     "ProductName": "MSI B650M GAMING PLUS WIFI",
     "Quanity": "1",
     "Price": "67810",
-    "Tags": [ "MSI", "B650M", "GAMING", "PLUS", "WIFI", "alaplap", "AM5", "microATX", "hardver" ],
+    "Tags": [ "MSI", "B650M", "GAMING", "PLUS", "WIFI", "alaplap", "AM5", "microATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD B650",
@@ -7597,7 +7597,7 @@
     "ProductName": "GIGABYTE X870E AORUS ELITE WIFI7",
     "Quanity": "1",
     "Price": "164167",
-    "Tags": [ "GIGABYTE", "X870E", "AORUS", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "X870E", "AORUS", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD X870E",
@@ -7634,7 +7634,7 @@
     "ProductName": "ASUS ROG STRIX X870-F GAMING WIFI",
     "Quanity": "1",
     "Price": "174239",
-    "Tags": [ "ASUS", "ROG", "STRIX", "X870-F", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "ROG", "STRIX", "X870-F", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD X870",
@@ -7670,7 +7670,7 @@
     "ProductName": "MSI PRO B650-S WIFI",
     "Quanity": "1",
     "Price": "71946",
-    "Tags": [ "MSI", "PRO", "B650-S", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "MSI", "PRO", "B650-S", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD B650",
@@ -7709,7 +7709,7 @@
     "ProductName": "ASUS ROG Strix B850-F GAMING WIFI",
     "Quanity": "1",
     "Price": "145068",
-    "Tags": [ "ASUS", "ROG", "Strix", "B850-F", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "ROG", "Strix", "B850-F", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Processzor gyártó: AMD",
@@ -7730,7 +7730,7 @@
     "ProductName": "MSI B650 GAMING PLUS WIFI",
     "Quanity": "1",
     "Price": "73070",
-    "Tags": [ "MSI", "B650 GAMING PLUS WIFI", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "MSI", "B650 GAMING PLUS WIFI", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD B650",
@@ -7770,7 +7770,7 @@
     "ProductName": "ASUS TUF Gaming B850-PLUS WIFI",
     "Quanity": "1",
     "Price": "117821",
-    "Tags": [ "ASUS", "TUF Gaming B850-PLUS WIFI", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "TUF Gaming B850-PLUS WIFI", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Processzor gyártó: AMD",
@@ -7797,7 +7797,7 @@
     "ProductName": "ASUS ROG STRIX B650-A GAMING WIFI",
     "Quanity": "1",
     "Price": "89590",
-    "Tags": [ "ASUS", "ROG STRIX B650-A GAMING WIFI", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "ROG STRIX B650-A GAMING WIFI", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD B650",
@@ -7836,7 +7836,7 @@
     "ProductName": "MSI MAG X670E TOMAHAWK WIFI",
     "Quanity": "1",
     "Price": "123580",
-    "Tags": [ "MSI", "MAG X670E TOMAHAWK WIFI", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "MSI", "MAG X670E TOMAHAWK WIFI", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD X670",
@@ -7876,7 +7876,7 @@
     "ProductName": "GIGABYTE B650 GAMING X AX V2",
     "Quanity": "1",
     "Price": "82423",
-    "Tags": [ "GIGABYTE", "B650", "GAMING", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "B650", "GAMING", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD B650",
@@ -7919,7 +7919,7 @@
     "ProductName": "ASUS TUF Gaming X870-PLUS WIFI",
     "Quanity": "1",
     "Price": "147610",
-    "Tags": [ "ASUS", "TUF", "Gaming", "X870-PLUS", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "TUF", "Gaming", "X870-PLUS", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD X870",
@@ -7960,7 +7960,7 @@
     "ProductName": "GIGABYTE X870E AORUS PRO ICE",
     "Quanity": "1",
     "Price": "185522",
-    "Tags": [ "GIGABYTE", "X870E", "AORUS", "PRO", "ICE", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "X870E", "AORUS", "PRO", "ICE", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD X870E",
@@ -8007,7 +8007,7 @@
     "ProductName": "MSI MPG X870E CARBON WIFI",
     "Quanity": "1",
     "Price": "209490",
-    "Tags": [ "MSI", "MPG", "X870E", "CARBON", "WIFI", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "MSI", "MPG", "X870E", "CARBON", "WIFI", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD X870E",
@@ -8043,7 +8043,7 @@
     "ProductName": "GIGABYTE X870 AORUS ELITE WIFI7",
     "Quanity": "1",
     "Price": "143891",
-    "Tags": [ "GIGABYTE", "X870", "AORUS", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "X870", "AORUS", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD X870",
@@ -8090,7 +8090,7 @@
     "ProductName": "ASUS PRIME A620M-K",
     "Quanity": "1",
     "Price": "37840",
-    "Tags": [ "ASUS", "PRIME", "A620M-K", "alaplap", "AM5", "microATX", "hardver" ],
+    "Tags": [ "ASUS", "PRIME", "A620M-K", "alaplap", "AM5", "microATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD A620",
@@ -8126,7 +8126,7 @@
     "ProductName": "MSI MAG B850 TOMAHAWK MAX WIFI",
     "Quanity": "1",
     "Price": "118690",
-    "Tags": [ "MSI", "MAG", "B850", "TOMAHAWK", "MAX", "WIFI", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "MSI", "MAG", "B850", "TOMAHAWK", "MAX", "WIFI", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Processzor gyártó: AMD",
@@ -8151,7 +8151,7 @@
     "ProductName": "MSI MAG X670e Gaming Plus Wifi",
     "Quanity": "1",
     "Price": "107010",
-    "Tags": [ "MSI", "MAG", "X670e", "Gaming", "Plus", "Wifi", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "MSI", "MAG", "X670e", "Gaming", "Plus", "Wifi", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD X670",
@@ -8191,7 +8191,7 @@
     "ProductName": "GIGABYTE B850 AORUS ELITE WIFI7 ICE Alaplap",
     "Quanity": "1",
     "Price": "111900",
-    "Tags": [ "GIGABYTE", "B850", "AORUS", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "B850", "AORUS", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Processzor gyártó: AMD",
@@ -8222,7 +8222,7 @@
     "ProductName": "ASUS TUF Gaming A620M-PLUS WIFI Alaplap",
     "Quanity": "1",
     "Price": "54700",
-    "Tags": [ "ASUS", "TUF", "A620M-PLUS", "alaplap", "AM5", "microATX", "hardver" ],
+    "Tags": [ "ASUS", "TUF", "A620M-PLUS", "alaplap", "AM5", "microATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD A620",
@@ -8258,7 +8258,7 @@
     "ProductName": "GIGABYTE B850 GAMING WIFI6 Alaplap",
     "Quanity": "1",
     "Price": "94891",
-    "Tags": [ "GIGABYTE", "B850", "GAMING", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "B850", "GAMING", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Processzor gyártó: AMD",
@@ -8290,7 +8290,7 @@
     "ProductName": "ASUS PRIME B650M-A II Alaplap",
     "Quanity": "1",
     "Price": "50300",
-    "Tags": [ "ASUS", "PRIME", "B650M-A II", "alaplap", "AM5", "microATX", "hardver" ],
+    "Tags": [ "ASUS", "PRIME", "B650M-A II", "alaplap", "AM5", "microATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD B650",
@@ -8328,7 +8328,7 @@
     "ProductName": "GIGABYTE B650 EAGLE Alaplap",
     "Quanity": "1",
     "Price": "72434",
-    "Tags": [ "GIGABYTE", "B650", "EAGLE", "alaplap", "AM5", "ATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "B650", "EAGLE", "alaplap", "AM5", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD B650",
@@ -8368,7 +8368,7 @@
     "ProductName": "GIGABYTE B650I AX Alaplap",
     "Quanity": "1",
     "Price": "77900",
-    "Tags": [ "GIGABYTE", "B650I", "AX", "alaplap", "AM5", "Mini-ITX", "hardver" ],
+    "Tags": [ "GIGABYTE", "B650I", "AX", "alaplap", "AM5", "Mini-ITX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD B650",
@@ -8402,7 +8402,7 @@
     "ProductName": "GIGABYTE X870I AORUS PRO ICE Alaplap",
     "Quanity": "1",
     "Price": "150876",
-    "Tags": [ "GIGABYTE", "X870I", "AORUS", "PRO", "ICE", "alaplap", "AM5", "Mini-ITX", "hardver" ],
+    "Tags": [ "GIGABYTE", "X870I", "AORUS", "PRO", "ICE", "alaplap", "AM5", "Mini-ITX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket AM5",
       "Chipset: AMD X870",
@@ -9372,7 +9372,7 @@
     "ProductName": "ASUS PRIME B760M-K",
     "Quanity": "1",
     "Price": "44755",
-    "Tags": [ "ASUS", "PRIME", "B760M-K", "alaplap", "Socket 1700", "microATX", "hardver" ],
+    "Tags": [ "ASUS", "PRIME", "B760M-K", "alaplap", "Socket 1700", "microATX", "hardver","DDR5" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel B760",
@@ -9410,7 +9410,7 @@
     "ProductName": "ASUS TUF Gaming B760M-PLUS",
     "Quanity": "1",
     "Price": "73065",
-    "Tags": [ "ASUS", "TUF Gaming", "B760M-PLUS", "alaplap", "Socket 1700", "microATX", "hardver" ],
+    "Tags": [ "ASUS", "TUF Gaming", "B760M-PLUS", "alaplap", "Socket 1700", "microATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel B760",
@@ -9446,7 +9446,7 @@
     "ProductName": "MSI PRO H610M-E DDR4",
     "Quanity": "1",
     "Price": "27560",
-    "Tags": [ "MSI", "PRO", "H610M-E", "DDR4", "alaplap", "Socket 1700", "microATX", "hardver" ],
+    "Tags": [ "MSI", "PRO", "H610M-E", "DDR4", "alaplap", "Socket 1700", "microATX", "hardver", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel H610",
@@ -9485,7 +9485,7 @@
     "ProductName": "ASUS TUF Gaming B760-PLUS WIFI",
     "Quanity": "1",
     "Price": "82803",
-    "Tags": [ "ASUS", "TUF Gaming", "B760-PLUS WIFI", "alaplap", "Socket 1700", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "TUF Gaming", "B760-PLUS WIFI", "alaplap", "Socket 1700", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel B760",
@@ -9525,7 +9525,7 @@
     "ProductName": "MSI B760 GAMING PLUS WIFI Alaplap",
     "Quanity": "1",
     "Price": "74041",
-    "Tags": [ "MSI", "B760", "GAMING", "PLUS", "WIFI", "alaplap", "Socket 1700", "ATX", "hardver" ],
+    "Tags": [ "MSI", "B760", "GAMING", "PLUS", "WIFI", "alaplap", "Socket 1700", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel B760",
@@ -9565,7 +9565,7 @@
     "ProductName": "ASUS Rog Strix B760-F Gaming WIFI Alaplap",
     "Quanity": "1",
     "Price": "105642",
-    "Tags": [ "ASUS", "ROG", "Strix", "B760-F", "Gaming", "WIFI", "alaplap", "Socket 1700", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "ROG", "Strix", "B760-F", "Gaming", "WIFI", "alaplap", "Socket 1700", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel B760",
@@ -9606,7 +9606,7 @@
     "ProductName": "ASUS TUF Gaming B760M-E D4 Alaplap",
     "Quanity": "1",
     "Price": "54500",
-    "Tags": [ "ASUS", "TUF", "Gaming", "B760M-E", "D4", "alaplap", "Socket 1700", "microATX", "hardver" ],
+    "Tags": [ "ASUS", "TUF", "Gaming", "B760M-E", "D4", "alaplap", "Socket 1700", "microATX", "hardver", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel B760",
@@ -9640,7 +9640,7 @@
     "ProductName": "ASUS ROG STRIX Z790-E GAMING WIFI Alaplap",
     "Quanity": "1",
     "Price": "182550",
-    "Tags": [ "ASUS", "ROG", "STRIX", "Z790-E", "GAMING", "WIFI", "alaplap", "Socket 1700", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "ROG", "STRIX", "Z790-E", "GAMING", "WIFI", "alaplap", "Socket 1700", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel Z790",
@@ -9679,7 +9679,7 @@
     "ProductName": "MSI MAG Z790 TOMAHAWK WIFI",
     "Quanity": "1",
     "Price": "107569",
-    "Tags": [ "MSI", "MAG", "Z790", "alaplap", "Socket 1700", "ATX", "hardver" ],
+    "Tags": [ "MSI", "MAG", "Z790", "alaplap", "Socket 1700", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel Z790",
@@ -9719,7 +9719,7 @@
     "ProductName": "ASUS PRIME H610M-K D4",
     "Quanity": "1",
     "Price": "32795",
-    "Tags": [ "ASUS", "PRIME", "H610M-K D4", "alaplap", "Socket 1700", "microATX", "hardver" ],
+    "Tags": [ "ASUS", "PRIME", "H610M-K D4", "alaplap", "Socket 1700", "microATX", "hardver", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel H610",
@@ -9763,7 +9763,7 @@
     "ProductName": "ASUS PRIME B660M-K D4",
     "Quanity": "1",
     "Price": "40660",
-    "Tags": [ "ASUS", "PRIME", "B660M-K D4", "alaplap", "Socket 1700", "microATX", "hardver" ],
+    "Tags": [ "ASUS", "PRIME", "B660M-K D4", "alaplap", "Socket 1700", "microATX", "hardver", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel B660",
@@ -9806,7 +9806,7 @@
     "ProductName": "GIGABYTE Z790 AORUS ELITE AX",
     "Quanity": "1",
     "Price": "118937",
-    "Tags": [ "GIGABYTE", "Z790", "AORUS", "ELITE", "alaplap", "Socket 1700", "ATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "Z790", "AORUS", "ELITE", "alaplap", "Socket 1700", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel Z790",
@@ -9847,7 +9847,7 @@
     "ProductName": "MSI PRO B760M-P DDR4",
     "Quanity": "1",
     "Price": "42520",
-    "Tags": [ "MSI", "PRO", "B760M-P", "DDR4", "alaplap", "Socket 1700", "microATX", "hardver" ],
+    "Tags": [ "MSI", "PRO", "B760M-P", "DDR4", "alaplap", "Socket 1700", "microATX", "hardver", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel B760",
@@ -9888,7 +9888,7 @@
     "ProductName": "ASUS PRIME Z790-A WIFI",
     "Quanity": "1",
     "Price": "99900",
-    "Tags": [ "ASUS", "PRIME", "Z790-A WIFI", "alaplap", "Socket 1700", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "PRIME", "Z790-A WIFI", "alaplap", "Socket 1700", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel Z790",
@@ -9927,7 +9927,7 @@
     "ProductName": "ASUS ROG STRIX Z790-F GAMING WIFI",
     "Quanity": "1",
     "Price": "139990",
-    "Tags": [ "ASUS", "ROG STRIX", "Z790-F GAMING WIFI", "alaplap", "Socket 1700", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "ROG STRIX", "Z790-F GAMING WIFI", "alaplap", "Socket 1700", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel Z790",
@@ -9968,7 +9968,7 @@
     "ProductName": "GIGABYTE B760M D3HP DDR4",
     "Quanity": "1",
     "Price": "43307",
-    "Tags": [ "GIGABYTE", "B760M D3HP DDR4", "alaplap", "Socket 1700", "microATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "B760M D3HP DDR4", "alaplap", "Socket 1700", "microATX", "hardver", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel B760",
@@ -10007,7 +10007,7 @@
     "ProductName": "MSI Z790 Gaming Plus Wifi",
     "Quanity": "1",
     "Price": "96393",
-    "Tags": [ "MSI", "Z790 Gaming Plus Wifi", "alaplap", "Socket 1700", "ATX", "hardver" ],
+    "Tags": [ "MSI", "Z790 Gaming Plus Wifi", "alaplap", "Socket 1700", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel Z790",
@@ -10045,7 +10045,7 @@
     "ProductName": "GIGABYTE B760 GAMING X DDR4",
     "Quanity": "1",
     "Price": "57976",
-    "Tags": [ "GIGABYTE", "B760 GAMING X DDR4", "alaplap", "Socket 1700", "ATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "B760 GAMING X DDR4", "alaplap", "Socket 1700", "ATX", "hardver", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel B760",
@@ -10086,7 +10086,7 @@
     "ProductName": "GIGABYTE B760M GAMING X DDR4",
     "Quanity": "1",
     "Price": "57277",
-    "Tags": [ "GIGABYTE", "B760M", "gaming", "alaplap", "1700", "microATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "B760M", "gaming", "alaplap", "1700", "microATX", "hardver", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel B760",
@@ -10126,7 +10126,7 @@
     "ProductName": "ASUS PRIME B760M-K D4",
     "Quanity": "1",
     "Price": "41977",
-    "Tags": [ "ASUS", "PRIME", "B760M-K", "alaplap", "1700", "microATX", "hardver" ],
+    "Tags": [ "ASUS", "PRIME", "B760M-K", "alaplap", "1700", "microATX", "hardver", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel B760",
@@ -10165,7 +10165,7 @@
     "ProductName": "GIGABYTE H610M H V3 DDR4",
     "Quanity": "1",
     "Price": "30455",
-    "Tags": [ "GIGABYTE", "H610M", "H V3", "alaplap", "1700", "microATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "H610M", "H V3", "alaplap", "1700", "microATX", "hardver", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel H610",
@@ -10203,7 +10203,7 @@
     "ProductName": "ASUS Prime H610M-R SI",
     "Quanity": "1",
     "Price": "32780",
-    "Tags": [ "ASUS", "Prime", "H610M-R SI", "alaplap", "1700", "microATX", "hardver" ],
+    "Tags": [ "ASUS", "Prime", "H610M-R SI", "alaplap", "1700", "microATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Processzor gyártó: Intel",
@@ -10223,7 +10223,7 @@
     "ProductName": "ASUS Prime Z790-P WIFI",
     "Quanity": "1",
     "Price": "94004",
-    "Tags": [ "ASUS", "Prime", "Z790-P", "WIFI", "alaplap", "1700", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "Prime", "Z790-P", "WIFI", "alaplap", "1700", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel Z790",
@@ -10261,7 +10261,7 @@
     "ProductName": "ASUS TUF Gaming Z790-PRO WIFI",
     "Quanity": "1",
     "Price": "114990",
-    "Tags": [ "ASUS", "TUF", "Z790-PRO", "alaplap", "Socket 1700", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "TUF", "Z790-PRO", "alaplap", "Socket 1700", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel Z790",
@@ -10300,7 +10300,7 @@
     "ProductName": "GIGABYTE B760 GAMING X",
     "Quanity": "1",
     "Price": "67195",
-    "Tags": [ "GIGABYTE", "B760", "GAMING", "alaplap", "Socket 1700", "ATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "B760", "GAMING", "alaplap", "Socket 1700", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel B760",
@@ -10340,7 +10340,7 @@
     "ProductName": "GIGABYTE H610M GAMING WIFI DDR4",
     "Quanity": "1",
     "Price": "42609",
-    "Tags": [ "GIGABYTE", "H610M", "GAMING", "DDR4", "alaplap", "Socket 1700", "microATX", "hardver" ],
+    "Tags": [ "GIGABYTE", "H610M", "GAMING", "DDR4", "alaplap", "Socket 1700", "microATX", "hardver", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel H610",
@@ -10379,7 +10379,7 @@
     "ProductName": "ASUS Prime B760-Plus D4",
     "Quanity": "1",
     "Price": "49420",
-    "Tags": [ "ASUS", "Prime", "B760-Plus", "alaplap", "Socket 1700", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "Prime", "B760-Plus", "alaplap", "Socket 1700", "ATX", "hardver", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel B760",
@@ -10419,7 +10419,7 @@
     "ProductName": "ASUS ROG STRIX B760-A Gaming WIFI",
     "Quanity": "1",
     "Price": "92700",
-    "Tags": [ "ASUS", "ROG", "STRIX", "B760-A", "alaplap", "Socket 1700", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "ROG", "STRIX", "B760-A", "alaplap", "Socket 1700", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel B760",
@@ -10461,7 +10461,7 @@
     "ProductName": "MSI PRO B760-P DDR4 II Alaplap",
     "Quanity": "1",
     "Price": "58255",
-    "Tags": [ "MSI", "PRO", "B760-P", "alaplap", "Socket 1700", "ATX", "hardver" ],
+    "Tags": [ "MSI", "PRO", "B760-P", "alaplap", "Socket 1700", "ATX", "hardver", "DDR4" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel B760",
@@ -10501,7 +10501,7 @@
     "ProductName": "ASUS ROG Strix Z790-A Gaming WIFI II Alaplap",
     "Quanity": "1",
     "Price": "147000",
-    "Tags": [ "ASUS", "ROG", "Strix", "Z790-A", "alaplap", "Socket 1700", "ATX", "hardver" ],
+    "Tags": [ "ASUS", "ROG", "Strix", "Z790-A", "alaplap", "Socket 1700", "ATX", "hardver", "DDR5" ],
     "Description": [
       "CPU Foglalat: Socket 1700",
       "Chipset: Intel Z790",

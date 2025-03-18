@@ -1,61 +1,51 @@
-﻿document.getElementById('cpuSelect').addEventListener("change", function () {
-    let cpuId = this.value;
-    fetch(`/api/PCBuilder/GetCpu?cpuId=${cpuId}`)
-        .then(response => response.json())
-        .then(data => {
-            let motherboardSelect = document.getElementById('motherboardSelect');
-            motherboardSelect.innerHTML = '<option value="">Kérlek válasz alaplapot</option>';
-            data.forEach(mb => {
-                motherboardSelect.innerHTML += `<option value="${mb.id}">${mb.name}</option>`;
-            });
-        });
+﻿document.addEventListener("DOMContentLoaded", function () {
+
+    filter();
+
+    document.getElementById('cpuSelect').addEventListener('change', filter);
+    document.getElementById('motherboardSelect').addEventListener('change', filter);
+    document.getElementById('ramSelect').addEventListener('change', filter);
+    document.getElementById('caseSelect').addEventListener('change', filter);
 });
 
-document.getElementById("motherboardSelect").addEventListener("change", function () {
-    let motherboardId = this.value;
-    fetch(`/api/PCBuilder/getram?motherboardId=${motherboardId}`)
+function filter()
+{
+    var cpuId = document.getElementById('cpuSelect').value;
+    var motherboardId = document.getElementById('motherboardSelect').value;
+    var ramId = document.getElementById('ramSelect').value;
+    var caseId = document.getElementById('caseSelect').value;
+
+    var url = "/api/PCBuilder/filterproducts?";
+    if (cpuId) url += "cpuId=" + encodeURIComponent(cpuId) + "&";
+    if (motherboardId) url += "motherboardId=" + encodeURIComponent(motherboardId) + "&";
+    if (ramId) url += "ramId=" + encodeURIComponent(ramId) + "&";
+    if (caseId) url += "caseId=" + encodeURIComponent(caseId) + "&";
+
+    url = url.endsWith("&") ? url.slice(0, -1) : url;
+    fetch(url)
         .then(response => response.json())
         .then(data => {
-            let ramSelect = document.getElementById("ramSelect");
-            ramSelect.innerHTML = '<option value="">Válassz RAM-ot</option>';
-            data.forEach(ram => {
-                ramSelect.innerHTML += `<option value="${ram.id}">${ram.name}</option>`;
-            });
-        });
-});
+            let cpus = data.filter(p => p.category === "Processzor");
+            let motherboards = data.filter(p => p.category === "Alaplap");
+            let rams = data.filter(p => p.category === "Memória");
+            let cases = data.filter(p => p.category === "Gépház");
 
-document.getElementById("caseSelect").addEventListener("change", function () {
-    let caseId = this.value;
-    fetch(`/api/PCBuilder/GetMotherboard?caseId=${caseId}`)
-        .then(response => response.json())
-        .then(data => {
-            let motherboardSelect = document.getElementById("motherboardSelect");
-            motherboardSelect.innerHTML = '<option value="">Válassz alaplapot</option>';
-            data.forEach(mb => {
-                motherboardSelect.innerHTML += `<option value="${mb.Id}">${mb.productName}</option>`;
-            });
-        });
-});
-
-
-
-document.addEventListener("DOMContentLoaded", function () {
-    fetch("/api/PCBuilder/GetAllPCParts")
-        .then(response => response.json())
-        .then(data => {
-            populateSelect("cpuSelect", data.cpus);
-            populateSelect("ramSelect", data.ram);
-            populateSelect("motherboardSelect", data.motherboards);
-            populateSelect("caseSelect", data.cases);
-        });
-});
-function populateSelect(selectId, data) {
+            populateSelect("cpuSelect", cpus)
+            populateSelect("motherboardSelect", motherboards)
+            populateSelect("ramSelect", rams)
+            populateSelect("caseSelect", cases)
+        })
+        .catch(error => console.error("Error fetching products:", error));
+}
+   
+function populateSelect(selectId, items) {
     let select = document.getElementById(selectId);
-    select.innerHTML = 'Válassz terméket'; 
-    data.forEach(item => {
+    select.innerHTML = '<option value="">Válassz terméket</option>';
+
+    items.forEach(item => {
         let option = document.createElement("option");
         option.value = item.id;
-        option.textContent = item.productName;
+        option.textContent = item.name;
         select.appendChild(option);
     });
 }

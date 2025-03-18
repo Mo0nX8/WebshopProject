@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Webshop.EntityFramework.Data;
+using Webshop.Services.Services.ViewModel;
 
 namespace Webshop.Services.Interfaces
 {
     public interface ICompatibilityService
     {
-        IQueryable<Products> GetRamCompatibleWithMotherboard(int motherboardId);
-        IQueryable<Products> GetCPUCompatibleWithMotherboard(int cpuId);
-        IQueryable<Products> GetMotherboardCompatibleWithCase(int caseId);
+        IQueryable<PcBuilderViewModel> GetAllProducts();
+        IQueryable<PcBuilderViewModel> FilterProducts(int? motherboardId, int? cpuId, int? ramId, int? caseId);
     }
 }

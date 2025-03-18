@@ -17,54 +17,17 @@ namespace WebshopWeb.Controllers
             this.compatibilityService = compatibilityService;
             this.productManager = productManager;
         }
-
-        [HttpGet("getram")]
-        public IActionResult GetCompatibleRams(int motherboardId)
+        [HttpGet("getallproducts")]
+        public JsonResult GetAllProducts()
         {
-            var query = compatibilityService.GetRamCompatibleWithMotherboard(motherboardId)
-                .Select(p=>new
-                {
-                    id=p.Id,
-                    name=p.ProductName
-                })
-                .ToList();
-            return Json(query);
+            var products = compatibilityService.GetAllProducts();
+            return Json(products.ToList());
         }
-        [HttpGet("GetCpu")]
-        public IActionResult GetCompatibleCPUs(int cpuId)
+        [HttpGet("filterproducts")]
+        public JsonResult FilterProducts(int? motherboardId, int? cpuId, int? ramId, int? caseId)
         {
-            var query = compatibilityService.GetCPUCompatibleWithMotherboard(cpuId)
-                .Select(p => new
-                {
-                    id = p.Id,
-                    name = p.ProductName
-                })
-                .ToList(); ;
-            return Json(query);
-        }
-        [HttpGet("GetMotherboard")]
-        public IActionResult GetCompatibleMotherboards(int caseId)
-        {
-            var query = compatibilityService.GetMotherboardCompatibleWithCase(caseId);
-            return Json(query.ToList());
-        }
-        [HttpGet("GetAllPCParts")]
-        public IActionResult GetAllPCParts()
-        {
-            var cpus = productManager.GetProducts()
-                        .Where(x => x.Tags.Any(t => t.Contains("cpu")))
-                        .Select(p => new { p.Id, p.ProductName }).ToList();
-            var ram = productManager.GetProducts()
-                        .Where(x => x.Tags.Any(t => t.Contains("memória")))
-                        .Select(p => new { p.Id, p.ProductName }).ToList();
-            var motherboards = productManager.GetProducts()
-                        .Where(x => x.Tags.Any(t => t.Contains("alaplap")))
-                        .Select(p => new { p.Id, p.ProductName }).ToList();
-            var cases = productManager.GetProducts()
-                        .Where(x => x.Tags.Any(t => t.Contains("ház")))
-                        .Select(p => new { p.Id, p.ProductName }).ToList();
-
-            return Json(new { cpus, ram, motherboards, cases });
+            var products = compatibilityService.FilterProducts(motherboardId, cpuId, ramId, caseId);
+            return Json(products.ToList());
         }
 
 

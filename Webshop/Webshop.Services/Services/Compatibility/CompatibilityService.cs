@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Azure;
+using System;
 using System.Collections.Generic;
 using System.Formats.Asn1;
 using System.Linq;
@@ -7,6 +8,7 @@ using System.Threading.Tasks;
 using Webshop.EntityFramework.Data;
 using Webshop.EntityFramework.Managers.Product;
 using Webshop.Services.Interfaces;
+using Webshop.Services.Services.ViewModel;
 
 namespace Webshop.Services.Services.Compatibility
 {
@@ -18,140 +20,100 @@ namespace Webshop.Services.Services.Compatibility
         {
             this.productManager = productManager;
         }
-        //public IQueryable<Products> GetFilteredProducts(int? motherboardId, int? cpuId, int? caseId, int? ramId)
-        //{
-        //    var query = productManager.GetProducts();
-        //    var compatibleQuery=query.Where(p=>false);
-        //    if(cpuId.HasValue)
-        //    {
-        //        compatibleQuery.Concat(GetCPU(cpuId.Value));
-        //    }
-        //    if (motherboardId.HasValue)
-        //    {
-        //        compatibleQuery.Concat(GetMotherboard(cpuId.Value));
-        //    }
-        //    if (ramId.HasValue)
-        //    {
-        //        compatibleQuery.Concat(GetRAM(cpuId.Value));
-        //    }
-        //    if (caseId.HasValue)
-        //    {
-        //        compatibleQuery.Concat(GetCase(cpuId.Value));
-        //    }
-
-        //}
-        public IQueryable<Products> GetCPU(int cpuId)
+       
+        
+        public IQueryable<PcBuilderViewModel> GetAllProducts()
         {
-            var query = productManager.GetProducts();
-            var cpuTags = query
-                .Where(x => x.Id == cpuId)
-                .Select(y => y.Tags)
-                .FirstOrDefault();
-            IQueryable<Products> compatibleQuery = query;
-            foreach (var tag in cpuTags)
-            {
-                switch (tag)
+            var products = productManager.GetProducts()
+                .Where(x => x.Tags.Any(y => y.Contains("cpu") || x.Tags.Any(y => y.Contains("alaplap") || x.Tags.Any(y => y.Contains("memória") || x.Tags.Any(y => y.Contains("gépház"))))))
+                .Select(p => new PcBuilderViewModel
                 {
-                    case "AM4":
-                        compatibleQuery = compatibleQuery.Where(p => p.Tags.Any(y => y.Contains("alaplap") && p.Tags.Any(y => y.Contains("AM4"))));
-                        break;
-                    case "AM5":
-                        compatibleQuery = compatibleQuery.Where(p => p.Tags.Any(y => y.Contains("alaplap") && p.Tags.Any(y => y.Contains("AM5"))));
-                        break;
-                    case "LGA1700":
-                        compatibleQuery = compatibleQuery.Where(p => p.Tags.Any(y => y.Contains("alaplap") && p.Tags.Any(y => y.Contains("Socket 1700"))));
-                        break;
-                    case "LGA1851":
-                        compatibleQuery = compatibleQuery.Where(p => p.Tags.Any(y => y.Contains("alaplap") && p.Tags.Any(y => y.Contains("Socket 1851"))));
-                        break;
-                }
-            }
-            return compatibleQuery;
+                    Id = p.Id,
+                    name = p.ProductName,
+                    category = AssignCategory(p),
+                    tags=p.Tags
+                });
 
-        }
-
-        public IQueryable<Products> GetCPUCompatibleWithMotherboard(int cpuId)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IQueryable<Products> GetMotherboard(int caseId)
-        {
-
-
-            var query = productManager.GetProducts();
-            var caseTags = query
-                .Where(x => x.Id == caseId)
-                .Select(y => y.Tags)
-                .FirstOrDefault();
-            IQueryable<Products> compatibleQuery = query.Where(p => false);
-
-            foreach (var tag in caseTags)
-            {
+            return products;
                 
-                switch (tag)
-                {
-                    case "EATX":
-                        compatibleQuery = compatibleQuery.Concat(query.Where(p => p.Tags.Contains("alaplap") && p.Tags.Contains("EATX")));
-
-                        break;
-                    case "ATX":
-                        compatibleQuery = compatibleQuery.Concat(query.Where(p => p.Tags.Contains("alaplap") && p.Tags.Contains("ATX")));
-
-                        break;
-                    case "Micro-ATX":
-                        compatibleQuery = compatibleQuery.Concat(query.Where(p => p.Tags.Contains("alaplap") && p.Tags.Contains("Micro-ATX")));
-
-                        break;
-                    case "Mini-ITX":
-                        compatibleQuery = compatibleQuery.Concat(query.Where(p => p.Tags.Contains("alaplap") && p.Tags.Contains("Mini-ITX")));
-
-                        break;
-                    default:
-                        break;
-                }   
-            }
-
-            return compatibleQuery;
         }
-
-        public IQueryable<Products> GetMotherboardCompatibleWithCase(int caseId)
+        private static string AssignCategory(Products product)
         {
-            throw new NotImplementedException();
-        }
-
-        public IQueryable<Products> GetRam(int motherboardId)
-        {
-            var query = productManager.GetProducts();
-            var motherboardTags = query
-                .Where(x => x.Id == motherboardId)
-                .Select(y => y.Tags)
-                .FirstOrDefault();
-            IQueryable<Products> compatibleQuery = query.Where(p=>false);
-            foreach (var tag in motherboardTags)
+            if (product.Tags.Any(t => t.Contains("CPU")))
             {
-                switch (tag)
-                {
-                    case "AM4":
-                        compatibleQuery = compatibleQuery.Concat(query.Where(p => p.Tags.Any(y => y.Contains("memória") && p.Tags.Any(x => x.Contains("ddr4")))));
-                        break;
-                    case "AM5":
-                        compatibleQuery = compatibleQuery.Concat(query.Where(p => p.Tags.Any(y => y.Contains("memória") && p.Tags.Any(x => x.Contains("ddr5")))));
-                        break;
-                    case "socket 1700":
-                        compatibleQuery = compatibleQuery.Concat(query.Where(p => p.Tags.Any(y => y.Contains("memória") && p.Tags.Any(x => x.Contains("ddr5")))));
-                        break;
-                    case "Socket 1851":
-                        compatibleQuery = compatibleQuery.Concat(query.Where(p => p.Tags.Any(y => y.Contains("memória") && p.Tags.Any(x => x.Contains("ddr5")))));
-                        break;
-                }
+                return "Processzor";
             }
-            return compatibleQuery;
+            if (product.Tags.Any(t => t.Contains("alaplap")))
+            {
+                return "Alaplap";
+            }
+            if (product.Tags.Any(t => t.Contains("memória")))
+            {
+                return "Memória";
+            }
+            if (product.Tags.Any(t => t.Contains("Gépház")))
+            {
+                return "Gépház";
+            }
+            return "Other";
+        }
+        public IQueryable<PcBuilderViewModel> FilterProducts(int? motherboardId, int? cpuId, int? ramId, int? caseId)
+        {
+            var products = GetAllProducts();
+            var productQuery = products.AsQueryable();
+
+            var relevantSocketTags = new[] { "AM4", "AM5", "Socket 1700", "Socket 1851" };
+            var relevantRamTags = new[] { "DDR4", "DDR5" };
+            var relevantCaseTags = new[] { "EATX", "ATX", "Micro-ATX", "Mini-ITX" };
+            if (motherboardId.HasValue)
+            {
+                var motherboardTags = productManager.GetProducts()
+                    .Where(x => x.Id == motherboardId)
+                    .SelectMany(y => y.Tags)
+                    .ToArray();
+
+               
+                
+
+                productQuery = productQuery.Where(p => p.tags.Any(tag => (motherboardTags.Contains(tag) && relevantSocketTags.Contains(tag))) || p.tags.Any(tag => (motherboardTags.Contains(tag) && relevantRamTags.Contains(tag)) || p.tags.Any(tag => (motherboardTags.Contains(tag) && relevantCaseTags.Contains(tag)))));
+            }
+            if(cpuId.HasValue)
+            {
+                var cpuTags = productManager.GetProducts()
+                   .Where(x => x.Id == cpuId)
+                   .SelectMany(y => y.Tags)
+                   .ToArray();
+
+                
+
+                productQuery = productQuery.Where(p => p.tags.Any(y=>cpuTags.Contains(y) && relevantSocketTags.Contains(y)));
+            }
+            if (ramId.HasValue)
+            {
+                var ramTags = productManager.GetProducts()
+                   .Where(x => x.Id == ramId)
+                   .SelectMany(y => y.Tags)
+                   .ToArray();
+
+
+                productQuery = productQuery.Where(p => p.tags.Any(y => ramTags.Contains(y) && relevantRamTags.Contains(y)));
+            }
+            if (caseId.HasValue)
+            {
+                var caseTags = productManager.GetProducts()
+                   .Where(x => x.Id == caseId)
+                   .SelectMany(y => y.Tags)
+                   .ToArray();
+
+
+                productQuery = productQuery.Where(p => p.tags.Any(y => caseTags.Contains(y) && relevantCaseTags.Contains(y)));
+            }
+
+            return productQuery;
         }
 
-        public IQueryable<Products> GetRamCompatibleWithMotherboard(int motherboardId)
-        {
-            throw new NotImplementedException();
-        }
+
+
+
     }
 }
