@@ -11,6 +11,7 @@ using Webshop.EntityFramework.Managers.Carts;
 using Webshop.EntityFramework.Managers.Order;
 using Webshop.EntityFramework.Managers.User;
 using Webshop.EntityFramework.Managers.Product;
+using Webshop.Services.Services.ViewModel;
 
 namespace WebshopWeb.Controllers
 {
@@ -82,10 +83,26 @@ namespace WebshopWeb.Controllers
             SendEmail(order);
             return View();
         }
-        public IActionResult PlaceOrder(int cartId)
+        public IActionResult PlaceOrder()
         {
-            var cart=cartManager.GetCart(cartId);
-            return View(cart);
+            var cartId = HttpContext.Session.GetInt32("CartId").Value;
+            var cart = cartManager.GetCart(cartId);
+            var model = new OrderSummaryViewModel
+            {
+                CustomerName = "Kiss Péter", // Ezt lehet az aktuális bejelentkezett felhasználóból lekérni
+                ShippingAddress = "Budapest, Petőfi u. 10.", // Itt lehetne egy űrlap a cím megadására
+                ShippingOption = "Futárszolgálat", // Alapértelmezett szállítási mód
+                PaymentOption = "Bankkártya", // Alapértelmezett fizetési mód
+                Products = cart.CartItems.Select(item => new OrderProductViewModel
+                {
+                    Name = item.Product.ProductName,
+                    ImageUrl = item.Product.ImageData,
+                    Price = item.Product.Price,
+                    Quantity = item.Quanity
+                }).ToList()
+            };
+
+            return View(model);
         }
         [HttpPost]
         public IActionResult RecordAddress(string city, string zip, string street)
@@ -102,7 +119,7 @@ namespace WebshopWeb.Controllers
             userManager.UpdateUser(user);
             _context.SaveChanges();
             var cartId=HttpContext.Session.GetInt32("CartId").Value; 
-            return RedirectToAction("PlaceOrder", new { cartId });
+            return RedirectToAction("Details");
         }
         public void SendEmail(Orders order)
         {

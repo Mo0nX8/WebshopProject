@@ -1,9 +1,42 @@
-﻿<div class="row justify-content-center">
+﻿@using Webshop.Services.Services.ViewModel
+@model OrderSummaryViewModel
+
+<div class="row justify-content-center">
     <div class="col-auto">
         <h3>Összegzés</h3>
     </div>
 </div>
 
+<div class="container mt-4">
+    <h4>Megrendelt termékek</h4>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Products)
+            {
+                <tr>
+                    <td>
+                        <img src="@item.ImageUrl" alt="@item.Name" width="50" height="50" />
+                    </td>
+                    <td>@item.Name</td>
+                    <td>@item.Price.ToString("C")</td>
+                    <td>@item.Quantity</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 
-<a href=@Url.Action("Confirm","Order")>Rendelés leadása</a>
+    <h4>Szállítási adatok</h4>
+    <p><strong>Név:</strong> @Model.CustomerName</p>
+    <p><strong>Cím:</strong> @Model.ShippingAddress</p>
+    <p><strong>Szállítási mód:</strong> @Model.ShippingOption</p>
+    <p><strong>Fizetési mód:</strong> @Model.PaymentOption</p>
 
+    <h3>Végösszeg: @Model.TotalPrice.ToString("C")</h3>
+
+    <a class="btn btn-primary" href="@Url.Action("Confirm", "Order")">Rendelés leadása</a>
+</div>

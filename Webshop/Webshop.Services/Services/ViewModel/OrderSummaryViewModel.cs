@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Webshop.Services.Services.ViewModel
+{
+    public class OrderSummaryViewModel
+    {
+        public List<OrderProductViewModel> Products { get; set; }
+        public string CustomerName { get; set; }
+        public string ShippingAddress { get; set; }
+        public string ShippingOption { get; set; }
+        public string PaymentOption { get; set; }
+        public decimal TotalPrice => Products.Sum(p => p.Price * p.Quantity);
+    }
+    public class OrderProductViewModel
+    {
+        public string Name { get; set; }
+        public byte[] ImageUrl { get; set; }
+        public decimal Price { get; set; }
+        public int Quantity { get; set; }
+    }
+}
