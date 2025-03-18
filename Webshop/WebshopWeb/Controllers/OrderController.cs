@@ -83,16 +83,19 @@ namespace WebshopWeb.Controllers
             SendEmail(order);
             return View();
         }
-        public IActionResult PlaceOrder()
+        public IActionResult PlaceOrder(string shipping, string payment)
         {
             var cartId = HttpContext.Session.GetInt32("CartId").Value;
             var cart = cartManager.GetCart(cartId);
+            var userId = HttpContext.Session.GetInt32("UserId").Value;
+            var user = userManager.GetUser(userId);
+            var address = user.Address.ZipCode + ", " + user.Address.City + " " + user.Address.StreetAndNumber;
             var model = new OrderSummaryViewModel
             {
-                CustomerName = "Kiss Péter", // Ezt lehet az aktuális bejelentkezett felhasználóból lekérni
-                ShippingAddress = "Budapest, Petőfi u. 10.", // Itt lehetne egy űrlap a cím megadására
-                ShippingOption = "Futárszolgálat", // Alapértelmezett szállítási mód
-                PaymentOption = "Bankkártya", // Alapértelmezett fizetési mód
+                CustomerName = user.Username, 
+                ShippingAddress = address, 
+                ShippingOption = "Futárszolgálat", 
+                PaymentOption = "Bankkártya", 
                 Products = cart.CartItems.Select(item => new OrderProductViewModel
                 {
                     Name = item.Product.ProductName,

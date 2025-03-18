@@ -11,6 +11,8 @@ namespace Webshop.EntityFramework.Data
         public DateTime DateOfOrder { get; set; }
         public int UserId { get; set; }
         public int Price { get; set; }
+        public string ShippingOption { get; set; }
+        public string PaymentOption { get; set; }
         public ICollection<OrderItem> OrderItems { get; set; }
         public UserData User { get; set; }
     }

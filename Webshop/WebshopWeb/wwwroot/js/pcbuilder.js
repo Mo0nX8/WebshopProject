@@ -8,8 +8,7 @@
     document.getElementById('caseSelect').addEventListener('change', filter);
 });
 
-function filter()
-{
+function filter() {
     var cpuId = document.getElementById('cpuSelect').value;
     var motherboardId = document.getElementById('motherboardSelect').value;
     var ramId = document.getElementById('ramSelect').value;
@@ -22,6 +21,7 @@ function filter()
     if (caseId) url += "caseId=" + encodeURIComponent(caseId) + "&";
 
     url = url.endsWith("&") ? url.slice(0, -1) : url;
+
     fetch(url)
         .then(response => response.json())
         .then(data => {
@@ -30,22 +30,39 @@ function filter()
             let rams = data.filter(p => p.category === "Memória");
             let cases = data.filter(p => p.category === "Gépház");
 
-            populateSelect("cpuSelect", cpus)
-            populateSelect("motherboardSelect", motherboards)
-            populateSelect("ramSelect", rams)
-            populateSelect("caseSelect", cases)
+            populateSelect("cpuSelect", cpus);
+            populateSelect("motherboardSelect", motherboards);
+            populateSelect("ramSelect", rams);
+            populateSelect("caseSelect", cases);
         })
         .catch(error => console.error("Error fetching products:", error));
 }
+
    
 function populateSelect(selectId, items) {
     let select = document.getElementById(selectId);
+    let selectedValue = select.value; // Elmenti a jelenlegi kiválasztott értéket
+
     select.innerHTML = '<option value="">Válassz terméket</option>';
+
+    let foundSelected = false; // Nyomon követjük, hogy az aktuális választás még mindig elérhető-e
 
     items.forEach(item => {
         let option = document.createElement("option");
         option.value = item.id;
         option.textContent = item.name;
+
+        if (item.id == selectedValue) {
+            option.selected = true;
+            foundSelected = true;
+        }
+
         select.appendChild(option);
     });
+
+    // Ha a kiválasztott elem már nem kompatibilis, reseteljük
+    if (!foundSelected) {
+        select.value = "";
+    }
 }
+
