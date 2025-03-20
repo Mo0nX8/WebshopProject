@@ -1,4 +1,7 @@
-﻿namespace Webshop.EntityFramework.Data
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Webshop.EntityFramework.Data
 {
     /// <summary>
     /// Contains user's data
@@ -17,9 +20,8 @@
         public ICollection<Orders> Orders { get; set; }
         public ShoppingCart Cart { get; set; }
 
-
-
-
-
+        [NotMapped]
+        [Required(ErrorMessage = "Fogadd el az Általános Szerződési Feltételeket!")]
+        public bool Terms { get; set; }
     }
 }

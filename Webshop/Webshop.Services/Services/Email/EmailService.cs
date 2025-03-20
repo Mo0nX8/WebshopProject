@@ -9,16 +9,19 @@ using System.Threading.Tasks;
 using Webshop.EntityFramework.Data;
 using Webshop.Services.Interfaces;
 using Microsoft.Extensions.Configuration;
+using System.IO;
 
 namespace Webshop.Services.Services.Email
 {
     public class EmailService : IEmailService
     {
         private readonly IConfiguration _config;
+        private readonly string _templatePath;
 
-        public EmailService(IConfiguration config)
+        public EmailService(IConfiguration config, string templatePath=null)
         {
             _config = config;
+            _templatePath= templatePath ?? Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "templates", "emailTemplate.html");
         }
 
         public async Task SendEmailAsync(Orders order, string email)
@@ -27,10 +30,10 @@ namespace Webshop.Services.Services.Email
             int smtpPort = Convert.ToInt32(_config["SmtpSettings:Port"]);
             string senderEmail = _config["SmtpSettings:User"];
             string senderPassword = _config["SmtpSettings:Password"];
-            string recipientEmail = "Anakinka2323@gmail.com";
+            string recipientEmail = "anakinka2323@gmail.com";
 
             string htmlFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "templates", "emailTemplate.html");
-            string htmlBody = File.ReadAllText(htmlFilePath);
+            string htmlBody = File.Exists(_templatePath) ? File.ReadAllText(_templatePath) : "<html><body><p>Order Confirmation</p></body></html>";
 
             StringBuilder orderItemsHtml = new StringBuilder();
             int imageIndex = 1;

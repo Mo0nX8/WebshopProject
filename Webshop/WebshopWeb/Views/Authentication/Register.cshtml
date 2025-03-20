@@ -61,6 +61,18 @@
             </div>
         </div>
         <div class="row justify-content-center">
+            <div class="col-auto">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="terms" id="terms" required />
+                    <label class="form-check-label" for="terms">
+                        Elfogadom a <a href="#">feltételeket</a>
+                    </label>
+                </div>
+                @Html.ValidationMessageFor(m => m.Terms, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
             <div class="col-auto"><input type="submit" value="Regisztráció" class="btn btn-primary"/></div>
         </div>
       
