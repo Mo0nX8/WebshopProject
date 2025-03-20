@@ -4,120 +4,122 @@
 @{
     ViewBag.Title = Model.ProductName;
 }
+
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="~/css/ProductDetails.css" >
+    <link rel="stylesheet" href="~/css/ProductDetails.css">
 </head>
+
+<h1 class="product-title">@Model.ProductName</h1>
+
 <div class="product-container">
+
     <div class="product-image">
         @if (Model.ImageData != null && Model.ImageData.Length > 0)
         {
             var base64Image = Convert.ToBase64String(Model.ImageData);
-            <img src="data:image/jpeg;base64,@base64Image" class="card-img-top product-image" alt="@Model.ProductName">
+            <img src="data:image/jpeg;base64,@base64Image" alt="@Model.ProductName">
         }
     </div>
-    <div class="product-details">
-        <h1>@Model.ProductName</h1>
 
-        @if (Model.Price != 0)
-        {
-            <p><strong></strong> @Model.Price.ToString("N0") Ft</p>
-        }
 
-        @foreach (var desc in Model.Description)
-        {
-            <p>@desc</p>
-        }
+    <div class="product-info">
+
+        <p class="product-rating">
+            <strong style="color:black">Átlagos értékelés:</strong>
+            @if (Model.Reviews != null && Model.Reviews.Any())
+            {
+                var avgRating = Model.Reviews.Average(r => r.Rating);
+                <span>@avgRating.ToString("0.0") csillag</span>
+
+                <span style="color: gold;">
+                    @for (int i = 1; i <= 5; i++)
+                    {
+                        if (i <= avgRating)
+                        {
+                            <text>★</text>
+                        }
+                        else
+                        {
+                            <text>☆</text>
+                        }
+                    }
+                </span>
+            }
+            else
+            {
+                <span style="color:black">Nincs értékelés.</span>
+            }
+        </p>
+
+        <p class="product-price">@Model.Price.ToString("N0") Ft</p>
 
         @if (Model.Quanity > 0)
         {
-            <a href="@Url.Action("AddToCart", "Product", new { Id = Model.Id })">Kosárhoz adás</a>
+            <a href="@Url.Action("AddToCart", "Product", new { Id = Model.Id })" class="add-to-cart">Kosárhoz adás</a>
         }
         else if (Model.Price == 0)
         {
             <p>Hamarosan</p>
         }
-        else if (Model.Quanity == 0)
+        else
         {
             <p>Nincs raktáron</p>
         }
     </div>
-    <p>
-        <strong>Átlagos értékelés:</strong>
-        @if (Model.Reviews != null && Model.Reviews.Any())
-        {
-            var avgRating = Model.Reviews.Average(r => r.Rating);
-            <span>@avgRating.ToString("0.0") csillag</span>
+</div>
 
-            <span style="color: gold;">
-                @for (int i = 1; i <= 5; i++)
-                {
-                    if (i <= avgRating)
+<div class="product-description">
+    @foreach (var desc in Model.Description)
+    {
+        <p>@desc</p>
+    }
+</div>
+
+<h3>Értékelések</h3>
+@if (Model.Reviews != null && Model.Reviews.Any())
+{
+    foreach (var review in Model.Reviews)
+    {
+        <div class="border p-2 mb-2">
+            <strong>
+                <span style="color: gold;">
+                    @for (int i = 0; i < review.Rating; i++)
                     {
                         <text>★</text>
                     }
-                    else
+                    @for (int i = review.Rating; i < 5; i++)
                     {
                         <text>☆</text>
                     }
-                }
-            </span>
-        }
-        else
-        {
-            <span>Nincs értékelés.</span>
-        }
-    </p>
-
-    <h3>Értékelések</h3>
-    @if (Model.Reviews != null && Model.Reviews.Any())
-    {
-        @foreach (var review in Model.Reviews)
-        {
-            <div class="border p-2 mb-2">
-                <strong>
-                    <span style="color: gold;">
-                        @for (int i = 0; i < review.Rating; i++)
-                        {
-                            <text>★</text>
-                        }
-                        @for (int i = review.Rating; i < 5; i++)
-                        {
-                            <text>☆</text>
-                        }
-                    </span>
-                </strong>
-                <p>@review.Comment</p>
-                <small class="text-muted">Dátum: @review.CreatedAt.ToShortDateString()</small>
-            </div>
-        }
+                </span>
+            </strong>
+            <p>@review.Comment</p>
+            <small class="text-muted">Dátum: @review.CreatedAt.ToShortDateString()</small>
+        </div>
     }
-    else
-    {
-        <p>Még nincs értékelés.</p>
-    }
+}
+else
+{
+    <p>Még nincs értékelés.</p>
+}
 
-    <h3>Új értékelés hozzáadása</h3>
-    <form asp-action="AddReview" asp-controller="Product" method="post">
-        <input type="hidden" name="productId" value="@Model.Id" />
+<h3>Új értékelés hozzáadása</h3>
+<form asp-action="AddReview" asp-controller="Product" method="post">
+    <input type="hidden" name="productId" value="@Model.Id" />
 
+    <label>Értékelés (1-5):</label>
+    <select name="rating" class="form-control" required>
+        <option value="1">★☆☆☆☆</option>
+        <option value="2">★★☆☆☆</option>
+        <option value="3">★★★☆☆</option>
+        <option value="4">★★★★☆</option>
+        <option value="5">★★★★★</option>
+    </select>
 
-        <label>Értékelés (1-5):</label>
-        <select name="rating" class="form-control" required>
-            <option value="1">★☆☆☆☆</option>
-            <option value="2">★★☆☆☆</option>
-            <option value="3">★★★☆☆</option>
-            <option value="4">★★★★☆</option>
-            <option value="5">★★★★★</option>
-        </select>
-
-        <br />
-        <label>Megjegyzés:</label>
-        <textarea name="comment" class="form-control"></textarea>
-        <br />
-        <button type="submit" class="btn btn-primary">Értékelés beküldése</button>
-    </form>
-</div>
-
-
-
+    <br />
+    <label>Megjegyzés:</label>
+    <textarea name="comment" class="form-control"></textarea>
+    <br />
+    <button type="submit" class="btn btn-primary">Értékelés beküldése</button>
+</form>

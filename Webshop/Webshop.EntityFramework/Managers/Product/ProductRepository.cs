@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,7 +30,9 @@ namespace Webshop.EntityFramework.Managers.Product
 
         public Products GetProduct(int id)
         {
-            return _context.StorageData.First(x => x.Id == id);
+            return _context.StorageData
+                .Include(y=>y.Reviews)
+                .First(x => x.Id == id);
         }
 
         public IQueryable<Products> GetProducts()
