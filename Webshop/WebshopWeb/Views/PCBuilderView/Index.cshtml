@@ -1,21 +1,46 @@
-﻿@{
-    ViewData["Title"] = "Gépösszerakó";
-}
-<select id="cpuSelect">
-    <option value="">Válassz CPU-t</option>
-</select>
+﻿<head>
+    <link rel="stylesheet" href="~/css/pcbuilder.css" />
+</head>
 
-<select id="motherboardSelect">
-    <option value="">Válassz alaplapot</option>
-</select>
-
-<select id="ramSelect">
-    <option value="">Válassz RAM-ot</option>
-</select>
-
-<select id="caseSelect">
-    <option value="">Válassz házat</option>
-</select>
+<h1>PC Builder</h1>
+<form id="pcBuilderForm">
+    <div>
+        <label for="cpuSelect">CPU:</label>
+        <select id="cpuSelect">
+            <option value="">Select CPU</option>
+        </select>
+    </div>
+    <div>
+        <label for="motherboardSelect">Motherboard:</label>
+        <select id="motherboardSelect">
+            <option value="">Select Motherboard</option>
+        </select>
+    </div>
+    <div>
+        <label for="ramSelect">RAM:</label>
+        <select id="ramSelect">
+            <option value="">Select RAM</option>
+        </select>
+    </div>
+    <div>
+        <label for="caseSelect">Case:</label>
+        <select id="caseSelect">
+            <option value="">Select Case</option>
+        </select>
+    </div>
+    <div>
+        <label for="gpuSelect">GPU:</label>
+        <select id="gpuSelect">
+            <option value="">Select GPU</option>
+        </select>
+    </div>
+    <div>
+        <label for="psuSelect">PSU:</label>
+        <select id="psuSelect">
+            <option value="">Select PSU</option>
+        </select>
+    </div>
+</form>
+<div id="totalCost">Total Cost: <span id="costValue">0</span> HUF</div>
 <script src="~/js/pcbuilder.js"></script>
-
 
