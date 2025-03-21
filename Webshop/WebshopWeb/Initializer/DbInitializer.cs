@@ -38,6 +38,7 @@ namespace WebshopWeb.Initializer
                     newUser.Username = configuration["Adminuser:Password"];
                     newUser.IsAdmin = true;
                     newUser.Password = encryptManager.Hash("Admin123");
+                    newUser.GoogleId = null;
                     user=newUser; 
                     _context.Users.Add(newUser);
                     _context.SaveChanges();

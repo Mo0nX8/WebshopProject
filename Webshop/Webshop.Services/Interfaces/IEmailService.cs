@@ -9,6 +9,7 @@ namespace Webshop.Services.Interfaces
 {
     public interface IEmailService
     {
-        Task SendEmailAsync(Orders order, string email);
+        Task SendOrderEmailAsync(Orders order, string email);
+        Task SendResetEmailAsync(string email, string subject, string body);
     }
 }

@@ -10,9 +10,13 @@ namespace Webshop.EntityFramework.Data
     {
         public int Id { get; set; }
         public string Username { get; set; }
-        public string Password { get; set; }
+        public string? Password { get; set; }
         public string EmailAddress { get; set; }
+        public string? GoogleId { get; set; }
         public bool IsAdmin { get; set; }
+        public string? Code { get; set; }
+        public DateTime? ExpirationDate { get; set; }
+        
 
         
         public Address? Address { get; set; }

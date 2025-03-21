@@ -137,7 +137,7 @@ namespace WebshopWeb.Controllers
         }
         public async Task SendEmail(Orders order, string email)
         {
-            await emailSender.SendEmailAsync(order, email);
+            await emailSender.SendOrderEmailAsync(order, email);
             
         }
 

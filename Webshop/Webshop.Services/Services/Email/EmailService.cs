@@ -24,13 +24,13 @@ namespace Webshop.Services.Services.Email
             _templatePath= templatePath ?? Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "templates", "emailTemplate.html");
         }
 
-        public async Task SendEmailAsync(Orders order, string email)
+        public async Task SendOrderEmailAsync(Orders order, string email)
         {
             string smtpServer = _config["SmtpSettings:Host"];
             int smtpPort = Convert.ToInt32(_config["SmtpSettings:Port"]);
             string senderEmail = _config["SmtpSettings:User"];
             string senderPassword = _config["SmtpSettings:Password"];
-            string recipientEmail = "anakinka2323@gmail.com";
+            string recipientEmail = email;
 
             string htmlFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "templates", "emailTemplate.html");
             string htmlBody = File.Exists(_templatePath) ? File.ReadAllText(_templatePath) : "<html><body><p>Order Confirmation</p></body></html>";
@@ -71,6 +71,34 @@ namespace Webshop.Services.Services.Email
                 htmlBody = htmlBody.Replace("{{TOTAL_PRICE}}", totalPrice + " Ft");
 
                 mail.Body = htmlBody;
+
+                using (SmtpClient smtpClient = new SmtpClient(smtpServer, smtpPort))
+                {
+                    smtpClient.Credentials = new NetworkCredential(senderEmail, senderPassword);
+                    smtpClient.EnableSsl = true;
+                    smtpClient.UseDefaultCredentials = false;
+                    smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
+                    await smtpClient.SendMailAsync(mail);
+                }
+            }
+        }
+
+        public async Task SendResetEmailAsync(string email, string subject, string body)
+        {
+            string smtpServer = _config["SmtpSettings:Host"];
+            int smtpPort = Convert.ToInt32(_config["SmtpSettings:Port"]);
+            string senderEmail = _config["SmtpSettings:User"];
+            string senderPassword = _config["SmtpSettings:Password"];
+            string recipientEmail = email;
+
+
+
+            using (MailMessage mail = new MailMessage(senderEmail, recipientEmail))
+            {
+                mail.Subject = subject;
+                mail.IsBodyHtml = false;
+
+                mail.Body = body;
 
                 using (SmtpClient smtpClient = new SmtpClient(smtpServer, smtpPort))
                 {

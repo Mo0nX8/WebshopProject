@@ -1,0 +1,21 @@
+﻿@using Webshop.Services.Services.ViewModel
+@{
+    ViewData["Title"] = "Kód ellenőrzése";
+}
+@model ForgotPasswordViewModel
+<h2>Kód ellenőrzése</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<form method="post" action="VerifyCode">
+    <div class="form-group">
+        <label for="code">Ellenőrző kód</label>
+        <input type="text" id="code" name="code" class="form-control" required />
+        <input type="hidden" name="email" value="@Model.Email" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Ellenőrzés</button>
+</form>

@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.Google;
 using System.Text.Json;
 using Webshop.EntityFramework;
 using Webshop.EntityFramework.Managers.Carts;
@@ -25,6 +27,25 @@ builder.Services.AddControllersWithViews()
         options.JsonSerializerOptions.PropertyNamingPolicy=JsonNamingPolicy.CamelCase;
         options.JsonSerializerOptions.WriteIndented = true;
     });
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
+})
+.AddCookie(options =>
+{
+    options.ExpireTimeSpan = TimeSpan.FromMinutes(30); 
+    options.SlidingExpiration = true; 
+    options.Cookie.HttpOnly = true; 
+    options.Cookie.SecurePolicy = CookieSecurePolicy.SameAsRequest; 
+})
+.AddGoogle(options =>
+{
+    options.ClientId = "1095549586232-ujkvserq3oscjpkm41dtigv96mnm27vo.apps.googleusercontent.com";
+    options.ClientSecret = "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";
+    options.CallbackPath = "/signin-google";
+});
 
 builder.Services.AddDbContext<GlobalDbContext>();
 builder.Services.AddDistributedMemoryCache();
@@ -74,9 +95,9 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
-app.UseAuthorization();
 app.UseSession();
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
