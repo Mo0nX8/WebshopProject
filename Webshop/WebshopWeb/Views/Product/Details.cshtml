@@ -72,9 +72,21 @@
 <div class="product-description">
     @foreach (var desc in Model.Description)
     {
-        <p>@desc</p>
+        string[] line = desc.Split(':');
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-12 col-lg-2">
+                    <p>@line[0]</p>
+                </div>
+
+                <div class="col-md-6 col-12 col-lg-2">
+                    <p>@line[1]</p>
+                </div>
+            </div>
+        </div>
     }
 </div>
+
 
 <h3>Értékelések</h3>
 @if (Model.Reviews != null && Model.Reviews.Any())
