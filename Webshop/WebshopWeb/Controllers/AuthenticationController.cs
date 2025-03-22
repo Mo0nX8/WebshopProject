@@ -11,6 +11,8 @@ using Webshop.Services.Interfaces;
 using Webshop.Services.Services.Validators;
 using Microsoft.AspNetCore.Authentication.Google;
 using Webshop.Services.Services.ViewModel;
+using Microsoft.AspNetCore.Authentication.Facebook;
+using AspNet.Security.OAuth.GitHub;
 
 namespace WebshopWeb.Controllers
 {
@@ -122,44 +124,71 @@ namespace WebshopWeb.Controllers
         [HttpGet("auth/google-login")]
         public IActionResult GoogleLogin()
         {
-            var redirectUrl = Url.Action("GoogleResponse", "Authentication");
+            var redirectUrl = Url.Action("ExternalResponse", "Authentication", new {provider="Google"});
             var properties = new AuthenticationProperties { RedirectUri = redirectUrl };
             return Challenge(properties, GoogleDefaults.AuthenticationScheme);
         }
-        [HttpGet("auth/google-response")]
-        public async Task<IActionResult> GoogleResponse()
+        [HttpGet("auth/facebook-login")]
+        public IActionResult FacebookLogin()
+        {
+            var redirectUrl = Url.Action("ExternalResponse", "Authentication", new { provider = "Facebook" });
+            var properties = new AuthenticationProperties { RedirectUri = redirectUrl };
+            return Challenge(properties, FacebookDefaults.AuthenticationScheme);
+        }
+        [HttpGet("auth/github-login")]
+        public IActionResult GithubLogin()
+        {
+            var redirectUrl = Url.Action("ExternalResponse", "Authentication", new { provider = "GitHub" });
+            var properties = new AuthenticationProperties { RedirectUri = redirectUrl };
+            return Challenge(properties, GitHubAuthenticationDefaults.AuthenticationScheme);
+        }
+        [HttpGet("auth/external-response")]
+        public async Task<IActionResult> ExternalResponse(string provider)
         {
             var authenticateResult = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 
             if (!authenticateResult.Succeeded)
             {
-                TempData["Code"] = "Google authentication failed. Please try again.";
+                TempData["Code"] = $"{provider} authentication failed. Please try again.";
                 return RedirectToAction("Login");
             }
 
             var claims = authenticateResult.Principal.Identities.FirstOrDefault()?.Claims;
+            var providerId = claims?.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
             var email = claims?.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value;
+            var name = claims?.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value ?? "User";
 
-            if (string.IsNullOrEmpty(email))
+            if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(providerId))
             {
-                TempData["Code"] = "Google authentication failed. Please try again.";
+                TempData["Code"] = $"{provider} authentication failed. Please try again.";
                 return RedirectToAction("Login");
             }
 
-            Console.WriteLine("Google Authenticated Email: " + email);
+            Console.WriteLine($"{provider} Authenticated Email: " + email);
 
             var user = _context.Users.FirstOrDefault(u => u.EmailAddress == email);
 
             if (user == null)
             {
-                Console.WriteLine("User not found in database, creating new one...");
                 user = new UserData
                 {
-                    Username = claims?.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value ?? "Google User",
+                    Username = name,
                     EmailAddress = email,
-                    GoogleId = claims?.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value,
                     Password = null
                 };
+
+                if (provider == "Google")
+                {
+                    user.GoogleId = claims?.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
+                }
+                else if (provider == "Facebook")
+                {
+                    user.FacebookId = claims?.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
+                }
+                else if (provider == "GitHub")
+                {
+                    user.GitHubId = claims?.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
+                }
 
                 _context.Users.Add(user);
                 await _context.SaveChangesAsync();
@@ -175,6 +204,18 @@ namespace WebshopWeb.Controllers
                 _context.Carts.Add(cart);
                 await _context.SaveChangesAsync();
             }
+            else
+            {
+                if (provider == "Google" && string.IsNullOrEmpty(user.GoogleId))
+                    user.GoogleId = providerId;
+                else if (provider == "Facebook" && string.IsNullOrEmpty(user.FacebookId))
+                    user.FacebookId = providerId;
+                else if (provider == "GitHub" && string.IsNullOrEmpty(user.GitHubId))
+                    user.GitHubId = providerId;
+
+                _context.Users.Update(user);
+                await _context.SaveChangesAsync();
+            }
 
             HttpContext.Session.SetInt32("UserId", user.Id);
             HttpContext.Session.SetString("IsAuthenticated", "True");
@@ -182,6 +223,8 @@ namespace WebshopWeb.Controllers
 
             return RedirectToAction("Index", "Home");
         }
+
+
 
         [HttpGet]
         public IActionResult PasswordResetRequest()

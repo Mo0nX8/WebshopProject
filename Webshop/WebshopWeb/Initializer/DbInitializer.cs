@@ -39,6 +39,8 @@ namespace WebshopWeb.Initializer
                     newUser.IsAdmin = true;
                     newUser.Password = encryptManager.Hash("Admin123");
                     newUser.GoogleId = null;
+                    newUser.FacebookId = null;
+                    newUser.GitHubId = null;
                     user=newUser; 
                     _context.Users.Add(newUser);
                     _context.SaveChanges();

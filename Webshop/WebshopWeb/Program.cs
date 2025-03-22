@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
+using Microsoft.AspNetCore.Authentication.Facebook;
+using Microsoft.AspNetCore.Authentication.OAuth;
 using System.Text.Json;
 using Webshop.EntityFramework;
 using Webshop.EntityFramework.Managers.Carts;
@@ -16,6 +18,9 @@ using Webshop.Services.Services.ProductService;
 using Webshop.Services.Services.Security;
 using Webshop.Services.Services.Validators;
 using WebshopWeb.Initializer;
+using Microsoft.Extensions.Options;
+using System.Security.Claims;
+using Microsoft.Extensions.DependencyInjection;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -31,21 +36,37 @@ builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
     options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
 })
 .AddCookie(options =>
 {
-    options.ExpireTimeSpan = TimeSpan.FromMinutes(30); 
-    options.SlidingExpiration = true; 
-    options.Cookie.HttpOnly = true; 
-    options.Cookie.SecurePolicy = CookieSecurePolicy.SameAsRequest; 
+    options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+    options.SlidingExpiration = true;
+    options.Cookie.HttpOnly = true;
+    options.Cookie.SecurePolicy = CookieSecurePolicy.SameAsRequest;
 })
 .AddGoogle(options =>
 {
     options.ClientId = "1095549586232-ujkvserq3oscjpkm41dtigv96mnm27vo.apps.googleusercontent.com";
     options.ClientSecret = "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";
     options.CallbackPath = "/signin-google";
+})
+.AddFacebook(options =>
+{
+    options.AppId = "1327874125115124";
+    options.AppSecret = "aa040aca05d543e47a495177ec64781c";
+    options.CallbackPath = "/signin-facebook";
+
+})
+.AddGitHub(options =>
+{
+    options.ClientId = "Ov23liWudWIkeU40rCYJ";
+    options.ClientSecret = "e4fcc165c5f92819ac625e5df17bc79c8f522f67";
+    options.Scope.Add("user:email");
+    options.CallbackPath = "/signin-github";
 });
+
+
 
 builder.Services.AddDbContext<GlobalDbContext>();
 builder.Services.AddDistributedMemoryCache();

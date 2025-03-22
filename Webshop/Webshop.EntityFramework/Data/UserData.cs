@@ -13,6 +13,8 @@ namespace Webshop.EntityFramework.Data
         public string? Password { get; set; }
         public string EmailAddress { get; set; }
         public string? GoogleId { get; set; }
+        public string? FacebookId { get; set; }
+        public string? GitHubId { get; set; }
         public bool IsAdmin { get; set; }
         public string? Code { get; set; }
         public DateTime? ExpirationDate { get; set; }
