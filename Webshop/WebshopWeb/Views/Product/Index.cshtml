@@ -79,7 +79,7 @@
                                 else
                                 {
                                     <h5>@product.Price.ToString("N0") Ft</h5>
-                                    <button><a href=@Url.Action("AddToCart","Product", new {ids = string.Join(",", product.Id)}) class="add-to-cart>Kosárba rakom</a></button>
+                                    <button><a href=@Url.Action("AddToCart","Product", new {id=product.Id})>Kosárba rakom</a></button>
                                 }
                             </div>
                         </div>
