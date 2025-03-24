@@ -30,7 +30,7 @@ namespace Webshop.Services.Services.Email
             int smtpPort = Convert.ToInt32(_config["SmtpSettings:Port"]);
             string senderEmail = _config["SmtpSettings:User"];
             string senderPassword = _config["SmtpSettings:Password"];
-            string recipientEmail = email;
+            string recipientEmail = "adamkadombi@gmail.com";
 
             string htmlFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "templates", "emailTemplate.html");
             string htmlBody = File.Exists(_templatePath) ? File.ReadAllText(_templatePath) : "<html><body><p>Order Confirmation</p></body></html>";

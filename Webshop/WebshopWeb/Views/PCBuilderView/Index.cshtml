@@ -45,8 +45,37 @@
 </form>
 <div id="totalCost">Total Cost: <span id="costValue">0</span> Ft</div>
 
-<a href="@Url.Action("AddToCart","Product")">Kosárba teszem</a>
+<a href="#" id="addToCart">Kosárba teszem</a>
 <div id="overlay" style="display:none;">
     <div class="spinner-border" role="status" id="globalSpinner"></div>
 </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const addToCartLink = document.querySelector("a#addToCart");
+
+        // Event listener for when selections change
+        const form = document.getElementById('pcBuilderForm');
+        form.addEventListener('change', function () {
+            const cpuId = document.getElementById('cpuSelect').value;
+            const motherboardId = document.getElementById('motherboardSelect').value;
+            const ramId = document.getElementById('ramSelect').value;
+            const caseId = document.getElementById('caseSelect').value;
+            const gpuId = document.getElementById('gpuSelect').value;
+            const psuId = document.getElementById('psuSelect').value;
+
+            // Create a query string with selected components
+            const selectedIds = [cpuId, motherboardId, ramId, caseId, gpuId, psuId]
+                .filter(id => id !== "") // Exclude empty selections
+                .join(",");
+
+            // Update the href of the 'Kosárba teszem' link dynamically
+            if (selectedIds) {
+                const url = '@Url.Action("AddToCart", "Product")' + `?ids=${selectedIds}`;
+                addToCartLink.setAttribute('href', url);
+            } else {
+                addToCartLink.setAttribute('href', '#'); // Disable the link if no selection
+            }
+        });
+    });
+</script>
 <script src="~/js/pcbuilder.js"></script>
