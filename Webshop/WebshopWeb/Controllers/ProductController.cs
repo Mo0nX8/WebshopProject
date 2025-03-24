@@ -26,10 +26,6 @@ namespace WebshopWeb.Controllers
             this.productServices = productServices;
             this.reviewManager = reviewManager;
         }
-        public IActionResult Builder()
-        {
-            return View("~/Views/PCBuilder/Index.cshtml");
-        }
         public IActionResult Index(int pageNumber = 1, int pageSize = 30)
         {
             var totalItems = productManager.CountProducts();

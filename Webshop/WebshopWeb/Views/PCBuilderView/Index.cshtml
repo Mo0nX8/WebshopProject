@@ -1,46 +1,52 @@
 ﻿<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="~/css/pcbuilder.css" />
+
 </head>
 
-<h1>PC Builder</h1>
+<h1>Számítógép összerakó</h1>
 <form id="pcBuilderForm">
     <div>
-        <label for="cpuSelect">CPU:</label>
+        <label for="cpuSelect">Processzor:</label>
         <select id="cpuSelect">
-            <option value="">Select CPU</option>
+            <option value="">Válassz</option>
         </select>
     </div>
     <div>
-        <label for="motherboardSelect">Motherboard:</label>
+        <label for="motherboardSelect">Alaplap:</label>
         <select id="motherboardSelect">
-            <option value="">Select Motherboard</option>
+            <option value="">Válassz</option>
         </select>
     </div>
     <div>
-        <label for="ramSelect">RAM:</label>
+        <label for="ramSelect">Memória:</label>
         <select id="ramSelect">
-            <option value="">Select RAM</option>
+            <option value="">Válassz</option>
         </select>
     </div>
     <div>
-        <label for="caseSelect">Case:</label>
+        <label for="caseSelect">Gépház:</label>
         <select id="caseSelect">
-            <option value="">Select Case</option>
+            <option value="">Válassz</option>
         </select>
     </div>
     <div>
-        <label for="gpuSelect">GPU:</label>
+        <label for="gpuSelect">Videókártya:</label>
         <select id="gpuSelect">
-            <option value="">Select GPU</option>
+            <option value="">Válassz</option>
         </select>
     </div>
     <div>
-        <label for="psuSelect">PSU:</label>
+        <label for="psuSelect">Tápegység:</label>
         <select id="psuSelect">
-            <option value="">Select PSU</option>
+            <option value="">Válassz</option>
         </select>
     </div>
 </form>
-<div id="totalCost">Total Cost: <span id="costValue">0</span> HUF</div>
-<script src="~/js/pcbuilder.js"></script>
+<div id="totalCost">Total Cost: <span id="costValue">0</span> Ft</div>
 
+<a href="@Url.Action("AddToCart","Product")">Kosárba teszem</a>
+<div id="overlay" style="display:none;">
+    <div class="spinner-border" role="status" id="globalSpinner"></div>
+</div>
+<script src="~/js/pcbuilder.js"></script>

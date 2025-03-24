@@ -10,6 +10,7 @@
 });
 
 function filter() {
+    showLoader();
     const cpuId = document.getElementById('cpuSelect').value;
     const motherboardId = document.getElementById('motherboardSelect').value;
     const ramId = document.getElementById('ramSelect').value;
@@ -25,7 +26,7 @@ function filter() {
 
     url = url.endsWith("&") ? url.slice(0, -1) : url;
 
-    showLoader();
+    
 
     fetch(url)
         .then(response => {
@@ -41,8 +42,8 @@ function filter() {
             populateSelect("caseSelect", data.filter(p => p.category === "Gépház"));
             populateSelect("gpuSelect", data.filter(p => p.category === "Videókártya"));
             populateSelect("psuSelect", data.filter(p => p.category === "Tápegység"));
-
             calculateTotalPrice(data);
+            
         })
         .catch(error => {
             console.error("Error fetching products:", error);
@@ -57,7 +58,7 @@ function populateSelect(selectId, items) {
     const select = document.getElementById(selectId);
     const selectedValue = select.value;
 
-    select.innerHTML = '<option value="">Select</option>';
+    select.innerHTML = '<option value="">Válassz</option>';
 
     let foundSelected = false;
 
@@ -95,18 +96,29 @@ function calculateTotalPrice(data) {
         if (id) {
             const item = data.find(p => p.id.toString() === id);
             if (item) {
-                totalPrice += item.Price || 0; 
+                totalPrice += item.price || 0;
             }
         }
     });
 
-    document.getElementById('totalCost').value = totalPrice.toFixed(2); 
+    document.getElementById('totalCost').textContent = totalPrice.toFixed(0)+" Ft";
 }
 
 function showLoader() {
+    document.getElementById('overlay').style.display = 'flex';
+    document.body.classList.add('loading');
     console.log("Loading...");
+    const selects = document.querySelectorAll('select');
+    selects.forEach(x => x.disabled = true);
 }
 
 function hideLoader() {
+    document.getElementById('overlay').style.display = 'none';
+    document.body.classList.remove('loading');
     console.log("Loaded.");
+    const selects = document.querySelectorAll('select');
+    selects.forEach(x => x.disabled = false);
 }
+
+
+

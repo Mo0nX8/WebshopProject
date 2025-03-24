@@ -74,7 +74,7 @@ namespace Webshop.Services.Services.Compatibility
             var relevantSocketTags = new[] { "AM4", "AM5", "Socket 1700", "Socket 1851" };
             var relevantRamTags = new[] { "DDR4", "DDR5" };
             var relevantCaseTags = new[] { "EATX", "ATX", "Micro-ATX", "Mini-ITX" };
-            if (motherboardId.HasValue || cpuId.HasValue)
+            if (motherboardId.HasValue || cpuId.HasValue || ramId.HasValue || caseId.HasValue)
             {
                 var motherboardTags = motherboardId.HasValue
                     ? productManager.GetProducts()
@@ -89,8 +89,20 @@ namespace Webshop.Services.Services.Compatibility
                         .SelectMany(y => y.Tags)
                         .ToArray()
                     : Array.Empty<string>();
+                var ramTags = ramId.HasValue
+                    ? productManager.GetProducts()
+                        .Where(x => x.Id == ramId)
+                        .SelectMany(y => y.Tags)
+                        .ToArray()
+                    : Array.Empty<string>();
+                var caseTags = caseId.HasValue
+                   ? productManager.GetProducts()
+                       .Where(x => x.Id == caseId)
+                       .SelectMany(y => y.Tags)
+                       .ToArray()
+                   : Array.Empty<string>();
 
-                var combinedTags = motherboardTags.Concat(cpuTags).Distinct().ToArray();
+                var combinedTags = motherboardTags.Concat(cpuTags).Concat(ramTags).Concat(caseTags).Distinct().ToArray();
 
                 productQuery = productQuery.Where(p =>
                     p.Tags.Any(tag => combinedTags.Contains(tag) && relevantSocketTags.Contains(tag)) ||
@@ -98,26 +110,6 @@ namespace Webshop.Services.Services.Compatibility
                     p.Tags.Any(tag => combinedTags.Contains(tag) && relevantCaseTags.Contains(tag)) ||
                     p.Tags.Any(tag => tag.Contains("videókártya")) ||
                     p.Tags.Any(tag => tag.Contains("tápegység")));
-            }
-            if (ramId.HasValue)
-            {
-                var ramTags = productManager.GetProducts()
-                   .Where(x => x.Id == ramId)
-                   .SelectMany(y => y.Tags)
-                   .ToArray();
-
-
-                productQuery = productQuery.Where(p => p.Tags.Any(y => ramTags.Contains(y) && relevantRamTags.Contains(y)) || p.Tags.Any(tag => tag.Contains("videókártya")) || p.Tags.Any(tag => tag.Contains("tápegység")));
-            }
-            if (caseId.HasValue)
-            {
-                var caseTags = productManager.GetProducts()
-                   .Where(x => x.Id == caseId)
-                   .SelectMany(y => y.Tags)
-                   .ToArray();
-
-
-                productQuery = productQuery.Where(p => p.Tags.Any(y => caseTags.Contains(y) && relevantCaseTags.Contains(y)) || p.Tags.Any(tag => tag.Contains("videókártya")) || p.Tags.Any(tag => tag.Contains("tápegység")));
             }
 
             return productQuery;
