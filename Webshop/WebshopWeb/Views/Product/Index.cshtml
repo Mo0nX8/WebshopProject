@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="~/css/products.css" />
 
 </head>
+<div id="cart-popup" class="popup">
+    <div class="popup-content">
+        <span id="popup-close" class="popup-close">&times;</span>
+        <p id="popup-message"></p>
+    </div>
+</div>
 <div class="mb-3">
     <label for="sortOrder">Rendezés:</label>
     <select id="sortOrder" class="form-control" onchange="sortProducts()">
@@ -32,6 +38,7 @@
         window.location.href = url;
     }
 </script>
+
 <div class="container">
     <div class="row mb-4">
         <div class="col">
@@ -59,8 +66,8 @@
             @foreach (var product in Model.Products)
             {
                 <div class="col mb-4">
-                    <a href="@Url.Action("Details", "Product" , new {name = Uri.EscapeDataString(product.ProductName.Replace(" ", "-")), id=product.Id })" class="text-decoration-none">
-                        <div class="card">
+                    <div class="card">
+                        <a href="@Url.Action("Details", "Product", new {name = Uri.EscapeDataString(product.ProductName.Replace(" ", "-")), id=product.Id })" class="text-decoration-none">
                             <div class="card-body">
                                 @if (product.ImageData != null && product.ImageData.Length > 0)
                                 {
@@ -68,24 +75,29 @@
                                     <img src="data:image/jpeg;base64,@base64Image" class="card-img-top product-image" alt="@product.ProductName">
                                 }
                                 <h5 class="card-title">@product.ProductName</h5>
-                                @if(product.Price==0)
+                                @if (product.Price == 0)
                                 {
                                     <h5>Hamarosan</h5>
                                 }
-                                else if(product.Quanity<1)
+                                else if (product.Quanity < 1)
                                 {
                                     <h5>@product.Price.ToString("N0") ft (Elfogyott)</h5>
                                 }
                                 else
                                 {
                                     <h5>@product.Price.ToString("N0") Ft</h5>
-                                    <a href=@Url.Action("AddToCart","Product", new {id=product.Id}) class="add-to-cart">Kosárba rakom</a>
                                 }
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                       
+                        @if (product.Quanity > 0)
+                        {
+                            <button data-product-id="@product.Id" class="add-to-cart add-to-cart-btn">Kosárhoz adás</button>
+                        }
+                    </div>
                 </div>
             }
+
         }
         else
         {
@@ -125,7 +137,7 @@
 
     </div>
 </div>
-
+<script src="~/js/addtocart.js"></script>
 
 
 

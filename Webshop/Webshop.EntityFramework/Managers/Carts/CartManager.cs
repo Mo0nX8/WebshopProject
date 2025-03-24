@@ -47,5 +47,13 @@ namespace Webshop.EntityFramework.Managers.Carts
                 cartRepository.RemoveItemFromCart(cartId.Value, productId);
             }
         }
+
+        public void SaveCart(int cartId)
+        {
+            if(cartId!=null)
+            {
+                cartRepository.SaveCart(cartId);
+            }
+        }
     }
 }

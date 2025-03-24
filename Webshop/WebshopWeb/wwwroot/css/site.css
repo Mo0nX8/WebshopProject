@@ -151,20 +151,21 @@ body {
 .userbutton:hover{
     cursor:pointer;
 }
-/* Popup styles */
+
 .popup {
-    display: none; /* Hidden by default */
+    display: none;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.7); /* Background overlay */
-    width: 90%; /* Make the popup responsive on smaller screens */
-    max-width: 400px; /* Limit the width on larger screens */
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 90%;
+    max-width: 400px;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
     color: white;
+    z-index: 9999;
 }
 
 .popup-content {
@@ -182,7 +183,7 @@ body {
     color: white;
 }
 
-/* Add responsive button styles */
+
 button {
     padding: 10px 20px;
     background-color: #4CAF50;
@@ -196,20 +197,19 @@ button {
         background-color: #45a049;
     }
 
-/* Media Queries for Responsiveness */
 @media screen and (max-width: 600px) {
     .popup {
-        width: 90%; /* Ensure it fits well on smaller screens */
-        max-width: 300px; /* Reduce max-width for mobile */
+        width: 90%; 
+        max-width: 300px; 
         padding: 15px;
     }
 
     .popup-close {
-        font-size: 18px; /* Slightly smaller close button on mobile */
+        font-size: 18px; 
     }
 
     button {
-        width: 100%; /* Make the button full-width on smaller screens */
+        width: 100%; 
     }
 }
 
@@ -219,7 +219,7 @@ button {
     }
 
     .popup-close {
-        font-size: 16px; /* Adjust close button size for very small screens */
+        font-size: 16px; 
     }
 }
 

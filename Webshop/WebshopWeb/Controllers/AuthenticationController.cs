@@ -157,6 +157,7 @@ namespace WebshopWeb.Controllers
             var providerId = claims?.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
             var email = claims?.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value;
             var name = claims?.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value ?? "User";
+            name = name.Replace(" ", ".");
 
             if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(providerId))
             {
@@ -216,10 +217,10 @@ namespace WebshopWeb.Controllers
                 _context.Users.Update(user);
                 await _context.SaveChangesAsync();
             }
-
+            var userCart = user.Cart ?? new ShoppingCart { UserId = user.Id, CartItems = new List<CartItem>() };
             HttpContext.Session.SetInt32("UserId", user.Id);
             HttpContext.Session.SetString("IsAuthenticated", "True");
-            HttpContext.Session.SetInt32("CartId", user.Cart?.Id ?? 0);
+            HttpContext.Session.SetInt32("CartId", userCart.Id);
 
             return RedirectToAction("Index", "Home");
         }

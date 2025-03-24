@@ -14,5 +14,6 @@ namespace Webshop.EntityFramework.Managers.Carts
         void AddProductsToCart(int userId, List<int> productIds);
         List<Products> GetProducts(int cartId);
         void RemoveItemFromCart(int cartId, int productId);
+        void SaveCart(int cartId);
     }
 }

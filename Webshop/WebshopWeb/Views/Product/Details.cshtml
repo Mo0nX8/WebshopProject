@@ -56,35 +56,14 @@
         <div id="cart-popup" class="popup">
             <div class="popup-content">
                 <span id="popup-close" class="popup-close">&times;</span>
-                <p id="popup-message">Product has been added to the cart!</p>
+                <p id="popup-message"></p>
             </div>
         </div>
 
-        <button id="add-to-cart-btn">Add to Cart</button>
-        <script>
-            const cartPopup = document.getElementById('cart-popup');
-            const addToCartBtn = document.getElementById('add-to-cart-btn');
-            const closePopupBtn = document.getElementById('popup-close');
-
-            function showPopup() {
-              cartPopup.style.display = 'block';  
-              setTimeout(() => {
-                cartPopup.style.display = 'none';  
-            }
-
-            addToCartBtn.addEventListener('click', () => {
-
-              showPopup();
-            });
-
-            closePopupBtn.addEventListener('click', () => {
-              cartPopup.style.display = 'none';
-            });
-
-        </script>
+       
         @if (Model.Quanity > 0)
         {
-            <a href="@Url.Action("AddToCart","Product", new {ids = string.Join(",", Model.Id)})" class="add-to-cart"><button id="add-to-cart-btn">Kosárhoz adás</button></a>
+            <button data-product-id="@Model.Id" class="add-to-cart add-to-cart-btn">Kosárhoz adás</button>
         }
         else if (Model.Price == 0)
         {
@@ -175,3 +154,5 @@ else
     <br />
     <button type="submit" class="btn btn-primary">Értékelés beküldése</button>
 </form>
+<script src="~/js/addtocart.js"></script>
+

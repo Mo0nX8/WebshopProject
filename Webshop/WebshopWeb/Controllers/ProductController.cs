@@ -57,16 +57,18 @@ namespace WebshopWeb.Controllers
             var userId = HttpContext.Session.GetInt32("UserId");
             if (!userId.HasValue)
             {
-                return RedirectToAction("Login", "Authentication");
+                return Json(new { success = false, message = "Kérlek jelentkezz be!" });
             }
-            var cart = cartManager.GetCart(HttpContext.Session.GetInt32("CartId").Value);
-            foreach(var id in productIds)
+            var cartId = HttpContext.Session.GetInt32("CartId").Value;
+            var cart = cartManager.GetCart(cartId);
+            foreach (var id in productIds)
             {
                 var product = productManager.GetProduct(id);
                 if (product == null)
                 {
-                    return RedirectToAction("Index", "Home");
+                    return Json(new { success = false, message = "Nincs ilyen termék!" });
                 }
+
                 var existingItem = _context.CartItems.FirstOrDefault(x => x.ProductId == id);
                 if (existingItem != null)
                 {
@@ -82,9 +84,18 @@ namespace WebshopWeb.Controllers
                 }
                 _context.SaveChanges();
             }
-            
-            return RedirectToAction("Index", "Cart", cart.CartItems.ToList());
+            var msg = string.Empty;
+            if(productIds.Count > 1)
+            {
+                msg = "Termékek sikeresen hozzáadva a kosárhoz!";
+            }
+            else
+            {
+                msg = "Termék sikeresen hozzáadva a kosárhoz!";
+            }
+            return Json(new { success = true, message = msg });
         }
+
         public IActionResult Search(string searchValue, int pageNumber = 1, int pageSize = 30, int? minPrice=null, int? maxPrice=null, string? sortOrder = null)
         {
             IQueryable<Products> productsQuery = productManager.GetProducts();

@@ -92,5 +92,10 @@ namespace Webshop.EntityFramework.Managers.Carts
                 _context.SaveChanges();
             }
         }
+        public void SaveCart(int cartId)
+        {
+            _context.Carts.Update(_context.Carts.FirstOrDefault(c => c.Id == cartId));
+            _context.SaveChanges();
+        }
     }
 }

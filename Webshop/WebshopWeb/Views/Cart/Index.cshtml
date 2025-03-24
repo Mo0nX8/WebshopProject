@@ -34,19 +34,18 @@
                 }
                 <td><h2 class="display-6">@item.Product.ProductName</h2></td>
                 <td>@item.Product.Price Ft</td>
-                @*<form action="@Url.Action("UpdateQuantity", "Cart")" method="post">
-                            <input type="hidden" name="cartItemId" value="@item.Id" />
-                            <select name="quantity" class="form-control" onchange="this.form.submit()">
-                                @for (int i = 1; i <= item.Product.StockQuantity; i++)
-                                {
-                                    <option value="@i" @(i == item..Quanity ? "selected" : "")>@i</option>
-                                }
-                            </select>
-                        </form>*@
+                 <td>
+                    <select class="quantity-selector" data-product-id="@item.ProductId" name="quantity" id="quantity">
+                        @for (var i = 1; i <= item.Product.Quanity; i++)  
+                        {
+                            <option value="@i")>@i</option>
+                        }
+                    </select>
+                </td>
                 <td>
                     <form action="@Url.Action("RemoveFromCart", "Cart")" method="post">
                         <input type="hidden" name="productId" value="@item.ProductId" />
-                        <button type="submit" class="btn btn-danger">Remove</button>
+                        <button type="submit" class="btn btn-danger">Törlés a kosárból</button>
                     </form>
                 </td>
             </tr>
@@ -65,5 +64,6 @@ else
     <p>A kosár üres.</p>
 }
 
+<script src="js/cart.js"></script>
 
 

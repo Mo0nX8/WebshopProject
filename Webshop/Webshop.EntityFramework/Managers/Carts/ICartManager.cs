@@ -17,5 +17,6 @@ namespace Webshop.EntityFramework.Managers.Carts
         /// </summary>
         /// <param name="cart"></param>
         void AddCart(ShoppingCart cart);
+        void SaveCart(int cartId);
     }
 }
