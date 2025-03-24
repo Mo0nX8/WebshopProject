@@ -14,7 +14,6 @@
     <title>@ViewData["Title"] - DXMarket</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
@@ -132,40 +131,55 @@
                         });
                     });
                 </script>
-                <div id="weather-container">
-                    <input type="text" id="search-input" placeholder="Add meg a város nevét">
-                    <button id="search-btn">Keresés</button>
-                    <div id="weather-display"></div>
-                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div id="weather-container">
+                                <div class="search-bar">
+                                    <div class="input-group">
+                                        <input type="text" id="search-input" placeholder="Város neve" class="form-control">
+                                        <i class="bi bi-search btn btn-outline-secondary" id="search-btn"></i>
+                                    </div>
+                                </div>
+                                <div id="weather-display"></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
 
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <div class="dropdown ms-auto">
+                                    <a href=@Url.Action("Index","Cart")><i class="bi bi-cart" style="font-size: 40px;"></i></a>
+                                    <i class="bi bi-person userbutton" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 40px;"></i>
+                                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="dropdown ms-auto">
-                        <a href=@Url.Action("Index","Cart")><button class="btn btn-secondary" id="CartButton" style="background-color:red"><i class="bi bi-cart"></i></button></a>
-                        <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" style="background-color:red"><i class="bi bi-person"></i></button>
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                                        @if (authenticated == "True")
+                                        {
+                                            <li><a href=@Url.Action("PersonalData", "Home", new {userId=userId}) class="navbar-brand"><button class="dropdown-item" type="button">Személyes adatok</button></a></li>
+                                            <li><a href=@Url.Action("MyOrders", "Home", new {userId=userId}) class="navbar-brand"><button class="dropdown-item" type="button">Rendeléseim</button></a></li>
+                                            <li><a href=@Url.Action("Logout", "Authentication") class="navbar-brand"><button class="dropdown-item" type="button">Kijelentkezés</button></a></li>
+                                        }
+                                        else
+                                        {
+                                            <li><a asp-area="" asp-controller="Authentication" asp-action="Login" class="navbar-brand"><button class="dropdown-item" type="button">Bejelentkezés</button></a></li>
+                                            <li><a asp-area="" asp-controller="Authentication" asp-action="Register" class="navbar-brand"><button class="dropdown-item" type="button">Regisztráció</button></a></li>
+                                        }
 
-                            @if (authenticated == "True")
-                            {
-                                <li><a href=@Url.Action("PersonalData", "Home", new {userId=userId}) class="navbar-brand"><button class="dropdown-item" type="button">Személyes adatok</button></a></li>
-                                <li><a href=@Url.Action("MyOrders", "Home", new {userId=userId}) class="navbar-brand"><button class="dropdown-item" type="button">Rendeléseim</button></a></li>
-                                <li><a href=@Url.Action("Logout", "Authentication") class="navbar-brand"><button class="dropdown-item" type="button">Kijelentkezés</button></a></li>
-                            }
-                            else
-                            {
-                                <li><a asp-area="" asp-controller="Authentication" asp-action="Login" class="navbar-brand"><button class="dropdown-item" type="button">Bejelentkezés</button></a></li>
-                                <li><a asp-area="" asp-controller="Authentication" asp-action="Register" class="navbar-brand"><button class="dropdown-item" type="button">Regisztráció</button></a></li>
-                            }
-
-                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
+               
+
+               
 
             </div>
         </nav>
@@ -184,14 +198,14 @@
     </div>
 
 
-   <div class="custom-footer">
-       <div class="footer-content">
-           <p>&copy; 2025 DXMarket | All rights reserved</p>
+    <div class="custom-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 DXMarket | All rights reserved</p>
             <nav>
                 <a href=@Url.Action("aszf","Home")>ÁSZF</a> | <a href="https://www.arukereso.hu/" target="_blank">Árukereső</a> | <a href="https://ipon.hu/" target="_blank">Ipon</a>| <a href="https://www.emag.hu/" target="_blank">eMAG</a>
             </nav>
-       </div>
-   </div>
+        </div>
+    </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

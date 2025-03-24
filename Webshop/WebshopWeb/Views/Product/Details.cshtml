@@ -56,7 +56,7 @@
 
         @if (Model.Quanity > 0)
         {
-            <a href="@Url.Action("AddToCart", "Product", new { Id = Model.Id })" class="add-to-cart">Kosárhoz adás</a>
+            <a href="@Url.Action("AddToCart","Product", new {ids = string.Join(",", Model.Id)})" class="add-to-cart">Kosárhoz adás</a>
         }
         else if (Model.Price == 0)
         {

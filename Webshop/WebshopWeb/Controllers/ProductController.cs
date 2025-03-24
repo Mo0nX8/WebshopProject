@@ -26,10 +26,6 @@ namespace WebshopWeb.Controllers
             this.productServices = productServices;
             this.reviewManager = reviewManager;
         }
-        public IActionResult Builder()
-        {
-            return View("~/Views/PCBuilder/Index.cshtml");
-        }
         public IActionResult Index(int pageNumber = 1, int pageSize = 30)
         {
             var totalItems = productManager.CountProducts();
@@ -55,33 +51,38 @@ namespace WebshopWeb.Controllers
             }
             return View(product);
         }
-        public IActionResult AddToCart(int Id)
+        public IActionResult AddToCart(string ids)
         {
+            var productIds = ids.Split(',').Select(int.Parse).ToList();
             var userId = HttpContext.Session.GetInt32("UserId");
             if (!userId.HasValue)
             {
                 return RedirectToAction("Login", "Authentication");
             }
             var cart = cartManager.GetCart(HttpContext.Session.GetInt32("CartId").Value);
-            var product = productManager.GetProduct(Id);
-            if (product == null)
+            foreach(var id in productIds)
             {
-                return RedirectToAction("Index", "Home");
-            }
-            var existingItem = _context.CartItems.FirstOrDefault(x => x.ProductId == Id);
-            if (existingItem != null)
-            {
-                existingItem.Quanity++;
-            }
-            else
-            {
-                cart.CartItems.Add(new CartItem
+                var product = productManager.GetProduct(id);
+                if (product == null)
                 {
-                    ProductId = Id,
-                    Quanity = 1
-                });
+                    return RedirectToAction("Index", "Home");
+                }
+                var existingItem = _context.CartItems.FirstOrDefault(x => x.ProductId == id);
+                if (existingItem != null)
+                {
+                    existingItem.Quanity++;
+                }
+                else
+                {
+                    cart.CartItems.Add(new CartItem
+                    {
+                        ProductId = id,
+                        Quanity = 1
+                    });
+                }
+                _context.SaveChanges();
             }
-            _context.SaveChanges();
+            
             return RedirectToAction("Index", "Cart", cart.CartItems.ToList());
         }
         public IActionResult Search(string searchValue, int pageNumber = 1, int pageSize = 30, int? minPrice=null, int? maxPrice=null, string? sortOrder = null)
