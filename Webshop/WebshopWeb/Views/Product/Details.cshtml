@@ -53,10 +53,38 @@
         </p>
 
         <p class="product-price">@Model.Price.ToString("N0") Ft</p>
+        <div id="cart-popup" class="popup">
+            <div class="popup-content">
+                <span id="popup-close" class="popup-close">&times;</span>
+                <p id="popup-message">Product has been added to the cart!</p>
+            </div>
+        </div>
 
+        <button id="add-to-cart-btn">Add to Cart</button>
+        <script>
+            const cartPopup = document.getElementById('cart-popup');
+            const addToCartBtn = document.getElementById('add-to-cart-btn');
+            const closePopupBtn = document.getElementById('popup-close');
+
+            function showPopup() {
+              cartPopup.style.display = 'block';  
+              setTimeout(() => {
+                cartPopup.style.display = 'none';  
+            }
+
+            addToCartBtn.addEventListener('click', () => {
+
+              showPopup();
+            });
+
+            closePopupBtn.addEventListener('click', () => {
+              cartPopup.style.display = 'none';
+            });
+
+        </script>
         @if (Model.Quanity > 0)
         {
-            <a href="@Url.Action("AddToCart","Product", new {ids = string.Join(",", Model.Id)})" class="add-to-cart">Kosárhoz adás</a>
+            <a href="@Url.Action("AddToCart","Product", new {ids = string.Join(",", Model.Id)})" class="add-to-cart"><button id="add-to-cart-btn">Kosárhoz adás</button></a>
         }
         else if (Model.Price == 0)
         {
@@ -80,7 +108,19 @@
                 </div>
 
                 <div class="col-md-6 col-12 col-lg-2">
-                    <p>@line[1]</p>
+                    @if (line[1].ToLower().Contains("van"))
+                    {
+                        <p><img src="~/images/icons/check-mark.png" style="width:20px;height:20px;" /></p>
+                    }
+                    else if(line[1].ToLower().Contains("nincs"))
+                    {
+                        <p><img src="~/images/icons/close.png" style="width:20px;height:20px;" /></p>
+                    }
+                    else
+                    {
+                        <p>@line[1]</p>
+                    }
+                    
                 </div>
             </div>
         </div>

@@ -23,6 +23,14 @@
     </div>
     <div class="row justify-content-center">
         <div class="col-auto">
+            <label for="cpucoolerSelect">Processzor hűtő:</label>
+            <select id="cpucoolerSelect">
+                <option value="">Válassz</option>
+            </select>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-auto">
             <label for="motherboardSelect">Alaplap:</label>
             <select id="motherboardSelect">
                 <option value="">Válassz</option>
@@ -61,39 +69,20 @@
             </select>
         </div>
     </div>
+    <div class="row justify-content-center">
+        <div class="col-auto">
+            <label for="ssdSelect">SSD:</label>
+            <select id="ssdSelect">
+                <option value="">Válassz</option>
+            </select>
+        </div>
     </div>
 </form>
-<div id="totalCost">Total Cost: <span id="costValue">0</span> Ft</div>
+<div id="totalCost"><span id="costValue">0</span> Ft</div>
 
 <a href="#" id="addToCart" class="add-to-cart">Kosárba teszem</a>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const addToCartLink = document.querySelector("a#addToCart");
-
-        // Event listener for when selections change
-        const form = document.getElementById('pcBuilderForm');
-        form.addEventListener('change', function () {
-            const cpuId = document.getElementById('cpuSelect').value;
-            const motherboardId = document.getElementById('motherboardSelect').value;
-            const ramId = document.getElementById('ramSelect').value;
-            const caseId = document.getElementById('caseSelect').value;
-            const gpuId = document.getElementById('gpuSelect').value;
-            const psuId = document.getElementById('psuSelect').value;
-
-            // Create a query string with selected components
-            const selectedIds = [cpuId, motherboardId, ramId, caseId, gpuId, psuId]
-                .filter(id => id !== "") // Exclude empty selections
-                .join(",");
-
-            // Update the href of the 'Kosárba teszem' link dynamically
-            if (selectedIds) {
-                const url = '@Url.Action("AddToCart", "Product")' + `?ids=${selectedIds}`;
-                addToCartLink.setAttribute('href', url);
-            } else {
-                addToCartLink.setAttribute('href', '#'); // Disable the link if no selection
-            }
-        });
-    });
+    const addToCartBaseUrl = '@Url.Action("AddToCart", "Product")';
 </script>
 <script src="~/js/pcbuilder.js"></script>

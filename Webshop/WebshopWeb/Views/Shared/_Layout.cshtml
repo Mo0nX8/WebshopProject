@@ -25,7 +25,7 @@
             <img src="~/images/default/site_banner.jpg" class="img-fluid responsive-banner" />
         </div>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
+            <div class="container-fluid d-flex align-items-center justify-content-between">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">DXMarket</a>
                 <a class="navbar-brand" asp-area="" asp-controller="PCBuilderView" asp-action="Index">Gépösszerakó</a>
                 <div class="dropdown">
@@ -101,7 +101,7 @@
                 </div>
 
                 <div class="container">
-                    <div class="search-bar">
+                    <div class="search-bar ">
                         <div class="input-group">
                             <input type="text" id="search" placeholder="Keresés" alt="Keresés" name="searchValue" class="form-control" oninput="searchSuggestion()">
                             <a href="#" onclick="searchProduct()" class="btn btn-outline-secondary"><i class="bi bi-search"></i></a>
@@ -154,8 +154,8 @@
 
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <div class="dropdown ms-auto">
-                                    <a href=@Url.Action("Index","Cart")><i class="bi bi-cart" style="font-size: 40px;"></i></a>
-                                    <i class="bi bi-person userbutton" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 40px;"></i>
+                                    <a href=@Url.Action("Index","Cart") ><i class="bi bi-cart navlinks" style="font-size: 40px;"></i></a>
+                                    <i class="bi bi-person userbutton navlinks" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 40px;"></i>
                                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
 
                                         @if (authenticated == "True")

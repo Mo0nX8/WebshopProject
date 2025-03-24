@@ -17,7 +17,9 @@ html {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-
+.navlinks{
+    color:gray;
+}
 
 body {
   padding-bottom:0;
@@ -149,6 +151,78 @@ body {
 .userbutton:hover{
     cursor:pointer;
 }
+/* Popup styles */
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Background overlay */
+    width: 90%; /* Make the popup responsive on smaller screens */
+    max-width: 400px; /* Limit the width on larger screens */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.popup-content {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Add responsive button styles */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 600px) {
+    .popup {
+        width: 90%; /* Ensure it fits well on smaller screens */
+        max-width: 300px; /* Reduce max-width for mobile */
+        padding: 15px;
+    }
+
+    .popup-close {
+        font-size: 18px; /* Slightly smaller close button on mobile */
+    }
+
+    button {
+        width: 100%; /* Make the button full-width on smaller screens */
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .popup-content {
+        padding: 15px;
+    }
+
+    .popup-close {
+        font-size: 16px; /* Adjust close button size for very small screens */
+    }
+}
+
 
 
 

@@ -25,7 +25,7 @@ namespace Webshop.Services.Services.Compatibility
         public IQueryable<PcBuilderViewModel> GetAllProducts()
         {
             var products = productManager.GetProducts()
-                .Where(x => x.Tags.Any(y => y.Contains("cpu") || x.Tags.Any(y => y.Contains("alaplap") || x.Tags.Any(y => y.Contains("memória") || x.Tags.Any(y => y.Contains("gépház"))) || x.Tags.Any(tag => tag.Contains("videókártya")) || x.Tags.Any(tag => tag.Contains("tápegység")))))
+                .Where(x => x.Tags.Any(y => y.Contains("cpu") || x.Tags.Any(y => y.Contains("alaplap") || x.Tags.Any(y => y.Contains("memória") || x.Tags.Any(y => y.Contains("gépház"))) || x.Tags.Any(tag => tag.Contains("videókártya")) || x.Tags.Any(tag => tag.Contains("tápegység")) || x.Tags.Any(tag => tag.Contains("Processzor_hűtő")) || x.Tags.Any(tag => tag.Contains("SSD")))))
                 .Select(p => new PcBuilderViewModel
                 {
                     Id = p.Id,
@@ -63,6 +63,14 @@ namespace Webshop.Services.Services.Compatibility
             if (product.Tags.Any(t => t.Contains("tápegység")))
             {
                 return "Tápegység";
+            }
+            if (product.Tags.Any(t => t.Contains("Processzor_hűtő")))
+            {
+                return "ProcesszorHűtő";
+            }
+            if (product.Tags.Any(t=>t.Contains("SSD")))
+            {
+                return "SSD";
             }
             return "Other";
         }
@@ -109,6 +117,8 @@ namespace Webshop.Services.Services.Compatibility
                     p.Tags.Any(tag => combinedTags.Contains(tag) && relevantRamTags.Contains(tag)) ||
                     p.Tags.Any(tag => combinedTags.Contains(tag) && relevantCaseTags.Contains(tag)) ||
                     p.Tags.Any(tag => tag.Contains("videókártya")) ||
+                    p.Tags.Any(tag => tag.Contains("SSD")) ||
+                    p.Tags.Any(tag => tag.Contains("Processzor_hűtő")) ||
                     p.Tags.Any(tag => tag.Contains("tápegység")));
             }
 

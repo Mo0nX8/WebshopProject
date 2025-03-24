@@ -7,6 +7,32 @@
     document.getElementById('caseSelect').addEventListener('change', filter);
     document.getElementById('gpuSelect').addEventListener('change', filter);
     document.getElementById('psuSelect').addEventListener('change', filter);
+    document.getElementById('cpucoolerSelect').addEventListener('change', filter);
+    document.getElementById('ssdSelect').addEventListener('change', filter);
+
+    const addToCartLink = document.querySelector("a#addToCart");
+
+    const form = document.getElementById('pcBuilderForm');
+    form.addEventListener('change', function () {
+        const cpuId = document.getElementById('cpuSelect').value;
+        const motherboardId = document.getElementById('motherboardSelect').value;
+        const ramId = document.getElementById('ramSelect').value;
+        const caseId = document.getElementById('caseSelect').value;
+        const gpuId = document.getElementById('gpuSelect').value;
+        const psuId = document.getElementById('psuSelect').value;
+        const cpucoolerId = document.getElementById('cpucoolerSelect').value;
+        const ssdId = document.getElementById('ssdSelect').value;
+
+        const selectedIds = [cpuId, motherboardId, ramId, caseId, gpuId, psuId,ssdId,cpucoolerId]
+            .filter(id => id !== "")
+            .join(",");
+
+        if (selectedIds) {
+            addToCartLink.setAttribute('href', `${addToCartBaseUrl}?ids=${selectedIds}`);
+        } else {
+            addToCartLink.setAttribute('href', '#');
+        }
+    });
 });
 
 function filter() {
@@ -15,8 +41,6 @@ function filter() {
     const motherboardId = document.getElementById('motherboardSelect').value;
     const ramId = document.getElementById('ramSelect').value;
     const caseId = document.getElementById('caseSelect').value;
-    const gpuId = document.getElementById('gpuSelect').value;
-    const psuId = document.getElementById('psuSelect').value;
 
     let url = "/api/PCBuilder/filterproducts?";
     if (cpuId) url += `cpuId=${encodeURIComponent(cpuId)}&`;
@@ -42,6 +66,8 @@ function filter() {
             populateSelect("caseSelect", data.filter(p => p.category === "Gépház"));
             populateSelect("gpuSelect", data.filter(p => p.category === "Videókártya"));
             populateSelect("psuSelect", data.filter(p => p.category === "Tápegység"));
+            populateSelect("cpucoolerSelect", data.filter(p => p.category === "ProcesszorHűtő"));
+            populateSelect("ssdSelect", data.filter(p => p.category === "SSD"));
             calculateTotalPrice(data);
             
         })
@@ -88,6 +114,8 @@ function calculateTotalPrice(data) {
         document.getElementById('caseSelect').value,
         document.getElementById('gpuSelect').value,
         document.getElementById('psuSelect').value,
+        document.getElementById('cpucoolerSelect').value,
+        document.getElementById('ssdSelect').value,
     ];
 
     let totalPrice = 0;
@@ -101,7 +129,7 @@ function calculateTotalPrice(data) {
         }
     });
 
-    document.getElementById('totalCost').textContent = totalPrice.toFixed(0)+" Ft";
+    document.getElementById('totalCost').textContent = totalPrice.toLocaleString('hu-HU', { minimumFractionDigits: 0, maximumFractionDigits: 0 }) +" Ft";
 }
 
 function showLoader() {
