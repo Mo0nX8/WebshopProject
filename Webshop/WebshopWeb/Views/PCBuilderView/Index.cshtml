@@ -3,52 +3,70 @@
     <link rel="stylesheet" href="~/css/pcbuilder.css" />
 
 </head>
+<div id="overlay" style="display:none;">
+    <div class="spinner-border" role="status" id="globalSpinner"></div>
+</div>
+<div class="row justify-content-center">
+    <div class="col-auto">
+        <h1>Számítógép összerakó</h1>
+    </div>
+</div>
 
-<h1>Számítógép összerakó</h1>
 <form id="pcBuilderForm">
-    <div>
-        <label for="cpuSelect">Processzor:</label>
-        <select id="cpuSelect">
-            <option value="">Válassz</option>
-        </select>
+    <div class="row justify-content-center">
+        <div class="col-auto">
+            <label for="cpuSelect">Processzor:</label>
+            <select id="cpuSelect">
+                <option value="">Válassz</option>
+            </select>
+        </div>
     </div>
-    <div>
-        <label for="motherboardSelect">Alaplap:</label>
-        <select id="motherboardSelect">
-            <option value="">Válassz</option>
-        </select>
+    <div class="row justify-content-center">
+        <div class="col-auto">
+            <label for="motherboardSelect">Alaplap:</label>
+            <select id="motherboardSelect">
+                <option value="">Válassz</option>
+            </select>
+        </div>
     </div>
-    <div>
-        <label for="ramSelect">Memória:</label>
-        <select id="ramSelect">
-            <option value="">Válassz</option>
-        </select>
+    <div class="row justify-content-center">
+        <div class="col-auto">
+            <label for="ramSelect">Memória:</label>
+            <select id="ramSelect">
+                <option value="">Válassz</option>
+            </select>
+        </div>
     </div>
-    <div>
-        <label for="caseSelect">Gépház:</label>
-        <select id="caseSelect">
-            <option value="">Válassz</option>
-        </select>
+    <div class="row justify-content-center">
+        <div class="col-auto">
+            <label for="caseSelect">Gépház:</label>
+            <select id="caseSelect">
+                <option value="">Válassz</option>
+            </select>
+        </div>
     </div>
-    <div>
-        <label for="gpuSelect">Videókártya:</label>
-        <select id="gpuSelect">
-            <option value="">Válassz</option>
-        </select>
+    <div class="row justify-content-center">
+        <div class="col-auto">
+            <label for="gpuSelect">Videókártya:</label>
+            <select id="gpuSelect">
+                <option value="">Válassz</option>
+            </select>
+        </div>
     </div>
-    <div>
-        <label for="psuSelect">Tápegység:</label>
-        <select id="psuSelect">
-            <option value="">Válassz</option>
-        </select>
+    <div class="row justify-content-center">
+        <div class="col-auto">
+            <label for="psuSelect">Tápegység:</label>
+            <select id="psuSelect">
+                <option value="">Válassz</option>
+            </select>
+        </div>
+    </div>
     </div>
 </form>
 <div id="totalCost">Total Cost: <span id="costValue">0</span> Ft</div>
 
-<a href="#" id="addToCart">Kosárba teszem</a>
-<div id="overlay" style="display:none;">
-    <div class="spinner-border" role="status" id="globalSpinner"></div>
-</div>
+<a href="#" id="addToCart" class="add-to-cart">Kosárba teszem</a>
+
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         const addToCartLink = document.querySelector("a#addToCart");

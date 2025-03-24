@@ -1,6 +1,5 @@
 ﻿body {
     font-family: Arial, sans-serif;
-    margin: 20px;
 }
 
 select {
@@ -41,4 +40,18 @@ label {
 body.loading * {
     pointer-events: none;
 }
+.add-to-cart {
+    display: inline-block;
+    background-color: #337ef5;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+    .add-to-cart:hover {
+        color: white;
+        background-color: #1e72f7;
+    }
 
