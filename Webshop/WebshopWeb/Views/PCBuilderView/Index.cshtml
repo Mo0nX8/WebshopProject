@@ -78,9 +78,16 @@
         </div>
     </div>
 </form>
-<div id="totalCost"><span id="costValue">0</span> Ft</div>
-
-<a href="#" id="addToCart" class="add-to-cart">Kosárba teszem</a>
+<div class="row justify-content-center">
+    <div class="col-auto">
+        <div id="totalCost"><span id="costValue">0</span> Ft</div>
+    </div>
+</div>
+<div class="row justify-content-center">
+    <div class="col-auto">
+        <a href="#" id="addToCart" class="add-to-cart">Kosárba teszem</a>
+    </div>
+</div>
 
 <script>
     const addToCartBaseUrl = '@Url.Action("AddToCart", "Product")';
