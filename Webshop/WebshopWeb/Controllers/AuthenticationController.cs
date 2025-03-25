@@ -118,7 +118,7 @@ namespace WebshopWeb.Controllers
         public IActionResult Logout()
         {
             authenticationManager.LogOut();
-            HttpContext.Session.SetString("IsAuthenticated", "False");
+            HttpContext.Session.Clear();
             return RedirectToAction("Index", "Home");
         }
         [HttpGet("auth/google-login")]
@@ -167,7 +167,8 @@ namespace WebshopWeb.Controllers
 
             Console.WriteLine($"{provider} Authenticated Email: " + email);
 
-            var user = _context.Users.FirstOrDefault(u => u.EmailAddress == email);
+            var user = _context.Users.Include(u=>u.Cart)
+                .FirstOrDefault(u => u.EmailAddress == email);
 
             if (user == null)
             {
@@ -175,7 +176,8 @@ namespace WebshopWeb.Controllers
                 {
                     Username = name,
                     EmailAddress = email,
-                    Password = null
+                    Password = null,
+                    Cart=null
                 };
 
                 if (provider == "Google")
@@ -191,8 +193,7 @@ namespace WebshopWeb.Controllers
                     user.GitHubId = claims?.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
                 }
 
-                _context.Users.Add(user);
-                await _context.SaveChangesAsync();
+                userManager.AddUser(user);
 
                 ShoppingCart cart = new ShoppingCart
                 {
@@ -202,8 +203,8 @@ namespace WebshopWeb.Controllers
 
                 user.Cart = cart;
 
-                _context.Carts.Add(cart);
-                await _context.SaveChangesAsync();
+                cartManager.AddCart(cart);
+                userManager.UpdateUser(user);
             }
             else
             {
@@ -214,16 +215,16 @@ namespace WebshopWeb.Controllers
                 else if (provider == "GitHub" && string.IsNullOrEmpty(user.GitHubId))
                     user.GitHubId = providerId;
 
-                _context.Users.Update(user);
-                await _context.SaveChangesAsync();
+                userManager.UpdateUser(user);
             }
             var userCart = user.Cart ?? new ShoppingCart { UserId = user.Id, CartItems = new List<CartItem>() };
             HttpContext.Session.SetInt32("UserId", user.Id);
-            HttpContext.Session.SetString("IsAuthenticated", "True");
             HttpContext.Session.SetInt32("CartId", userCart.Id);
+            HttpContext.Session.SetString("IsAuthenticated", "True");
 
             return RedirectToAction("Index", "Home");
         }
+
 
 
 

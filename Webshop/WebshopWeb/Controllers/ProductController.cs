@@ -61,6 +61,11 @@ namespace WebshopWeb.Controllers
             }
             var cartId = HttpContext.Session.GetInt32("CartId").Value;
             var cart = cartManager.GetCart(cartId);
+            if (cart == null)
+            {
+                return Json(new { success = false, message = "Kosár nem található!" });
+            }
+
             foreach (var id in productIds)
             {
                 var product = productManager.GetProduct(id);
