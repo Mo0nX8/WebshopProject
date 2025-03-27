@@ -16,20 +16,23 @@
         <p id="popup-message"></p>
     </div>
 </div>
-<div class="mb-3">
-    <label for="sortOrder">Rendezés:</label>
-    <select id="sortOrder" class="form-control" onchange="sortProducts()">
-        <option value="">Válassz...</option>
-        <option value="name_asc">Név szerint (A-Z)</option>
-        <option value="name_desc">Név szerint (Z-A)</option>
-        <option value="price_asc">Ár szerint növekvő</option>
-        <option value="price_desc">Ár szerint csökkenő</option>
-    </select>
+<div class="dropdown">
+    <label>Rendezés:</label>
+    <button class="btn btn-light dropdown-toggle large" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="bi bi-sort-up"></i>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="sortDropdown">
+        <li><a class="dropdown-item" href="#" onclick="sortProducts('')">Válassz...</a></li>
+        <li><a class="dropdown-item" href="#" onclick="sortProducts('name_asc')">Név szerint (A-Z)</a></li>
+        <li><a class="dropdown-item" href="#" onclick="sortProducts('name_desc')">Név szerint (Z-A)</a></li>
+        <li><a class="dropdown-item" href="#" onclick="sortProducts('price_asc')">Ár szerint növekvő</a></li>
+        <li><a class="dropdown-item" href="#" onclick="sortProducts('price_desc')">Ár szerint csökkenő</a></li>
+    </ul>
 </div>
+
 <input type="hidden" id="searchValue" value="@searchValue" />
 <script>
-    function sortProducts() {
-        var sortOrder = document.getElementById("sortOrder").value;
+    function sortProducts(sortOrder) {
         var searchValue = document.getElementById("searchValue") ? document.getElementById("searchValue").value : '';
         var minPrice = document.getElementById("minPrice") ? document.getElementById("minPrice").value : '';
         var maxPrice = document.getElementById("maxPrice") ? document.getElementById("maxPrice").value : '';
@@ -39,26 +42,37 @@
     }
 </script>
 
+
 <div class="container">
-    <div class="row mb-4">
-        <div class="col">
-            <form method="get" asp-action="Search" id="filterForm">
+    <div class="row mb-4 justify-content-center">
+        <div class="col-lg-8">
+            <form method="get" asp-action="Search" id="filterForm" class="p-4 border rounded shadow-sm bg-light">
                 <input type="hidden" name="searchValue" value="@ViewBag.searchValue" />
                 <input type="hidden" name="sortOrder" id="sortOrderHidden" value="@Model.SortOrder" />
-                <div class="row">
-                    <div class="col-md-6">
-                        <input type="number" class="form-control" name="minPrice" placeholder="Min Price"  />
+
+                <div class="row g-3 align-items-center">
+                    <div class="col-md-4">
+                        <label for="minPrice" class="form-label fw-semibold">Minimum ár</label>
+                        <input type="number" class="form-control" id="minPrice" name="minPrice" placeholder="Min ár" />
                     </div>
-                    <div class="col-md-3">
-                        <input type="number" class="form-control" name="maxPrice" placeholder="Max Price"  />
+
+                    <div class="col-md-4">
+                        <label for="maxPrice" class="form-label fw-semibold">Maximum ár</label>
+                        <input type="number" class="form-control" id="maxPrice" name="maxPrice" placeholder="Max ár" />
                     </div>
-                    <div class="col-md-3">
-                        <button type="submit" class="btn btn-primary">Szűrés</button>
+
+                    <!-- Submit Button -->
+                    <div class="col-md-4 d-grid">
+                        <button type="submit" class="btn btn-primary mt-4">
+                            <i class="bi bi-filter"></i> Szűrés
+                        </button>
                     </div>
                 </div>
             </form>
         </div>
     </div>
+</div>
+
 
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
         @if(Model is not null)
@@ -77,15 +91,15 @@
                                 <h5 class="card-title">@product.ProductName</h5>
                                 @if (product.Price == 0)
                                 {
-                                    <h5>Hamarosan</h5>
+                                    <h5 class="color-red">Hamarosan</h5>
                                 }
                                 else if (product.Quanity < 1)
                                 {
-                                    <h5>@product.Price.ToString("N0") ft (Elfogyott)</h5>
+                                    <h5 class="color-red">@product.Price.ToString("N0") ft (Elfogyott)</h5>
                                 }
                                 else
                                 {
-                                    <h5>@product.Price.ToString("N0") Ft</h5>
+                                    <h5 class="color-red">@product.Price.ToString("N0") Ft</h5>
                                 }
                             </div>
                         </a>

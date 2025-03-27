@@ -7,8 +7,8 @@
 
 .product-image {
     width: 100%;
-    max-width: 500px; /* Nagyobb kép */
-    aspect-ratio: 16 / 9; /* Jobb arány, hogy ne legyen levágva */
+    max-width: 600px; 
+    aspect-ratio: 16 / 9; 
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -19,8 +19,7 @@
     .product-image img {
         width: 100%;
         height: 100%;
-        object-fit: contain; /* A teljes kép látszik */
-        border-radius: 8px;
+        object-fit: contain;
     }
 
 .product-info {

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="~/css/ProductDetails.css">
 </head>
 
-<h1 class="product-title">@Model.ProductName</h1>
+
 
 <div class="product-container">
 
@@ -24,13 +24,13 @@
 
 
     <div class="product-info">
-
+        <h1 class="product-title">@Model.ProductName</h1>
         <p class="product-rating">
             <strong style="color:black">Átlagos értékelés:</strong>
             @if (Model.Reviews != null && Model.Reviews.Any())
             {
                 var avgRating = Model.Reviews.Average(r => r.Rating);
-                <span>@avgRating.ToString("0.0") csillag</span>
+                <span style="color:black">@avgRating.ToString("0.0") csillag</span>
 
                 <span style="color: gold;">
                     @for (int i = 1; i <= 5; i++)
@@ -52,7 +52,7 @@
             }
         </p>
 
-        <p class="product-price">@Model.Price.ToString("N0") Ft</p>
+        <p class="product-price color-red" >@Model.Price.ToString("N0") Ft</p>
         <div id="cart-popup" class="popup">
             <div class="popup-content">
                 <span id="popup-close" class="popup-close">&times;</span>
@@ -83,7 +83,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-6 col-12 col-lg-2">
-                    <p>@line[0]</p>
+                    <p><b>@line[0]</b></p>
                 </div>
 
                 <div class="col-md-6 col-12 col-lg-2">
