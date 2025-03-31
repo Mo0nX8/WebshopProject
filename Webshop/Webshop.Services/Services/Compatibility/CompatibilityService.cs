@@ -25,15 +25,14 @@ namespace Webshop.Services.Services.Compatibility
         public IQueryable<PcBuilderViewModel> GetAllProducts()
         {
             var products = productManager.GetProducts()
-               .Where(x => x.Tags.Any(tag =>
-                tag.Contains("cpu", StringComparison.OrdinalIgnoreCase) ||
-                tag.Contains("alaplap", StringComparison.OrdinalIgnoreCase) ||
-                tag.Contains("memória", StringComparison.OrdinalIgnoreCase) ||
-                tag.Contains("gépház", StringComparison.OrdinalIgnoreCase) ||
-                tag.Contains("videókártya", StringComparison.OrdinalIgnoreCase) ||
-                tag.Contains("tápegység", StringComparison.OrdinalIgnoreCase) ||
-                tag.Contains("Processzor_hűtő", StringComparison.OrdinalIgnoreCase) ||
-                tag.Contains("SSD", StringComparison.OrdinalIgnoreCase)))
+               .Where(x => x.Tags.Any(y => y.Contains("cpu") 
+               || x.Tags.Any(y => y.Contains("alaplap") 
+               || x.Tags.Any(y => y.Contains("memória") 
+               || x.Tags.Any(y => y.Contains("gépház"))) 
+               || x.Tags.Any(tag => tag.Contains("videókártya")) 
+               || x.Tags.Any(tag => tag.Contains("tápegység")) 
+               || x.Tags.Any(tag => tag.Contains("Processzor_hűtő")) 
+               || x.Tags.Any(tag => tag.Contains("SSD")))))
 
                 .Select(p => new PcBuilderViewModel
                 {
@@ -49,35 +48,35 @@ namespace Webshop.Services.Services.Compatibility
         }
         private static string AssignCategory(Products product)
         {
-            if (product.Tags.Any(t => t.Contains("cpu", StringComparison.OrdinalIgnoreCase)))
+            if (product.Tags.Any(t => t.Contains("CPU")))
             {
                 return "Processzor";
             }
-            if (product.Tags.Any(t => t.Contains("alaplap", StringComparison.OrdinalIgnoreCase)))
+            if (product.Tags.Any(t => t.Contains("alaplap")))
             {
                 return "Alaplap";
             }
-            if (product.Tags.Any(t => t.Contains("memória", StringComparison.OrdinalIgnoreCase)))
+            if (product.Tags.Any(t => t.Contains("memória")))
             {
                 return "Memória";
             }
-            if (product.Tags.Any(t => t.Contains("Gépház", StringComparison.OrdinalIgnoreCase)))
+            if (product.Tags.Any(t => t.Contains("Gépház")))
             {
                 return "Gépház";
             }
-            if (product.Tags.Any(t => t.Contains("videókártya", StringComparison.OrdinalIgnoreCase)))
+            if (product.Tags.Any(t => t.Contains("videókártya")))
             {
                 return "Videókártya";
             }
-            if (product.Tags.Any(t => t.Contains("tápegység", StringComparison.OrdinalIgnoreCase)))
+            if (product.Tags.Any(t => t.Contains("tápegység")))
             {
                 return "Tápegység";
             }
-            if (product.Tags.Any(t => t.Contains("Processzor_hűtő", StringComparison.OrdinalIgnoreCase)))
+            if (product.Tags.Any(t => t.Contains("Processzor_hűtő")))
             {
                 return "ProcesszorHűtő";
             }
-            if (product.Tags.Any(t => t.Contains("SSD", StringComparison.OrdinalIgnoreCase)))
+            if (product.Tags.Any(t => t.Contains("SSD")))
             {
                 return "SSD";
             }

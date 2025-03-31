@@ -86,7 +86,7 @@
                                 @if (product.ImageData != null && product.ImageData.Length > 0)
                                 {
                                     var base64Image = Convert.ToBase64String(product.ImageData);
-                                    <img src="data:image/jpeg;base64,@base64Image" class="card-img-top product-image" alt="@product.ProductName">
+                                <img src="data:image/jpeg;base64,@base64Image" class="card-img-top product-image" alt="@product.ProductName" loading="lazy">
                                 }
                                 <h5 class="card-title">@product.ProductName</h5>
                                 @if (product.Price == 0)
