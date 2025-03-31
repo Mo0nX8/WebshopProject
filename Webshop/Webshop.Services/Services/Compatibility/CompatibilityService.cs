@@ -25,7 +25,16 @@ namespace Webshop.Services.Services.Compatibility
         public IQueryable<PcBuilderViewModel> GetAllProducts()
         {
             var products = productManager.GetProducts()
-                .Where(x => x.Tags.Any(y => y.Contains("cpu") || x.Tags.Any(y => y.Contains("alaplap") || x.Tags.Any(y => y.Contains("memória") || x.Tags.Any(y => y.Contains("gépház"))) || x.Tags.Any(tag => tag.Contains("videókártya")) || x.Tags.Any(tag => tag.Contains("tápegység")) || x.Tags.Any(tag => tag.Contains("Processzor_hűtő")) || x.Tags.Any(tag => tag.Contains("SSD")))))
+               .Where(x => x.Tags.Any(tag =>
+                tag.Contains("cpu", StringComparison.OrdinalIgnoreCase) ||
+                tag.Contains("alaplap", StringComparison.OrdinalIgnoreCase) ||
+                tag.Contains("memória", StringComparison.OrdinalIgnoreCase) ||
+                tag.Contains("gépház", StringComparison.OrdinalIgnoreCase) ||
+                tag.Contains("videókártya", StringComparison.OrdinalIgnoreCase) ||
+                tag.Contains("tápegység", StringComparison.OrdinalIgnoreCase) ||
+                tag.Contains("Processzor_hűtő", StringComparison.OrdinalIgnoreCase) ||
+                tag.Contains("SSD", StringComparison.OrdinalIgnoreCase)))
+
                 .Select(p => new PcBuilderViewModel
                 {
                     Id = p.Id,
@@ -40,40 +49,41 @@ namespace Webshop.Services.Services.Compatibility
         }
         private static string AssignCategory(Products product)
         {
-            if (product.Tags.Any(t => t.Contains("CPU")))
+            if (product.Tags.Any(t => t.Contains("cpu", StringComparison.OrdinalIgnoreCase)))
             {
                 return "Processzor";
             }
-            if (product.Tags.Any(t => t.Contains("alaplap")))
+            if (product.Tags.Any(t => t.Contains("alaplap", StringComparison.OrdinalIgnoreCase)))
             {
                 return "Alaplap";
             }
-            if (product.Tags.Any(t => t.Contains("memória")))
+            if (product.Tags.Any(t => t.Contains("memória", StringComparison.OrdinalIgnoreCase)))
             {
                 return "Memória";
             }
-            if (product.Tags.Any(t => t.Contains("Gépház")))
+            if (product.Tags.Any(t => t.Contains("Gépház", StringComparison.OrdinalIgnoreCase)))
             {
                 return "Gépház";
             }
-            if (product.Tags.Any(t => t.Contains("videókártya")))
+            if (product.Tags.Any(t => t.Contains("videókártya", StringComparison.OrdinalIgnoreCase)))
             {
                 return "Videókártya";
             }
-            if (product.Tags.Any(t => t.Contains("tápegység")))
+            if (product.Tags.Any(t => t.Contains("tápegység", StringComparison.OrdinalIgnoreCase)))
             {
                 return "Tápegység";
             }
-            if (product.Tags.Any(t => t.Contains("Processzor_hűtő")))
+            if (product.Tags.Any(t => t.Contains("Processzor_hűtő", StringComparison.OrdinalIgnoreCase)))
             {
                 return "ProcesszorHűtő";
             }
-            if (product.Tags.Any(t=>t.Contains("SSD")))
+            if (product.Tags.Any(t => t.Contains("SSD", StringComparison.OrdinalIgnoreCase)))
             {
                 return "SSD";
             }
             return "Other";
         }
+
         public IQueryable<PcBuilderViewModel> FilterProducts(int? motherboardId, int? cpuId, int? ramId, int? caseId)
         {
             var products = GetAllProducts();
