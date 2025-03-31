@@ -60,6 +60,15 @@ namespace WebshopWeb.Controllers
             }
             return BadRequest("Nincs kosár.");  
         }
+        [HttpGet]
+        public JsonResult GetCartCount()
+        {
+            int? cartId = HttpContext.Session.GetInt32("CartId");
+            var cart = cartId!=null ? cartManager.GetCart(cartId.Value) : new ShoppingCart();
+            int itemCount = cart.CartItems.Count();
+            return Json(new { itemCount = itemCount });
+            
+        }
 
 
     }

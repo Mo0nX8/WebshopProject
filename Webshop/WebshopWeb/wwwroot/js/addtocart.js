@@ -27,6 +27,7 @@
                 success: function (response) {
                     if (response.success) {
                         showPopup(response.message);
+                        updateCartItemCount();
                     } else {
                         showPopup(response.message);
                     }

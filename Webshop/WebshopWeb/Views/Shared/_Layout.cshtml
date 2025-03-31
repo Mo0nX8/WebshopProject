@@ -154,7 +154,13 @@
 
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <div class="dropdown ms-auto">
-                                    <a href=@Url.Action("Index","Cart") ><i class="bi bi-cart navlinks" style="font-size: 40px;"></i></a>
+                                    <a href="@Url.Action("Index", "Cart")">
+                                        <div style="position: relative; display: inline-block;">
+                                            <i class="bi bi-cart navlinks" style="font-size: 40px;"></i>
+                                            <span id="cart-item-count" class="badge badge-info" style="position: absolute; top: -5px; right: -5px; background-color: red; color: white; border-radius: 50%; padding: 5px 10px; font-size: 14px;">0</span>
+                                        </div>
+                                    </a>
+
                                     <i class="bi bi-person userbutton navlinks" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 40px;"></i>
                                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
 
@@ -200,7 +206,7 @@
 
     <div class="custom-footer">
         <div class="footer-content">
-            <p>&copy; 2025 DXMarket | All rights reserved</p>
+            <p>&copy; 2025 DXMarket | Minden jog fenntartva</p>
             <nav>
                 <a href=@Url.Action("aszf","Home")>ÁSZF</a> | <a href="https://www.arukereso.hu/" target="_blank">Árukereső</a> | <a href="https://ipon.hu/" target="_blank">Ipon</a>| <a href="https://www.emag.hu/" target="_blank">eMAG</a>
             </nav>
