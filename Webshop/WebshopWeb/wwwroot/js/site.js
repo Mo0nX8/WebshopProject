@@ -51,7 +51,7 @@ function updateCartItemCount() {
             document.getElementById('cart-item-count').textContent = cartItemCount;
         },
         error: function () {
-            console.error("Error fetching cart item count");
+            console.error("Sikertelen fetch!");
         }
     });
 }
