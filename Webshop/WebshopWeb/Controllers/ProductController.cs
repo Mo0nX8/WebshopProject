@@ -53,7 +53,12 @@ namespace WebshopWeb.Controllers
         }
         public IActionResult AddToCart(string ids)
         {
+            if(ids is null)
+            {
+                return Json(new { success = false, message = "Válassz ki terméket!" });
+            }
             var productIds = ids.Split(',').Select(int.Parse).ToList();
+            
             var userId = HttpContext.Session.GetInt32("UserId");
             if (!userId.HasValue)
             {

@@ -150,5 +150,65 @@ function hideLoader() {
 
 
 
+const cartPopup = document.getElementById('cart-popup');
+const closePopupBtn = document.getElementById('popup-close');
+const popupMessage = document.getElementById('popup-message');
+
+function showPopup(message) {
+    popupMessage.textContent = message;
+    cartPopup.style.display = 'block';
+
+    setTimeout(() => {
+        cartPopup.style.display = 'none';
+    }, 3000);
+}
+
+closePopupBtn.addEventListener('click', function () {
+    cartPopup.style.display = 'none';
+});
+
+const addToCartBtns = document.querySelectorAll('.add-to-cart-btn');
+addToCartBtns.forEach(function (addToCartBtn) {
+    addToCartBtn.addEventListener('click', function () {
+        let productIds = [];
+        const cpuId = document.getElementById('cpuSelect').value;
+        const motherboardId = document.getElementById('motherboardSelect').value;
+        const gpuId = document.getElementById('gpuSelect').value;
+        const ramId = document.getElementById('ramSelect').value;
+        const ssdId = document.getElementById('ssdSelect').value;
+        const psuId = document.getElementById('psuSelect').value;
+        const caseId = document.getElementById('caseSelect').value;
+        const coolerId = document.getElementById('cpucoolerSelect').value;
+
+        if (cpuId) productIds.push(cpuId);
+        if (motherboardId) productIds.push(motherboardId);
+        if (gpuId) productIds.push(gpuId);
+        if (ramId) productIds.push(ramId);
+        if (ssdId) productIds.push(ssdId);
+        if (psuId) productIds.push(psuId);
+        if (caseId) productIds.push(caseId);
+        if (coolerId) productIds.push(coolerId);
+
+        const productIdString = productIds.join(',');
+
+        $.ajax({
+            url: '/Product/AddToCart',
+            type: 'POST',
+            data: { ids: productIdString },
+            success: function (response) {
+                if (response.success) {
+                    showPopup(response.message);
+                } else {
+                    showPopup(response.message);
+                }
+            },
+            error: function () {
+                showPopup("Hiba történt a kosárhoz adás során!");
+            }
+        });
+    });
+});
+
+
 
 
