@@ -21,13 +21,14 @@
 </head>
 <body>
     <header>
-        <div class="banner-container">
+        <div class="banner-container text-center">
             <img src="~/images/default/site_banner.jpg" class="img-fluid responsive-banner" />
         </div>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid d-flex align-items-center justify-content-between">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">DXMarket</a>
                 <a class="navbar-brand" asp-area="" asp-controller="PCBuilderView" asp-action="Index">Gépösszerakó</a>
+               
                 <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                         Termékek
@@ -113,23 +114,7 @@
 
                 <script>
                     var getSearchSuggestionsUrl = '@Url.Action("GetSearchSuggestions", "Product")';
-                    function searchProduct() {
-                        var searchValue = document.getElementById("search").value;
-                        window.location.href = '@Url.Action("Search", "Product")' + '?searchValue=' + encodeURIComponent(searchValue);
-                    }
-                    document.addEventListener("DOMContentLoaded", function () {
-                        var elektronikaDropdown = document.querySelector(".dropdown-submenu");
-                        var elektronikaMenu = elektronikaDropdown.querySelector(".dropdown-menu");
-
-
-                        elektronikaDropdown.addEventListener("mouseenter", function () {
-                            elektronikaMenu.classList.add("show");
-                        });
-
-                        elektronikaDropdown.addEventListener("mouseleave", function () {
-                            elektronikaMenu.classList.remove("show");
-                        });
-                    });
+                    
                 </script>
                 <div class="container">
                     <div class="row">

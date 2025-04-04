@@ -16,19 +16,7 @@
         <p id="popup-message"></p>
     </div>
 </div>
-<div class="dropdown">
-    <label>Rendezés:</label>
-    <button class="btn btn-light dropdown-toggle large" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-        <i class="bi bi-sort-up"></i>
-    </button>
-    <ul class="dropdown-menu" aria-labelledby="sortDropdown">
-        <li><a class="dropdown-item" href="#" onclick="sortProducts('')">Válassz...</a></li>
-        <li><a class="dropdown-item" href="#" onclick="sortProducts('name_asc')">Név szerint (A-Z)</a></li>
-        <li><a class="dropdown-item" href="#" onclick="sortProducts('name_desc')">Név szerint (Z-A)</a></li>
-        <li><a class="dropdown-item" href="#" onclick="sortProducts('price_asc')">Ár szerint növekvő</a></li>
-        <li><a class="dropdown-item" href="#" onclick="sortProducts('price_desc')">Ár szerint csökkenő</a></li>
-    </ul>
-</div>
+
 
 <input type="hidden" id="searchValue" value="@searchValue" />
 <script>
@@ -72,6 +60,25 @@
     </div>
 </div>
 
+<div class="container mb-3">
+    <div class="row">
+        <div class="col text-end">
+            <div class="dropdown d-inline-block">
+                <label class="me-2 fw-semibold">Rendezés:</label>
+                <button class="btn btn-light dropdown-toggle" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-sort-up"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="sortDropdown">
+                    <li><a class="dropdown-item" href="#" onclick="sortProducts('')">Válassz...</a></li>
+                    <li><a class="dropdown-item" href="#" onclick="sortProducts('name_asc')">Név szerint (A-Z)</a></li>
+                    <li><a class="dropdown-item" href="#" onclick="sortProducts('name_desc')">Név szerint (Z-A)</a></li>
+                    <li><a class="dropdown-item" href="#" onclick="sortProducts('price_asc')">Ár szerint növekvő</a></li>
+                    <li><a class="dropdown-item" href="#" onclick="sortProducts('price_desc')">Ár szerint csökkenő</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
         @if(Model is not null)

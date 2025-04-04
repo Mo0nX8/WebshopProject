@@ -3,6 +3,17 @@
     function isMobileDevice() {
         return window.innerWidth <= 768; 
     }
+    var elektronikaDropdown = document.querySelector(".dropdown-submenu");
+    var elektronikaMenu = elektronikaDropdown.querySelector(".dropdown-menu");
+
+
+    elektronikaDropdown.addEventListener("mouseenter", function () {
+        elektronikaMenu.classList.add("show");
+    });
+
+    elektronikaDropdown.addEventListener("mouseleave", function () {
+        elektronikaMenu.classList.remove("show");
+    });
 
     document.querySelectorAll(".dropdown-submenu > a").forEach(function (submenu) {
         submenu.addEventListener("click", function (e) {
@@ -58,4 +69,10 @@ function updateCartItemCount() {
 $('.add-to-cart-btn').on('click', function () {
     updateCartItemCount();
 });
+
+
+function searchProduct() {
+    var searchValue = document.getElementById("search").value;
+    window.location.href = '@Url.Action("Search", "Product")' + '?searchValue=' + encodeURIComponent(searchValue);
+}
 
