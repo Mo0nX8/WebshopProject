@@ -8,31 +8,44 @@
 </div>
 
 <div class="container mt-4">
-    <h4>Megrendelt termékek</h4>
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                
-            </tr>
-        </thead>
-        <tbody>
+    @if (Model?.Products != null && Model.Products.Any())
+    {
+        <div class="container mt-4">
+            <h3 class="mb-4 text-center">Megrendelt termékek</h3>
+
             @foreach (var item in Model.Products)
             {
-                <tr>
-                    <td>
+                <div class="cart-item row align-items-center mb-3 border rounded p-3">
+                    <div class="col-3 col-sm-2 d-flex justify-content-center">
                         @if (item.ImageUrl != null && item.ImageUrl.Length > 0)
                         {
                             var base64Image = Convert.ToBase64String(item.ImageUrl);
-                            <img src="data:image/jpeg;base64,@base64Image" class="card-img-top product-image" alt="@item.Name">
+                            <img src="data:image/jpeg;base64,@base64Image" class="img-fluid rounded" alt="@item.Name">
                         }
-                    </td>
-                    <td>@item.Name</td>
-                    <td>@item.Price.ToString("C")</td>
-                    <td>@item.Quantity</td>
-                </tr>
+                    </div>
+
+                    <div class="col-6 col-sm-6">
+                        <h5 class="mb-1">@item.Name</h5>
+                        <p class="mb-0"><strong>Ár:</strong> @item.Price.ToString("C")</p>
+                    </div>
+
+                    <div class="col-6 col-sm-4">
+                        <div class="d-flex flex-row align-items-end justify-content-end">
+                            <span class="fw-bold me-2">Mennyiség:</span>
+                            <span class="badge bg-secondary px-3 py-2">@item.Quantity</span>
+                        </div>
+                    </div>
+                </div>
             }
-        </tbody>
-    </table>
+
+           
+        </div>
+    }
+else
+{
+    <p class="text-center mt-5">Nincsenek megrendelt termékek.</p>
+}
+
 
     <h4>Szállítási adatok</h4>
     <p><strong>Név:</strong> @Model.CustomerName</p>
