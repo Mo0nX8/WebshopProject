@@ -91,7 +91,7 @@ namespace WebshopWeb.Controllers
             var userId = HttpContext.Session.GetInt32("UserId").Value;
             var user = userManager.GetUser(userId);
             var address = user.Address;
-            var addressGoodFormat = address.ZipCode + ", " + address.City + " " + address.StreetAndNumber;
+            var addressGoodFormat = address.ZipCode + ", " + address.City + ", " + address.StreetAndNumber;
             decimal shipmentPrice= Convert.ToDecimal(Regex.Replace(shipping, @"\D", ""));
 
             decimal paymentPrice = 0;
@@ -102,7 +102,7 @@ namespace WebshopWeb.Controllers
 
             var model = new OrderSummaryViewModel
             {
-                CustomerName = user.Username,
+                CustomerName = user.Address.FullName,
                 ShippingAddress = addressGoodFormat,
                 ShippingOption = shipping,
                 PaymentOption = payment,
@@ -119,11 +119,12 @@ namespace WebshopWeb.Controllers
             return View(model);
         }
         [HttpPost]
-        public IActionResult RecordAddress(string city, string zip, string street)
+        public IActionResult RecordAddress(string name, string city, string zip, string street)
         {
             var userId = HttpContext.Session.GetInt32("UserId").Value;
             var userAddress = new Address()
             {
+                FullName=name,
                 ZipCode = zip,
                 StreetAndNumber = street,
                 City = city,

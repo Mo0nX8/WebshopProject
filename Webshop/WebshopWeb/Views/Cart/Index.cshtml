@@ -21,44 +21,50 @@
 
 @if (Model != null && Model.Any())
 {
-    <table>
-
+    <div class="cart-container">
         @foreach (var item in Model)
         {
-            totalPrice=totalPrice+item.Product.Price;
-            <tr>
-                @if (item.Product.ImageData != null && item.Product.ImageData.Length > 0)
-                {
-                    var base64Image = Convert.ToBase64String(item.Product.ImageData);
-                    <img src="data:image/jpeg;base64,@base64Image" class="card-img-top product-image" alt="@item.Product.ProductName">
-                }
-                <td><h2 class="display-6">@item.Product.ProductName</h2></td>
-                <td>@item.Product.Price Ft</td>
-                 <td>
-                    <select class="quantity-selector" data-product-id="@item.ProductId" name="quantity" id="quantity">
-                        @for (var i = 1; i <= item.Product.Quanity; i++)  
+            totalPrice = totalPrice + item.Product.Price;
+            <div class="cart-item row align-items-center mb-3">
+                <div class="col-3 col-sm-2">
+                    @if (item.Product.ImageData != null && item.Product.ImageData.Length > 0)
+                    {
+                        var base64Image = Convert.ToBase64String(item.Product.ImageData);
+                        <img src="data:image/jpeg;base64,@base64Image" class="img-fluid" alt="@item.Product.ProductName">
+                    }
+                </div>
+
+                <div class="col-6 col-sm-5">
+                    <h2 class="display-6">@item.Product.ProductName</h2>
+                    <p>@item.Product.Price Ft</p>
+                </div>
+
+                <div class="col-3 col-sm-2">
+                    <select class="form-select" data-product-id="@item.ProductId" name="quantity" id="quantity">
+                        @for (var i = 1; i <= item.Product.Quanity; i++)
                         {
-                            <option value="@i")>@i</option>
+                            <option value="@i">@i</option>
                         }
                     </select>
-                </td>
-                <td>
+                </div>
+
+                <div class="col-12 col-sm-3 mt-2 mt-sm-0 text-sm-end">
                     <form action="@Url.Action("RemoveFromCart", "Cart")" method="post">
                         <input type="hidden" name="productId" value="@item.ProductId" />
                         <button type="submit" class="btn btn-danger">Törlés a kosárból</button>
                     </form>
-                </td>
-            </tr>
-
+                </div>
+            </div>
         }
-        <tr>
-            <td>Végösszeg:</td>
-            <td>@totalPrice Ft</td>
-        </tr>
-    </table>
-   
-    <a href=@Url.Action("Details", "Order")>Rendelés</a>
+
+        <div class="total-price mt-3">
+            <p><strong>Végösszeg: @totalPrice Ft</strong></p>
+        </div>
+
+        <a href="@Url.Action("Details", "Order")" class="order-link btn btn-primary mt-3">Rendelés</a>
+    </div>
 }
+
 else
 {
     <p>A kosár üres.</p>
