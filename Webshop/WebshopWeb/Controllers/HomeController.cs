@@ -84,6 +84,7 @@ public class HomeController : Controller
             {
                 UserName = user.Username,
                 Email=user.EmailAddress,
+                PasswordChanged=false
 
             };
             return View("PersonalData", personalDataViewModel);
@@ -103,6 +104,7 @@ public class HomeController : Controller
             {
                 UserName = user.Username,
                 Email = user.EmailAddress,
+                PasswordChanged=false
 
             };
             return View("PersonalData", personalDataViewModel);
@@ -111,9 +113,14 @@ public class HomeController : Controller
         user.Password = encryptManager.Hash(model.NewPassword);
         userManager.UpdateUser(user);
 
-        System.Threading.Thread.Sleep(5000);
-        authenticationManager.LogOut();
-        return RedirectToAction("Index");
+        var personalDataViewModelGood = new PersonalDataViewModel
+        {
+            UserId = userId.Value,
+            UserName = user.Username,
+            Email = user.EmailAddress,
+            PasswordChanged = true
+        };
+        return View("PersonalData", personalDataViewModelGood);
     }
 
    

@@ -23,5 +23,10 @@ namespace Webshop.Services.Services.ViewModel
         /// This property contains an user's email address.
         /// </summary>
         public string Email { get; set; }
+
+        /// <summary>
+        /// This is a hidden property used for handling the password change check.
+        /// </summary>
+        public bool PasswordChanged { get; set; }
     }
 }
