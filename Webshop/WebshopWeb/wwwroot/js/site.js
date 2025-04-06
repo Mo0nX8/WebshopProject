@@ -73,6 +73,6 @@ $('.add-to-cart-btn').on('click', function () {
 
 function searchProduct() {
     var searchValue = document.getElementById("search").value;
-    window.location.href = '@Url.Action("Search", "Product")' + '?searchValue=' + encodeURIComponent(searchValue);
+    window.location.href = redirectUrl + '?searchValue=' + encodeURIComponent(searchValue);
 }
 
