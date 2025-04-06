@@ -20,183 +20,187 @@
     <link rel="stylesheet" href="~/WebshopWeb.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <div class="banner-container text-center">
-            <img src="~/images/default/site_banner.jpg" class="img-fluid responsive-banner" />
-        </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">DXMarket</a>
-                <a class="navbar-brand" asp-area="" asp-controller="PCBuilderView" asp-action="Index">Gépösszerakó</a>
-               
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                        Termékek
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="@Url.Action("Index", "Product")">Összes termék</a></li>
-                        <li class="dropdown-submenu">
+    <div class="d-flex flex-column min-vh-100">
+        <header>
+            <div class="banner-container text-center">
+                <img src="~/images/default/site_banner.jpg" class="img-fluid responsive-banner" />
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom box-shadow mb-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">DXMarket</a>
+                    <a class="navbar-brand" asp-area="" asp-controller="PCBuilderView" asp-action="Index">Gépösszerakó</a>
 
-                            <a class="dropdown-item dropdown-toggle" href="@Url.Action("Search", "Product", new { searchValue = "hardver" })">Alkatrészek</a>
-                            <ul class="dropdown-menu submenu">
-                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="alaplap" })">Alaplapok</a></li>
-                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="processzor" })">Processzorok</a></li>
-                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "Videókártya" })">Videokártyák</a></li>
-                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "Memória" })">Memória</a></li>
-                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "Tápegység" })">Tápegységek</a></li>
-                                <li class="dropdown-submenu">
-                                    <a class="dropdown-item dropdown-toggle" href="@Url.Action("Search", "Product", new { searchValue = "hűtés" })">Hűtés</a>
-                                    <ul class="dropdown-menu submenu">
-                                        <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="processzorhűtő" })">Processzor hűtés</a></li>
-                                        <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="vizhűtés" })">Vízhűtés</a></li>
-                                        <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="házhűtés" })">Rendszer hűtés</a></li>
-                                    </ul>
-                                </li>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            Termékek
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="@Url.Action("Index", "Product")">Összes termék</a></li>
+                            <li class="dropdown-submenu">
 
-                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "gépház" })">Gépházak</a></li>
-                                <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="@Url.Action("Search", "Product", new { searchValue = "hardver" })">Alkatrészek</a>
+                                <ul class="dropdown-menu submenu">
+                                    <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="alaplap" })">Alaplapok</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="processzor" })">Processzorok</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "Videókártya" })">Videokártyák</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "Memória" })">Memória</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "Tápegység" })">Tápegységek</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" href="@Url.Action("Search", "Product", new { searchValue = "hűtés" })">Hűtés</a>
+                                        <ul class="dropdown-menu submenu">
+                                            <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="processzorhűtő" })">Processzor hűtés</a></li>
+                                            <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="vizhűtés" })">Vízhűtés</a></li>
+                                            <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="házhűtés" })">Rendszer hűtés</a></li>
+                                        </ul>
+                                    </li>
 
-                                    <a class="dropdown-item dropdown-toggle" href="@Url.Action("Search", "Product", new { searchValue = "háttértár" })">Háttértárak</a>
-                                    <ul class="dropdown-menu submenu">
-                                        <li class="dropdown-submenu">
-                                            <a class="dropdown-item dropdown-toggle" href="@Url.Action("Search", "Product", new { searchValue = "ssd" })">SSD</a>
-                                            <ul class="dropdown-menu submenu">
-                                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="2.5_sata" })">SATA SSD</a></li>
-                                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="nvme" })">M.2 SSD</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="hdd" })">HDD</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "gépház" })">Gépházak</a></li>
+                                    <li class="dropdown-submenu">
 
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown-submenu">
-                            <a class="dropdown-item dropdown-toggle" href="@Url.Action("Search", "Product", new { searchValue = "dj" })">DJ</a>
-                            <ul class="dropdown-menu submenu">
-                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="dj kontroller" })">DJ Kontrollerek</a></li>
-                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="pult" })">DJ Pultok</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown-submenu">
-                            <a class="dropdown-item dropdown-toggle" href="@Url.Action("Search", "Product", new { searchValue = "konzol" })">Konzolok</a>
-                            <ul class="dropdown-menu submenu">
-                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="PlayStation" })">PlayStation</a></li>
-                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="xbox_konzol" })">Xbox</a></li>
-                            </ul>
-                        </li>
-                        <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "prebuild" })">PreBuild PC</a></li>
-                        <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "monitor" })">Monitorok</a></li>
-                        <li class="dropdown-submenu">
-                            <a class="dropdown-item dropdown-toggle" href="@Url.Action("Search", "Product", new { searchValue = "periféria" })">Perifériák</a>
-                            <ul class="dropdown-menu submenu">
-                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="egér" })">Egerek</a></li>
-                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="billentyűzet" })">Billentyűzetek</a></li>
-                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="hangfal" })">Hangfalak</a></li>
-                                <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="mikrofon" })">Mikrofonok</a></li>
-                            </ul>
-                        </li>
-                        <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "kábel" })">Kábelek</a></li>
+                                        <a class="dropdown-item dropdown-toggle" href="@Url.Action("Search", "Product", new { searchValue = "háttértár" })">Háttértárak</a>
+                                        <ul class="dropdown-menu submenu">
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item dropdown-toggle" href="@Url.Action("Search", "Product", new { searchValue = "ssd" })">SSD</a>
+                                                <ul class="dropdown-menu submenu">
+                                                    <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="2.5_sata" })">SATA SSD</a></li>
+                                                    <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="nvme" })">M.2 SSD</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="hdd" })">HDD</a></li>
 
-                    </ul>
-                </div>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="@Url.Action("Search", "Product", new { searchValue = "dj" })">DJ</a>
+                                <ul class="dropdown-menu submenu">
+                                    <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="dj kontroller" })">DJ Kontrollerek</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="pult" })">DJ Pultok</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="@Url.Action("Search", "Product", new { searchValue = "konzol" })">Konzolok</a>
+                                <ul class="dropdown-menu submenu">
+                                    <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="PlayStation" })">PlayStation</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="xbox_konzol" })">Xbox</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "prebuild" })">PreBuild PC</a></li>
+                            <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "monitor" })">Monitorok</a></li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="@Url.Action("Search", "Product", new { searchValue = "periféria" })">Perifériák</a>
+                                <ul class="dropdown-menu submenu">
+                                    <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="egér" })">Egerek</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="billentyűzet" })">Billentyűzetek</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="hangfal" })">Hangfalak</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue="mikrofon" })">Mikrofonok</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="@Url.Action("Search", "Product", new { searchValue = "kábel" })">Kábelek</a></li>
 
-                <div class="container">
-                    <div class="search-bar ">
-                        <div class="input-group">
-                            <input type="text" id="search" placeholder="Keresés" alt="Keresés" name="searchValue" class="form-control" oninput="searchSuggestion()">
-                            <a href="#" onclick="searchProduct()" class="btn btn-outline-secondary"><i class="bi bi-search"></i></a>
-
-                        </div>
-                        <div id="suggestions-container" class="dropdown-menu" style="width: 100%;"></div>
+                        </ul>
                     </div>
-                </div>
 
-                <script>
-                    var getSearchSuggestionsUrl = '@Url.Action("GetSearchSuggestions", "Product")';
-                    
-                </script>
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <div id="weather-container">
-                                <div class="search-bar">
-                                    <div class="input-group">
-                                        <input type="text" id="search-input" placeholder="Város neve" class="form-control">
-                                        <i class="bi bi-search btn btn-outline-secondary" id="search-btn"></i>
+                    <div class="container">
+                        <div class="search-bar ">
+                            <div class="input-group">
+                                <input type="text" id="search" placeholder="Keresés" alt="Keresés" name="searchValue" class="form-control" oninput="searchSuggestion()">
+                                <a href="#" onclick="searchProduct()" class="btn btn-outline-secondary"><i class="bi bi-search"></i></a>
+
+                            </div>
+                            <div id="suggestions-container" class="dropdown-menu" style="width: 100%;"></div>
+                        </div>
+                    </div>
+
+                    <script>
+                        var getSearchSuggestionsUrl = '@Url.Action("GetSearchSuggestions", "Product")';
+
+                    </script>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div id="weather-container">
+                                    <div class="search-bar">
+                                        <div class="input-group">
+                                            <input type="text" id="search-input" placeholder="Város neve" class="form-control">
+                                            <i class="bi bi-search btn btn-outline-secondary" id="search-btn"></i>
+                                        </div>
+                                    </div>
+                                    <div id="weather-display"></div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+
+
+
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <div class="dropdown ms-auto">
+                                        <a href="@Url.Action("Index", "Cart")">
+                                            <div style="position: relative; display: inline-block;">
+                                                <i class="bi bi-cart navlinks" style="font-size: 40px;"></i>
+                                                <span id="cart-item-count" class="badge badge-info" style="position: absolute; top: -5px; right: -5px; background-color: red; color: white; border-radius: 50%; padding: 5px 10px; font-size: 14px;">0</span>
+                                            </div>
+                                        </a>
+
+                                        <i class="bi bi-person userbutton navlinks" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 40px;"></i>
+                                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+
+                                            @if (authenticated == "True")
+                                            {
+                                                <li><a href=@Url.Action("PersonalData", "Home", new {userId=userId}) class="navbar-brand"><button class="dropdown-item" type="button">Személyes adatok</button></a></li>
+                                                <li><a href=@Url.Action("MyOrders", "Home", new {userId=userId}) class="navbar-brand"><button class="dropdown-item" type="button">Rendeléseim</button></a></li>
+                                                <li><a href=@Url.Action("Logout", "Authentication") class="navbar-brand"><button class="dropdown-item" type="button">Kijelentkezés</button></a></li>
+                                            }
+                                            else
+                                            {
+                                                <li><a asp-area="" asp-controller="Authentication" asp-action="Login" class="navbar-brand"><button class="dropdown-item" type="button">Bejelentkezés</button></a></li>
+                                                <li><a asp-area="" asp-controller="Authentication" asp-action="Register" class="navbar-brand"><button class="dropdown-item" type="button">Regisztráció</button></a></li>
+                                            }
+
+                                        </ul>
                                     </div>
                                 </div>
-                                <div id="weather-display"></div>
                             </div>
+
                         </div>
-                        <div class="col">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                                    aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-
-
-
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                                <div class="dropdown ms-auto">
-                                    <a href="@Url.Action("Index", "Cart")">
-                                        <div style="position: relative; display: inline-block;">
-                                            <i class="bi bi-cart navlinks" style="font-size: 40px;"></i>
-                                            <span id="cart-item-count" class="badge badge-info" style="position: absolute; top: -5px; right: -5px; background-color: red; color: white; border-radius: 50%; padding: 5px 10px; font-size: 14px;">0</span>
-                                        </div>
-                                    </a>
-
-                                    <i class="bi bi-person userbutton navlinks" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 40px;"></i>
-                                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-
-                                        @if (authenticated == "True")
-                                        {
-                                            <li><a href=@Url.Action("PersonalData", "Home", new {userId=userId}) class="navbar-brand"><button class="dropdown-item" type="button">Személyes adatok</button></a></li>
-                                            <li><a href=@Url.Action("MyOrders", "Home", new {userId=userId}) class="navbar-brand"><button class="dropdown-item" type="button">Rendeléseim</button></a></li>
-                                            <li><a href=@Url.Action("Logout", "Authentication") class="navbar-brand"><button class="dropdown-item" type="button">Kijelentkezés</button></a></li>
-                                        }
-                                        else
-                                        {
-                                            <li><a asp-area="" asp-controller="Authentication" asp-action="Login" class="navbar-brand"><button class="dropdown-item" type="button">Bejelentkezés</button></a></li>
-                                            <li><a asp-area="" asp-controller="Authentication" asp-action="Register" class="navbar-brand"><button class="dropdown-item" type="button">Regisztráció</button></a></li>
-                                        }
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        
                     </div>
+
+
+
+
                 </div>
-               
-
-               
-
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-
-        </main>
-        @if (IsSectionDefined("Pagination"))
-        {
-            <div class="pagination-container">
-                @RenderSection("Pagination", required: false)
-            </div>
-        }
-    </div>
-
-
-    <div class="custom-footer">
-        <div class="footer-content">
-            <p>&copy; 2025 DXMarket | Minden jog fenntartva</p>
-            <nav>
-                <a href=@Url.Action("aszf","Home")>ÁSZF</a> | <a href="https://www.arukereso.hu/" target="_blank">Árukereső</a> | <a href="https://ipon.hu/" target="_blank">Ipon</a>| <a href="https://www.emag.hu/" target="_blank">eMAG</a>
             </nav>
+        </header>
+        <div class="container flex-grow-1">
+            <main role="main" class="pb-3">
+                @RenderBody()
+
+            </main>
+            @if (IsSectionDefined("Pagination"))
+            {
+                <div class="pagination-container">
+                    @RenderSection("Pagination", required: false)
+                </div>
+            }
+        </div>
+
+
+        <div class="custom-footer mt-auto">
+            <div class="footer-content">
+                <p>&copy; 2025 DXMarket | Minden jog fenntartva</p>
+                <nav>
+                    <a href=@Url.Action("aszf","Home")>ÁSZF</a> | <a href="https://www.arukereso.hu/" target="_blank">Árukereső</a> | <a href="https://ipon.hu/" target="_blank">Ipon</a>| <a href="https://www.emag.hu/" target="_blank">eMAG</a>
+                </nav>
+            </div>
         </div>
     </div>
+
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
