@@ -9,10 +9,16 @@ using Webshop.Services.Interfaces;
 namespace Webshop.Services.Services.Security
 {
     /// <summary>
-    /// This is the implementation for IEncryptManager
-    /// </summary>
+    /// This is the implementation for <see cref="IEncryptManager"/>.
+    /// Provides method for handling hashing.
+    /// </summary>>
     public class SHA256Encrypter : IEncryptManager
     {
+        /// <summary>
+        /// Hashes the given string using SHA256 and returns the result as a Base64-encoded string.
+        /// </summary>
+        /// <param name="key">The string to be hashed.</param>
+        /// <returns>The Base64-encoded SHA256 hash of the input string.</returns>
         public string Hash(string key)
         {
             using (var sha = SHA256.Create())

@@ -5,16 +5,28 @@ using Webshop.Services.Services.ViewModel;
 
 namespace Webshop.Services.Services.Compatibility
 {
+    /// <summary>
+    /// Provides functionality for retrieving and filtering products 
+    /// for the PC builder tool based on compatibility criteria.
+    /// </summary>
     public class CompatibilityService : ICompatibilityService
     {
         private readonly IProductManager productManager;
-
+        /// <summary>
+        /// Initializes a new instance of the <see cref="CompatibilityService"/> class.
+        /// </summary>
+        /// <param name="productManager">The product manager used to access product data.</param>
         public CompatibilityService(IProductManager productManager)
         {
             this.productManager = productManager;
         }
 
-
+        /// <summary>
+        /// Retrieves all products that are relevant for PC building (CPU, motherboard, RAM, etc.).
+        /// </summary>
+        /// <returns>
+        /// An <see cref="IQueryable{PcBuilderViewModel}"/> collection of filtered and categorized products.
+        /// </returns>
         public IQueryable<PcBuilderViewModel> GetAllProducts()
         {
             var products = productManager.GetProducts()
@@ -39,6 +51,13 @@ namespace Webshop.Services.Services.Compatibility
             return products;
 
         }
+        /// <summary>
+        /// Assigns a product category based on the tags it contains.
+        /// </summary>
+        /// <param name="product">The product to categorize.</param>
+        /// <returns>
+        /// A string representing the category of the product.
+        /// </returns>
         private static string AssignCategory(Products product)
         {
             if (product.Tags.Any(t => t.Contains("CPU")))
@@ -75,7 +94,16 @@ namespace Webshop.Services.Services.Compatibility
             }
             return "Other";
         }
-
+        /// <summary>
+        /// Filters products based on selected component IDs to show only compatible parts.
+        /// </summary>
+        /// <param name="motherboardId">Optional ID of the selected motherboard.</param>
+        /// <param name="cpuId">Optional ID of the selected CPU.</param>
+        /// <param name="ramId">Optional ID of the selected RAM.</param>
+        /// <param name="caseId">Optional ID of the selected case.</param>
+        /// <returns>
+        /// An <see cref="IQueryable{PcBuilderViewModel}"/> of products filtered by compatibility tags.
+        /// </returns>
         public IQueryable<PcBuilderViewModel> FilterProducts(int? motherboardId, int? cpuId, int? ramId, int? caseId)
         {
             var products = GetAllProducts();

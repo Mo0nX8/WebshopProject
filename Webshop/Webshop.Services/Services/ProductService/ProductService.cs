@@ -4,17 +4,28 @@ using Webshop.EntityFramework.Managers.Product;
 using Webshop.Services.Interfaces;
 
 namespace Webshop.Services.Services.ProductService
-{
+{ 
+      /// <summary>
+      /// This is the implementation for <see cref="IProductServices"/>.
+      /// Provides methods for handling products.
+      /// </summary>>
     public class ProductService : IProductServices
     {
         private readonly IProductManager productManager;
-
+        /// <summary>
+        ///  Constructor for initializing <see cref="ProductService"/> with dependencies.
+        /// </summary>
+        /// <param name="productManager">Service for product management.</param>
         public ProductService(IProductManager productManager)
         {
             this.productManager = productManager;
         }
 
-        
+        /// <summary>
+        /// Retrieve random products from database.
+        /// </summary>
+        /// <param name="totalItems">Total amount of items.</param>
+        /// <returns><see cref="List{Products}"/> of products, Count=15 </returns>
         public List<Products> GetRandomProducts(int totalItems)
         {
             Random random = new Random();
@@ -27,6 +38,26 @@ namespace Webshop.Services.Services.ProductService
                 .ToList();
             return products;
         }
+        /// <summary>
+        /// Applies filtering, searching, sorting, and pagination logic to a product query.
+        /// </summary>
+        /// <param name="query">The initial product query.</param>
+        /// <param name="searchValue">Search term to filter product names and tags (case-insensitive, accent-insensitive).</param>
+        /// <param name="minPrice">Optional minimum price filter.</param>
+        /// <param name="maxPrice">Optional maximum price filter.</param>
+        /// <param name="pageNumber">The page number for pagination.</param>
+        /// <param name="pageSize">The number of items per page.</param>
+        /// <param name="totalItems">The total number of items after filtering (before pagination).</param>
+        /// <param name="sortOrder">
+        /// Sorting mode:
+        /// <list type="bullet">
+        /// <item><description><c>name_asc</c>: Sort by name ascending</description></item>
+        /// <item><description><c>name_desc</c>: Sort by name descending</description></item>
+        /// <item><description><c>price_asc</c>: Sort by price ascending</description></item>
+        /// <item><description><c>price_desc</c>: Sort by price descending</description></item>
+        /// </list>
+        /// </param>
+        /// <returns>A filtered, sorted, and paginated <see cref="IQueryable{Products}"/>.</returns>
         public IQueryable<Products> ApplyFilterAndSearchForPagination(IQueryable<Products> query, string searchValue, int? minPrice, int? maxPrice, int pageNumber, int pageSize, out int totalItems, string sortOrder)
         {
             if (!string.IsNullOrEmpty(searchValue))

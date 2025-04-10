@@ -1,29 +1,37 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Microsoft.Extensions.Configuration;
+using System.Net;
 using System.Net.Mail;
 using System.Net.Mime;
-using System.Net;
 using System.Text;
-using System.Threading.Tasks;
 using Webshop.EntityFramework.Data;
 using Webshop.Services.Interfaces;
-using Microsoft.Extensions.Configuration;
-using System.IO;
 
 namespace Webshop.Services.Services.Email
 {
+     /// <summary>
+     /// This is the implementation for <see cref="IEmailService"/>.
+     /// Provides methods for handling email sending.
+     /// </summary>>
     public class EmailService : IEmailService
     {
         private readonly IConfiguration _config;
         private readonly string _templatePath;
-
+        /// <summary>
+        /// Constructor for initializing <see cref="EmailService"/> with configuration and optional template path.
+        /// </summary>
+        /// <param name="config">Application configuration settings.</param>
+        /// <param name="templatePath">Optional path to the HTML email template.</param>
         public EmailService(IConfiguration config, string templatePath=null)
         {
             _config = config;
             _templatePath= templatePath ?? Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "templates", "emailTemplate.html");
         }
-
+        /// <summary>
+        /// Sends a detailed order confirmation email with product images and total price.
+        /// </summary>
+        /// <param name="order">The order to include in the email.</param>
+        /// <param name="email">The recipient's email address.</param>
+        /// <returns>A task representing the asynchronous operation.</returns>
         public async Task SendOrderEmailAsync(Orders order, string email)
         {
             string smtpServer = _config["SmtpSettings:Host"];
@@ -82,7 +90,13 @@ namespace Webshop.Services.Services.Email
                 }
             }
         }
-
+        /// <summary>
+        /// Sends a password reset email or other plain text email.
+        /// </summary>
+        /// <param name="email">The recipient's email address.</param>
+        /// <param name="subject">The email subject line.</param>
+        /// <param name="body">The plain text content of the email.</param>
+        /// <returns>A task representing the asynchronous operation.</returns>
         public async Task SendResetEmailAsync(string email, string subject, string body)
         {
             string smtpServer = _config["SmtpSettings:Host"];

@@ -8,10 +8,18 @@ using Webshop.Services.Interfaces;
 namespace Webshop.Services.Services.Validators
 {
     /// <summary>
-    /// This is the implementation of PasswordValidation for IValidationManager. Checks the availablity of password through some security checks.
-    /// </summary>
+    /// This is the implementation for <see cref="IValidationManager"/>.
+    /// Provides method for handling password validation.
+    /// </summary>>
     public class PasswordValidator : IValidationManager
     {
+        /// <summary>
+        /// Checks if the provided password is available for registration.
+        /// </summary>
+        /// <param name="key">The password to validate.</param>
+        /// <returns>
+        /// Returns an error message if the password is invalid, otherwise returns "200" indicating success.
+        /// </returns>
         public string IsAvailable(string key)
         {
             if (key == null)

@@ -10,17 +10,27 @@ using Webshop.Services.Interfaces;
 namespace Webshop.Services.Services.Validators
 {
     /// <summary>
-    /// This is the implementation of EmailValidation for IValidationManager. Checks the availablity of email in database.
-    /// </summary>
+    /// This is the implementation for <see cref="IValidationManager"/>.
+    /// Provides method for handling email validation.
+    /// </summary>>
     public class EmailValidator : IValidationManager
     {
         private IUserManager userManager;
-
+        /// <summary>
+        /// Constructor for initializing <see cref="ProductService"/> with dependencies.
+        /// </summary>
+        /// <param name="userManager">Service for user management.</param>
         public EmailValidator(IUserManager userManager)
         {
             this.userManager = userManager;
         }
-
+        /// <summary>
+        /// Checks if the provided email is available for registration.
+        /// </summary>
+        /// <param name="email">The email address to validate.</param>
+        /// <returns>
+        /// Returns an error message if the email is invalid or already in use, otherwise returns "200" indicating success.
+        /// </returns>
         public string IsAvailable(string email)
         {
             if (email == null)
