@@ -2,6 +2,9 @@
 
 namespace WebshopWeb.Controllers
 {
+    /// <summary>
+    /// This controller is for handling the PCBuilder tool's view.
+    /// </summary>
     [Route("PCBuilder")]
     public class PCBuilderViewController : Controller
     {
