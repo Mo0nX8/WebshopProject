@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Webshop.EntityFramework.Data;
+﻿using Webshop.EntityFramework.Data;
 
 namespace Webshop.EntityFramework.Managers.Carts
 {

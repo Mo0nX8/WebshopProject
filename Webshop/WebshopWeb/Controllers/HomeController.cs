@@ -1,6 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using Webshop.EntityFramework;
-using Webshop.EntityFramework.Managers.Order;
 using Webshop.EntityFramework.Managers.Product;
 using Webshop.EntityFramework.Managers.User;
 using Webshop.Services.Interfaces;
@@ -9,26 +7,30 @@ using Webshop.Services.Services.ViewModel;
 public class HomeController : Controller
 {
     private readonly IUserManager userManager;
-    private readonly IAuthenticationManager authenticationManager;
-    private readonly GlobalDbContext context;
     private readonly IOrderServices orderServices;
     private readonly IProductServices productServices;
     private IEncryptManager encryptManager;
-    private IOrderManager orderManager;
     private IProductManager productManager;
-
-    public HomeController(IAuthenticationManager authenticationManager, IUserManager userManager, GlobalDbContext context, IEncryptManager encryptManager, IOrderManager orderManager, IProductManager productManager, IOrderServices orderServices, IProductServices productServices)
+    /// <summary>
+    /// Initializes a new instance of the <see cref="HomeController"/> class.
+    /// </summary>
+    /// <param name="userManager">The service responsible for managing user-related operations.</param>
+    /// <param name="encryptManager">The service responsible for handling encryption operations.</param>
+    /// <param name="productManager">The service responsible for managing product-related operations.</param>
+    /// <param name="orderServices">The service responsible for order-related services.</param>
+    /// <param name="productServices">The service responsible for product-related services.</param>
+    public HomeController(IUserManager userManager,IEncryptManager encryptManager,IProductManager productManager, IOrderServices orderServices, IProductServices productServices)
     {
-        this.authenticationManager = authenticationManager;
         this.userManager = userManager;
-        this.context = context;
         this.encryptManager = encryptManager;
-        this.orderManager = orderManager;
         this.productManager = productManager;
         this.orderServices = orderServices;
         this.productServices = productServices;
     }
-
+    /// <summary>
+    /// Displays the home page with a random selection of products.
+    /// </summary>
+    /// <returns>The view with the list of products and the total item count.</returns>
     public IActionResult Index()
     {
         var totalItems = productManager.CountProducts();
@@ -41,7 +43,10 @@ public class HomeController : Controller
         };
         return View(model);
     }
-
+    /// <summary>
+    /// Displays the user's personal data page if authenticated.
+    /// </summary>
+    /// <returns>The view with personal data, or redirects to login if not authenticated.</returns>
     public IActionResult PersonalData()
     {
         var userId = HttpContext.Session.GetInt32("UserId");
@@ -71,7 +76,11 @@ public class HomeController : Controller
 
         return View("PersonalData", model);
     }
-
+    /// <summary>
+    /// Handles the password change request.
+    /// </summary>
+    /// <param name="model">The model containing current and new passwords.</param>
+    /// <returns>A view displaying the result of the password change operation.</returns>
     [HttpPost]
     public IActionResult ChangePassword(PasswordChangeViewModel model)
     {
@@ -123,17 +132,28 @@ public class HomeController : Controller
         return View("PersonalData", personalDataViewModelGood);
     }
 
-   
+    /// <summary>
+    /// Displays the partial view for changing the password.
+    /// </summary>
+    /// <returns>The partial view for changing the password.</returns>
     public PartialViewResult _ChangePasswordPartial()
     {
         return PartialView("_ChangePasswordPartial", new PasswordChangeViewModel());
     }
+    /// <summary>
+    /// Displays the user's past orders.
+    /// </summary>
+    /// <returns>The view displaying the list of orders.</returns>
     public IActionResult MyOrders()
     {
         var userId = HttpContext.Session.GetInt32("UserId");
         var orders = orderServices.GetOrders(userId.Value);
         return View(orders);
     }
+    /// <summary>
+    /// Displays the terms and conditions page (ASZF).
+    /// </summary>
+    /// <returns>The view displaying the terms and conditions.</returns>
     public IActionResult aszf()
     {
         return View();

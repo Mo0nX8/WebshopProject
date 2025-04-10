@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Webshop.Services.Services.ViewModel
+﻿namespace Webshop.Services.Services.ViewModel
 {
     /// <summary>
     /// This helps adding personal data to a view through model.

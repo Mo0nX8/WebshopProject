@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Webshop.EntityFramework.Data;
+﻿using Webshop.EntityFramework.Data;
 using Webshop.EntityFramework.Managers.User;
 using Webshop.Services.Interfaces;
 

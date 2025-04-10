@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Webshop.Services.Interfaces;
+﻿using Webshop.Services.Interfaces;
 
 namespace Webshop.Services.Services.Validators
 {

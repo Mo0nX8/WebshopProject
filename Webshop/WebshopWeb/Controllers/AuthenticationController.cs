@@ -27,6 +27,16 @@ namespace WebshopWeb.Controllers
         private readonly UsernameValidator usernameValidator;
         private readonly PasswordValidator passwordValidator;
         private IEmailService emailService;
+        /// <summary>
+        /// Initializes a new instance of the <see cref="AuthenticationController"/> class.
+        /// </summary>
+        /// <param name="userManager">User manager for handling user-related operations.</param>
+        /// <param name="encryptManager">Encryption manager for password hashing.</param>
+        /// <param name="authenticationManager">Authentication manager for login and logout functionality.</param>
+        /// <param name="serviceProvider">Service provider to resolve validation services.</param>
+        /// <param name="cartManager">Cart manager for managing user shopping carts.</param>
+        /// <param name="context">Database context for interacting with the database.</param>
+        /// <param name="emailService">Email service for sending reset emails.</param>
         public AuthenticationController(IUserManager userManager, IEncryptManager encryptManager, IAuthenticationManager authenticationManager, IServiceProvider serviceProvider, ICartManager cartManager, GlobalDbContext context, IEmailService emailService)
         {
             this.userManager = userManager;
@@ -39,17 +49,30 @@ namespace WebshopWeb.Controllers
             _context = context;
             this.emailService = emailService;
         }
-
+        /// <summary>
+        /// Displays the login page.
+        /// </summary>
+        /// <returns>The login view.</returns>
         public IActionResult Login()
         {
             ViewBag.Response = TempData["Code"];
             return View();
         }
+        /// <summary>
+        /// Displays the registration page.
+        /// </summary>
+        /// <returns>The registration view.</returns>
         public IActionResult Register()
         {
             ViewBag.Response = TempData["Code"];
             return View();
         }
+        /// <summary>
+        /// Attempts to log the user in with the provided email and password.
+        /// </summary>
+        /// <param name="email">The user's email address.</param>
+        /// <param name="password">The user's password.</param>
+        /// <returns>A redirect to the home page on success, or a redirect back to the login page on failure.</returns>
         [HttpPost]
         public IActionResult TryLog(string email, string password)
         {
@@ -69,6 +92,14 @@ namespace WebshopWeb.Controllers
             TempData["Code"] = "Az email cím és jelszó páros nem egyezik!";
             return RedirectToAction("Login", "Authentication");
         }
+        /// <summary>
+        /// Attempts to register a new user with the provided username, email, and password.
+        /// </summary>
+        /// <param name="username">The user's desired username.</param>
+        /// <param name="email">The user's email address.</param>
+        /// <param name="password1">The user's password.</param>
+        /// <param name="password2">The confirmation of the user's password.</param>
+        /// <returns>A redirect to the login page on success, or back to the registration page on failure.</returns>
         public IActionResult TryRegister(string username, string email, string password1, string password2)
         {
 
@@ -115,12 +146,20 @@ namespace WebshopWeb.Controllers
             return RedirectToAction("Login");
 
         }
+        /// <summary>
+        /// Logs the user out and clears the session.
+        /// </summary>
+        /// <returns>A redirect to the home page.</returns>
         public IActionResult Logout()
         {
             authenticationManager.LogOut();
             HttpContext.Session.Clear();
             return RedirectToAction("Index", "Home");
         }
+        /// <summary>
+        /// Initiates Google login authentication.
+        /// </summary>
+        /// <returns>A challenge to authenticate with Google.</returns>
         [HttpGet("auth/google-login")]
         public IActionResult GoogleLogin()
         {
@@ -128,6 +167,10 @@ namespace WebshopWeb.Controllers
             var properties = new AuthenticationProperties { RedirectUri = redirectUrl };
             return Challenge(properties, GoogleDefaults.AuthenticationScheme);
         }
+        /// <summary>
+        /// Initiates Facebook login authentication.
+        /// </summary>
+        /// <returns>A challenge to authenticate with Facebook.</returns>
         [HttpGet("auth/facebook-login")]
         public IActionResult FacebookLogin()
         {
@@ -135,6 +178,10 @@ namespace WebshopWeb.Controllers
             var properties = new AuthenticationProperties { RedirectUri = redirectUrl };
             return Challenge(properties, FacebookDefaults.AuthenticationScheme);
         }
+        /// <summary>
+        /// Initiates GitHub login authentication.
+        /// </summary>
+        /// <returns>A challenge to authenticate with GitHub.</returns>
         [HttpGet("auth/github-login")]
         public IActionResult GithubLogin()
         {
@@ -142,6 +189,11 @@ namespace WebshopWeb.Controllers
             var properties = new AuthenticationProperties { RedirectUri = redirectUrl };
             return Challenge(properties, GitHubAuthenticationDefaults.AuthenticationScheme);
         }
+        /// <summary>
+        /// Handles the external authentication response and processes the user's claims.
+        /// </summary>
+        /// <param name="provider">The provider used for authentication (Google, Facebook, GitHub).</param>
+        /// <returns>A redirect to the home page on success, or a redirect to the login page on failure.</returns>
         [HttpGet("auth/external-response")]
         public async Task<IActionResult> ExternalResponse(string provider)
         {
@@ -224,15 +276,22 @@ namespace WebshopWeb.Controllers
 
             return RedirectToAction("Index", "Home");
         }
-
-
-
+        /// <summary>
+        /// Displays the password reset request view where the user can submit their email.
+        /// </summary>
+        /// <returns>The password reset request view.</returns>
 
         [HttpGet]
         public IActionResult PasswordResetRequest()
         {
             return View();
         }
+        /// <summary>
+        /// Handles the POST request for password reset by generating a verification code and sending it to the user's email.
+        /// </summary>
+        /// <param name="email">The email address submitted by the user.</param>
+        /// <param name="code">The verification code submitted by the user (if applicable).</param>
+        /// <returns>A view to verify the code or an error message if the user is not found.</returns>
         [HttpPost]
         public async Task<IActionResult> PasswordResetRequest(string email,string code)
         {
@@ -255,11 +314,22 @@ namespace WebshopWeb.Controllers
             TempData["Error"] = "Nincs ezzel az email címmel regisztrált felhasználó.";
             return View();
         }
+        /// <summary>
+        /// Displays the view to enter the verification code sent to the user's email.
+        /// </summary>
+        /// <param name="model">The model containing the user's email for verification.</param>
+        /// <returns>The view to verify the code.</returns>
         [HttpGet]
         public IActionResult VerifyCode(ForgotPasswordViewModel model)
         {      
             return View(model.Email);
         }
+        /// <summary>
+        /// Verifies the code entered by the user. If the code is valid, allows password reset.
+        /// </summary>
+        /// <param name="email">The email address associated with the user.</param>
+        /// <param name="code">The verification code submitted by the user.</param>
+        /// <returns>A view to reset the password or an error message if the code is invalid or expired.</returns>
         [HttpPost]
         public async Task<IActionResult> VerifyCode(string email, string code)
         {
@@ -277,6 +347,11 @@ namespace WebshopWeb.Controllers
             TempData["Error"] = "Nincs ezzel az email címmel regisztrált felhasználó.";
             return View();
         }
+        /// <summary>
+        /// Displays the password reset form where the user can set a new password.
+        /// </summary>
+        /// <param name="email">The email address associated with the user requesting the password reset.</param>
+        /// <returns>The password reset view.</returns>
         [HttpGet]
         public IActionResult ResetPassword(string email)
         {

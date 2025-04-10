@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity.UI.Services;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Text.RegularExpressions;
 using Webshop.EntityFramework;
 using Webshop.EntityFramework.Data;
@@ -12,7 +11,10 @@ using Webshop.Services.Services.ViewModel;
 
 namespace WebshopWeb.Controllers
 {
-
+    /// <summary>
+    /// Controller for managing the order process in the webshop.
+    /// Includes functionality for confirming, placing orders, and handling customer details.
+    /// </summary>
     public class OrderController : Controller
     {
         
@@ -24,6 +26,17 @@ namespace WebshopWeb.Controllers
         private IConfiguration _config;
         private IWebHostEnvironment _webHostEnvironment;
         private readonly IEmailService emailSender;
+        /// <summary>
+        /// Initializes a new instance of the OrderController.
+        /// </summary>
+        /// <param name="cartManager">Service for managing the shopping cart.</param>
+        /// <param name="productManager">Service for managing products.</param>
+        /// <param name="orderManager">Service for managing orders.</param>
+        /// <param name="context">Database context for accessing data.</param>
+        /// <param name="userManager">Service for managing users.</param>
+        /// <param name="config">Configuration settings.</param>
+        /// <param name="webHostEnvironment">Web hosting environment for file storage.</param>
+        /// <param name="emailSender">Service for sending emails.</param>
         public OrderController(ICartManager cartManager, IProductManager productManager, IOrderManager orderManager, GlobalDbContext context, IUserManager userManager, IConfiguration config, IWebHostEnvironment webHostEnvironment, IEmailService emailSender)
         {
             this.cartManager = cartManager;
@@ -35,7 +48,10 @@ namespace WebshopWeb.Controllers
             _webHostEnvironment = webHostEnvironment;
             this.emailSender = emailSender;
         }
-
+        /// <summary>
+        /// Displays the details of the current user's account and shipping address.
+        /// </summary>
+        /// <returns>The view displaying user details.</returns>
         public IActionResult Details()
         {
             var userId = HttpContext.Session.GetInt32("UserId").Value;
@@ -43,6 +59,13 @@ namespace WebshopWeb.Controllers
             _context.Entry(user).Reference(u => u.Address).Load();
             return View(user);
         }
+        /// <summary>
+        /// Confirms the order, processes cart items, updates stock, and creates an order.
+        /// Sends a confirmation email to the user.
+        /// </summary>
+        /// <param name="shipping">The selected shipping option.</param>
+        /// <param name="payment">The selected payment option.</param>
+        /// <returns>A view displaying the order confirmation.</returns>
         public IActionResult Confirm(string shipping, string payment)
         {
             Orders order = new Orders();
@@ -84,6 +107,12 @@ namespace WebshopWeb.Controllers
             SendEmail(order,user.EmailAddress);
             return View();
         }
+        /// <summary>
+        /// Places an order and displays the order summary for the user.
+        /// </summary>
+        /// <param name="shipping">The shipping option chosen by the user.</param>
+        /// <param name="payment">The payment option chosen by the user.</param>
+        /// <returns>A view displaying the order summary.</returns>
         public IActionResult PlaceOrder(string shipping, string payment)
         {
             var cartId = HttpContext.Session.GetInt32("CartId").Value;
@@ -118,6 +147,14 @@ namespace WebshopWeb.Controllers
 
             return View(model);
         }
+        /// <summary>
+        /// Records the user's shipping address.
+        /// </summary>
+        /// <param name="name">The name of the user.</param>
+        /// <param name="city">The city part of the address.</param>
+        /// <param name="zip">The zip code of the address.</param>
+        /// <param name="street">The street address.</param>
+        /// <returns>Redirects to the user's details page after saving the address.</returns>
         [HttpPost]
         public IActionResult RecordAddress(string name, string city, string zip, string street)
         {
@@ -136,6 +173,12 @@ namespace WebshopWeb.Controllers
             var cartId=HttpContext.Session.GetInt32("CartId").Value; 
             return RedirectToAction("Details");
         }
+        /// <summary>
+        /// Sends an email to the user confirming their order.
+        /// </summary>
+        /// <param name="order">The order details.</param>
+        /// <param name="email">The email address of the user.</param>
+        /// <returns>A task representing the asynchronous operation.</returns>
         public async Task SendEmail(Orders order, string email)
         {
             await emailSender.SendOrderEmailAsync(order, email);
