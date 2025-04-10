@@ -37,7 +37,13 @@ namespace Webshop.EntityFramework
         /// Items of an order. This is a help table.
         /// </summary>
         public DbSet<OrderItem> OrderItems { get; set; }
+        /// <summary>
+        /// Address table
+        /// </summary>
         public DbSet<Address> Addresses { get; set; }
+        /// <summary>
+        /// Reviews table
+        /// </summary>
         public DbSet<Review> Reviews { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

@@ -99,7 +99,7 @@
                                 {
                                     <h5 class="color-red">Hamarosan</h5>
                                 }
-                                else if (product.Quanity < 1)
+                                else if (product.Quantity < 1)
                                 {
                                     <h5 class="color-red">@product.Price.ToString("N0") ft (Nincs raktáron)</h5>
                                 }
@@ -110,7 +110,7 @@
                             </div>
                         </a>
                        
-                        @if (product.Quanity > 0)
+                        @if (product.Quantity > 0)
                         {
                             <button data-product-id="@product.Id" class="add-to-cart add-to-cart-btn">Kosárhoz adás</button>
                         }

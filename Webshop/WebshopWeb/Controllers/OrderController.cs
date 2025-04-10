@@ -56,12 +56,12 @@ namespace WebshopWeb.Controllers
             {
                 
                 var product=productManager.GetProduct(item.ProductId);
-                product.Quanity-=item.Quanity;
+                product.Quantity -=item.Quantity;
                 _context.StorageData.Update(product);
                 var orderItem = new OrderItem
                 {
                     ProductId = item.ProductId,
-                    Quantity = item.Quanity,
+                    Quantity = item.Quantity,
                     Price = item.Product.Price,
 
                 };
@@ -111,9 +111,9 @@ namespace WebshopWeb.Controllers
                     Name = item.Product.ProductName,
                     ImageUrl = item.Product.ImageData,
                     Price = item.Product.Price,
-                    Quantity = item.Quanity
+                    Quantity = item.Quantity
                 }).ToList(),
-                TotalPrice = cart.CartItems.Sum(item => item.Product.Price * item.Quanity)+paymentPrice+shipmentPrice 
+                TotalPrice = cart.CartItems.Sum(item => item.Product.Price * item.Quantity)+paymentPrice+shipmentPrice 
             };
 
             return View(model);

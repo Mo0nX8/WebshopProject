@@ -54,7 +54,7 @@ namespace WebshopWeb.Controllers
 
             if(cartitem!=null)
             {
-                cartitem.Quanity=newQuanity;
+                cartitem.Quantity =newQuanity;
                 cartManager.SaveCart(user.Cart.Id);
                 return Ok();
             }

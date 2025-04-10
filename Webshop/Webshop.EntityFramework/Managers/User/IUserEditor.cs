@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Webshop.EntityFramework.Data;
+﻿using Webshop.EntityFramework.Data;
 
 namespace Webshop.EntityFramework.Managers.User
 {
@@ -15,7 +10,7 @@ namespace Webshop.EntityFramework.Managers.User
         /// <summary>
         /// This method requires an user as parameter. It updates the specified user's data in the database.
         /// </summary>
-        /// <param name="user"></param>
+        /// <param name="user">The user object which should be updated.</param>
         void UpdateUser(UserData user);
     }
 }

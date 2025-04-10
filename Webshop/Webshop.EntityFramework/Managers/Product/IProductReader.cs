@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Webshop.EntityFramework.Data;
+﻿using Webshop.EntityFramework.Data;
 
 namespace Webshop.EntityFramework.Managers.Product
 {
@@ -18,6 +13,10 @@ namespace Webshop.EntityFramework.Managers.Product
         /// <param name="id"></param>
         /// <returns></returns>
         Products GetProduct(int id);
+        /// <summary>
+        /// Retrieves all products from the database.
+        /// </summary>
+        /// <returns>IQueryable products collection.</returns>
         IQueryable<Products> GetProducts();
     }
 }

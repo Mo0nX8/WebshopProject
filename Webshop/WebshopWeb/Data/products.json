@@ -1,7 +1,7 @@
 [
   {
     "ProductName": "Asus ROG Delta S",
-    "Quanity": "70",
+    "Quantity": "70",
     "Price": "45990",
     "Tags": [
       "Gaming",
@@ -18,7 +18,7 @@
   },
   {
     "ProductName": "Asus TUF Gaming H3",
-    "Quanity": "69",
+    "Quantity": "69",
     "Price": "18990",
     "Tags": [
       "Gaming",
@@ -34,7 +34,7 @@
   },
   {
     "ProductName": "Marshall Major IV",
-    "Quanity": "44",
+    "Quantity": "44",
     "Price": "37990",
     "Tags": [
       "Hordozható",
@@ -50,7 +50,7 @@
   },
   {
     "ProductName": "Razer Kraken V3",
-    "Quanity": "64",
+    "Quantity": "64",
     "Price": "39990",
     "Tags": [
       "Gaming",
@@ -66,7 +66,7 @@
   },
   {
     "ProductName": "Razer BlackShark V2",
-    "Quanity": "70",
+    "Quantity": "70",
     "Price": "54990",
     "Tags": [
       "Gaming",
@@ -82,7 +82,7 @@
   },
   {
     "ProductName": "Sony WH-1000XM5",
-    "Quanity": "82",
+    "Quantity": "82",
     "Price": "179990",
     "Tags": [
       "Hordozható",
@@ -98,7 +98,7 @@
   },
   {
     "ProductName": "Sony WH-CH710N",
-    "Quanity": "38",
+    "Quantity": "38",
     "Price": "39990",
     "Tags": [
       "Hordozható",
@@ -114,7 +114,7 @@
   },
   {
     "ProductName": "Aula S608",
-    "Quanity": "29",
+    "Quantity": "29",
     "Price": "8990",
     "Tags": [
       "Gaming",
@@ -130,7 +130,7 @@
   },
   {
     "ProductName": "Asus ROG Strix Fusion 500",
-    "Quanity": "26",
+    "Quantity": "26",
     "Price": "43990",
     "Tags": [
       "Gaming",
@@ -146,7 +146,7 @@
   },
   {
     "ProductName": "Asus ROG Theta 7.1",
-    "Quanity": "91",
+    "Quantity": "91",
     "Price": "69990",
     "Tags": [
       "Gaming",
@@ -162,7 +162,7 @@
   },
   {
     "ProductName": "Marshall Mode EQ",
-    "Quanity": "31",
+    "Quantity": "31",
     "Price": "14990",
     "Tags": [
       "Hordozható",
@@ -178,7 +178,7 @@
   },
   {
     "ProductName": "Marshall Kilburn II",
-    "Quanity": "64",
+    "Quantity": "64",
     "Price": "49990",
     "Tags": [
       "Hordozható",
@@ -194,7 +194,7 @@
   },
   {
     "ProductName": "Razer Nari Ultimate",
-    "Quanity": "7",
+    "Quantity": "7",
     "Price": "69990",
     "Tags": [
       "Hordozható",
@@ -210,7 +210,7 @@
   },
   {
     "ProductName": "Razer Opus",
-    "Quanity": "79",
+    "Quantity": "79",
     "Price": "47990",
     "Tags": [
       "Hordozható",
@@ -226,7 +226,7 @@
   },
   {
     "ProductName": "Sony MDR-7506",
-    "Quanity": "81",
+    "Quantity": "81",
     "Price": "39990",
     "Tags": [
       "Hordozható",
@@ -242,7 +242,7 @@
   },
   {
     "ProductName": "Sony WH-XB900N",
-    "Quanity": "31",
+    "Quantity": "31",
     "Price": "49990",
     "Tags": [
       "Hordozható",
@@ -258,7 +258,7 @@
   },
   {
     "ProductName": "Asus ROG Centurion 7.1",
-    "Quanity": "23",
+    "Quantity": "23",
     "Price": "59990",
     "Tags": [
       "Hordozható",
@@ -274,7 +274,7 @@
   },
   {
     "ProductName": "Asus ROG Strix Go 2.4",
-    "Quanity": "100",
+    "Quantity": "100",
     "Price": "39990",
     "Tags": [
       "Hordozható",
@@ -290,7 +290,7 @@
   },
   {
     "ProductName": "Marshall Major III Bluetooth",
-    "Quanity": "0",
+    "Quantity": "0",
     "Price": "34990",
     "Tags": [
       "Hordozható",
@@ -306,7 +306,7 @@
   },
   {
     "ProductName": "Marshall Mid Bluetooth",
-    "Quanity": "110",
+    "Quantity": "110",
     "Price": "44990",
     "Tags": [
       "Hordozható",
@@ -322,7 +322,7 @@
   },
   {
     "ProductName": "Razer Kraken Tournament Edition",
-    "Quanity": "77",
+    "Quantity": "77",
     "Price": "29990",
     "Tags": [
       "Hordozható",
@@ -338,7 +338,7 @@
   },
   {
     "ProductName": "Razer Barracuda X",
-    "Quanity": "15",
+    "Quantity": "15",
     "Price": "22990",
     "Tags": [
       "Hordozható",
@@ -354,7 +354,7 @@
   },
   {
     "ProductName": "Sony WH-1000XM4",
-    "Quanity": "46",
+    "Quantity": "46",
     "Price": "129990",
     "Tags": [
       "Hordozható",
@@ -370,7 +370,7 @@
   },
   {
     "ProductName": "Sony MDR-XB950N1",
-    "Quanity": "49",
+    "Quantity": "49",
     "Price": "44990",
     "Tags": [
       "Hordozható",
@@ -386,7 +386,7 @@
   },
   {
     "ProductName": "ASUS ROG Falchion Cherry MX Red HUN (90MP01Y0-BKHA01/FALCHION/RD/HU)",
-    "Quanity": "55",
+    "Quantity": "55",
     "Price": "41590",
     "Tags": [
       "billentyuzet",
@@ -404,7 +404,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming K1 HU (90MP01X0-BKHA00)",
-    "Quanity": "24",
+    "Quantity": "24",
     "Price": "24990",
     "Tags": [
       "billentyuzet",
@@ -422,7 +422,7 @@
   },
   {
     "ProductName": "ASUS ROG Strix Scope II 96",
-    "Quanity": "25",
+    "Quantity": "25",
     "Price": "73400",
     "Tags": [
       "billentyuzet",
@@ -440,7 +440,7 @@
   },
   {
     "ProductName": "ASUS ROG Claymore II RGB RX HU (90MP01W0-BKHA00)",
-    "Quanity": "45",
+    "Quantity": "45",
     "Price": "115500",
     "Tags": [
       "billentyuzet",
@@ -458,7 +458,7 @@
   },
   {
     "ProductName": "ASUS ROG Azoth M701 (AZOTH/NXRD/HU)",
-    "Quanity": "29",
+    "Quantity": "29",
     "Price": "83190",
     "Tags": [
       "billentyuzet",
@@ -476,7 +476,7 @@
   },
   {
     "ProductName": "ASUS KW100 (90XB0880-BKB040)",
-    "Quanity": "7",
+    "Quantity": "7",
     "Price": "14190",
     "Tags": [
       "billentyuzet",
@@ -494,7 +494,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming K3 II RO (90MP0390-BKHA00)",
-    "Quanity": "0",
+    "Quantity": "0",
     "Price": "34990",
     "Tags": [
       "billentyuzet",
@@ -512,7 +512,7 @@
   },
   {
     "ProductName": "ASUS ROG Azoth Extreme Hot-Swappable (90MP03MA-BKUA01)",
-    "Quanity": "8",
+    "Quantity": "8",
     "Price": "233190",
     "Tags": [
       "billentyuzet",
@@ -530,7 +530,7 @@
   },
   {
     "ProductName": "Logitech MX Keys S (920-011587-HU)",
-    "Quanity": "46",
+    "Quantity": "46",
     "Price": "42990",
     "Tags": [
       "billentyuzet",
@@ -548,7 +548,7 @@
   },
   {
     "ProductName": "Logitech K400 Plus HU (920-007157)",
-    "Quanity": "56",
+    "Quantity": "56",
     "Price": "22900",
     "Tags": [
       "billentyuzet",
@@ -566,7 +566,7 @@
   },
   {
     "ProductName": "Logitech MX Keys S (920-011589)",
-    "Quanity": "15",
+    "Quantity": "15",
     "Price": "42990",
     "Tags": [
       "billentyuzet",
@@ -584,7 +584,7 @@
   },
   {
     "ProductName": "Logitech G PRO GX Clicky (920-009392)",
-    "Quanity": "40",
+    "Quantity": "40",
     "Price": "45990",
     "Tags": [
       "billentyuzet",
@@ -602,7 +602,7 @@
   },
   {
     "ProductName": "Logitech K120 HU (920-002491)",
-    "Quanity": "77",
+    "Quantity": "77",
     "Price": "7690",
     "Tags": [
       "billentyuzet",
@@ -620,7 +620,7 @@
   },
   {
     "ProductName": "Logitech G915 TKL GL Tactile US (920-009503)",
-    "Quanity": "0",
+    "Quantity": "0",
     "Price": "59900",
     "Tags": [
       "billentyuzet",
@@ -638,7 +638,7 @@
   },
   {
     "ProductName": "Logitech G Pro X TKL (920-012148)",
-    "Quanity": "93",
+    "Quantity": "93",
     "Price": "74890",
     "Tags": [
       "billentyuzet",
@@ -656,7 +656,7 @@
   },
   {
     "ProductName": "Genius Scorpion K215",
-    "Quanity": "50",
+    "Quantity": "50",
     "Price": "5390",
     "Tags": [
       "billentyuzet",
@@ -674,7 +674,7 @@
   },
   {
     "ProductName": "Genius SlimStar 126 HU (31310017404)",
-    "Quanity": "16",
+    "Quantity": "16",
     "Price": "3490",
     "Tags": [
       "billentyuzet",
@@ -692,7 +692,7 @@
   },
   {
     "ProductName": "Genius Scorpion K11 Pro (31310007403)",
-    "Quanity": "92",
+    "Quantity": "92",
     "Price": "8400",
     "Tags": [
       "billentyuzet",
@@ -710,7 +710,7 @@
   },
   {
     "ProductName": "Genius GW470KB",
-    "Quanity": "42",
+    "Quantity": "42",
     "Price": "7400",
     "Tags": [
       "billentyuzet",
@@ -728,7 +728,7 @@
   },
   {
     "ProductName": "Genius KB-117 HU (31310016404)",
-    "Quanity": "42",
+    "Quantity": "42",
     "Price": "3190",
     "Tags": [
       "billentyuzet",
@@ -746,7 +746,7 @@
   },
   {
     "ProductName": "Genius Slimstar 280 HU (31310012414)",
-    "Quanity": "23",
+    "Quantity": "23",
     "Price": "3640",
     "Tags": [
       "billentyuzet",
@@ -764,7 +764,7 @@
   },
   {
     "ProductName": "SteelSeries Apex Pro Mini (64820)",
-    "Quanity": "27",
+    "Quantity": "27",
     "Price": "87990",
     "Tags": [
       "billentyuzet",
@@ -782,7 +782,7 @@
   },
   {
     "ProductName": "AOC 24B2XHM2",
-    "Quanity": "0",
+    "Quantity": "0",
     "Price": "37860",
     "Tags": [
       "monitor"
@@ -796,7 +796,7 @@
   },
   {
     "ProductName": "AOC 24B2XH",
-    "Quanity": "84",
+    "Quantity": "84",
     "Price": "37860",
     "Tags": [
       "monitor"
@@ -810,7 +810,7 @@
   },
   {
     "ProductName": "AOC 25G3ZM/BK",
-    "Quanity": "50",
+    "Quantity": "50",
     "Price": "78990",
     "Tags": [
       "monitor"
@@ -824,7 +824,7 @@
   },
   {
     "ProductName": "AOC C27G2ZE",
-    "Quanity": "93",
+    "Quantity": "93",
     "Price": "85390",
     "Tags": [
       "monitor"
@@ -838,7 +838,7 @@
   },
   {
     "ProductName": "AOC C27G2Z3/BK",
-    "Quanity": "22",
+    "Quantity": "22",
     "Price": "96869",
     "Tags": [
       "monitor"
@@ -852,7 +852,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming VG249Q3A",
-    "Quanity": "93",
+    "Quantity": "93",
     "Price": "57190",
     "Tags": [
       "monitor"
@@ -866,7 +866,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming VG249QL3A",
-    "Quanity": "103",
+    "Quantity": "103",
     "Price": "76490",
     "Tags": [
       "monitor"
@@ -880,7 +880,7 @@
   },
   {
     "ProductName": "ASUS ProArt Display PA248QV",
-    "Quanity": "44",
+    "Quantity": "44",
     "Price": "84940",
     "Tags": [
       "monitor"
@@ -894,7 +894,7 @@
   },
   {
     "ProductName": "ASUS VA279HAL",
-    "Quanity": "97",
+    "Quantity": "97",
     "Price": "87984",
     "Tags": [
       "monitor"
@@ -908,7 +908,7 @@
   },
   {
     "ProductName": "ASUS VZ24EHF",
-    "Quanity": "93",
+    "Quantity": "93",
     "Price": "48207",
     "Tags": [
       "monitor"
@@ -922,7 +922,7 @@
   },
   {
     "ProductName": "Samsung Odyssey LS24AG300NRXEN",
-    "Quanity": "25",
+    "Quantity": "25",
     "Price": "49990",
     "Tags": [
       "monitor"
@@ -936,7 +936,7 @@
   },
   {
     "ProductName": "Samsung Odyssey G5 LC34G55TWWPXEN",
-    "Quanity": "23",
+    "Quantity": "23",
     "Price": "134999",
     "Tags": [
       "monitor"
@@ -950,7 +950,7 @@
   },
   {
     "ProductName": "Samsung Odyssey G5 LS27CG510EUXEN",
-    "Quanity": "99",
+    "Quantity": "99",
     "Price": "82999",
     "Tags": [
       "monitor"
@@ -964,7 +964,7 @@
   },
   {
     "ProductName": "Samsung Odyssey G5 G55A 27 QHD",
-    "Quanity": "17",
+    "Quantity": "17",
     "Price": "79999",
     "Tags": [
       "monitor"
@@ -978,7 +978,7 @@
   },
   {
     "ProductName": "Samsung Odyssey OLED G6 S27DG610SU",
-    "Quanity": "102",
+    "Quantity": "102",
     "Price": "281930",
     "Tags": [
       "monitor"
@@ -992,7 +992,7 @@
   },
   {
     "ProductName": "ASUS ROG Harpe Ace Aim Lab Edition (90MP02W0-BMUA00)",
-    "Quanity": "97",
+    "Quantity": "97",
     "Price": "44310",
     "Tags": [
       "egér",
@@ -1011,7 +1011,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming M4 WL (90MP02F0-BMUA00)",
-    "Quanity": "27",
+    "Quantity": "27",
     "Price": "14490",
     "Tags": [
       "egér",
@@ -1030,7 +1030,7 @@
   },
   {
     "ProductName": "ASUS ROG Gladius III Wireless AimPoint Black (90MP02Y0-BMUA00)",
-    "Quanity": "83",
+    "Quantity": "83",
     "Price": "43990",
     "Tags": [
       "egér",
@@ -1049,7 +1049,7 @@
   },
   {
     "ProductName": "ASUS MU101C (90XB05RN-BMU000)",
-    "Quanity": "63",
+    "Quantity": "63",
     "Price": "4470",
     "Tags": [
       "egér",
@@ -1067,7 +1067,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming M3 II (90MP0320-BMUA00)",
-    "Quanity": "78",
+    "Quantity": "78",
     "Price": "11990",
     "Tags": [
       "egér",
@@ -1086,7 +1086,7 @@
   },
   {
     "ProductName": "ASUS ROG Chakram X Origin (90MP02N1-BMUA00)",
-    "Quanity": "64",
+    "Quantity": "64",
     "Price": "42990",
     "Tags": [
       "egér",
@@ -1104,7 +1104,7 @@
   },
   {
     "ProductName": "ASUS Rog Spatha X (90MP0220-BMUA00)",
-    "Quanity": "49",
+    "Quantity": "49",
     "Price": "57990",
     "Tags": [
       "egér",
@@ -1123,7 +1123,7 @@
   },
   {
     "ProductName": "ASUS ROG Strix Impact III Wireless (90MP03D0-BMUA00)",
-    "Quanity": "98",
+    "Quantity": "98",
     "Price": "28820",
     "Tags": [
       "egér",
@@ -1142,7 +1142,7 @@
   },
   {
     "ProductName": "ASUS ROG Harpe Ace Aim Extreme",
-    "Quanity": "65",
+    "Quantity": "65",
     "Price": "119900",
     "Tags": [
       "egér",
@@ -1154,7 +1154,7 @@
   },
   {
     "ProductName": "ASUS ROG Gladius III (90MP0270-BMUA00)",
-    "Quanity": "45",
+    "Quantity": "45",
     "Price": "27890",
     "Tags": [
       "egér",
@@ -1172,7 +1172,7 @@
   },
   {
     "ProductName": "Logitech G502 Hero (910-005470)",
-    "Quanity": "55",
+    "Quantity": "55",
     "Price": "28890",
     "Tags": [
       "egér",
@@ -1189,7 +1189,7 @@
   },
   {
     "ProductName": "Logitech G Pro X Superlight 2 (910-006630)",
-    "Quanity": "59",
+    "Quantity": "59",
     "Price": "53990",
     "Tags": [
       "egér",
@@ -1206,7 +1206,7 @@
   },
   {
     "ProductName": "Logitech G305 Lightspeed Black (910-005282)",
-    "Quanity": "23",
+    "Quantity": "23",
     "Price": "20000",
     "Tags": [
       "egér",
@@ -1223,7 +1223,7 @@
   },
   {
     "ProductName": "Logitech MX Master 3S Performance (910-006559)",
-    "Quanity": "42",
+    "Quantity": "42",
     "Price": "36990",
     "Tags": [
       "egér",
@@ -1240,7 +1240,7 @@
   },
   {
     "ProductName": "Logitech G Pro X Superlight (910-005881)",
-    "Quanity": "32",
+    "Quantity": "32",
     "Price": "47990",
     "Tags": [
       "egér",
@@ -1257,7 +1257,7 @@
   },
   {
     "ProductName": "Logitech G102 Lightsync Black (910-005823)",
-    "Quanity": "7",
+    "Quantity": "7",
     "Price": "9560",
     "Tags": [
       "egér",
@@ -1276,7 +1276,7 @@
   },
   {
     "ProductName": "Logitech G203 LightSync Black (910-005796)",
-    "Quanity": "43",
+    "Quantity": "43",
     "Price": "13420",
     "Tags": [
       "egér",
@@ -1295,7 +1295,7 @@
   },
   {
     "ProductName": "Razer Basilisk V3 (RZ01-04000100-R3M1)",
-    "Quanity": "101",
+    "Quantity": "101",
     "Price": "34990",
     "Tags": [
       "egér",
@@ -1312,7 +1312,7 @@
   },
   {
     "ProductName": "Razer Viper V3 Pro (RZ01-05120100-R3G1)",
-    "Quanity": "12",
+    "Quantity": "12",
     "Price": "72990",
     "Tags": [
       "egér",
@@ -1331,7 +1331,7 @@
   },
   {
     "ProductName": "Razer DeathAdder Essential (RZ01-02540100-R3M1)",
-    "Quanity": "29",
+    "Quantity": "29",
     "Price": "9990",
     "Tags": [
       "egér",
@@ -1349,7 +1349,7 @@
   },
   {
     "ProductName": "Razer Viper V3 HyperSpeed (RZ01-04910100-R3M1)",
-    "Quanity": "27",
+    "Quantity": "27",
     "Price": "27500",
     "Tags": [
       "egér",
@@ -1368,7 +1368,7 @@
   },
   {
     "ProductName": "Razer DeathAdder V3 Esport (RZ01-04640100-R3M1)",
-    "Quanity": "41",
+    "Quantity": "41",
     "Price": "24765",
     "Tags": [
       "egér",
@@ -1385,7 +1385,7 @@
   },
   {
     "ProductName": "SteelSeries Rival 3 (62513)",
-    "Quanity": "82",
+    "Quantity": "82",
     "Price": "17900",
     "Tags": [
       "egér",
@@ -1404,7 +1404,7 @@
   },
   {
     "ProductName": "SteelSeries Aerox 3 2022 (62608)",
-    "Quanity": "35",
+    "Quantity": "35",
     "Price": "30000",
     "Tags": [
       "egér",
@@ -1422,7 +1422,7 @@
   },
   {
     "ProductName": "SteelSeries Rival 3 Wireless (62521)",
-    "Quanity": "97",
+    "Quantity": "97",
     "Price": "18180",
     "Tags": [
       "egér",
@@ -1441,7 +1441,7 @@
   },
   {
     "ProductName": "SteelSeries Rival 5 (62551)",
-    "Quanity": "69",
+    "Quantity": "69",
     "Price": "27490",
     "Tags": [
       "egér",
@@ -1460,7 +1460,7 @@
   },
   {
     "ProductName": "SteelSeries Aerox 5 WL (62406)",
-    "Quanity": "108",
+    "Quantity": "108",
     "Price": "46560",
     "Tags": [
       "egér",
@@ -1479,7 +1479,7 @@
   },
   {
     "ProductName": "SteelSeries Aerox 9 (62618)",
-    "Quanity": "41",
+    "Quantity": "41",
     "Price": "42900",
     "Tags": [
       "egér",
@@ -1498,7 +1498,7 @@
   },
   {
     "ProductName": "SteelSeries Aerox 5 USB (62401)",
-    "Quanity": "82",
+    "Quantity": "82",
     "Price": "26990",
     "Tags": [
       "egér",
@@ -1517,7 +1517,7 @@
   },
   {
     "ProductName": "SteelSeries Aerox 3 Onyx (62611)",
-    "Quanity": "37",
+    "Quantity": "37",
     "Price": "19490",
     "Tags": [
       "egér",
@@ -1536,7 +1536,7 @@
   },
   {
     "ProductName": "SteelSeries Prime Mini (62421)",
-    "Quanity": "76",
+    "Quantity": "76",
     "Price": "34990",
     "Tags": [
       "egér",
@@ -1555,7 +1555,7 @@
   },
   {
     "ProductName": "Genius NX-7015 (31030019400/31030119100)",
-    "Quanity": "46",
+    "Quantity": "46",
     "Price": "3190",
     "Tags": [
       "egér",
@@ -1574,7 +1574,7 @@
   },
   {
     "ProductName": "Genius DX-110 USB (31010116107/31010116100)",
-    "Quanity": "37",
+    "Quantity": "37",
     "Price": "1260",
     "Tags": [
       "egér",
@@ -1593,7 +1593,7 @@
   },
   {
     "ProductName": "Genius DX-150X (31010231103/31010231100)",
-    "Quanity": "86",
+    "Quantity": "86",
     "Price": "1790",
     "Tags": [
       "egér",
@@ -1612,7 +1612,7 @@
   },
   {
     "ProductName": "Genius DX-110 PS/2 (31010116108)",
-    "Quanity": "39",
+    "Quantity": "39",
     "Price": "1590",
     "Tags": [
       "egér",
@@ -1630,7 +1630,7 @@
   },
   {
     "ProductName": "Apple Magic Mouse 3 (MK2E3ZM/A)",
-    "Quanity": "22",
+    "Quantity": "22",
     "Price": "33990",
     "Tags": [
       "egér",
@@ -1649,7 +1649,7 @@
   },
   {
     "ProductName": "Apple Magic Mouse 2024 (MXK63ZM/A)",
-    "Quanity": "66",
+    "Quantity": "66",
     "Price": "32650",
     "Tags": [
       "egér",
@@ -1667,7 +1667,7 @@
   },
   {
     "ProductName": "SteelSeries QcK XXL (67500)",
-    "Quanity": "16",
+    "Quantity": "16",
     "Price": "20000",
     "Tags": [
       "egérpad",
@@ -1682,7 +1682,7 @@
   },
   {
     "ProductName": "SteelSeries Qck Heavy Large (63008)",
-    "Quanity": "2",
+    "Quantity": "2",
     "Price": "12790",
     "Tags": [
       "egérpad",
@@ -1697,7 +1697,7 @@
   },
   {
     "ProductName": "SteelSeries QcK (63004)",
-    "Quanity": "39",
+    "Quantity": "39",
     "Price": "10790",
     "Tags": [
       "egérpad",
@@ -1712,7 +1712,7 @@
   },
   {
     "ProductName": "SteelSeries QcK+ Pro Gaming (63003)",
-    "Quanity": "29",
+    "Quantity": "29",
     "Price": "6790",
     "Tags": [
       "egérpad",
@@ -1727,7 +1727,7 @@
   },
   {
     "ProductName": "SteelSeries QCK Edge XL (63824)",
-    "Quanity": "25",
+    "Quantity": "25",
     "Price": "12190",
     "Tags": [
       "egérpad",
@@ -1742,7 +1742,7 @@
   },
   {
     "ProductName": "SteelSeries QCK Prism Cloth XL (63826)",
-    "Quanity": "37",
+    "Quantity": "37",
     "Price": "19400",
     "Tags": [
       "egérpad",
@@ -1757,7 +1757,7 @@
   },
   {
     "ProductName": "SteelSeries QCK 3XL (63842)",
-    "Quanity": "49",
+    "Quantity": "49",
     "Price": "19800",
     "Tags": [
       "egérpad",
@@ -1772,7 +1772,7 @@
   },
   {
     "ProductName": "ASUS ROG Sheath Black (90MP00K3-B0UA00)",
-    "Quanity": "59",
+    "Quantity": "59",
     "Price": "13590",
     "Tags": [
       "egérpad",
@@ -1787,7 +1787,7 @@
   },
   {
     "ProductName": "ASUS ROG Strix Edge Vertical (90MP00T0-B0UA00)",
-    "Quanity": "21",
+    "Quantity": "21",
     "Price": "8499",
     "Tags": [
       "egérpad",
@@ -1802,7 +1802,7 @@
   },
   {
     "ProductName": "ASUS ROG Sheath (90MP00K1-B0UA00)",
-    "Quanity": "40",
+    "Quantity": "40",
     "Price": "13190",
     "Tags": [
       "egérpad",
@@ -1817,7 +1817,7 @@
   },
   {
     "ProductName": "ASUS ROG Hone Ace XXL (90MP03G0-BPUA00)",
-    "Quanity": "30",
+    "Quantity": "30",
     "Price": "21690",
     "Tags": [
       "egérpad",
@@ -1832,7 +1832,7 @@
   },
   {
     "ProductName": "ASUS ROG Scabbard II (90MP0210-BPUA00)",
-    "Quanity": "105",
+    "Quantity": "105",
     "Price": "12890",
     "Tags": [
       "egérpad",
@@ -1847,7 +1847,7 @@
   },
   {
     "ProductName": "ASUS NC13 TUF Gaming P1 (90MP02G0-BPUA00)",
-    "Quanity": "82",
+    "Quantity": "82",
     "Price": "3590",
     "Tags": [
       "egérpad",
@@ -1862,7 +1862,7 @@
   },
   {
     "ProductName": "ASUS Hone Ace Aim Lab Edition (90MP0380-BPUA00)",
-    "Quanity": "91",
+    "Quantity": "91",
     "Price": "8290",
     "Tags": [
       "egérpad",
@@ -1877,7 +1877,7 @@
   },
   {
     "ProductName": "ASUS ROG Balteus Qi RGB (90MP0120-B0UA00)",
-    "Quanity": "105",
+    "Quantity": "105",
     "Price": "29900",
     "Tags": [
       "egérpad",
@@ -1892,7 +1892,7 @@
   },
   {
     "ProductName": "ASUS ROG Balteus RGB (90MP0110-B0UA00)",
-    "Quanity": "95",
+    "Quantity": "95",
     "Price": "29990",
     "Tags": [
       "egérpad",
@@ -1907,7 +1907,7 @@
   },
   {
     "ProductName": "ASUS ROG Moonstone Ace L Black",
-    "Quanity": "85",
+    "Quantity": "85",
     "Price": "20000",
     "Tags": [
       "egérpad",
@@ -1922,7 +1922,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming P3 90MP01C0-B0UA00",
-    "Quanity": "109",
+    "Quantity": "109",
     "Price": "45400",
     "Tags": [
       "egérpad",
@@ -1937,7 +1937,7 @@
   },
   {
     "ProductName": "ASUS ROG Scabbard II Medium (90MP02H0-BPUA00)",
-    "Quanity": "102",
+    "Quantity": "102",
     "Price": "9440",
     "Tags": [
       "egérpad",
@@ -1952,7 +1952,7 @@
   },
   {
     "ProductName": "Corsair MM700 RGB (CH-9417070)",
-    "Quanity": "87",
+    "Quantity": "87",
     "Price": "25550",
     "Tags": [
       "egérpad",
@@ -1967,7 +1967,7 @@
   },
   {
     "ProductName": "Corsair MM350 PRO Extended XL (CH-9413771)",
-    "Quanity": "65",
+    "Quantity": "65",
     "Price": "12990",
     "Tags": [
       "egérpad",
@@ -1982,7 +1982,7 @@
   },
   {
     "ProductName": "Corsair MM200 PRO Premium CH-9412660",
-    "Quanity": "106",
+    "Quantity": "106",
     "Price": "9990",
     "Tags": [
       "egérpad",
@@ -1997,7 +1997,7 @@
   },
   {
     "ProductName": "Corsair CH-9413520",
-    "Quanity": "89",
+    "Quantity": "89",
     "Price": "5990",
     "Tags": [
       "egérpad",
@@ -2012,7 +2012,7 @@
   },
   {
     "ProductName": "Corsair MM300 Pro Extended (CH-9413641-WW)",
-    "Quanity": "108",
+    "Quantity": "108",
     "Price": "11410",
     "Tags": [
       "egérpad",
@@ -2027,7 +2027,7 @@
   },
   {
     "ProductName": "Corsair CH-9417080-WW",
-    "Quanity": "81",
+    "Quantity": "81",
     "Price": "29590",
     "Tags": [
       "egérpad",
@@ -2042,7 +2042,7 @@
   },
   {
     "ProductName": "Corsair Elgato 10GAV9901",
-    "Quanity": "1",
+    "Quantity": "1",
     "Price": "12500",
     "Tags": [
       "egérpad",
@@ -2057,7 +2057,7 @@
   },
   {
     "ProductName": "Corsair MM250 XL (CH-9412560-WW)",
-    "Quanity": "5",
+    "Quantity": "5",
     "Price": "20000",
     "Tags": [
       "egérpad",
@@ -2072,7 +2072,7 @@
   },
   {
     "ProductName": "Corsair MM350 PRO Premium Extended XL (CH-9413770)",
-    "Quanity": "89",
+    "Quantity": "89",
     "Price": "7990",
     "Tags": [
       "egérpad",
@@ -2087,7 +2087,7 @@
   },
   {
     "ProductName": "Corsair MM800 Polaris RGB (CH-9440020-EU)",
-    "Quanity": "52",
+    "Quantity": "52",
     "Price": "15490",
     "Tags": [
       "egérpad",
@@ -2102,7 +2102,7 @@
   },
   {
     "ProductName": "Microsoft Xbox Series X/S Wireless Kontroller - Deep Pink",
-    "Quanity": "69",
+    "Quantity": "69",
     "Price": "21940",
     "Tags": [
       "játékvezérlő",
@@ -2117,7 +2117,7 @@
   },
   {
     "ProductName": "Xbox Elite Wireless Kontroller Series 2",
-    "Quanity": "76",
+    "Quantity": "76",
     "Price": "58800",
     "Tags": [
       "játékvezérlő",
@@ -2133,7 +2133,7 @@
   },
   {
     "ProductName": "PDP Xbox Series X/S Wired Kontroller",
-    "Quanity": "3",
+    "Quantity": "3",
     "Price": "13980",
     "Tags": [
       "játékvezérlő",
@@ -2148,7 +2148,7 @@
   },
   {
     "ProductName": "Microsoft Xbox Series X/S Wireless Kontroller - Fehér",
-    "Quanity": "60",
+    "Quantity": "60",
     "Price": "21170",
     "Tags": [
       "játékvezérlő",
@@ -2164,7 +2164,7 @@
   },
   {
     "ProductName": "Microsoft Xbox Series X/S Wireless Kontroller - Black",
-    "Quanity": "39",
+    "Quantity": "39",
     "Price": "22481",
     "Tags": [
       "játékvezérlő",
@@ -2180,7 +2180,7 @@
   },
   {
     "ProductName": "NACON Revolution Pro Wired Kontroller",
-    "Quanity": "82",
+    "Quantity": "82",
     "Price": "29999",
     "Tags": [
       "játékvezérlő",
@@ -2195,7 +2195,7 @@
   },
   {
     "ProductName": "OEM DualShock 4 V2 Kontroller",
-    "Quanity": "100",
+    "Quantity": "100",
     "Price": "8597",
     "Tags": [
       "játékvezérlő",
@@ -2209,7 +2209,7 @@
   },
   {
     "ProductName": "Sony DualShock 4 V2 Wireless Kontroller",
-    "Quanity": "20",
+    "Quantity": "20",
     "Price": "20600",
     "Tags": [
       "játékvezérlő",
@@ -2223,7 +2223,7 @@
   },
   {
     "ProductName": "Kingston NV3 1TB (SNV3S/1000G)",
-    "Quanity": "97",
+    "Quantity": "97",
     "Price": "23000",
     "Tags": [
       "Kingston",
@@ -2253,7 +2253,7 @@
   },
   {
     "ProductName": "Samsung 980 PRO 1TB M.2 (MZ-V8P1T0BW)",
-    "Quanity": "97",
+    "Quantity": "97",
     "Price": "47990",
     "Tags": [
       "Samsung",
@@ -2284,7 +2284,7 @@
   },
   {
     "ProductName": "Samsung 990 PRO 2TB M.2 (MZ-V9P2T0BW)",
-    "Quanity": "51",
+    "Quantity": "51",
     "Price": "66890",
     "Tags": [
       "Samsung",
@@ -2315,7 +2315,7 @@
   },
   {
     "ProductName": "Samsung 990 PRO 1TB M.2 NVMe (MZ-V9P1T0BW)",
-    "Quanity": "79",
+    "Quantity": "79",
     "Price": "47090",
     "Tags": [
       "Samsung",
@@ -2346,7 +2346,7 @@
   },
   {
     "ProductName": "Kingston FURY Renegade 1TB M.2 PCIe NVMe (SFYRS/1000G)",
-    "Quanity": "105",
+    "Quantity": "105",
     "Price": "35690",
     "Tags": [
       "Kingston",
@@ -2376,7 +2376,7 @@
   },
   {
     "ProductName": "Kingston NV3 2TB (SNV3S/2000G)",
-    "Quanity": "8",
+    "Quantity": "8",
     "Price": "47100",
     "Tags": [
       "Kingston",
@@ -2403,7 +2403,7 @@
   },
   {
     "ProductName": "Western Digital Blue SN580 1TB M.2 (WDS100T3B0E)",
-    "Quanity": "95",
+    "Quantity": "95",
     "Price": "25250",
     "Tags": [
       "Western Digital",
@@ -2431,7 +2431,7 @@
   },
   {
     "ProductName": "Kingston FURY Renegade 2TB M.2 PCIe (SFYRD/2000G)",
-    "Quanity": "81",
+    "Quantity": "81",
     "Price": "61680",
     "Tags": [
       "Kingston",
@@ -2459,7 +2459,7 @@
   },
   {
     "ProductName": "Kingston KC3000 1TB M.2 NVMe PCIe (SKC3000S/1024G)",
-    "Quanity": "42",
+    "Quantity": "42",
     "Price": "36770",
     "Tags": [
       "Kingston",
@@ -2487,7 +2487,7 @@
   },
   {
     "ProductName": "Samsung 990 PRO 4TB (MZ-V9P4T0BW)",
-    "Quanity": "15",
+    "Quantity": "15",
     "Price": "127990",
     "Tags": [
       "Samsung",
@@ -2516,7 +2516,7 @@
   },
   {
     "ProductName": "Kingston NV2 1TB M.2 PCIe NVMe (SNV2S/1000G)",
-    "Quanity": "53",
+    "Quantity": "53",
     "Price": "23990",
     "Tags": [
       "SSD",
@@ -2544,7 +2544,7 @@
   },
   {
     "ProductName": "Western Digital WD Black SN770 1TB M.2 NVMe (WDS100T3X0E)",
-    "Quanity": "10",
+    "Quantity": "10",
     "Price": "32290",
     "Tags": [
       "SSD",
@@ -2572,7 +2572,7 @@
   },
   {
     "ProductName": "Samsung 980 1TB M.2 PCIe (MZ-V8V1T0BW)",
-    "Quanity": "34",
+    "Quantity": "34",
     "Price": "32550",
     "Tags": [
       "SSD",
@@ -2600,7 +2600,7 @@
   },
   {
     "ProductName": "Samsung 980 500GB M.2 PCIe (MZ-V8V500BW)",
-    "Quanity": "79",
+    "Quantity": "79",
     "Price": "21430",
     "Tags": [
       "SSD",
@@ -2628,7 +2628,7 @@
   },
   {
     "ProductName": "Western Digital Blue SN580 500GB M.2 (WDS500G3B0E)",
-    "Quanity": "83",
+    "Quantity": "83",
     "Price": "14990",
     "Tags": [
       "SSD",
@@ -2656,7 +2656,7 @@
   },
   {
     "ProductName": "Kingston KC3000 2TB M.2 PCIe NVMe (SKC3000D/2048G)",
-    "Quanity": "5",
+    "Quantity": "5",
     "Price": "61360",
     "Tags": [
       "SSD",
@@ -2684,7 +2684,7 @@
   },
   {
     "ProductName": "Samsung 990 EVO 1TB M.2 (MZ-V9E1T0BW)",
-    "Quanity": "88",
+    "Quantity": "88",
     "Price": "36100",
     "Tags": [
       "SSD",
@@ -2712,7 +2712,7 @@
   },
   {
     "ProductName": "Western Digital SN850X 1TB M.2 (WDS100T2X0E)",
-    "Quanity": "23",
+    "Quantity": "23",
     "Price": "37650",
     "Tags": [
       "Western Digital",
@@ -2740,7 +2740,7 @@
   },
   {
     "ProductName": "Kingston A400 2.5 960GB SATA3 (SA400S37/960G)",
-    "Quanity": "34",
+    "Quantity": "34",
     "Price": "20990",
     "Tags": [
       "Kingston",
@@ -2767,7 +2767,7 @@
   },
   {
     "ProductName": "Samsung 870 QVO 2.5 4TB (MZ-77Q4T0BW)",
-    "Quanity": "8",
+    "Quantity": "8",
     "Price": "123230",
     "Tags": [
       "Samsung",
@@ -2795,7 +2795,7 @@
   },
   {
     "ProductName": "Kingston A400 2.5 480GB SATA3 (SA400S37/480G)",
-    "Quanity": "100",
+    "Quantity": "100",
     "Price": "13990",
     "Tags": [
       "Kingston",
@@ -2822,7 +2822,7 @@
   },
   {
     "ProductName": "Samsung 2.5 870 EVO 1TB SATA3 (MZ-77E1T0B)",
-    "Quanity": "49",
+    "Quantity": "49",
     "Price": "39900",
     "Tags": [
       "Samsung",
@@ -2850,7 +2850,7 @@
   },
   {
     "ProductName": "Samsung 870 EVO 2.5 2TB SATA3 (MZ-77E2T0B)",
-    "Quanity": "39",
+    "Quantity": "39",
     "Price": "64990",
     "Tags": [
       "Samsung",
@@ -2878,7 +2878,7 @@
   },
   {
     "ProductName": "Kingston A400 2.5 240GB SATA3 (SA400S37/240G)",
-    "Quanity": "71",
+    "Quantity": "71",
     "Price": "9990",
     "Tags": [
       "Kingston",
@@ -2905,7 +2905,7 @@
   },
   {
     "ProductName": "Seagate BarraCuda 3.5 8TB 5400rpm 256MB SATA3 (ST8000DM004)",
-    "Quanity": "93",
+    "Quantity": "93",
     "Price": "57000",
     "Tags": [
       "hdd"
@@ -2920,7 +2920,7 @@
   },
   {
     "ProductName": "Seagate BarraCuda 4TB 5400rpm 256MB SATA3 SMR (ST4000DM004)",
-    "Quanity": "96",
+    "Quantity": "96",
     "Price": "38890",
     "Tags": [
       "hdd"
@@ -2935,7 +2935,7 @@
   },
   {
     "ProductName": "Western Digital Red Plus 3.5 4TB 5400rpm 256MB SATA (WD40EFPX)",
-    "Quanity": "38",
+    "Quantity": "38",
     "Price": "44910",
     "Tags": [
       "hdd"
@@ -2950,7 +2950,7 @@
   },
   {
     "ProductName": "Seagate BarraCuda 3.5 2TB 7200rpm 256MB SATA3 (ST2000DM008)",
-    "Quanity": "11",
+    "Quantity": "11",
     "Price": "25120",
     "Tags": [
       "hdd"
@@ -2965,7 +2965,7 @@
   },
   {
     "ProductName": "Western Digital WD Blue 3.5 2TB 7200rpm 256MB SATA3 (WD20EZBX)",
-    "Quanity": "76",
+    "Quantity": "76",
     "Price": "25700",
     "Tags": [
       "hdd"
@@ -2980,7 +2980,7 @@
   },
   {
     "ProductName": "Western Digital Purple 3.5 4TB SATA3 (WD43PURZ)",
-    "Quanity": "57",
+    "Quantity": "57",
     "Price": "40520",
     "Tags": [
       "hdd"
@@ -2995,7 +2995,7 @@
   },
   {
     "ProductName": "Western Digital Red Plus 3.5 8TB 5640rpm SATA3 (WD80EFPX)",
-    "Quanity": "8",
+    "Quantity": "8",
     "Price": "82740",
     "Tags": [
       "hdd"
@@ -3010,7 +3010,7 @@
   },
   {
     "ProductName": "Seagate Exos X18 3.5 16TB 7200rpm 256MB SATA3 (ST16000NM000J)",
-    "Quanity": "92",
+    "Quantity": "92",
     "Price": "124890",
     "Tags": [
       "hdd"
@@ -3025,7 +3025,7 @@
   },
   {
     "ProductName": "Seagate IronWolf 4TB SATA3 (ST4000VN006)",
-    "Quanity": "100",
+    "Quantity": "100",
     "Price": "46885",
     "Tags": [
       "hdd"
@@ -3040,7 +3040,7 @@
   },
   {
     "ProductName": "Western Digital Blue 3.5 1TB 7200rpm 64MB SATA3 (WD10EZEX)",
-    "Quanity": "78",
+    "Quantity": "78",
     "Price": "24430",
     "Tags": [
       "hdd"
@@ -3055,7 +3055,7 @@
   },
   {
     "ProductName": "Edifier R1280DB 2.0 Aktív hangfal",
-    "Quanity": "75",
+    "Quantity": "75",
     "Price": "38999",
     "Tags": [
       "hangfal",
@@ -3072,7 +3072,7 @@
   },
   {
     "ProductName": "Logitech Z906 5.1 (980-000468) Aktív hangfal",
-    "Quanity": "76",
+    "Quantity": "76",
     "Price": "126790",
     "Tags": [
       "hangfal",
@@ -3090,7 +3090,7 @@
   },
   {
     "ProductName": "Genius SW-2.1 350 Aktív hangfal",
-    "Quanity": "48",
+    "Quantity": "48",
     "Price": "15350",
     "Tags": [
       "hangfal",
@@ -3108,7 +3108,7 @@
   },
   {
     "ProductName": "Edifier R1700BT 2.0 Aktív hangfal",
-    "Quanity": "82",
+    "Quantity": "82",
     "Price": "46790",
     "Tags": [
       "hangfal",
@@ -3126,7 +3126,7 @@
   },
   {
     "ProductName": "Logitech Z623 2.1 Aktív hangfal",
-    "Quanity": "52",
+    "Quantity": "52",
     "Price": "55000",
     "Tags": [
       "hangfal",
@@ -3144,7 +3144,7 @@
   },
   {
     "ProductName": "Edifier MR4 2.0 Aktív hangfal",
-    "Quanity": "23",
+    "Quantity": "23",
     "Price": "41290",
     "Tags": [
       "hangfal",
@@ -3162,7 +3162,7 @@
   },
   {
     "ProductName": "Logitech Z313 2.1 (980-000413) Aktív hangfal",
-    "Quanity": "18",
+    "Quantity": "18",
     "Price": "20572",
     "Tags": [
       "hangfal",
@@ -3180,7 +3180,7 @@
   },
   {
     "ProductName": "Genius SP-HF180 2.0 (31730029400/1) Aktív hangfal",
-    "Quanity": "100",
+    "Quantity": "100",
     "Price": "3679",
     "Tags": [
       "hangfal",
@@ -3196,7 +3196,7 @@
   },
   {
     "ProductName": "Genius SW-G2.1 300X Aktív hangfal",
-    "Quanity": "43",
+    "Quantity": "43",
     "Price": "11900",
     "Tags": [
       "hangfal",
@@ -3214,7 +3214,7 @@
   },
   {
     "ProductName": "HP HyperX QuadCast (HX-MICQC/4P5P6AA)",
-    "Quanity": "25",
+    "Quantity": "25",
     "Price": "42800",
     "Tags": [
       "mikrofon",
@@ -3235,7 +3235,7 @@
   },
   {
     "ProductName": "Logitech Blue Yeti (988-000229)",
-    "Quanity": "69",
+    "Quantity": "69",
     "Price": "60546",
     "Tags": [
       "mikrofon",
@@ -3255,7 +3255,7 @@
   },
   {
     "ProductName": "FIFINE MICROPHONE K669B",
-    "Quanity": "12",
+    "Quantity": "12",
     "Price": "12449",
     "Tags": [
       "mikrofon",
@@ -3276,7 +3276,7 @@
   },
   {
     "ProductName": "FIFINE MICROPHONE A6V",
-    "Quanity": "84",
+    "Quantity": "84",
     "Price": "21410",
     "Tags": [
       "mikrofon",
@@ -3296,7 +3296,7 @@
   },
   {
     "ProductName": "Hama uRage STREAM 800HD (186020)",
-    "Quanity": "91",
+    "Quantity": "91",
     "Price": "31450",
     "Tags": [
       "mikrofon",
@@ -3317,7 +3317,7 @@
   },
   {
     "ProductName": "FIFINE MICROPHONE A8T",
-    "Quanity": "3",
+    "Quantity": "3",
     "Price": "22074",
     "Tags": [
       "mikrofon",
@@ -3338,7 +3338,7 @@
   },
   {
     "ProductName": "Hama uRage Stream 100 USB",
-    "Quanity": "62",
+    "Quantity": "62",
     "Price": "7042",
     "Tags": [
       "mikrofon",
@@ -3359,7 +3359,7 @@
   },
   {
     "ProductName": "Audio-Technica AT2020USB+ (977902)",
-    "Quanity": "95",
+    "Quantity": "95",
     "Price": "41000",
     "Tags": [
       "mikrofon",
@@ -3379,7 +3379,7 @@
   },
   {
     "ProductName": "Logitech Yeti GX RGB",
-    "Quanity": "54",
+    "Quantity": "54",
     "Price": "51340",
     "Tags": [
       "mikrofon",
@@ -3400,7 +3400,7 @@
   },
   {
     "ProductName": "Corsair Elgato Wave 3",
-    "Quanity": "82",
+    "Quantity": "82",
     "Price": "65790",
     "Tags": [
       "mikrofon",
@@ -3420,7 +3420,7 @@
   },
   {
     "ProductName": "Trust GXT 232 Mantis (22656)",
-    "Quanity": "27",
+    "Quantity": "27",
     "Price": "11980",
     "Tags": [
       "mikrofon",
@@ -3441,7 +3441,7 @@
   },
   {
     "ProductName": "Logitech Yeti Orb RGB (988-000551/8)",
-    "Quanity": "6",
+    "Quantity": "6",
     "Price": "24560",
     "Tags": [
       "mikrofon",
@@ -3462,7 +3462,7 @@
   },
   {
     "ProductName": "Sandberg Streamer USB Microphone Kit (126-07)",
-    "Quanity": "71",
+    "Quantity": "71",
     "Price": "22400",
     "Tags": [
       "mikrofon",
@@ -3483,7 +3483,7 @@
   },
   {
     "ProductName": "AlphaTheta DDJ-FLX2 DJ Kontroller",
-    "Quanity": "45",
+    "Quantity": "45",
     "Price": "79990",
     "Tags": [
       "Pioneer DJ",
@@ -3506,7 +3506,7 @@
   },
   {
     "ProductName": "AlphaTheta DDJ-GRV6 DJ Kontroller",
-    "Quanity": "68",
+    "Quantity": "68",
     "Price": "368990",
     "Tags": [
       "Pioneer DJ",
@@ -3526,7 +3526,7 @@
   },
   {
     "ProductName": "Numark DJ2GO2 Touch DJ Kontroller",
-    "Quanity": "84",
+    "Quantity": "84",
     "Price": "29990",
     "Tags": [
       "Numark",
@@ -3542,7 +3542,7 @@
   },
   {
     "ProductName": "Numark Mixtrack Platinum FX DJ Kontroller",
-    "Quanity": "56",
+    "Quantity": "56",
     "Price": "106980",
     "Tags": [
       "Numark",
@@ -3557,7 +3557,7 @@
   },
   {
     "ProductName": "Numark Mixtrack Pro FX DJ Kontroller",
-    "Quanity": "6",
+    "Quantity": "6",
     "Price": "88900",
     "Tags": [
       "Numark",
@@ -3570,7 +3570,7 @@
   },
   {
     "ProductName": "Numark Party Mix DJ Kontroller II",
-    "Quanity": "35",
+    "Quantity": "35",
     "Price": "45150",
     "Tags": [
       "Numark",
@@ -3585,7 +3585,7 @@
   },
   {
     "ProductName": "Pioneer DJ DDJ-FLX10 DJ Kontroller",
-    "Quanity": "35",
+    "Quantity": "35",
     "Price": "657000",
     "Tags": [
       "Pioneer DJ",
@@ -3599,7 +3599,7 @@
   },
   {
     "ProductName": "Pioneer DJ DDJ-FLX4 DJ Kontroller",
-    "Quanity": "89",
+    "Quantity": "89",
     "Price": "130400",
     "Tags": [
       "Pioneer DJ",
@@ -3623,7 +3623,7 @@
   },
   {
     "ProductName": "Pioneer DJ DDJ-REV1 Kontroller",
-    "Quanity": "2",
+    "Quantity": "2",
     "Price": "123400",
     "Tags": [
       "Pioneer DJ",
@@ -3650,7 +3650,7 @@
   },
   {
     "ProductName": "Pioneer DJ DDJ-REV7 Scratch Kontroller",
-    "Quanity": "71",
+    "Quantity": "71",
     "Price": "919999",
     "Tags": [
       "Pioneer DJ",
@@ -3667,7 +3667,7 @@
   },
   {
     "ProductName": "AlphaTheta OMNIS-DUO",
-    "Quanity": "84",
+    "Quantity": "84",
     "Price": "619990",
     "Tags": [
       "Pioneer DJ",
@@ -3693,7 +3693,7 @@
   },
   {
     "ProductName": "AlphaTheta XDJ-AZ All-in-one DJ System",
-    "Quanity": "84",
+    "Quantity": "84",
     "Price": "1436717",
     "Tags": [
       "Pioneer DJ",
@@ -3710,7 +3710,7 @@
   },
   {
     "ProductName": "Denon DJ Prime 4 Plus DJ kontroller",
-    "Quanity": "72",
+    "Quantity": "72",
     "Price": "888000",
     "Tags": [
       "Denon DJ"
@@ -3733,7 +3733,7 @@
   },
   {
     "ProductName": "Denon DJ Prime GO DJ kontroller",
-    "Quanity": "29",
+    "Quantity": "29",
     "Price": "466500",
     "Tags": [
       "Denon DJ"
@@ -3753,7 +3753,7 @@
   },
   {
     "ProductName": "Denon DJ SC Live 4",
-    "Quanity": "107",
+    "Quantity": "107",
     "Price": "441000",
     "Tags": [
       "Denon DJ"
@@ -3771,7 +3771,7 @@
   },
   {
     "ProductName": "Numark Mixstream Pro +",
-    "Quanity": "59",
+    "Quantity": "59",
     "Price": "278000",
     "Tags": [
       "Numark"
@@ -3795,7 +3795,7 @@
   },
   {
     "ProductName": "Numark Mixstream Pro Go",
-    "Quanity": "108",
+    "Quantity": "108",
     "Price": "340000",
     "Tags": [
       "Numark",
@@ -3825,7 +3825,7 @@
   },
   {
     "ProductName": "Pioneer DJ OPUS-QUAD DJ Kontroller",
-    "Quanity": "21",
+    "Quantity": "21",
     "Price": "1436900",
     "Tags": [
       "Pioneer DJ",
@@ -3852,7 +3852,7 @@
   },
   {
     "ProductName": "Pioneer DJ XDJ-700",
-    "Quanity": "100",
+    "Quantity": "100",
     "Price": "324000",
     "Tags": [
       "Pioneer DJ",
@@ -3869,7 +3869,7 @@
   },
   {
     "ProductName": "Pioneer DJ XDJ-RR DJ",
-    "Quanity": "100",
+    "Quantity": "100",
     "Price": "536750",
     "Tags": [
       "Pioneer DJ",
@@ -3883,7 +3883,7 @@
   },
   {
     "ProductName": "Pioneer DJ XDJ-RX3 Stand Alone",
-    "Quanity": "30",
+    "Quantity": "30",
     "Price": "860000",
     "Tags": [
       "Pioneer DJ",
@@ -3912,7 +3912,7 @@
   },
   {
     "ProductName": "AMD Ryzen 7 9800X3D Box (100-100001084WOF) Processzor",
-    "Quanity": "56",
+    "Quantity": "56",
     "Price": "258873",
     "Tags": [
       "AMD",
@@ -3941,7 +3941,7 @@
   },
   {
     "ProductName": "AMD Ryzen 7 7800X3D 4.2GHz 8-Cores Box Processzor",
-    "Quanity": "91",
+    "Quantity": "91",
     "Price": "219900",
     "Tags": [
       "AMD",
@@ -3977,7 +3977,7 @@
   },
   {
     "ProductName": "AMD Ryzen 5 5600X 6-Core 3.7GHz AM4 Box with fan and heatsink Processzor",
-    "Quanity": "21",
+    "Quantity": "21",
     "Price": "57150",
     "Tags": [
       "AMD",
@@ -4014,7 +4014,7 @@
   },
   {
     "ProductName": "AMD Ryzen 5 7600X 4.7GHz 6-Core AM5 Box Processzor",
-    "Quanity": "51",
+    "Quantity": "51",
     "Price": "94680",
     "Tags": [
       "AMD",
@@ -4050,7 +4050,7 @@
   },
   {
     "ProductName": "AMD Ryzen 7 5700X3D 3.0GHz Box Processzor",
-    "Quanity": "100",
+    "Quantity": "100",
     "Price": "104390",
     "Tags": [
       "AMD",
@@ -4086,7 +4086,7 @@
   },
   {
     "ProductName": "AMD Ryzen 7 5800X 8-Core 3.8GHz AM4 Box without fan and heatsink Processzor",
-    "Quanity": "109",
+    "Quantity": "109",
     "Price": "75210",
     "Tags": [
       "AMD",
@@ -4122,7 +4122,7 @@
   },
   {
     "ProductName": "AMD Ryzen 7 9700X 8-Core 3.8GHz Box Processzor",
-    "Quanity": "65",
+    "Quantity": "65",
     "Price": "150925",
     "Tags": [
       "AMD",
@@ -4158,7 +4158,7 @@
   },
   {
     "ProductName": "AMD Ryzen 5 9600X 6-Core 3.9GHz Box Processzor",
-    "Quanity": "81",
+    "Quantity": "81",
     "Price": "106930",
     "Tags": [
       "AMD",
@@ -4194,7 +4194,7 @@
   },
   {
     "ProductName": "AMD Ryzen 5 7500F 3.7GHz AM5 MPK Tray",
-    "Quanity": "107",
+    "Quantity": "107",
     "Price": "71600",
     "Tags": [
       "AMD",
@@ -4230,7 +4230,7 @@
   },
   {
     "ProductName": "AMD Ryzen 5 7600 3.8GHz Box with Cooler Processzor",
-    "Quanity": "1",
+    "Quantity": "1",
     "Price": "88630",
     "Tags": [
       "AMD",
@@ -4266,7 +4266,7 @@
   },
   {
     "ProductName": "AMD Ryzen 7 5700X 8-Core 3.4 GHz AM4 Box Processzor",
-    "Quanity": "30",
+    "Quantity": "30",
     "Price": "73330",
     "Tags": [
       "AMD",
@@ -4302,7 +4302,7 @@
   },
   {
     "ProductName": "AMD Ryzen 5 5600 6-Core 3.5GHz AM4 Box Processzor",
-    "Quanity": "105",
+    "Quantity": "105",
     "Price": "53570",
     "Tags": [
       "AMD",
@@ -4338,7 +4338,7 @@
   },
   {
     "ProductName": "AMD Ryzen 7 7700X 4.5GHz AM5 Box Processzor",
-    "Quanity": "58",
+    "Quantity": "58",
     "Price": "134445",
     "Tags": [
       "AMD",
@@ -4374,7 +4374,7 @@
   },
   {
     "ProductName": "AMD Ryzen 7 5700X3D 3.0GHz Tray Processzor",
-    "Quanity": "88",
+    "Quantity": "88",
     "Price": "93995",
     "Tags": [
       "AMD",
@@ -4410,7 +4410,7 @@
   },
   {
     "ProductName": "AMD Ryzen 9 5900X 12-Core 3.7GHz AM4 Box without fan and heatsink Processzor",
-    "Quanity": "77",
+    "Quantity": "77",
     "Price": "107310",
     "Tags": [
       "AMD",
@@ -4446,7 +4446,7 @@
   },
   {
     "ProductName": "AMD Ryzen 9 9950X 16-Core 4.3GHz Box Processzor",
-    "Quanity": "2",
+    "Quantity": "2",
     "Price": "299032",
     "Tags": [
       "AMD",
@@ -4482,7 +4482,7 @@
   },
   {
     "ProductName": "AMD Ryzen 9 5950X 16-Core 3.4GHz AM4 Box without fan and heatsink Processzor",
-    "Quanity": "71",
+    "Quantity": "71",
     "Price": "139990",
     "Tags": [
       "AMD",
@@ -4518,7 +4518,7 @@
   },
   {
     "ProductName": "AMD Ryzen 5 3600 6-Core 3.6GHz AM4 Box with fan and heatsink Processzor",
-    "Quanity": "110",
+    "Quantity": "110",
     "Price": "31940",
     "Tags": [
       "AMD",
@@ -4554,7 +4554,7 @@
   },
   {
     "ProductName": "Noctua NT-H1 Hővezető Paszta",
-    "Quanity": "18",
+    "Quantity": "18",
     "Price": "4000",
     "Tags": [
       "Noctua",
@@ -4574,7 +4574,7 @@
   },
   {
     "ProductName": "Cooler Master MasterGel Pro V2",
-    "Quanity": "88",
+    "Quantity": "88",
     "Price": "3001",
     "Tags": [
       "Cooler Master",
@@ -4594,7 +4594,7 @@
   },
   {
     "ProductName": "NZXT BA-TP003-01 Hővezető Paszta",
-    "Quanity": "29",
+    "Quantity": "29",
     "Price": "3100",
     "Tags": [
       "NZXT",
@@ -4613,7 +4613,7 @@
   },
   {
     "ProductName": "Deepcool DM9 Hővezető Paszta",
-    "Quanity": "34",
+    "Quantity": "34",
     "Price": "1799",
     "Tags": [
       "Deepcool",
@@ -4634,7 +4634,7 @@
   },
   {
     "ProductName": "Arctic MX-6 Hővezető Paszta",
-    "Quanity": "36",
+    "Quantity": "36",
     "Price": "1850",
     "Tags": [
       "Arctic",
@@ -4653,7 +4653,7 @@
   },
   {
     "ProductName": "ARCTIC MX-4 Hővezető Paszta",
-    "Quanity": "46",
+    "Quantity": "46",
     "Price": "2080",
     "Tags": [
       "Arctic",
@@ -4675,7 +4675,7 @@
   },
   {
     "ProductName": "ARCTIC MX-6 Ultimate Performance Thermal Paste",
-    "Quanity": "108",
+    "Quantity": "108",
     "Price": "2999",
     "Tags": [
       "Arctic",
@@ -4695,7 +4695,7 @@
   },
   {
     "ProductName": "Thermal Grizzly Kryonaut Hővezető Paszta",
-    "Quanity": "77",
+    "Quantity": "77",
     "Price": "3999",
     "Tags": [
       "Thermal Grizzly",
@@ -4718,7 +4718,7 @@
   },
   {
     "ProductName": "Kingston DataTraveler Exodia 128GB USB 3.2 Gen 1 DTX/128GB",
-    "Quanity": "44",
+    "Quantity": "44",
     "Price": "5640",
     "Tags": [
       "Kingston",
@@ -4739,7 +4739,7 @@
   },
   {
     "ProductName": "Samsung BAR Plus 256GB USB 3.1 (MUF-256BE3/APC)",
-    "Quanity": "21",
+    "Quantity": "21",
     "Price": "14930",
     "Tags": [
       "Samsung",
@@ -4764,7 +4764,7 @@
   },
   {
     "ProductName": "Kingston Datatraveler 256GB USB 3.2 Gen 1 DTKN/256GB",
-    "Quanity": "104",
+    "Quantity": "104",
     "Price": "10550",
     "Tags": [
       "Kingston",
@@ -4789,7 +4789,7 @@
   },
   {
     "ProductName": "Kingston DataTraveler Max 1TB USB 3.1 (DTMAXA/1TB)",
-    "Quanity": "35",
+    "Quantity": "35",
     "Price": "39800",
     "Tags": [
       "Kingston",
@@ -4814,7 +4814,7 @@
   },
   {
     "ProductName": "Kingston Datatraveler Exodia 64GB USB 3.2 Gen 1 DTX/64GB",
-    "Quanity": "69",
+    "Quantity": "69",
     "Price": "4430",
     "Tags": [
       "Kingston",
@@ -4837,7 +4837,7 @@
   },
   {
     "ProductName": "MediaRange Flash Drive 4GB MR907",
-    "Quanity": "16",
+    "Quantity": "16",
     "Price": "1500",
     "Tags": [
       "MediaRange",
@@ -4862,7 +4862,7 @@
   },
   {
     "ProductName": "Intenso Alu Line Anthracite 4GB 3521451",
-    "Quanity": "17",
+    "Quantity": "17",
     "Price": "1540",
     "Tags": [
       "Intenso",
@@ -4887,7 +4887,7 @@
   },
   {
     "ProductName": "MediaRange 8GB USB 2.0 MR908",
-    "Quanity": "75",
+    "Quantity": "75",
     "Price": "1700",
     "Tags": [
       "MediaRange",
@@ -4911,7 +4911,7 @@
   },
   {
     "ProductName": "Silicon Power Ultima U02 4GB USB 2.0 SP004GBUF2U02V1K",
-    "Quanity": "105",
+    "Quantity": "105",
     "Price": "2000",
     "Tags": [
       "Silicon Power",
@@ -4934,7 +4934,7 @@
   },
   {
     "ProductName": "Verbatim Store n Go PinStripe 8GB USB 2.0 49062",
-    "Quanity": "84",
+    "Quantity": "84",
     "Price": "2310",
     "Tags": [
       "Verbatim",
@@ -4960,7 +4960,7 @@
   },
   {
     "ProductName": "Intel Core Ultra 5 245K 14-Core 4.2GHz LGA1851 Box",
-    "Quanity": "11",
+    "Quantity": "11",
     "Price": "165684",
     "Tags": [
       "Intel",
@@ -4992,7 +4992,7 @@
   },
   {
     "ProductName": "Intel Core Ultra 7 265KF 20-Core 3.3GHz LGA1851 Box",
-    "Quanity": "89",
+    "Quantity": "89",
     "Price": "186580",
     "Tags": [
       "Intel",
@@ -5024,7 +5024,7 @@
   },
   {
     "ProductName": "Intel Core Ultra 5 245KF 14-Core 4.2GHz LGA1851 Box",
-    "Quanity": "45",
+    "Quantity": "45",
     "Price": "130570",
     "Tags": [
       "Intel",
@@ -5056,7 +5056,7 @@
   },
   {
     "ProductName": "Intel Core Ultra 5 225F Box",
-    "Quanity": "80",
+    "Quantity": "80",
     "Price": "117210",
     "Tags": [
       "Intel",
@@ -5088,7 +5088,7 @@
   },
   {
     "ProductName": "Intel Core Ultra 5 225 Box",
-    "Quanity": "10",
+    "Quantity": "10",
     "Price": "126430",
     "Tags": [
       "Intel",
@@ -5120,7 +5120,7 @@
   },
   {
     "ProductName": "Intel Core Ultra 5 235 14-Core 3.4GHz LGA1851 Box",
-    "Quanity": "48",
+    "Quantity": "48",
     "Price": "136210",
     "Tags": [
       "Intel",
@@ -5152,7 +5152,7 @@
   },
   {
     "ProductName": "Intel Core Ultra 9 285K Tray",
-    "Quanity": "50",
+    "Quantity": "50",
     "Price": "274912",
     "Tags": [
       "Intel",
@@ -5184,7 +5184,7 @@
   },
   {
     "ProductName": "Intel Core Ultra 7 265KF Tray",
-    "Quanity": "68",
+    "Quantity": "68",
     "Price": "192490",
     "Tags": [
       "Intel",
@@ -5216,7 +5216,7 @@
   },
   {
     "ProductName": "Intel Core Ultra 5 245K Tray",
-    "Quanity": "73",
+    "Quantity": "73",
     "Price": "144319",
     "Tags": [
       "Intel",
@@ -5248,7 +5248,7 @@
   },
   {
     "ProductName": "Intel Core Ultra 5 245KF Tray",
-    "Quanity": "52",
+    "Quantity": "52",
     "Price": "138600",
     "Tags": [
       "Intel",
@@ -5280,7 +5280,7 @@
   },
   {
     "ProductName": "Intel Pentium Gold G7400 Box",
-    "Quanity": "30",
+    "Quantity": "30",
     "Price": "42530",
     "Tags": [
       "Intel",
@@ -5309,7 +5309,7 @@
   },
   {
     "ProductName": "Intel Pentium Gold G7400 Tray",
-    "Quanity": "109",
+    "Quantity": "109",
     "Price": "34570",
     "Tags": [
       "Intel",
@@ -5338,7 +5338,7 @@
   },
   {
     "ProductName": "Intel Celeron G6900 Box",
-    "Quanity": "12",
+    "Quantity": "12",
     "Price": "32890",
     "Tags": [
       "Intel",
@@ -5368,7 +5368,7 @@
   },
   {
     "ProductName": "Intel Core i3-12100F Tray",
-    "Quanity": "28",
+    "Quantity": "28",
     "Price": "24620",
     "Tags": [
       "Intel",
@@ -5399,7 +5399,7 @@
   },
   {
     "ProductName": "Intel Core i3-12100F Box",
-    "Quanity": "94",
+    "Quantity": "94",
     "Price": "35240",
     "Tags": [
       "Intel",
@@ -5430,7 +5430,7 @@
   },
   {
     "ProductName": "Intel Core i3-14100F Box",
-    "Quanity": "44",
+    "Quantity": "44",
     "Price": "40050",
     "Tags": [
       "Intel",
@@ -5461,7 +5461,7 @@
   },
   {
     "ProductName": "Intel Core i3-14100 Box",
-    "Quanity": "1",
+    "Quantity": "1",
     "Price": "57490",
     "Tags": [
       "Intel",
@@ -5492,7 +5492,7 @@
   },
   {
     "ProductName": "Intel Core i3-13100F Box",
-    "Quanity": "4",
+    "Quantity": "4",
     "Price": "36610",
     "Tags": [
       "Intel",
@@ -5523,7 +5523,7 @@
   },
   {
     "ProductName": "Intel Core i3-12100 Box",
-    "Quanity": "17",
+    "Quantity": "17",
     "Price": "51030",
     "Tags": [
       "Intel",
@@ -5553,7 +5553,7 @@
   },
   {
     "ProductName": "Intel Core i3-14100F Tray",
-    "Quanity": "72",
+    "Quantity": "72",
     "Price": "31520",
     "Tags": [
       "Intel",
@@ -5584,7 +5584,7 @@
   },
   {
     "ProductName": "Intel Core i3-13100 Box",
-    "Quanity": "94",
+    "Quantity": "94",
     "Price": "57760",
     "Tags": [
       "Intel",
@@ -5615,7 +5615,7 @@
   },
   {
     "ProductName": "Intel Core i5-12400F Box",
-    "Quanity": "52",
+    "Quantity": "52",
     "Price": "49990",
     "Tags": [
       "Intel",
@@ -5646,7 +5646,7 @@
   },
   {
     "ProductName": "Intel Core i5-14400F Box",
-    "Quanity": "98",
+    "Quantity": "98",
     "Price": "67620",
     "Tags": [
       "Intel",
@@ -5677,7 +5677,7 @@
   },
   {
     "ProductName": "Intel Core i5-14600KF Box",
-    "Quanity": "71",
+    "Quantity": "71",
     "Price": "99990",
     "Tags": [
       "Intel",
@@ -5708,7 +5708,7 @@
   },
   {
     "ProductName": "Intel Core i5-14600K Box",
-    "Quanity": "71",
+    "Quantity": "71",
     "Price": "111950",
     "Tags": [
       "Intel",
@@ -5739,7 +5739,7 @@
   },
   {
     "ProductName": "Intel Core i5-12600K Box",
-    "Quanity": "79",
+    "Quantity": "79",
     "Price": "79775",
     "Tags": [
       "Intel",
@@ -5769,7 +5769,7 @@
   },
   {
     "ProductName": "Intel Core i5-13600K Box",
-    "Quanity": "51",
+    "Quantity": "51",
     "Price": "117350",
     "Tags": [
       "Intel",
@@ -5800,7 +5800,7 @@
   },
   {
     "ProductName": "Intel Core i5-13400F Box",
-    "Quanity": "54",
+    "Quantity": "54",
     "Price": "66510",
     "Tags": [
       "Intel",
@@ -5831,7 +5831,7 @@
   },
   {
     "ProductName": "Intel Core i5-12400 Box",
-    "Quanity": "33",
+    "Quantity": "33",
     "Price": "65710",
     "Tags": [
       "Intel",
@@ -5862,7 +5862,7 @@
   },
   {
     "ProductName": "Intel Core i5-12600KF Box",
-    "Quanity": "18",
+    "Quantity": "18",
     "Price": "73260",
     "Tags": [
       "Intel",
@@ -5892,7 +5892,7 @@
   },
   {
     "ProductName": "Intel Core i5-14400 Box",
-    "Quanity": "92",
+    "Quantity": "92",
     "Price": "78000",
     "Tags": [
       "Intel",
@@ -5923,7 +5923,7 @@
   },
   {
     "ProductName": "Intel Core i5-13500 Box",
-    "Quanity": "7",
+    "Quantity": "7",
     "Price": "88790",
     "Tags": [
       "Intel",
@@ -5954,7 +5954,7 @@
   },
   {
     "ProductName": "Intel Core i5-14500 Box",
-    "Quanity": "80",
+    "Quantity": "80",
     "Price": "112690",
     "Tags": [
       "Intel",
@@ -5985,7 +5985,7 @@
   },
   {
     "ProductName": "Intel Core i5-14600 Tray",
-    "Quanity": "96",
+    "Quantity": "96",
     "Price": "128900",
     "Tags": [
       "Intel",
@@ -6016,7 +6016,7 @@
   },
   {
     "ProductName": "Intel Core i7-14700K Box",
-    "Quanity": "27",
+    "Quantity": "27",
     "Price": "175360",
     "Tags": [
       "Intel",
@@ -6047,7 +6047,7 @@
   },
   {
     "ProductName": "Intel Core i7-12700K Box",
-    "Quanity": "45",
+    "Quantity": "45",
     "Price": "109950",
     "Tags": [
       "Intel",
@@ -6077,7 +6077,7 @@
   },
   {
     "ProductName": "Intel Core i7-12700KF Box",
-    "Quanity": "105",
+    "Quantity": "105",
     "Price": "104510",
     "Tags": [
       "Intel",
@@ -6107,7 +6107,7 @@
   },
   {
     "ProductName": "Intel Core i7-14700KF Box",
-    "Quanity": "62",
+    "Quantity": "62",
     "Price": "169490",
     "Tags": [
       "Intel",
@@ -6138,7 +6138,7 @@
   },
   {
     "ProductName": "Intel Core i7-13700K Box",
-    "Quanity": "103",
+    "Quantity": "103",
     "Price": "172030",
     "Tags": [
       "Intel",
@@ -6169,7 +6169,7 @@
   },
   {
     "ProductName": "Intel Core i7-14700F Box",
-    "Quanity": "40",
+    "Quantity": "40",
     "Price": "146735",
     "Tags": [
       "Intel",
@@ -6199,7 +6199,7 @@
   },
   {
     "ProductName": "Intel Core i7-14700 Box",
-    "Quanity": "39",
+    "Quantity": "39",
     "Price": "159890",
     "Tags": [
       "Intel",
@@ -6229,7 +6229,7 @@
   },
   {
     "ProductName": "Intel Core i7-12700 Box",
-    "Quanity": "106",
+    "Quantity": "106",
     "Price": "128000",
     "Tags": [
       "Intel",
@@ -6260,7 +6260,7 @@
   },
   {
     "ProductName": "Intel Core i7-13700 Box",
-    "Quanity": "40",
+    "Quantity": "40",
     "Price": "159590",
     "Tags": [
       "Intel",
@@ -6290,7 +6290,7 @@
   },
   {
     "ProductName": "Intel Core i7-14700F Tray",
-    "Quanity": "105",
+    "Quantity": "105",
     "Price": "155377",
     "Tags": [
       "Intel",
@@ -6320,7 +6320,7 @@
   },
   {
     "ProductName": "Intel Core i7-13700K Tray",
-    "Quanity": "3",
+    "Quantity": "3",
     "Price": "169600",
     "Tags": [
       "Intel",
@@ -6351,7 +6351,7 @@
   },
   {
     "ProductName": "Intel Core i9-14900K Box",
-    "Quanity": "39",
+    "Quantity": "39",
     "Price": "215580",
     "Tags": [
       "Intel",
@@ -6382,7 +6382,7 @@
   },
   {
     "ProductName": "Intel Core i9-13900K Box",
-    "Quanity": "55",
+    "Quantity": "55",
     "Price": "196890",
     "Tags": [
       "Intel",
@@ -6413,7 +6413,7 @@
   },
   {
     "ProductName": "Intel Core i9-14900KF Box",
-    "Quanity": "34",
+    "Quantity": "34",
     "Price": "204560",
     "Tags": [
       "Intel",
@@ -6444,7 +6444,7 @@
   },
   {
     "ProductName": "Intel Core i9-14900KS Box",
-    "Quanity": "37",
+    "Quantity": "37",
     "Price": "326040",
     "Tags": [
       "Intel",
@@ -6475,7 +6475,7 @@
   },
   {
     "ProductName": "Intel Core i9-13900KF Box",
-    "Quanity": "71",
+    "Quantity": "71",
     "Price": "229330",
     "Tags": [
       "Intel",
@@ -6506,7 +6506,7 @@
   },
   {
     "ProductName": "Intel Core i9-12900F Box",
-    "Quanity": "26",
+    "Quantity": "26",
     "Price": "179380",
     "Tags": [
       "Intel",
@@ -6537,7 +6537,7 @@
   },
   {
     "ProductName": "Intel Core i9-12900K Box",
-    "Quanity": "88",
+    "Quantity": "88",
     "Price": "162690",
     "Tags": [
       "Intel",
@@ -6567,7 +6567,7 @@
   },
   {
     "ProductName": "Intel Core i9-12900KF Box",
-    "Quanity": "110",
+    "Quantity": "110",
     "Price": "164830",
     "Tags": [
       "Intel",
@@ -6598,7 +6598,7 @@
   },
   {
     "ProductName": "Intel Core i9-14900 Box",
-    "Quanity": "101",
+    "Quantity": "101",
     "Price": "303160",
     "Tags": [
       "Intel",
@@ -6629,7 +6629,7 @@
   },
   {
     "ProductName": "Intel Core i9-13900KS Box",
-    "Quanity": "23",
+    "Quantity": "23",
     "Price": "369178",
     "Tags": [
       "Intel",
@@ -6660,7 +6660,7 @@
   },
   {
     "ProductName": "Intel Core i9-12900 Box",
-    "Quanity": "2",
+    "Quantity": "2",
     "Price": "191290",
     "Tags": [
       "Intel",
@@ -6691,7 +6691,7 @@
   },
   {
     "ProductName": "Intel Core i9-13900 Box",
-    "Quanity": "88",
+    "Quantity": "88",
     "Price": "303160",
     "Tags": [
       "Intel",
@@ -6722,7 +6722,7 @@
   },
   {
     "ProductName": "Intel Core i9-12900KS Box",
-    "Quanity": "13",
+    "Quantity": "13",
     "Price": "222595",
     "Tags": [
       "Intel",
@@ -6752,7 +6752,7 @@
   },
   {
     "ProductName": "Intel Core i9-14900F Box",
-    "Quanity": "70",
+    "Quantity": "70",
     "Price": "223990",
     "Tags": [
       "Intel",
@@ -6783,7 +6783,7 @@
   },
   {
     "ProductName": "Seasonic FOCUS GX 850W 80 PLUS Gold V4 (GX-850-V4)",
-    "Quanity": "20",
+    "Quantity": "20",
     "Price": "68600",
     "Tags": [
       "Seasonic",
@@ -6814,7 +6814,7 @@
   },
   {
     "ProductName": "Seasonic G12 GC 850W 80 PLUS Gold",
-    "Quanity": "61",
+    "Quantity": "61",
     "Price": "48151",
     "Tags": [
       "Seasonic",
@@ -6846,7 +6846,7 @@
   },
   {
     "ProductName": "Seasonic Psu B12 BC-650W 80 PLUS Bronze (1Y651BCRT3A10X)",
-    "Quanity": "20",
+    "Quantity": "20",
     "Price": "27300",
     "Tags": [
       "Seasonic",
@@ -6878,7 +6878,7 @@
   },
   {
     "ProductName": "Seasonic Vertex GX-1000 1000W 80 PLUS Gold (SS-PS-VER-1000W)",
-    "Quanity": "30",
+    "Quantity": "30",
     "Price": "92180",
     "Tags": [
       "Seasonic",
@@ -6909,7 +6909,7 @@
   },
   {
     "ProductName": "Seasonic G12 GC 750W 80 PLUS Gold",
-    "Quanity": "29",
+    "Quantity": "29",
     "Price": "42390",
     "Tags": [
       "Seasonic",
@@ -6941,7 +6941,7 @@
   },
   {
     "ProductName": "Seasonic G12 GC 650W 80 PLUS Gold",
-    "Quanity": "95",
+    "Quantity": "95",
     "Price": "35640",
     "Tags": [
       "Seasonic",
@@ -6973,7 +6973,7 @@
   },
   {
     "ProductName": "FSP Hydro K PRO 750W ATX3.0 80 PLUS Bronze (PPA7506901)",
-    "Quanity": "69",
+    "Quantity": "69",
     "Price": "29270",
     "Tags": [
       "FSP",
@@ -7005,7 +7005,7 @@
   },
   {
     "ProductName": "FSP VITA GM 1000W 80 PLUS Gold (VITA-1000GM)",
-    "Quanity": "73",
+    "Quantity": "73",
     "Price": "59950",
     "Tags": [
       "FSP",
@@ -7032,7 +7032,7 @@
   },
   {
     "ProductName": "FSP VITA GM 750W 80 PLUS Gold (VITA-750GM)",
-    "Quanity": "40",
+    "Quantity": "40",
     "Price": "50950",
     "Tags": [
       "FSP",
@@ -7059,7 +7059,7 @@
   },
   {
     "ProductName": "FSP HYDRO TI PRO 1000W 80 PLUS Titanium (PPA10A3803)",
-    "Quanity": "102",
+    "Quantity": "102",
     "Price": "122620",
     "Tags": [
       "FSP",
@@ -7086,7 +7086,7 @@
   },
   {
     "ProductName": "FSP Hydro PTM Pro 1200W 80 PLUS Platinum (PPA12A1001)",
-    "Quanity": "18",
+    "Quantity": "18",
     "Price": "85490",
     "Tags": [
       "FSP",
@@ -7114,7 +7114,7 @@
   },
   {
     "ProductName": "FSP Hydro PTM Pro HPT2-1200M ATX 3.0 1200W 80 PLUS Platinum (PPA12A1014)",
-    "Quanity": "35",
+    "Quantity": "35",
     "Price": "108820",
     "Tags": [
       "FSP",
@@ -7141,7 +7141,7 @@
   },
   {
     "ProductName": "FSP Hydro K PRO (ATX3.0) 850W 80 PLUS Bronze (PPA8503201)",
-    "Quanity": "28",
+    "Quantity": "28",
     "Price": "34960",
     "Tags": [
       "FSP",
@@ -7169,7 +7169,7 @@
   },
   {
     "ProductName": "FSP Hyper Pro 700W 80 PLUS Bronze",
-    "Quanity": "50",
+    "Quantity": "50",
     "Price": "26254",
     "Tags": [
       "FSP",
@@ -7190,7 +7190,7 @@
   },
   {
     "ProductName": "be quiet! Pure Power 12 M 850W 80 PLUS Gold (BN344)",
-    "Quanity": "84",
+    "Quantity": "84",
     "Price": "55160",
     "Tags": [
       "be quiet!",
@@ -7221,7 +7221,7 @@
   },
   {
     "ProductName": "be quiet! Pure Power 12 M 1000W 80 PLUS Gold (BN345)",
-    "Quanity": "13",
+    "Quantity": "13",
     "Price": "71220",
     "Tags": [
       "be quiet!",
@@ -7252,7 +7252,7 @@
   },
   {
     "ProductName": "be quiet! Pure Power 12 M 750W 80 PLUS Gold (BN343)",
-    "Quanity": "95",
+    "Quantity": "95",
     "Price": "50995",
     "Tags": [
       "be quiet!",
@@ -7283,7 +7283,7 @@
   },
   {
     "ProductName": "be quiet! 1000W 80 PLUS Gold Pure Power 12 (BP005EU)",
-    "Quanity": "108",
+    "Quantity": "108",
     "Price": "57790",
     "Tags": [
       "be quiet!",
@@ -7314,7 +7314,7 @@
   },
   {
     "ProductName": "be quiet! Straight Power 11 850W 80 PLUS Gold (BN284)",
-    "Quanity": "23",
+    "Quantity": "23",
     "Price": "5810",
     "Tags": [
       "be quiet!",
@@ -7346,7 +7346,7 @@
   },
   {
     "ProductName": "be quiet! System Power 10 550W 80 PLUS Bronze (BN327)",
-    "Quanity": "56",
+    "Quantity": "56",
     "Price": "26250",
     "Tags": [
       "be quiet!",
@@ -7377,7 +7377,7 @@
   },
   {
     "ProductName": "be quiet! System Power 10 850W 80 PLUS Gold (BN330)",
-    "Quanity": "106",
+    "Quantity": "106",
     "Price": "44956",
     "Tags": [
       "be quiet!",
@@ -7409,7 +7409,7 @@
   },
   {
     "ProductName": "be quiet! System Power 10 650W 80 PLUS Bronze (BN328)",
-    "Quanity": "25",
+    "Quantity": "25",
     "Price": "28340",
     "Tags": [
       "be quiet!",
@@ -7440,7 +7440,7 @@
   },
   {
     "ProductName": "be quiet! Straight Power 11 1000W 80 PLUS Gold (BN285)",
-    "Quanity": "43",
+    "Quantity": "43",
     "Price": "75440",
     "Tags": [
       "be quiet!",
@@ -7472,7 +7472,7 @@
   },
   {
     "ProductName": "be quiet! 850W 80 PLUS Gold Pure Power 12 (BP004EU)",
-    "Quanity": "27",
+    "Quantity": "27",
     "Price": "49030",
     "Tags": [
       "be quiet!",
@@ -7503,7 +7503,7 @@
   },
   {
     "ProductName": "be quiet! System Power 10 450W 80 PLUS Bronze (BN326)",
-    "Quanity": "59",
+    "Quantity": "59",
     "Price": "21610",
     "Tags": [
       "be quiet!",
@@ -7532,7 +7532,7 @@
   },
   {
     "ProductName": "CHIEFTEC Chieftronic PowerPlay 750W 80 PLUS Gold (GPU-750FC)",
-    "Quanity": "41",
+    "Quantity": "41",
     "Price": "36900",
     "Tags": [
       "CHIEFTEC",
@@ -7563,7 +7563,7 @@
   },
   {
     "ProductName": "CHIEFTEC A-90 750W 80 PLUS Gold (GDP-750C)",
-    "Quanity": "0",
+    "Quantity": "0",
     "Price": "35520",
     "Tags": [
       "CHIEFTEC",
@@ -7594,7 +7594,7 @@
   },
   {
     "ProductName": "CHIEFTEC ZPU-600S",
-    "Quanity": "66",
+    "Quantity": "66",
     "Price": "23037",
     "Tags": [
       "CHIEFTEC",
@@ -7625,7 +7625,7 @@
   },
   {
     "ProductName": "CHIEFTEC Smart 650W (GPS-650A8)",
-    "Quanity": "1",
+    "Quantity": "1",
     "Price": "21830",
     "Tags": [
       "CHIEFTEC",
@@ -7652,7 +7652,7 @@
   },
   {
     "ProductName": "CHIEFTEC Polaris 1250W 80 PLUS Gold (PPS-1250FC)",
-    "Quanity": "68",
+    "Quantity": "68",
     "Price": "47999",
     "Tags": [
       "CHIEFTEC",
@@ -7683,7 +7683,7 @@
   },
   {
     "ProductName": "ASUS ROG STRIX 850W 80 PLUS Gold Aura Edition (90YE00P2-B0NA00)",
-    "Quanity": "55",
+    "Quantity": "55",
     "Price": "87600",
     "Tags": [
       "ASUS",
@@ -7714,7 +7714,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming 1200W 80 PLUS Gold (90YE00S0-B0NA00)",
-    "Quanity": "66",
+    "Quantity": "66",
     "Price": "108490",
     "Tags": [
       "ASUS",
@@ -7745,7 +7745,7 @@
   },
   {
     "ProductName": "ASUS ROG STRIX 1000W 80 PLUS Gold (90YE00A5-B0NA00)",
-    "Quanity": "10",
+    "Quantity": "10",
     "Price": "80890",
     "Tags": [
       "ASUS",
@@ -7772,7 +7772,7 @@
   },
   {
     "ProductName": "ASUS ROG THOR 1600W 80 PLUS Titanium (90YE00K0-B0NA00)",
-    "Quanity": "43",
+    "Quantity": "43",
     "Price": "244490",
     "Tags": [
       "ASUS",
@@ -7804,7 +7804,7 @@
   },
   {
     "ProductName": "ASUS ROG THOR 1000W Platinum II 80 PLUS Platinum (90YE00L1-B0NA00)",
-    "Quanity": "75",
+    "Quantity": "75",
     "Price": "159901",
     "Tags": [
       "ASUS",
@@ -7836,7 +7836,7 @@
   },
   {
     "ProductName": "ASUS Prime 750W 80 PLUS Gold (AP-750G)",
-    "Quanity": "50",
+    "Quantity": "50",
     "Price": "50740",
     "Tags": [
       "ASUS",
@@ -7866,7 +7866,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming 850W 80 PLUS Gold (ASUS-PS-TUF-GAMING-850G)",
-    "Quanity": "75",
+    "Quantity": "75",
     "Price": "90510",
     "Tags": [
       "ASUS",
@@ -7897,7 +7897,7 @@
   },
   {
     "ProductName": "Corsair RMx Series RM1000x 1000W 80 PLUS Gold (CP-9020271-EU)",
-    "Quanity": "18",
+    "Quantity": "18",
     "Price": "87390",
     "Tags": [
       "Corsair",
@@ -7928,7 +7928,7 @@
   },
   {
     "ProductName": "Corsair RMx Series RM850x 850W 80 PLUS Gold (CP-9020270-EU)",
-    "Quanity": "40",
+    "Quantity": "40",
     "Price": "69455",
     "Tags": [
       "Corsair",
@@ -7959,7 +7959,7 @@
   },
   {
     "ProductName": "Corsair RM1000e 1000W 80 PLUS Gold (CP-9020264)",
-    "Quanity": "42",
+    "Quantity": "42",
     "Price": "82053",
     "Tags": [
       "Corsair",
@@ -7990,7 +7990,7 @@
   },
   {
     "ProductName": "Corsair AX1600i 1600W 80 PLUS Titanium (CP-9020087-EU)",
-    "Quanity": "106",
+    "Quantity": "106",
     "Price": "259600",
     "Tags": [
       "Corsair",
@@ -8022,7 +8022,7 @@
   },
   {
     "ProductName": "Corsair RM750e v2 750W 80 PLUS Gold (CP-9020262-EU)",
-    "Quanity": "102",
+    "Quantity": "102",
     "Price": "51400",
     "Tags": [
       "Corsair",
@@ -8053,7 +8053,7 @@
   },
   {
     "ProductName": "Corsair RM850e 850W 80 PLUS Gold (CP-9020263-EU)",
-    "Quanity": "50",
+    "Quantity": "50",
     "Price": "71921",
     "Tags": [
       "Corsair",
@@ -8084,7 +8084,7 @@
   },
   {
     "ProductName": "Cooler Master MWE 850 Gold V2 850W 80 PLUS Gold (MPE-8501-AFAAG-EU)",
-    "Quanity": "53",
+    "Quantity": "53",
     "Price": "51800",
     "Tags": [
       "Cooler Master",
@@ -8116,7 +8116,7 @@
   },
   {
     "ProductName": "Cooler Master G600 600W 80 PLUS Gold (MPW-6001-ACAAG)",
-    "Quanity": "57",
+    "Quantity": "57",
     "Price": "26100",
     "Tags": [
       "Cooler Master",
@@ -8141,7 +8141,7 @@
   },
   {
     "ProductName": "Cooler Master MWE Bronze V2 750W 80 PLUS Bronze (MPE-7501-ACABW)",
-    "Quanity": "60",
+    "Quantity": "60",
     "Price": "29980",
     "Tags": [
       "Cooler Master",
@@ -8172,7 +8172,7 @@
   },
   {
     "ProductName": "Cooler Master ELITE NEX 700W 80 PLUS (MPW-7001-ACBW-B)",
-    "Quanity": "79",
+    "Quantity": "79",
     "Price": "25411",
     "Tags": [
       "Cooler Master",
@@ -8197,7 +8197,7 @@
   },
   {
     "ProductName": "Cooler Master G700W 80 PLUS Gold (MPW-7001-ACAAG)",
-    "Quanity": "110",
+    "Quantity": "110",
     "Price": "31495",
     "Tags": [
       "Cooler Master",
@@ -8222,7 +8222,7 @@
   },
   {
     "ProductName": "Cooler Master V850 SFX 80 PLUS Gold (MPY-8501-SFHAGV)",
-    "Quanity": "12",
+    "Quantity": "12",
     "Price": "79695",
     "Tags": [
       "Cooler Master",
@@ -8253,7 +8253,7 @@
   },
   {
     "ProductName": "Cooler Master MWE Gold 650 V2 650W 80 PLUS Gold (MPE-6501-AFAAG-EU)",
-    "Quanity": "38",
+    "Quantity": "38",
     "Price": "39010",
     "Tags": [
       "Cooler Master",
@@ -8284,7 +8284,7 @@
   },
   {
     "ProductName": "Cooler Master MWE White V2 700W 80 PLUS (MPE-7001-ACABW-EU)",
-    "Quanity": "53",
+    "Quantity": "53",
     "Price": "27990",
     "Tags": [
       "Cooler Master",
@@ -8315,7 +8315,7 @@
   },
   {
     "ProductName": "Akyga Basic 500W (AK-B1-500E)",
-    "Quanity": "109",
+    "Quantity": "109",
     "Price": "7810",
     "Tags": [
       "Akyga",
@@ -8346,7 +8346,7 @@
   },
   {
     "ProductName": "CHIEFTEC VALUE 400W (APB-400B8)",
-    "Quanity": "31",
+    "Quantity": "31",
     "Price": "14101",
     "Tags": [
       "CHIEFTEC",
@@ -8377,7 +8377,7 @@
   },
   {
     "ProductName": "Akyga Basic 400W (AK-B1-400)",
-    "Quanity": "52",
+    "Quantity": "52",
     "Price": "7390",
     "Tags": [
       "Akyga",
@@ -8408,7 +8408,7 @@
   },
   {
     "ProductName": "LC-Power Office Series LC420H-12 V1.3 420W",
-    "Quanity": "57",
+    "Quantity": "57",
     "Price": "14655",
     "Tags": [
       "LC-Power",
@@ -8438,7 +8438,7 @@
   },
   {
     "ProductName": "nBase N-Power 500W",
-    "Quanity": "51",
+    "Quantity": "51",
     "Price": "10330",
     "Tags": [
       "nBase",
@@ -8465,7 +8465,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming B550-PLUS",
-    "Quanity": "59",
+    "Quantity": "59",
     "Price": "53580",
     "Tags": [
       "ASUS",
@@ -8522,7 +8522,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming B450M-PLUS II",
-    "Quanity": "32",
+    "Quantity": "32",
     "Price": "37770",
     "Tags": [
       "ASUS",
@@ -8579,7 +8579,7 @@
   },
   {
     "ProductName": "GIGABYTE B550M AORUS ELITE",
-    "Quanity": "102",
+    "Quantity": "102",
     "Price": "45550",
     "Tags": [
       "GIGABYTE",
@@ -8639,7 +8639,7 @@
   },
   {
     "ProductName": "ASUS ROG STRIX B550-F GAMING",
-    "Quanity": "90",
+    "Quantity": "90",
     "Price": "60960",
     "Tags": [
       "ASUS",
@@ -8695,7 +8695,7 @@
   },
   {
     "ProductName": "ASUS PRIME A520M-A II/CSM",
-    "Quanity": "62",
+    "Quantity": "62",
     "Price": "30340",
     "Tags": [
       "ASUS",
@@ -8747,7 +8747,7 @@
   },
   {
     "ProductName": "MSI MAG B550 TOMAHAWK",
-    "Quanity": "18",
+    "Quantity": "18",
     "Price": "76890",
     "Tags": [
       "MSI",
@@ -8801,7 +8801,7 @@
   },
   {
     "ProductName": "MSI MPG B550 GAMING PLUS",
-    "Quanity": "102",
+    "Quantity": "102",
     "Price": "54483",
     "Tags": [
       "MSI",
@@ -8857,7 +8857,7 @@
   },
   {
     "ProductName": "ASUS ROG STRIX B550-A GAMING",
-    "Quanity": "55",
+    "Quantity": "55",
     "Price": "60960",
     "Tags": [
       "ASUS",
@@ -8912,7 +8912,7 @@
   },
   {
     "ProductName": "GIGABYTE B550 AORUS ELITE V2",
-    "Quanity": "65",
+    "Quantity": "65",
     "Price": "56580",
     "Tags": [
       "GIGABYTE",
@@ -8959,7 +8959,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming A520M-PLUS II",
-    "Quanity": "39",
+    "Quantity": "39",
     "Price": "39520",
     "Tags": [
       "ASUS",
@@ -9005,7 +9005,7 @@
   },
   {
     "ProductName": "GIGABYTE A520M K",
-    "Quanity": "30",
+    "Quantity": "30",
     "Price": "22990",
     "Tags": [
       "GIGABYTE",
@@ -9038,7 +9038,7 @@
   },
   {
     "ProductName": "MSI B550-A PRO",
-    "Quanity": "55",
+    "Quantity": "55",
     "Price": "48250",
     "Tags": [
       "MSI",
@@ -9084,7 +9084,7 @@
   },
   {
     "ProductName": "ASUS PRIME B550M-K ARGB",
-    "Quanity": "6",
+    "Quantity": "6",
     "Price": "39325",
     "Tags": [
       "ASUS",
@@ -9131,7 +9131,7 @@
   },
   {
     "ProductName": "GIGABYTE B550M DS3H",
-    "Quanity": "102",
+    "Quantity": "102",
     "Price": "41954",
     "Tags": [
       "GIGABYTE",
@@ -9176,7 +9176,7 @@
   },
   {
     "ProductName": "ASUS ROG STRIX B550-F GAMING WIFI II",
-    "Quanity": "37",
+    "Quantity": "37",
     "Price": "64990",
     "Tags": [
       "ASUS",
@@ -9224,7 +9224,7 @@
   },
   {
     "ProductName": "GIGABYTE A520 Aorus Elite",
-    "Quanity": "84",
+    "Quantity": "84",
     "Price": "37962",
     "Tags": [
       "GIGABYTE",
@@ -9270,7 +9270,7 @@
   },
   {
     "ProductName": "GIGABYTE B550 GAMING X v2",
-    "Quanity": "40",
+    "Quantity": "40",
     "Price": "49490",
     "Tags": [
       "GIGABYTE",
@@ -9317,7 +9317,7 @@
   },
   {
     "ProductName": "GIGABYTE B450M K",
-    "Quanity": "29",
+    "Quantity": "29",
     "Price": "28764",
     "Tags": [
       "GIGABYTE",
@@ -9358,7 +9358,7 @@
   },
   {
     "ProductName": "GIGABYTE A520M K V2 D4",
-    "Quanity": "60",
+    "Quantity": "60",
     "Price": "25845",
     "Tags": [
       "GIGABYTE",
@@ -9403,7 +9403,7 @@
   },
   {
     "ProductName": "GIGABYTE B550I AORUS PRO AX",
-    "Quanity": "17",
+    "Quantity": "17",
     "Price": "72644",
     "Tags": [
       "GIGABYTE",
@@ -9448,7 +9448,7 @@
   },
   {
     "ProductName": "GIGABYTE B550M DS3H AC",
-    "Quanity": "8",
+    "Quantity": "8",
     "Price": "44317",
     "Tags": [
       "GIGABYTE",
@@ -9491,7 +9491,7 @@
   },
   {
     "ProductName": "ASUS ROG STRIX B650E-F GAMING WIFI",
-    "Quanity": "5",
+    "Quantity": "5",
     "Price": "110120",
     "Tags": [
       "ASUS",
@@ -9555,7 +9555,7 @@
   },
   {
     "ProductName": "MSI MAG B650 Tomahawk WIFI",
-    "Quanity": "18",
+    "Quantity": "18",
     "Price": "96393",
     "Tags": [
       "MSI",
@@ -9619,7 +9619,7 @@
   },
   {
     "ProductName": "GIGABYTE B650 EAGLE AX",
-    "Quanity": "51",
+    "Quantity": "51",
     "Price": "70190",
     "Tags": [
       "GIGABYTE",
@@ -9670,7 +9670,7 @@
   },
   {
     "ProductName": "ASUS PRIME B650M-K",
-    "Quanity": "79",
+    "Quantity": "79",
     "Price": "46745",
     "Tags": [
       "ASUS",
@@ -9720,7 +9720,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming B650-PLUS WIFI Alaplap",
-    "Quanity": "41",
+    "Quantity": "41",
     "Price": "83340",
     "Tags": [
       "ASUS",
@@ -9770,7 +9770,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming B650M-E WIFI Alaplap",
-    "Quanity": "101",
+    "Quantity": "101",
     "Price": "69170",
     "Tags": [
       "ASUS",
@@ -9815,7 +9815,7 @@
   },
   {
     "ProductName": "MSI MAG X870 TOMAHAWK WIFI Alaplap",
-    "Quanity": "21",
+    "Quantity": "21",
     "Price": "137890",
     "Tags": [
       "MSI",
@@ -9865,7 +9865,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming B650M-PLUS Alaplap",
-    "Quanity": "62",
+    "Quantity": "62",
     "Price": "62990",
     "Tags": [
       "ASUS",
@@ -9917,7 +9917,7 @@
   },
   {
     "ProductName": "ASUS ROG CROSSHAIR X870E HERO",
-    "Quanity": "72",
+    "Quantity": "72",
     "Price": "349390",
     "Tags": [
       "ASUS",
@@ -9967,7 +9967,7 @@
   },
   {
     "ProductName": "ASUS ROG STRIX X870E-E GAMING WIFI",
-    "Quanity": "65",
+    "Quantity": "65",
     "Price": "270400",
     "Tags": [
       "ASUS",
@@ -10018,7 +10018,7 @@
   },
   {
     "ProductName": "GIGABYTE B650 AORUS ELITE AX V2",
-    "Quanity": "77",
+    "Quantity": "77",
     "Price": "89059",
     "Tags": [
       "GIGABYTE",
@@ -10070,7 +10070,7 @@
   },
   {
     "ProductName": "MSI B650M GAMING PLUS WIFI",
-    "Quanity": "36",
+    "Quantity": "36",
     "Price": "67810",
     "Tags": [
       "MSI",
@@ -10120,7 +10120,7 @@
   },
   {
     "ProductName": "GIGABYTE X870E AORUS ELITE WIFI7",
-    "Quanity": "52",
+    "Quantity": "52",
     "Price": "164167",
     "Tags": [
       "GIGABYTE",
@@ -10166,7 +10166,7 @@
   },
   {
     "ProductName": "ASUS ROG STRIX X870-F GAMING WIFI",
-    "Quanity": "107",
+    "Quantity": "107",
     "Price": "174239",
     "Tags": [
       "ASUS",
@@ -10212,7 +10212,7 @@
   },
   {
     "ProductName": "MSI PRO B650-S WIFI",
-    "Quanity": "101",
+    "Quantity": "101",
     "Price": "71946",
     "Tags": [
       "MSI",
@@ -10260,7 +10260,7 @@
   },
   {
     "ProductName": "ASUS ROG Strix B850-F GAMING WIFI",
-    "Quanity": "86",
+    "Quantity": "86",
     "Price": "145068",
     "Tags": [
       "ASUS",
@@ -10291,7 +10291,7 @@
   },
   {
     "ProductName": "MSI B650 GAMING PLUS WIFI",
-    "Quanity": "85",
+    "Quantity": "85",
     "Price": "73070",
     "Tags": [
       "MSI",
@@ -10339,7 +10339,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming B850-PLUS WIFI",
-    "Quanity": "61",
+    "Quantity": "61",
     "Price": "117821",
     "Tags": [
       "ASUS",
@@ -10374,7 +10374,7 @@
   },
   {
     "ProductName": "ASUS ROG STRIX B650-A GAMING WIFI",
-    "Quanity": "102",
+    "Quantity": "102",
     "Price": "89590",
     "Tags": [
       "ASUS",
@@ -10421,7 +10421,7 @@
   },
   {
     "ProductName": "MSI MAG X670E TOMAHAWK WIFI",
-    "Quanity": "102",
+    "Quantity": "102",
     "Price": "123580",
     "Tags": [
       "MSI",
@@ -10469,7 +10469,7 @@
   },
   {
     "ProductName": "GIGABYTE B650 GAMING X AX V2",
-    "Quanity": "5",
+    "Quantity": "5",
     "Price": "82423",
     "Tags": [
       "GIGABYTE",
@@ -10521,7 +10521,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming X870-PLUS WIFI",
-    "Quanity": "108",
+    "Quantity": "108",
     "Price": "147610",
     "Tags": [
       "ASUS",
@@ -10572,7 +10572,7 @@
   },
   {
     "ProductName": "GIGABYTE X870E AORUS PRO ICE",
-    "Quanity": "48",
+    "Quantity": "48",
     "Price": "185522",
     "Tags": [
       "GIGABYTE",
@@ -10630,7 +10630,7 @@
   },
   {
     "ProductName": "MSI MPG X870E CARBON WIFI",
-    "Quanity": "57",
+    "Quantity": "57",
     "Price": "209490",
     "Tags": [
       "MSI",
@@ -10677,7 +10677,7 @@
   },
   {
     "ProductName": "GIGABYTE X870 AORUS ELITE WIFI7",
-    "Quanity": "25",
+    "Quantity": "25",
     "Price": "143891",
     "Tags": [
       "GIGABYTE",
@@ -10733,7 +10733,7 @@
   },
   {
     "ProductName": "ASUS PRIME A620M-K",
-    "Quanity": "1",
+    "Quantity": "1",
     "Price": "37840",
     "Tags": [
       "ASUS",
@@ -10778,7 +10778,7 @@
   },
   {
     "ProductName": "MSI MAG B850 TOMAHAWK MAX WIFI",
-    "Quanity": "17",
+    "Quantity": "17",
     "Price": "118690",
     "Tags": [
       "MSI",
@@ -10815,7 +10815,7 @@
   },
   {
     "ProductName": "MSI MAG X670e Gaming Plus Wifi",
-    "Quanity": "101",
+    "Quantity": "101",
     "Price": "107010",
     "Tags": [
       "MSI",
@@ -10867,7 +10867,7 @@
   },
   {
     "ProductName": "GIGABYTE B850 AORUS ELITE WIFI7 ICE Alaplap",
-    "Quanity": "85",
+    "Quantity": "85",
     "Price": "111900",
     "Tags": [
       "GIGABYTE",
@@ -10907,7 +10907,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming A620M-PLUS WIFI Alaplap",
-    "Quanity": "61",
+    "Quantity": "61",
     "Price": "54700",
     "Tags": [
       "ASUS",
@@ -10952,7 +10952,7 @@
   },
   {
     "ProductName": "GIGABYTE B850 GAMING WIFI6 Alaplap",
-    "Quanity": "9",
+    "Quantity": "9",
     "Price": "94891",
     "Tags": [
       "GIGABYTE",
@@ -10993,7 +10993,7 @@
   },
   {
     "ProductName": "ASUS PRIME B650M-A II Alaplap",
-    "Quanity": "17",
+    "Quantity": "17",
     "Price": "50300",
     "Tags": [
       "ASUS",
@@ -11040,7 +11040,7 @@
   },
   {
     "ProductName": "GIGABYTE B650 EAGLE Alaplap",
-    "Quanity": "15",
+    "Quantity": "15",
     "Price": "72434",
     "Tags": [
       "GIGABYTE",
@@ -11089,7 +11089,7 @@
   },
   {
     "ProductName": "GIGABYTE B650I AX Alaplap",
-    "Quanity": "11",
+    "Quantity": "11",
     "Price": "77900",
     "Tags": [
       "GIGABYTE",
@@ -11132,7 +11132,7 @@
   },
   {
     "ProductName": "GIGABYTE X870I AORUS PRO ICE Alaplap",
-    "Quanity": "1",
+    "Quantity": "1",
     "Price": "150876",
     "Tags": [
       "GIGABYTE",
@@ -11176,7 +11176,7 @@
   },
   {
     "ProductName": "ASUS ROG STRIX Z890-F GAMING WIFI",
-    "Quanity": "59",
+    "Quantity": "59",
     "Price": "185220",
     "Tags": [
       "ASUS",
@@ -11225,7 +11225,7 @@
   },
   {
     "ProductName": "MSI MAG Z890 TOMAHAWK WIFI",
-    "Quanity": "74",
+    "Quantity": "74",
     "Price": "143891",
     "Tags": [
       "MSI",
@@ -11275,7 +11275,7 @@
   },
   {
     "ProductName": "ASUS ROG MAXIMUS Z890 HERO",
-    "Quanity": "27",
+    "Quantity": "27",
     "Price": "316790",
     "Tags": [
       "ASUS",
@@ -11324,7 +11324,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming Z890-PLUS WIFI",
-    "Quanity": "12",
+    "Quantity": "12",
     "Price": "133260",
     "Tags": [
       "ASUS",
@@ -11372,7 +11372,7 @@
   },
   {
     "ProductName": "GIGABYTE Z890M GAMING X",
-    "Quanity": "109",
+    "Quantity": "109",
     "Price": "88011",
     "Tags": [
       "GIGABYTE",
@@ -11426,7 +11426,7 @@
   },
   {
     "ProductName": "GIGABYTE B860M EAGLE",
-    "Quanity": "61",
+    "Quantity": "61",
     "Price": "59540",
     "Tags": [
       "GIGABYTE",
@@ -11467,7 +11467,7 @@
   },
   {
     "ProductName": "ASUS ROG MAXIMUS Z890 EXTREME",
-    "Quanity": "10",
+    "Quantity": "10",
     "Price": "671540",
     "Tags": [
       "ASUS",
@@ -11515,7 +11515,7 @@
   },
   {
     "ProductName": "MSI Z890 GAMING PLUS WIFI",
-    "Quanity": "22",
+    "Quantity": "22",
     "Price": "118745",
     "Tags": [
       "MSI",
@@ -11566,7 +11566,7 @@
   },
   {
     "ProductName": "ASUS ROG STRIX Z890-E GAMING WIFI",
-    "Quanity": "107",
+    "Quantity": "107",
     "Price": "266440",
     "Tags": [
       "ASUS",
@@ -11613,7 +11613,7 @@
   },
   {
     "ProductName": "GIGABYTE Z890 EAGLE WIFI7",
-    "Quanity": "15",
+    "Quantity": "15",
     "Price": "106172",
     "Tags": [
       "GIGABYTE",
@@ -11664,7 +11664,7 @@
   },
   {
     "ProductName": "MSI MEG Z890 ACE",
-    "Quanity": "71",
+    "Quantity": "71",
     "Price": "295390",
     "Tags": [
       "MSI",
@@ -11713,7 +11713,7 @@
   },
   {
     "ProductName": "MSI PRO Z890-S WIFI",
-    "Quanity": "59",
+    "Quantity": "59",
     "Price": "103378",
     "Tags": [
       "MSI",
@@ -11761,7 +11761,7 @@
   },
   {
     "ProductName": "ASUS ROG MAXIMUS Z890 APEX",
-    "Quanity": "76",
+    "Quantity": "76",
     "Price": "367350",
     "Tags": [
       "ASUS",
@@ -11810,7 +11810,7 @@
   },
   {
     "ProductName": "GIGABYTE Z890 GAMING X WIFI7",
-    "Quanity": "82",
+    "Quantity": "82",
     "Price": "136068",
     "Tags": [
       "GIGABYTE",
@@ -11860,7 +11860,7 @@
   },
   {
     "ProductName": "GIGABYTE Z890 UD WIFI6E",
-    "Quanity": "17",
+    "Quantity": "17",
     "Price": "93599",
     "Tags": [
       "GIGABYTE",
@@ -11914,7 +11914,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming Z890-PRO WIFI",
-    "Quanity": "100",
+    "Quantity": "100",
     "Price": "167120",
     "Tags": [
       "ASUS",
@@ -11963,7 +11963,7 @@
   },
   {
     "ProductName": "ASUS ROG STRIX B860-F GAMING WIFI",
-    "Quanity": "40",
+    "Quantity": "40",
     "Price": "132500",
     "Tags": [
       "ASUS",
@@ -11997,7 +11997,7 @@
   },
   {
     "ProductName": "GIGABYTE Z890M AORUS ELITE WIFI7 ICE",
-    "Quanity": "107",
+    "Quantity": "107",
     "Price": "107900",
     "Tags": [
       "GIGABYTE",
@@ -12038,7 +12038,7 @@
   },
   {
     "ProductName": "GIGABYTE B860M D3HP",
-    "Quanity": "13",
+    "Quantity": "13",
     "Price": "66358",
     "Tags": [
       "GIGABYTE",
@@ -12078,7 +12078,7 @@
   },
   {
     "ProductName": "ASUS PRIME Z890-P WIFI",
-    "Quanity": "106",
+    "Quantity": "106",
     "Price": "108507",
     "Tags": [
       "ASUS",
@@ -12124,7 +12124,7 @@
   },
   {
     "ProductName": "ASUS ProArt Z890-Creator WiFi",
-    "Quanity": "41",
+    "Quantity": "41",
     "Price": "257610",
     "Tags": [
       "ASUS",
@@ -12161,7 +12161,7 @@
   },
   {
     "ProductName": "ASUS PRIME Z890-P",
-    "Quanity": "27",
+    "Quantity": "27",
     "Price": "109710",
     "Tags": [
       "ASUS",
@@ -12210,7 +12210,7 @@
   },
   {
     "ProductName": "ASUS PRIME H810M-A CSM",
-    "Quanity": "104",
+    "Quantity": "104",
     "Price": "57080",
     "Tags": [
       "ASUS",
@@ -12238,7 +12238,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming B860-PLUS WIFI",
-    "Quanity": "45",
+    "Quantity": "45",
     "Price": "108270",
     "Tags": [
       "ASUS",
@@ -12271,7 +12271,7 @@
   },
   {
     "ProductName": "GIGABYTE Z890 AORUS ELITE WIFI7 ICE",
-    "Quanity": "15",
+    "Quantity": "15",
     "Price": "144730",
     "Tags": [
       "GIGABYTE",
@@ -12331,7 +12331,7 @@
   },
   {
     "ProductName": "ASUS PRIME B760M-K",
-    "Quanity": "51",
+    "Quantity": "51",
     "Price": "44755",
     "Tags": [
       "ASUS",
@@ -12378,7 +12378,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming B760M-PLUS",
-    "Quanity": "51",
+    "Quantity": "51",
     "Price": "73065",
     "Tags": [
       "ASUS",
@@ -12423,7 +12423,7 @@
   },
   {
     "ProductName": "MSI PRO H610M-E DDR4",
-    "Quanity": "105",
+    "Quantity": "105",
     "Price": "27560",
     "Tags": [
       "MSI",
@@ -12472,7 +12472,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming B760-PLUS WIFI",
-    "Quanity": "86",
+    "Quantity": "86",
     "Price": "82803",
     "Tags": [
       "ASUS",
@@ -12521,7 +12521,7 @@
   },
   {
     "ProductName": "MSI B760 GAMING PLUS WIFI Alaplap",
-    "Quanity": "96",
+    "Quantity": "96",
     "Price": "74041",
     "Tags": [
       "MSI",
@@ -12572,7 +12572,7 @@
   },
   {
     "ProductName": "ASUS Rog Strix B760-F Gaming WIFI Alaplap",
-    "Quanity": "101",
+    "Quantity": "101",
     "Price": "105642",
     "Tags": [
       "ASUS",
@@ -12625,7 +12625,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming B760M-E D4 Alaplap",
-    "Quanity": "61",
+    "Quantity": "61",
     "Price": "54500",
     "Tags": [
       "ASUS",
@@ -12670,7 +12670,7 @@
   },
   {
     "ProductName": "ASUS ROG STRIX Z790-E GAMING WIFI Alaplap",
-    "Quanity": "79",
+    "Quantity": "79",
     "Price": "182550",
     "Tags": [
       "ASUS",
@@ -12721,7 +12721,7 @@
   },
   {
     "ProductName": "MSI MAG Z790 TOMAHAWK WIFI",
-    "Quanity": "107",
+    "Quantity": "107",
     "Price": "107569",
     "Tags": [
       "MSI",
@@ -12770,7 +12770,7 @@
   },
   {
     "ProductName": "ASUS PRIME H610M-K D4",
-    "Quanity": "17",
+    "Quantity": "17",
     "Price": "32795",
     "Tags": [
       "ASUS",
@@ -12823,7 +12823,7 @@
   },
   {
     "ProductName": "ASUS PRIME B660M-K D4",
-    "Quanity": "15",
+    "Quantity": "15",
     "Price": "40660",
     "Tags": [
       "ASUS",
@@ -12875,7 +12875,7 @@
   },
   {
     "ProductName": "GIGABYTE Z790 AORUS ELITE AX",
-    "Quanity": "99",
+    "Quantity": "99",
     "Price": "118937",
     "Tags": [
       "GIGABYTE",
@@ -12926,7 +12926,7 @@
   },
   {
     "ProductName": "MSI PRO B760M-P DDR4",
-    "Quanity": "61",
+    "Quantity": "61",
     "Price": "42520",
     "Tags": [
       "MSI",
@@ -12977,7 +12977,7 @@
   },
   {
     "ProductName": "ASUS PRIME Z790-A WIFI",
-    "Quanity": "48",
+    "Quantity": "48",
     "Price": "99900",
     "Tags": [
       "ASUS",
@@ -13025,7 +13025,7 @@
   },
   {
     "ProductName": "ASUS ROG STRIX Z790-F GAMING WIFI",
-    "Quanity": "16",
+    "Quantity": "16",
     "Price": "139990",
     "Tags": [
       "ASUS",
@@ -13075,7 +13075,7 @@
   },
   {
     "ProductName": "GIGABYTE B760M D3HP DDR4",
-    "Quanity": "25",
+    "Quantity": "25",
     "Price": "43307",
     "Tags": [
       "GIGABYTE",
@@ -13122,7 +13122,7 @@
   },
   {
     "ProductName": "MSI Z790 Gaming Plus Wifi",
-    "Quanity": "100",
+    "Quantity": "100",
     "Price": "96393",
     "Tags": [
       "MSI",
@@ -13168,7 +13168,7 @@
   },
   {
     "ProductName": "GIGABYTE B760 GAMING X DDR4",
-    "Quanity": "100",
+    "Quantity": "100",
     "Price": "57976",
     "Tags": [
       "GIGABYTE",
@@ -13217,7 +13217,7 @@
   },
   {
     "ProductName": "GIGABYTE B760M GAMING X DDR4",
-    "Quanity": "19",
+    "Quantity": "19",
     "Price": "57277",
     "Tags": [
       "GIGABYTE",
@@ -13266,7 +13266,7 @@
   },
   {
     "ProductName": "ASUS PRIME B760M-K D4",
-    "Quanity": "78",
+    "Quantity": "78",
     "Price": "41977",
     "Tags": [
       "ASUS",
@@ -13314,7 +13314,7 @@
   },
   {
     "ProductName": "GIGABYTE H610M H V3 DDR4",
-    "Quanity": "64",
+    "Quantity": "64",
     "Price": "30455",
     "Tags": [
       "GIGABYTE",
@@ -13361,7 +13361,7 @@
   },
   {
     "ProductName": "ASUS Prime H610M-R SI",
-    "Quanity": "78",
+    "Quantity": "78",
     "Price": "32780",
     "Tags": [
       "ASUS",
@@ -13390,7 +13390,7 @@
   },
   {
     "ProductName": "ASUS Prime Z790-P WIFI",
-    "Quanity": "48",
+    "Quantity": "48",
     "Price": "94004",
     "Tags": [
       "ASUS",
@@ -13438,7 +13438,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming Z790-PRO WIFI",
-    "Quanity": "40",
+    "Quantity": "40",
     "Price": "114990",
     "Tags": [
       "ASUS",
@@ -13486,7 +13486,7 @@
   },
   {
     "ProductName": "GIGABYTE B760 GAMING X",
-    "Quanity": "45",
+    "Quantity": "45",
     "Price": "67195",
     "Tags": [
       "GIGABYTE",
@@ -13535,7 +13535,7 @@
   },
   {
     "ProductName": "GIGABYTE H610M GAMING WIFI DDR4",
-    "Quanity": "42",
+    "Quantity": "42",
     "Price": "42609",
     "Tags": [
       "GIGABYTE",
@@ -13584,7 +13584,7 @@
   },
   {
     "ProductName": "ASUS Prime B760-Plus D4",
-    "Quanity": "23",
+    "Quantity": "23",
     "Price": "49420",
     "Tags": [
       "ASUS",
@@ -13633,7 +13633,7 @@
   },
   {
     "ProductName": "ASUS ROG STRIX B760-A Gaming WIFI",
-    "Quanity": "73",
+    "Quantity": "73",
     "Price": "92700",
     "Tags": [
       "ASUS",
@@ -13685,7 +13685,7 @@
   },
   {
     "ProductName": "MSI PRO B760-P DDR4 II Alaplap",
-    "Quanity": "96",
+    "Quantity": "96",
     "Price": "58255",
     "Tags": [
       "MSI",
@@ -13734,7 +13734,7 @@
   },
   {
     "ProductName": "ASUS ROG Strix Z790-A Gaming WIFI II Alaplap",
-    "Quanity": "42",
+    "Quantity": "42",
     "Price": "147000",
     "Tags": [
       "ASUS",
@@ -13780,7 +13780,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32",
-    "Quanity": "43",
+    "Quantity": "43",
     "Price": "52040",
     "Tags": [
       "Kingston",
@@ -13807,7 +13807,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast RGB 32GB (2x16GB) DDR5 6000MHz KF560C36BBEAK2-32",
-    "Quanity": "58",
+    "Quantity": "58",
     "Price": "55899",
     "Tags": [
       "Kingston",
@@ -13835,7 +13835,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C36BBE2K2-32",
-    "Quanity": "9",
+    "Quantity": "9",
     "Price": "49398",
     "Tags": [
       "Kingston",
@@ -13862,7 +13862,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast 32GB DDR5 5600MHz KF556C40BB-32",
-    "Quanity": "33",
+    "Quantity": "33",
     "Price": "38380",
     "Tags": [
       "Kingston",
@@ -13889,7 +13889,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast 32GB (2x16GB) DDR5 5600MHz KF556C36BBEK2-32",
-    "Quanity": "110",
+    "Quantity": "110",
     "Price": "39040",
     "Tags": [
       "Kingston",
@@ -13916,7 +13916,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast 32GB DDR5 5200MHz KF552C40BB-32",
-    "Quanity": "77",
+    "Quantity": "77",
     "Price": "36470",
     "Tags": [
       "Kingston",
@@ -13943,7 +13943,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast 16GB (2x8GB) DDR5 6000MHz KF560C30BBEK2-16",
-    "Quanity": "79",
+    "Quantity": "79",
     "Price": "29784",
     "Tags": [
       "Kingston",
@@ -13970,7 +13970,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast RGB 32GB (2x16GB) DDR5 6000MHz KF560C30BWEAK2-32",
-    "Quanity": "9",
+    "Quantity": "9",
     "Price": "58542",
     "Tags": [
       "Kingston",
@@ -13998,7 +13998,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast 32GB (2x16GB) DDR5 5600MHz KF556C40BBK2-32",
-    "Quanity": "34",
+    "Quantity": "34",
     "Price": "40870",
     "Tags": [
       "Kingston",
@@ -14025,7 +14025,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast RGB 64GB (2x32GB) DDR5 6000MHz KF560C36BBEAK2-64",
-    "Quanity": "59",
+    "Quantity": "59",
     "Price": "97455",
     "Tags": [
       "Kingston",
@@ -14053,7 +14053,7 @@
   },
   {
     "ProductName": "Kingston 32GB DDR5 5600MHz KCP556UD8-32",
-    "Quanity": "89",
+    "Quantity": "89",
     "Price": "36910",
     "Tags": [
       "Kingston",
@@ -14078,7 +14078,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast RGB 32GB (2x16GB) DDR5 6000MHz KF560C30BBAK2-32",
-    "Quanity": "21",
+    "Quantity": "21",
     "Price": "58542",
     "Tags": [
       "Kingston",
@@ -14106,7 +14106,7 @@
   },
   {
     "ProductName": "Kingston FURY Renegade 32GB (2x16GB) DDR5 6400MHz KF564C32RSK2-32",
-    "Quanity": "18",
+    "Quantity": "18",
     "Price": "63265",
     "Tags": [
       "Kingston",
@@ -14133,7 +14133,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast 16GB (2x8GB) DDR5 6000MHz KF560C36BBEK2-16",
-    "Quanity": "23",
+    "Quantity": "23",
     "Price": "26100",
     "Tags": [
       "Kingston",
@@ -14160,7 +14160,7 @@
   },
   {
     "ProductName": "Kingston FURY Renegade RGB 48GB (2x24GB) DDR5 8400MHz KF584CU40RSAK2-48",
-    "Quanity": "34",
+    "Quantity": "34",
     "Price": "149985",
     "Tags": [
       "Kingston",
@@ -14187,7 +14187,7 @@
   },
   {
     "ProductName": "G.SKILL Trident Z5 32GB (2x16GB) DDR5 6000MHz F5-6000J3038F16GX2-TZ5N",
-    "Quanity": "102",
+    "Quantity": "102",
     "Price": "60057",
     "Tags": [
       "G.SKILL",
@@ -14213,7 +14213,7 @@
   },
   {
     "ProductName": "G.SKILL Trident Z5 Neo RGB 32GB (2x16GB) DDR5 6000MHz F5-6000J3636F16GX2-TZ5NR",
-    "Quanity": "78",
+    "Quantity": "78",
     "Price": "48150",
     "Tags": [
       "G.SKILL",
@@ -14240,7 +14240,7 @@
   },
   {
     "ProductName": "G.SKILL Trident Z5 Royal NEO RGB 32GB (2x16GB) DDR5 6000MHz F5-6000J2836G16GX2-TR5NS",
-    "Quanity": "60",
+    "Quantity": "60",
     "Price": "77900",
     "Tags": [
       "G.SKILL",
@@ -14267,7 +14267,7 @@
   },
   {
     "ProductName": "G.SKILL Trident Z5 Neo RGB 32GB (2x16GB) DDR5 6400MHz F5-6400J3239G16GX2-TZ5NRW",
-    "Quanity": "30",
+    "Quantity": "30",
     "Price": "65890",
     "Tags": [
       "G.SKILL",
@@ -14294,7 +14294,7 @@
   },
   {
     "ProductName": "G.SKILL Flare X5 32GB (2x16GB) DDR5 6000MHz F5-6000J3636F16GX2-FX5",
-    "Quanity": "82",
+    "Quantity": "82",
     "Price": "47670",
     "Tags": [
       "G.SKILL",
@@ -14320,7 +14320,7 @@
   },
   {
     "ProductName": "G.SKILL Ripjaws M5 RGB 32GB (2x16GB) DDR5 6000MHz F5-6000J3040F16GX2-RM5RW",
-    "Quanity": "0",
+    "Quantity": "0",
     "Price": "48990",
     "Tags": [
       "G.SKILL",
@@ -14347,7 +14347,7 @@
   },
   {
     "ProductName": "G.SKILL Ripjaws S5 32GB (2x16GB) DDR5 6000MHz F5-6000J3040F16GX2-RS5K",
-    "Quanity": "56",
+    "Quantity": "56",
     "Price": "52374",
     "Tags": [
       "G.SKILL",
@@ -14374,7 +14374,7 @@
   },
   {
     "ProductName": "G.SKILL Trident Z5 RGB 32GB (2x16GB) DDR5 6000MHz F5-6000J3636F16GX2-TZ5RK",
-    "Quanity": "104",
+    "Quantity": "104",
     "Price": "63760",
     "Tags": [
       "G.SKILL",
@@ -14402,7 +14402,7 @@
   },
   {
     "ProductName": "G.SKILL Flare X5 64GB (2x32GB) DDR5 6000MHz F5-6000J3040G32GX2-FX5",
-    "Quanity": "84",
+    "Quantity": "84",
     "Price": "89990",
     "Tags": [
       "G.SKILL",
@@ -14429,7 +14429,7 @@
   },
   {
     "ProductName": "G.SKILL Trident Z5 RGB 32GB (2x16GB) DDR5 8000MHz F5-8000J3848H16GX2-TZ5RK",
-    "Quanity": "101",
+    "Quantity": "101",
     "Price": "84500",
     "Tags": [
       "G.SKILL",
@@ -14457,7 +14457,7 @@
   },
   {
     "ProductName": "G.SKILL Trident Z5 Neo RGB 32GB (2x16GB) DDR5 6000MHz F5-6000J3036F16GX2-TZ5NRW",
-    "Quanity": "0",
+    "Quantity": "0",
     "Price": "69900",
     "Tags": [
       "G.SKILL",
@@ -14486,7 +14486,7 @@
   },
   {
     "ProductName": "G.SKILL Trident Z5 Royal 32GB (2x16GB) DDR5 7200MHz F5-7200J3445G16GX2-TR5S",
-    "Quanity": "43",
+    "Quantity": "43",
     "Price": "75230",
     "Tags": [
       "G.SKILL",
@@ -14514,7 +14514,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE 32GB (2x16GB) DDR5 6000MHz CMK32GX5M2B6000Z30",
-    "Quanity": "39",
+    "Quantity": "39",
     "Price": "57610",
     "Tags": [
       "Corsair",
@@ -14540,7 +14540,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE RGB 32GB (2x16GB) DDR5 6000MHz CMH32GX5M2B6000Z30K",
-    "Quanity": "99",
+    "Quantity": "99",
     "Price": "53590",
     "Tags": [
       "Corsair",
@@ -14567,7 +14567,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE 32GB (2x16GB) DDR5 6000MHz CMH32GX5M2E6000Z36",
-    "Quanity": "75",
+    "Quantity": "75",
     "Price": "52978",
     "Tags": [
       "Corsair",
@@ -14593,7 +14593,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE 32GB (2x16GB) DDR5 6000MHz CMK32GX5M2B6000C30",
-    "Quanity": "1",
+    "Quantity": "1",
     "Price": "59990",
     "Tags": [
       "Corsair",
@@ -14619,7 +14619,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE RGB 32GB (2x16GB) DDR5 6000MHz CMH32GX5M2E6000C36",
-    "Quanity": "43",
+    "Quantity": "43",
     "Price": "54889",
     "Tags": [
       "Corsair",
@@ -14646,7 +14646,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE RGB 32GB (2x16GB) DDR5 5200MHz CMH32GX5M2B5200C40",
-    "Quanity": "42",
+    "Quantity": "42",
     "Price": "50690",
     "Tags": [
       "Corsair",
@@ -14673,7 +14673,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE 64GB (2x32GB) DDR5 5600MHz CMK64GX5M2B5600Z40",
-    "Quanity": "7",
+    "Quantity": "7",
     "Price": "81590",
     "Tags": [
       "Corsair",
@@ -14699,7 +14699,7 @@
   },
   {
     "ProductName": "Corsair DOMINATOR TITANIUM RGB 96GB (2x48GB) DDR5 6600MHz CMP96GX5M2B6600C32W",
-    "Quanity": "99",
+    "Quantity": "99",
     "Price": "195290",
     "Tags": [
       "Corsair",
@@ -14727,7 +14727,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE 64GB (2x32GB) DDR5 6000MHz CMK64GX5M2B6000Z30",
-    "Quanity": "29",
+    "Quantity": "29",
     "Price": "93890",
     "Tags": [
       "Corsair",
@@ -14753,7 +14753,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast 32GB (2x16GB) DDR4 3200MHz KF432C16BB1K2/32",
-    "Quanity": "39",
+    "Quantity": "39",
     "Price": "28625",
     "Tags": [
       "Kingston",
@@ -14780,7 +14780,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast 16GB (2x8GB) DDR4 3200MHz KF432C16BBK2/16",
-    "Quanity": "100",
+    "Quantity": "100",
     "Price": "16415",
     "Tags": [
       "Kingston",
@@ -14807,7 +14807,7 @@
   },
   {
     "ProductName": "Kingston FURY Renegade 32GB (2x16GB) DDR4 3600MHz KF436C16RB12K2/32",
-    "Quanity": "79",
+    "Quantity": "79",
     "Price": "31930",
     "Tags": [
       "Kingston",
@@ -14834,7 +14834,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast 16GB DDR4 3200MHz KF432C16BB1/16",
-    "Quanity": "26",
+    "Quantity": "26",
     "Price": "13970",
     "Tags": [
       "Kingston",
@@ -14861,7 +14861,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast 8GB DDR4 3200MHz KF432C16BB/8",
-    "Quanity": "92",
+    "Quantity": "92",
     "Price": "8075",
     "Tags": [
       "Kingston",
@@ -14888,7 +14888,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast 64GB (2x32GB) DDR4 3200MHz KF432C16BBK2/64",
-    "Quanity": "104",
+    "Quantity": "104",
     "Price": "53570",
     "Tags": [
       "Kingston",
@@ -14915,7 +14915,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast 32GB (2x16GB) DDR4 3600MHz KF436C18BBK2/32",
-    "Quanity": "68",
+    "Quantity": "68",
     "Price": "30130",
     "Tags": [
       "Kingston",
@@ -14942,7 +14942,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast 32GB (2x16GB) DDR4 3200MHz KF432C16BBK2/32",
-    "Quanity": "22",
+    "Quantity": "22",
     "Price": "28690",
     "Tags": [
       "Kingston",
@@ -14969,7 +14969,7 @@
   },
   {
     "ProductName": "Kingston 16GB DDR4 2666MHz KTL-TS426/16G",
-    "Quanity": "8",
+    "Quantity": "8",
     "Price": "30820",
     "Tags": [
       "Kingston",
@@ -14995,7 +14995,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast 16GB (2x8GB) DDR4 3600MHz KF436C17BBK2/16",
-    "Quanity": "15",
+    "Quantity": "15",
     "Price": "17365",
     "Tags": [
       "Kingston",
@@ -15022,7 +15022,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast 16GB DDR4 3200MHz KF432C16BB/16",
-    "Quanity": "92",
+    "Quantity": "92",
     "Price": "13965",
     "Tags": [
       "Kingston",
@@ -15049,7 +15049,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast 32GB DDR4 3200MHz KF432C16BB/32",
-    "Quanity": "36",
+    "Quantity": "36",
     "Price": "25620",
     "Tags": [
       "Kingston",
@@ -15076,7 +15076,7 @@
   },
   {
     "ProductName": "Kingston FURY Renegade RGB 32GB (2x16GB) DDR4 3600MHz KF436C16RB12AK2/32",
-    "Quanity": "13",
+    "Quantity": "13",
     "Price": "38040",
     "Tags": [
       "Kingston",
@@ -15104,7 +15104,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast RGB 64GB (2x32GB) DDR4 3200MHz KF432C16BB2AK2/64",
-    "Quanity": "45",
+    "Quantity": "45",
     "Price": "60057",
     "Tags": [
       "Kingston",
@@ -15132,7 +15132,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast RGB 32GB (2x16GB) DDR4 3200MHz KF432C16BB2AK2/32",
-    "Quanity": "32",
+    "Quantity": "32",
     "Price": "35151",
     "Tags": [
       "Kingston",
@@ -15160,7 +15160,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast 64GB (2x32GB) DDR4 3600MHz KF436C18BBK2/64",
-    "Quanity": "77",
+    "Quantity": "77",
     "Price": "61454",
     "Tags": [
       "Kingston",
@@ -15187,7 +15187,7 @@
   },
   {
     "ProductName": "Kingston ValueRAM 8GB DDR4 2666MHz KVR26N19S8/8",
-    "Quanity": "91",
+    "Quantity": "91",
     "Price": "8218",
     "Tags": [
       "Kingston",
@@ -15213,7 +15213,7 @@
   },
   {
     "ProductName": "Kingston FURY Beast 16GB DDR4 3600MHz KF436C18BB/16",
-    "Quanity": "85",
+    "Quantity": "85",
     "Price": "15335",
     "Tags": [
       "Kingston",
@@ -15240,7 +15240,7 @@
   },
   {
     "ProductName": "Kingston ValueRAM 16GB DDR4 3200MHz KVR32N22D8/16",
-    "Quanity": "7",
+    "Quantity": "7",
     "Price": "14260",
     "Tags": [
       "Kingston",
@@ -15266,7 +15266,7 @@
   },
   {
     "ProductName": "G.SKILL Aegis 16GB (2x8GB) DDR4 3200MHz F4-3200C16D-16GIS",
-    "Quanity": "92",
+    "Quantity": "92",
     "Price": "12682",
     "Tags": [
       "G.SKILL",
@@ -15292,7 +15292,7 @@
   },
   {
     "ProductName": "G.SKILL Aegis 32GB (2x16GB) DDR4 3200MHz F4-3200C16D-32GIS",
-    "Quanity": "1",
+    "Quantity": "1",
     "Price": "22338",
     "Tags": [
       "G.SKILL",
@@ -15318,7 +15318,7 @@
   },
   {
     "ProductName": "G.SKILL Trident Z Neo 32GB (2x16GB) DDR4 3600MHz F4-3600C16D-32GTZNC",
-    "Quanity": "30",
+    "Quantity": "30",
     "Price": "42957",
     "Tags": [
       "G.SKILL",
@@ -15344,7 +15344,7 @@
   },
   {
     "ProductName": "G.SKILL Ripjaws V 32GB (2x16GB) DDR4 3200MHz F4-3200C16D-32GVK",
-    "Quanity": "85",
+    "Quantity": "85",
     "Price": "25599",
     "Tags": [
       "G.SKILL",
@@ -15370,7 +15370,7 @@
   },
   {
     "ProductName": "G.SKILL Aegis 16GB (2x8GB) DDR4 3000MHz F4-3000C16D-16GISB",
-    "Quanity": "66",
+    "Quantity": "66",
     "Price": "11441",
     "Tags": [
       "G.SKILL",
@@ -15396,7 +15396,7 @@
   },
   {
     "ProductName": "G.SKILL Trident Z RGB 32GB (2x16GB) DDR4 4400MHz F4-4400C19D-32GTZR",
-    "Quanity": "0",
+    "Quantity": "0",
     "Price": "44540",
     "Tags": [
       "G.SKILL",
@@ -15423,7 +15423,7 @@
   },
   {
     "ProductName": "G.SKILL Trident Z RGB 32GB (2x16GB) DDR4 3200MHz F4-3200C16D-32GTZRX",
-    "Quanity": "95",
+    "Quantity": "95",
     "Price": "27770",
     "Tags": [
       "G.SKILL",
@@ -15450,7 +15450,7 @@
   },
   {
     "ProductName": "G.SKILL Ripjaws V 32GB (2x16GB) DDR4 4000MHz F4-4000C18D-32GVK",
-    "Quanity": "10",
+    "Quantity": "10",
     "Price": "35480",
     "Tags": [
       "G.SKILL",
@@ -15476,7 +15476,7 @@
   },
   {
     "ProductName": "G.SKILL Ripjaws V 32GB (2x16GB) DDR4 3600MHz F4-3600C16D-32GVKC",
-    "Quanity": "104",
+    "Quantity": "104",
     "Price": "36324",
     "Tags": [
       "G.SKILL",
@@ -15502,7 +15502,7 @@
   },
   {
     "ProductName": "G.SKILL Ripjaws V 16GB (2x8GB) DDR4 3200MHz F4-3200C16D-16GVKB",
-    "Quanity": "83",
+    "Quantity": "83",
     "Price": "13720",
     "Tags": [
       "G.SKILL",
@@ -15528,7 +15528,7 @@
   },
   {
     "ProductName": "G.SKILL Aegis 32GB (2x16GB) DDR4 3000MHz F4-3000C16D-32GISB",
-    "Quanity": "93",
+    "Quantity": "93",
     "Price": "24873",
     "Tags": [
       "G.SKILL",
@@ -15554,7 +15554,7 @@
   },
   {
     "ProductName": "G.SKILL Trident Z RGB 32GB (2x16GB) DDR4 3200MHz F4-3200C16D-32GTZR",
-    "Quanity": "34",
+    "Quantity": "34",
     "Price": "34558",
     "Tags": [
       "G.SKILL",
@@ -15581,7 +15581,7 @@
   },
   {
     "ProductName": "G.SKILL Trident Z Neo 16GB (2x8GB) DDR4 3600MHz F4-3600C16D-16GTZNC",
-    "Quanity": "74",
+    "Quantity": "74",
     "Price": "25510",
     "Tags": [
       "G.SKILL",
@@ -15608,7 +15608,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE LPX 32GB (2x16GB) DDR4 3600MHz CMK32GX4M2D3600C16",
-    "Quanity": "60",
+    "Quantity": "60",
     "Price": "37495",
     "Tags": [
       "Corsair",
@@ -15635,7 +15635,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE RGB PRO 32GB (2x16GB) DDR4 3200MHz CMW32GX4M2E3200C16",
-    "Quanity": "13",
+    "Quantity": "13",
     "Price": "33849",
     "Tags": [
       "Corsair",
@@ -15662,7 +15662,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE LPX 32GB (2x16GB) DDR4 3200MHz CMK32GX4M2E3200C16",
-    "Quanity": "8",
+    "Quantity": "8",
     "Price": "28320",
     "Tags": [
       "Corsair",
@@ -15689,7 +15689,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE LPX 16GB (2x8GB) DDR4 3200MHz CMK16GX4M2B3200C16",
-    "Quanity": "60",
+    "Quantity": "60",
     "Price": "15975",
     "Tags": [
       "Corsair",
@@ -15716,7 +15716,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE RGB PRO 32GB (2x16GB) DDR4 3600MHz CMW32GX4M2D3600C18",
-    "Quanity": "109",
+    "Quantity": "109",
     "Price": "36741",
     "Tags": [
       "Corsair",
@@ -15743,7 +15743,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE LPX 64GB (2x32GB) DDR4 3200MHz CMK64GX4M2E3200C16",
-    "Quanity": "16",
+    "Quantity": "16",
     "Price": "55321",
     "Tags": [
       "Corsair",
@@ -15770,7 +15770,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE LPX 16GB (2x8GB) DDR4 3000MHz CMK16GX4M2B3000C15",
-    "Quanity": "0",
+    "Quantity": "0",
     "Price": "17842",
     "Tags": [
       "Corsair",
@@ -15797,7 +15797,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE LPX 32GB (2x16GB) DDR4 3600MHz CMK32GX4M2D3600C18",
-    "Quanity": "100",
+    "Quantity": "100",
     "Price": "29672",
     "Tags": [
       "Corsair",
@@ -15824,7 +15824,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE LPX 16GB (2x8GB) DDR4 3600MHz CMK16GX4M2D3600C18",
-    "Quanity": "63",
+    "Quantity": "63",
     "Price": "18343",
     "Tags": [
       "Corsair",
@@ -15851,7 +15851,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE RGB RT 32GB (2x16GB) DDR4 3600MHz CMN32GX4M2Z3600C16",
-    "Quanity": "84",
+    "Quantity": "84",
     "Price": "37910",
     "Tags": [
       "Corsair",
@@ -15878,7 +15878,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE RGB PRO 16GB (2x8GB) DDR4 3200MHz CMW16GX4M2C3200C16",
-    "Quanity": "46",
+    "Quantity": "46",
     "Price": "24014",
     "Tags": [
       "Corsair",
@@ -15905,7 +15905,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE RGB PRO SL 32GB (2x16GB) DDR4 3600MHz CMH32GX4M2D3600C18W",
-    "Quanity": "87",
+    "Quantity": "87",
     "Price": "30910",
     "Tags": [
       "Corsair",
@@ -15932,7 +15932,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE RGB PRO 16GB (2x8GB) DDR4 3200MHz CMW16GX4M2C3200C16W",
-    "Quanity": "3",
+    "Quantity": "3",
     "Price": "27065",
     "Tags": [
       "Corsair",
@@ -15959,7 +15959,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE LPX 32GB (2x16GB) DDR4 2400MHz CMK32GX4M2A2400C14",
-    "Quanity": "110",
+    "Quantity": "110",
     "Price": "30520",
     "Tags": [
       "Corsair",
@@ -15986,7 +15986,7 @@
   },
   {
     "ProductName": "Corsair VENGEANCE RGB RS 64GB (2x32GB) DDR4 3600MHz CMG64GX4M2D3600C18",
-    "Quanity": "12",
+    "Quantity": "12",
     "Price": "53180",
     "Tags": [
       "Corsair",
@@ -16013,7 +16013,7 @@
   },
   {
     "ProductName": "Corsair DOMINATOR PLATINUM RGB 32GB (2x16GB) DDR4 3466MHz CMT32GX4M2C3466C16",
-    "Quanity": "107",
+    "Quantity": "107",
     "Price": "51300",
     "Tags": [
       "Corsair",
@@ -16040,7 +16040,7 @@
   },
   {
     "ProductName": "Corsair DOMINATOR TITANIUM RGB 48GB (2x24GB) DDR5 7200MHz CMP48GX5M2X7200C36W",
-    "Quanity": "82",
+    "Quantity": "82",
     "Price": "123290",
     "Tags": [
       "Corsair",
@@ -16067,7 +16067,7 @@
   },
   {
     "ProductName": "SAPPHIRE Radeon PULSE RX 6400 4GB GDDR6 64bit (11315-01-20G)",
-    "Quanity": "62",
+    "Quantity": "62",
     "Price": "61180",
     "Tags": [
       "SAPPHIRE",
@@ -16106,7 +16106,7 @@
   },
   {
     "ProductName": "GIGABYTE Radeon RX 6400 D6 LOW PROFILE 4GB GDDR6 64bit (GV-R64D6-4GL)",
-    "Quanity": "90",
+    "Quantity": "90",
     "Price": "81070",
     "Tags": [
       "GIGABYTE",
@@ -16144,7 +16144,7 @@
   },
   {
     "ProductName": "GIGABYTE Radeon RX 6400 EAGLE 4GB GDDR6 64bit (GV-R64EAGLE-4GD)",
-    "Quanity": "92",
+    "Quantity": "92",
     "Price": "81070",
     "Tags": [
       "GIGABYTE",
@@ -16174,7 +16174,7 @@
   },
   {
     "ProductName": "SAPPHIRE Radeon RX 6500 XT Pulse Gaming OC 8GB GDDR6 (11314-08-20G)",
-    "Quanity": "57",
+    "Quantity": "57",
     "Price": "90550",
     "Tags": [
       "SAPPHIRE",
@@ -16213,7 +16213,7 @@
   },
   {
     "ProductName": "GIGABYTE Radeon RX 6500 XT 4GB GDDR6 64bit (GV-R65XTEAGLE-4GD)",
-    "Quanity": "71",
+    "Quantity": "71",
     "Price": "69447",
     "Tags": [
       "GIGABYTE",
@@ -16250,7 +16250,7 @@
   },
   {
     "ProductName": "SAPPHIRE Pulse Radeon RX 6500 XT 4GB GDDR6 OC (11314-04-20G)",
-    "Quanity": "107",
+    "Quantity": "107",
     "Price": "67890",
     "Tags": [
       "SAPPHIRE",
@@ -16288,7 +16288,7 @@
   },
   {
     "ProductName": "ASUS Radeon RX 6600 Dual V3 8GB GDDR6 (DUAL-RX6600-8G-V3)",
-    "Quanity": "97",
+    "Quantity": "97",
     "Price": "113340",
     "Tags": [
       "ASUS",
@@ -16326,7 +16326,7 @@
   },
   {
     "ProductName": "MSI Radeon RX 6600 MECH 2X 8GB GDDR6 128bit (V502-035R)",
-    "Quanity": "5",
+    "Quantity": "5",
     "Price": "144900",
     "Tags": [
       "MSI",
@@ -16363,7 +16363,7 @@
   },
   {
     "ProductName": "MSI Radeon RX 6750 XT 12GB GDDR6 MECH 2X",
-    "Quanity": "30",
+    "Quantity": "30",
     "Price": "179990",
     "Tags": [
       "MSI",
@@ -16400,7 +16400,7 @@
   },
   {
     "ProductName": "SAPPHIRE Radeon RX 6750 XT 12GB DDR6 Pulse (11318-03-20G)",
-    "Quanity": "17",
+    "Quantity": "17",
     "Price": "256845",
     "Tags": [
       "SAPPHIRE",
@@ -16437,7 +16437,7 @@
   },
   {
     "ProductName": "GIGABYTE Radeon RX 6750 XT OC 12GB GDDR6 192bit (GV-R675XTGAMING OC-12GD)",
-    "Quanity": "68",
+    "Quantity": "68",
     "Price": "180290",
     "Tags": [
       "GIGABYTE",
@@ -16473,7 +16473,7 @@
   },
   {
     "ProductName": "SAPPHIRE PULSE AMD Radeon RX 7600 8GB (11324-01-20G)",
-    "Quanity": "90",
+    "Quantity": "90",
     "Price": "119430",
     "Tags": [
       "SAPPHIRE",
@@ -16510,7 +16510,7 @@
   },
   {
     "ProductName": "GIGABYTE Radeon RX 7600 GAMING OC 8GB GDDR6",
-    "Quanity": "89",
+    "Quantity": "89",
     "Price": "118230",
     "Tags": [
       "GIGABYTE",
@@ -16548,7 +16548,7 @@
   },
   {
     "ProductName": "ASUS Radeon RX 7600 DUAL OC EVO 8GB (DUAL-RX7600-O8G-EVO/90YV0LD0-M0NA00)",
-    "Quanity": "6",
+    "Quantity": "6",
     "Price": "117100",
     "Tags": [
       "ASUS",
@@ -16586,7 +16586,7 @@
   },
   {
     "ProductName": "GIGABYTE Radeon RX 7600 XT Gaming OC 16GB GDDR6 (GV-R76XTGAMING OC-16GD)",
-    "Quanity": "36",
+    "Quantity": "36",
     "Price": "168030",
     "Tags": [
       "GIGABYTE",
@@ -16624,7 +16624,7 @@
   },
   {
     "ProductName": "SAPPHIRE PULSE Radeon RX 7600 XT AMD 16GB GDDR6 (11339-04-20G)",
-    "Quanity": "62",
+    "Quantity": "62",
     "Price": "171890",
     "Tags": [
       "SAPPHIRE",
@@ -16663,7 +16663,7 @@
   },
   {
     "ProductName": "ASUS Radeon RX 7600 XT DUAL OC 16GB GDDR6",
-    "Quanity": "56",
+    "Quantity": "56",
     "Price": "168840",
     "Tags": [
       "ASUS",
@@ -16701,7 +16701,7 @@
   },
   {
     "ProductName": "SAPPHIRE RX 7700 XT PULSE GAMING 12G GDDR6",
-    "Quanity": "11",
+    "Quantity": "11",
     "Price": "195710",
     "Tags": [
       "SAPPHIRE",
@@ -16739,7 +16739,7 @@
   },
   {
     "ProductName": "GIGABYTE Radeon RX 7700 XT GAMING OC 12G (GV-R77XTGAMING OC-12GD)",
-    "Quanity": "53",
+    "Quantity": "53",
     "Price": "195430",
     "Tags": [
       "GIGABYTE",
@@ -16777,7 +16777,7 @@
   },
   {
     "ProductName": "SAPPHIRE PURE AMD Radeon RX 7700 XT 12G (11335-03-20G)",
-    "Quanity": "108",
+    "Quantity": "108",
     "Price": "194850",
     "Tags": [
       "SAPPHIRE",
@@ -16816,7 +16816,7 @@
   },
   {
     "ProductName": "SAPPHIRE NITRO+ AMD Radeon™ RX 7700 XT 12G (11335-02-20G)",
-    "Quanity": "50",
+    "Quantity": "50",
     "Price": "212020",
     "Tags": [
       "SAPPHIRE",
@@ -16855,7 +16855,7 @@
   },
   {
     "ProductName": "ASUS Radeon RX 7700 XT Dual OC Edition 12GB GDDR6 (DUAL-RX7700XT-O12G/90YV0JZ0-M0NA00)",
-    "Quanity": "2",
+    "Quantity": "2",
     "Price": "191700",
     "Tags": [
       "ASUS",
@@ -16893,7 +16893,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming Radeon RX 7700 XT OC 12GB GDDR6 (TUF-RX7700XT-O12G-GAMING/90YV0JK0-M0NA00)",
-    "Quanity": "48",
+    "Quantity": "48",
     "Price": "246360",
     "Tags": [
       "ASUS",
@@ -16931,7 +16931,7 @@
   },
   {
     "ProductName": "SAPPHIRE Radeon RX 7800 XT NITRO 16G GDDR6 (11330-01-20G)",
-    "Quanity": "76",
+    "Quantity": "76",
     "Price": "245370",
     "Tags": [
       "SAPPHIRE",
@@ -16970,7 +16970,7 @@
   },
   {
     "ProductName": "ASUS Radeon RX 7800 XT Dual OC 16GB GDDR6 256bit (DUAL-RX7800XT-O16G/90YV0JJ1-M0NA00)",
-    "Quanity": "51",
+    "Quantity": "51",
     "Price": "229670",
     "Tags": [
       "ASUS",
@@ -17009,7 +17009,7 @@
   },
   {
     "ProductName": "SAPPHIRE PULSE AMD Radeon RX 7800 XT 16G (11330-02-20G)",
-    "Quanity": "59",
+    "Quantity": "59",
     "Price": "222000",
     "Tags": [
       "SAPPHIRE",
@@ -17048,7 +17048,7 @@
   },
   {
     "ProductName": "GIGABYTE Radeon RX 7800 XT GAMING OC 16G (GV-R78XTGAMING OC-16GD)",
-    "Quanity": "51",
+    "Quantity": "51",
     "Price": "225610",
     "Tags": [
       "GIGABYTE",
@@ -17086,7 +17086,7 @@
   },
   {
     "ProductName": "SAPPHIRE AMD Radeon RX 7800 XT PURE 16G GDDR6 (11330-03-20G)",
-    "Quanity": "44",
+    "Quantity": "44",
     "Price": "250040",
     "Tags": [
       "SAPPHIRE",
@@ -17124,7 +17124,7 @@
   },
   {
     "ProductName": "SAPPHIRE Radeon RX 7900 XT Pulse Gaming OC 20G GDDR6 (11323-02-20G)",
-    "Quanity": "16",
+    "Quantity": "16",
     "Price": "315380",
     "Tags": [
       "SAPPHIRE",
@@ -17163,7 +17163,7 @@
   },
   {
     "ProductName": "SAPPHIRE AMD Radeon RX 7900 XT NITRO+ 20GB GDDR6 (11323-01-40G)",
-    "Quanity": "35",
+    "Quantity": "35",
     "Price": "342050",
     "Tags": [
       "SAPPHIRE",
@@ -17202,7 +17202,7 @@
   },
   {
     "ProductName": "GIGABYTE Radeon RX 7900 XT GAMING OC 20G GDDR6 (GV-R79XTGAMING OC-20GD)",
-    "Quanity": "50",
+    "Quantity": "50",
     "Price": "330710",
     "Tags": [
       "GIGABYTE",
@@ -17241,7 +17241,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming Radeon RX 7900 XT OC 20GB GDDR6 (TUF-RX7900XT-O20G-GAMING/90YV0IV1-M0NA00)",
-    "Quanity": "49",
+    "Quantity": "49",
     "Price": "394390",
     "Tags": [
       "ASUS",
@@ -17281,7 +17281,7 @@
   },
   {
     "ProductName": "SAPPHIRE AMD Radeon RX 7900 XTX Vapor-X 24GB GDDR6 Nitro+ (11322-01-40G)",
-    "Quanity": "48",
+    "Quantity": "48",
     "Price": "471390",
     "Tags": [
       "SAPPHIRE",
@@ -17320,7 +17320,7 @@
   },
   {
     "ProductName": "SAPPHIRE PULSE AMD Radeon RX 7900 XTX 24G GDDR6 (11322-02-20G)",
-    "Quanity": "58",
+    "Quantity": "58",
     "Price": "418650",
     "Tags": [
       "SAPPHIRE",
@@ -17359,7 +17359,7 @@
   },
   {
     "ProductName": "ASUS Radeon RX 7900 XTX Dual OC 24GB GDDR6 (RX7900XTX-O24G/90YV0IG2-M0NA00)",
-    "Quanity": "70",
+    "Quantity": "70",
     "Price": "411660",
     "Tags": [
       "ASUS",
@@ -17397,7 +17397,7 @@
   },
   {
     "ProductName": "ASUS GeForce GT 1030 2GB GDDR5 64bit (GT1030-SL-2G-BRK/90YV0AT0-M0NA00)",
-    "Quanity": "39",
+    "Quantity": "39",
     "Price": "34450",
     "Tags": [
       "ASUS",
@@ -17434,7 +17434,7 @@
   },
   {
     "ProductName": "ASUS GeForce GT 1030 OC 2GB GDDR5 64bit (PH-GT1030-O2G/90YV0AU0-M0NA00)",
-    "Quanity": "33",
+    "Quantity": "33",
     "Price": "48400",
     "Tags": [
       "ASUS",
@@ -17473,7 +17473,7 @@
   },
   {
     "ProductName": "ASUS GeForce GT 1030 2GB GDDR5 64bit (GT1030-2G-BRK/90YV0AT2-M0NA00)",
-    "Quanity": "109",
+    "Quantity": "109",
     "Price": "40170",
     "Tags": [
       "ASUS",
@@ -17511,7 +17511,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce GT 1030 Low Profile D4 2GB GDDR4 (GV-N1030D4-2GL)",
-    "Quanity": "41",
+    "Quantity": "41",
     "Price": "40206",
     "Tags": [
       "GIGABYTE",
@@ -17550,7 +17550,7 @@
   },
   {
     "ProductName": "ASUS GeForce RTX 3050 Dual OC 6GB GDDR6 (DUAL-RTX3050-O6G/90YV0K60-M0NA00)",
-    "Quanity": "47",
+    "Quantity": "47",
     "Price": "92481",
     "Tags": [
       "ASUS",
@@ -17590,7 +17590,7 @@
   },
   {
     "ProductName": "ASUS GeForce RTX 3050 Dual V2 OC Edition 8GB GDDR6 (DUAL-RTX3050-O8G-V2/90YV0GH6-M0NA00)",
-    "Quanity": "17",
+    "Quantity": "17",
     "Price": "109804",
     "Tags": [
       "ASUS",
@@ -17630,7 +17630,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 3050 WINDFORCE OC V2 6GB GDDR6 (GV-N3050WF2OCV2-6GD)",
-    "Quanity": "59",
+    "Quantity": "59",
     "Price": "90107",
     "Tags": [
       "GIGABYTE",
@@ -17669,7 +17669,7 @@
   },
   {
     "ProductName": "MSI GeForce RTX 3050 LP OC 6GB GDDR6 96bit (V812-023R)",
-    "Quanity": "77",
+    "Quantity": "77",
     "Price": "92202",
     "Tags": [
       "MSI",
@@ -17709,7 +17709,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 3050 WINDFORCE OC 6GB GDDR6 (GV-N3050WF2OC-6GD)",
-    "Quanity": "98",
+    "Quantity": "98",
     "Price": "90805",
     "Tags": [
       "GIGABYTE",
@@ -17748,7 +17748,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 3050 OC Low Profile 6GB GDDR6 (GV-N3050OC-6GL)",
-    "Quanity": "28",
+    "Quantity": "28",
     "Price": "86680",
     "Tags": [
       "GIGABYTE",
@@ -17786,7 +17786,7 @@
   },
   {
     "ProductName": "ASUS GeForce RTX 3050 Phoenix 8GB GDDR6 128bit (PH-RTX3050-8G/90YV0HH2-M0NA00)",
-    "Quanity": "7",
+    "Quantity": "7",
     "Price": "100291",
     "Tags": [
       "ASUS",
@@ -17824,7 +17824,7 @@
   },
   {
     "ProductName": "ASUS GeForce RTX 3050 Dual OC 8GB GDDR6 128bit (DUAL-RTX3050-O8G/90YV0HH0-M0NA00)",
-    "Quanity": "3",
+    "Quantity": "3",
     "Price": "113500",
     "Tags": [
       "ASUS",
@@ -17862,7 +17862,7 @@
   },
   {
     "ProductName": "MSI GeForce RTX 3050 VENTUS 2X XS OC 8GB GDDR6 128bit (V809-4266R)",
-    "Quanity": "40",
+    "Quantity": "40",
     "Price": "102020",
     "Tags": [
       "MSI",
@@ -17901,7 +17901,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 3060 WINDFORCE OC 12GB GDDR6 (GV-N3060WF2OC-12GD)",
-    "Quanity": "104",
+    "Quantity": "104",
     "Price": "129850",
     "Tags": [
       "GIGABYTE",
@@ -17939,7 +17939,7 @@
   },
   {
     "ProductName": "MSI GeForce RTX 3060 VENTUS 2X OC 12GB GDDR6 192bit (V397-022R)",
-    "Quanity": "49",
+    "Quantity": "49",
     "Price": "136020",
     "Tags": [
       "MSI",
@@ -17978,7 +17978,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 3060 GAMING OC V2 8GB GDDR6 128bit (GV-N3060GAMING OC-8GD 2.0)",
-    "Quanity": "33",
+    "Quantity": "33",
     "Price": "123650",
     "Tags": [
       "GIGABYTE",
@@ -18023,7 +18023,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 3060 GAMING OC 12GB GDDR6 192bit (GV-N3060GAMING OC-12GD)",
-    "Quanity": "38",
+    "Quantity": "38",
     "Price": "137390",
     "Tags": [
       "GIGABYTE",
@@ -18068,7 +18068,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 3060 GAMING 8G GDDR6 OC (N3060GAMING OC-8GD)",
-    "Quanity": "30",
+    "Quantity": "30",
     "Price": "126850",
     "Tags": [
       "GIGABYTE",
@@ -18113,7 +18113,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce TURBO RTX 3080 10GB GDDR6X 320bit LHR (GV-N3080TURBO-10GD 2.0)",
-    "Quanity": "35",
+    "Quantity": "35",
     "Price": "533900",
     "Tags": [
       "GIGABYTE",
@@ -18149,7 +18149,7 @@
   },
   {
     "ProductName": "ASUS GeForce RTX 4060 Dual EVO OC 8GB GDDR6 128bit (DUAL-RTX4060-O8G-EVO/90YV0JC7-M0NA00)",
-    "Quanity": "31",
+    "Quantity": "31",
     "Price": "138330",
     "Tags": [
       "ASUS",
@@ -18194,7 +18194,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4060 EAGLE OC 8G (GV-N4060EAGLE OC-8GD)",
-    "Quanity": "101",
+    "Quantity": "101",
     "Price": "142090",
     "Tags": [
       "GIGABYTE",
@@ -18239,7 +18239,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4060 WINDFORCE OC 8G (GV-N4060WF2OC-8GD)",
-    "Quanity": "47",
+    "Quantity": "47",
     "Price": "138480",
     "Tags": [
       "GIGABYTE",
@@ -18284,7 +18284,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4060 GAMING OC 8GB GDDR6 (N4060GAMING OC-8GD)",
-    "Quanity": "80",
+    "Quantity": "80",
     "Price": "146940",
     "Tags": [
       "GIGABYTE",
@@ -18327,7 +18327,7 @@
   },
   {
     "ProductName": "MSI GeForce RTX 4060 VENTUS 2X Black OC 8GB GDDR6 128bit (V516-004R)",
-    "Quanity": "96",
+    "Quantity": "96",
     "Price": "140020",
     "Tags": [
       "MSI",
@@ -18373,7 +18373,7 @@
   },
   {
     "ProductName": "ASUS ProArt GeForce RTX 4060 OC 8GB GDDR6 128bit (PROART-RTX4060-O8G/90YV0JM0-M0NA00)",
-    "Quanity": "52",
+    "Quantity": "52",
     "Price": "154901",
     "Tags": [
       "ASUS",
@@ -18419,7 +18419,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4060 OC Low Profile 8G (GV-N4060OC-8GL)",
-    "Quanity": "47",
+    "Quantity": "47",
     "Price": "146960",
     "Tags": [
       "GIGABYTE",
@@ -18461,7 +18461,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4060 AERO OC 8G (GV-N4060AERO OC-8GD)",
-    "Quanity": "23",
+    "Quantity": "23",
     "Price": "157890",
     "Tags": [
       "GIGABYTE",
@@ -18503,7 +18503,7 @@
   },
   {
     "ProductName": "ASUS GeForce RTX 4060 Dual Evo White OC 8GB GDDR6 (DUAL-RTX4060-O8G-EVO-WHITE)",
-    "Quanity": "103",
+    "Quantity": "103",
     "Price": "143710",
     "Tags": [
       "ASUS",
@@ -18545,7 +18545,7 @@
   },
   {
     "ProductName": "ASUS GeForce RTX 4060 DUAL 8GB GDDR6 OC V2 (DUAL-RTX4060-O8G-V2/90YV0JC4-M0NB00)",
-    "Quanity": "69",
+    "Quantity": "69",
     "Price": "143600",
     "Tags": [
       "ASUS",
@@ -18587,7 +18587,7 @@
   },
   {
     "ProductName": "MSI GeForce RTX 4060 VENTUS 2X WHITE OC 8GB GDDR6 128bit (V516-030R/V516-032R)",
-    "Quanity": "68",
+    "Quantity": "68",
     "Price": "141929",
     "Tags": [
       "MSI",
@@ -18634,7 +18634,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4060 D6 8G (GV-N4060D6-8GD)",
-    "Quanity": "93",
+    "Quantity": "93",
     "Price": "135890",
     "Tags": [
       "GIGABYTE",
@@ -18680,7 +18680,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4060 EAGLE OC ICE 8GB GDDR6 128bit (GV-N4060EAGLEOC ICE-8GD)",
-    "Quanity": "16",
+    "Quantity": "16",
     "Price": "153360",
     "Tags": [
       "GIGABYTE",
@@ -18726,7 +18726,7 @@
   },
   {
     "ProductName": "ASUS GeForce RTX 4060 LP BRK OC 8GB GDDR6 (RTX4060-O8G-LP-BRK/90YV0JL0-M0NA00)",
-    "Quanity": "6",
+    "Quantity": "6",
     "Price": "159360",
     "Tags": [
       "ASUS",
@@ -18772,7 +18772,7 @@
   },
   {
     "ProductName": "MSI GeForce RTX 4060 AERO ITX OC 8GB GDDR6 128bit (V812-012R)",
-    "Quanity": "54",
+    "Quantity": "54",
     "Price": "149360",
     "Tags": [
       "MSI",
@@ -18814,7 +18814,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming GeForce RTX 4060 Ti Dual OC EVO 8GB GDDR6 128bit (DUAL-RTX4060TI-O8G-EVO/90YV0J49-M0NA00)",
-    "Quanity": "92",
+    "Quantity": "92",
     "Price": "211240",
     "Tags": [
       "ASUS",
@@ -18856,7 +18856,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming GeForce RTX 4060 Ti OC 8GB GDDR6 128bit (TUF-RTX4060TI-O8G-GAMING/90YV0J50-M0NA00)",
-    "Quanity": "34",
+    "Quantity": "34",
     "Price": "224800",
     "Tags": [
       "ASUS",
@@ -18898,7 +18898,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4060 Ti Eagle 8GB GDDR6 (GV-N406TEAGLE-8GD)",
-    "Quanity": "63",
+    "Quantity": "63",
     "Price": "193270",
     "Tags": [
       "GIGABYTE",
@@ -18939,7 +18939,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4060 Ti GAMING OC 8G (GV-N406TGAMING OC-8GD)",
-    "Quanity": "55",
+    "Quantity": "55",
     "Price": "215500",
     "Tags": [
       "GIGABYTE",
@@ -18978,7 +18978,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4060 Ti EAGLE OC 8G (GV-N406TEAGLE OC-8GD)",
-    "Quanity": "78",
+    "Quantity": "78",
     "Price": "202030",
     "Tags": [
       "GIGABYTE",
@@ -19017,7 +19017,7 @@
   },
   {
     "ProductName": "ASUS GeForce RTX 4060 Ti Dual White OC 8GB GDDR6 (DUAL-RTX4060TI-O8G-WHITE/90YV0J42-M0NA00)",
-    "Quanity": "80",
+    "Quantity": "80",
     "Price": "203280",
     "Tags": [
       "ASUS",
@@ -19056,7 +19056,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4060 Ti AERO OC 8G (GV-N406TAERO OC-8GD)",
-    "Quanity": "75",
+    "Quantity": "75",
     "Price": "224970",
     "Tags": [
       "GIGABYTE",
@@ -19095,7 +19095,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4060 Ti EAGLE OC ICE 8GB GDDR6 (GV-N406TEAGLEOC ICE-8GD)",
-    "Quanity": "10",
+    "Quantity": "10",
     "Price": "203590",
     "Tags": [
       "GIGABYTE",
@@ -19135,7 +19135,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4060 Ti WINDFORCE OC V2 8GB GDDR6 (GV-N406TWF2OCV2-8GD)",
-    "Quanity": "27",
+    "Quantity": "27",
     "Price": "239900",
     "Tags": [
       "GIGABYTE",
@@ -19175,7 +19175,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4070 WINDFORCE OC V2 12GB GDDR6X 192bit (GV-N4070WF3OCV2-12GD)",
-    "Quanity": "92",
+    "Quantity": "92",
     "Price": "266700",
     "Tags": [
       "GIGABYTE",
@@ -19215,7 +19215,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4070 WINDFORCE 2X OC V2 12GB GDDR6X 192bit (GV-N4070WF2OCV2-12GD)",
-    "Quanity": "62",
+    "Quantity": "62",
     "Price": "251790",
     "Tags": [
       "GIGABYTE",
@@ -19255,7 +19255,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming GeForce RTX 4070 OC 12G GDDR6X (TUF-RTX4070-O12G-GAMING/90YV0IZ0-M0NA00)",
-    "Quanity": "26",
+    "Quantity": "26",
     "Price": "369990",
     "Tags": [
       "ASUS",
@@ -19295,7 +19295,7 @@
   },
   {
     "ProductName": "ASUS GeForce RTX 4070 Dual EVO OC 12GB GDDR6X 192bit (DUAL-RTX4070-O12G-EVO/90YV0J15-M0NA00)",
-    "Quanity": "81",
+    "Quantity": "81",
     "Price": "316901",
     "Tags": [
       "ASUS",
@@ -19335,7 +19335,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming GeForce RTX 4070 SUPER OC 12GB (TUF-RTX4070S-O12G-GAMING/90YV0K80-M0NA00)",
-    "Quanity": "58",
+    "Quantity": "58",
     "Price": "343268",
     "Tags": [
       "ASUS",
@@ -19375,7 +19375,7 @@
   },
   {
     "ProductName": "ASUS ROG Strix GeForce RTX 4070 SUPER OC 12GB GDDR6X 192bit (ROG-STRIX-RTX4070S-O12G-GAMING/90YV0KD0-M0NA00)",
-    "Quanity": "91",
+    "Quantity": "91",
     "Price": "364040",
     "Tags": [
       "ASUS",
@@ -19415,7 +19415,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4070 SUPER EAGLE OC 12GB GDDR6X (GV-N407SEAGLE OC-12GD)",
-    "Quanity": "110",
+    "Quantity": "110",
     "Price": "317380",
     "Tags": [
       "GIGABYTE",
@@ -19454,7 +19454,7 @@
   },
   {
     "ProductName": "ASUS ProArt GeForce RTX 4070 SUPER OC 12GB GDDR6X 192bit (PROART-RTX4070S-O12G/90YV0KC4-M0NA00)",
-    "Quanity": "75",
+    "Quantity": "75",
     "Price": "324890",
     "Tags": [
       "ASUS",
@@ -19494,7 +19494,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4070 SUPER AERO OC 12GB GDDR6X (GV-N407SAERO OC-12GD)",
-    "Quanity": "48",
+    "Quantity": "48",
     "Price": "321615",
     "Tags": [
       "GIGABYTE",
@@ -19533,7 +19533,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4070 SUPER EAGLE OC ICE 12GB GDDR6X 192bit (GV-N407SEAGLEOC ICE-12GD)",
-    "Quanity": "96",
+    "Quantity": "96",
     "Price": "314290",
     "Tags": [
       "GIGABYTE",
@@ -19572,7 +19572,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming GeForce RTX 4070 Ti SUPER OC 16GB GDDR6X (TUF-RTX4070TIS-O16G-GAMING/90YV0KF0-M0NA00)",
-    "Quanity": "40",
+    "Quantity": "40",
     "Price": "447300",
     "Tags": [
       "ASUS",
@@ -19615,7 +19615,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4070 Ti SUPER OC 16GB GDDR6X 256bit (GV-N407TSGAMING OC-16GD)",
-    "Quanity": "63",
+    "Quantity": "63",
     "Price": "482384",
     "Tags": [
       "GIGABYTE",
@@ -19658,7 +19658,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4070 Ti SUPER WINDFORCE MAX OC 16GB GDDR6X 256bit (GV-N407TSWF3MAX OC-16GD)",
-    "Quanity": "89",
+    "Quantity": "89",
     "Price": "437790",
     "Tags": [
       "GIGABYTE",
@@ -19701,7 +19701,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4070 TI SUPER EAGLE OC 16GB GDDR6X (GV-N407TSEAGLE OC-16GD)",
-    "Quanity": "45",
+    "Quantity": "45",
     "Price": "451330",
     "Tags": [
       "GIGABYTE",
@@ -19744,7 +19744,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 4070 Ti SUPER AI TOP 16GB GDDR6X (GV-N407TSAI TOP-16GD)",
-    "Quanity": "40",
+    "Quantity": "40",
     "Price": "429570",
     "Tags": [
       "GIGABYTE",
@@ -19783,7 +19783,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 5080 GAMING OC 16GB GDDR7 256bit (GV-N5080GAMING OC-16GD)",
-    "Quanity": "2",
+    "Quantity": "2",
     "Price": "845000",
     "Tags": [
       "GIGABYTE",
@@ -19823,7 +19823,7 @@
   },
   {
     "ProductName": "ASUS GeForce RTX 5080 PRIME OC 16GB GDDR7 256bit (PRIME-RTX5080-O16G/90YV0LX0-M0NA00)",
-    "Quanity": "104",
+    "Quantity": "104",
     "Price": "759490",
     "Tags": [
       "ASUS",
@@ -19863,7 +19863,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 5080 AERO OC SFF 16GB GDDR7 256bit (GV-N5080AERO OC-16GD)",
-    "Quanity": "104",
+    "Quantity": "104",
     "Price": "845000",
     "Tags": [
       "GIGABYTE",
@@ -19903,7 +19903,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 5080 WINDFORCE OC SFF 16GB GDDR7 256bit (GV-N5080WF3OC-16GD)",
-    "Quanity": "59",
+    "Quantity": "59",
     "Price": "815000",
     "Tags": [
       "GIGABYTE",
@@ -19950,7 +19950,7 @@
   },
   {
     "ProductName": "ASUS TUF GeForce RTX 5090 O32G GAMING",
-    "Quanity": "98",
+    "Quantity": "98",
     "Price": "0",
     "Tags": [
       "ASUS",
@@ -19996,7 +19996,7 @@
   },
   {
     "ProductName": "ASUS ROG ASTRAL LC GeForce RTX 5090 O32G GAMING",
-    "Quanity": "79",
+    "Quantity": "79",
     "Price": "0",
     "Tags": [
       "ASUS",
@@ -20043,7 +20043,7 @@
   },
   {
     "ProductName": "GIGABYTE AORUS GeForce RTX 5090 MASTER ICE 32G",
-    "Quanity": "97",
+    "Quantity": "97",
     "Price": "0",
     "Tags": [
       "GIGABYTE",
@@ -20089,7 +20089,7 @@
   },
   {
     "ProductName": "GIGABYTE GeForce RTX 5090 WINDFORCE OC 32G",
-    "Quanity": "60",
+    "Quantity": "60",
     "Price": "0",
     "Tags": [
       "GIGABYTE",
@@ -20134,7 +20134,7 @@
   },
   {
     "ProductName": "Thermaltake Pure 14 ARGB",
-    "Quanity": "89",
+    "Quantity": "89",
     "Price": "9000",
     "Tags": [
       "Gaming",
@@ -20155,7 +20155,7 @@
   },
   {
     "ProductName": "Thermaltake Toughfan 12 Turbo",
-    "Quanity": "75",
+    "Quantity": "75",
     "Price": "12000",
     "Tags": [
       "Gaming",
@@ -20175,7 +20175,7 @@
   },
   {
     "ProductName": "Cooler Master MasterFan MF120 Halo",
-    "Quanity": "41",
+    "Quantity": "41",
     "Price": "8000",
     "Tags": [
       "Gaming",
@@ -20196,7 +20196,7 @@
   },
   {
     "ProductName": "Cooler Master SickleFlow 120 ARGB",
-    "Quanity": "65",
+    "Quantity": "65",
     "Price": "5500",
     "Tags": [
       "Gaming",
@@ -20217,7 +20217,7 @@
   },
   {
     "ProductName": "Cooler Master Hyper 212 Halo Black",
-    "Quanity": "35",
+    "Quantity": "35",
     "Price": "17299",
     "Tags": [
       "Gaming",
@@ -20237,7 +20237,7 @@
   },
   {
     "ProductName": "Noctua NF-A12x25 PWM",
-    "Quanity": "31",
+    "Quantity": "31",
     "Price": "10500",
     "Tags": [
       "Gaming",
@@ -20257,7 +20257,7 @@
   },
   {
     "ProductName": "Noctua NF-P12 redux-1700 PWM",
-    "Quanity": "90",
+    "Quantity": "90",
     "Price": "5500",
     "Tags": [
       "Gaming",
@@ -20277,7 +20277,7 @@
   },
   {
     "ProductName": "Noctua NF-F12 PWM",
-    "Quanity": "103",
+    "Quantity": "103",
     "Price": "9000",
     "Tags": [
       "Gaming",
@@ -20297,7 +20297,7 @@
   },
   {
     "ProductName": "Arctic P12 PWM",
-    "Quanity": "81",
+    "Quantity": "81",
     "Price": "3500",
     "Tags": [
       "Gaming",
@@ -20317,7 +20317,7 @@
   },
   {
     "ProductName": "Arctic BioniX P140",
-    "Quanity": "72",
+    "Quantity": "72",
     "Price": "6000",
     "Tags": [
       "Gaming",
@@ -20337,7 +20337,7 @@
   },
   {
     "ProductName": "Arctic F14 Silent",
-    "Quanity": "108",
+    "Quantity": "108",
     "Price": "4000",
     "Tags": [
       "Gaming",
@@ -20357,7 +20357,7 @@
   },
   {
     "ProductName": "Asus ROG Strix XF 120",
-    "Quanity": "8",
+    "Quantity": "8",
     "Price": "12000",
     "Tags": [
       "Gaming",
@@ -20377,7 +20377,7 @@
   },
   {
     "ProductName": "Asus TUF Gaming TF120 ARGB",
-    "Quanity": "106",
+    "Quantity": "106",
     "Price": "9500",
     "Tags": [
       "Gaming",
@@ -20398,7 +20398,7 @@
   },
   {
     "ProductName": "Asus ROG Strix LC 360 RGB",
-    "Quanity": "67",
+    "Quantity": "67",
     "Price": "60000",
     "Tags": [
       "Gaming",
@@ -20419,7 +20419,7 @@
   },
   {
     "ProductName": "NZXT Aer RGB 2",
-    "Quanity": "26",
+    "Quantity": "26",
     "Price": "10000",
     "Tags": [
       "Gaming",
@@ -20440,7 +20440,7 @@
   },
   {
     "ProductName": "NZXT F120Q Quiet",
-    "Quanity": "94",
+    "Quantity": "94",
     "Price": "5500",
     "Tags": [
       "Gaming",
@@ -20460,7 +20460,7 @@
   },
   {
     "ProductName": "NZXT F140 RGB",
-    "Quanity": "13",
+    "Quantity": "13",
     "Price": "9000",
     "Tags": [
       "Gaming",
@@ -20481,7 +20481,7 @@
   },
   {
     "ProductName": "Lian Li UNI FAN SL120",
-    "Quanity": "37",
+    "Quantity": "37",
     "Price": "12000",
     "Tags": [
       "Gaming",
@@ -20502,7 +20502,7 @@
   },
   {
     "ProductName": "Lian Li UNI FAN AL120",
-    "Quanity": "63",
+    "Quantity": "63",
     "Price": "14000",
     "Tags": [
       "Gaming",
@@ -20523,7 +20523,7 @@
   },
   {
     "ProductName": "Phanteks T30-120",
-    "Quanity": "62",
+    "Quantity": "62",
     "Price": "13000",
     "Tags": [
       "Gaming",
@@ -20543,7 +20543,7 @@
   },
   {
     "ProductName": "Phanteks SK PWM D-RGB 120mm",
-    "Quanity": "64",
+    "Quantity": "64",
     "Price": "7500",
     "Tags": [
       "Gaming",
@@ -20564,7 +20564,7 @@
   },
   {
     "ProductName": "Corsair ML120 PRO",
-    "Quanity": "65",
+    "Quantity": "65",
     "Price": "9500",
     "Tags": [
       "Gaming",
@@ -20584,7 +20584,7 @@
   },
   {
     "ProductName": "Corsair iCUE QL120 RGB",
-    "Quanity": "62",
+    "Quantity": "62",
     "Price": "11000",
     "Tags": [
       "Gaming",
@@ -20605,7 +20605,7 @@
   },
   {
     "ProductName": "Corsair AF140 LED Blue",
-    "Quanity": "34",
+    "Quantity": "34",
     "Price": "6500",
     "Tags": [
       "Gaming",
@@ -20626,7 +20626,7 @@
   },
   {
     "ProductName": "Deepcool FC120 ARGB",
-    "Quanity": "93",
+    "Quantity": "93",
     "Price": "8000",
     "Tags": [
       "Gaming",
@@ -20647,7 +20647,7 @@
   },
   {
     "ProductName": "Lian Li PC-O11 Dynamic",
-    "Quanity": "15",
+    "Quantity": "15",
     "Price": "55000",
     "Tags": [
       "Gaming",
@@ -20667,7 +20667,7 @@
   },
   {
     "ProductName": "be quiet! Pure Rock 2 (BK007)",
-    "Quanity": "49",
+    "Quantity": "49",
     "Price": "18150",
     "Tags": [
       "be quiet!",
@@ -20691,7 +20691,7 @@
   },
   {
     "ProductName": "be quiet! DARK ROCK PRO 5 (BK036)",
-    "Quanity": "27",
+    "Quantity": "27",
     "Price": "40890",
     "Tags": [
       "be quiet!",
@@ -20714,7 +20714,7 @@
   },
   {
     "ProductName": "be quiet! Pure Rock Slim 2 AMD AM4 (BK030)",
-    "Quanity": "46",
+    "Quantity": "46",
     "Price": "11210",
     "Tags": [
       "be quiet!",
@@ -20738,7 +20738,7 @@
   },
   {
     "ProductName": "be quiet! Dark Rock 5 (BK035)",
-    "Quanity": "33",
+    "Quantity": "33",
     "Price": "28460",
     "Tags": [
       "be quiet!",
@@ -20762,7 +20762,7 @@
   },
   {
     "ProductName": "be quiet! Pure Rock 2 (BK006)",
-    "Quanity": "39",
+    "Quantity": "39",
     "Price": "14780",
     "Tags": [
       "be quiet!",
@@ -20786,7 +20786,7 @@
   },
   {
     "ProductName": "be quiet! Dark Rock Elite RGB (BK037)",
-    "Quanity": "51",
+    "Quantity": "51",
     "Price": "46000",
     "Tags": [
       "be quiet!",
@@ -20811,7 +20811,7 @@
   },
   {
     "ProductName": "be quiet! Pure Loop 2 FX 360mm (BW015)",
-    "Quanity": "57",
+    "Quantity": "57",
     "Price": "63680",
     "Tags": [
       "be quiet!",
@@ -20836,7 +20836,7 @@
   },
   {
     "ProductName": "be quiet! Pure Rock 2 FX 120mm ARGB (BK033)",
-    "Quanity": "87",
+    "Quantity": "87",
     "Price": "20630",
     "Tags": [
       "be quiet!",
@@ -20861,7 +20861,7 @@
   },
   {
     "ProductName": "be quiet! Silent Loop 2 360mm (BW012)",
-    "Quanity": "61",
+    "Quantity": "61",
     "Price": "81180",
     "Tags": [
       "be quiet!",
@@ -20886,7 +20886,7 @@
   },
   {
     "ProductName": "be quiet! Light Loop 360mm ARGB (BW023)",
-    "Quanity": "62",
+    "Quantity": "62",
     "Price": "64020",
     "Tags": [
       "be quiet!",
@@ -20911,7 +20911,7 @@
   },
   {
     "ProductName": "be quiet! Dark Rock Slim (BK024)",
-    "Quanity": "78",
+    "Quantity": "78",
     "Price": "27000",
     "Tags": [
       "be quiet!",
@@ -20934,7 +20934,7 @@
   },
   {
     "ProductName": "be quiet! Pure Loop 2 360mm (BW019)",
-    "Quanity": "49",
+    "Quantity": "49",
     "Price": "57000",
     "Tags": [
       "be quiet!",
@@ -20959,7 +20959,7 @@
   },
   {
     "ProductName": "be quiet! Shadow Rock LP 120mm (BK002)",
-    "Quanity": "6",
+    "Quantity": "6",
     "Price": "20170",
     "Tags": [
       "be quiet!",
@@ -20983,7 +20983,7 @@
   },
   {
     "ProductName": "be quiet! SILENT LOOP 2 280MM (BW011)",
-    "Quanity": "25",
+    "Quantity": "25",
     "Price": "58110",
     "Tags": [
       "be quiet!",
@@ -21007,7 +21007,7 @@
   },
   {
     "ProductName": "be quiet! Silent Loop 2 240mm (BW010)",
-    "Quanity": "67",
+    "Quantity": "67",
     "Price": "59390",
     "Tags": [
       "be quiet!",
@@ -21031,7 +21031,7 @@
   },
   {
     "ProductName": "be quiet! Pure Rock LP (BK034)",
-    "Quanity": "100",
+    "Quantity": "100",
     "Price": "22140",
     "Tags": [
       "be quiet!",
@@ -21055,7 +21055,7 @@
   },
   {
     "ProductName": "Cooler Master Masterliquid 240L CORE (MLW-D24M-A17PK-R1)",
-    "Quanity": "69",
+    "Quantity": "69",
     "Price": "35210",
     "Tags": [
       "Cooler Master",
@@ -21079,7 +21079,7 @@
   },
   {
     "ProductName": "Cooler Master MasterLiquid ML120L RGB V2 (MLW-D12M-A18PC-R2)",
-    "Quanity": "25",
+    "Quantity": "25",
     "Price": "28340",
     "Tags": [
       "Cooler Master",
@@ -21103,7 +21103,7 @@
   },
   {
     "ProductName": "be quiet! Shadow Rock LP 120mm (BK002)",
-    "Quanity": "98",
+    "Quantity": "98",
     "Price": "20170",
     "Tags": [
       "be quiet!",
@@ -21127,7 +21127,7 @@
   },
   {
     "ProductName": "be quiet! SILENT LOOP 2 280MM (BW011)",
-    "Quanity": "98",
+    "Quantity": "98",
     "Price": "58110",
     "Tags": [
       "be quiet!",
@@ -21151,7 +21151,7 @@
   },
   {
     "ProductName": "be quiet! Silent Loop 2 240mm (BW010)",
-    "Quanity": "97",
+    "Quantity": "97",
     "Price": "59390",
     "Tags": [
       "be quiet!",
@@ -21175,7 +21175,7 @@
   },
   {
     "ProductName": "Cooler Master MA612 (MAP-T6PS-218PA-R1)",
-    "Quanity": "65",
+    "Quantity": "65",
     "Price": "30900",
     "Tags": [
       "Cooler Master",
@@ -21199,7 +21199,7 @@
   },
   {
     "ProductName": "Cooler Master Hyper 212 Halo White (RR-S4WW-20PA-R1)",
-    "Quanity": "82",
+    "Quantity": "82",
     "Price": "21650",
     "Tags": [
       "Cooler Master",
@@ -21224,7 +21224,7 @@
   },
   {
     "ProductName": "Cooler Master Hyper 622 Halo White Edition (RR-D6WW-20PA-R1)",
-    "Quanity": "110",
+    "Quantity": "110",
     "Price": "24140",
     "Tags": [
       "Cooler Master",
@@ -21248,7 +21248,7 @@
   },
   {
     "ProductName": "Cooler Master Masterliquid 240L CORE ARGB White (MLW-D24M-A18PZ-RW)",
-    "Quanity": "20",
+    "Quantity": "20",
     "Price": "43310",
     "Tags": [
       "Cooler Master",
@@ -21273,7 +21273,7 @@
   },
   {
     "ProductName": "ASUS ROG RYUJIN 240",
-    "Quanity": "82",
+    "Quantity": "82",
     "Price": "44899",
     "Tags": [
       "ASUS",
@@ -21298,7 +21298,7 @@
   },
   {
     "ProductName": "ASUS ROG Strix LC II 360 Black (90RC00F0-M0UAY4)",
-    "Quanity": "51",
+    "Quantity": "51",
     "Price": "56640",
     "Tags": [
       "ASUS",
@@ -21322,7 +21322,7 @@
   },
   {
     "ProductName": "ASUS ROG RYUJIN III 360",
-    "Quanity": "44",
+    "Quantity": "44",
     "Price": "180590",
     "Tags": [
       "ASUS",
@@ -21347,7 +21347,7 @@
   },
   {
     "ProductName": "ASUS ROG Strix LC III 360 ARGB (90RC00T1-M0UAY0)",
-    "Quanity": "20",
+    "Quantity": "20",
     "Price": "117780",
     "Tags": [
       "ASUS",
@@ -21372,7 +21372,7 @@
   },
   {
     "ProductName": "ASUS ROG RYUJIN II 360 ARGB (90RC00B1-M0UAY2)",
-    "Quanity": "57",
+    "Quantity": "57",
     "Price": "126370",
     "Tags": [
       "ASUS",
@@ -21395,7 +21395,7 @@
   },
   {
     "ProductName": "ASUS ROG Ryujin III 240 ARGB (90RC00K1-M0UAY0)",
-    "Quanity": "69",
+    "Quantity": "69",
     "Price": "123450",
     "Tags": [
       "ASUS",
@@ -21420,7 +21420,7 @@
   },
   {
     "ProductName": "ASUS Strix LC II 240 ARGB (90RC00E1-M0UAY0)",
-    "Quanity": "103",
+    "Quantity": "103",
     "Price": "53220",
     "Tags": [
       "ASUS",
@@ -21444,7 +21444,7 @@
   },
   {
     "ProductName": "ASUS ProArt LC 360 (90RC0120-M0UAY0)",
-    "Quanity": "10",
+    "Quantity": "10",
     "Price": "112100",
     "Tags": [
       "ASUS",
@@ -21469,7 +21469,7 @@
   },
   {
     "ProductName": "ASUS ROG STRIX LC II 240 ARGB White (90RC00E2-M0UAY0)",
-    "Quanity": "7",
+    "Quantity": "7",
     "Price": "49990",
     "Tags": [
       "ASUS",
@@ -21492,7 +21492,7 @@
   },
   {
     "ProductName": "ASUS ROG RYUO III 240 ARGB White Edition (90RC00J2-M0UAY0)",
-    "Quanity": "77",
+    "Quantity": "77",
     "Price": "68880",
     "Tags": [
       "ASUS",
@@ -21516,7 +21516,7 @@
   },
   {
     "ProductName": "ASUS ROG RYUJIN II 360 ARGB Black (90RC00B1-M0UAY0)",
-    "Quanity": "102",
+    "Quantity": "102",
     "Price": "141720",
     "Tags": [
       "ASUS",
@@ -21540,7 +21540,7 @@
   },
   {
     "ProductName": "Noctua NH-D15 chromax.black (NH-D15.CH.BK)",
-    "Quanity": "96",
+    "Quantity": "96",
     "Price": "58680",
     "Tags": [
       "Noctua",
@@ -21564,7 +21564,7 @@
   },
   {
     "ProductName": "Noctua NH-D15 (NOCTUA-FAN-NH-D15)",
-    "Quanity": "34",
+    "Quantity": "34",
     "Price": "54490",
     "Tags": [
       "Noctua",
@@ -21588,7 +21588,7 @@
   },
   {
     "ProductName": "Noctua NH-D15-G2",
-    "Quanity": "56",
+    "Quantity": "56",
     "Price": "80620",
     "Tags": [
       "Noctua",
@@ -21612,7 +21612,7 @@
   },
   {
     "ProductName": "Noctua NH-U12S DX-3647",
-    "Quanity": "28",
+    "Quantity": "28",
     "Price": "31690",
     "Tags": [
       "Noctua",
@@ -21636,7 +21636,7 @@
   },
   {
     "ProductName": "Noctua NH-U12A Chromax (CPNTU12ACHBK)",
-    "Quanity": "83",
+    "Quantity": "83",
     "Price": "61470",
     "Tags": [
       "Noctua",
@@ -21660,7 +21660,7 @@
   },
   {
     "ProductName": "Noctua NH-U12A 120mm",
-    "Quanity": "1",
+    "Quantity": "1",
     "Price": "47560",
     "Tags": [
       "Noctua",
@@ -21684,7 +21684,7 @@
   },
   {
     "ProductName": "Noctua NH-U9S",
-    "Quanity": "46",
+    "Quantity": "46",
     "Price": "31300",
     "Tags": [
       "Noctua",
@@ -21707,7 +21707,7 @@
   },
   {
     "ProductName": "ARCTIC Liquid Freezer III 360 A-RGB (ACFRE00144A)",
-    "Quanity": "40",
+    "Quantity": "40",
     "Price": "36977",
     "Tags": [
       "ARCTIC",
@@ -21730,7 +21730,7 @@
   },
   {
     "ProductName": "ARCTIC Liquid Freezer III 360 (ACFRE00136A)",
-    "Quanity": "58",
+    "Quantity": "58",
     "Price": "34780",
     "Tags": [
       "ARCTIC",
@@ -21753,7 +21753,7 @@
   },
   {
     "ProductName": "ARCTIC Freezer 36 ACFRE00123A",
-    "Quanity": "69",
+    "Quantity": "69",
     "Price": "19040",
     "Tags": [
       "ARCTIC",
@@ -21776,7 +21776,7 @@
   },
   {
     "ProductName": "ARCTIC Freezer 34 eSports DUO black/white (ACFRE00061A)",
-    "Quanity": "85",
+    "Quantity": "85",
     "Price": "21123",
     "Tags": [
       "ARCTIC",
@@ -21799,7 +21799,7 @@
   },
   {
     "ProductName": "ARCTIC Liquid Freezer III 240 (ACFRE00134A)",
-    "Quanity": "37",
+    "Quantity": "37",
     "Price": "31420",
     "Tags": [
       "ARCTIC",
@@ -21822,7 +21822,7 @@
   },
   {
     "ProductName": "ARCTIC Liquid Freezer III 420 (ACFRE00137A)",
-    "Quanity": "89",
+    "Quantity": "89",
     "Price": "34220",
     "Tags": [
       "ARCTIC",
@@ -21845,7 +21845,7 @@
   },
   {
     "ProductName": "ARCTIC Liquid Freezer III 360 A-RGB (ACFRE00152A)",
-    "Quanity": "109",
+    "Quantity": "109",
     "Price": "37990",
     "Tags": [
       "ARCTIC",
@@ -21868,7 +21868,7 @@
   },
   {
     "ProductName": "ARCTIC Freezer 7 X CO",
-    "Quanity": "33",
+    "Quantity": "33",
     "Price": "8593",
     "Tags": [
       "ARCTIC",
@@ -21894,7 +21894,7 @@
   },
   {
     "ProductName": "ARCTIC Liquid Freezer III 420 ARGB",
-    "Quanity": "33",
+    "Quantity": "33",
     "Price": "41200",
     "Tags": [
       "ARCTIC",
@@ -21920,7 +21920,7 @@
   },
   {
     "ProductName": "ARCTIC Liquid Freezer III 240 ARGB",
-    "Quanity": "62",
+    "Quantity": "62",
     "Price": "34920",
     "Tags": [
       "ARCTIC",
@@ -21946,7 +21946,7 @@
   },
   {
     "ProductName": "ARCTIC Liquid Freezer III 280",
-    "Quanity": "66",
+    "Quantity": "66",
     "Price": "30730",
     "Tags": [
       "ARCTIC",
@@ -21972,7 +21972,7 @@
   },
   {
     "ProductName": "ARCTIC Freezer 36 A-RGB",
-    "Quanity": "38",
+    "Quantity": "38",
     "Price": "23610",
     "Tags": [
       "ARCTIC",
@@ -21998,7 +21998,7 @@
   },
   {
     "ProductName": "ARCTIC Freezer 34 eSports DUO Grey",
-    "Quanity": "30",
+    "Quantity": "30",
     "Price": "21123",
     "Tags": [
       "ARCTIC",
@@ -22024,7 +22024,7 @@
   },
   {
     "ProductName": "ARCTIC Liquid Freezer III 280 ARGB",
-    "Quanity": "72",
+    "Quantity": "72",
     "Price": "33940",
     "Tags": [
       "ARCTIC",
@@ -22050,7 +22050,7 @@
   },
   {
     "ProductName": "ARCTIC Freezer 34 eSports DUO Red",
-    "Quanity": "32",
+    "Quantity": "32",
     "Price": "26670",
     "Tags": [
       "ARCTIC",
@@ -22076,7 +22076,7 @@
   },
   {
     "ProductName": "Corsair iCUE H150i ELITE CAPELLIX XT",
-    "Quanity": "26",
+    "Quantity": "26",
     "Price": "58690",
     "Tags": [
       "Corsair",
@@ -22102,7 +22102,7 @@
   },
   {
     "ProductName": "Corsair iCUE H150i RGB Elite Capellix XT 120mm",
-    "Quanity": "18",
+    "Quantity": "18",
     "Price": "58690",
     "Tags": [
       "Corsair",
@@ -22128,7 +22128,7 @@
   },
   {
     "ProductName": "Corsair iCUE H170i RGB Elite LCD XT",
-    "Quanity": "22",
+    "Quantity": "22",
     "Price": "77090",
     "Tags": [
       "Corsair",
@@ -22154,7 +22154,7 @@
   },
   {
     "ProductName": "Corsair iCUE H100i ELITE CAPELLIX XT 240mm White",
-    "Quanity": "93",
+    "Quantity": "93",
     "Price": "36590",
     "Tags": [
       "Corsair",
@@ -22180,7 +22180,7 @@
   },
   {
     "ProductName": "Corsair iCUE H115i Elite RGB 140mm",
-    "Quanity": "44",
+    "Quantity": "44",
     "Price": "39800",
     "Tags": [
       "Corsair",
@@ -22206,7 +22206,7 @@
   },
   {
     "ProductName": "Corsair iCUE H100i ELITE LCD XT",
-    "Quanity": "27",
+    "Quantity": "27",
     "Price": "142591",
     "Tags": [
       "Corsair",
@@ -22232,7 +22232,7 @@
   },
   {
     "ProductName": "Corsair A115 Dual Tower 140mm",
-    "Quanity": "94",
+    "Quantity": "94",
     "Price": "46520",
     "Tags": [
       "Corsair",
@@ -22258,7 +22258,7 @@
   },
   {
     "ProductName": "Corsair iCUE LINK TITAN RX RGB 280 Black",
-    "Quanity": "110",
+    "Quantity": "110",
     "Price": "66600",
     "Tags": [
       "Corsair",
@@ -22283,7 +22283,7 @@
   },
   {
     "ProductName": "Corsair iCUE LINK TITAN 360 360 RX LCD",
-    "Quanity": "86",
+    "Quantity": "86",
     "Price": "134518",
     "Tags": [
       "Corsair",
@@ -22309,7 +22309,7 @@
   },
   {
     "ProductName": "Corsair Nautilus 360 ARGB",
-    "Quanity": "11",
+    "Quantity": "11",
     "Price": "134518",
     "Tags": [
       "Corsair",
@@ -22335,7 +22335,7 @@
   },
   {
     "ProductName": "Corsair iCUE LINK TITAN 360 RX LCD",
-    "Quanity": "64",
+    "Quantity": "64",
     "Price": "137690",
     "Tags": [
       "Corsair",
@@ -22361,7 +22361,7 @@
   },
   {
     "ProductName": "Corsair iCUE LINK H100i RGB White",
-    "Quanity": "22",
+    "Quantity": "22",
     "Price": "56890",
     "Tags": [
       "Corsair",
@@ -22386,7 +22386,7 @@
   },
   {
     "ProductName": "Corsair iCUE LINK Titan 240 RX LCD RGB White",
-    "Quanity": "74",
+    "Quantity": "74",
     "Price": "90380",
     "Tags": [
       "Corsair",
@@ -22412,7 +22412,7 @@
   },
   {
     "ProductName": "NZXT Kraken Elite 280 RGB Black",
-    "Quanity": "26",
+    "Quantity": "26",
     "Price": "118880",
     "Tags": [
       "NZXT",
@@ -22438,7 +22438,7 @@
   },
   {
     "ProductName": "NZXT Kraken 280",
-    "Quanity": "72",
+    "Quantity": "72",
     "Price": "65660",
     "Tags": [
       "NZXT",
@@ -22461,7 +22461,7 @@
   },
   {
     "ProductName": "NZXT Kraken 240",
-    "Quanity": "5",
+    "Quantity": "5",
     "Price": "64770",
     "Tags": [
       "NZXT",
@@ -22485,7 +22485,7 @@
   },
   {
     "ProductName": "NZXT Kraken Elite 360 Black",
-    "Quanity": "25",
+    "Quantity": "25",
     "Price": "125730",
     "Tags": [
       "NZXT",
@@ -22511,7 +22511,7 @@
   },
   {
     "ProductName": "NZXT Kraken 280 RGB",
-    "Quanity": "79",
+    "Quantity": "79",
     "Price": "83060",
     "Tags": [
       "NZXT",
@@ -22537,7 +22537,7 @@
   },
   {
     "ProductName": "NZXT T120",
-    "Quanity": "89",
+    "Quantity": "89",
     "Price": "20580",
     "Tags": [
       "NZXT",
@@ -22561,7 +22561,7 @@
   },
   {
     "ProductName": "NZXT Kraken 240 RGB White",
-    "Quanity": "44",
+    "Quantity": "44",
     "Price": "85330",
     "Tags": [
       "NZXT",
@@ -22586,7 +22586,7 @@
   },
   {
     "ProductName": "NZXT Kraken Elite 240 RGB",
-    "Quanity": "11",
+    "Quantity": "11",
     "Price": "109730",
     "Tags": [
       "NZXT",
@@ -22611,7 +22611,7 @@
   },
   {
     "ProductName": "NZXT Kraken Elite 280 Black",
-    "Quanity": "69",
+    "Quantity": "69",
     "Price": "109730",
     "Tags": [
       "NZXT",
@@ -22636,7 +22636,7 @@
   },
   {
     "ProductName": "NZXT Kraken 280 RGB White",
-    "Quanity": "40",
+    "Quantity": "40",
     "Price": "88790",
     "Tags": [
       "NZXT",
@@ -22661,7 +22661,7 @@
   },
   {
     "ProductName": "NZXT T120 RGB",
-    "Quanity": "13",
+    "Quantity": "13",
     "Price": "23630",
     "Tags": [
       "NZXT",
@@ -22686,7 +22686,7 @@
   },
   {
     "ProductName": "NZXT T120 RGB White",
-    "Quanity": "85",
+    "Quantity": "85",
     "Price": "22860",
     "Tags": [
       "NZXT",
@@ -22711,7 +22711,7 @@
   },
   {
     "ProductName": "NZXT Kraken Elite 240 Black",
-    "Quanity": "26",
+    "Quantity": "26",
     "Price": "100590",
     "Tags": [
       "NZXT",
@@ -22735,7 +22735,7 @@
   },
   {
     "ProductName": "NZXT Kraken 120",
-    "Quanity": "61",
+    "Quantity": "61",
     "Price": "35530",
     "Tags": [
       "NZXT",
@@ -22759,7 +22759,7 @@
   },
   {
     "ProductName": "Cooler Master MasterBox TD500 Mesh V2",
-    "Quanity": "70",
+    "Quantity": "70",
     "Price": "42000",
     "Tags": [
       "Gaming",
@@ -22779,7 +22779,7 @@
   },
   {
     "ProductName": "NZXT H7 Flow",
-    "Quanity": "24",
+    "Quantity": "24",
     "Price": "48000",
     "Tags": [
       "Gaming",
@@ -22799,7 +22799,7 @@
   },
   {
     "ProductName": "be quiet! Pure Base 500DX",
-    "Quanity": "109",
+    "Quantity": "109",
     "Price": "45000",
     "Tags": [
       "Gaming",
@@ -22819,7 +22819,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming GT501",
-    "Quanity": "24",
+    "Quantity": "24",
     "Price": "65000",
     "Tags": [
       "Gaming",
@@ -22840,7 +22840,7 @@
   },
   {
     "ProductName": "Corsair iCUE 5000X RGB",
-    "Quanity": "102",
+    "Quantity": "102",
     "Price": "72000",
     "Tags": [
       "Gaming",
@@ -22860,7 +22860,7 @@
   },
   {
     "ProductName": "Cooler Master MasterBox Q300L",
-    "Quanity": "92",
+    "Quantity": "92",
     "Price": "16990",
     "Tags": [
       "Gaming",
@@ -22879,7 +22879,7 @@
   },
   {
     "ProductName": "NZXT H510",
-    "Quanity": "6",
+    "Quantity": "6",
     "Price": "29990",
     "Tags": [
       "Gaming",
@@ -22899,7 +22899,7 @@
   },
   {
     "ProductName": "be quiet! Pure Base 500DX Fehér",
-    "Quanity": "99",
+    "Quantity": "99",
     "Price": "42990",
     "Tags": [
       "Gaming",
@@ -22919,7 +22919,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming GT501 Fehér",
-    "Quanity": "77",
+    "Quantity": "77",
     "Price": "49990",
     "Tags": [
       "Gaming",
@@ -22940,7 +22940,7 @@
   },
   {
     "ProductName": "Corsair iCUE 4000X RGB",
-    "Quanity": "25",
+    "Quantity": "25",
     "Price": "45990",
     "Tags": [
       "Gaming",
@@ -22960,7 +22960,7 @@
   },
   {
     "ProductName": "Lian Li PC-11 Dynamic XL",
-    "Quanity": "42",
+    "Quantity": "42",
     "Price": "79990",
     "Tags": [
       "Gaming",
@@ -22981,7 +22981,7 @@
   },
   {
     "ProductName": "Cooler Master Cosmos C700M",
-    "Quanity": "3",
+    "Quantity": "3",
     "Price": "129990",
     "Tags": [
       "Gaming",
@@ -23002,7 +23002,7 @@
   },
   {
     "ProductName": "NZXT H710i",
-    "Quanity": "56",
+    "Quantity": "56",
     "Price": "71990",
     "Tags": [
       "Gaming",
@@ -23022,7 +23022,7 @@
   },
   {
     "ProductName": "be quiet! Silent Base 601",
-    "Quanity": "85",
+    "Quantity": "85",
     "Price": "45990",
     "Tags": [
       "Gaming",
@@ -23042,7 +23042,7 @@
   },
   {
     "ProductName": "Asus ROG Strix Helios",
-    "Quanity": "104",
+    "Quantity": "104",
     "Price": "99990",
     "Tags": [
       "Gaming",
@@ -23062,7 +23062,7 @@
   },
   {
     "ProductName": "Corsair Vengeance 5180",
-    "Quanity": "51",
+    "Quantity": "51",
     "Price": "36990",
     "Tags": [
       "Gaming",
@@ -23082,7 +23082,7 @@
   },
   {
     "ProductName": "Lian Li PC-9F",
-    "Quanity": "28",
+    "Quantity": "28",
     "Price": "39990",
     "Tags": [
       "Gaming",
@@ -23102,7 +23102,7 @@
   },
   {
     "ProductName": "Cooler Master MasterCase H500P",
-    "Quanity": "55",
+    "Quantity": "55",
     "Price": "57990",
     "Tags": [
       "Gaming",
@@ -23122,7 +23122,7 @@
   },
   {
     "ProductName": "NZXT H510 Flow",
-    "Quanity": "57",
+    "Quantity": "57",
     "Price": "40990",
     "Tags": [
       "Gaming",
@@ -23142,7 +23142,7 @@
   },
   {
     "ProductName": "be quiet! Dark Base Pro 900",
-    "Quanity": "55",
+    "Quantity": "55",
     "Price": "99990",
     "Tags": [
       "Gaming",
@@ -23163,7 +23163,7 @@
   },
   {
     "ProductName": "Cooler Master HAF 700 EVO",
-    "Quanity": "5",
+    "Quantity": "5",
     "Price": "149990",
     "Tags": [
       "Gaming",
@@ -23184,7 +23184,7 @@
   },
   {
     "ProductName": "NZXT H510 Elite",
-    "Quanity": "82",
+    "Quantity": "82",
     "Price": "79990",
     "Tags": [
       "Gaming",
@@ -23204,7 +23204,7 @@
   },
   {
     "ProductName": "Cooler Master Silencio S600",
-    "Quanity": "35",
+    "Quantity": "35",
     "Price": "49990",
     "Tags": [
       "Gaming",
@@ -23224,7 +23224,7 @@
   },
   {
     "ProductName": "NZXT H210",
-    "Quanity": "37",
+    "Quantity": "37",
     "Price": "45990",
     "Tags": [
       "Gaming",
@@ -23244,7 +23244,7 @@
   },
   {
     "ProductName": "Corsair 4000D Airflow",
-    "Quanity": "34",
+    "Quantity": "34",
     "Price": "44990",
     "Tags": [
       "Gaming",
@@ -23264,7 +23264,7 @@
   },
   {
     "ProductName": "Cooler Master NR200P",
-    "Quanity": "78",
+    "Quantity": "78",
     "Price": "69990",
     "Tags": [
       "Small Form Factor",
@@ -23282,7 +23282,7 @@
   },
   {
     "ProductName": "be quiet! Silent Base 802",
-    "Quanity": "50",
+    "Quantity": "50",
     "Price": "84990",
     "Tags": [
       "Premium",
@@ -23303,7 +23303,7 @@
   },
   {
     "ProductName": "Apple MacBook Air 13 M3 Magyar 2024 Asztroszürke",
-    "Quanity": "57",
+    "Quantity": "57",
     "Price": "549990",
     "Tags": [
       "13 hüvelyk",
@@ -23328,7 +23328,7 @@
   },
   {
     "ProductName": "Dell XPS 13 (Intel Core i7-1255U)",
-    "Quanity": "77",
+    "Quantity": "77",
     "Price": "399900",
     "Tags": [
       "13 hüvelyk",
@@ -23352,7 +23352,7 @@
   },
   {
     "ProductName": "HP Spectre x360 14\" (Intel Core i7-1260P)",
-    "Quanity": "6",
+    "Quantity": "6",
     "Price": "579900",
     "Tags": [
       "14 hüvelyk",
@@ -23376,7 +23376,7 @@
   },
   {
     "ProductName": "Lenovo Legion 5 15ACH6H",
-    "Quanity": "67",
+    "Quantity": "67",
     "Price": "290000",
     "Tags": [
       "15,6 hüvelyk",
@@ -23400,7 +23400,7 @@
   },
   {
     "ProductName": "Acer Aspire 5 (Intel Core i5-1240P)",
-    "Quanity": "86",
+    "Quantity": "86",
     "Price": "249900",
     "Tags": [
       "15,6 hüvelyk",
@@ -23424,7 +23424,7 @@
   },
   {
     "ProductName": "Dell Alienware m18 R2",
-    "Quanity": "31",
+    "Quantity": "31",
     "Price": "500000",
     "Tags": [
       "Gamer",
@@ -23446,7 +23446,7 @@
   },
   {
     "ProductName": "ASUS ROG Zephyrus G14",
-    "Quanity": "42",
+    "Quantity": "42",
     "Price": "350000",
     "Tags": [
       "Gamer",
@@ -23468,7 +23468,7 @@
   },
   {
     "ProductName": "Lenovo Legion Pro 5 Gen 8",
-    "Quanity": "13",
+    "Quantity": "13",
     "Price": "400000",
     "Tags": [
       "Gamer",
@@ -23490,7 +23490,7 @@
   },
   {
     "ProductName": "ASUS TUF Gaming A16 Advantage Edition",
-    "Quanity": "68",
+    "Quantity": "68",
     "Price": "250000",
     "Tags": [
       "Gamer",
@@ -23512,7 +23512,7 @@
   },
   {
     "ProductName": "Acer Predator Triton 300 SE",
-    "Quanity": "69",
+    "Quantity": "69",
     "Price": "200000",
     "Tags": [
       "Gamer",
@@ -23534,7 +23534,7 @@
   },
   {
     "ProductName": "Apple MacBook Air 13 (2024)",
-    "Quanity": "5",
+    "Quantity": "5",
     "Price": "950000",
     "Tags": [
       "Apple",
@@ -23555,7 +23555,7 @@
   },
   {
     "ProductName": "Dell XPS 13 Plus (2024)",
-    "Quanity": "8",
+    "Quantity": "8",
     "Price": "1200000",
     "Tags": [
       "Ultrabook",
@@ -23575,7 +23575,7 @@
   },
   {
     "ProductName": "HP Spectre x360 14 (2024)",
-    "Quanity": "105",
+    "Quantity": "105",
     "Price": "1300000",
     "Tags": [
       "HP",
@@ -23596,7 +23596,7 @@
   },
   {
     "ProductName": "Lenovo ThinkPad X1 Carbon Gen 11 (2024)",
-    "Quanity": "37",
+    "Quantity": "37",
     "Price": "1500000",
     "Tags": [
       "Lenovo",
@@ -23617,7 +23617,7 @@
   },
   {
     "ProductName": "Asus ROG Zephyrus G15 (2024)",
-    "Quanity": "56",
+    "Quantity": "56",
     "Price": "2000000",
     "Tags": [
       "Asus",
@@ -23638,7 +23638,7 @@
   },
   {
     "ProductName": "Lenovo Legion 5 15ARH7 (2024)",
-    "Quanity": "16",
+    "Quantity": "16",
     "Price": "1800000",
     "Tags": [
       "Lenovo",
@@ -23659,7 +23659,7 @@
   },
   {
     "ProductName": "Asus TUF Gaming FA401WU (2024)",
-    "Quanity": "29",
+    "Quantity": "29",
     "Price": "1500000",
     "Tags": [
       "Asus",
@@ -23680,7 +23680,7 @@
   },
   {
     "ProductName": "MSI Modern 15 F13MG",
-    "Quanity": "5",
+    "Quantity": "5",
     "Price": "250999",
     "Tags": [
       "MSI",
@@ -23700,7 +23700,7 @@
   },
   {
     "ProductName": "MSI Crosshair 17 HX",
-    "Quanity": "100",
+    "Quantity": "100",
     "Price": "619400",
     "Tags": [
       "MSI",
@@ -23720,7 +23720,7 @@
   },
   {
     "ProductName": "MSI Thin 15 B12UC",
-    "Quanity": "24",
+    "Quantity": "24",
     "Price": "310400",
     "Tags": [
       "MSI",
@@ -23740,7 +23740,7 @@
   },
   {
     "ProductName": "MSI Prestige 13 AI Evo",
-    "Quanity": "76",
+    "Quantity": "76",
     "Price": "455300",
     "Tags": [
       "MSI",
@@ -23760,7 +23760,7 @@
   },
   {
     "ProductName": "MSI Stealth 14 AI Studio",
-    "Quanity": "13",
+    "Quantity": "13",
     "Price": "804210",
     "Tags": [
       "MSI",
@@ -23780,7 +23780,7 @@
   },
   {
     "ProductName": "ASUS USB-BT500 (90IG05J0-MO0R00)",
-    "Quanity": "41",
+    "Quantity": "41",
     "Price": "4590",
     "Tags": [
       "ASUS",
@@ -23798,7 +23798,7 @@
   },
   {
     "ProductName": "TP-Link UB500",
-    "Quanity": "41",
+    "Quantity": "41",
     "Price": "3489",
     "Tags": [
       "TP-Link",
@@ -23815,7 +23815,7 @@
   },
   {
     "ProductName": "BlitzWolf BW-BL2",
-    "Quanity": "22",
+    "Quantity": "22",
     "Price": "5290",
     "Tags": [
       "BlitzWolf",
@@ -23832,7 +23832,7 @@
   },
   {
     "ProductName": "UGREEN 40759",
-    "Quanity": "73",
+    "Quantity": "73",
     "Price": "8450",
     "Tags": [
       "UGREEN",
@@ -23849,7 +23849,7 @@
   },
   {
     "ProductName": "Esperanza EA160",
-    "Quanity": "54",
+    "Quantity": "54",
     "Price": "6000",
     "Tags": [
       "Esperanza",
@@ -23866,7 +23866,7 @@
   },
   {
     "ProductName": "TP-Link Archer TX50E AX3000",
-    "Quanity": "93",
+    "Quantity": "93",
     "Price": "14250",
     "Tags": [
       "TP-Link",
@@ -23890,7 +23890,7 @@
   },
   {
     "ProductName": "TP-Link Archer T3U Plus",
-    "Quanity": "4",
+    "Quantity": "4",
     "Price": "7510",
     "Tags": [
       "TP-Link",
@@ -23913,7 +23913,7 @@
   },
   {
     "ProductName": "TP-Link Archer TX20U Plus",
-    "Quanity": "8",
+    "Quantity": "8",
     "Price": "15510",
     "Tags": [
       "TP-Link",
@@ -23936,7 +23936,7 @@
   },
   {
     "ProductName": "TP-Link Archer T2U Nano",
-    "Quanity": "71",
+    "Quantity": "71",
     "Price": "4589",
     "Tags": [
       "TP-Link",
@@ -23963,7 +23963,7 @@
   },
   {
     "ProductName": "Intel AX210.NGWG.NV",
-    "Quanity": "73",
+    "Quantity": "73",
     "Price": "7930",
     "Tags": [
       "Intel",
@@ -23987,7 +23987,7 @@
   },
   {
     "ProductName": "TP-Link Archer TX55E",
-    "Quanity": "50",
+    "Quantity": "50",
     "Price": "16960",
     "Tags": [
       "TP-Link",
@@ -24019,7 +24019,7 @@
   },
   {
     "ProductName": "TP-Link TL-WN722N",
-    "Quanity": "0",
+    "Quantity": "0",
     "Price": "4180",
     "Tags": [
       "TP-Link",
@@ -24050,7 +24050,7 @@
   },
   {
     "ProductName": "TP-Link Archer T3U",
-    "Quanity": "31",
+    "Quantity": "31",
     "Price": "7500",
     "Tags": [
       "TP-Link",
@@ -24073,7 +24073,7 @@
   },
   {
     "ProductName": "TP-Link LS1005G",
-    "Quanity": "43",
+    "Quantity": "43",
     "Price": "5689",
     "Tags": [
       "TP-Link",
@@ -24089,7 +24089,7 @@
   },
   {
     "ProductName": "TP-Link TL-SG108",
-    "Quanity": "0",
+    "Quantity": "0",
     "Price": "9900",
     "Tags": [
       "TP-Link",
@@ -24106,7 +24106,7 @@
   },
   {
     "ProductName": "TP-Link TL-SG1024DE",
-    "Quanity": "14",
+    "Quantity": "14",
     "Price": "46620",
     "Tags": [
       "TP-Link",
@@ -24123,7 +24123,7 @@
   },
   {
     "ProductName": "TP-Link TL-SG2210MP",
-    "Quanity": "99",
+    "Quantity": "99",
     "Price": "70170",
     "Tags": [
       "TP-Link",
@@ -24142,7 +24142,7 @@
   },
   {
     "ProductName": "TP-Link TL-SG105",
-    "Quanity": "77",
+    "Quantity": "77",
     "Price": "7710",
     "Tags": [
       "TP-Link",
@@ -24159,7 +24159,7 @@
   },
   {
     "ProductName": "TP-Link TL-SG2218",
-    "Quanity": "65",
+    "Quantity": "65",
     "Price": "53050",
     "Tags": [
       "TP-Link",
@@ -24178,7 +24178,7 @@
   },
   {
     "ProductName": "TP-Link Archer AX55 AX3000 Router",
-    "Quanity": "77",
+    "Quantity": "77",
     "Price": "30390",
     "Tags": [
       "TP-Link",
@@ -24204,7 +24204,7 @@
   },
   {
     "ProductName": "TP-Link Archer AX23 AX1800 Router",
-    "Quanity": "24",
+    "Quantity": "24",
     "Price": "21140",
     "Tags": [
       "TP-Link",
@@ -24230,7 +24230,7 @@
   },
   {
     "ProductName": "TP-Link Archer AX73 AX5400 Router",
-    "Quanity": "92",
+    "Quantity": "92",
     "Price": "52050",
     "Tags": [
       "TP-Link",
@@ -24256,7 +24256,7 @@
   },
   {
     "ProductName": "TP-Link Deco M4 AC1200 Gigabit Mesh WiFi System (2-Pack) Router",
-    "Quanity": "27",
+    "Quantity": "27",
     "Price": "34290",
     "Tags": [
       "TP-Link",
@@ -24282,7 +24282,7 @@
   },
   {
     "ProductName": "TP-Link Archer C6 Router",
-    "Quanity": "77",
+    "Quantity": "77",
     "Price": "15130",
     "Tags": [
       "TP-Link",
@@ -24309,7 +24309,7 @@
   },
   {
     "ProductName": "TP-Link Archer BE230 Router",
-    "Quanity": "29",
+    "Quantity": "29",
     "Price": "62063",
     "Tags": [
       "TP-Link",
@@ -24335,7 +24335,7 @@
   },
   {
     "ProductName": "ASUS RT-AX57 Router",
-    "Quanity": "109",
+    "Quantity": "109",
     "Price": "32140",
     "Tags": [
       "ASUS",
@@ -24361,7 +24361,7 @@
   },
   {
     "ProductName": "ASUS RT-AX52 Router",
-    "Quanity": "6",
+    "Quantity": "6",
     "Price": "23140",
     "Tags": [
       "ASUS",
@@ -24387,7 +24387,7 @@
   },
   {
     "ProductName": "ASUS TUF-AX6000 Router",
-    "Quanity": "21",
+    "Quantity": "21",
     "Price": "64990",
     "Tags": [
       "ASUS",
@@ -24413,7 +24413,7 @@
   },
   {
     "ProductName": "ASUS RT-BE92U (90IG0950-MO9A0V) Router",
-    "Quanity": "107",
+    "Quantity": "107",
     "Price": "141600",
     "Tags": [
       "ASUS",
@@ -24439,7 +24439,7 @@
   },
   {
     "ProductName": "ASUS RT-AX1800U AX1800 (90IG06P0-MO3530) Router",
-    "Quanity": "109",
+    "Quantity": "109",
     "Price": "22201",
     "Tags": [
       "ASUS",
@@ -24465,7 +24465,7 @@
   },
   {
     "ProductName": "TP-Link RE315 AC1200",
-    "Quanity": "11",
+    "Quantity": "11",
     "Price": "10999",
     "Tags": [
       "TP-Link",
@@ -24488,7 +24488,7 @@
   },
   {
     "ProductName": "TP-Link TL-WA850RE",
-    "Quanity": "69",
+    "Quantity": "69",
     "Price": "6390",
     "Tags": [
       "TP-Link",
@@ -24510,7 +24510,7 @@
   },
   {
     "ProductName": "TP-Link RE450",
-    "Quanity": "93",
+    "Quantity": "93",
     "Price": "21440",
     "Tags": [
       "TP-Link",
@@ -24532,7 +24532,7 @@
   },
   {
     "ProductName": "TP-Link RE200 AC750",
-    "Quanity": "55",
+    "Quantity": "55",
     "Price": "9500",
     "Tags": [
       "TP-Link",
@@ -24555,7 +24555,7 @@
   },
   {
     "ProductName": "TP-Link RE815XE AXE5400",
-    "Quanity": "48",
+    "Quantity": "48",
     "Price": "81590",
     "Tags": [
       "TP-Link",
@@ -24579,7 +24579,7 @@
   },
   {
     "ProductName": "BEHRINGER UMC22",
-    "Quanity": "5",
+    "Quantity": "5",
     "Price": "16100",
     "Tags": [
       "BEHRINGER",
@@ -24598,7 +24598,7 @@
   },
   {
     "ProductName": "Creative Sound Blaster Z SE (70SB150000004)",
-    "Quanity": "91",
+    "Quantity": "91",
     "Price": "43330",
     "Tags": [
       "Creative",
@@ -24618,7 +24618,7 @@
   },
   {
     "ProductName": "Creative Sound BlasterX AE-5 Plus (70SB174000003)",
-    "Quanity": "63",
+    "Quantity": "63",
     "Price": "62000",
     "Tags": [
       "Creative",
@@ -24638,7 +24638,7 @@
   },
   {
     "ProductName": "BEHRINGER UMC202HD",
-    "Quanity": "31",
+    "Quantity": "31",
     "Price": "32900",
     "Tags": [
       "BEHRINGER",
@@ -24657,7 +24657,7 @@
   },
   {
     "ProductName": "Creative Sound Blaster Audigy Fx V2 70SB187000000",
-    "Quanity": "38",
+    "Quantity": "38",
     "Price": "22338",
     "Tags": [
       "Creative",
@@ -24677,7 +24677,7 @@
   },
   {
     "ProductName": "BEHRINGER UMC204HD",
-    "Quanity": "93",
+    "Quantity": "93",
     "Price": "44900",
     "Tags": [
       "BEHRINGER",
@@ -24696,7 +24696,7 @@
   },
   {
     "ProductName": "ASUS Xonar SE 5.1 PCIe",
-    "Quanity": "90",
+    "Quantity": "90",
     "Price": "18699",
     "Tags": [
       "ASUS",
@@ -24716,7 +24716,7 @@
   },
   {
     "ProductName": "Creative Sound Blaster Audigy RX (70SB155000001)",
-    "Quanity": "9",
+    "Quantity": "9",
     "Price": "28625",
     "Tags": [
       "Creative",
@@ -24736,7 +24736,7 @@
   },
   {
     "ProductName": "Creative Sound Blaster X4",
-    "Quanity": "31",
+    "Quantity": "31",
     "Price": "53140",
     "Tags": [
       "Creative",
@@ -24756,7 +24756,7 @@
   },
   {
     "ProductName": "Intel Arc B580 Limited Edition (31P06HB0BA) Videokártya",
-    "Quanity": "38",
+    "Quantity": "38",
     "Price": "133290",
     "Tags": [
       "Intel",
@@ -24778,7 +24778,7 @@
   },
   {
     "ProductName": "ASRock Arc B580 Challenger 12GB OC (B580 CL 12GO) Videokártya",
-    "Quanity": "38",
+    "Quantity": "38",
     "Price": "144990",
     "Tags": [
       "ASRock",
@@ -24816,7 +24816,7 @@
   },
   {
     "ProductName": "ASRock Intel Arc A770 (A770 PG 16GO) Videokártya",
-    "Quanity": "83",
+    "Quantity": "83",
     "Price": "160765",
     "Tags": [
       "ASRock",
@@ -24854,7 +24854,7 @@
   },
   {
     "ProductName": "ASRock Arc B580 Steel Legend 12GB OC (B580 SL 12GO) Videokártya",
-    "Quanity": "8",
+    "Quantity": "8",
     "Price": "163900",
     "Tags": [
       "ASRock",
@@ -24892,7 +24892,7 @@
   },
   {
     "ProductName": "ASRock Arc B570 Challenger OC 10GB GDDR6 160bit (B570 CL 10GO) Videokártya",
-    "Quanity": "80",
+    "Quantity": "80",
     "Price": "117740",
     "Tags": [
       "Intel",
@@ -24929,7 +24929,7 @@
   },
   {
     "ProductName": "ASRock Intel Arc A750 Challenger D 8GB OC (A750 CLD 8GO) Videokártya",
-    "Quanity": "97",
+    "Quantity": "97",
     "Price": "99900",
     "Tags": [
       "Intel",
@@ -24966,7 +24966,7 @@
   },
   {
     "ProductName": "ASRock Intel Arc A380 Low Profile 6GB (A380 LP 6G/90-G46ZZ-00UANF) Videokártya",
-    "Quanity": "26",
+    "Quantity": "26",
     "Price": "70650",
     "Tags": [
       "Intel",
@@ -25003,7 +25003,7 @@
   },
   {
     "ProductName": "MOZA Racing R5 Racing RS20",
-    "Quanity": "41",
+    "Quantity": "41",
     "Price": "224070",
     "Tags": [
       "MOZA",
@@ -25025,7 +25025,7 @@
   },
   {
     "ProductName": "Logitech G923 XB1 (941-000158)",
-    "Quanity": "81",
+    "Quantity": "81",
     "Price": "102780",
     "Tags": [
       "Logitech",
@@ -25046,7 +25046,7 @@
   },
   {
     "ProductName": "MOZA Racing R3 PC/XBOX RS053",
-    "Quanity": "52",
+    "Quantity": "52",
     "Price": "197400",
     "Tags": [
       "MOZA",
@@ -25068,7 +25068,7 @@
   },
   {
     "ProductName": "Thrustmaster T300 RS GT Edition (4160681)",
-    "Quanity": "37",
+    "Quantity": "37",
     "Price": "176030",
     "Tags": [
       "Thrustmaster",
@@ -25089,7 +25089,7 @@
   },
   {
     "ProductName": "HORI RWA Racing Wheel Apex PS4/PS5/PC",
-    "Quanity": "106",
+    "Quantity": "106",
     "Price": "43150",
     "Tags": [
       "HORI",
@@ -25111,7 +25111,7 @@
   },
   {
     "ProductName": "Logitech G923 PS4 (941-000149)",
-    "Quanity": "44",
+    "Quantity": "44",
     "Price": "136120",
     "Tags": [
       "Logitech",
@@ -25132,7 +25132,7 @@
   },
   {
     "ProductName": "Thrustmaster T128 PS4/PS5/PC (4160781)",
-    "Quanity": "70",
+    "Quantity": "70",
     "Price": "71820",
     "Tags": [
       "Thrustmaster",
@@ -25153,7 +25153,7 @@
   },
   {
     "ProductName": "Thrustmaster T80 Ferrari 488 GTB Edition (4160672)",
-    "Quanity": "56",
+    "Quantity": "56",
     "Price": "47460",
     "Tags": [
       "Thrustmaster",
@@ -25175,7 +25175,7 @@
   },
   {
     "ProductName": "Gembird A-DVID-VGAF-01",
-    "Quanity": "66",
+    "Quantity": "66",
     "Price": "4440",
     "Tags": [
       "Gembird",
@@ -25193,7 +25193,7 @@
   },
   {
     "ProductName": "Hama DisplayPort 1.2 5m (200698)",
-    "Quanity": "36",
+    "Quantity": "36",
     "Price": "7289",
     "Tags": [
       "Hama",
@@ -25217,7 +25217,7 @@
   },
   {
     "ProductName": "Hama 205002",
-    "Quanity": "19",
+    "Quantity": "19",
     "Price": "1894",
     "Tags": [
       "Hama",
@@ -25234,7 +25234,7 @@
   },
   {
     "ProductName": "Delock 85506",
-    "Quanity": "16",
+    "Quantity": "16",
     "Price": "4229",
     "Tags": [
       "Delock",
@@ -25257,7 +25257,7 @@
   },
   {
     "ProductName": "Delock 83352",
-    "Quanity": "108",
+    "Quantity": "108",
     "Price": "2490",
     "Tags": [
       "Delock",
@@ -25281,7 +25281,7 @@
   },
   {
     "ProductName": "Hama 200702",
-    "Quanity": "83",
+    "Quantity": "83",
     "Price": "3489",
     "Tags": [
       "Hama",
@@ -25301,7 +25301,7 @@
   },
   {
     "ProductName": "Hama 200504",
-    "Quanity": "104",
+    "Quantity": "104",
     "Price": "7670",
     "Tags": [
       "Hama",
@@ -25322,7 +25322,7 @@
   },
   {
     "ProductName": "Akasa AK-CBFA04-15",
-    "Quanity": "7",
+    "Quantity": "7",
     "Price": "2670",
     "Tags": [
       "Akasa",
@@ -25342,7 +25342,7 @@
   },
   {
     "ProductName": "Gembird CC-PSU-6",
-    "Quanity": "17",
+    "Quantity": "17",
     "Price": "640",
     "Tags": [
       "Gembird",
@@ -25362,7 +25362,7 @@
   },
   {
     "ProductName": "Delock 83433",
-    "Quanity": "91",
+    "Quantity": "91",
     "Price": "890",
     "Tags": [
       "Delock",
@@ -25377,7 +25377,7 @@
   },
   {
     "ProductName": "Deepcool GP-PCI-E-12VHPWR",
-    "Quanity": "74",
+    "Quantity": "74",
     "Price": "4520",
     "Tags": [
       "Deepcool",
@@ -25392,7 +25392,7 @@
   },
   {
     "ProductName": "be quiet! CH-7710 BC073",
-    "Quanity": "47",
+    "Quantity": "47",
     "Price": "6427",
     "Tags": [
       "be quiet!",
@@ -25413,7 +25413,7 @@
   },
   {
     "ProductName": "Sony PlayStation 5 (PS5) Pro Játékkonzol",
-    "Quanity": "37",
+    "Quantity": "37",
     "Price": "344899",
     "Tags": [
       "Sony",
@@ -25442,7 +25442,7 @@
   },
   {
     "ProductName": "Sony PlayStation 5 (PS5) Slim Játékkonzol",
-    "Quanity": "15",
+    "Quantity": "15",
     "Price": "219990",
     "Tags": [
       "Sony",
@@ -25471,7 +25471,7 @@
   },
   {
     "ProductName": "Sony PlayStation 5 (PS5) Slim Digital Edition Játékkonzol",
-    "Quanity": "56",
+    "Quantity": "56",
     "Price": "189900",
     "Tags": [
       "Sony",
@@ -25500,7 +25500,7 @@
   },
   {
     "ProductName": "Sony PlayStation 5 (PS5) Slim + Extra DualSense Kontroller Játékkonzol",
-    "Quanity": "58",
+    "Quantity": "58",
     "Price": "247990",
     "Tags": [
       "Sony",
@@ -25529,7 +25529,7 @@
   },
   {
     "ProductName": "Microsoft Xbox Series X 1TB Játékkonzol",
-    "Quanity": "96",
+    "Quantity": "96",
     "Price": "279990",
     "Tags": [
       "Microsoft",
@@ -25559,7 +25559,7 @@
   },
   {
     "ProductName": "Microsoft Xbox Series S 512GB Játékkonzol",
-    "Quanity": "77",
+    "Quantity": "77",
     "Price": "114980",
     "Tags": [
       "Microsoft",
@@ -25589,7 +25589,7 @@
   },
   {
     "ProductName": "Microsoft Xbox Series X 1TB Digital Robot White Játékkonzol",
-    "Quanity": "109",
+    "Quantity": "109",
     "Price": "269990",
     "Tags": [
       "Microsoft",
@@ -25619,7 +25619,7 @@
   },
   {
     "ProductName": "IPHONE LIGHTNING-USB 3.0 KÁBEL (AK-USB-30) 1M (FEHÉR)",
-    "Quanity": "103",
+    "Quantity": "103",
     "Price": "649",
     "Tags": [
       "kábel",
@@ -25639,7 +25639,7 @@
   },
   {
     "ProductName": "Akyga USB A-B nyomtató kábel, 3m - AK-USB-12",
-    "Quanity": "86",
+    "Quantity": "86",
     "Price": "1099",
     "Tags": [
       "kábel",
@@ -25658,7 +25658,7 @@
   },
   {
     "ProductName": "Gembird USB-C - USB 2.0 A M/M adatkábel 1m fekete CCP-USB2-AMCM-1M",
-    "Quanity": "28",
+    "Quantity": "28",
     "Price": "599",
     "Tags": [
       "kábel",
@@ -25678,7 +25678,7 @@
   },
   {
     "ProductName": "XIAOMI adatkábel (USB - Type-C, 6A, PD gyorstöltő, 100cm) FEHÉR BHR6032GL",
-    "Quanity": "65",
+    "Quantity": "65",
     "Price": "3999",
     "Tags": [
       "kábel",
@@ -25698,7 +25698,7 @@
   },
   {
     "ProductName": "Delight 2m fehér USB Type-C adatkábel 55550WH-2",
-    "Quanity": "54",
+    "Quantity": "54",
     "Price": "1299",
     "Tags": [
       "kábel",
@@ -25717,7 +25717,7 @@
   },
   {
     "ProductName": "BASEUS CAFULE USB Type-C 100W 2m adatkábel és töltő (CATKLF-AL91)",
-    "Quanity": "109",
+    "Quantity": "109",
     "Price": "3099",
     "Tags": [
       "kábel",
@@ -25738,7 +25738,7 @@
   },
   {
     "ProductName": "Gembird 3-portos video switch fekete DSW-HDMI-35",
-    "Quanity": "44",
+    "Quantity": "44",
     "Price": "3599",
     "Tags": [
       "HDMI",
@@ -25755,7 +25755,7 @@
   },
   {
     "ProductName": "Gembird A-HDMI-VGA-04 fekete HDMI - VGA adapter",
-    "Quanity": "42",
+    "Quantity": "42",
     "Price": "1800",
     "Tags": [
       "HDMI",
@@ -25775,7 +25775,7 @@
   },
   {
     "ProductName": "Vention DisplayPort/M - HDMI/F adapter",
-    "Quanity": "56",
+    "Quantity": "56",
     "Price": "1800",
     "Tags": [
       "DisplayPort",
@@ -25792,7 +25792,7 @@
   },
   {
     "ProductName": "GEMBIRD HDMI Elosztó, 2 portos DSP-2PH4-04",
-    "Quanity": "75",
+    "Quantity": "75",
     "Price": "1800",
     "Tags": [
       "HDMI",
@@ -25813,7 +25813,7 @@
   },
   {
     "ProductName": "Gembird Cablexpert DisplayPort male - VGA female adapter (A-DPM-VGAF-02)",
-    "Quanity": "24",
+    "Quantity": "24",
     "Price": "1499",
     "Tags": [
       "DisplayPort",
@@ -25832,7 +25832,7 @@
   },
   {
     "ProductName": "Vention HDMI/M (90fokos) - HDMI/F (4K, fekete), adapter",
-    "Quanity": "0",
+    "Quantity": "0",
     "Price": "538",
     "Tags": [
       "HDMI",
@@ -25848,7 +25848,7 @@
   },
   {
     "ProductName": "Vention mini HDMI/M - HDMI/F (4K, fekete), adapter",
-    "Quanity": "48",
+    "Quantity": "48",
     "Price": "538",
     "Tags": [
       "Mini HDMI",
@@ -25863,7 +25863,7 @@
   },
   {
     "ProductName": "Gembird Cablexpert HDMI - VGA adapter single port + audio (A-HDMI-VGA-03)",
-    "Quanity": "110",
+    "Quantity": "110",
     "Price": "1800",
     "Tags": [
       "HDMI",
@@ -25883,7 +25883,7 @@
   },
   {
     "ProductName": "Vention HDMI/F - RCA (fekete), konverter",
-    "Quanity": "110",
+    "Quantity": "110",
     "Price": "5799",
     "Tags": [
       "HDMI",
@@ -25899,7 +25899,7 @@
   },
   {
     "ProductName": "GEMBIRD Adapter VGA + audio - HDMI M/F, aktív (A-VGA-HDMI-01)",
-    "Quanity": "63",
+    "Quantity": "63",
     "Price": "4399",
     "Tags": [
       "VGA",
@@ -25919,7 +25919,7 @@
   },
   {
     "ProductName": "Delight 55448B iPhone Lightning - USB Type-C ezüst adapter",
-    "Quanity": "53",
+    "Quantity": "53",
     "Price": "618",
     "Tags": [
       "Lightning",
@@ -25936,7 +25936,7 @@
   },
   {
     "ProductName": "ADA Akyga AK-AD-62 USB Type-C / Jack 3.5mm adapter",
-    "Quanity": "59",
+    "Quantity": "59",
     "Price": "1400",
     "Tags": [
       "USB-C",
@@ -25954,7 +25954,7 @@
   },
   {
     "ProductName": "Gembird Lightning - USB Type-C M/F adapter fekete (A-USB-CF8PM-01)",
-    "Quanity": "14",
+    "Quantity": "14",
     "Price": "458",
     "Tags": [
       "Lightning",
@@ -25970,7 +25970,7 @@
   },
   {
     "ProductName": "ADAPTER USB-C/M - USB-A/F, Gembird",
-    "Quanity": "16",
+    "Quantity": "16",
     "Price": "419",
     "Tags": [
       "USB-C",
@@ -25987,7 +25987,7 @@
   },
   {
     "ProductName": "Gembird Cablexpert USB 3.1 - USB-C adapter (A-USB3-AMCF-01)",
-    "Quanity": "19",
+    "Quantity": "19",
     "Price": "1499",
     "Tags": [
       "USB-A",
@@ -26006,7 +26006,7 @@
   },
   {
     "ProductName": "UGREEN AV143 Jack 3.5 mm - USB-C AUX kábel 1m fekete-szürke (30633)",
-    "Quanity": "106",
+    "Quantity": "106",
     "Price": "1899",
     "Tags": [
       "Jack 3.5mm",
@@ -26022,7 +26022,7 @@
   },
   {
     "ProductName": "VCOM NP611B-15.0 15m szürke CAT6 UTP patch kábel",
-    "Quanity": "32",
+    "Quantity": "32",
     "Price": "2499",
     "Tags": [
       "RJ45",
@@ -26040,7 +26040,7 @@
   },
   {
     "ProductName": "Gembird CAT6 UTP Patch kábel 30m szürke (PP6U-30M)",
-    "Quanity": "66",
+    "Quantity": "66",
     "Price": "3599",
     "Tags": [
       "RJ45",
@@ -26059,7 +26059,7 @@
   },
   {
     "ProductName": "Gembird Cablexpert UTP CAT5e patch kábel 5m szürke (PP12-5M)",
-    "Quanity": "91",
+    "Quantity": "91",
     "Price": "569",
     "Tags": [
       "RJ45",
@@ -26077,7 +26077,7 @@
   },
   {
     "ProductName": "Gembird CAT6 UTP M/M adatkábel 15m szürke (PP6U-15M)",
-    "Quanity": "68",
+    "Quantity": "68",
     "Price": "1899",
     "Tags": [
       "UTP",
@@ -26094,7 +26094,7 @@
   },
   {
     "ProductName": "Gembird UTP CAT6 patch kábel 20m szürke (PP6U-20M)",
-    "Quanity": "28",
+    "Quantity": "28",
     "Price": "2299",
     "Tags": [
       "RJ45",
@@ -26113,7 +26113,7 @@
   },
   {
     "ProductName": "Gembird RJ45 CAT5e UTP M / M adatkábel 0.5m sárga (PP12-0.5M/Y)",
-    "Quanity": "100",
+    "Quantity": "100",
     "Price": "210",
     "Tags": [
       "RJ45",
@@ -26131,7 +26131,7 @@
   },
   {
     "ProductName": "VALUE Tápkábel Hálózati, Europlug - C7, 1,8m, fekete (19.99.2096-100)",
-    "Quanity": "109",
+    "Quantity": "109",
     "Price": "1400",
     "Tags": [
       "Tápkábel",
@@ -26148,7 +26148,7 @@
   },
   {
     "ProductName": "Akyga 1,5m PC tápkábel (AK-PC-01A)",
-    "Quanity": "56",
+    "Quantity": "56",
     "Price": "809",
     "Tags": [
       "Tápkábel",
@@ -26165,7 +26165,7 @@
   },
   {
     "ProductName": "Akyga PC 3m IEC C13 - CEE 7/7 tápkábel (AK-PC-06A)",
-    "Quanity": "33",
+    "Quantity": "33",
     "Price": "1699",
     "Tags": [
       "Tápkábel",
@@ -26183,7 +26183,7 @@
   },
   {
     "ProductName": "Gembird PC-189-VDE-3M C14 - C13 M/F 3m fekete tápkábel",
-    "Quanity": "47",
+    "Quantity": "47",
     "Price": "1999",
     "Tags": [
       "Tápkábel",
@@ -26200,7 +26200,7 @@
   },
   {
     "ProductName": "Gembird USB 2.0 HUB 4 portos fekete (UHB-U2P4-04)",
-    "Quanity": "16",
+    "Quantity": "16",
     "Price": "1400",
     "Tags": [
       "USB HUB",
@@ -26215,7 +26215,7 @@
   },
   {
     "ProductName": "Gembird UHB-U3P1U2P3-02 USB3x1/USB2x3 4-portos ezüst USB HUB",
-    "Quanity": "75",
+    "Quantity": "75",
     "Price": "1899",
     "Tags": [
       "USB HUB",
@@ -26231,7 +26231,7 @@
   },
   {
     "ProductName": "Gembird A-CM-COMBO2-01 3-portos USB-C hub szürke",
-    "Quanity": "25",
+    "Quantity": "25",
     "Price": "5298",
     "Tags": [
       "USB HUB",
@@ -26247,7 +26247,7 @@
   },
   {
     "ProductName": "Axagon HUE-M1AL 4 portos USB3.2 Gen 1 mini hub",
-    "Quanity": "95",
+    "Quantity": "95",
     "Price": "5698",
     "Tags": [
       "USB HUB",
@@ -26263,7 +26263,7 @@
   },
   {
     "ProductName": "GEMBIRD USB 3.1 HUB Switchelhető 7 portos, fekete (UHB-U3P7P-01)",
-    "Quanity": "28",
+    "Quantity": "28",
     "Price": "6899",
     "Tags": [
       "USB HUB",
@@ -26279,7 +26279,7 @@
   },
   {
     "ProductName": "Axagon HMC-5G2 5-portos USB3.2 Gen2x1 C USB3.0 HDMI hub ezüst",
-    "Quanity": "75",
+    "Quantity": "75",
     "Price": "15199",
     "Tags": [
       "USB HUB",
@@ -26297,7 +26297,7 @@
   },
   {
     "ProductName": "I5 12400 4060 189425 számítógép",
-    "Quanity": "54",
+    "Quantity": "54",
     "Price": "338193",
     "Tags": [
       "PC",
@@ -26319,7 +26319,7 @@
   },
   {
     "ProductName": "I5 14400F 4060Ti 059867 számítógép",
-    "Quanity": "54",
+    "Quantity": "54",
     "Price": "439283",
     "Tags": [
       "PC",
@@ -26341,7 +26341,7 @@
   },
   {
     "ProductName": "R7 7700X 7800XT 547283 számítógép",
-    "Quanity": "64",
+    "Quantity": "64",
     "Price": "594594",
     "Tags": [
       "PC",
@@ -26363,7 +26363,7 @@
   },
   {
     "ProductName": "R7 7800X3D 7900XTX 125986 számítógép",
-    "Quanity": "4",
+    "Quantity": "4",
     "Price": "1051093",
     "Tags": [
       "PC",
@@ -26385,7 +26385,7 @@
   },
   {
     "ProductName": "R7 7800X3D Radeon Graphics 298360 számítógép",
-    "Quanity": "65",
+    "Quantity": "65",
     "Price": "448494",
     "Tags": [
       "PC",
@@ -26406,7 +26406,7 @@
   },
   {
     "ProductName": "R5 5600X 3060 826571 számítógép",
-    "Quanity": "68",
+    "Quantity": "68",
     "Price": "285284",
     "Tags": [
       "PC",
@@ -26427,7 +26427,7 @@
   },
   {
     "ProductName": "I5 10400 Intel UHD Graphics 630 396054 számítógép",
-    "Quanity": "1",
+    "Quantity": "1",
     "Price": "168383",
     "Tags": [
       "PC",
@@ -26447,7 +26447,7 @@
   },
   {
     "ProductName": "R5 5600G Radeon Graphics 210359 számítógép",
-    "Quanity": "98",
+    "Quantity": "98",
     "Price": "162485",
     "Tags": [
       "PC",
@@ -26467,7 +26467,7 @@
   },
   {
     "ProductName": "R5 7600X 7700XT 687053 számítógép",
-    "Quanity": "10",
+    "Quantity": "10",
     "Price": "487991",
     "Tags": [
       "PC",
@@ -26489,7 +26489,7 @@
   },
   {
     "ProductName": "I9 13900KF 4060 865270 számítógép",
-    "Quanity": "26",
+    "Quantity": "26",
     "Price": "708683",
     "Tags": [
       "PC",
@@ -26511,7 +26511,7 @@
   },
   {
     "ProductName": "R9 7900X3D A2000 268514 számítógép",
-    "Quanity": "81",
+    "Quantity": "81",
     "Price": "894480",
     "Tags": [
       "PC",
@@ -26536,7 +26536,7 @@
   },
   {
     "ProductName": "R5 5600G Radeon Graphics 537981 számítógép",
-    "Quanity": "58",
+    "Quantity": "58",
     "Price": "233992",
     "Tags": [
       "PC",

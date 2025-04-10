@@ -82,14 +82,14 @@ namespace WebshopWeb.Controllers
                 var existingItem = _context.CartItems.FirstOrDefault(x => x.ProductId == id);
                 if (existingItem != null)
                 {
-                    existingItem.Quanity++;
+                    existingItem.Quantity++;
                 }
                 else
                 {
                     cart.CartItems.Add(new CartItem
                     {
                         ProductId = id,
-                        Quanity = 1
+                        Quantity = 1
                     });
                 }
                 _context.SaveChanges();

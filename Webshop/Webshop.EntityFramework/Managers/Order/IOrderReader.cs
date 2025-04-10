@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Webshop.EntityFramework.Data;
+﻿using Webshop.EntityFramework.Data;
 
 namespace Webshop.EntityFramework.Managers.Order
 {
@@ -15,7 +10,7 @@ namespace Webshop.EntityFramework.Managers.Order
         /// <summary>
         /// This method returns all orders from the database.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>IQueryable collection of orders</returns>
         IQueryable<Orders> GetOrders();
     }
 }
