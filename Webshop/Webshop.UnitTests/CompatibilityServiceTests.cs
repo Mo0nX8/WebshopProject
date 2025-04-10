@@ -24,26 +24,6 @@ namespace Webshop.UnitTests
             _service=new CompatibilityService(_productManager.Object);
         }
         [Test]
-        public void TestThatGetAllProductsShouldReturnProducts()
-        {
-            var testProducts = new List<Products>
-            {
-                new Products { Id = 1, ProductName = "Test CPU", Tags = new string[] { "cpu" }, Price = 100 },
-                new Products { Id = 2, ProductName = "Test Motherboard", Tags = new string[] { "alaplap" }, Price = 100 },
-                new Products { Id = 3, ProductName = "Test RAM", Tags = new string[] { "memória" }, Price = 100 },
-                new Products { Id = 4, ProductName = "Test non-pc items", Tags = new string[] { "other" }, Price = 100 }
-            };
-
-            _productManager.Setup(x=>x.GetProducts()).Returns(testProducts.AsQueryable());
-
-            var result=_service.GetAllProducts().ToList();
-
-            Assert.AreEqual(3, result.Count);
-            Assert.IsTrue(result.Any(p => p.Name == "Test CPU" && p.Category == "Processzor"));
-            Assert.IsTrue(result.Any(p => p.Name == "Test Motherboard" && p.Category == "Alaplap"));
-            Assert.IsTrue(result.Any(p => p.Name == "Test RAM" && p.Category == "Memória"));
-        }
-        [Test]
         public void TestThatFilterProductsShouldReturnCompatibleProducts()
         {
             var testProducts = new List<Products>

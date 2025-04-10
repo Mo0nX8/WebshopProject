@@ -1,11 +1,4 @@
-﻿using Azure;
-using System;
-using System.Collections.Generic;
-using System.Formats.Asn1;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Webshop.EntityFramework.Data;
+﻿using Webshop.EntityFramework.Data;
 using Webshop.EntityFramework.Managers.Product;
 using Webshop.Services.Interfaces;
 using Webshop.Services.Services.ViewModel;
