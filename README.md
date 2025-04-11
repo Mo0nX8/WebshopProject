@@ -24,54 +24,109 @@ A **DXMarket** egy modern, reszponzív tech webáruház, amely lehetővé teszi 
 
 
 ## 📂 Projekt felépítése
-📂WebshopWeb/
-├── 📂Controllers/
-│   └── 📝ProductController.cs, 📝HomeController.cs, 📝AuthenticationController.cs...
-├── 📂Data/
-│   └── 📝products.json
-├── 📂Views/
-│   └── Authentication/...
-│        └── 📝Login.cshtml, 📝Register.cshtml...
-├── 📂wwwroot/
-│   └── 📂css/, 📂js/, 📂images/, 📂templates/
-└── README.md
-📂Webshop.EntityFramework/
-├── 📂Data/
-│  └── 📝UserData.cs, 📝Review.cs, 📝Products.cs, 📝Address.cs, 📝OrderItem.cs, 📝CartItem.cs, 📝Orders.cs, 📝ShoppingCart.cs
-├── 📂Managers/
-│   └── 📂Carts/
-│   │   └── 📝CartManager.cs, 📝CartRepository.cs, 📝ICartManager.cs, 📝ICartRemover, 📝ICartRepository.cs, 📝IGetCart.cs
-│   └── 📂Order/
-│   │   └── 📝IOrderManager.cs, 📝IOrderReader.cs, 📝IOrderRemover.cs, 📝IOrderRepository.cs, 📝OrderManager.cs, 📝OrderRepository.cs
-│   └── 📂Product/
-│   │   └── 📝IProductManager.cs, 📝IProductReader.cs, 📝IProductRepository.cs, 📝ProductManager.cs, 📝ProductRepository.cs
-│   └── 📂Reviews/
-│   │   └── 📝IReviewManager.cs, 📝IReviewRespository.cs, 📝ReviewManager.cs, 📝ReviewRepository.cs
-│   └── 📂User/
-│   │   └── 📝IUserEditor.cs, 📝IUserManager.cs, 📝IUserReader.cs, 📝IUserRemover.cs, 📝IUserRepository.cs, 📝UserManager.cs, 📝UserRepository.cs
-│   └── 📝GlobalDbContext.cs
-📂Webshop.Services
-├── 📂Interfaces/
-│  └── 📝IAuthenticationManager.cs, 📝ICompatibilityService.cs, 📝IEmailService.cs, 📝IEncryptManager.cs, 📝IOrderServices.cs, 📝IProductServices.cs, 📝IValidationManager.cs
-├── 📂Services/
-│   └── 📂Authentication/
-│   │   └── 📝AuthenticationService.cs
-│   └── 📂Compatibility/
-│   │   └── 📝CompatibilityService.cs
-│   └── 📂Email/
-│   │   └── 📝EmailService.cs
-│   └── 📂Order/
-│   │   └── 📝OrderServices.cs
-│   └── 📂ProductService/
-│   │   └── 📝ProductService.cs
-│   └── 📂Security/
-│   │   └── 📝SHA256Encrypter.cs
-│   └── 📂Validators/
-│   │   └── 📝EmailValidator.cs, 📝PasswordValidatorcs, 📝UsernameValidator.cs
-│   └── 📂ViewModel/
-│      └── 📝ForgotPasswordViewModel.cs, 📝OrderSummaryViewModel.cs, 📝PasswordChangeViewModel.cs, 📝PcBuilderViewModel.cs, 📝PersonalDataViewModel.cs, 📝ProductFilterViewModel.cs
-📂Webshop.UnitTests/
-└── 📝AuthenticatorServiceTests.cs, 📝CartManagerTests.cs, 📝CompatibilityServiceTests.cs...
+📦 WebshopWeb/
+├── 📂 Controllers/
+│   ├── 📝 ProductController.cs
+│   ├── 📝 HomeController.cs
+│   └── 📝 AuthenticationController.cs
+├── 📂 Data/
+│   └── 📝 products.json
+├── 📂 Views/
+│   └── 📂 Authentication/
+│       ├── 📝 Login.cshtml
+│       └── 📝 Register.cshtml
+├── 📂 wwwroot/
+│   ├── 📂 css/
+│   ├── 📂 js/
+│   ├── 📂 images/
+│   └── 📂 templates/
+└── 📝 README.md
+
+📦 Webshop.EntityFramework/
+├── 📂 Data/
+│   ├── 📝 UserData.cs
+│   ├── 📝 Review.cs
+│   ├── 📝 Products.cs
+│   ├── 📝 Address.cs
+│   ├── 📝 OrderItem.cs
+│   ├── 📝 CartItem.cs
+│   ├── 📝 Orders.cs
+│   └── 📝 ShoppingCart.cs
+├── 📂 Managers/
+│   ├── 📂 Carts/
+│   │   ├── 📝 CartManager.cs
+│   │   ├── 📝 CartRepository.cs
+│   │   ├── 📝 ICartManager.cs
+│   │   ├── 📝 ICartRemover.cs
+│   │   ├── 📝 ICartRepository.cs
+│   │   └── 📝 IGetCart.cs
+│   ├── 📂 Order/
+│   │   ├── 📝 IOrderManager.cs
+│   │   ├── 📝 IOrderReader.cs
+│   │   ├── 📝 IOrderRemover.cs
+│   │   ├── 📝 IOrderRepository.cs
+│   │   ├── 📝 OrderManager.cs
+│   │   └── 📝 OrderRepository.cs
+│   ├── 📂 Product/
+│   │   ├── 📝 IProductManager.cs
+│   │   ├── 📝 IProductReader.cs
+│   │   ├── 📝 IProductRepository.cs
+│   │   ├── 📝 ProductManager.cs
+│   │   └── 📝 ProductRepository.cs
+│   ├── 📂 Reviews/
+│   │   ├── 📝 IReviewManager.cs
+│   │   ├── 📝 IReviewRespository.cs
+│   │   ├── 📝 ReviewManager.cs
+│   │   └── 📝 ReviewRepository.cs
+│   └── 📂 User/
+│       ├── 📝 IUserEditor.cs
+│       ├── 📝 IUserManager.cs
+│       ├── 📝 IUserReader.cs
+│       ├── 📝 IUserRemover.cs
+│       ├── 📝 IUserRepository.cs
+│       ├── 📝 UserManager.cs
+│       └── 📝 UserRepository.cs
+└── 📝 GlobalDbContext.cs
+
+📦 Webshop.Services/
+├── 📂 Interfaces/
+│   ├── 📝 IAuthenticationManager.cs
+│   ├── 📝 ICompatibilityService.cs
+│   ├── 📝 IEmailService.cs
+│   ├── 📝 IEncryptManager.cs
+│   ├── 📝 IOrderServices.cs
+│   ├── 📝 IProductServices.cs
+│   └── 📝 IValidationManager.cs
+├── 📂 Services/
+│   ├── 📂 Authentication/
+│   │   └── 📝 AuthenticationService.cs
+│   ├── 📂 Compatibility/
+│   │   └── 📝 CompatibilityService.cs
+│   ├── 📂 Email/
+│   │   └── 📝 EmailService.cs
+│   ├── 📂 Order/
+│   │   └── 📝 OrderServices.cs
+│   ├── 📂 ProductService/
+│   │   └── 📝 ProductService.cs
+│   ├── 📂 Security/
+│   │   └── 📝 SHA256Encrypter.cs
+│   └── 📂 Validators/
+│       ├── 📝 EmailValidator.cs
+│       ├── 📝 PasswordValidator.cs
+│       └── 📝 UsernameValidator.cs
+└── 📂 ViewModel/
+    ├── 📝 ForgotPasswordViewModel.cs
+    ├── 📝 OrderSummaryViewModel.cs
+    ├── 📝 PasswordChangeViewModel.cs
+    ├── 📝 PcBuilderViewModel.cs
+    ├── 📝 PersonalDataViewModel.cs
+    └── 📝 ProductFilterViewModel.cs
+
+📦 Webshop.UnitTests/
+├── 📝 AuthenticatorServiceTests.cs
+├── 📝 CartManagerTests.cs
+└── 📝 CompatibilityServiceTests.cs
+
 
 ## 💡 Kiemelt modul: PC Konfigurátor
 A konfigurátor logikája:
