@@ -41,7 +41,7 @@ A **DXMarket** egy modern, reszponzív tech webáruház, amely lehetővé teszi 
 │ └── 📂 templates/
 └── 📝 README.md
 
-📦 Webshop.EntityFramework/
+## 📦 Webshop.EntityFramework/
 ├── 📂 Data/
 │   ├── 📝 UserData.cs
 │   ├── 📝 Review.cs
@@ -87,7 +87,7 @@ A **DXMarket** egy modern, reszponzív tech webáruház, amely lehetővé teszi 
 │       └── 📝 UserRepository.cs
 └── 📝 GlobalDbContext.cs
 
-📦 Webshop.Services/
+## 📦 Webshop.Services/
 ├── 📂 Interfaces/
 │   ├── 📝 IAuthenticationManager.cs
 │   ├── 📝 ICompatibilityService.cs
@@ -121,7 +121,7 @@ A **DXMarket** egy modern, reszponzív tech webáruház, amely lehetővé teszi 
     ├── 📝 PersonalDataViewModel.cs
     └── 📝 ProductFilterViewModel.cs
 
-📦 Webshop.UnitTests/
+## 📦 Webshop.UnitTests/
 ├── 📝 AuthenticatorServiceTests.cs
 ├── 📝 CartManagerTests.cs
 └── 📝 CompatibilityServiceTests.cs
