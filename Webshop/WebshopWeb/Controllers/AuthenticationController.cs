@@ -362,6 +362,11 @@ namespace WebshopWeb.Controllers
 
             return View(new ForgotPasswordViewModel { Email = email });
         }
+        /// <summary>
+        /// Handles the POST request for resetting the password.
+        /// </summary>
+        /// <param name="model">The model containing the new password information.</param>
+        /// <returns>A redirect to the login page if successful, or a view with error messages if the reset fails.</returns>
         [HttpPost]
         public async Task<IActionResult> ResetPassword(ForgotPasswordViewModel model)
         {
