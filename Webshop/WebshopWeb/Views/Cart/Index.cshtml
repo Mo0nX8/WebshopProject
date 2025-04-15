@@ -3,14 +3,13 @@
 @model List<CartItem>
 @{
     var isAuthenticated = ViewBag.IsAuthenticated;
-    var totalPrice=0;
+    var totalPrice = 0;
 }
 <head>
     <style>
-        img
-        {
-            max-width:100px;
-            height:auto;
+        img {
+            max-width: 100px;
+            height: auto;
         }
     </style>
 </head>
@@ -36,16 +35,30 @@
 
                 <div class="col-6 col-sm-5">
                     <h2 class="display-6">@item.Product.ProductName</h2>
-                    <p>@item.Product.Price Ft</p>
+                    <p class="product-price" data-price="@item.Product.Price">@item.Product.Price Ft</p>
+
                 </div>
 
                 <div class="col-3 col-sm-2">
                     <select class="form-select" data-product-id="@item.ProductId" name="quantity" id="quantity">
                         @for (var i = 1; i <= item.Product.Quantity; i++)
                         {
-                            <option value="@i">@i</option>
+                            if (i == item.Quantity)
+                            {
+                                @:
+                                <option value="@i" selected="selected">@i</option>
+                            }
+                            else
+                            {
+                                @:
+                                <option value="@i">@i</option>
+                            }
                         }
                     </select>
+
+
+
+
                 </div>
 
                 <div class="col-12 col-sm-3 mt-2 mt-sm-0 text-sm-end">

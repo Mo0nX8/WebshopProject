@@ -58,27 +58,41 @@ namespace WebshopWeb.Controllers
         /// Updates the quantity of a product in the user's cart.
         /// </summary>
         /// <param name="productId">The ID of the product to update.</param>
-        /// <param name="newQuanity">The new quantity of the product.</param>
+        /// <param name="newQuantity">The new quantity of the product.</param>
         /// <returns>A result indicating the success or failure of the operation.</returns>
-        [HttpPost("api/update/{productId}/{newQuanity}")]
-        public IActionResult UpdateQuantity(int productId, int newQuanity)
+        [HttpPost("api/update/{productId}/{newQuantity}")]
+        public IActionResult UpdateQuantity(int productId, int newQuantity)
         {
-            var userid=HttpContext.Session.GetInt32("UserId");
-            var user = userManager.GetUser(userid.Value);
-            if(user==null)
+            var userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null)
             {
-                return BadRequest("Nem vagy bejelentkezve.");
+                return BadRequest(new { error = "Nem vagy bejelentkezve." });
             }
-            var cartitem = cartManager.GetCart(user.Cart.Id).CartItems.FirstOrDefault(y=>y.ProductId==productId);
 
-            if(cartitem!=null)
+            var user = userManager.GetUser(userId.Value);
+            if (user == null || user.Cart == null)
             {
-                cartitem.Quantity =newQuanity;
-                cartManager.SaveCart(user.Cart.Id);
-                return Ok();
+                return BadRequest(new { error = "Nincs kosár." });
             }
-            return BadRequest("Nincs kosár.");  
+
+            var cart = user.Cart;
+            var cartItem = cart.CartItems.FirstOrDefault(ci => ci.ProductId == productId);
+
+            if (cartItem != null)
+            {
+                cartItem.Quantity = newQuantity;
+                cartManager.SaveCart(cart.Id);
+
+                var totalPrice = cart.CartItems.Sum(item => item.Quantity * item.Product.Price);
+
+                return Ok(new { totalPrice });
+            }
+
+            return BadRequest(new { error = "A termék nem található a kosárban." });
         }
+
+
+
         /// <summary>
         /// Retrieves the number of items in the user's cart.
         /// </summary>

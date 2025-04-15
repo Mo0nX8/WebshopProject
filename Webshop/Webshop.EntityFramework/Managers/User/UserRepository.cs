@@ -38,7 +38,10 @@ namespace Webshop.EntityFramework.Managers.User
         public UserData GetUser(int userId)
         {
             return _context.Users
-                .Include(p => p.Address)  
+                .Include(p => p.Address)
+                .Include(p=>p.Cart)
+                .ThenInclude(p=>p.CartItems)
+                .ThenInclude(p=>p.Product)
                 .FirstOrDefault(x => x.Id == userId);
         }
 

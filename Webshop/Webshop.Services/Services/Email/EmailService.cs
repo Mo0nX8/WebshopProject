@@ -60,7 +60,7 @@ namespace Webshop.Services.Services.Email
                     <td><img src='cid:{contentId}' width='100' height='100'></td>
                     <td>{item.Product.ProductName}</td>
                     <td>{item.Quantity}</td>
-                    <td>{item.Price:C}</td>
+                    <td>{item.Price*item.Quantity:C}</td>
                 </tr>");
 
                     MemoryStream imageStream = new MemoryStream(item.Product.ImageData);
