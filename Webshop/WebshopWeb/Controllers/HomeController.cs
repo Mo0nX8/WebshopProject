@@ -47,6 +47,7 @@ public class HomeController : Controller
     /// Displays the user's personal data page if authenticated.
     /// </summary>
     /// <returns>The view with personal data, or redirects to login if not authenticated.</returns>
+    [Route("szemelyes-adatok")]
     public IActionResult PersonalData()
     {
         var userId = HttpContext.Session.GetInt32("UserId");
@@ -154,6 +155,7 @@ public class HomeController : Controller
     /// Displays the terms and conditions page (ASZF).
     /// </summary>
     /// <returns>The view displaying the terms and conditions.</returns>
+    [Route("aszf")]
     public IActionResult aszf()
     {
         return View();
